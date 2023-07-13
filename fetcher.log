@@ -1791,3 +1791,105 @@
 [2023-07-14 01:54:43] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.8.tar.gz]
 [2023-07-14 01:54:43] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
 [2023-07-14 01:54:43] INFO root fetch - main [MainThread]: Store serial: [18881866]
+[2023-07-14 01:59:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881866]
+[2023-07-14 01:59:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-14 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tg-botting
+[2023-07-14 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icn3dpy
+[2023-07-14 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-contract
+[2023-07-14 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tungstenkit
+[2023-07-14 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aicodebot
+[2023-07-14 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: socscikit
+[2023-07-14 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kirkwoodnight
+[2023-07-14 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastopendata_client
+[2023-07-14 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sweepai
+[2023-07-14 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: market-engine
+[2023-07-14 01:59:52] INFO root fetch - processPackages [tg-botting]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-14 01:59:52] INFO root fetch - processPackages [socscikit]: New version: [0.0.3.2] Old Version: [0.0.3.1]
+[2023-07-14 01:59:52] INFO root fetch - processPackages [sweepai]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-14 01:59:52] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: New version: [14.0.2.2.1.dev2] Old Version: [14.0.2.2.1]
+[2023-07-14 01:59:52] INFO root fetch - processPackages [fastopendata_client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 01:59:52] INFO root fetch - processPackages [tungstenkit]: New version: [0.1.4] Old Version: [0.1.3.post2]
+[2023-07-14 01:59:52] INFO root fetch - processPackages [market-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 01:59:52] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 01:59:52] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-14 01:59:52] INFO root fetch - processPackages [icn3dpy]: New version: [3.9.0] Old Version: [3.8.1]
+[2023-07-14 01:59:52] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/b2/17/59551dc38097577231fb109e6001d5b08a7e43d9cbc48d110e67dfd98147/socscikit-0.0.3.1.tar.gz
+[2023-07-14 01:59:52] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-07-14 01:59:52] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 01:59:52] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/26/23/96766258ec55c101f7e9943b26351ffe163218de5bfc9a22b5ab42dd67ee/fastopendata_client-0.0.8.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/ac/2c/a1a8d637deaa4d421a6de80bec32aebf9924e146522a2c85174303eab56b/sweepai-0.4.5.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/a1/2a/e895623954ad09b807d7607c0fb2f9e58fd0ba2db71fcc995c6542556a66/tg-botting-2.1.1.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Downloading https://files.pythonhosted.org/packages/4b/0b/3a34597777c908b09236954348f6bfecf5856b5daceaf39cb707323d4e88/odoo14_addon_l10n_br_contract-14.0.2.2.1-py3-none-any.whl
+[2023-07-14 01:59:53] INFO root fetch - processPackages [icn3dpy]: Downloading https://files.pythonhosted.org/packages/4f/fc/14fd784dc4e02d5a718acaffad338dee64c9bc24353845d170338a2ef2b0/icn3dpy-3.8.1.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/c2/d3/8f8a4a7248331c880743bbb5499e67107718aae4cb0af30bb6378eb6da63/tungstenkit-0.1.3.post2.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/0b/88/47639a851c5081b1dbc460316d90eb0716fb29e775062a14575a98e3ef54/market-engine-0.0.9.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/e4/b5/07bdb74c5d8a57155d86563bb8c85fb3c7f5945629ec5af36869b4f4b08d/fastopendata_client-0.0.9.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/32/f2/ccb19c87d2a191d9673f51b42ce702b5446377c26b516f354cc1c8278e79/socscikit-0.0.3.2.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/97/07/7fb649d0f8224134aab17fbdb2d49f7b532f584b081b2d0011b8678eff10/sweepai-0.4.6.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/22/63/190154d53e250e104fc295643084b85a4e8d1609621af5d951a04c7fee88/tg-botting-2.1.2.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 01:59:53] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 01:59:53] INFO root fetch - processPackages [fastopendata_client]: executing diffoscope
+[2023-07-14 01:59:53] INFO root fetch - processPackages [fastopendata_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastopendata_client-0.0.8.tar.gz tmp/fastopendata_client-0.0.9.tar.gz --markdown 20230714/f/fastopendata_client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 01:59:53] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-07-14 01:59:53] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.8.tar.gz tmp/market-engine-0.0.9.tar.gz --markdown 20230714/m/market-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 01:59:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Downloading https://files.pythonhosted.org/packages/df/91/3aa3ebc8f60d21d940317b319613f58f3083923bc1dd07f5842bde8dcd92/odoo14_addon_l10n_br_contract-14.0.2.2.1.dev2-py3-none-any.whl
+[2023-07-14 01:59:53] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-14 01:59:53] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230714/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-14 01:59:53] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-14 01:59:53] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.3.1.tar.gz tmp/socscikit-0.0.3.2.tar.gz --markdown 20230714/s/socscikit/0.0.3.1-0.0.3.2/diff.md --exclude *.pyd
+[2023-07-14 01:59:53] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/e1/0e/3ee06749d82c74f5fe07e0d7d776ad2584734c69d8b71748c7f14f26bb08/tungstenkit-0.1.4.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [icn3dpy]: Downloading https://files.pythonhosted.org/packages/9d/09/bd75977330c2d14d9d3a21517c2ce683f27e3b7df52a6fa1982e3100e102/icn3dpy-3.9.0.tar.gz
+[2023-07-14 01:59:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: executing diffoscope
+[2023-07-14 01:59:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_contract-14.0.2.2.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_contract-14.0.2.2.1.dev2-py3-none-any.whl.zip --markdown 20230714/o/odoo14-addon-l10n-br-contract/14.0.2.2.1-14.0.2.2.1.dev2/diff.md --exclude *.pyd
+[2023-07-14 01:59:53] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-14 01:59:53] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.4.5.tar.gz tmp/sweepai-0.4.6.tar.gz --markdown 20230714/s/sweepai/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-14 01:59:53] INFO root fetch - processPackages [tg-botting]: executing diffoscope
+[2023-07-14 01:59:53] INFO root fetch - processPackages [tg-botting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg-botting-2.1.1.tar.gz tmp/tg-botting-2.1.2.tar.gz --markdown 20230714/t/tg-botting/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-14 01:59:54] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-07-14 01:59:54] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.1.3.post2.tar.gz tmp/tungstenkit-0.1.4.tar.gz --markdown 20230714/t/tungstenkit/0.1.3.post2-0.1.4/diff.md --exclude *.pyd
+[2023-07-14 01:59:54] INFO root fetch - processPackages [icn3dpy]: executing diffoscope
+[2023-07-14 01:59:54] INFO root fetch - processPackages [icn3dpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icn3dpy-3.8.1.tar.gz tmp/icn3dpy-3.9.0.tar.gz --markdown 20230714/i/icn3dpy/3.8.1-3.9.0/diff.md --exclude *.pyd
+[2023-07-14 01:59:55] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.8.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.9.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - processPackages [market-engine]: Start processing: pathgenmap
+[2023-07-14 01:59:55] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-07-14 01:59:55] INFO root fetch - processPackages [fastopendata_client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.8.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - processPackages [fastopendata_client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.9.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - main [MainThread]: End processing [fastopendata_client]: success
+[2023-07-14 01:59:55] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.3.1.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.3.2.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-14 01:59:55] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-07-14 01:59:55] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-14 01:59:55] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 01:59:55] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/06/86/455eba77b10eb2c5897072c844d74d14810f8ce3ad601be17bd8816ad1f8/pathgenmap-0.0.4.tar.gz
+[2023-07-14 01:59:55] INFO root fetch - processPackages [icn3dpy]: Remove: archive file [/home/abi/fetcher/tmp/icn3dpy-3.8.1.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - processPackages [icn3dpy]: Remove: archive file [/home/abi/fetcher/tmp/icn3dpy-3.9.0.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - main [MainThread]: End processing [icn3dpy]: success
+[2023-07-14 01:59:55] INFO root fetch - processPackages [tg-botting]: Remove: archive file [/home/abi/fetcher/tmp/tg-botting-2.1.1.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - processPackages [tg-botting]: Remove: archive file [/home/abi/fetcher/tmp/tg-botting-2.1.2.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - main [MainThread]: End processing [tg-botting]: success
+[2023-07-14 01:59:55] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_contract-14.0.2.2.1-py3-none-any.whl.zip]
+[2023-07-14 01:59:55] INFO root fetch - processPackages [odoo14-addon-l10n-br-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_contract-14.0.2.2.1.dev2-py3-none-any.whl.zip]
+[2023-07-14 01:59:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-contract]: success
+[2023-07-14 01:59:55] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.5.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.6.tar.gz]
+[2023-07-14 01:59:55] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-14 01:59:55] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/db/b1/7df4c8ff88f123bee8fc0b4dbdb031ad421a9637b863e31a16d52a386aa4/pathgenmap-0.0.6.tar.gz
+[2023-07-14 01:59:56] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-14 01:59:56] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.4.tar.gz tmp/pathgenmap-0.0.6.tar.gz --markdown 20230714/p/pathgenmap/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-07-14 01:59:56] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.3.post2.tar.gz]
+[2023-07-14 01:59:56] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.4.tar.gz]
+[2023-07-14 01:59:56] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-07-14 01:59:56] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.4.tar.gz]
+[2023-07-14 01:59:56] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.6.tar.gz]
+[2023-07-14 01:59:56] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-14 01:59:56] INFO root fetch - main [MainThread]: Store serial: [18881900]
