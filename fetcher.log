@@ -1634,3 +1634,87 @@
 [2023-07-14 01:44:19] INFO root fetch - processPackages [horde-sdk]: Remove: archive file [/home/abi/fetcher/tmp/horde_sdk-0.5.0.tar.gz]
 [2023-07-14 01:44:19] INFO root fetch - main [MainThread]: End processing [horde-sdk]: success
 [2023-07-14 01:44:19] INFO root fetch - main [MainThread]: Store serial: [18881804]
+[2023-07-14 01:49:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881804]
+[2023-07-14 01:49:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 01:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skyplane-nightly
+[2023-07-14 01:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kirkwoodnight
+[2023-07-14 01:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweepai
+[2023-07-14 01:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meter-gear
+[2023-07-14 01:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d20-orm
+[2023-07-14 01:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyberdrop-dl
+[2023-07-14 01:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ontoenv
+[2023-07-14 01:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discovery-core
+[2023-07-14 01:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pathgenmap
+[2023-07-14 01:49:28] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 01:49:28] INFO root fetch - processPackages [sweepai]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-14 01:49:28] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-14 01:49:28] INFO root fetch - processPackages [ontoenv]: New version: [0.3.7a4] Old Version: [0.3.7a3]
+[2023-07-14 01:49:28] INFO root fetch - processPackages [discovery-core]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-14 01:49:28] INFO root fetch - processPackages [d20-orm]: New version: [2.0.2a9] Old Version: [2.0.2a8]
+[2023-07-14 01:49:28] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230712] Old Version: [0.3.2.dev20230711]
+[2023-07-14 01:49:28] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-14 01:49:28] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/6d/33/0fe1f80d8b97316b00ac820d1977b49cc6b2afe40f3b2e83dee829eb2118/discovery-core-0.2.3.tar.gz
+[2023-07-14 01:49:28] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-14 01:49:29] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/9e/90/8a966265e6c0266909650f42cf9c228f7b5a31b045ca4b77da9913e5cb2a/pathgenmap-0.0.3.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/2f/95/f5dbedd71259dd0d0ffd54e94ff6d014c62d94f4c02eba46f041dc4609ab/sweepai-0.4.4.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/9c/0e/893e4bd51345fe31c1586c02b880d2d62b5138654820cd2064a21b7d2b4b/skyplane_nightly-0.3.2.dev20230711.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [ontoenv]: Downloading https://files.pythonhosted.org/packages/e3/f4/157f359e80d1c50016c16677409d62dfc307bb184653aad13235eeeddee0/ontoenv-0.3.7a3.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ad/29/9c0d1509e2bf24fcaf67bf27a72aca82c69934060a5b97d4e95f982bdf7c/d20-orm-2.0.2a8.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [meter-gear]: Downloading https://files.pythonhosted.org/packages/2e/f1/cd155aeba2b6334eb7139edd7409007e3b8ed72f5a0fd23f0236780b2afa/meter-gear-1.2.8.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/7e/3f/bf1ff1fdae9e9ebc037d03e4cc47df1b020453f0c564697718383d3fb45e/discovery-core-0.2.4.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/ac/2c/a1a8d637deaa4d421a6de80bec32aebf9924e146522a2c85174303eab56b/sweepai-0.4.5.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/06/86/455eba77b10eb2c5897072c844d74d14810f8ce3ad601be17bd8816ad1f8/pathgenmap-0.0.4.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [discovery-core]: executing diffoscope
+[2023-07-14 01:49:29] INFO root fetch - processPackages [discovery-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-core-0.2.3.tar.gz tmp/discovery-core-0.2.4.tar.gz --markdown 20230714/d/discovery-core/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-14 01:49:29] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 01:49:29] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 01:49:29] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/02/4d/b37700ca986ef68105da3c288e73ac67e0e368761c22992addfa0c8bbb46/skyplane_nightly-0.3.2.dev20230712.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [ontoenv]: Downloading https://files.pythonhosted.org/packages/a3/6b/792696fdae9504bde6afc60ab7bcf53022e14fc1f674abc7fceba2b3e5a5/ontoenv-0.3.7a4.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-14 01:49:29] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.4.4.tar.gz tmp/sweepai-0.4.5.tar.gz --markdown 20230714/s/sweepai/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-14 01:49:29] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-14 01:49:29] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.3.tar.gz tmp/pathgenmap-0.0.4.tar.gz --markdown 20230714/p/pathgenmap/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-14 01:49:29] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-14 01:49:29] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230714/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-14 01:49:29] INFO root fetch - processPackages [d20-orm]: Downloading https://files.pythonhosted.org/packages/ec/d6/9944a71f3f3439824eb114714153a4971feff7168ee963722e0da95de7ea/d20-orm-2.0.2a9.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [meter-gear]: Downloading https://files.pythonhosted.org/packages/71/f4/a7dd11caf7fac30d9e5b03741087fa53c6f5a4a7c98eae024610a66a611a/meter-gear-1.2.9.tar.gz
+[2023-07-14 01:49:29] INFO root fetch - processPackages [d20-orm]: executing diffoscope
+[2023-07-14 01:49:29] INFO root fetch - processPackages [d20-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-orm-2.0.2a8.tar.gz tmp/d20-orm-2.0.2a9.tar.gz --markdown 20230714/d/d20-orm/2.0.2a8-2.0.2a9/diff.md --exclude *.pyd
+[2023-07-14 01:49:29] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-14 01:49:29] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230711.tar.gz tmp/skyplane_nightly-0.3.2.dev20230712.tar.gz --markdown 20230714/s/skyplane-nightly/0.3.2.dev20230711-0.3.2.dev20230712/diff.md --exclude *.pyd
+[2023-07-14 01:49:30] INFO root fetch - processPackages [ontoenv]: executing diffoscope
+[2023-07-14 01:49:30] INFO root fetch - processPackages [ontoenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontoenv-0.3.7a3.tar.gz tmp/ontoenv-0.3.7a4.tar.gz --markdown 20230714/o/ontoenv/0.3.7a3-0.3.7a4/diff.md --exclude *.pyd
+[2023-07-14 01:49:30] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-07-14 01:49:30] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230714/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-14 01:49:31] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 01:49:31] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.3.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.4.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - main [MainThread]: End processing [discovery-core]: success
+[2023-07-14 01:49:31] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.3.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.4.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-14 01:49:31] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.4.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.5.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-14 01:49:31] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-14 01:49:31] INFO root fetch - processPackages [ontoenv]: Remove: archive file [/home/abi/fetcher/tmp/ontoenv-0.3.7a3.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - processPackages [ontoenv]: Remove: archive file [/home/abi/fetcher/tmp/ontoenv-0.3.7a4.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - main [MainThread]: End processing [ontoenv]: success
+[2023-07-14 01:49:31] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a8.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - processPackages [d20-orm]: Remove: archive file [/home/abi/fetcher/tmp/d20-orm-2.0.2a9.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - main [MainThread]: End processing [d20-orm]: success
+[2023-07-14 01:49:31] INFO root fetch - processPackages [meter-gear]: Remove: archive file [/home/abi/fetcher/tmp/meter-gear-1.2.8.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - processPackages [meter-gear]: Remove: archive file [/home/abi/fetcher/tmp/meter-gear-1.2.9.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-07-14 01:49:31] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230711.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230712.tar.gz]
+[2023-07-14 01:49:31] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-14 01:49:31] INFO root fetch - main [MainThread]: Store serial: [18881833]
