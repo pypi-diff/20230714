@@ -912,3 +912,87 @@
 [2023-07-14 00:57:16] INFO root fetch - processPackages [rna-tools]: Remove: archive file [/home/abi/fetcher/tmp/rna_tools-3.8.6-py3-none-any.whl.zip]
 [2023-07-14 00:57:16] INFO root fetch - main [MainThread]: End processing [rna-tools]: success
 [2023-07-14 00:57:16] INFO root fetch - main [MainThread]: Store serial: [18881558]
+[2023-07-14 01:02:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881558]
+[2023-07-14 01:02:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-wildewidgets
+[2023-07-14 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: search-me
+[2023-07-14 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: incantoos
+[2023-07-14 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torscrape
+[2023-07-14 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-nightly
+[2023-07-14 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stripe
+[2023-07-14 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skelly-synchronize
+[2023-07-14 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastopendata-client
+[2023-07-14 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmnt-cu101
+[2023-07-14 01:02:24] INFO root fetch - processPackages [torscrape]: New version: [0.1.17] Old Version: [0.1.16]
+[2023-07-14 01:02:24] INFO root fetch - processPackages [incantoos]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-14 01:02:25] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230712] Old Version: [0.7.0b20230711]
+[2023-07-14 01:02:25] INFO root fetch - processPackages [skelly-synchronize]: New version: [2023.7.1022] Old Version: [2023.6.1021]
+[2023-07-14 01:02:25] INFO root fetch - processPackages [search-me]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-14 01:02:25] INFO root fetch - processPackages [django-wildewidgets]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-14 01:02:25] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230712] Old Version: [1.5.0.dev20230711]
+[2023-07-14 01:02:25] INFO root fetch - processPackages [stripe]: New version: [5.6.0b1] Old Version: [5.5.0b5]
+[2023-07-14 01:02:25] INFO root fetch - processPackages [torscrape]: Downloading https://files.pythonhosted.org/packages/20/60/5c64a7b75cbebf7213626185aba4d383ea7e993d802575c0f4925da1d063/torscrape-0.1.16.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [fastopendata-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 01:02:25] INFO root fetch - processPackages [skelly-synchronize]: Downloading https://files.pythonhosted.org/packages/64/e4/e259311b348059e29260227fd333317e0cbf8fc17ca72b03f7e45c92ba06/skelly_synchronize-2023.6.1021.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/4c/d5/7105bc96704c7f92e18ca29e28f3917ab22b07924c603c32d56bc5372e38/tmnt-cu101-0.7.0b20230711.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/d9/3f/c7bc579463e357d16e51195ca07cb7f0f93420d8ac2ef52db1f8f15ea42a/flwr_nightly-1.5.0.dev20230711.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/12/af/0a47e763c64cabed18cbe1b3212afd921a364e7ee03864b714205fee408a/stripe-5.5.0b5.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [incantoos]: Downloading https://files.pythonhosted.org/packages/cf/b2/f619f0e166baa19af5d294ae49d45f11b25f16cbaace069d8e5d6d12040e/incantoos-1.0.4.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [django-wildewidgets]: Downloading https://files.pythonhosted.org/packages/a5/5a/a5fbc57d55818be0c8d452f0b51de5fefcc295d25c7fd228ab58024ea4df/django-wildewidgets-0.9.0.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [search-me]: Downloading https://files.pythonhosted.org/packages/8d/d3/e06e33122becc03c06b2b8fc241990aebd19b598847a5c36f4f128a08879/search-me-3.0.0.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [fastopendata-client]: Downloading https://files.pythonhosted.org/packages/26/23/96766258ec55c101f7e9943b26351ffe163218de5bfc9a22b5ab42dd67ee/fastopendata_client-0.0.8.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [skelly-synchronize]: Downloading https://files.pythonhosted.org/packages/ee/1d/b7034dd6f2242aa1a816baf9035500978e11a901a40f33ffde49f1156f07/skelly_synchronize-2023.7.1022.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [torscrape]: Downloading https://files.pythonhosted.org/packages/c7/ed/837731acf82e8b4f388985c68d7a59688c4fc433ccbe624b0ee7ad76824e/torscrape-0.1.17.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/a1/52/9f36518c97853afa91fcc016a005b7c6ceb4aaa442da472fab956004de7d/tmnt-cu101-0.7.0b20230712.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [skelly-synchronize]: executing diffoscope
+[2023-07-14 01:02:25] INFO root fetch - processPackages [skelly-synchronize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skelly_synchronize-2023.6.1021.tar.gz tmp/skelly_synchronize-2023.7.1022.tar.gz --markdown 20230714/s/skelly-synchronize/2023.6.1021-2023.7.1022/diff.md --exclude *.pyd
+[2023-07-14 01:02:25] INFO root fetch - processPackages [incantoos]: Downloading https://files.pythonhosted.org/packages/b0/2c/333949f4a5bd6c571750c8137bac7b193eceb6c09f7daa9a7fe5ca6c3f3b/incantoos-1.0.5.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/d2/93/c3a6bdf39b57524f6de90c8c7dc513790db53d06acf54296d89685c5916d/stripe-5.6.0b1.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [search-me]: Downloading https://files.pythonhosted.org/packages/63/08/802bc4bff1aa01f2d91cb46ea1dd5e4c63684e7c4782dfba496ef8156b4b/search-me-3.1.0.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/06/2f/c1ad993d676431d306e26b705ff32036ac5fd99a4b4e6128ffca4e3636cd/flwr_nightly-1.5.0.dev20230712.tar.gz
+[2023-07-14 01:02:25] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-14 01:02:25] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230711.tar.gz tmp/tmnt-cu101-0.7.0b20230712.tar.gz --markdown 20230714/t/tmnt-cu101/0.7.0b20230711-0.7.0b20230712/diff.md --exclude *.pyd
+[2023-07-14 01:02:25] INFO root fetch - processPackages [torscrape]: executing diffoscope
+[2023-07-14 01:02:25] INFO root fetch - processPackages [torscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torscrape-0.1.16.tar.gz tmp/torscrape-0.1.17.tar.gz --markdown 20230714/t/torscrape/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2023-07-14 01:02:25] INFO root fetch - processPackages [fastopendata-client]: Downloading https://files.pythonhosted.org/packages/e4/b5/07bdb74c5d8a57155d86563bb8c85fb3c7f5945629ec5af36869b4f4b08d/fastopendata_client-0.0.9.tar.gz
+[2023-07-14 01:02:26] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-14 01:02:26] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230711.tar.gz tmp/flwr_nightly-1.5.0.dev20230712.tar.gz --markdown 20230714/f/flwr-nightly/1.5.0.dev20230711-1.5.0.dev20230712/diff.md --exclude *.pyd
+[2023-07-14 01:02:26] INFO root fetch - processPackages [incantoos]: executing diffoscope
+[2023-07-14 01:02:26] INFO root fetch - processPackages [incantoos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/incantoos-1.0.4.tar.gz tmp/incantoos-1.0.5.tar.gz --markdown 20230714/i/incantoos/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-14 01:02:26] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2023-07-14 01:02:26] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-5.5.0b5.tar.gz tmp/stripe-5.6.0b1.tar.gz --markdown 20230714/s/stripe/5.5.0b5-5.6.0b1/diff.md --exclude *.pyd
+[2023-07-14 01:02:26] INFO root fetch - processPackages [fastopendata-client]: executing diffoscope
+[2023-07-14 01:02:26] INFO root fetch - processPackages [fastopendata-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastopendata_client-0.0.8.tar.gz tmp/fastopendata_client-0.0.9.tar.gz --markdown 20230714/f/fastopendata-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 01:02:26] INFO root fetch - processPackages [search-me]: executing diffoscope
+[2023-07-14 01:02:26] INFO root fetch - processPackages [search-me]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/search-me-3.0.0.tar.gz tmp/search-me-3.1.0.tar.gz --markdown 20230714/s/search-me/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-14 01:02:26] INFO root fetch - processPackages [django-wildewidgets]: Downloading https://files.pythonhosted.org/packages/0f/20/c9b0d1d9e96cc96b0fe08f0597b9d2356b376634ea87af28fa4517fdd92a/django-wildewidgets-0.9.1.tar.gz
+[2023-07-14 01:02:26] INFO root fetch - processPackages [django-wildewidgets]: executing diffoscope
+[2023-07-14 01:02:26] INFO root fetch - processPackages [django-wildewidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-wildewidgets-0.9.0.tar.gz tmp/django-wildewidgets-0.9.1.tar.gz --markdown 20230714/d/django-wildewidgets/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-14 01:02:27] INFO root fetch - processPackages [torscrape]: Remove: archive file [/home/abi/fetcher/tmp/torscrape-0.1.16.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - processPackages [torscrape]: Remove: archive file [/home/abi/fetcher/tmp/torscrape-0.1.17.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - main [MainThread]: End processing [torscrape]: success
+[2023-07-14 01:02:27] INFO root fetch - processPackages [skelly-synchronize]: Remove: archive file [/home/abi/fetcher/tmp/skelly_synchronize-2023.6.1021.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - processPackages [skelly-synchronize]: Remove: archive file [/home/abi/fetcher/tmp/skelly_synchronize-2023.7.1022.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - main [MainThread]: End processing [skelly-synchronize]: success
+[2023-07-14 01:02:27] INFO root fetch - processPackages [fastopendata-client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.8.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - processPackages [fastopendata-client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.9.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - main [MainThread]: End processing [fastopendata-client]: success
+[2023-07-14 01:02:27] INFO root fetch - processPackages [incantoos]: Remove: archive file [/home/abi/fetcher/tmp/incantoos-1.0.4.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - processPackages [incantoos]: Remove: archive file [/home/abi/fetcher/tmp/incantoos-1.0.5.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - main [MainThread]: End processing [incantoos]: success
+[2023-07-14 01:02:27] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230711.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230712.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-14 01:02:27] INFO root fetch - processPackages [search-me]: Remove: archive file [/home/abi/fetcher/tmp/search-me-3.0.0.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - processPackages [search-me]: Remove: archive file [/home/abi/fetcher/tmp/search-me-3.1.0.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - main [MainThread]: End processing [search-me]: success
+[2023-07-14 01:02:27] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230711.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230712.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-14 01:02:27] INFO root fetch - processPackages [django-wildewidgets]: Remove: archive file [/home/abi/fetcher/tmp/django-wildewidgets-0.9.0.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - processPackages [django-wildewidgets]: Remove: archive file [/home/abi/fetcher/tmp/django-wildewidgets-0.9.1.tar.gz]
+[2023-07-14 01:02:27] INFO root fetch - main [MainThread]: End processing [django-wildewidgets]: success
+[2023-07-14 01:02:28] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-5.5.0b5.tar.gz]
+[2023-07-14 01:02:28] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-5.6.0b1.tar.gz]
+[2023-07-14 01:02:28] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2023-07-14 01:02:28] INFO root fetch - main [MainThread]: Store serial: [18881584]
