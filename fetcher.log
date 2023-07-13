@@ -848,3 +848,67 @@
 [2023-07-14 00:52:01] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-14 00:52:01] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-14 00:52:01] INFO root fetch - main [MainThread]: Store serial: [18881538]
+[2023-07-14 00:57:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881538]
+[2023-07-14 00:57:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-14 00:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-br-purchase
+[2023-07-14 00:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-draughts
+[2023-07-14 00:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: market-engine
+[2023-07-14 00:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rna-tools
+[2023-07-14 00:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nordvpn-tray
+[2023-07-14 00:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-14 00:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nordvpn-tray
+[2023-07-14 00:57:11] INFO root fetch - processPackages [market-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 00:57:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: New version: [14.0.3.2.3.dev2] Old Version: [14.0.3.2.3]
+[2023-07-14 00:57:11] INFO root fetch - processPackages [py-draughts]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-14 00:57:11] INFO root fetch - processPackages [nordvpn-tray]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-14 00:57:11] INFO root fetch - processPackages [nordvpn-tray]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-14 00:57:11] INFO root fetch - processPackages [rna-tools]: New version: [3.8.6] Old Version: [3.8.5]
+[2023-07-14 00:57:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.395] Old Version: [0.3.394]
+[2023-07-14 00:57:11] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-07-14 00:57:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Downloading https://files.pythonhosted.org/packages/da/df/c87b7df5719156aa2f6e5e61067937831d3d5fbef0c963d91f1e595f8416/odoo14_addon_l10n_br_purchase-14.0.3.2.3-py3-none-any.whl
+[2023-07-14 00:57:11] INFO root fetch - processPackages [nordvpn-tray]: Downloading https://files.pythonhosted.org/packages/3b/c5/8de32514fa0538540d121b30ce3cd32f15130ff81c9a8691b8bd6e2cd5c5/nordvpn-tray-1.0.6.tar.gz
+[2023-07-14 00:57:11] INFO root fetch - processPackages [nordvpn-tray]: Downloading https://files.pythonhosted.org/packages/3b/c5/8de32514fa0538540d121b30ce3cd32f15130ff81c9a8691b8bd6e2cd5c5/nordvpn-tray-1.0.6.tar.gz
+[2023-07-14 00:57:11] INFO root fetch - processPackages [py-draughts]: Downloading https://files.pythonhosted.org/packages/2d/35/449cf2ed399ad7b7f1843350687442b9d28c1de1c8f4a9ff833b5f26bd60/py-draughts-1.0.3.tar.gz
+[2023-07-14 00:57:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/0f/3d/6d29544886eadc60703b1b3109132d620ff5e2be2606a222500ff9db7c3a/pepperize.cdk-ses-smtp-credentials-0.3.394.tar.gz
+[2023-07-14 00:57:11] INFO root fetch - processPackages [rna-tools]: Downloading https://files.pythonhosted.org/packages/fc/28/54f42db5d1d8058ac335285407279b707fba209f5002f9d45fb13a5507c2/rna_tools-3.8.5-py3-none-any.whl
+[2023-07-14 00:57:11] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/0b/88/47639a851c5081b1dbc460316d90eb0716fb29e775062a14575a98e3ef54/market-engine-0.0.9.tar.gz
+[2023-07-14 00:57:12] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-07-14 00:57:12] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.8.tar.gz tmp/market-engine-0.0.9.tar.gz --markdown 20230714/m/market-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 00:57:12] INFO root fetch - processPackages [py-draughts]: Downloading https://files.pythonhosted.org/packages/f6/81/0f0cefbf47ee745e5a5513555eaece18b877797046b35675cde047da181e/py-draughts-1.0.4.tar.gz
+[2023-07-14 00:57:12] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/1c/e1/d8bb07d01a55a94030c14b23d39046073ebcea5b317ad11f102de5c88767/pepperize.cdk-ses-smtp-credentials-0.3.395.tar.gz
+[2023-07-14 00:57:12] INFO root fetch - processPackages [nordvpn-tray]: Downloading https://files.pythonhosted.org/packages/39/a0/68c5b5bfd3eba6fa01026e37466e703aab07142162715f2b1223b2ce91b0/nordvpn-tray-1.0.7.tar.gz
+[2023-07-14 00:57:12] INFO root fetch - processPackages [nordvpn-tray]: Downloading https://files.pythonhosted.org/packages/39/a0/68c5b5bfd3eba6fa01026e37466e703aab07142162715f2b1223b2ce91b0/nordvpn-tray-1.0.7.tar.gz
+[2023-07-14 00:57:12] INFO root fetch - processPackages [py-draughts]: executing diffoscope
+[2023-07-14 00:57:12] INFO root fetch - processPackages [py-draughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-draughts-1.0.3.tar.gz tmp/py-draughts-1.0.4.tar.gz --markdown 20230714/p/py-draughts/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-14 00:57:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Downloading https://files.pythonhosted.org/packages/a4/95/938c99071429332bc22a767be710d5060237949cd160e80f50575fac6bbe/odoo14_addon_l10n_br_purchase-14.0.3.2.3.dev2-py3-none-any.whl
+[2023-07-14 00:57:12] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-14 00:57:12] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.394.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.395.tar.gz --markdown 20230714/p/pepperize.cdk-ses-smtp-credentials/0.3.394-0.3.395/diff.md --exclude *.pyd
+[2023-07-14 00:57:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: executing diffoscope
+[2023-07-14 00:57:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.3.dev2-py3-none-any.whl.zip --markdown 20230714/o/odoo14-addon-l10n-br-purchase/14.0.3.2.3-14.0.3.2.3.dev2/diff.md --exclude *.pyd
+[2023-07-14 00:57:12] INFO root fetch - processPackages [nordvpn-tray]: executing diffoscope
+[2023-07-14 00:57:12] INFO root fetch - processPackages [nordvpn-tray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nordvpn-tray-1.0.6.tar.gz tmp/nordvpn-tray-1.0.7.tar.gz --markdown 20230714/n/nordvpn-tray/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-14 00:57:12] INFO root fetch - processPackages [nordvpn-tray]: executing diffoscope
+[2023-07-14 00:57:12] INFO root fetch - processPackages [nordvpn-tray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nordvpn-tray-1.0.6.tar.gz tmp/nordvpn-tray-1.0.7.tar.gz --markdown 20230714/n/nordvpn-tray/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-14 00:57:13] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.8.tar.gz]
+[2023-07-14 00:57:13] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.9.tar.gz]
+[2023-07-14 00:57:13] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-07-14 00:57:13] INFO root fetch - processPackages [rna-tools]: Downloading https://files.pythonhosted.org/packages/a5/23/4d5f4be246b1d866327d5cc6efa1c4b508e3ca659cfdc33efceda1613518/rna_tools-3.8.6-py3-none-any.whl
+[2023-07-14 00:57:13] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.394.tar.gz]
+[2023-07-14 00:57:13] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.395.tar.gz]
+[2023-07-14 00:57:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-14 00:57:13] INFO root fetch - processPackages [py-draughts]: Remove: archive file [/home/abi/fetcher/tmp/py-draughts-1.0.3.tar.gz]
+[2023-07-14 00:57:13] INFO root fetch - processPackages [py-draughts]: Remove: archive file [/home/abi/fetcher/tmp/py-draughts-1.0.4.tar.gz]
+[2023-07-14 00:57:13] INFO root fetch - main [MainThread]: End processing [py-draughts]: success
+[2023-07-14 00:57:13] INFO root fetch - processPackages [nordvpn-tray]: Remove: archive file [/home/abi/fetcher/tmp/nordvpn-tray-1.0.6.tar.gz]
+[2023-07-14 00:57:13] INFO root fetch - processPackages [nordvpn-tray]: Remove: archive file [/home/abi/fetcher/tmp/nordvpn-tray-1.0.7.tar.gz]
+[2023-07-14 00:57:13] INFO root fetch - main [MainThread]: End processing [nordvpn-tray]: success
+[2023-07-14 00:57:13] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.3-py3-none-any.whl.zip]
+[2023-07-14 00:57:13] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.3.dev2-py3-none-any.whl.zip]
+[2023-07-14 00:57:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-purchase]: success
+[2023-07-14 00:57:13] INFO root fetch - main [MainThread]: End processing [nordvpn-tray]: success
+[2023-07-14 00:57:14] INFO root fetch - processPackages [rna-tools]: executing diffoscope
+[2023-07-14 00:57:14] INFO root fetch - processPackages [rna-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rna_tools-3.8.5-py3-none-any.whl.zip tmp/rna_tools-3.8.6-py3-none-any.whl.zip --markdown 20230714/r/rna-tools/3.8.5-3.8.6/diff.md --exclude *.pyd
+[2023-07-14 00:57:16] INFO root fetch - processPackages [rna-tools]: Remove: archive file [/home/abi/fetcher/tmp/rna_tools-3.8.5-py3-none-any.whl.zip]
+[2023-07-14 00:57:16] INFO root fetch - processPackages [rna-tools]: Remove: archive file [/home/abi/fetcher/tmp/rna_tools-3.8.6-py3-none-any.whl.zip]
+[2023-07-14 00:57:16] INFO root fetch - main [MainThread]: End processing [rna-tools]: success
+[2023-07-14 00:57:16] INFO root fetch - main [MainThread]: Store serial: [18881558]
