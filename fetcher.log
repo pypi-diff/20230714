@@ -1092,3 +1092,95 @@
 [2023-07-14 01:12:50] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.0.tar.gz]
 [2023-07-14 01:12:50] INFO root fetch - main [MainThread]: End processing [score-models]: success
 [2023-07-14 01:12:50] INFO root fetch - main [MainThread]: Store serial: [18881625]
+[2023-07-14 01:17:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881625]
+[2023-07-14 01:17:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-14 01:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoCarver
+[2023-07-14 01:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: descarteslabs
+[2023-07-14 01:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-cloud-pipeline-components
+[2023-07-14 01:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-url-tokenizer
+[2023-07-14 01:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: momento
+[2023-07-14 01:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdss-clu
+[2023-07-14 01:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qtmetabolabpy
+[2023-07-14 01:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eppo-server-sdk
+[2023-07-14 01:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metabolabpy
+[2023-07-14 01:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openid-whisperer
+[2023-07-14 01:17:58] INFO root fetch - processPackages [qtmetabolabpy]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-07-14 01:17:58] INFO root fetch - processPackages [openid-whisperer]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-14 01:17:58] INFO root fetch - processPackages [google-cloud-pipeline-components]: New version: [2.1.0] Old Version: [2.0.0b5]
+[2023-07-14 01:17:58] INFO root fetch - processPackages [eppo-server-sdk]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-14 01:17:58] INFO root fetch - processPackages [descarteslabs]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-14 01:17:58] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 01:17:58] INFO root fetch - processPackages [momento]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-07-14 01:17:58] INFO root fetch - processPackages [sdss-clu]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-14 01:17:58] INFO root fetch - processPackages [metabolabpy]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-07-14 01:17:58] INFO root fetch - processPackages [AutoCarver]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-07-14 01:17:59] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [descarteslabs]: Downloading https://files.pythonhosted.org/packages/5f/c3/40ae21c4e74b573c24ebf678f9bfd6178dd89a30d5e94d9a94590246dcd5/descarteslabs-2.0.2.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/8d/df/fb1f4a3af12620cb6f857b32967e33d2115881466df1e2753c10c2865b43/AutoCarver-5.0.0.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [qtmetabolabpy]: Downloading https://files.pythonhosted.org/packages/62/cc/c79263bb59fe907df116eb56107d1e21c07edc2a1fb0aa68a574d2e99f09/qtmetabolabpy-0.8.7.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [momento]: Downloading https://files.pythonhosted.org/packages/a3/38/b4277cd2abe72ed217ecaff5cf609620b11db220f17a642e35aea0c3efd2/momento-1.6.1.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [eppo-server-sdk]: Downloading https://files.pythonhosted.org/packages/4b/07/a8bd2eae22c470948abb2771a7a42c8b137b28fe171b43f3528546f8cb55/eppo-server-sdk-1.2.0.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [google-cloud-pipeline-components]: Downloading https://files.pythonhosted.org/packages/d7/71/23c28b4152da913c47a34b93d00c16206e38781916f3bf6487db3ea16b1c/google_cloud_pipeline_components-2.0.0b5-py3-none-any.whl
+[2023-07-14 01:17:59] INFO root fetch - processPackages [sdss-clu]: Downloading https://files.pythonhosted.org/packages/09/77/6d5c3962212fd78a2768cc409ebe8e495b841057c6023ac059e0f093ad88/sdss_clu-2.1.0.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [openid-whisperer]: Downloading https://files.pythonhosted.org/packages/b6/83/bc47e624355473da297b2a02abcc9351929d9b7f96f0ef4194ae56b93e4c/openid_whisperer-0.1.3.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [metabolabpy]: Downloading https://files.pythonhosted.org/packages/ab/32/e1a86aa724aabef3e01f3e432abe2c8ea8a3b1805c71f8bf8e801262ed92/metabolabpy-0.8.7.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-14 01:17:59] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230714/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 01:17:59] WARNING root fetch - processPackages [metabolabpy]: Skipping package: exceeds size limit 12237881>=10485760
+[2023-07-14 01:17:59] INFO root fetch - processPackages [metabolabpy]: Start processing: llm-base
+[2023-07-14 01:17:59] INFO root fetch - main [MainThread]: End processing [metabolabpy] error
+[2023-07-14 01:17:59] INFO root fetch - processPackages [qtmetabolabpy]: Downloading https://files.pythonhosted.org/packages/ec/a4/83b162591fc16fdab69329864089f5f059240939c642e6c4b49e00bf8670/qtmetabolabpy-0.8.9.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [descarteslabs]: Downloading https://files.pythonhosted.org/packages/c2/c7/263bdd76edc6628f38c0d71f5e30414e9d4781b470ab1223ae60ca78a0df/descarteslabs-2.0.3.tar.gz
+[2023-07-14 01:17:59] WARNING root fetch - processPackages [llm-base]: Skipping, unable to determine old version
+[2023-07-14 01:17:59] INFO root fetch - main [MainThread]: End processing [llm-base] error
+[2023-07-14 01:17:59] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/c4/0e/b9c2d0edf20b8fef9a538edc467cae8808be80354139fab2ac35e5608574/AutoCarver-5.0.1.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [openid-whisperer]: Downloading https://files.pythonhosted.org/packages/91/23/d2680ae41429664a20df6c4f792295393172741286f4085d80ab659094c3/openid_whisperer-0.1.4.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [eppo-server-sdk]: Downloading https://files.pythonhosted.org/packages/67/de/570e05d4148c74283e2ece47545869797f3dffec3ad30e13cd7c32405cb9/eppo-server-sdk-1.2.1.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [momento]: Downloading https://files.pythonhosted.org/packages/a9/4e/6adb22b37b28ffa269572920d200901383a963683f7ef342f225fbce612d/momento-1.7.0.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [qtmetabolabpy]: executing diffoscope
+[2023-07-14 01:17:59] INFO root fetch - processPackages [qtmetabolabpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmetabolabpy-0.8.7.tar.gz tmp/qtmetabolabpy-0.8.9.tar.gz --markdown 20230714/q/qtmetabolabpy/0.8.7-0.8.9/diff.md --exclude *.pyd
+[2023-07-14 01:17:59] INFO root fetch - processPackages [descarteslabs]: executing diffoscope
+[2023-07-14 01:17:59] INFO root fetch - processPackages [descarteslabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/descarteslabs-2.0.2.tar.gz tmp/descarteslabs-2.0.3.tar.gz --markdown 20230714/d/descarteslabs/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-14 01:17:59] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-14 01:17:59] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.0.0.tar.gz tmp/AutoCarver-5.0.1.tar.gz --markdown 20230714/A/AutoCarver/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-14 01:17:59] INFO root fetch - processPackages [sdss-clu]: Downloading https://files.pythonhosted.org/packages/71/45/e8fc2b16cf1acedb083026cfd473184c70f50a2e0bea0a07c30acdf1ff74/sdss_clu-2.1.1.tar.gz
+[2023-07-14 01:17:59] INFO root fetch - processPackages [openid-whisperer]: executing diffoscope
+[2023-07-14 01:17:59] INFO root fetch - processPackages [openid-whisperer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openid_whisperer-0.1.3.tar.gz tmp/openid_whisperer-0.1.4.tar.gz --markdown 20230714/o/openid-whisperer/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-14 01:17:59] INFO root fetch - processPackages [eppo-server-sdk]: executing diffoscope
+[2023-07-14 01:17:59] INFO root fetch - processPackages [eppo-server-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eppo-server-sdk-1.2.0.tar.gz tmp/eppo-server-sdk-1.2.1.tar.gz --markdown 20230714/e/eppo-server-sdk/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-14 01:17:59] INFO root fetch - processPackages [momento]: executing diffoscope
+[2023-07-14 01:17:59] INFO root fetch - processPackages [momento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento-1.6.1.tar.gz tmp/momento-1.7.0.tar.gz --markdown 20230714/m/momento/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-07-14 01:18:00] INFO root fetch - processPackages [google-cloud-pipeline-components]: Downloading https://files.pythonhosted.org/packages/29/81/6802bd54e54219e2cafb04044c9257925e7a180d250089c2dbc01584bdd7/google_cloud_pipeline_components-2.1.0-py3-none-any.whl
+[2023-07-14 01:18:00] INFO root fetch - processPackages [sdss-clu]: executing diffoscope
+[2023-07-14 01:18:00] INFO root fetch - processPackages [sdss-clu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_clu-2.1.0.tar.gz tmp/sdss_clu-2.1.1.tar.gz --markdown 20230714/s/sdss-clu/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-14 01:18:00] INFO root fetch - processPackages [google-cloud-pipeline-components]: executing diffoscope
+[2023-07-14 01:18:00] INFO root fetch - processPackages [google-cloud-pipeline-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_cloud_pipeline_components-2.0.0b5-py3-none-any.whl.zip tmp/google_cloud_pipeline_components-2.1.0-py3-none-any.whl.zip --markdown 20230714/g/google-cloud-pipeline-components/2.0.0b5-2.1.0/diff.md --exclude *.pyd
+[2023-07-14 01:18:00] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-14 01:18:00] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-14 01:18:00] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-14 01:18:01] INFO root fetch - processPackages [eppo-server-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eppo-server-sdk-1.2.0.tar.gz]
+[2023-07-14 01:18:01] INFO root fetch - processPackages [eppo-server-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eppo-server-sdk-1.2.1.tar.gz]
+[2023-07-14 01:18:01] INFO root fetch - main [MainThread]: End processing [eppo-server-sdk]: success
+[2023-07-14 01:18:01] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.0.tar.gz]
+[2023-07-14 01:18:01] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.1.tar.gz]
+[2023-07-14 01:18:01] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-14 01:18:01] INFO root fetch - processPackages [sdss-clu]: Remove: archive file [/home/abi/fetcher/tmp/sdss_clu-2.1.0.tar.gz]
+[2023-07-14 01:18:01] INFO root fetch - processPackages [sdss-clu]: Remove: archive file [/home/abi/fetcher/tmp/sdss_clu-2.1.1.tar.gz]
+[2023-07-14 01:18:01] INFO root fetch - main [MainThread]: End processing [sdss-clu]: success
+[2023-07-14 01:18:01] INFO root fetch - processPackages [qtmetabolabpy]: Remove: archive file [/home/abi/fetcher/tmp/qtmetabolabpy-0.8.7.tar.gz]
+[2023-07-14 01:18:01] INFO root fetch - processPackages [qtmetabolabpy]: Remove: archive file [/home/abi/fetcher/tmp/qtmetabolabpy-0.8.9.tar.gz]
+[2023-07-14 01:18:01] INFO root fetch - main [MainThread]: End processing [qtmetabolabpy]: success
+[2023-07-14 01:18:01] INFO root fetch - processPackages [openid-whisperer]: Remove: archive file [/home/abi/fetcher/tmp/openid_whisperer-0.1.3.tar.gz]
+[2023-07-14 01:18:01] INFO root fetch - processPackages [openid-whisperer]: Remove: archive file [/home/abi/fetcher/tmp/openid_whisperer-0.1.4.tar.gz]
+[2023-07-14 01:18:01] INFO root fetch - main [MainThread]: End processing [openid-whisperer]: success
+[2023-07-14 01:18:01] INFO root fetch - processPackages [momento]: Remove: archive file [/home/abi/fetcher/tmp/momento-1.6.1.tar.gz]
+[2023-07-14 01:18:01] INFO root fetch - processPackages [momento]: Remove: archive file [/home/abi/fetcher/tmp/momento-1.7.0.tar.gz]
+[2023-07-14 01:18:01] INFO root fetch - main [MainThread]: End processing [momento]: success
+[2023-07-14 01:18:02] INFO root fetch - processPackages [descarteslabs]: Remove: archive file [/home/abi/fetcher/tmp/descarteslabs-2.0.2.tar.gz]
+[2023-07-14 01:18:02] INFO root fetch - processPackages [descarteslabs]: Remove: archive file [/home/abi/fetcher/tmp/descarteslabs-2.0.3.tar.gz]
+[2023-07-14 01:18:02] INFO root fetch - main [MainThread]: End processing [descarteslabs]: success
+[2023-07-14 01:18:05] INFO root fetch - processPackages [google-cloud-pipeline-components]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_pipeline_components-2.0.0b5-py3-none-any.whl.zip]
+[2023-07-14 01:18:05] INFO root fetch - processPackages [google-cloud-pipeline-components]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_pipeline_components-2.1.0-py3-none-any.whl.zip]
+[2023-07-14 01:18:05] INFO root fetch - main [MainThread]: End processing [google-cloud-pipeline-components]: success
+[2023-07-14 01:18:05] INFO root fetch - main [MainThread]: Store serial: [18881657]
