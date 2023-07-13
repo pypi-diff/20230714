@@ -1047,3 +1047,48 @@
 [2023-07-14 01:07:39] INFO root fetch - processPackages [hpmoc]: Remove: archive file [/home/abi/fetcher/tmp/hpmoc-1.0a4.tar.gz]
 [2023-07-14 01:07:39] INFO root fetch - main [MainThread]: End processing [hpmoc]: success
 [2023-07-14 01:07:39] INFO root fetch - main [MainThread]: Store serial: [18881604]
+[2023-07-14 01:12:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881604]
+[2023-07-14 01:12:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-14 01:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-br-stock-account
+[2023-07-14 01:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasoup
+[2023-07-14 01:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opower
+[2023-07-14 01:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trycortex
+[2023-07-14 01:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: score-models
+[2023-07-14 01:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numerical-methods
+[2023-07-14 01:12:48] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: New version: [14.0.3.1.2.dev2] Old Version: [14.0.3.1.2]
+[2023-07-14 01:12:48] WARNING root fetch - processPackages [datasoup]: Skipping, unable to determine old version
+[2023-07-14 01:12:48] INFO root fetch - main [MainThread]: End processing [datasoup] error
+[2023-07-14 01:12:48] INFO root fetch - processPackages [score-models]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-14 01:12:48] INFO root fetch - processPackages [trycortex]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-14 01:12:48] INFO root fetch - processPackages [opower]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 01:12:48] WARNING root fetch - processPackages [numerical-methods]: Skipping, unable to determine old version
+[2023-07-14 01:12:48] INFO root fetch - main [MainThread]: End processing [numerical-methods] error
+[2023-07-14 01:12:48] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Downloading https://files.pythonhosted.org/packages/6a/1d/e11676991d77435bf673ed09c4b49b18daae4dd704acb943a7ed5f4030d7/odoo14_addon_l10n_br_stock_account-14.0.3.1.2-py3-none-any.whl
+[2023-07-14 01:12:48] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/ee/21/7d49119bfc5be21c336cbf1d75474492e2d27b93be3c223777c72343099e/trycortex-1.0.4.tar.gz
+[2023-07-14 01:12:48] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/b8/89/34b1e1ec3d6ca5d7f3dbbe00cb350a4ccb02c0611a4311ee01affa7430df/score_models-0.3.0.tar.gz
+[2023-07-14 01:12:48] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/de/e7/5d0e2eea618e46b3230cd28958d2cca7ca8ef0ec3acf7d333b499bc466db/opower-0.0.8.tar.gz
+[2023-07-14 01:12:48] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Downloading https://files.pythonhosted.org/packages/b9/17/63938a41a37447026120bfe755fe3621c7cc74a9f67716995d6c79051cc1/odoo14_addon_l10n_br_stock_account-14.0.3.1.2.dev2-py3-none-any.whl
+[2023-07-14 01:12:48] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/4d/a1/3c6b1da533e3f0da915fce1ac1ef0573c34926fb9dc11cad4e3a30948413/trycortex-1.0.5.tar.gz
+[2023-07-14 01:12:48] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/1e/8d/98fd6fce94690a3f2bbfff85ac92b6bde5843b4e77be5b1096220a238d1b/score_models-0.4.0.tar.gz
+[2023-07-14 01:12:48] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: executing diffoscope
+[2023-07-14 01:12:48] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_stock_account-14.0.3.1.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_stock_account-14.0.3.1.2.dev2-py3-none-any.whl.zip --markdown 20230714/o/odoo14-addon-l10n-br-stock-account/14.0.3.1.2-14.0.3.1.2.dev2/diff.md --exclude *.pyd
+[2023-07-14 01:12:48] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/86/54/64abf478f9a76b0937adc32bc301690e94e6e745928ac9cfcd0eeb625f56/opower-0.0.9.tar.gz
+[2023-07-14 01:12:49] INFO root fetch - processPackages [score-models]: executing diffoscope
+[2023-07-14 01:12:49] INFO root fetch - processPackages [score-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score_models-0.3.0.tar.gz tmp/score_models-0.4.0.tar.gz --markdown 20230714/s/score-models/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-14 01:12:49] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-07-14 01:12:49] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.8.tar.gz tmp/opower-0.0.9.tar.gz --markdown 20230714/o/opower/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 01:12:49] INFO root fetch - processPackages [trycortex]: executing diffoscope
+[2023-07-14 01:12:49] INFO root fetch - processPackages [trycortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycortex-1.0.4.tar.gz tmp/trycortex-1.0.5.tar.gz --markdown 20230714/t/trycortex/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-14 01:12:49] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.4.tar.gz]
+[2023-07-14 01:12:49] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.5.tar.gz]
+[2023-07-14 01:12:49] INFO root fetch - main [MainThread]: End processing [trycortex]: success
+[2023-07-14 01:12:50] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.8.tar.gz]
+[2023-07-14 01:12:50] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.9.tar.gz]
+[2023-07-14 01:12:50] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-07-14 01:12:50] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_stock_account-14.0.3.1.2-py3-none-any.whl.zip]
+[2023-07-14 01:12:50] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_stock_account-14.0.3.1.2.dev2-py3-none-any.whl.zip]
+[2023-07-14 01:12:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-stock-account]: success
+[2023-07-14 01:12:50] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.3.0.tar.gz]
+[2023-07-14 01:12:50] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.0.tar.gz]
+[2023-07-14 01:12:50] INFO root fetch - main [MainThread]: End processing [score-models]: success
+[2023-07-14 01:12:50] INFO root fetch - main [MainThread]: Store serial: [18881625]
