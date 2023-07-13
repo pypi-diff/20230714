@@ -1376,3 +1376,85 @@
 [2023-07-14 01:28:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-14 01:28:42] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-14 01:28:42] INFO root fetch - main [MainThread]: Store serial: [18881719]
+[2023-07-14 01:33:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881719]
+[2023-07-14 01:33:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 01:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uniteai
+[2023-07-14 01:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kirkwoodnight
+[2023-07-14 01:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socscikit
+[2023-07-14 01:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zeugvars
+[2023-07-14 01:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chalkpy
+[2023-07-14 01:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dequeai
+[2023-07-14 01:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kirkwoodnight
+[2023-07-14 01:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aorta-sirius-dev
+[2023-07-14 01:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: 11x-wagtail-blog
+[2023-07-14 01:33:51] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 01:33:51] INFO root fetch - processPackages [uniteai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 01:33:51] INFO root fetch - processPackages [zeugvars]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-14 01:33:51] INFO root fetch - processPackages [socscikit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-14 01:33:51] INFO root fetch - processPackages [11x-wagtail-blog]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-14 01:33:51] INFO root fetch - processPackages [dequeai]: New version: [0.8236] Old Version: [0.8234]
+[2023-07-14 01:33:51] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 01:33:51] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 01:33:51] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-14 01:33:51] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-14 01:33:51] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/d8/86/ffcd761e598a02ec64138f90695a6f0f9d0f08cb5bbe8f38e404c46af385/dequeai-0.8234.tar.gz
+[2023-07-14 01:33:51] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 01:33:51] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 01:33:51] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/4b/e4/34131100ea719fbbc950983cb4f7862434bd3c820225e3c08e37e9e53821/uniteai-0.1.8.tar.gz
+[2023-07-14 01:33:51] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-07-14 01:33:51] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/28/bf/87f3e2424eeff044f1ceb4c4e6d8f7f6306640e86be048789e8ea789671c/socscikit-0.0.2.tar.gz
+[2023-07-14 01:33:51] INFO root fetch - processPackages [zeugvars]: Downloading https://files.pythonhosted.org/packages/1a/86/26b63f410db029af5d08307266a6c9886a8bcdafdf7a90a8e3f446c8d2a1/zeugvars-0.2.6.tar.gz
+[2023-07-14 01:33:51] INFO root fetch - processPackages [11x-wagtail-blog]: Downloading https://files.pythonhosted.org/packages/1d/0c/45883462b8539ab3e93c5a8fcc5dbddbe9b6649fffb9618cbce1009dda00/11x_wagtail_blog-0.1.0.tar.gz
+[2023-07-14 01:33:52] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 01:33:52] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 01:33:52] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-07-14 01:33:52] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/41/26/4844b31921d0cad2ddf86ce2e4d3060561e130a09bc304c92952ed1683f8/dequeai-0.8236.tar.gz
+[2023-07-14 01:33:52] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-14 01:33:52] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/ee/d6/69541a4891781b255df92ded06de7ebb8bd19110ff041dc63c0f0dc01ab3/uniteai-0.1.9.tar.gz
+[2023-07-14 01:33:52] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 01:33:52] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 01:33:52] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 01:33:52] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 01:33:52] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/a4/96/40827b70fd781b7da2a61d70ef69d7f30232a3568303b8b3c810e6e7f997/socscikit-0.0.3.tar.gz
+[2023-07-14 01:33:52] INFO root fetch - processPackages [11x-wagtail-blog]: Downloading https://files.pythonhosted.org/packages/93/61/3f635a4e866ed1724cb68c92038bc2f82b954c738fca3de1af4975a1df00/11x_wagtail_blog-0.2.0.tar.gz
+[2023-07-14 01:33:52] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-14 01:33:52] INFO root fetch - processPackages [zeugvars]: Downloading https://files.pythonhosted.org/packages/1c/49/a3f10df788b32cbb3a14963a67ac23a3f45a8a8eb036021ced1dc3425814/zeugvars-0.2.7.tar.gz
+[2023-07-14 01:33:52] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230714/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 01:33:52] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-07-14 01:33:52] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230714/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-14 01:33:52] INFO root fetch - processPackages [uniteai]: executing diffoscope
+[2023-07-14 01:33:52] INFO root fetch - processPackages [uniteai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniteai-0.1.8.tar.gz tmp/uniteai-0.1.9.tar.gz --markdown 20230714/u/uniteai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 01:33:52] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-07-14 01:33:52] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.8234.tar.gz tmp/dequeai-0.8236.tar.gz --markdown 20230714/d/dequeai/0.8234-0.8236/diff.md --exclude *.pyd
+[2023-07-14 01:33:52] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-14 01:33:52] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.2.tar.gz tmp/socscikit-0.0.3.tar.gz --markdown 20230714/s/socscikit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 01:33:52] INFO root fetch - processPackages [11x-wagtail-blog]: executing diffoscope
+[2023-07-14 01:33:52] INFO root fetch - processPackages [11x-wagtail-blog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/11x_wagtail_blog-0.1.0.tar.gz tmp/11x_wagtail_blog-0.2.0.tar.gz --markdown 20230714/1/11x-wagtail-blog/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-14 01:33:52] INFO root fetch - processPackages [zeugvars]: executing diffoscope
+[2023-07-14 01:33:52] INFO root fetch - processPackages [zeugvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeugvars-0.2.6.tar.gz tmp/zeugvars-0.2.7.tar.gz --markdown 20230714/z/zeugvars/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-14 01:33:53] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-14 01:33:53] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-14 01:33:53] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 01:33:53] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 01:33:53] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.2.tar.gz]
+[2023-07-14 01:33:53] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.3.tar.gz]
+[2023-07-14 01:33:53] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-14 01:33:53] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.8.tar.gz]
+[2023-07-14 01:33:53] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.9.tar.gz]
+[2023-07-14 01:33:53] INFO root fetch - main [MainThread]: End processing [uniteai]: success
+[2023-07-14 01:33:53] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-14 01:33:53] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-14 01:33:53] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-14 01:33:53] INFO root fetch - processPackages [zeugvars]: Remove: archive file [/home/abi/fetcher/tmp/zeugvars-0.2.6.tar.gz]
+[2023-07-14 01:33:53] INFO root fetch - processPackages [zeugvars]: Remove: archive file [/home/abi/fetcher/tmp/zeugvars-0.2.7.tar.gz]
+[2023-07-14 01:33:53] INFO root fetch - main [MainThread]: End processing [zeugvars]: success
+[2023-07-14 01:33:53] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.8234.tar.gz]
+[2023-07-14 01:33:53] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.8236.tar.gz]
+[2023-07-14 01:33:53] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-07-14 01:33:54] INFO root fetch - processPackages [11x-wagtail-blog]: Remove: archive file [/home/abi/fetcher/tmp/11x_wagtail_blog-0.1.0.tar.gz]
+[2023-07-14 01:33:54] INFO root fetch - processPackages [11x-wagtail-blog]: Remove: archive file [/home/abi/fetcher/tmp/11x_wagtail_blog-0.2.0.tar.gz]
+[2023-07-14 01:33:54] INFO root fetch - main [MainThread]: End processing [11x-wagtail-blog]: success
+[2023-07-14 01:33:55] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-07-14 01:33:55] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-07-14 01:33:55] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-07-14 01:33:55] INFO root fetch - main [MainThread]: Store serial: [18881743]
