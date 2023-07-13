@@ -716,3 +716,39 @@
 [2023-07-14 00:41:25] INFO root fetch - processPackages [pegasusio]: Remove: archive file [/home/abi/fetcher/tmp/pegasusio-0.8.1.tar.gz]
 [2023-07-14 00:41:25] INFO root fetch - main [MainThread]: End processing [pegasusio]: success
 [2023-07-14 00:41:25] INFO root fetch - main [MainThread]: Store serial: [18881468]
+[2023-07-14 00:46:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881468]
+[2023-07-14 00:46:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-14 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-client
+[2023-07-14 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torscrape
+[2023-07-14 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trycortex
+[2023-07-14 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: example-shared
+[2023-07-14 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydra-zen
+[2023-07-14 00:46:34] WARNING root fetch - processPackages [example-client]: Skipping, unable to determine old version
+[2023-07-14 00:46:34] INFO root fetch - main [MainThread]: End processing [example-client] error
+[2023-07-14 00:46:34] INFO root fetch - processPackages [trycortex]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-14 00:46:34] INFO root fetch - processPackages [torscrape]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-07-14 00:46:34] WARNING root fetch - processPackages [example-shared]: Skipping, unable to determine old version
+[2023-07-14 00:46:34] INFO root fetch - main [MainThread]: End processing [example-shared] error
+[2023-07-14 00:46:34] INFO root fetch - processPackages [hydra-zen]: New version: [0.9.1] Old Version: [0.9.0rc5]
+[2023-07-14 00:46:34] INFO root fetch - processPackages [torscrape]: Downloading https://files.pythonhosted.org/packages/30/9c/437e1a5ab6c9d2bc38105457d3665925ed0b94ed3952ea2495ab213b8867/torscrape-0.1.14.tar.gz
+[2023-07-14 00:46:34] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/47/91/f38f9ba165496fb5a181ec2e6ec87fd2dae4cadd704266d42904a0394565/trycortex-1.0.2.tar.gz
+[2023-07-14 00:46:34] INFO root fetch - processPackages [hydra-zen]: Downloading https://files.pythonhosted.org/packages/21/7e/604d7ba9ff16a283e2f50a1de89b0bf58cf1bd84b2dcbb6f6f9658b232f6/hydra_zen-0.9.0rc5.tar.gz
+[2023-07-14 00:46:34] INFO root fetch - processPackages [torscrape]: Downloading https://files.pythonhosted.org/packages/f2/ea/9c06c15662745a62f407efde74996b2e3d1ac2a6ee8dc12881a81ec561d4/torscrape-0.1.15.tar.gz
+[2023-07-14 00:46:34] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/94/32/7126d45e57bcc322f6778a87d9ba554e2aba3893e299bf2db7f7cb1a1217/trycortex-1.0.3.tar.gz
+[2023-07-14 00:46:35] INFO root fetch - processPackages [torscrape]: executing diffoscope
+[2023-07-14 00:46:35] INFO root fetch - processPackages [torscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torscrape-0.1.14.tar.gz tmp/torscrape-0.1.15.tar.gz --markdown 20230714/t/torscrape/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-07-14 00:46:35] INFO root fetch - processPackages [trycortex]: executing diffoscope
+[2023-07-14 00:46:35] INFO root fetch - processPackages [trycortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycortex-1.0.2.tar.gz tmp/trycortex-1.0.3.tar.gz --markdown 20230714/t/trycortex/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-14 00:46:35] INFO root fetch - processPackages [hydra-zen]: Downloading https://files.pythonhosted.org/packages/86/3d/de492179605f70616f99c02b2d98c9d2e3234d211c4a3c11237fafe66db0/hydra_zen-0.9.1.tar.gz
+[2023-07-14 00:46:35] INFO root fetch - processPackages [torscrape]: Remove: archive file [/home/abi/fetcher/tmp/torscrape-0.1.14.tar.gz]
+[2023-07-14 00:46:35] INFO root fetch - processPackages [torscrape]: Remove: archive file [/home/abi/fetcher/tmp/torscrape-0.1.15.tar.gz]
+[2023-07-14 00:46:35] INFO root fetch - main [MainThread]: End processing [torscrape]: success
+[2023-07-14 00:46:35] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.2.tar.gz]
+[2023-07-14 00:46:35] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.3.tar.gz]
+[2023-07-14 00:46:35] INFO root fetch - main [MainThread]: End processing [trycortex]: success
+[2023-07-14 00:46:35] INFO root fetch - processPackages [hydra-zen]: executing diffoscope
+[2023-07-14 00:46:35] INFO root fetch - processPackages [hydra-zen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra_zen-0.9.0rc5.tar.gz tmp/hydra_zen-0.9.1.tar.gz --markdown 20230714/h/hydra-zen/0.9.0rc5-0.9.1/diff.md --exclude *.pyd
+[2023-07-14 00:46:37] INFO root fetch - processPackages [hydra-zen]: Remove: archive file [/home/abi/fetcher/tmp/hydra_zen-0.9.0rc5.tar.gz]
+[2023-07-14 00:46:37] INFO root fetch - processPackages [hydra-zen]: Remove: archive file [/home/abi/fetcher/tmp/hydra_zen-0.9.1.tar.gz]
+[2023-07-14 00:46:37] INFO root fetch - main [MainThread]: End processing [hydra-zen]: success
+[2023-07-14 00:46:37] INFO root fetch - main [MainThread]: Store serial: [18881491]
