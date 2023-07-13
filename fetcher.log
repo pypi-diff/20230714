@@ -294,3 +294,141 @@
 [2023-07-14 00:15:20] INFO root fetch - processPackages [plone.app.z3cform]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.z3cform-4.3.0.tar.gz]
 [2023-07-14 00:15:20] INFO root fetch - main [MainThread]: End processing [plone.app.z3cform]: success
 [2023-07-14 00:15:20] INFO root fetch - main [MainThread]: Store serial: [18881294]
+[2023-07-14 00:20:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881294]
+[2023-07-14 00:20:29] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-14 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: btconfig
+[2023-07-14 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Products.statusmessages
+[2023-07-14 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thirdai
+[2023-07-14 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: general-superstaq
+[2023-07-14 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-core
+[2023-07-14 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qiskit-superstaq
+[2023-07-14 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-runtime
+[2023-07-14 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-embed
+[2023-07-14 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq-superstaq
+[2023-07-14 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flet
+[2023-07-14 00:20:29] INFO root fetch - processPackages [general-superstaq]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-14 00:20:29] INFO root fetch - processPackages [qiskit-superstaq]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-14 00:20:29] INFO root fetch - processPackages [btconfig]: New version: [4.4.6] Old Version: [4.4.5]
+[2023-07-14 00:20:29] INFO root fetch - processPackages [Products.statusmessages]: New version: [5.0.6] Old Version: [5.0.5]
+[2023-07-14 00:20:29] INFO root fetch - processPackages [cirq-superstaq]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-14 00:20:29] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0.dev1617] Old Version: [0.9.0.dev1616]
+[2023-07-14 00:20:29] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0.dev1617] Old Version: [0.9.0.dev1616]
+[2023-07-14 00:20:29] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1617] Old Version: [0.9.0.dev1616]
+[2023-07-14 00:20:29] INFO root fetch - processPackages [thirdai]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-14 00:20:29] INFO root fetch - processPackages [flet]: New version: [0.9.0.dev1617] Old Version: [0.9.0.dev1616]
+[2023-07-14 00:20:29] INFO root fetch - processPackages [btconfig]: Downloading https://files.pythonhosted.org/packages/44/4e/9f959facc860d470587566f663b41845f565a933d5dcd4447e678dd3fa89/btconfig-4.4.5.tar.gz
+[2023-07-14 00:20:29] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/f2/d3/d4f661302759caa31daab6013a2ca6b321a048a93109f357105b8358b1dd/flet_runtime-0.9.0.dev1616.tar.gz
+[2023-07-14 00:20:29] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/ed/4b/d3c47a5b146cb8da153a2c37a68ddb1847848653de284114368af57ed167/flet_core-0.9.0.dev1616.tar.gz
+[2023-07-14 00:20:29] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/73/71/ae7a885789cc801863cd492659d544659433a633c22f9048c0407da16de9/flet-0.9.0.dev1616.tar.gz
+[2023-07-14 00:20:29] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/28/ba/50e31c23bba2efa5862cfdbe97b4d4d69eb09203d3873f1f02c28a577ed4/general_superstaq-0.4.4-py3-none-any.whl
+[2023-07-14 00:20:29] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/8a/73/d18a1bdb27344cb60108933478502489141ca1d8ef36c94472157c254065/qiskit_superstaq-0.4.4-py3-none-any.whl
+[2023-07-14 00:20:29] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/ac/0e/fa086e8c0fd411d23f8867c59587823bf56b2624c827218174ac9e86eafa/cirq_superstaq-0.4.4-py3-none-any.whl
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/90/b9/c28b3153d94a9b7098f417e050f9fcc38776d85d0209aeb85319840eae96/flet_embed-0.9.0.dev1616.tar.gz
+[2023-07-14 00:20:30] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/b1/12/b896a0b4f98dbe96f4ba4bdb06dc51f9422b0d113ed60f040dabf1d8fa3a/thirdai-0.7.8-cp39-cp39-win_amd64.whl
+[2023-07-14 00:20:30] INFO root fetch - processPackages [Products.statusmessages]: Downloading https://files.pythonhosted.org/packages/32/85/10152bb865031a318b95ae0b2249fbe86f07cd3ea7955022c80c3921c4e1/Products.statusmessages-5.0.5.tar.gz
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/20/33/b1d7b8f921de54605206761ccb2151aa4055bb7507ed521d9e074fca2a42/flet_runtime-0.9.0.dev1617.tar.gz
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/b0/bb/33fd8e3bc7fdce5bae75553dd29799e3c7d5010d27bb2432e38b7d586b5c/flet_core-0.9.0.dev1617.tar.gz
+[2023-07-14 00:20:30] INFO root fetch - processPackages [btconfig]: Downloading https://files.pythonhosted.org/packages/0c/cd/81355615e0bf9e903ac1f6e8bf7a0ce257188849ae415bd4be1b4b0978a2/btconfig-4.4.6.tar.gz
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/c6/86/403672958b94ed6a7b6da0aa4e5c1887c7dd8701c6701c47c79b73f7a96e/flet_embed-0.9.0.dev1617.tar.gz
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.9.0.dev1616.tar.gz tmp/flet_runtime-0.9.0.dev1617.tar.gz --markdown 20230714/f/flet-runtime/0.9.0.dev1616-0.9.0.dev1617/diff.md --exclude *.pyd
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/1e/ac/fd9a5767728b6aebf19b39f08333de44ebcc8bbaa36c51289cc1d94bb543/flet-0.9.0.dev1617.tar.gz
+[2023-07-14 00:20:30] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/e9/91/c2052bc272be4435d34348eac195cce0207c6c0f904f2bce2fd1ac9fad8d/general_superstaq-0.4.5-py3-none-any.whl
+[2023-07-14 00:20:30] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/dc/80/eafa6e2bda1ceed21284ee36f4dfd373ad208d30a559836f759550cff03d/qiskit_superstaq-0.4.5-py3-none-any.whl
+[2023-07-14 00:20:30] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/72/ee/30ac24e841194a1898f81fedf65213b45d7faa4d4d4e93476579eb54733c/cirq_superstaq-0.4.5-py3-none-any.whl
+[2023-07-14 00:20:30] INFO root fetch - processPackages [Products.statusmessages]: Downloading https://files.pythonhosted.org/packages/57/04/ca2ad4c51d3e900f75a07b79a74652c88ee866ccc4c9d0ab9be40ea0d20c/Products.statusmessages-5.0.6.tar.gz
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1616.tar.gz tmp/flet_core-0.9.0.dev1617.tar.gz --markdown 20230714/f/flet-core/0.9.0.dev1616-0.9.0.dev1617/diff.md --exclude *.pyd
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.9.0.dev1616.tar.gz tmp/flet_embed-0.9.0.dev1617.tar.gz --markdown 20230714/f/flet-embed/0.9.0.dev1616-0.9.0.dev1617/diff.md --exclude *.pyd
+[2023-07-14 00:20:30] INFO root fetch - processPackages [btconfig]: executing diffoscope
+[2023-07-14 00:20:30] INFO root fetch - processPackages [btconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btconfig-4.4.5.tar.gz tmp/btconfig-4.4.6.tar.gz --markdown 20230714/b/btconfig/4.4.5-4.4.6/diff.md --exclude *.pyd
+[2023-07-14 00:20:30] INFO root fetch - processPackages [general-superstaq]: executing diffoscope
+[2023-07-14 00:20:30] INFO root fetch - processPackages [general-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_superstaq-0.4.4-py3-none-any.whl.zip tmp/general_superstaq-0.4.5-py3-none-any.whl.zip --markdown 20230714/g/general-superstaq/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-14 00:20:30] INFO root fetch - processPackages [qiskit-superstaq]: executing diffoscope
+[2023-07-14 00:20:30] INFO root fetch - processPackages [qiskit-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_superstaq-0.4.4-py3-none-any.whl.zip tmp/qiskit_superstaq-0.4.5-py3-none-any.whl.zip --markdown 20230714/q/qiskit-superstaq/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-14 00:20:30] INFO root fetch - processPackages [cirq-superstaq]: executing diffoscope
+[2023-07-14 00:20:30] INFO root fetch - processPackages [cirq-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_superstaq-0.4.4-py3-none-any.whl.zip tmp/cirq_superstaq-0.4.5-py3-none-any.whl.zip --markdown 20230714/c/cirq-superstaq/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-14 00:20:30] INFO root fetch - processPackages [Products.statusmessages]: executing diffoscope
+[2023-07-14 00:20:30] INFO root fetch - processPackages [Products.statusmessages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.statusmessages-5.0.5.tar.gz tmp/Products.statusmessages-5.0.6.tar.gz --markdown 20230714/P/Products.statusmessages/5.0.5-5.0.6/diff.md --exclude *.pyd
+[2023-07-14 00:20:30] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/8b/6d/f4bf727538b7c529fb99b293a68c5d32b9abf781998bb6f3c117f307ab47/thirdai-0.7.9-cp39-cp39-win_amd64.whl
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-07-14 00:20:30] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.9.0.dev1616.tar.gz tmp/flet-0.9.0.dev1617.tar.gz --markdown 20230714/f/flet/0.9.0.dev1616-0.9.0.dev1617/diff.md --exclude *.pyd
+[2023-07-14 00:20:31] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2023-07-14 00:20:31] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230714/t/thirdai/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-14 00:20:31] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1616.tar.gz]
+[2023-07-14 00:20:31] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1617.tar.gz]
+[2023-07-14 00:20:31] INFO root fetch - processPackages [flet-runtime]: Start processing: Supermarq
+[2023-07-14 00:20:31] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-07-14 00:20:32] INFO root fetch - processPackages [Supermarq]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [Supermarq]: Downloading https://files.pythonhosted.org/packages/b3/08/4504cd61a572c4f21e22c34b2d09ee8fbcb7b64aa96d3fcaa4709f6dff99/Supermarq-0.4.4-py3-none-any.whl
+[2023-07-14 00:20:32] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1616.tar.gz]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1617.tar.gz]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [flet-embed]: Start processing: semgrep
+[2023-07-14 00:20:32] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-07-14 00:20:32] INFO root fetch - processPackages [Products.statusmessages]: Remove: archive file [/home/abi/fetcher/tmp/Products.statusmessages-5.0.5.tar.gz]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [Products.statusmessages]: Remove: archive file [/home/abi/fetcher/tmp/Products.statusmessages-5.0.6.tar.gz]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [Products.statusmessages]: Start processing: stripe
+[2023-07-14 00:20:32] INFO root fetch - main [MainThread]: End processing [Products.statusmessages]: success
+[2023-07-14 00:20:32] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.4.4-py3-none-any.whl.zip]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.4.5-py3-none-any.whl.zip]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [qiskit-superstaq]: Start processing: flet-pyodide
+[2023-07-14 00:20:32] INFO root fetch - main [MainThread]: End processing [qiskit-superstaq]: success
+[2023-07-14 00:20:32] INFO root fetch - processPackages [btconfig]: Remove: archive file [/home/abi/fetcher/tmp/btconfig-4.4.5.tar.gz]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [btconfig]: Remove: archive file [/home/abi/fetcher/tmp/btconfig-4.4.6.tar.gz]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [btconfig]: Start processing: arviz
+[2023-07-14 00:20:32] INFO root fetch - main [MainThread]: End processing [btconfig]: success
+[2023-07-14 00:20:32] INFO root fetch - processPackages [stripe]: New version: [5.5.0b5] Old Version: [5.5.0b4]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [semgrep]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [flet-pyodide]: New version: [0.9.0.dev1617] Old Version: [0.9.0.dev1616]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.4.4-py3-none-any.whl.zip]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.4.5-py3-none-any.whl.zip]
+[2023-07-14 00:20:32] INFO root fetch - main [MainThread]: End processing [cirq-superstaq]: success
+[2023-07-14 00:20:32] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.4.4-py3-none-any.whl.zip]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.4.5-py3-none-any.whl.zip]
+[2023-07-14 00:20:32] INFO root fetch - main [MainThread]: End processing [general-superstaq]: success
+[2023-07-14 00:20:32] INFO root fetch - processPackages [arviz]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [Supermarq]: Downloading https://files.pythonhosted.org/packages/9a/09/b0373573b028c7433af76f174fd2f6e85bf40a3bf792343469f4fb52b9f1/Supermarq-0.4.5-py3-none-any.whl
+[2023-07-14 00:20:32] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/5d/22/9a0e1add11ceff5d0bdcb1dd33987ec063edffcdd94126d9d7ff0dad1291/flet_pyodide-0.9.0.dev1616.tar.gz
+[2023-07-14 00:20:32] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/e8/01/19545ddda759ac5490b06824be79cc94ba77a16ead929171b99d0a246bad/semgrep-1.8.0.tar.gz
+[2023-07-14 00:20:32] INFO root fetch - processPackages [arviz]: Downloading https://files.pythonhosted.org/packages/1a/2c/99c1f8eac5fc330f068cd9158ac7f000e9e9fe6f73c6bd267526deadd805/arviz-0.8.3.tar.gz
+[2023-07-14 00:20:32] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/a7/73/f4e8ee3d94299f7c0cb5673c480ca76a9862853f7389c5c3493debd2eb0d/stripe-5.5.0b4.tar.gz
+[2023-07-14 00:20:32] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1616.tar.gz]
+[2023-07-14 00:20:32] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1617.tar.gz]
+[2023-07-14 00:20:32] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-07-14 00:20:32] INFO root fetch - processPackages [Supermarq]: executing diffoscope
+[2023-07-14 00:20:32] INFO root fetch - processPackages [Supermarq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Supermarq-0.4.4-py3-none-any.whl.zip tmp/Supermarq-0.4.5-py3-none-any.whl.zip --markdown 20230714/S/Supermarq/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-14 00:20:33] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 00:20:33] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 00:20:33] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2023-07-14 00:20:33] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/36/69/efbbf5c8365207bdac7ceb3ca259be2110c55aa075df34940bb878aa350c/flet_pyodide-0.9.0.dev1617.tar.gz
+[2023-07-14 00:20:33] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-07-14 00:20:33] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.9.0.dev1616.tar.gz tmp/flet_pyodide-0.9.0.dev1617.tar.gz --markdown 20230714/f/flet-pyodide/0.9.0.dev1616-0.9.0.dev1617/diff.md --exclude *.pyd
+[2023-07-14 00:20:33] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/12/af/0a47e763c64cabed18cbe1b3212afd921a364e7ee03864b714205fee408a/stripe-5.5.0b5.tar.gz
+[2023-07-14 00:20:33] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1616.tar.gz]
+[2023-07-14 00:20:33] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1617.tar.gz]
+[2023-07-14 00:20:33] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-07-14 00:20:33] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/36/c5/83e730de608ee46ac2e59871a9d5b8ab500f02215a25a3ed6300916d796f/semgrep-1.9.0.tar.gz
+[2023-07-14 00:20:33] INFO root fetch - processPackages [semgrep]: executing diffoscope
+[2023-07-14 00:20:33] INFO root fetch - processPackages [semgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semgrep-1.8.0.tar.gz tmp/semgrep-1.9.0.tar.gz --markdown 20230714/s/semgrep/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 00:20:33] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2023-07-14 00:20:33] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-5.5.0b4.tar.gz tmp/stripe-5.5.0b5.tar.gz --markdown 20230714/s/stripe/5.5.0b4-5.5.0b5/diff.md --exclude *.pyd
+[2023-07-14 00:20:33] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.4.4-py3-none-any.whl.zip]
+[2023-07-14 00:20:33] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.4.5-py3-none-any.whl.zip]
+[2023-07-14 00:20:33] INFO root fetch - main [MainThread]: End processing [Supermarq]: success
+[2023-07-14 00:20:34] INFO root fetch - processPackages [arviz]: Downloading https://files.pythonhosted.org/packages/7c/07/db363f873ca48e272363836a0e8bf3e02b4ea393ec0449398e82526aa16e/arviz-0.9.0.tar.gz
+[2023-07-14 00:20:34] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1616.tar.gz]
+[2023-07-14 00:20:34] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1617.tar.gz]
+[2023-07-14 00:20:34] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-07-14 00:20:34] INFO root fetch - processPackages [arviz]: executing diffoscope
+[2023-07-14 00:20:34] INFO root fetch - processPackages [arviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arviz-0.8.3.tar.gz tmp/arviz-0.9.0.tar.gz --markdown 20230714/a/arviz/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 00:20:34] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.8.0.tar.gz]
+[2023-07-14 00:20:34] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.9.0.tar.gz]
+[2023-07-14 00:20:34] INFO root fetch - main [MainThread]: End processing [semgrep]: success
+[2023-07-14 00:20:35] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-5.5.0b4.tar.gz]
+[2023-07-14 00:20:35] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-5.5.0b5.tar.gz]
+[2023-07-14 00:20:35] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2023-07-14 00:20:36] INFO root fetch - processPackages [arviz]: Remove: archive file [/home/abi/fetcher/tmp/arviz-0.8.3.tar.gz]
+[2023-07-14 00:20:36] INFO root fetch - processPackages [arviz]: Remove: archive file [/home/abi/fetcher/tmp/arviz-0.9.0.tar.gz]
+[2023-07-14 00:20:36] INFO root fetch - main [MainThread]: End processing [arviz]: success
+[2023-07-14 00:20:36] INFO root fetch - main [MainThread]: Store serial: [18881359]
