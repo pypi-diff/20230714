@@ -531,3 +531,117 @@
 [2023-07-14 00:31:00] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2023-07-14 00:31:00] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-07-14 00:31:00] INFO root fetch - main [MainThread]: Store serial: [18881393]
+[2023-07-14 00:36:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881393]
+[2023-07-14 00:36:08] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-14 00:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assemblyline-service-client
+[2023-07-14 00:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assemblyline-service-server
+[2023-07-14 00:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assemblyline-ui
+[2023-07-14 00:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-v4-service
+[2023-07-14 00:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline
+[2023-07-14 00:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-core
+[2023-07-14 00:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adafri
+[2023-07-14 00:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydantic-geojson
+[2023-07-14 00:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sweepai
+[2023-07-14 00:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PlanaPY
+[2023-07-14 00:36:08] INFO root fetch - processPackages [pydantic-geojson]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-14 00:36:08] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-14 00:36:08] INFO root fetch - processPackages [adafri]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-07-14 00:36:08] INFO root fetch - processPackages [PlanaPY]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-14 00:36:08] INFO root fetch - processPackages [sweepai]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-14 00:36:08] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-14 00:36:08] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-14 00:36:08] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-14 00:36:08] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-14 00:36:08] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/f4/1b/8246f048606c79bfb0a8eaf5fcd4af8f1f0ac064e908fcadbdd5567eaef1/adafri-0.0.18.tar.gz
+[2023-07-14 00:36:08] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-07-14 00:36:08] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-14 00:36:09] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/98/60/05ead0098b093290acfda54c3d898db303f95681942efdabbc7b54d5aaa7/sweepai-0.4.2.tar.gz
+[2023-07-14 00:36:09] INFO root fetch - processPackages [pydantic-geojson]: Downloading https://files.pythonhosted.org/packages/7e/f8/5489a69e54f8e427cd002a8521655b02802cc14d47903a8228fd5b3e83d0/pydantic_geojson-0.1.0.tar.gz
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-07-14 00:36:09] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/b6/39/76178870d4023622f703332e1baf4d0293d6c30e81367b6a0004597807df/PlanaPY-0.2.7.tar.gz
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-07-14 00:36:09] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/6c/2e/fda687bf524da0a45afa9011018fc4bdefb9aeb7094de1b246e59ef75a63/adafri-0.0.19.tar.gz
+[2023-07-14 00:36:09] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/f9/fa/084a23c29f3d1cacffe10a7d6f178323e440f7e16cd10e6dbefb8ac78c8c/sweepai-0.4.3.tar.gz
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230714/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-14 00:36:09] INFO root fetch - processPackages [pydantic-geojson]: Downloading https://files.pythonhosted.org/packages/79/f7/be6bd14a8fbf22e25a15af2ec0b1f1bb5fdec87a402133962b82713a8be8/pydantic_geojson-0.1.1.tar.gz
+[2023-07-14 00:36:09] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/53/54/1bb34891a7f9244725d92e9926dbed88ba28fc0a9ccfd1684378aca9ae14/PlanaPY-0.2.8.tar.gz
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-07-14 00:36:09] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-14 00:36:09] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.18.tar.gz tmp/adafri-0.0.19.tar.gz --markdown 20230714/a/adafri/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-07-14 00:36:09] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-14 00:36:09] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.4.2.tar.gz tmp/sweepai-0.4.3.tar.gz --markdown 20230714/s/sweepai/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-07-14 00:36:09] INFO root fetch - processPackages [pydantic-geojson]: executing diffoscope
+[2023-07-14 00:36:09] INFO root fetch - processPackages [pydantic-geojson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_geojson-0.1.0.tar.gz tmp/pydantic_geojson-0.1.1.tar.gz --markdown 20230714/p/pydantic-geojson/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230714/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-14 00:36:09] INFO root fetch - processPackages [PlanaPY]: executing diffoscope
+[2023-07-14 00:36:09] INFO root fetch - processPackages [PlanaPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlanaPY-0.2.7.tar.gz tmp/PlanaPY-0.2.8.tar.gz --markdown 20230714/P/PlanaPY/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230714/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-07-14 00:36:09] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230714/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-14 00:36:10] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-07-14 00:36:10] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230714/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-14 00:36:10] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-07-14 00:36:10] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230714/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-14 00:36:11] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.18.tar.gz]
+[2023-07-14 00:36:11] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.tar.gz]
+[2023-07-14 00:36:11] INFO root fetch - processPackages [adafri]: Start processing: whoi-uwapm
+[2023-07-14 00:36:11] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-14 00:36:11] INFO root fetch - processPackages [whoi-uwapm]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-14 00:36:11] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-07-14 00:36:11] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-07-14 00:36:11] INFO root fetch - processPackages [assemblyline-core]: Start processing: bcamp-dl
+[2023-07-14 00:36:11] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-07-14 00:36:11] WARNING root fetch - processPackages [bcamp-dl]: Skipping, unable to determine old version
+[2023-07-14 00:36:11] INFO root fetch - processPackages [bcamp-dl]: Start processing: prog-models
+[2023-07-14 00:36:11] INFO root fetch - main [MainThread]: End processing [bcamp-dl] error
+[2023-07-14 00:36:11] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-14 00:36:11] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-14 00:36:11] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-07-14 00:36:11] INFO root fetch - processPackages [prog-models]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-14 00:36:11] INFO root fetch - processPackages [pydantic-geojson]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_geojson-0.1.0.tar.gz]
+[2023-07-14 00:36:11] INFO root fetch - processPackages [pydantic-geojson]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_geojson-0.1.1.tar.gz]
+[2023-07-14 00:36:11] INFO root fetch - main [MainThread]: End processing [pydantic-geojson]: success
+[2023-07-14 00:36:11] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.2.7.tar.gz]
+[2023-07-14 00:36:11] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.2.8.tar.gz]
+[2023-07-14 00:36:11] INFO root fetch - main [MainThread]: End processing [PlanaPY]: success
+[2023-07-14 00:36:11] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-14 00:36:11] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-14 00:36:11] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-14 00:36:11] INFO root fetch - processPackages [whoi-uwapm]: Downloading https://files.pythonhosted.org/packages/4b/49/c1b56bf750dd54f8fd705b498e9a1c4e95c51578c7dc5adfc37de7529baf/whoi_uwapm-0.0.1.tar.gz
+[2023-07-14 00:36:11] INFO root fetch - processPackages [prog-models]: Downloading https://files.pythonhosted.org/packages/96/ef/0676423dd2b1ba36cb2721a9732bb8155353b89192e8d87c5e73c821962c/prog_models-1.5.1.tar.gz
+[2023-07-14 00:36:11] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.2.tar.gz]
+[2023-07-14 00:36:11] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.3.tar.gz]
+[2023-07-14 00:36:11] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-14 00:36:11] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-14 00:36:11] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-14 00:36:11] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-07-14 00:36:12] INFO root fetch - processPackages [whoi-uwapm]: Downloading https://files.pythonhosted.org/packages/de/00/b0694865a6fb3bbb3837c3298d1d7060c5ffac9021daa2ddacd3d858d8fc/whoi_uwapm-0.0.2.tar.gz
+[2023-07-14 00:36:12] INFO root fetch - processPackages [prog-models]: Downloading https://files.pythonhosted.org/packages/08/8f/91d148f8b79a7aea1be3ddb256af7e1b57d414b1aebabe81bed659ed28d1/prog_models-1.5.2.tar.gz
+[2023-07-14 00:36:12] INFO root fetch - processPackages [prog-models]: executing diffoscope
+[2023-07-14 00:36:12] INFO root fetch - processPackages [prog-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prog_models-1.5.1.tar.gz tmp/prog_models-1.5.2.tar.gz --markdown 20230714/p/prog-models/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-14 00:36:12] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-07-14 00:36:12] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-07-14 00:36:12] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-07-14 00:36:12] INFO root fetch - processPackages [whoi-uwapm]: executing diffoscope
+[2023-07-14 00:36:12] INFO root fetch - processPackages [whoi-uwapm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoi_uwapm-0.0.1.tar.gz tmp/whoi_uwapm-0.0.2.tar.gz --markdown 20230714/w/whoi-uwapm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-14 00:36:12] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-14 00:36:12] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-14 00:36:12] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-07-14 00:36:13] INFO root fetch - processPackages [prog-models]: Remove: archive file [/home/abi/fetcher/tmp/prog_models-1.5.1.tar.gz]
+[2023-07-14 00:36:13] INFO root fetch - processPackages [prog-models]: Remove: archive file [/home/abi/fetcher/tmp/prog_models-1.5.2.tar.gz]
+[2023-07-14 00:36:13] INFO root fetch - main [MainThread]: End processing [prog-models]: success
+[2023-07-14 00:36:13] INFO root fetch - processPackages [whoi-uwapm]: Remove: archive file [/home/abi/fetcher/tmp/whoi_uwapm-0.0.1.tar.gz]
+[2023-07-14 00:36:13] INFO root fetch - processPackages [whoi-uwapm]: Remove: archive file [/home/abi/fetcher/tmp/whoi_uwapm-0.0.2.tar.gz]
+[2023-07-14 00:36:13] INFO root fetch - main [MainThread]: End processing [whoi-uwapm]: success
+[2023-07-14 00:36:13] INFO root fetch - main [MainThread]: Store serial: [18881437]
