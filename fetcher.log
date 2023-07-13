@@ -1458,3 +1458,90 @@
 [2023-07-14 01:33:55] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2023-07-14 01:33:55] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-07-14 01:33:55] INFO root fetch - main [MainThread]: Store serial: [18881743]
+[2023-07-14 01:38:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881743]
+[2023-07-14 01:39:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-14 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-br-repair
+[2023-07-14 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyapp-flow
+[2023-07-14 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyThreadFlow
+[2023-07-14 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: visionscript
+[2023-07-14 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bus-station
+[2023-07-14 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azuredevopsX
+[2023-07-14 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ontoenv
+[2023-07-14 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funpymodeling
+[2023-07-14 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pathgenmap
+[2023-07-14 01:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dequeai
+[2023-07-14 01:39:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: New version: [14.0.1.1.2.dev2] Old Version: [14.0.1.1.2]
+[2023-07-14 01:39:04] INFO root fetch - processPackages [dequeai]: New version: [0.8236] Old Version: [0.8234]
+[2023-07-14 01:39:04] INFO root fetch - processPackages [visionscript]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-14 01:39:04] WARNING root fetch - processPackages [PyThreadFlow]: Skipping, unable to determine old version
+[2023-07-14 01:39:04] INFO root fetch - main [MainThread]: End processing [PyThreadFlow] error
+[2023-07-14 01:39:04] INFO root fetch - processPackages [pyapp-flow]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-14 01:39:04] INFO root fetch - processPackages [bus-station]: New version: [7.0.0] Old Version: [6.1.3]
+[2023-07-14 01:39:04] INFO root fetch - processPackages [azuredevopsX]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-07-14 01:39:04] INFO root fetch - processPackages [ontoenv]: New version: [0.3.7a1] Old Version: [0.3.6]
+[2023-07-14 01:39:04] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-14 01:39:04] INFO root fetch - processPackages [funpymodeling]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-14 01:39:04] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/d8/86/ffcd761e598a02ec64138f90695a6f0f9d0f08cb5bbe8f38e404c46af385/dequeai-0.8234.tar.gz
+[2023-07-14 01:39:04] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/9b/d1/4dea391874d575cddeb2168a336277d4af1c787827de72f21c649d650063/pathgenmap-0.0.2.tar.gz
+[2023-07-14 01:39:04] INFO root fetch - processPackages [bus-station]: Downloading https://files.pythonhosted.org/packages/74/38/26a7c29fa1e32dd24748afa5177ae9854d4037de23d375f0514beb911e87/bus_station-6.1.3.tar.gz
+[2023-07-14 01:39:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Downloading https://files.pythonhosted.org/packages/a6/2e/0c349604474e95f7d6bd25ae4726f80496fdd9def580e92108904b9c34e2/odoo14_addon_l10n_br_repair-14.0.1.1.2-py3-none-any.whl
+[2023-07-14 01:39:04] INFO root fetch - processPackages [pyapp-flow]: Downloading https://files.pythonhosted.org/packages/53/87/1efc290f9bb68a9cceff43028608a3e89fcd1f6119434010259c73294707/pyapp-flow-0.8.0.tar.gz
+[2023-07-14 01:39:05] INFO root fetch - processPackages [ontoenv]: Downloading https://files.pythonhosted.org/packages/29/56/6170be9408c2ffb0b01e151b7d714c7077663f27fb7aa088cf0af1da21d9/ontoenv-0.3.6.tar.gz
+[2023-07-14 01:39:05] INFO root fetch - processPackages [azuredevopsX]: Downloading https://files.pythonhosted.org/packages/f6/bd/14e77860d775b65584131f628433c2e4120866f032ec953c766a33b8d572/azuredevopsX-0.0.17.tar.gz
+[2023-07-14 01:39:05] INFO root fetch - processPackages [visionscript]: Downloading https://files.pythonhosted.org/packages/f9/5d/027150bae2498c80287e95e206d339ce211c09b9c94505e4cb7211f7af39/visionscript-0.0.3.tar.gz
+[2023-07-14 01:39:05] INFO root fetch - processPackages [funpymodeling]: Downloading https://files.pythonhosted.org/packages/8c/0e/65d72cd451c60689510bce6bd5e2c6e90d4eb2af419788f918e455fc67ae/funpymodeling-0.1.7.tar.gz
+[2023-07-14 01:39:05] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/41/26/4844b31921d0cad2ddf86ce2e4d3060561e130a09bc304c92952ed1683f8/dequeai-0.8236.tar.gz
+[2023-07-14 01:39:05] INFO root fetch - processPackages [bus-station]: Downloading https://files.pythonhosted.org/packages/06/b0/dd548ae201607e2e464d4cac9e259fd8f8ecb077baa1d6bc037a93e8d30d/bus_station-7.0.0.tar.gz
+[2023-07-14 01:39:05] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/9e/90/8a966265e6c0266909650f42cf9c228f7b5a31b045ca4b77da9913e5cb2a/pathgenmap-0.0.3.tar.gz
+[2023-07-14 01:39:05] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-07-14 01:39:05] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.8234.tar.gz tmp/dequeai-0.8236.tar.gz --markdown 20230714/d/dequeai/0.8234-0.8236/diff.md --exclude *.pyd
+[2023-07-14 01:39:05] INFO root fetch - processPackages [ontoenv]: Downloading https://files.pythonhosted.org/packages/2d/60/4a272c3a9c7f0d27b18cb92851562cc44e8e25bd258ec05f70808f3a2ffa/ontoenv-0.3.7a1.tar.gz
+[2023-07-14 01:39:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Downloading https://files.pythonhosted.org/packages/55/b1/2ad617fd1d00798e4ab713d22315ab95b7f5925225a76e719989f93283f8/odoo14_addon_l10n_br_repair-14.0.1.1.2.dev2-py3-none-any.whl
+[2023-07-14 01:39:05] INFO root fetch - processPackages [pyapp-flow]: Downloading https://files.pythonhosted.org/packages/76/0a/afcf5faf502ffe35479eb84cff6e0526f4e49c11a766c2290b8543a65f75/pyapp-flow-0.9.0.tar.gz
+[2023-07-14 01:39:05] INFO root fetch - processPackages [bus-station]: executing diffoscope
+[2023-07-14 01:39:05] INFO root fetch - processPackages [bus-station]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_station-6.1.3.tar.gz tmp/bus_station-7.0.0.tar.gz --markdown 20230714/b/bus-station/6.1.3-7.0.0/diff.md --exclude *.pyd
+[2023-07-14 01:39:05] INFO root fetch - processPackages [funpymodeling]: Downloading https://files.pythonhosted.org/packages/25/4f/73c68ff112caa3b96592194d63ffe2995ea6222b7f1c984947306e9ec90c/funpymodeling-0.1.8.tar.gz
+[2023-07-14 01:39:05] INFO root fetch - processPackages [visionscript]: Downloading https://files.pythonhosted.org/packages/ce/35/2e9c8921e2fecbb6da1d15865e62d7ebf58144ad02d68ac332cb447321c6/visionscript-0.0.4.tar.gz
+[2023-07-14 01:39:05] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-14 01:39:05] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.2.tar.gz tmp/pathgenmap-0.0.3.tar.gz --markdown 20230714/p/pathgenmap/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 01:39:05] INFO root fetch - processPackages [azuredevopsX]: Downloading https://files.pythonhosted.org/packages/3b/b8/3f091c0ea7f85dcb07385576f098d6e103f65d1a0bfe8de4e5a637444a72/azuredevopsX-0.0.18-py3-none-any.whl
+[2023-07-14 01:39:05] INFO root fetch - processPackages [pyapp-flow]: executing diffoscope
+[2023-07-14 01:39:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: executing diffoscope
+[2023-07-14 01:39:05] INFO root fetch - processPackages [pyapp-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapp-flow-0.8.0.tar.gz tmp/pyapp-flow-0.9.0.tar.gz --markdown 20230714/p/pyapp-flow/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 01:39:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_repair-14.0.1.1.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_repair-14.0.1.1.2.dev2-py3-none-any.whl.zip --markdown 20230714/o/odoo14-addon-l10n-br-repair/14.0.1.1.2-14.0.1.1.2.dev2/diff.md --exclude *.pyd
+[2023-07-14 01:39:05] INFO root fetch - processPackages [funpymodeling]: executing diffoscope
+[2023-07-14 01:39:05] INFO root fetch - processPackages [funpymodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funpymodeling-0.1.7.tar.gz tmp/funpymodeling-0.1.8.tar.gz --markdown 20230714/f/funpymodeling/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-14 01:39:05] INFO root fetch - processPackages [ontoenv]: executing diffoscope
+[2023-07-14 01:39:05] INFO root fetch - processPackages [ontoenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontoenv-0.3.6.tar.gz tmp/ontoenv-0.3.7a1.tar.gz --markdown 20230714/o/ontoenv/0.3.6-0.3.7a1/diff.md --exclude *.pyd
+[2023-07-14 01:39:05] INFO root fetch - processPackages [azuredevopsX]: executing diffoscope
+[2023-07-14 01:39:05] INFO root fetch - processPackages [azuredevopsX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azuredevopsX-0.0.17.tar.gz tmp/azuredevopsX-0.0.18-py3-none-any.whl.zip --markdown 20230714/a/azuredevopsX/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-07-14 01:39:05] INFO root fetch - processPackages [visionscript]: executing diffoscope
+[2023-07-14 01:39:05] INFO root fetch - processPackages [visionscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionscript-0.0.3.tar.gz tmp/visionscript-0.0.4.tar.gz --markdown 20230714/v/visionscript/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-14 01:39:06] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.8234.tar.gz]
+[2023-07-14 01:39:06] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.8236.tar.gz]
+[2023-07-14 01:39:06] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-07-14 01:39:06] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.2.tar.gz]
+[2023-07-14 01:39:06] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.3.tar.gz]
+[2023-07-14 01:39:06] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-14 01:39:07] INFO root fetch - processPackages [ontoenv]: Remove: archive file [/home/abi/fetcher/tmp/ontoenv-0.3.6.tar.gz]
+[2023-07-14 01:39:07] INFO root fetch - processPackages [ontoenv]: Remove: archive file [/home/abi/fetcher/tmp/ontoenv-0.3.7a1.tar.gz]
+[2023-07-14 01:39:07] INFO root fetch - main [MainThread]: End processing [ontoenv]: success
+[2023-07-14 01:39:07] INFO root fetch - processPackages [azuredevopsX]: Remove: archive file [/home/abi/fetcher/tmp/azuredevopsX-0.0.17.tar.gz]
+[2023-07-14 01:39:07] INFO root fetch - processPackages [azuredevopsX]: Remove: archive file [/home/abi/fetcher/tmp/azuredevopsX-0.0.18-py3-none-any.whl.zip]
+[2023-07-14 01:39:07] INFO root fetch - main [MainThread]: End processing [azuredevopsX]: success
+[2023-07-14 01:39:07] INFO root fetch - processPackages [funpymodeling]: Remove: archive file [/home/abi/fetcher/tmp/funpymodeling-0.1.7.tar.gz]
+[2023-07-14 01:39:07] INFO root fetch - processPackages [funpymodeling]: Remove: archive file [/home/abi/fetcher/tmp/funpymodeling-0.1.8.tar.gz]
+[2023-07-14 01:39:07] INFO root fetch - main [MainThread]: End processing [funpymodeling]: success
+[2023-07-14 01:39:07] INFO root fetch - processPackages [pyapp-flow]: Remove: archive file [/home/abi/fetcher/tmp/pyapp-flow-0.8.0.tar.gz]
+[2023-07-14 01:39:07] INFO root fetch - processPackages [pyapp-flow]: Remove: archive file [/home/abi/fetcher/tmp/pyapp-flow-0.9.0.tar.gz]
+[2023-07-14 01:39:07] INFO root fetch - main [MainThread]: End processing [pyapp-flow]: success
+[2023-07-14 01:39:07] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-6.1.3.tar.gz]
+[2023-07-14 01:39:07] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-7.0.0.tar.gz]
+[2023-07-14 01:39:07] INFO root fetch - main [MainThread]: End processing [bus-station]: success
+[2023-07-14 01:39:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_repair-14.0.1.1.2-py3-none-any.whl.zip]
+[2023-07-14 01:39:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_repair-14.0.1.1.2.dev2-py3-none-any.whl.zip]
+[2023-07-14 01:39:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-repair]: success
+[2023-07-14 01:39:07] INFO root fetch - processPackages [visionscript]: Remove: archive file [/home/abi/fetcher/tmp/visionscript-0.0.3.tar.gz]
+[2023-07-14 01:39:07] INFO root fetch - processPackages [visionscript]: Remove: archive file [/home/abi/fetcher/tmp/visionscript-0.0.4.tar.gz]
+[2023-07-14 01:39:07] INFO root fetch - main [MainThread]: End processing [visionscript]: success
+[2023-07-14 01:39:07] INFO root fetch - main [MainThread]: Store serial: [18881773]
