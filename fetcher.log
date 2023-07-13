@@ -1184,3 +1184,106 @@
 [2023-07-14 01:18:05] INFO root fetch - processPackages [google-cloud-pipeline-components]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_pipeline_components-2.1.0-py3-none-any.whl.zip]
 [2023-07-14 01:18:05] INFO root fetch - main [MainThread]: End processing [google-cloud-pipeline-components]: success
 [2023-07-14 01:18:05] INFO root fetch - main [MainThread]: Store serial: [18881657]
+[2023-07-14 01:23:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881657]
+[2023-07-14 01:23:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-14 01:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foreverbull
+[2023-07-14 01:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: admem
+[2023-07-14 01:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trycortex
+[2023-07-14 01:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-github
+[2023-07-14 01:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unigui
+[2023-07-14 01:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpmoc
+[2023-07-14 01:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cafram
+[2023-07-14 01:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aorta-sirius-dev
+[2023-07-14 01:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: psynet
+[2023-07-14 01:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: auto-installor
+[2023-07-14 01:23:14] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.99.20230610094209] Old Version: [0.0.0.92]
+[2023-07-14 01:23:14] INFO root fetch - processPackages [admem]: New version: [2.4.0] Old Version: [2.3.2]
+[2023-07-14 01:23:14] INFO root fetch - processPackages [psynet]: New version: [9.4.6] Old Version: [9.4.5]
+[2023-07-14 01:23:14] INFO root fetch - processPackages [trycortex]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-14 01:23:14] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 01:23:14] INFO root fetch - processPackages [hpmoc]: New version: [1.0a5] Old Version: [1.0a4]
+[2023-07-14 01:23:14] INFO root fetch - processPackages [auto-installor]: New version: [1.0] Old Version: [0.8]
+[2023-07-14 01:23:14] WARNING root fetch - processPackages [cafram]: Skipping, unable to determine old version
+[2023-07-14 01:23:14] INFO root fetch - processPackages [cafram]: Start processing: auto-installor
+[2023-07-14 01:23:14] INFO root fetch - main [MainThread]: End processing [cafram] error
+[2023-07-14 01:23:14] INFO root fetch - processPackages [unigui]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-07-14 01:23:14] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 01:23:14] INFO root fetch - processPackages [auto-installor]: New version: [1.0] Old Version: [0.8]
+[2023-07-14 01:23:14] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/4d/a1/3c6b1da533e3f0da915fce1ac1ef0573c34926fb9dc11cad4e3a30948413/trycortex-1.0.5.tar.gz
+[2023-07-14 01:23:14] INFO root fetch - processPackages [hpmoc]: Downloading https://files.pythonhosted.org/packages/e7/4c/54dc660a86a16631559445e21c970c0e347fd29ff0a02eef8033f23b7454/hpmoc-1.0a4.tar.gz
+[2023-07-14 01:23:14] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-14 01:23:14] INFO root fetch - processPackages [admem]: Downloading https://files.pythonhosted.org/packages/91/1b/cd7b755468646e4c508962471431ebb880d5c4f7595cc8cc2591d63e00d3/admem-2.3.2.tar.gz
+[2023-07-14 01:23:14] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-07-14 01:23:14] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/79/17/117211077afe1cc1ecfc94001d6405b98d306a98b5278ae70aef92f96757/unigui-1.8.0.tar.gz
+[2023-07-14 01:23:14] INFO root fetch - processPackages [auto-installor]: Downloading https://files.pythonhosted.org/packages/21/ad/1f97239974b71b15382c7502267d5e871cec7b869e4b258c4f394613d908/auto-installor-0.8.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [auto-installor]: Downloading https://files.pythonhosted.org/packages/21/ad/1f97239974b71b15382c7502267d5e871cec7b869e4b258c4f394613d908/auto-installor-0.8.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [psynet]: Downloading https://files.pythonhosted.org/packages/c1/6f/61b816abab86b0509c098a6d0f8b682f36096e489aaa83ed15eec4773acd/psynet-9.4.5.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/50/6b/da958db2027ccddd87d8c71d8a5d5fae3bf934fcd544f7ba7cd930f3b146/trycortex-1.0.6.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [admem]: Downloading https://files.pythonhosted.org/packages/94/a8/fe9a9799a0c9771b3a37f8ac086a812028065bf7e3a09977c6b9e8d98df1/admem-2.4.0.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [hpmoc]: Downloading https://files.pythonhosted.org/packages/f2/32/caf01de2ef7a0a31d09c54a661cb342afbf94fce12d1cbfec30e58e6fce2/hpmoc-1.0a5.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/6e/c3/cf13499a255fd30c5d6ccd05686ba0af46cbde2f1cb23b7a4e121a7e23ee/foreverbull-0.0.0.99.20230610094209.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/40/cd/30b13de376eadf7a11efd205fed9ca62d0d46def5c35d372b77765301fe1/unigui-1.8.1.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-14 01:23:15] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230714/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 01:23:15] INFO root fetch - processPackages [auto-installor]: Downloading https://files.pythonhosted.org/packages/da/b4/60e572f30d120f5540c75fa27befdeec16b358b7516f0d606d8ca0d81a59/auto-installor-1.0.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [auto-installor]: Downloading https://files.pythonhosted.org/packages/da/b4/60e572f30d120f5540c75fa27befdeec16b358b7516f0d606d8ca0d81a59/auto-installor-1.0.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [trycortex]: executing diffoscope
+[2023-07-14 01:23:15] INFO root fetch - processPackages [trycortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycortex-1.0.5.tar.gz tmp/trycortex-1.0.6.tar.gz --markdown 20230714/t/trycortex/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-14 01:23:15] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [admem]: executing diffoscope
+[2023-07-14 01:23:15] INFO root fetch - processPackages [admem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admem-2.3.2.tar.gz tmp/admem-2.4.0.tar.gz --markdown 20230714/a/admem/2.3.2-2.4.0/diff.md --exclude *.pyd
+[2023-07-14 01:23:15] INFO root fetch - processPackages [psynet]: Downloading https://files.pythonhosted.org/packages/cf/ed/24875d4c65771edeb5c3dd73a4c45ba7007f98d144a9f983f0fca8d9e038/psynet-9.4.6.tar.gz
+[2023-07-14 01:23:15] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-07-14 01:23:15] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.92.tar.gz tmp/foreverbull-0.0.0.99.20230610094209.tar.gz --markdown 20230714/f/foreverbull/0.0.0.92-0.0.0.99.20230610094209/diff.md --exclude *.pyd
+[2023-07-14 01:23:15] INFO root fetch - processPackages [auto-installor]: executing diffoscope
+[2023-07-14 01:23:15] INFO root fetch - processPackages [auto-installor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-installor-0.8.tar.gz tmp/auto-installor-1.0.tar.gz --markdown 20230714/a/auto-installor/0.8-1.0/diff.md --exclude *.pyd
+[2023-07-14 01:23:15] INFO root fetch - processPackages [hpmoc]: executing diffoscope
+[2023-07-14 01:23:15] INFO root fetch - processPackages [hpmoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpmoc-1.0a4.tar.gz tmp/hpmoc-1.0a5.tar.gz --markdown 20230714/h/hpmoc/1.0a4-1.0a5/diff.md --exclude *.pyd
+[2023-07-14 01:23:15] INFO root fetch - processPackages [auto-installor]: executing diffoscope
+[2023-07-14 01:23:15] INFO root fetch - processPackages [auto-installor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-installor-0.8.tar.gz tmp/auto-installor-1.0.tar.gz --markdown 20230714/a/auto-installor/0.8-1.0/diff.md --exclude *.pyd
+[2023-07-14 01:23:15] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-14 01:23:15] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.8.0.tar.gz tmp/unigui-1.8.1.tar.gz --markdown 20230714/u/unigui/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-07-14 01:23:15] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-14 01:23:15] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230714/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 01:23:15] INFO root fetch - processPackages [psynet]: executing diffoscope
+[2023-07-14 01:23:15] INFO root fetch - processPackages [psynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psynet-9.4.5.tar.gz tmp/psynet-9.4.6.tar.gz --markdown 20230714/p/psynet/9.4.5-9.4.6/diff.md --exclude *.pyd
+[2023-07-14 01:23:16] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-14 01:23:16] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-14 01:23:16] INFO root fetch - processPackages [aorta-sirius-dev]: Start processing: reasoner-validator
+[2023-07-14 01:23:16] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-14 01:23:16] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.5.tar.gz]
+[2023-07-14 01:23:16] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.6.tar.gz]
+[2023-07-14 01:23:16] INFO root fetch - main [MainThread]: End processing [trycortex]: success
+[2023-07-14 01:23:17] INFO root fetch - processPackages [reasoner-validator]: New version: [3.7.4] Old Version: [3.7.3]
+[2023-07-14 01:23:17] INFO root fetch - processPackages [auto-installor]: Remove: archive file [/home/abi/fetcher/tmp/auto-installor-0.8.tar.gz]
+[2023-07-14 01:23:17] INFO root fetch - processPackages [auto-installor]: Remove: archive file [/home/abi/fetcher/tmp/auto-installor-1.0.tar.gz]
+[2023-07-14 01:23:17] INFO root fetch - main [MainThread]: End processing [auto-installor]: success
+[2023-07-14 01:23:17] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/36/75/e1e0f2e7860943fe5a63f9b744842b54e896f55c4dabbe5ce2766943c9eb/reasoner_validator-3.7.3.tar.gz
+[2023-07-14 01:23:17] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.92.tar.gz]
+[2023-07-14 01:23:17] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.99.20230610094209.tar.gz]
+[2023-07-14 01:23:17] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-07-14 01:23:17] INFO root fetch - main [MainThread]: End processing [auto-installor]: success
+[2023-07-14 01:23:17] INFO root fetch - processPackages [hpmoc]: Remove: archive file [/home/abi/fetcher/tmp/hpmoc-1.0a4.tar.gz]
+[2023-07-14 01:23:17] INFO root fetch - processPackages [hpmoc]: Remove: archive file [/home/abi/fetcher/tmp/hpmoc-1.0a5.tar.gz]
+[2023-07-14 01:23:17] INFO root fetch - main [MainThread]: End processing [hpmoc]: success
+[2023-07-14 01:23:17] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/f7/38/de04e86c9c8cc59bf5ebdd4a75369e5f3e53ebafd772d79b9b240c6a1616/reasoner_validator-3.7.4.tar.gz
+[2023-07-14 01:23:17] INFO root fetch - processPackages [admem]: Remove: archive file [/home/abi/fetcher/tmp/admem-2.3.2.tar.gz]
+[2023-07-14 01:23:17] INFO root fetch - processPackages [admem]: Remove: archive file [/home/abi/fetcher/tmp/admem-2.4.0.tar.gz]
+[2023-07-14 01:23:17] INFO root fetch - main [MainThread]: End processing [admem]: success
+[2023-07-14 01:23:17] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-14 01:23:17] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-14 01:23:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-14 01:23:17] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-07-14 01:23:17] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.7.3.tar.gz tmp/reasoner_validator-3.7.4.tar.gz --markdown 20230714/r/reasoner-validator/3.7.3-3.7.4/diff.md --exclude *.pyd
+[2023-07-14 01:23:18] INFO root fetch - processPackages [psynet]: Remove: archive file [/home/abi/fetcher/tmp/psynet-9.4.5.tar.gz]
+[2023-07-14 01:23:18] INFO root fetch - processPackages [psynet]: Remove: archive file [/home/abi/fetcher/tmp/psynet-9.4.6.tar.gz]
+[2023-07-14 01:23:18] INFO root fetch - main [MainThread]: End processing [psynet]: success
+[2023-07-14 01:23:18] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.8.0.tar.gz]
+[2023-07-14 01:23:18] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.8.1.tar.gz]
+[2023-07-14 01:23:18] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-14 01:23:18] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.7.3.tar.gz]
+[2023-07-14 01:23:18] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.7.4.tar.gz]
+[2023-07-14 01:23:18] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-07-14 01:23:18] INFO root fetch - main [MainThread]: Store serial: [18881692]
