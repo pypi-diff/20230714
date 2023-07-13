@@ -645,3 +645,74 @@
 [2023-07-14 00:36:13] INFO root fetch - processPackages [whoi-uwapm]: Remove: archive file [/home/abi/fetcher/tmp/whoi_uwapm-0.0.2.tar.gz]
 [2023-07-14 00:36:13] INFO root fetch - main [MainThread]: End processing [whoi-uwapm]: success
 [2023-07-14 00:36:13] INFO root fetch - main [MainThread]: Store serial: [18881437]
+[2023-07-14 00:41:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881437]
+[2023-07-14 00:41:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-14 00:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: market-engine
+[2023-07-14 00:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ocdc
+[2023-07-14 00:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torscrape
+[2023-07-14 00:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pegasusio
+[2023-07-14 00:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whylabs-client
+[2023-07-14 00:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: safe-ds
+[2023-07-14 00:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.cdk-ssm-documents
+[2023-07-14 00:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tungstenkit
+[2023-07-14 00:41:22] INFO root fetch - processPackages [market-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 00:41:22] INFO root fetch - processPackages [ocdc]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-14 00:41:22] INFO root fetch - processPackages [tungstenkit]: New version: [0.1.3.post1] Old Version: [0.1.3]
+[2023-07-14 00:41:22] INFO root fetch - processPackages [torscrape]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-07-14 00:41:22] INFO root fetch - processPackages [whylabs-client]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-14 00:41:22] INFO root fetch - processPackages [safe-ds]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-14 00:41:22] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/f6/0d/7ac4502c57a8f3d8ef62c9c8d62306fde418029433379926a4abef0fe3c2/tungstenkit-0.1.3.tar.gz
+[2023-07-14 00:41:22] INFO root fetch - processPackages [pegasusio]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-14 00:41:22] INFO root fetch - processPackages [cdklabs.cdk-ssm-documents]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-07-14 00:41:22] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-07-14 00:41:22] INFO root fetch - processPackages [ocdc]: Downloading https://files.pythonhosted.org/packages/4c/45/bad9ff37b71e2508144ef11f1f3fb7e1e3f0d27f1a9609803ac76a04a168/ocdc-0.3.3.tar.gz
+[2023-07-14 00:41:22] INFO root fetch - processPackages [torscrape]: Downloading https://files.pythonhosted.org/packages/7f/67/8d0f0b60557a2ffee15c87bd2978aa4782fbb576311fc5ace898672733ef/torscrape-0.1.13.tar.gz
+[2023-07-14 00:41:22] INFO root fetch - processPackages [whylabs-client]: Downloading https://files.pythonhosted.org/packages/4b/83/b4a819e981dc05634c23862d166cb7c7fdd044a845e7f2a0111f719ad134/whylabs-client-0.5.2.tar.gz
+[2023-07-14 00:41:22] INFO root fetch - processPackages [safe-ds]: Downloading https://files.pythonhosted.org/packages/09/f6/a6b32c0bddd70e357b5ee90c9b88c336cc90c5fb454915f0b87e3d58a1b6/safe_ds-0.8.0.tar.gz
+[2023-07-14 00:41:22] INFO root fetch - processPackages [cdklabs.cdk-ssm-documents]: Downloading https://files.pythonhosted.org/packages/ed/30/478f0a532c383371bbeb66a1512ac1383cfa329608c21b8ee7f0adecefd0/cdklabs.cdk-ssm-documents-0.0.38.tar.gz
+[2023-07-14 00:41:22] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/23/c8/7b90db719f4f75efedb2623c93158c2e0a0d5fc6837ea0f7071d2ea2c628/tungstenkit-0.1.3.post1.tar.gz
+[2023-07-14 00:41:22] WARNING root fetch - processPackages [cdklabs.cdk-ssm-documents]: Skipping package: exceeds size limit 14747279>=10485760
+[2023-07-14 00:41:22] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ssm-documents] error
+[2023-07-14 00:41:23] INFO root fetch - processPackages [pegasusio]: Downloading https://files.pythonhosted.org/packages/8c/6c/85ec8ab8e46cd288d1962da7edb3f4f243d616409bcae26155f78bee3fcd/pegasusio-0.8.0.tar.gz
+[2023-07-14 00:41:23] INFO root fetch - processPackages [ocdc]: Downloading https://files.pythonhosted.org/packages/61/11/00d85053b6a15e98bb94b37600d068bb61fecb6c4e0663899261bbad2b94/ocdc-0.4.0.tar.gz
+[2023-07-14 00:41:23] INFO root fetch - processPackages [torscrape]: Downloading https://files.pythonhosted.org/packages/30/9c/437e1a5ab6c9d2bc38105457d3665925ed0b94ed3952ea2495ab213b8867/torscrape-0.1.14.tar.gz
+[2023-07-14 00:41:23] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/0b/88/47639a851c5081b1dbc460316d90eb0716fb29e775062a14575a98e3ef54/market-engine-0.0.9.tar.gz
+[2023-07-14 00:41:23] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-07-14 00:41:23] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.1.3.tar.gz tmp/tungstenkit-0.1.3.post1.tar.gz --markdown 20230714/t/tungstenkit/0.1.3-0.1.3.post1/diff.md --exclude *.pyd
+[2023-07-14 00:41:23] INFO root fetch - processPackages [safe-ds]: Downloading https://files.pythonhosted.org/packages/bd/f8/60207d42597a9f68aa486aee74213d0424e53d4bd7cce2a8b050d148f4ed/safe_ds-0.9.0.tar.gz
+[2023-07-14 00:41:23] INFO root fetch - processPackages [whylabs-client]: Downloading https://files.pythonhosted.org/packages/ed/a1/ae4654f72d2172bb6e607b76ccb89092e4c36f0ba08a880141ce33617f2c/whylabs-client-0.5.3.tar.gz
+[2023-07-14 00:41:23] INFO root fetch - processPackages [ocdc]: executing diffoscope
+[2023-07-14 00:41:23] INFO root fetch - processPackages [ocdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocdc-0.3.3.tar.gz tmp/ocdc-0.4.0.tar.gz --markdown 20230714/o/ocdc/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-14 00:41:23] INFO root fetch - processPackages [torscrape]: executing diffoscope
+[2023-07-14 00:41:23] INFO root fetch - processPackages [torscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torscrape-0.1.13.tar.gz tmp/torscrape-0.1.14.tar.gz --markdown 20230714/t/torscrape/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-07-14 00:41:23] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-07-14 00:41:23] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.8.tar.gz tmp/market-engine-0.0.9.tar.gz --markdown 20230714/m/market-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 00:41:23] INFO root fetch - processPackages [whylabs-client]: executing diffoscope
+[2023-07-14 00:41:23] INFO root fetch - processPackages [whylabs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylabs-client-0.5.2.tar.gz tmp/whylabs-client-0.5.3.tar.gz --markdown 20230714/w/whylabs-client/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-14 00:41:23] INFO root fetch - processPackages [safe-ds]: executing diffoscope
+[2023-07-14 00:41:23] INFO root fetch - processPackages [safe-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_ds-0.8.0.tar.gz tmp/safe_ds-0.9.0.tar.gz --markdown 20230714/s/safe-ds/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 00:41:23] INFO root fetch - processPackages [pegasusio]: Downloading https://files.pythonhosted.org/packages/9b/f0/f3ad44a6f3dae3a147baa8298aa5cc710218d4e7cc19e161fb9e68e1ec54/pegasusio-0.8.1.tar.gz
+[2023-07-14 00:41:23] INFO root fetch - processPackages [pegasusio]: executing diffoscope
+[2023-07-14 00:41:23] INFO root fetch - processPackages [pegasusio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pegasusio-0.8.0.tar.gz tmp/pegasusio-0.8.1.tar.gz --markdown 20230714/p/pegasusio/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-14 00:41:24] INFO root fetch - processPackages [torscrape]: Remove: archive file [/home/abi/fetcher/tmp/torscrape-0.1.13.tar.gz]
+[2023-07-14 00:41:24] INFO root fetch - processPackages [torscrape]: Remove: archive file [/home/abi/fetcher/tmp/torscrape-0.1.14.tar.gz]
+[2023-07-14 00:41:24] INFO root fetch - main [MainThread]: End processing [torscrape]: success
+[2023-07-14 00:41:24] INFO root fetch - processPackages [ocdc]: Remove: archive file [/home/abi/fetcher/tmp/ocdc-0.3.3.tar.gz]
+[2023-07-14 00:41:24] INFO root fetch - processPackages [ocdc]: Remove: archive file [/home/abi/fetcher/tmp/ocdc-0.4.0.tar.gz]
+[2023-07-14 00:41:24] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.8.tar.gz]
+[2023-07-14 00:41:24] INFO root fetch - main [MainThread]: End processing [ocdc]: success
+[2023-07-14 00:41:24] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.9.tar.gz]
+[2023-07-14 00:41:24] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-07-14 00:41:24] INFO root fetch - processPackages [safe-ds]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds-0.8.0.tar.gz]
+[2023-07-14 00:41:24] INFO root fetch - processPackages [safe-ds]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds-0.9.0.tar.gz]
+[2023-07-14 00:41:24] INFO root fetch - main [MainThread]: End processing [safe-ds]: success
+[2023-07-14 00:41:24] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.3.tar.gz]
+[2023-07-14 00:41:24] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.3.post1.tar.gz]
+[2023-07-14 00:41:24] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-07-14 00:41:25] INFO root fetch - processPackages [whylabs-client]: Remove: archive file [/home/abi/fetcher/tmp/whylabs-client-0.5.2.tar.gz]
+[2023-07-14 00:41:25] INFO root fetch - processPackages [whylabs-client]: Remove: archive file [/home/abi/fetcher/tmp/whylabs-client-0.5.3.tar.gz]
+[2023-07-14 00:41:25] INFO root fetch - main [MainThread]: End processing [whylabs-client]: success
+[2023-07-14 00:41:25] INFO root fetch - processPackages [pegasusio]: Remove: archive file [/home/abi/fetcher/tmp/pegasusio-0.8.0.tar.gz]
+[2023-07-14 00:41:25] INFO root fetch - processPackages [pegasusio]: Remove: archive file [/home/abi/fetcher/tmp/pegasusio-0.8.1.tar.gz]
+[2023-07-14 00:41:25] INFO root fetch - main [MainThread]: End processing [pegasusio]: success
+[2023-07-14 00:41:25] INFO root fetch - main [MainThread]: Store serial: [18881468]
