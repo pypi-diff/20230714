@@ -996,3 +996,54 @@
 [2023-07-14 01:02:28] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-5.6.0b1.tar.gz]
 [2023-07-14 01:02:28] INFO root fetch - main [MainThread]: End processing [stripe]: success
 [2023-07-14 01:02:28] INFO root fetch - main [MainThread]: Store serial: [18881584]
+[2023-07-14 01:07:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881584]
+[2023-07-14 01:07:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-14 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hpmoc
+[2023-07-14 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nordvpn-tray
+[2023-07-14 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2023-07-14 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tracelogdetdiag
+[2023-07-14 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torscrape
+[2023-07-14 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trycortex
+[2023-07-14 01:07:37] WARNING root fetch - processPackages [tracelogdetdiag]: Skipping, unable to determine old version
+[2023-07-14 01:07:37] INFO root fetch - main [MainThread]: End processing [tracelogdetdiag] error
+[2023-07-14 01:07:37] INFO root fetch - processPackages [torscrape]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-07-14 01:07:37] INFO root fetch - processPackages [nordvpn-tray]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-14 01:07:37] INFO root fetch - processPackages [trycortex]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-14 01:07:37] INFO root fetch - processPackages [hpmoc]: New version: [1.0a4] Old Version: [1.0a3]
+[2023-07-14 01:07:37] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230713] Old Version: [0.7.0b20230712]
+[2023-07-14 01:07:37] INFO root fetch - processPackages [torscrape]: Downloading https://files.pythonhosted.org/packages/c7/ed/837731acf82e8b4f388985c68d7a59688c4fc433ccbe624b0ee7ad76824e/torscrape-0.1.17.tar.gz
+[2023-07-14 01:07:37] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/47/91/f38f9ba165496fb5a181ec2e6ec87fd2dae4cadd704266d42904a0394565/trycortex-1.0.2.tar.gz
+[2023-07-14 01:07:37] INFO root fetch - processPackages [nordvpn-tray]: Downloading https://files.pythonhosted.org/packages/39/a0/68c5b5bfd3eba6fa01026e37466e703aab07142162715f2b1223b2ce91b0/nordvpn-tray-1.0.7.tar.gz
+[2023-07-14 01:07:37] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/c4/cd/ab9bdf1c7a7e207170477d93095704de7329c417d16249653d300b520692/tmnt-0.7.0b20230712.tar.gz
+[2023-07-14 01:07:37] INFO root fetch - processPackages [hpmoc]: Downloading https://files.pythonhosted.org/packages/6e/a4/03e69915f342545c98a22080f269f6e90b88fc948f4a1e9b86171bc7785f/hpmoc-1.0a3.tar.gz
+[2023-07-14 01:07:37] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/94/32/7126d45e57bcc322f6778a87d9ba554e2aba3893e299bf2db7f7cb1a1217/trycortex-1.0.3.tar.gz
+[2023-07-14 01:07:37] INFO root fetch - processPackages [torscrape]: Downloading https://files.pythonhosted.org/packages/89/e0/151f772515df910b84ab95fddca0b64bf011ebaf78b0cc272c2f22737033/torscrape-0.1.18.tar.gz
+[2023-07-14 01:07:37] INFO root fetch - processPackages [nordvpn-tray]: Downloading https://files.pythonhosted.org/packages/93/2c/dd8cb5e2c4101ba8272efdfda4b608c1bb0217890e0c5ab4c2faaf9e7aae/nordvpn-tray-1.0.8.tar.gz
+[2023-07-14 01:07:37] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/4d/db/de541bcd5fc5a7fd820d13a2c9f8a3c9451bed6f9fc2deba143710469fd0/tmnt-0.7.0b20230713.tar.gz
+[2023-07-14 01:07:37] INFO root fetch - processPackages [trycortex]: executing diffoscope
+[2023-07-14 01:07:37] INFO root fetch - processPackages [trycortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycortex-1.0.2.tar.gz tmp/trycortex-1.0.3.tar.gz --markdown 20230714/t/trycortex/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-14 01:07:38] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-14 01:07:38] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230712.tar.gz tmp/tmnt-0.7.0b20230713.tar.gz --markdown 20230714/t/tmnt/0.7.0b20230712-0.7.0b20230713/diff.md --exclude *.pyd
+[2023-07-14 01:07:38] INFO root fetch - processPackages [hpmoc]: Downloading https://files.pythonhosted.org/packages/e7/4c/54dc660a86a16631559445e21c970c0e347fd29ff0a02eef8033f23b7454/hpmoc-1.0a4.tar.gz
+[2023-07-14 01:07:38] INFO root fetch - processPackages [torscrape]: executing diffoscope
+[2023-07-14 01:07:38] INFO root fetch - processPackages [torscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torscrape-0.1.17.tar.gz tmp/torscrape-0.1.18.tar.gz --markdown 20230714/t/torscrape/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-07-14 01:07:38] INFO root fetch - processPackages [nordvpn-tray]: executing diffoscope
+[2023-07-14 01:07:38] INFO root fetch - processPackages [nordvpn-tray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nordvpn-tray-1.0.7.tar.gz tmp/nordvpn-tray-1.0.8.tar.gz --markdown 20230714/n/nordvpn-tray/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-14 01:07:38] INFO root fetch - processPackages [hpmoc]: executing diffoscope
+[2023-07-14 01:07:38] INFO root fetch - processPackages [hpmoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpmoc-1.0a3.tar.gz tmp/hpmoc-1.0a4.tar.gz --markdown 20230714/h/hpmoc/1.0a3-1.0a4/diff.md --exclude *.pyd
+[2023-07-14 01:07:38] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.2.tar.gz]
+[2023-07-14 01:07:38] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.3.tar.gz]
+[2023-07-14 01:07:38] INFO root fetch - main [MainThread]: End processing [trycortex]: success
+[2023-07-14 01:07:39] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230712.tar.gz]
+[2023-07-14 01:07:39] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230713.tar.gz]
+[2023-07-14 01:07:39] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-14 01:07:39] INFO root fetch - processPackages [torscrape]: Remove: archive file [/home/abi/fetcher/tmp/torscrape-0.1.17.tar.gz]
+[2023-07-14 01:07:39] INFO root fetch - processPackages [torscrape]: Remove: archive file [/home/abi/fetcher/tmp/torscrape-0.1.18.tar.gz]
+[2023-07-14 01:07:39] INFO root fetch - main [MainThread]: End processing [torscrape]: success
+[2023-07-14 01:07:39] INFO root fetch - processPackages [nordvpn-tray]: Remove: archive file [/home/abi/fetcher/tmp/nordvpn-tray-1.0.7.tar.gz]
+[2023-07-14 01:07:39] INFO root fetch - processPackages [nordvpn-tray]: Remove: archive file [/home/abi/fetcher/tmp/nordvpn-tray-1.0.8.tar.gz]
+[2023-07-14 01:07:39] INFO root fetch - main [MainThread]: End processing [nordvpn-tray]: success
+[2023-07-14 01:07:39] INFO root fetch - processPackages [hpmoc]: Remove: archive file [/home/abi/fetcher/tmp/hpmoc-1.0a3.tar.gz]
+[2023-07-14 01:07:39] INFO root fetch - processPackages [hpmoc]: Remove: archive file [/home/abi/fetcher/tmp/hpmoc-1.0a4.tar.gz]
+[2023-07-14 01:07:39] INFO root fetch - main [MainThread]: End processing [hpmoc]: success
+[2023-07-14 01:07:39] INFO root fetch - main [MainThread]: Store serial: [18881604]
