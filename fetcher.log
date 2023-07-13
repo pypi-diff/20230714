@@ -1545,3 +1545,92 @@
 [2023-07-14 01:39:07] INFO root fetch - processPackages [visionscript]: Remove: archive file [/home/abi/fetcher/tmp/visionscript-0.0.4.tar.gz]
 [2023-07-14 01:39:07] INFO root fetch - main [MainThread]: End processing [visionscript]: success
 [2023-07-14 01:39:07] INFO root fetch - main [MainThread]: Store serial: [18881773]
+[2023-07-14 01:44:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881773]
+[2023-07-14 01:44:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discovery-core
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ontoenv
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kirkwoodnight
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: horde-sdk
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastopendata_client
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pzSQL
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sweepai
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lktbotfb
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastopendata_client
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ontoenv
+[2023-07-14 01:44:16] INFO root fetch - processPackages [discovery-core]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-14 01:44:16] INFO root fetch - processPackages [fastopendata_client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 01:44:16] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 01:44:16] INFO root fetch - processPackages [pzSQL]: New version: [0.0.7.7] Old Version: [0.0.7.3]
+[2023-07-14 01:44:16] INFO root fetch - processPackages [sweepai]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-14 01:44:16] INFO root fetch - processPackages [fastopendata_client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 01:44:16] INFO root fetch - processPackages [lktbotfb]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ontoenv]: New version: [0.3.7a2] Old Version: [0.3.7a1]
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ontoenv]: New version: [0.3.7a2] Old Version: [0.3.7a1]
+[2023-07-14 01:44:16] INFO root fetch - processPackages [horde-sdk]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-14 01:44:16] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/f9/fa/084a23c29f3d1cacffe10a7d6f178323e440f7e16cd10e6dbefb8ac78c8c/sweepai-0.4.3.tar.gz
+[2023-07-14 01:44:16] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ontoenv]: Downloading https://files.pythonhosted.org/packages/2d/60/4a272c3a9c7f0d27b18cb92851562cc44e8e25bd258ec05f70808f3a2ffa/ontoenv-0.3.7a1.tar.gz
+[2023-07-14 01:44:16] INFO root fetch - processPackages [ontoenv]: Downloading https://files.pythonhosted.org/packages/2d/60/4a272c3a9c7f0d27b18cb92851562cc44e8e25bd258ec05f70808f3a2ffa/ontoenv-0.3.7a1.tar.gz
+[2023-07-14 01:44:16] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/6d/33/0fe1f80d8b97316b00ac820d1977b49cc6b2afe40f3b2e83dee829eb2118/discovery-core-0.2.3.tar.gz
+[2023-07-14 01:44:16] INFO root fetch - processPackages [horde-sdk]: Downloading https://files.pythonhosted.org/packages/4b/35/9aff79e0f939b18dae4fb54f38fa795de765d54c768feb31fa68bfe6786d/horde_sdk-0.4.0.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [pzSQL]: Downloading https://files.pythonhosted.org/packages/22/a2/18740fc50ec4f98221e225162356b742194bd7cadba0c345ad5e5dbfb109/pzSQL-0.0.7.3.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/26/23/96766258ec55c101f7e9943b26351ffe163218de5bfc9a22b5ab42dd67ee/fastopendata_client-0.0.8.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [lktbotfb]: Downloading https://files.pythonhosted.org/packages/ea/8f/0c98b5a9f3c3253c8327383dd4f9a0a6e7d8e122c872d6b2d2d2438465ed/lktbotfb-0.3.7.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/26/23/96766258ec55c101f7e9943b26351ffe163218de5bfc9a22b5ab42dd67ee/fastopendata_client-0.0.8.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/2f/95/f5dbedd71259dd0d0ffd54e94ff6d014c62d94f4c02eba46f041dc4609ab/sweepai-0.4.4.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/e4/b5/07bdb74c5d8a57155d86563bb8c85fb3c7f5945629ec5af36869b4f4b08d/fastopendata_client-0.0.9.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/e4/b5/07bdb74c5d8a57155d86563bb8c85fb3c7f5945629ec5af36869b4f4b08d/fastopendata_client-0.0.9.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/7e/3f/bf1ff1fdae9e9ebc037d03e4cc47df1b020453f0c564697718383d3fb45e/discovery-core-0.2.4.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [lktbotfb]: Downloading https://files.pythonhosted.org/packages/c7/35/ed2837346acf08971f3dd700a3fe7bf45e474a80bfbd26feb7ca93350520/lktbotfb-0.3.8.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [ontoenv]: Downloading https://files.pythonhosted.org/packages/cf/61/71b37e8481e53c69f11d978b1b54cf374b3962417396e626d3a28f673118/ontoenv-0.3.7a2.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [ontoenv]: Downloading https://files.pythonhosted.org/packages/cf/61/71b37e8481e53c69f11d978b1b54cf374b3962417396e626d3a28f673118/ontoenv-0.3.7a2.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 01:44:17] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 01:44:17] INFO root fetch - processPackages [horde-sdk]: Downloading https://files.pythonhosted.org/packages/3e/85/53a0c1c0a1c0529eece00f18cae89934620875a769a643a52df5cc537e80/horde_sdk-0.5.0.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [pzSQL]: Downloading https://files.pythonhosted.org/packages/20/bc/1771f88334486b2e7b2caa2cdf1cd804d0aaa4528ceda764dd4026772a6a/pzSQL-0.0.7.7.tar.gz
+[2023-07-14 01:44:17] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-14 01:44:17] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.4.3.tar.gz tmp/sweepai-0.4.4.tar.gz --markdown 20230714/s/sweepai/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-14 01:44:17] INFO root fetch - processPackages [fastopendata_client]: executing diffoscope
+[2023-07-14 01:44:17] INFO root fetch - processPackages [fastopendata_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastopendata_client-0.0.8.tar.gz tmp/fastopendata_client-0.0.9.tar.gz --markdown 20230714/f/fastopendata_client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 01:44:17] INFO root fetch - processPackages [fastopendata_client]: executing diffoscope
+[2023-07-14 01:44:17] INFO root fetch - processPackages [fastopendata_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastopendata_client-0.0.8.tar.gz tmp/fastopendata_client-0.0.9.tar.gz --markdown 20230714/f/fastopendata_client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 01:44:17] INFO root fetch - processPackages [lktbotfb]: executing diffoscope
+[2023-07-14 01:44:17] INFO root fetch - processPackages [lktbotfb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lktbotfb-0.3.7.tar.gz tmp/lktbotfb-0.3.8.tar.gz --markdown 20230714/l/lktbotfb/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-14 01:44:17] INFO root fetch - processPackages [discovery-core]: executing diffoscope
+[2023-07-14 01:44:17] INFO root fetch - processPackages [discovery-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-core-0.2.3.tar.gz tmp/discovery-core-0.2.4.tar.gz --markdown 20230714/d/discovery-core/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-14 01:44:17] INFO root fetch - processPackages [pzSQL]: executing diffoscope
+[2023-07-14 01:44:17] INFO root fetch - processPackages [pzSQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pzSQL-0.0.7.3.tar.gz tmp/pzSQL-0.0.7.7.tar.gz --markdown 20230714/p/pzSQL/0.0.7.3-0.0.7.7/diff.md --exclude *.pyd
+[2023-07-14 01:44:17] INFO root fetch - processPackages [horde-sdk]: executing diffoscope
+[2023-07-14 01:44:17] INFO root fetch - processPackages [horde-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horde_sdk-0.4.0.tar.gz tmp/horde_sdk-0.5.0.tar.gz --markdown 20230714/h/horde-sdk/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-14 01:44:17] INFO root fetch - processPackages [ontoenv]: executing diffoscope
+[2023-07-14 01:44:17] INFO root fetch - processPackages [ontoenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontoenv-0.3.7a1.tar.gz tmp/ontoenv-0.3.7a2.tar.gz --markdown 20230714/o/ontoenv/0.3.7a1-0.3.7a2/diff.md --exclude *.pyd
+[2023-07-14 01:44:17] INFO root fetch - processPackages [ontoenv]: executing diffoscope
+[2023-07-14 01:44:17] INFO root fetch - processPackages [ontoenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontoenv-0.3.7a1.tar.gz tmp/ontoenv-0.3.7a2.tar.gz --markdown 20230714/o/ontoenv/0.3.7a1-0.3.7a2/diff.md --exclude *.pyd
+[2023-07-14 01:44:18] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-14 01:44:18] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-14 01:44:18] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 01:44:19] INFO root fetch - processPackages [pzSQL]: Remove: archive file [/home/abi/fetcher/tmp/pzSQL-0.0.7.3.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - processPackages [pzSQL]: Remove: archive file [/home/abi/fetcher/tmp/pzSQL-0.0.7.7.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - main [MainThread]: End processing [pzSQL]: success
+[2023-07-14 01:44:19] INFO root fetch - processPackages [ontoenv]: Remove: archive file [/home/abi/fetcher/tmp/ontoenv-0.3.7a1.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - processPackages [ontoenv]: Remove: archive file [/home/abi/fetcher/tmp/ontoenv-0.3.7a2.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - main [MainThread]: End processing [ontoenv]: success
+[2023-07-14 01:44:19] INFO root fetch - processPackages [fastopendata_client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.8.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - processPackages [fastopendata_client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.9.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - main [MainThread]: End processing [fastopendata_client]: success
+[2023-07-14 01:44:19] INFO root fetch - main [MainThread]: End processing [fastopendata_client]: success
+[2023-07-14 01:44:19] INFO root fetch - processPackages [lktbotfb]: Remove: archive file [/home/abi/fetcher/tmp/lktbotfb-0.3.7.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - processPackages [lktbotfb]: Remove: archive file [/home/abi/fetcher/tmp/lktbotfb-0.3.8.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - main [MainThread]: End processing [lktbotfb]: success
+[2023-07-14 01:44:19] INFO root fetch - main [MainThread]: End processing [ontoenv]: success
+[2023-07-14 01:44:19] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.3.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.4.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - main [MainThread]: End processing [discovery-core]: success
+[2023-07-14 01:44:19] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.3.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.4.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-14 01:44:19] INFO root fetch - processPackages [horde-sdk]: Remove: archive file [/home/abi/fetcher/tmp/horde_sdk-0.4.0.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - processPackages [horde-sdk]: Remove: archive file [/home/abi/fetcher/tmp/horde_sdk-0.5.0.tar.gz]
+[2023-07-14 01:44:19] INFO root fetch - main [MainThread]: End processing [horde-sdk]: success
+[2023-07-14 01:44:19] INFO root fetch - main [MainThread]: Store serial: [18881804]
