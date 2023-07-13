@@ -109,3 +109,116 @@
 [2023-07-14 00:04:56] INFO root fetch - processPackages [vbcore]: Remove: archive file [/home/abi/fetcher/tmp/vbcore-2.2.0rc4.tar.gz]
 [2023-07-14 00:04:56] INFO root fetch - main [MainThread]: End processing [vbcore]: success
 [2023-07-14 00:04:56] INFO root fetch - main [MainThread]: Store serial: [18881217]
+[2023-07-14 00:10:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881217]
+[2023-07-14 00:10:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-14 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devcycle-python-server-sdk
+[2023-07-14 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voltha-protos
+[2023-07-14 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: baal
+[2023-07-14 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: population-trend
+[2023-07-14 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PHX
+[2023-07-14 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlalchemy-crud
+[2023-07-14 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finsets
+[2023-07-14 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lockstep-sdk
+[2023-07-14 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: JupiterMag
+[2023-07-14 00:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: teltrace
+[2023-07-14 00:10:05] WARNING root fetch - processPackages [finsets]: Skipping, unable to determine old version
+[2023-07-14 00:10:05] INFO root fetch - processPackages [finsets]: Start processing: sentineleof
+[2023-07-14 00:10:05] INFO root fetch - main [MainThread]: End processing [finsets] error
+[2023-07-14 00:10:05] INFO root fetch - processPackages [population-trend]: New version: [5.3.0] Old Version: [5.2.0]
+[2023-07-14 00:10:05] INFO root fetch - processPackages [sqlalchemy-crud]: New version: [0.1.1b0] Old Version: [0.1.0b0]
+[2023-07-14 00:10:05] INFO root fetch - processPackages [JupiterMag]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-14 00:10:05] INFO root fetch - processPackages [baal]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-07-14 00:10:05] INFO root fetch - processPackages [devcycle-python-server-sdk]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-14 00:10:05] WARNING root fetch - processPackages [teltrace]: Skipping, unable to determine old version
+[2023-07-14 00:10:05] INFO root fetch - processPackages [teltrace]: Start processing: Products.PlonePAS
+[2023-07-14 00:10:05] INFO root fetch - main [MainThread]: End processing [teltrace] error
+[2023-07-14 00:10:05] INFO root fetch - processPackages [lockstep-sdk]: New version: [2023.7.7] Old Version: [2023.5.21]
+[2023-07-14 00:10:05] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-14 00:10:05] INFO root fetch - processPackages [voltha-protos]: New version: [5.4.8] Old Version: [5.4.7]
+[2023-07-14 00:10:05] INFO root fetch - processPackages [sentineleof]: New version: [0.7.0] Old Version: [0.6.5]
+[2023-07-14 00:10:05] INFO root fetch - processPackages [Products.PlonePAS]: New version: [8.0.2] Old Version: [8.0.1]
+[2023-07-14 00:10:05] INFO root fetch - processPackages [devcycle-python-server-sdk]: Downloading https://files.pythonhosted.org/packages/a8/bd/dc6472c33ac546df5a945c4f15ccf4048b7f563fb1fd86b1406a3e84f52f/devcycle-python-server-sdk-3.2.0.tar.gz
+[2023-07-14 00:10:05] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/ad/48/a9b966f484d5fbfbde35e2c15c1211cc18359a09978bfbaafcd30f095d50/PHX-1.8.1.tar.gz
+[2023-07-14 00:10:05] INFO root fetch - processPackages [sqlalchemy-crud]: Downloading https://files.pythonhosted.org/packages/92/0b/22d25929a4c93d310c3d62aea69139c1c8659d5ecca21176bfeb8418963f/sqlalchemy-crud-0.1.0b0.tar.gz
+[2023-07-14 00:10:05] INFO root fetch - processPackages [lockstep-sdk]: Downloading https://files.pythonhosted.org/packages/95/2d/c1f20ec0e4860ae0e6fecacabdcdeb96364408255edf57f0e96d0c0021e2/lockstep-sdk-2023.5.21.tar.gz
+[2023-07-14 00:10:05] INFO root fetch - processPackages [JupiterMag]: Downloading https://files.pythonhosted.org/packages/b6/b4/8f64d6696f9959452c7a20b2099a8771d56e80cefb2975b87c52d18da56e/JupiterMag-1.1.2-py3-none-any.whl
+[2023-07-14 00:10:05] INFO root fetch - processPackages [population-trend]: Downloading https://files.pythonhosted.org/packages/db/5e/241e618867cced40868128c0ef4d40e6b73066d7ded08658fdb87d1c44f2/population_trend-5.2.0.tar.gz
+[2023-07-14 00:10:05] INFO root fetch - processPackages [baal]: Downloading https://files.pythonhosted.org/packages/ad/34/86608379207f1bec755abc737f03834b9b105b8fb94dabc21ad41fae3286/baal-1.7.0.tar.gz
+[2023-07-14 00:10:05] INFO root fetch - processPackages [sentineleof]: Downloading https://files.pythonhosted.org/packages/8e/36/e4cca342c2a30a6c26e7998745e84d6efad1dd231b1cd2b36c785e04d998/sentineleof-0.6.5.tar.gz
+[2023-07-14 00:10:05] INFO root fetch - processPackages [voltha-protos]: Downloading https://files.pythonhosted.org/packages/96/3d/c7ddb804cd8f47fb1fd1f7d11e11aa06fe22611e7363d3cf928852e2515d/voltha-protos-5.4.7.tar.gz
+[2023-07-14 00:10:05] WARNING root fetch - processPackages [JupiterMag]: Skipping package: exceeds size limit 15744755>=10485760
+[2023-07-14 00:10:05] INFO root fetch - processPackages [JupiterMag]: Start processing: threads-api
+[2023-07-14 00:10:05] INFO root fetch - main [MainThread]: End processing [JupiterMag] error
+[2023-07-14 00:10:05] INFO root fetch - processPackages [Products.PlonePAS]: Downloading https://files.pythonhosted.org/packages/70/8e/9412803c60d3d70c38b32c171a52a77199c4e63c7fa9ec6da5abcec26d36/Products.PlonePAS-8.0.1.tar.gz
+[2023-07-14 00:10:05] INFO root fetch - processPackages [threads-api]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-14 00:10:06] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/d5/cf/427f0ced8ef3cc98e22c877b4eb980575483e2cf3ac2387f5e901120b744/PHX-1.9.0.tar.gz
+[2023-07-14 00:10:06] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/21/22/107db9272903bfb04b5895f27b393e728a6251a52be1b62989de2c1032f3/threads-api-1.1.5.tar.gz
+[2023-07-14 00:10:06] INFO root fetch - processPackages [sqlalchemy-crud]: Downloading https://files.pythonhosted.org/packages/98/08/f4df9e9e3b77ec7a0c56966812719c774a7f89a1c167dfab337338b6d7f4/sqlalchemy_crud-0.1.1b0.tar.gz
+[2023-07-14 00:10:06] INFO root fetch - processPackages [devcycle-python-server-sdk]: Downloading https://files.pythonhosted.org/packages/79/3b/585a43ec6749e1fb14e877a8c3bdcd2132c3c7b15357447610d5bb97f566/devcycle-python-server-sdk-3.3.0.tar.gz
+[2023-07-14 00:10:06] INFO root fetch - processPackages [population-trend]: Downloading https://files.pythonhosted.org/packages/62/00/b061d216f3457f20714f966ccc72e747b10ab42b5937491702b2cb625329/population_trend-5.3.0.tar.gz
+[2023-07-14 00:10:06] INFO root fetch - processPackages [sentineleof]: Downloading https://files.pythonhosted.org/packages/78/2b/2b79ce3a6cfa8fde4e4d37d4fb64cd89dcbeb25f3ec99a8c2999a8b9c722/sentineleof-0.7.0.tar.gz
+[2023-07-14 00:10:06] INFO root fetch - processPackages [baal]: Downloading https://files.pythonhosted.org/packages/73/6b/6a599fecf1fbbfad2352e435db056ef7a9245ed72127d678abee95152276/baal-1.8.0.tar.gz
+[2023-07-14 00:10:06] INFO root fetch - processPackages [voltha-protos]: Downloading https://files.pythonhosted.org/packages/66/24/0dc89324dd3a9b8f6aa4f185eb1b65a6f0b4e86c14cefcf3fc9058a8ba3a/voltha-protos-5.4.8.tar.gz
+[2023-07-14 00:10:06] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-07-14 00:10:06] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230714/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 00:10:06] INFO root fetch - processPackages [sqlalchemy-crud]: executing diffoscope
+[2023-07-14 00:10:06] INFO root fetch - processPackages [sqlalchemy-crud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-crud-0.1.0b0.tar.gz tmp/sqlalchemy_crud-0.1.1b0.tar.gz --markdown 20230714/s/sqlalchemy-crud/0.1.0b0-0.1.1b0/diff.md --exclude *.pyd
+[2023-07-14 00:10:06] INFO root fetch - processPackages [lockstep-sdk]: Downloading https://files.pythonhosted.org/packages/27/03/c0f04cd79ec5c404cf38f1fa4073862161c3d4583d482fab48959fcd7b7a/lockstep-sdk-2023.7.7.tar.gz
+[2023-07-14 00:10:06] INFO root fetch - processPackages [devcycle-python-server-sdk]: executing diffoscope
+[2023-07-14 00:10:06] INFO root fetch - processPackages [devcycle-python-server-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devcycle-python-server-sdk-3.2.0.tar.gz tmp/devcycle-python-server-sdk-3.3.0.tar.gz --markdown 20230714/d/devcycle-python-server-sdk/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-14 00:10:06] INFO root fetch - processPackages [Products.PlonePAS]: Downloading https://files.pythonhosted.org/packages/3a/54/5a68fd4559e5a0b9b751e200299b7294c9496be2479a2f9e282f446024cc/Products.PlonePAS-8.0.2.tar.gz
+[2023-07-14 00:10:06] INFO root fetch - processPackages [population-trend]: executing diffoscope
+[2023-07-14 00:10:06] INFO root fetch - processPackages [population-trend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/population_trend-5.2.0.tar.gz tmp/population_trend-5.3.0.tar.gz --markdown 20230714/p/population-trend/5.2.0-5.3.0/diff.md --exclude *.pyd
+[2023-07-14 00:10:06] INFO root fetch - processPackages [voltha-protos]: executing diffoscope
+[2023-07-14 00:10:06] INFO root fetch - processPackages [voltha-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voltha-protos-5.4.7.tar.gz tmp/voltha-protos-5.4.8.tar.gz --markdown 20230714/v/voltha-protos/5.4.7-5.4.8/diff.md --exclude *.pyd
+[2023-07-14 00:10:06] INFO root fetch - processPackages [sentineleof]: executing diffoscope
+[2023-07-14 00:10:06] INFO root fetch - processPackages [sentineleof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentineleof-0.6.5.tar.gz tmp/sentineleof-0.7.0.tar.gz --markdown 20230714/s/sentineleof/0.6.5-0.7.0/diff.md --exclude *.pyd
+[2023-07-14 00:10:06] INFO root fetch - processPackages [baal]: executing diffoscope
+[2023-07-14 00:10:06] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/79/b4/e8057da78118807fdce42f027d7c034deed6eae0311c7d740685f9634772/threads-api-1.1.6.tar.gz
+[2023-07-14 00:10:06] INFO root fetch - processPackages [baal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baal-1.7.0.tar.gz tmp/baal-1.8.0.tar.gz --markdown 20230714/b/baal/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-07-14 00:10:06] INFO root fetch - processPackages [lockstep-sdk]: executing diffoscope
+[2023-07-14 00:10:06] INFO root fetch - processPackages [lockstep-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockstep-sdk-2023.5.21.tar.gz tmp/lockstep-sdk-2023.7.7.tar.gz --markdown 20230714/l/lockstep-sdk/2023.5.21-2023.7.7/diff.md --exclude *.pyd
+[2023-07-14 00:10:06] INFO root fetch - processPackages [Products.PlonePAS]: executing diffoscope
+[2023-07-14 00:10:06] INFO root fetch - processPackages [Products.PlonePAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.PlonePAS-8.0.1.tar.gz tmp/Products.PlonePAS-8.0.2.tar.gz --markdown 20230714/P/Products.PlonePAS/8.0.1-8.0.2/diff.md --exclude *.pyd
+[2023-07-14 00:10:06] INFO root fetch - processPackages [threads-api]: executing diffoscope
+[2023-07-14 00:10:06] INFO root fetch - processPackages [threads-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-api-1.1.5.tar.gz tmp/threads-api-1.1.6.tar.gz --markdown 20230714/t/threads-api/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-14 00:10:07] INFO root fetch - processPackages [sqlalchemy-crud]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-crud-0.1.0b0.tar.gz]
+[2023-07-14 00:10:07] INFO root fetch - processPackages [sqlalchemy-crud]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_crud-0.1.1b0.tar.gz]
+[2023-07-14 00:10:07] INFO root fetch - processPackages [sqlalchemy-crud]: Start processing: flowchem-test
+[2023-07-14 00:10:07] INFO root fetch - main [MainThread]: End processing [sqlalchemy-crud]: success
+[2023-07-14 00:10:07] INFO root fetch - processPackages [flowchem-test]: New version: [0.1b3] Old Version: [0.1b2]
+[2023-07-14 00:10:07] INFO root fetch - processPackages [flowchem-test]: Downloading https://files.pythonhosted.org/packages/f0/86/230b73517d6c8f61d71d59aa09db37939c0f203c77111b0a90e94da627aa/flowchem-test-0.1b2.tar.gz
+[2023-07-14 00:10:08] INFO root fetch - processPackages [population-trend]: Remove: archive file [/home/abi/fetcher/tmp/population_trend-5.2.0.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - processPackages [population-trend]: Remove: archive file [/home/abi/fetcher/tmp/population_trend-5.3.0.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - main [MainThread]: End processing [population-trend]: success
+[2023-07-14 00:10:08] INFO root fetch - processPackages [devcycle-python-server-sdk]: Remove: archive file [/home/abi/fetcher/tmp/devcycle-python-server-sdk-3.2.0.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - processPackages [devcycle-python-server-sdk]: Remove: archive file [/home/abi/fetcher/tmp/devcycle-python-server-sdk-3.3.0.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - processPackages [sentineleof]: Remove: archive file [/home/abi/fetcher/tmp/sentineleof-0.6.5.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - main [MainThread]: End processing [devcycle-python-server-sdk]: success
+[2023-07-14 00:10:08] INFO root fetch - processPackages [sentineleof]: Remove: archive file [/home/abi/fetcher/tmp/sentineleof-0.7.0.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - main [MainThread]: End processing [sentineleof]: success
+[2023-07-14 00:10:08] INFO root fetch - processPackages [flowchem-test]: Downloading https://files.pythonhosted.org/packages/84/32/b611f747796da9e8f9192fbdca36c5c800bbfdcc1bfb18ad57316f71244c/flowchem-test-0.1b3.tar.gz
+[2023-07-14 00:10:08] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.1.5.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.1.6.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - main [MainThread]: End processing [threads-api]: success
+[2023-07-14 00:10:08] INFO root fetch - processPackages [flowchem-test]: executing diffoscope
+[2023-07-14 00:10:08] INFO root fetch - processPackages [flowchem-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowchem-test-0.1b2.tar.gz tmp/flowchem-test-0.1b3.tar.gz --markdown 20230714/f/flowchem-test/0.1b2-0.1b3/diff.md --exclude *.pyd
+[2023-07-14 00:10:08] INFO root fetch - processPackages [voltha-protos]: Remove: archive file [/home/abi/fetcher/tmp/voltha-protos-5.4.7.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - processPackages [voltha-protos]: Remove: archive file [/home/abi/fetcher/tmp/voltha-protos-5.4.8.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - main [MainThread]: End processing [voltha-protos]: success
+[2023-07-14 00:10:08] INFO root fetch - processPackages [baal]: Remove: archive file [/home/abi/fetcher/tmp/baal-1.7.0.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - processPackages [baal]: Remove: archive file [/home/abi/fetcher/tmp/baal-1.8.0.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - main [MainThread]: End processing [baal]: success
+[2023-07-14 00:10:08] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.8.1.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.9.0.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-07-14 00:10:08] INFO root fetch - processPackages [Products.PlonePAS]: Remove: archive file [/home/abi/fetcher/tmp/Products.PlonePAS-8.0.1.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - processPackages [Products.PlonePAS]: Remove: archive file [/home/abi/fetcher/tmp/Products.PlonePAS-8.0.2.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - main [MainThread]: End processing [Products.PlonePAS]: success
+[2023-07-14 00:10:08] INFO root fetch - processPackages [lockstep-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lockstep-sdk-2023.5.21.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - processPackages [lockstep-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lockstep-sdk-2023.7.7.tar.gz]
+[2023-07-14 00:10:08] INFO root fetch - main [MainThread]: End processing [lockstep-sdk]: success
+[2023-07-14 00:10:09] INFO root fetch - processPackages [flowchem-test]: Remove: archive file [/home/abi/fetcher/tmp/flowchem-test-0.1b2.tar.gz]
+[2023-07-14 00:10:09] INFO root fetch - processPackages [flowchem-test]: Remove: archive file [/home/abi/fetcher/tmp/flowchem-test-0.1b3.tar.gz]
+[2023-07-14 00:10:09] INFO root fetch - main [MainThread]: End processing [flowchem-test]: success
+[2023-07-14 00:10:09] INFO root fetch - main [MainThread]: Store serial: [18881262]
