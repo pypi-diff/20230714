@@ -1287,3 +1287,92 @@
 [2023-07-14 01:23:18] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.7.4.tar.gz]
 [2023-07-14 01:23:18] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
 [2023-07-14 01:23:18] INFO root fetch - main [MainThread]: Store serial: [18881692]
+[2023-07-14 01:28:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881692]
+[2023-07-14 01:28:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-14 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdss-archon
+[2023-07-14 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gigagan-pytorch
+[2023-07-14 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-intel
+[2023-07-14 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dequeai
+[2023-07-14 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aorta-sirius-dev
+[2023-07-14 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastopendata-client
+[2023-07-14 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: market-engine
+[2023-07-14 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chemfunc
+[2023-07-14 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sdss-lvmscp
+[2023-07-14 01:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moto
+[2023-07-14 01:28:27] INFO root fetch - processPackages [market-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 01:28:27] INFO root fetch - processPackages [chemfunc]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-14 01:28:27] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 01:28:27] INFO root fetch - processPackages [fastopendata-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 01:28:27] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 01:28:27] INFO root fetch - processPackages [dequeai]: New version: [0.8234] Old Version: [0.8232]
+[2023-07-14 01:28:27] INFO root fetch - processPackages [sdss-archon]: New version: [0.9.0b1] Old Version: [0.9.0]
+[2023-07-14 01:28:27] INFO root fetch - processPackages [sdss-lvmscp]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-14 01:28:27] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230712] Old Version: [2.14.0.dev20230706]
+[2023-07-14 01:28:27] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-14 01:28:27] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-07-14 01:28:27] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-14 01:28:27] INFO root fetch - processPackages [fastopendata-client]: Downloading https://files.pythonhosted.org/packages/26/23/96766258ec55c101f7e9943b26351ffe163218de5bfc9a22b5ab42dd67ee/fastopendata_client-0.0.8.tar.gz
+[2023-07-14 01:28:27] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/87/8e/ce91bb2e7e4a9215b5696a6713932abdcd528e9ce7773610d359baaa9517/dequeai-0.8232.tar.gz
+[2023-07-14 01:28:27] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/c0/aa/26bf6b7a863fb9525dd2ca84ff5122173d9bcd4d108b07c4aa8bb92431c7/gigagan-pytorch-0.0.8.tar.gz
+[2023-07-14 01:28:27] INFO root fetch - processPackages [chemfunc]: Downloading https://files.pythonhosted.org/packages/ca/4c/5b02d0529d7495a5f6dc1da076e729fa6af6aee09d14d96b773f58a06dea/chemfunc-1.0.3.tar.gz
+[2023-07-14 01:28:27] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/a7/11/33bf09029fffbf3f2c24475dd240877005c961ded6970a4aeef44165b192/tf_nightly_intel-2.14.0.dev20230706-cp39-cp39-win_amd64.whl
+[2023-07-14 01:28:27] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-14 01:28:27] INFO root fetch - processPackages [sdss-archon]: Downloading https://files.pythonhosted.org/packages/85/0b/c0e31cfa4ff8944f7038d9dff74ef8118027c18d77336e5ef71837355650/sdss_archon-0.9.0.tar.gz
+[2023-07-14 01:28:27] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183468462>=10485760
+[2023-07-14 01:28:27] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-14 01:28:27] INFO root fetch - processPackages [sdss-lvmscp]: Downloading https://files.pythonhosted.org/packages/ae/85/be6ee1165a4cf0fe297c33c2a99a19071413ff5c28373a9d7fcb49805d77/sdss_lvmscp-0.5.0.tar.gz
+[2023-07-14 01:28:28] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-14 01:28:28] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/88/15/d88c491945eed450311a7b87b5c2fc81ce2bdeb29f0c7c042a11e387769b/gigagan-pytorch-0.0.9.tar.gz
+[2023-07-14 01:28:28] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/0b/88/47639a851c5081b1dbc460316d90eb0716fb29e775062a14575a98e3ef54/market-engine-0.0.9.tar.gz
+[2023-07-14 01:28:28] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/d8/86/ffcd761e598a02ec64138f90695a6f0f9d0f08cb5bbe8f38e404c46af385/dequeai-0.8234.tar.gz
+[2023-07-14 01:28:28] INFO root fetch - processPackages [fastopendata-client]: Downloading https://files.pythonhosted.org/packages/e4/b5/07bdb74c5d8a57155d86563bb8c85fb3c7f5945629ec5af36869b4f4b08d/fastopendata_client-0.0.9.tar.gz
+[2023-07-14 01:28:28] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-14 01:28:28] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-14 01:28:28] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230714/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 01:28:28] INFO root fetch - processPackages [chemfunc]: Downloading https://files.pythonhosted.org/packages/6d/ee/f5fd4b5066811d7da5409bb42b009735ccadb7f965a62c5805663edff753/chemfunc-1.0.4.tar.gz
+[2023-07-14 01:28:28] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-14 01:28:28] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.0.8.tar.gz tmp/gigagan-pytorch-0.0.9.tar.gz --markdown 20230714/g/gigagan-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 01:28:28] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-07-14 01:28:28] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.8.tar.gz tmp/market-engine-0.0.9.tar.gz --markdown 20230714/m/market-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 01:28:28] INFO root fetch - processPackages [sdss-lvmscp]: Downloading https://files.pythonhosted.org/packages/f8/57/be1616356cd4844749c65ed7e4321680b8d4b6f9e58daa5fb84a713183ac/sdss_lvmscp-0.5.1.tar.gz
+[2023-07-14 01:28:28] INFO root fetch - processPackages [fastopendata-client]: executing diffoscope
+[2023-07-14 01:28:28] INFO root fetch - processPackages [fastopendata-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastopendata_client-0.0.8.tar.gz tmp/fastopendata_client-0.0.9.tar.gz --markdown 20230714/f/fastopendata-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 01:28:28] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-07-14 01:28:28] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.8232.tar.gz tmp/dequeai-0.8234.tar.gz --markdown 20230714/d/dequeai/0.8232-0.8234/diff.md --exclude *.pyd
+[2023-07-14 01:28:28] INFO root fetch - processPackages [chemfunc]: executing diffoscope
+[2023-07-14 01:28:28] INFO root fetch - processPackages [chemfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfunc-1.0.3.tar.gz tmp/chemfunc-1.0.4.tar.gz --markdown 20230714/c/chemfunc/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-14 01:28:28] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-14 01:28:28] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230714/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-14 01:28:28] INFO root fetch - processPackages [sdss-lvmscp]: executing diffoscope
+[2023-07-14 01:28:28] INFO root fetch - processPackages [sdss-lvmscp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_lvmscp-0.5.0.tar.gz tmp/sdss_lvmscp-0.5.1.tar.gz --markdown 20230714/s/sdss-lvmscp/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-14 01:28:28] INFO root fetch - processPackages [sdss-archon]: Downloading https://files.pythonhosted.org/packages/04/af/217d13a7033df22b1f2d3c4ad67aac660724f25d4ec8c7ce56f11d746d7a/sdss_archon-0.9.0b1.tar.gz
+[2023-07-14 01:28:28] INFO root fetch - processPackages [sdss-archon]: executing diffoscope
+[2023-07-14 01:28:28] INFO root fetch - processPackages [sdss-archon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_archon-0.9.0.tar.gz tmp/sdss_archon-0.9.0b1.tar.gz --markdown 20230714/s/sdss-archon/0.9.0-0.9.0b1/diff.md --exclude *.pyd
+[2023-07-14 01:28:29] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-14 01:28:29] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-14 01:28:29] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-14 01:28:29] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.8.tar.gz]
+[2023-07-14 01:28:29] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.9.tar.gz]
+[2023-07-14 01:28:29] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-07-14 01:28:29] INFO root fetch - processPackages [fastopendata-client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.8.tar.gz]
+[2023-07-14 01:28:29] INFO root fetch - processPackages [fastopendata-client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.9.tar.gz]
+[2023-07-14 01:28:29] INFO root fetch - main [MainThread]: End processing [fastopendata-client]: success
+[2023-07-14 01:28:29] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.8.tar.gz]
+[2023-07-14 01:28:29] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.9.tar.gz]
+[2023-07-14 01:28:29] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-14 01:28:29] INFO root fetch - processPackages [sdss-lvmscp]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmscp-0.5.0.tar.gz]
+[2023-07-14 01:28:29] INFO root fetch - processPackages [sdss-lvmscp]: Remove: archive file [/home/abi/fetcher/tmp/sdss_lvmscp-0.5.1.tar.gz]
+[2023-07-14 01:28:29] INFO root fetch - main [MainThread]: End processing [sdss-lvmscp]: success
+[2023-07-14 01:28:29] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.8232.tar.gz]
+[2023-07-14 01:28:29] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.8234.tar.gz]
+[2023-07-14 01:28:29] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-07-14 01:28:30] INFO root fetch - processPackages [chemfunc]: Remove: archive file [/home/abi/fetcher/tmp/chemfunc-1.0.3.tar.gz]
+[2023-07-14 01:28:30] INFO root fetch - processPackages [chemfunc]: Remove: archive file [/home/abi/fetcher/tmp/chemfunc-1.0.4.tar.gz]
+[2023-07-14 01:28:30] INFO root fetch - main [MainThread]: End processing [chemfunc]: success
+[2023-07-14 01:28:30] INFO root fetch - processPackages [sdss-archon]: Remove: archive file [/home/abi/fetcher/tmp/sdss_archon-0.9.0.tar.gz]
+[2023-07-14 01:28:30] INFO root fetch - processPackages [sdss-archon]: Remove: archive file [/home/abi/fetcher/tmp/sdss_archon-0.9.0b1.tar.gz]
+[2023-07-14 01:28:30] INFO root fetch - main [MainThread]: End processing [sdss-archon]: success
+[2023-07-14 01:28:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-14 01:28:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-14 01:28:42] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-14 01:28:42] INFO root fetch - main [MainThread]: Store serial: [18881719]
