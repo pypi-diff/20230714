@@ -1,0 +1,111 @@
+[2023-07-14 00:04:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881184]
+[2023-07-14 00:04:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-14 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imschrm
+[2023-07-14 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: curatedmetagenomicdata3
+[2023-07-14 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-dragonfly
+[2023-07-14 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skelly-synchronize
+[2023-07-14 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PH-units
+[2023-07-14 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antgen
+[2023-07-14 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-newrelic
+[2023-07-14 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: whistleaio
+[2023-07-14 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vmklib
+[2023-07-14 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flojoy
+[2023-07-14 00:04:51] INFO root fetch - processPackages [imschrm]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-07-14 00:04:51] INFO root fetch - processPackages [skelly-synchronize]: New version: [2023.7.1022] Old Version: [2023.6.1021]
+[2023-07-14 00:04:51] INFO root fetch - processPackages [antgen]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-14 00:04:51] INFO root fetch - processPackages [curatedmetagenomicdata3]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-14 00:04:51] INFO root fetch - processPackages [whistleaio]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 00:04:51] INFO root fetch - processPackages [PH-units]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-14 00:04:51] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-07-14 00:04:51] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-14 00:04:51] INFO root fetch - processPackages [vmklib]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-07-14 00:04:51] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2023-07-14 00:04:51] INFO root fetch - processPackages [PH-units]: Downloading https://files.pythonhosted.org/packages/d8/1e/683bb66ab72a4de25bad22da04108752a8c3777e063fb710d436c07d81c0/PH-units-1.3.1.tar.gz
+[2023-07-14 00:04:51] INFO root fetch - processPackages [antgen]: Downloading https://files.pythonhosted.org/packages/00/d5/3f8766cc0d47755d07d3a6b7fcc39d9ec5ef7c027dd74eb9f70b45a7ec81/antgen-0.2.2.tar.gz
+[2023-07-14 00:04:51] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-14 00:04:51] INFO root fetch - processPackages [vmklib]: Downloading https://files.pythonhosted.org/packages/8b/2b/054d405a9582c09c7ec330574176ca84c230c0a1d3218c0c8b5e6146a2c3/vmklib-1.8.3.tar.gz
+[2023-07-14 00:04:51] INFO root fetch - processPackages [skelly-synchronize]: Downloading https://files.pythonhosted.org/packages/64/e4/e259311b348059e29260227fd333317e0cbf8fc17ca72b03f7e45c92ba06/skelly_synchronize-2023.6.1021.tar.gz
+[2023-07-14 00:04:51] INFO root fetch - processPackages [curatedmetagenomicdata3]: Downloading https://files.pythonhosted.org/packages/43/76/477ad53932d24633b91d5faf7bfd625f9a637046d291d5ea9f19069265b4/curatedmetagenomicdata3-0.1.0.tar.gz
+[2023-07-14 00:04:51] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2023-07-14 00:04:51] INFO root fetch - processPackages [imschrm]: Downloading https://files.pythonhosted.org/packages/cf/e2/dae1929a36fa70c30df188432b24c9dd4e54cd5ab91aa78214e1b9169ead/imschrm-1.1.0b2.tar.gz
+[2023-07-14 00:04:51] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-07-14 00:04:52] INFO root fetch - processPackages [whistleaio]: Downloading https://files.pythonhosted.org/packages/c3/33/931ffc106dba6ae25021e05c0ed94af807218c0aa195ea2cdbf59717c025/whistleaio-0.1.1.tar.gz
+[2023-07-14 00:04:52] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-14 00:04:52] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-07-14 00:04:52] INFO root fetch - processPackages [vmklib]: Downloading https://files.pythonhosted.org/packages/f4/b0/58bb77fef5d8a0347e565208f96e8fa7f66804ac2f039ea33ac938a59f3c/vmklib-1.9.0.tar.gz
+[2023-07-14 00:04:52] INFO root fetch - processPackages [PH-units]: Downloading https://files.pythonhosted.org/packages/03/77/b6814117fe42ea7e0cfb6de1af67471c6b249370f65648572938a18e0d7b/PH-units-1.4.0.tar.gz
+[2023-07-14 00:04:52] INFO root fetch - processPackages [antgen]: Downloading https://files.pythonhosted.org/packages/38/ac/60ae10cb891d8001ce68742678de28eb1b60ce70904a3d1362d7f67bf0a6/antgen-0.2.3.tar.gz
+[2023-07-14 00:04:52] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2023-07-14 00:04:52] INFO root fetch - processPackages [curatedmetagenomicdata3]: Downloading https://files.pythonhosted.org/packages/77/64/49d9f2436761b0f9efc7a4da0ceb87aedb0d1461b3521fb4590b3ef1678a/curatedmetagenomicdata3-0.1.1.tar.gz
+[2023-07-14 00:04:52] INFO root fetch - processPackages [skelly-synchronize]: Downloading https://files.pythonhosted.org/packages/ee/1d/b7034dd6f2242aa1a816baf9035500978e11a901a40f33ffde49f1156f07/skelly_synchronize-2023.7.1022.tar.gz
+[2023-07-14 00:04:52] INFO root fetch - processPackages [imschrm]: Downloading https://files.pythonhosted.org/packages/cd/04/c28e5ccbb9f53ed4a6b60dd05ea22cabe510a9988ddda34d18ba9d85e073/imschrm-1.1.0b3.tar.gz
+[2023-07-14 00:04:52] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-14 00:04:52] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230714/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-14 00:04:52] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-07-14 00:04:52] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230714/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-07-14 00:04:52] INFO root fetch - processPackages [whistleaio]: Downloading https://files.pythonhosted.org/packages/10/73/0952852e6f45340ca099a72660eec71c1c48521cca14337424714fae4585/whistleaio-0.1.2.tar.gz
+[2023-07-14 00:04:52] INFO root fetch - processPackages [PH-units]: executing diffoscope
+[2023-07-14 00:04:52] INFO root fetch - processPackages [vmklib]: executing diffoscope
+[2023-07-14 00:04:52] INFO root fetch - processPackages [PH-units]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PH-units-1.3.1.tar.gz tmp/PH-units-1.4.0.tar.gz --markdown 20230714/P/PH-units/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-14 00:04:52] INFO root fetch - processPackages [vmklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmklib-1.8.3.tar.gz tmp/vmklib-1.9.0.tar.gz --markdown 20230714/v/vmklib/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 00:04:52] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-07-14 00:04:52] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20230714/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/diff.md --exclude *.pyd
+[2023-07-14 00:04:52] INFO root fetch - processPackages [skelly-synchronize]: executing diffoscope
+[2023-07-14 00:04:52] INFO root fetch - processPackages [skelly-synchronize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skelly_synchronize-2023.6.1021.tar.gz tmp/skelly_synchronize-2023.7.1022.tar.gz --markdown 20230714/s/skelly-synchronize/2023.6.1021-2023.7.1022/diff.md --exclude *.pyd
+[2023-07-14 00:04:52] INFO root fetch - processPackages [antgen]: executing diffoscope
+[2023-07-14 00:04:52] INFO root fetch - processPackages [antgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgen-0.2.2.tar.gz tmp/antgen-0.2.3.tar.gz --markdown 20230714/a/antgen/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-14 00:04:52] INFO root fetch - processPackages [whistleaio]: executing diffoscope
+[2023-07-14 00:04:52] INFO root fetch - processPackages [whistleaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whistleaio-0.1.1.tar.gz tmp/whistleaio-0.1.2.tar.gz --markdown 20230714/w/whistleaio/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 00:04:52] INFO root fetch - processPackages [curatedmetagenomicdata3]: executing diffoscope
+[2023-07-14 00:04:52] INFO root fetch - processPackages [curatedmetagenomicdata3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curatedmetagenomicdata3-0.1.0.tar.gz tmp/curatedmetagenomicdata3-0.1.1.tar.gz --markdown 20230714/c/curatedmetagenomicdata3/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 00:04:52] INFO root fetch - processPackages [imschrm]: executing diffoscope
+[2023-07-14 00:04:52] INFO root fetch - processPackages [imschrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imschrm-1.1.0b2.tar.gz tmp/imschrm-1.1.0b3.tar.gz --markdown 20230714/i/imschrm/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-07-14 00:04:54] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: vbcore
+[2023-07-14 00:04:54] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-14 00:04:54] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [flojoy]: Start processing: adafri
+[2023-07-14 00:04:54] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-07-14 00:04:54] INFO root fetch - processPackages [adafri]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [vbcore]: New version: [2.2.0rc4] Old Version: [2.2.0rc2]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [whistleaio]: Remove: archive file [/home/abi/fetcher/tmp/whistleaio-0.1.1.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [whistleaio]: Remove: archive file [/home/abi/fetcher/tmp/whistleaio-0.1.2.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - main [MainThread]: End processing [whistleaio]: success
+[2023-07-14 00:04:54] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/61/d4/5ba3585c49ba4737e7c6724f7dd25f0ffc510a8bfa8fca279077ba1c94ab/adafri-0.0.17.tar.gz
+[2023-07-14 00:04:54] INFO root fetch - processPackages [PH-units]: Remove: archive file [/home/abi/fetcher/tmp/PH-units-1.3.1.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [PH-units]: Remove: archive file [/home/abi/fetcher/tmp/PH-units-1.4.0.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - main [MainThread]: End processing [PH-units]: success
+[2023-07-14 00:04:54] INFO root fetch - processPackages [curatedmetagenomicdata3]: Remove: archive file [/home/abi/fetcher/tmp/curatedmetagenomicdata3-0.1.0.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [curatedmetagenomicdata3]: Remove: archive file [/home/abi/fetcher/tmp/curatedmetagenomicdata3-0.1.1.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - main [MainThread]: End processing [curatedmetagenomicdata3]: success
+[2023-07-14 00:04:54] INFO root fetch - processPackages [vbcore]: Downloading https://files.pythonhosted.org/packages/2f/38/1cb2bb2ce029d00f521f12e9680d94f2864a863d86328c1c264495b9dda1/vbcore-2.2.0rc2.tar.gz
+[2023-07-14 00:04:54] INFO root fetch - processPackages [imschrm]: Remove: archive file [/home/abi/fetcher/tmp/imschrm-1.1.0b2.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [imschrm]: Remove: archive file [/home/abi/fetcher/tmp/imschrm-1.1.0b3.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - main [MainThread]: End processing [imschrm]: success
+[2023-07-14 00:04:54] INFO root fetch - processPackages [vmklib]: Remove: archive file [/home/abi/fetcher/tmp/vmklib-1.8.3.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [vmklib]: Remove: archive file [/home/abi/fetcher/tmp/vmklib-1.9.0.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - main [MainThread]: End processing [vmklib]: success
+[2023-07-14 00:04:54] INFO root fetch - processPackages [skelly-synchronize]: Remove: archive file [/home/abi/fetcher/tmp/skelly_synchronize-2023.6.1021.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [skelly-synchronize]: Remove: archive file [/home/abi/fetcher/tmp/skelly_synchronize-2023.7.1022.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - main [MainThread]: End processing [skelly-synchronize]: success
+[2023-07-14 00:04:54] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/f4/1b/8246f048606c79bfb0a8eaf5fcd4af8f1f0ac064e908fcadbdd5567eaef1/adafri-0.0.18.tar.gz
+[2023-07-14 00:04:54] INFO root fetch - processPackages [antgen]: Remove: archive file [/home/abi/fetcher/tmp/antgen-0.2.2.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [antgen]: Remove: archive file [/home/abi/fetcher/tmp/antgen-0.2.3.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - main [MainThread]: End processing [antgen]: success
+[2023-07-14 00:04:54] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2023-07-14 00:04:54] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-07-14 00:04:54] INFO root fetch - processPackages [vbcore]: Downloading https://files.pythonhosted.org/packages/51/1c/daf97785e6fe73d6cdcf2d3a2508ade3e2fe16f98ce211cb863586e3392c/vbcore-2.2.0rc4.tar.gz
+[2023-07-14 00:04:55] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-14 00:04:55] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.17.tar.gz tmp/adafri-0.0.18.tar.gz --markdown 20230714/a/adafri/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-07-14 00:04:55] INFO root fetch - processPackages [vbcore]: executing diffoscope
+[2023-07-14 00:04:55] INFO root fetch - processPackages [vbcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbcore-2.2.0rc2.tar.gz tmp/vbcore-2.2.0rc4.tar.gz --markdown 20230714/v/vbcore/2.2.0rc2-2.2.0rc4/diff.md --exclude *.pyd
+[2023-07-14 00:04:55] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.17.tar.gz]
+[2023-07-14 00:04:55] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.18.tar.gz]
+[2023-07-14 00:04:55] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-14 00:04:56] INFO root fetch - processPackages [vbcore]: Remove: archive file [/home/abi/fetcher/tmp/vbcore-2.2.0rc2.tar.gz]
+[2023-07-14 00:04:56] INFO root fetch - processPackages [vbcore]: Remove: archive file [/home/abi/fetcher/tmp/vbcore-2.2.0rc4.tar.gz]
+[2023-07-14 00:04:56] INFO root fetch - main [MainThread]: End processing [vbcore]: success
+[2023-07-14 00:04:56] INFO root fetch - main [MainThread]: Store serial: [18881217]
