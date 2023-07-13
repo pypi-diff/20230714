@@ -1718,3 +1718,76 @@
 [2023-07-14 01:49:31] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230712.tar.gz]
 [2023-07-14 01:49:31] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-07-14 01:49:31] INFO root fetch - main [MainThread]: Store serial: [18881833]
+[2023-07-14 01:54:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881833]
+[2023-07-14 01:54:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-14 01:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threemystic-common
+[2023-07-14 01:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptlogs
+[2023-07-14 01:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ggml-python
+[2023-07-14 01:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastopendata_client
+[2023-07-14 01:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threemystic-cloud-client
+[2023-07-14 01:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: socscikit
+[2023-07-14 01:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: install-auto
+[2023-07-14 01:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastopendata_client
+[2023-07-14 01:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reflected-light-sim
+[2023-07-14 01:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kirkwoodnight
+[2023-07-14 01:54:40] INFO root fetch - processPackages [ggml-python]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-14 01:54:40] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.30] Old Version: [0.1.29]
+[2023-07-14 01:54:40] INFO root fetch - processPackages [fastopendata_client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 01:54:40] INFO root fetch - processPackages [socscikit]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2023-07-14 01:54:40] INFO root fetch - processPackages [fastopendata_client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 01:54:40] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 01:54:40] WARNING root fetch - processPackages [install-auto]: Skipping, unable to determine old version
+[2023-07-14 01:54:40] WARNING root fetch - processPackages [promptlogs]: Skipping, unable to determine old version
+[2023-07-14 01:54:40] INFO root fetch - main [MainThread]: End processing [install-auto] error
+[2023-07-14 01:54:40] INFO root fetch - main [MainThread]: End processing [promptlogs] error
+[2023-07-14 01:54:40] INFO root fetch - processPackages [threemystic-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 01:54:40] WARNING root fetch - processPackages [reflected-light-sim]: Skipping, unable to determine old version
+[2023-07-14 01:54:40] INFO root fetch - main [MainThread]: End processing [reflected-light-sim] error
+[2023-07-14 01:54:40] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 01:54:40] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/26/23/96766258ec55c101f7e9943b26351ffe163218de5bfc9a22b5ab42dd67ee/fastopendata_client-0.0.8.tar.gz
+[2023-07-14 01:54:40] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/a5/f5/7b9c05fe421ddeab1102f8e2ff7de56f4a25803488e7654be1bd67af10c7/threemystic_cloud_client-0.1.29.tar.gz
+[2023-07-14 01:54:40] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/a4/96/40827b70fd781b7da2a61d70ef69d7f30232a3568303b8b3c810e6e7f997/socscikit-0.0.3.tar.gz
+[2023-07-14 01:54:40] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/b9/ca/5d06a676406db7cd8c68d45931420d1cf76aa87e961f9067c799a66ecd0c/threemystic_common-0.1.8.tar.gz
+[2023-07-14 01:54:40] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/26/23/96766258ec55c101f7e9943b26351ffe163218de5bfc9a22b5ab42dd67ee/fastopendata_client-0.0.8.tar.gz
+[2023-07-14 01:54:40] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/9c/01/06f385da2e0475c19b4839adf799a0a429a40807eef7a3be9f9646258420/ggml-python-0.0.7.tar.gz
+[2023-07-14 01:54:40] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 01:54:40] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/e4/b5/07bdb74c5d8a57155d86563bb8c85fb3c7f5945629ec5af36869b4f4b08d/fastopendata_client-0.0.9.tar.gz
+[2023-07-14 01:54:40] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/e4/b5/07bdb74c5d8a57155d86563bb8c85fb3c7f5945629ec5af36869b4f4b08d/fastopendata_client-0.0.9.tar.gz
+[2023-07-14 01:54:40] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/12/15/03c72da1e69a84fa41077540a44769e5c5cf51729b1635be1286bd10a547/threemystic_common-0.1.9.tar.gz
+[2023-07-14 01:54:41] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/69/bb/21ccc9bbeab71f37e7c94a1b318bdb24de2f00d5ccad718add4730bf3b3a/threemystic_cloud_client-0.1.30.tar.gz
+[2023-07-14 01:54:41] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/b2/17/59551dc38097577231fb109e6001d5b08a7e43d9cbc48d110e67dfd98147/socscikit-0.0.3.1.tar.gz
+[2023-07-14 01:54:41] INFO root fetch - processPackages [fastopendata_client]: executing diffoscope
+[2023-07-14 01:54:41] INFO root fetch - processPackages [fastopendata_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastopendata_client-0.0.8.tar.gz tmp/fastopendata_client-0.0.9.tar.gz --markdown 20230714/f/fastopendata_client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 01:54:41] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 01:54:41] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 01:54:41] INFO root fetch - processPackages [fastopendata_client]: executing diffoscope
+[2023-07-14 01:54:41] INFO root fetch - processPackages [fastopendata_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastopendata_client-0.0.8.tar.gz tmp/fastopendata_client-0.0.9.tar.gz --markdown 20230714/f/fastopendata_client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 01:54:41] INFO root fetch - processPackages [threemystic-common]: executing diffoscope
+[2023-07-14 01:54:41] INFO root fetch - processPackages [threemystic-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_common-0.1.8.tar.gz tmp/threemystic_common-0.1.9.tar.gz --markdown 20230714/t/threemystic-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 01:54:41] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/a4/a6/72a3a1b75015aa10fc1a634df9de7395e5ee3098cc8a40b9ad52e9903308/ggml-python-0.0.8.tar.gz
+[2023-07-14 01:54:41] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-14 01:54:41] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.3.tar.gz tmp/socscikit-0.0.3.1.tar.gz --markdown 20230714/s/socscikit/0.0.3-0.0.3.1/diff.md --exclude *.pyd
+[2023-07-14 01:54:41] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-14 01:54:41] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.29.tar.gz tmp/threemystic_cloud_client-0.1.30.tar.gz --markdown 20230714/t/threemystic-cloud-client/0.1.29-0.1.30/diff.md --exclude *.pyd
+[2023-07-14 01:54:41] INFO root fetch - processPackages [ggml-python]: executing diffoscope
+[2023-07-14 01:54:41] INFO root fetch - processPackages [ggml-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggml-python-0.0.7.tar.gz tmp/ggml-python-0.0.8.tar.gz --markdown 20230714/g/ggml-python/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-14 01:54:42] INFO root fetch - processPackages [fastopendata_client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.8.tar.gz]
+[2023-07-14 01:54:42] INFO root fetch - processPackages [fastopendata_client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.9.tar.gz]
+[2023-07-14 01:54:42] INFO root fetch - main [MainThread]: End processing [fastopendata_client]: success
+[2023-07-14 01:54:42] INFO root fetch - main [MainThread]: End processing [fastopendata_client]: success
+[2023-07-14 01:54:42] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-14 01:54:42] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-14 01:54:42] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 01:54:42] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.8.tar.gz]
+[2023-07-14 01:54:42] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.9.tar.gz]
+[2023-07-14 01:54:42] INFO root fetch - main [MainThread]: End processing [threemystic-common]: success
+[2023-07-14 01:54:42] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.3.tar.gz]
+[2023-07-14 01:54:42] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.3.1.tar.gz]
+[2023-07-14 01:54:42] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-14 01:54:42] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.29.tar.gz]
+[2023-07-14 01:54:42] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.30.tar.gz]
+[2023-07-14 01:54:42] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-14 01:54:43] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.7.tar.gz]
+[2023-07-14 01:54:43] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.8.tar.gz]
+[2023-07-14 01:54:43] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
+[2023-07-14 01:54:43] INFO root fetch - main [MainThread]: Store serial: [18881866]
