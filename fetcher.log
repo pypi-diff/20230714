@@ -222,3 +222,75 @@
 [2023-07-14 00:10:09] INFO root fetch - processPackages [flowchem-test]: Remove: archive file [/home/abi/fetcher/tmp/flowchem-test-0.1b3.tar.gz]
 [2023-07-14 00:10:09] INFO root fetch - main [MainThread]: End processing [flowchem-test]: success
 [2023-07-14 00:10:09] INFO root fetch - main [MainThread]: Store serial: [18881262]
+[2023-07-14 00:15:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881262]
+[2023-07-14 00:15:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 00:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plone.app.z3cform
+[2023-07-14 00:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funtoo-metatools
+[2023-07-14 00:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ForestScience
+[2023-07-14 00:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kirkwoodnight
+[2023-07-14 00:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FindDouble
+[2023-07-14 00:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iqmma
+[2023-07-14 00:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: humbug
+[2023-07-14 00:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: curatedmetagenomicdata3
+[2023-07-14 00:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plone.schemaeditor
+[2023-07-14 00:15:17] INFO root fetch - processPackages [funtoo-metatools]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-14 00:15:17] INFO root fetch - processPackages [iqmma]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-14 00:15:17] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 00:15:17] WARNING root fetch - processPackages [FindDouble]: Skipping, unable to determine old version
+[2023-07-14 00:15:17] INFO root fetch - main [MainThread]: End processing [FindDouble] error
+[2023-07-14 00:15:17] INFO root fetch - processPackages [curatedmetagenomicdata3]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-14 00:15:17] INFO root fetch - processPackages [plone.schemaeditor]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-07-14 00:15:17] INFO root fetch - processPackages [humbug]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-14 00:15:17] WARNING root fetch - processPackages [ForestScience]: Skipping, unable to determine old version
+[2023-07-14 00:15:17] INFO root fetch - main [MainThread]: End processing [ForestScience] error
+[2023-07-14 00:15:17] INFO root fetch - processPackages [plone.app.z3cform]: New version: [4.3.0] Old Version: [4.2.1]
+[2023-07-14 00:15:18] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 00:15:18] INFO root fetch - processPackages [curatedmetagenomicdata3]: Downloading https://files.pythonhosted.org/packages/43/76/477ad53932d24633b91d5faf7bfd625f9a637046d291d5ea9f19069265b4/curatedmetagenomicdata3-0.1.0.tar.gz
+[2023-07-14 00:15:18] INFO root fetch - processPackages [funtoo-metatools]: Downloading https://files.pythonhosted.org/packages/e9/09/7e4537a926d1957ced3394e90be6adcda65c108404cc60daf9581dfc01d3/funtoo-metatools-1.3.2.tar.gz
+[2023-07-14 00:15:18] INFO root fetch - processPackages [iqmma]: Downloading https://files.pythonhosted.org/packages/82/46/fcb0ad817c0d4d7b34988918ca27bfd0b6f9abbb1071e2eddf4fa3871e60/iqmma-0.1.4-py3-none-any.whl
+[2023-07-14 00:15:18] INFO root fetch - processPackages [plone.schemaeditor]: Downloading https://files.pythonhosted.org/packages/10/e4/99842c9046c8b3a9104f596b47f21297802c8870b77bfe10b1faf84e98fa/plone.schemaeditor-4.0.2.tar.gz
+[2023-07-14 00:15:18] INFO root fetch - processPackages [humbug]: Downloading https://files.pythonhosted.org/packages/39/88/188290a6b580b63db943bf26df716e463d6b76860827a18d82e3fabd330a/humbug-0.3.1.tar.gz
+[2023-07-14 00:15:18] INFO root fetch - processPackages [plone.app.z3cform]: Downloading https://files.pythonhosted.org/packages/43/5a/4f1131378c23f7e7a9f9ed55d49950824729ff72b22409aa1601fcbac7af/plone.app.z3cform-4.2.1.tar.gz
+[2023-07-14 00:15:18] INFO root fetch - processPackages [curatedmetagenomicdata3]: Downloading https://files.pythonhosted.org/packages/77/64/49d9f2436761b0f9efc7a4da0ceb87aedb0d1461b3521fb4590b3ef1678a/curatedmetagenomicdata3-0.1.1.tar.gz
+[2023-07-14 00:15:18] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 00:15:18] INFO root fetch - processPackages [funtoo-metatools]: Downloading https://files.pythonhosted.org/packages/5f/d3/d67f443fa8840d1ef25f21c9cb4d8a1a267b481c8e2dc54096cfc7a134e0/funtoo-metatools-1.3.3.tar.gz
+[2023-07-14 00:15:18] INFO root fetch - processPackages [curatedmetagenomicdata3]: executing diffoscope
+[2023-07-14 00:15:18] INFO root fetch - processPackages [curatedmetagenomicdata3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curatedmetagenomicdata3-0.1.0.tar.gz tmp/curatedmetagenomicdata3-0.1.1.tar.gz --markdown 20230714/c/curatedmetagenomicdata3/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 00:15:18] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 00:15:18] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 00:15:18] INFO root fetch - processPackages [iqmma]: Downloading https://files.pythonhosted.org/packages/0d/e1/058c2e0e3f23a73a1efc4b8a0555fd924a83bd911aa51eb3e3eee1c81230/iqmma-0.1.5-py3-none-any.whl
+[2023-07-14 00:15:18] INFO root fetch - processPackages [humbug]: Downloading https://files.pythonhosted.org/packages/f8/db/b273e70c2151f5b8d1c915a43e94fcd056fcdb0d2a1c52d24d468cd72d5b/humbug-0.3.2.tar.gz
+[2023-07-14 00:15:18] INFO root fetch - processPackages [plone.schemaeditor]: Downloading https://files.pythonhosted.org/packages/af/3f/bf9a9f857f8fe28c3f61c37ee7c8519cbf95ac2b2f103be848b74869e8ce/plone.schemaeditor-4.0.3.tar.gz
+[2023-07-14 00:15:18] INFO root fetch - processPackages [funtoo-metatools]: executing diffoscope
+[2023-07-14 00:15:18] INFO root fetch - processPackages [funtoo-metatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funtoo-metatools-1.3.2.tar.gz tmp/funtoo-metatools-1.3.3.tar.gz --markdown 20230714/f/funtoo-metatools/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-14 00:15:18] INFO root fetch - processPackages [iqmma]: executing diffoscope
+[2023-07-14 00:15:18] INFO root fetch - processPackages [iqmma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqmma-0.1.4-py3-none-any.whl.zip tmp/iqmma-0.1.5-py3-none-any.whl.zip --markdown 20230714/i/iqmma/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-14 00:15:18] INFO root fetch - processPackages [humbug]: executing diffoscope
+[2023-07-14 00:15:18] INFO root fetch - processPackages [humbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humbug-0.3.1.tar.gz tmp/humbug-0.3.2.tar.gz --markdown 20230714/h/humbug/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-14 00:15:18] INFO root fetch - processPackages [plone.app.z3cform]: Downloading https://files.pythonhosted.org/packages/fa/40/b6e993f683b535d3e0ba05c83e16688996fce296d38d73b7bbb6a6683769/plone.app.z3cform-4.3.0.tar.gz
+[2023-07-14 00:15:19] INFO root fetch - processPackages [plone.schemaeditor]: executing diffoscope
+[2023-07-14 00:15:19] INFO root fetch - processPackages [plone.schemaeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.schemaeditor-4.0.2.tar.gz tmp/plone.schemaeditor-4.0.3.tar.gz --markdown 20230714/p/plone.schemaeditor/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-07-14 00:15:19] INFO root fetch - processPackages [plone.app.z3cform]: executing diffoscope
+[2023-07-14 00:15:19] INFO root fetch - processPackages [plone.app.z3cform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.z3cform-4.2.1.tar.gz tmp/plone.app.z3cform-4.3.0.tar.gz --markdown 20230714/p/plone.app.z3cform/4.2.1-4.3.0/diff.md --exclude *.pyd
+[2023-07-14 00:15:19] INFO root fetch - processPackages [curatedmetagenomicdata3]: Remove: archive file [/home/abi/fetcher/tmp/curatedmetagenomicdata3-0.1.0.tar.gz]
+[2023-07-14 00:15:19] INFO root fetch - processPackages [curatedmetagenomicdata3]: Remove: archive file [/home/abi/fetcher/tmp/curatedmetagenomicdata3-0.1.1.tar.gz]
+[2023-07-14 00:15:19] INFO root fetch - main [MainThread]: End processing [curatedmetagenomicdata3]: success
+[2023-07-14 00:15:19] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-14 00:15:19] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-14 00:15:19] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 00:15:20] INFO root fetch - processPackages [iqmma]: Remove: archive file [/home/abi/fetcher/tmp/iqmma-0.1.4-py3-none-any.whl.zip]
+[2023-07-14 00:15:20] INFO root fetch - processPackages [iqmma]: Remove: archive file [/home/abi/fetcher/tmp/iqmma-0.1.5-py3-none-any.whl.zip]
+[2023-07-14 00:15:20] INFO root fetch - main [MainThread]: End processing [iqmma]: success
+[2023-07-14 00:15:20] INFO root fetch - processPackages [humbug]: Remove: archive file [/home/abi/fetcher/tmp/humbug-0.3.1.tar.gz]
+[2023-07-14 00:15:20] INFO root fetch - processPackages [humbug]: Remove: archive file [/home/abi/fetcher/tmp/humbug-0.3.2.tar.gz]
+[2023-07-14 00:15:20] INFO root fetch - main [MainThread]: End processing [humbug]: success
+[2023-07-14 00:15:20] INFO root fetch - processPackages [plone.schemaeditor]: Remove: archive file [/home/abi/fetcher/tmp/plone.schemaeditor-4.0.2.tar.gz]
+[2023-07-14 00:15:20] INFO root fetch - processPackages [plone.schemaeditor]: Remove: archive file [/home/abi/fetcher/tmp/plone.schemaeditor-4.0.3.tar.gz]
+[2023-07-14 00:15:20] INFO root fetch - main [MainThread]: End processing [plone.schemaeditor]: success
+[2023-07-14 00:15:20] INFO root fetch - processPackages [funtoo-metatools]: Remove: archive file [/home/abi/fetcher/tmp/funtoo-metatools-1.3.2.tar.gz]
+[2023-07-14 00:15:20] INFO root fetch - processPackages [funtoo-metatools]: Remove: archive file [/home/abi/fetcher/tmp/funtoo-metatools-1.3.3.tar.gz]
+[2023-07-14 00:15:20] INFO root fetch - main [MainThread]: End processing [funtoo-metatools]: success
+[2023-07-14 00:15:20] INFO root fetch - processPackages [plone.app.z3cform]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.z3cform-4.2.1.tar.gz]
+[2023-07-14 00:15:20] INFO root fetch - processPackages [plone.app.z3cform]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.z3cform-4.3.0.tar.gz]
+[2023-07-14 00:15:20] INFO root fetch - main [MainThread]: End processing [plone.app.z3cform]: success
+[2023-07-14 00:15:20] INFO root fetch - main [MainThread]: Store serial: [18881294]
