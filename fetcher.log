@@ -22134,3 +22134,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-14 14:56:53] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230714.tar.gz]
 [2023-07-14 14:56:53] INFO root fetch - main [MainThread]: End processing [manticore]: success
 [2023-07-14 14:56:53] INFO root fetch - main [MainThread]: Store serial: [18889667]
+[2023-07-14 15:01:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18889667]
+[2023-07-14 15:02:02] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-14 15:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-pygen
+[2023-07-14 15:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dms-influx2
+[2023-07-14 15:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Adyen
+[2023-07-14 15:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkgNipun
+[2023-07-14 15:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyIEM
+[2023-07-14 15:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taxonomy-connector
+[2023-07-14 15:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: helios-rl
+[2023-07-14 15:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ramodels
+[2023-07-14 15:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unitelabs-sila
+[2023-07-14 15:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: toypandas
+[2023-07-14 15:02:02] INFO root fetch - processPackages [Adyen]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-14 15:02:02] INFO root fetch - processPackages [dms-influx2]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-14 15:02:02] INFO root fetch - processPackages [pyIEM]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-14 15:02:02] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-14 15:02:02] INFO root fetch - processPackages [cognite-pygen]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-14 15:02:02] INFO root fetch - processPackages [unitelabs-sila]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 15:02:02] WARNING root fetch - processPackages [pkgNipun]: Skipping, unable to determine old version
+[2023-07-14 15:02:02] INFO root fetch - processPackages [pkgNipun]: Start processing: lib-parameter
+[2023-07-14 15:02:02] INFO root fetch - main [MainThread]: End processing [pkgNipun] error
+[2023-07-14 15:02:02] INFO root fetch - processPackages [taxonomy-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-14 15:02:02] WARNING root fetch - processPackages [toypandas]: Skipping, unable to determine old version
+[2023-07-14 15:02:02] INFO root fetch - processPackages [toypandas]: Start processing: for-testing
+[2023-07-14 15:02:02] INFO root fetch - main [MainThread]: End processing [toypandas] error
+[2023-07-14 15:02:02] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-14 15:02:02] INFO root fetch - processPackages [lib-parameter]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-14 15:02:02] INFO root fetch - processPackages [dms-influx2]: Downloading https://files.pythonhosted.org/packages/7c/b9/c3d54d6e5fc2763afe979f99e99d36f2eff8c915608cae6f8bb1836b7263/dms-influx2-0.3.2.tar.gz
+[2023-07-14 15:02:02] INFO root fetch - processPackages [for-testing]: New version: [46.1.1] Old Version: [45.1.1]
+[2023-07-14 15:02:02] INFO root fetch - processPackages [Adyen]: Downloading https://files.pythonhosted.org/packages/eb/85/da1787a0894239a41321e3109a6f6b11f2fb566c47be1e1158212c2b5ae7/Adyen-9.0.0.tar.gz
+[2023-07-14 15:02:02] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-14 15:02:02] INFO root fetch - processPackages [unitelabs-sila]: Downloading https://files.pythonhosted.org/packages/fe/0d/57950367d157185d98f52e38d7f07b0e118606b994cd356d0e9b1a0b5ee3/unitelabs_sila-0.1.1.tar.gz
+[2023-07-14 15:02:02] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-14 15:02:02] INFO root fetch - processPackages [pyIEM]: Downloading https://files.pythonhosted.org/packages/8b/fa/5afc2ff6d5d17339b6cc58390ede07ac85131c6aa5d4947f9725a371717f/pyIEM-1.8.0.tar.gz
+[2023-07-14 15:02:02] INFO root fetch - processPackages [lib-parameter]: Downloading https://files.pythonhosted.org/packages/71/7e/a5a2b47ea2cc207c7ab9527c8dcf73c9aa065d87ce8d376e3dd810e61cff/lib_parameter-1.1.8.tar.gz
+[2023-07-14 15:02:02] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/00/1d/45e130588e398bb316a98f0e6793ef0d61220b74c7d14db5213e3f9f977e/cognite_pygen-0.9.0.tar.gz
+[2023-07-14 15:02:02] INFO root fetch - processPackages [for-testing]: Downloading https://files.pythonhosted.org/packages/db/5f/3429ae94b007b0160c88016a8568c1e906448df4904f138b568319a35084/for-testing-45.1.1.tar.gz
+[2023-07-14 15:02:02] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/86/d4/cc43cca65b5c3a1ffb7ae8e713f7aa52c9f9dbb7b0c7e2655457762c6d7b/taxonomy-connector-1.8.0.tar.gz
+[2023-07-14 15:02:03] INFO root fetch - processPackages [unitelabs-sila]: Downloading https://files.pythonhosted.org/packages/c3/37/42b0ac75743b029e9b31fb220a12c945c57355a096df9f4e82491dc3d64a/unitelabs_sila-0.1.2.tar.gz
+[2023-07-14 15:02:03] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-14 15:02:03] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-14 15:02:03] INFO root fetch - processPackages [Adyen]: Downloading https://files.pythonhosted.org/packages/15/19/69e96b6bc0e227e03b5850582c8332f332be4b80947f34a3376311ca4bde/Adyen-9.0.1.tar.gz
+[2023-07-14 15:02:03] INFO root fetch - processPackages [dms-influx2]: Downloading https://files.pythonhosted.org/packages/51/e2/f17f6975a3a6b6a1ae11c09b3a2ec98259622299188d6854a42ace5577e5/dms-influx2-0.3.3.tar.gz
+[2023-07-14 15:02:03] INFO root fetch - processPackages [lib-parameter]: Downloading https://files.pythonhosted.org/packages/cd/af/c03c8fab116312f2eafae23ce967d04103361490a0a2af6ba51fb39811a5/lib_parameter-1.1.9.tar.gz
+[2023-07-14 15:02:03] INFO root fetch - processPackages [for-testing]: Downloading https://files.pythonhosted.org/packages/81/06/2c6824bd191ba28b10976b44027429b3aa821740315c2a7d70fc9fe90575/for-testing-46.1.1.tar.gz
+[2023-07-14 15:02:03] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-14 15:02:03] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230714/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-14 15:02:03] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-14 15:02:03] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230714/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-14 15:02:03] INFO root fetch - processPackages [Adyen]: executing diffoscope
+[2023-07-14 15:02:03] INFO root fetch - processPackages [Adyen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Adyen-9.0.0.tar.gz tmp/Adyen-9.0.1.tar.gz --markdown 20230714/A/Adyen/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-07-14 15:02:03] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/60/82/6933c49b21a0da5d910b384c5a3e2d4e588fb3ed4771a25beb40febc3ed4/taxonomy-connector-1.9.0.tar.gz
+[2023-07-14 15:02:03] INFO root fetch - processPackages [lib-parameter]: executing diffoscope
+[2023-07-14 15:02:03] INFO root fetch - processPackages [lib-parameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_parameter-1.1.8.tar.gz tmp/lib_parameter-1.1.9.tar.gz --markdown 20230714/l/lib-parameter/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-14 15:02:03] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/ce/02/7ecd0882d447246a79ac11eff331b1c4e7890eb9fd3e85568a959aef9aa9/cognite_pygen-0.9.1.tar.gz
+[2023-07-14 15:02:03] INFO root fetch - processPackages [for-testing]: executing diffoscope
+[2023-07-14 15:02:03] INFO root fetch - processPackages [for-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/for-testing-45.1.1.tar.gz tmp/for-testing-46.1.1.tar.gz --markdown 20230714/f/for-testing/45.1.1-46.1.1/diff.md --exclude *.pyd
+[2023-07-14 15:02:03] INFO root fetch - processPackages [unitelabs-sila]: executing diffoscope
+[2023-07-14 15:02:03] INFO root fetch - processPackages [unitelabs-sila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitelabs_sila-0.1.1.tar.gz tmp/unitelabs_sila-0.1.2.tar.gz --markdown 20230714/u/unitelabs-sila/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 15:02:03] INFO root fetch - processPackages [dms-influx2]: executing diffoscope
+[2023-07-14 15:02:03] INFO root fetch - processPackages [dms-influx2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dms-influx2-0.3.2.tar.gz tmp/dms-influx2-0.3.3.tar.gz --markdown 20230714/d/dms-influx2/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-14 15:02:03] WARNING root fetch - processPackages [pyIEM]: Skipping package: exceeds size limit 25135299>=10485760
+[2023-07-14 15:02:03] INFO root fetch - processPackages [pyIEM]: Start processing: jupyter-cpp-kernel
+[2023-07-14 15:02:03] INFO root fetch - main [MainThread]: End processing [pyIEM] error
+[2023-07-14 15:02:03] WARNING root fetch - processPackages [jupyter-cpp-kernel]: Skipping, unable to determine old version
+[2023-07-14 15:02:03] INFO root fetch - processPackages [jupyter-cpp-kernel]: Start processing: django-pdr
+[2023-07-14 15:02:03] INFO root fetch - main [MainThread]: End processing [jupyter-cpp-kernel] error
+[2023-07-14 15:02:03] INFO root fetch - processPackages [taxonomy-connector]: executing diffoscope
+[2023-07-14 15:02:03] INFO root fetch - processPackages [taxonomy-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxonomy-connector-1.8.0.tar.gz tmp/taxonomy-connector-1.9.0.tar.gz --markdown 20230714/t/taxonomy-connector/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 15:02:03] INFO root fetch - processPackages [cognite-pygen]: executing diffoscope
+[2023-07-14 15:02:03] INFO root fetch - processPackages [cognite-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_pygen-0.9.0.tar.gz tmp/cognite_pygen-0.9.1.tar.gz --markdown 20230714/c/cognite-pygen/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-14 15:02:03] INFO root fetch - processPackages [django-pdr]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-14 15:02:03] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/81/24/cd50b462f351541afaa9538a80f39a1056194853c438876c50290bd37789/django-pdr-1.2.8.tar.gz
+[2023-07-14 15:02:04] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/36/f9/326659fda9e7bf3ba840f0c789944e72a150630f7ca4afc665ef7eb28050/django-pdr-1.2.9.tar.gz
+[2023-07-14 15:02:04] INFO root fetch - processPackages [django-pdr]: executing diffoscope
+[2023-07-14 15:02:04] INFO root fetch - processPackages [django-pdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pdr-1.2.8.tar.gz tmp/django-pdr-1.2.9.tar.gz --markdown 20230714/d/django-pdr/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-14 15:02:04] INFO root fetch - processPackages [lib-parameter]: Remove: archive file [/home/abi/fetcher/tmp/lib_parameter-1.1.8.tar.gz]
+[2023-07-14 15:02:04] INFO root fetch - processPackages [lib-parameter]: Remove: archive file [/home/abi/fetcher/tmp/lib_parameter-1.1.9.tar.gz]
+[2023-07-14 15:02:04] INFO root fetch - main [MainThread]: End processing [lib-parameter]: success
+[2023-07-14 15:02:04] INFO root fetch - processPackages [for-testing]: Remove: archive file [/home/abi/fetcher/tmp/for-testing-45.1.1.tar.gz]
+[2023-07-14 15:02:04] INFO root fetch - processPackages [for-testing]: Remove: archive file [/home/abi/fetcher/tmp/for-testing-46.1.1.tar.gz]
+[2023-07-14 15:02:04] INFO root fetch - main [MainThread]: End processing [for-testing]: success
+[2023-07-14 15:02:05] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-14 15:02:05] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-14 15:02:05] INFO root fetch - processPackages [dms-influx2]: Remove: archive file [/home/abi/fetcher/tmp/dms-influx2-0.3.2.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - processPackages [dms-influx2]: Remove: archive file [/home/abi/fetcher/tmp/dms-influx2-0.3.3.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - main [MainThread]: End processing [dms-influx2]: success
+[2023-07-14 15:02:05] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.0.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.1.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
+[2023-07-14 15:02:05] INFO root fetch - processPackages [Adyen]: Remove: archive file [/home/abi/fetcher/tmp/Adyen-9.0.0.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - processPackages [Adyen]: Remove: archive file [/home/abi/fetcher/tmp/Adyen-9.0.1.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - main [MainThread]: End processing [Adyen]: success
+[2023-07-14 15:02:05] INFO root fetch - processPackages [unitelabs-sila]: Remove: archive file [/home/abi/fetcher/tmp/unitelabs_sila-0.1.1.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - processPackages [unitelabs-sila]: Remove: archive file [/home/abi/fetcher/tmp/unitelabs_sila-0.1.2.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - main [MainThread]: End processing [unitelabs-sila]: success
+[2023-07-14 15:02:05] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.8.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.9.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - main [MainThread]: End processing [django-pdr]: success
+[2023-07-14 15:02:05] INFO root fetch - processPackages [taxonomy-connector]: Remove: archive file [/home/abi/fetcher/tmp/taxonomy-connector-1.8.0.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - processPackages [taxonomy-connector]: Remove: archive file [/home/abi/fetcher/tmp/taxonomy-connector-1.9.0.tar.gz]
+[2023-07-14 15:02:05] INFO root fetch - main [MainThread]: End processing [taxonomy-connector]: success
+[2023-07-14 15:02:05] INFO root fetch - main [MainThread]: Store serial: [18889723]
