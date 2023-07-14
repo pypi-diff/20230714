@@ -17966,3 +17966,72 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 11:41:27] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-1.0.20230714.tar.gz]
 [2023-07-14 11:41:27] INFO root fetch - main [MainThread]: End processing [formance-sdk-python]: success
 [2023-07-14 11:41:27] INFO root fetch - main [MainThread]: Store serial: [18887900]
+[2023-07-14 11:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18887900]
+[2023-07-14 11:46:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-14 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aikopanel-bot
+[2023-07-14 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geneinfo
+[2023-07-14 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitprprod
+[2023-07-14 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyreports
+[2023-07-14 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monocleaner
+[2023-07-14 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-owasp-zap-v2.4
+[2023-07-14 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: motipy
+[2023-07-14 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zylo-admin
+[2023-07-14 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dlg-paletteGen
+[2023-07-14 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vanitas-antispam
+[2023-07-14 11:46:36] INFO root fetch - processPackages [monocleaner]: New version: [1.5] Old Version: [1.4]
+[2023-07-14 11:46:36] WARNING root fetch - processPackages [zylo-admin]: Skipping, unable to determine old version
+[2023-07-14 11:46:36] INFO root fetch - main [MainThread]: End processing [zylo-admin] error
+[2023-07-14 11:46:36] INFO root fetch - processPackages [pyreports]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-07-14 11:46:36] INFO root fetch - processPackages [gitprprod]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-14 11:46:36] INFO root fetch - processPackages [python-owasp-zap-v2.4]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 11:46:36] WARNING root fetch - processPackages [aikopanel-bot]: Skipping, unable to determine old version
+[2023-07-14 11:46:36] INFO root fetch - main [MainThread]: End processing [aikopanel-bot] error
+[2023-07-14 11:46:36] INFO root fetch - processPackages [dlg-paletteGen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 11:46:36] WARNING root fetch - processPackages [motipy]: Skipping, unable to determine old version
+[2023-07-14 11:46:36] INFO root fetch - main [MainThread]: End processing [motipy] error
+[2023-07-14 11:46:36] INFO root fetch - processPackages [geneinfo]: New version: [3.4.4] Old Version: [3.4.3]
+[2023-07-14 11:46:36] WARNING root fetch - processPackages [vanitas-antispam]: Skipping, unable to determine old version
+[2023-07-14 11:46:36] INFO root fetch - main [MainThread]: End processing [vanitas-antispam] error
+[2023-07-14 11:46:36] INFO root fetch - processPackages [gitprprod]: Downloading https://files.pythonhosted.org/packages/b9/86/2c974ca3104da64a87c1cb6257f8ca2043337f16e330341c2618ff1aa4ac/gitprprod-0.0.2.tar.gz
+[2023-07-14 11:46:36] INFO root fetch - processPackages [monocleaner]: Downloading https://files.pythonhosted.org/packages/05/7d/6d82dec6cef2a219db4d5ca5cf05dc9f7a6503b3a2eaee9159558c6bae90/monocleaner-1.4.tar.gz
+[2023-07-14 11:46:36] INFO root fetch - processPackages [python-owasp-zap-v2.4]: Downloading https://files.pythonhosted.org/packages/cb/8d/d4b56898cdc2b8b2a186813bc2ea0b17d98c7b239a85e80989f7ed5ef8b6/python-owasp-zap-v2.4-0.0.8.tar.gz
+[2023-07-14 11:46:37] INFO root fetch - processPackages [geneinfo]: Downloading https://files.pythonhosted.org/packages/9e/3e/d321e1f47f12b6863eeb7f1e449f73e5ef4da7ca6864e668a1cb630cc8fc/geneinfo-3.4.3.tar.gz
+[2023-07-14 11:46:37] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/25/12/bee66af4a7e61a8579993c7eab5691e8ec404147777e1341ee557cb24f20/dlg_paletteGen-0.1.8.tar.gz
+[2023-07-14 11:46:37] INFO root fetch - processPackages [pyreports]: Downloading https://files.pythonhosted.org/packages/96/a2/49f6516158bdb679545e3d74bddf0a35882065c03a26429e3925c68b285d/pyreports-1.5.1.tar.gz
+[2023-07-14 11:46:37] INFO root fetch - processPackages [gitprprod]: Downloading https://files.pythonhosted.org/packages/61/ea/c7dccfaf753b63e433b50b5fd050379bbfe67eb5f0168ec63dd7e75cfb79/gitprprod-0.0.3.tar.gz
+[2023-07-14 11:46:37] INFO root fetch - processPackages [monocleaner]: Downloading https://files.pythonhosted.org/packages/64/0f/20c02a572df1174ae1371abba518d1cd64b986519eb35108db34e8b5d404/monocleaner-1.5.tar.gz
+[2023-07-14 11:46:37] INFO root fetch - processPackages [gitprprod]: executing diffoscope
+[2023-07-14 11:46:37] INFO root fetch - processPackages [gitprprod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitprprod-0.0.2.tar.gz tmp/gitprprod-0.0.3.tar.gz --markdown 20230714/g/gitprprod/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 11:46:37] INFO root fetch - processPackages [geneinfo]: Downloading https://files.pythonhosted.org/packages/7d/0a/7e3272e8e889eca3be9b0df1d0c67106f05aeac36223a04f3e89b061c57f/geneinfo-3.4.4.tar.gz
+[2023-07-14 11:46:37] INFO root fetch - processPackages [python-owasp-zap-v2.4]: Downloading https://files.pythonhosted.org/packages/1e/92/42878f171e2cb5144aac8dcb7db5cecbc29895b600ae287be14014b2a17a/python-owasp-zap-v2.4-0.0.9.tar.gz
+[2023-07-14 11:46:37] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/f4/af/1168c22bc592bf352e8c0c01adc8339076e21c405cfcedcb07291b53688f/dlg_paletteGen-0.1.9.tar.gz
+[2023-07-14 11:46:37] INFO root fetch - processPackages [pyreports]: Downloading https://files.pythonhosted.org/packages/a0/1a/85f02e130a62be9372f6e3561d9496aef8ae164628f5b640c25e03fd9958/pyreports-1.6.0.tar.gz
+[2023-07-14 11:46:37] INFO root fetch - processPackages [geneinfo]: executing diffoscope
+[2023-07-14 11:46:37] INFO root fetch - processPackages [geneinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneinfo-3.4.3.tar.gz tmp/geneinfo-3.4.4.tar.gz --markdown 20230714/g/geneinfo/3.4.3-3.4.4/diff.md --exclude *.pyd
+[2023-07-14 11:46:37] INFO root fetch - processPackages [monocleaner]: executing diffoscope
+[2023-07-14 11:46:37] INFO root fetch - processPackages [monocleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monocleaner-1.4.tar.gz tmp/monocleaner-1.5.tar.gz --markdown 20230714/m/monocleaner/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-14 11:46:37] INFO root fetch - processPackages [dlg-paletteGen]: executing diffoscope
+[2023-07-14 11:46:37] INFO root fetch - processPackages [dlg-paletteGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlg_paletteGen-0.1.8.tar.gz tmp/dlg_paletteGen-0.1.9.tar.gz --markdown 20230714/d/dlg-paletteGen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 11:46:37] INFO root fetch - processPackages [python-owasp-zap-v2.4]: executing diffoscope
+[2023-07-14 11:46:37] INFO root fetch - processPackages [python-owasp-zap-v2.4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-owasp-zap-v2.4-0.0.8.tar.gz tmp/python-owasp-zap-v2.4-0.0.9.tar.gz --markdown 20230714/p/python-owasp-zap-v2.4/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 11:46:37] INFO root fetch - processPackages [pyreports]: executing diffoscope
+[2023-07-14 11:46:37] INFO root fetch - processPackages [pyreports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreports-1.5.1.tar.gz tmp/pyreports-1.6.0.tar.gz --markdown 20230714/p/pyreports/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-07-14 11:46:38] INFO root fetch - processPackages [gitprprod]: Remove: archive file [/home/abi/fetcher/tmp/gitprprod-0.0.2.tar.gz]
+[2023-07-14 11:46:38] INFO root fetch - processPackages [gitprprod]: Remove: archive file [/home/abi/fetcher/tmp/gitprprod-0.0.3.tar.gz]
+[2023-07-14 11:46:38] INFO root fetch - main [MainThread]: End processing [gitprprod]: success
+[2023-07-14 11:46:38] INFO root fetch - processPackages [monocleaner]: Remove: archive file [/home/abi/fetcher/tmp/monocleaner-1.4.tar.gz]
+[2023-07-14 11:46:38] INFO root fetch - processPackages [monocleaner]: Remove: archive file [/home/abi/fetcher/tmp/monocleaner-1.5.tar.gz]
+[2023-07-14 11:46:38] INFO root fetch - main [MainThread]: End processing [monocleaner]: success
+[2023-07-14 11:46:38] INFO root fetch - processPackages [geneinfo]: Remove: archive file [/home/abi/fetcher/tmp/geneinfo-3.4.3.tar.gz]
+[2023-07-14 11:46:38] INFO root fetch - processPackages [geneinfo]: Remove: archive file [/home/abi/fetcher/tmp/geneinfo-3.4.4.tar.gz]
+[2023-07-14 11:46:38] INFO root fetch - main [MainThread]: End processing [geneinfo]: success
+[2023-07-14 11:46:38] INFO root fetch - processPackages [python-owasp-zap-v2.4]: Remove: archive file [/home/abi/fetcher/tmp/python-owasp-zap-v2.4-0.0.8.tar.gz]
+[2023-07-14 11:46:38] INFO root fetch - processPackages [python-owasp-zap-v2.4]: Remove: archive file [/home/abi/fetcher/tmp/python-owasp-zap-v2.4-0.0.9.tar.gz]
+[2023-07-14 11:46:38] INFO root fetch - main [MainThread]: End processing [python-owasp-zap-v2.4]: success
+[2023-07-14 11:46:38] INFO root fetch - processPackages [pyreports]: Remove: archive file [/home/abi/fetcher/tmp/pyreports-1.5.1.tar.gz]
+[2023-07-14 11:46:38] INFO root fetch - processPackages [pyreports]: Remove: archive file [/home/abi/fetcher/tmp/pyreports-1.6.0.tar.gz]
+[2023-07-14 11:46:38] INFO root fetch - main [MainThread]: End processing [pyreports]: success
+[2023-07-14 11:46:39] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_paletteGen-0.1.8.tar.gz]
+[2023-07-14 11:46:39] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_paletteGen-0.1.9.tar.gz]
+[2023-07-14 11:46:39] INFO root fetch - main [MainThread]: End processing [dlg-paletteGen]: success
+[2023-07-14 11:46:39] INFO root fetch - main [MainThread]: Store serial: [18887941]
