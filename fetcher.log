@@ -18588,3 +18588,132 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 12:13:13] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
 [2023-07-14 12:13:13] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
 [2023-07-14 12:13:13] INFO root fetch - main [MainThread]: Store serial: [18888163]
+[2023-07-14 12:18:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888163]
+[2023-07-14 12:18:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: motipy
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miauw-base-service
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-grpc-sim-template
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-sim
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ohdsi-circe
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cohort-generator
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ohdsi-database-connector
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ohdsi-sqlrender
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ohdsi-feature-extraction
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localstack-core
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ohdsi-circe]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-14 12:18:23] INFO root fetch - processPackages [th2-grpc-sim]: New version: [5.0.0.dev5552983537] Old Version: [5.0.0.dev5420121459]
+[2023-07-14 12:18:23] INFO root fetch - processPackages [th2-grpc-sim-template]: New version: [3.1.2.dev5552984188] Old Version: [3.1.2.dev3902483411]
+[2023-07-14 12:18:23] WARNING root fetch - processPackages [ohdsi-feature-extraction]: Skipping, unable to determine old version
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ohdsi-feature-extraction]: Start processing: plone.app.multilingual
+[2023-07-14 12:18:23] INFO root fetch - main [MainThread]: End processing [ohdsi-feature-extraction] error
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ohdsi-sqlrender]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-14 12:18:23] INFO root fetch - processPackages [cohort-generator]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ohdsi-database-connector]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-14 12:18:23] WARNING root fetch - processPackages [motipy]: Skipping, unable to determine old version
+[2023-07-14 12:18:23] INFO root fetch - processPackages [motipy]: Start processing: yetl-framework
+[2023-07-14 12:18:23] INFO root fetch - main [MainThread]: End processing [motipy] error
+[2023-07-14 12:18:23] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230714101424] Old Version: [2.1.1.dev20230714062049]
+[2023-07-14 12:18:23] INFO root fetch - processPackages [plone.app.multilingual]: New version: [8.0.0] Old Version: [7.0.2]
+[2023-07-14 12:18:23] INFO root fetch - processPackages [miauw-base-service]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-14 12:18:23] INFO root fetch - processPackages [yetl-framework]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-07-14 12:18:23] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/19/c5/0f4c753f19a5357710ed04f106cede5363aacc975870d324ebcf1da1d972/localstack-core-2.1.1.dev20230714062049.tar.gz
+[2023-07-14 12:18:23] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/31/8e/7a57f9dc59ce3a4e762e99c7fe39e2e6f210c04667ed029c59a2685b2717/yetl-framework-1.7.2.tar.gz
+[2023-07-14 12:18:23] INFO root fetch - processPackages [plone.app.multilingual]: Downloading https://files.pythonhosted.org/packages/13/f8/f27beffbfe0d3ecb686078267d647b635329e7cf06f8e9769dc765442850/plone.app.multilingual-7.0.2.tar.gz
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ohdsi-circe]: Downloading https://files.pythonhosted.org/packages/8c/b8/73e998a6f4524ef6cfc3822175acffa4c460ae9e1da4a160a44459fbc89e/ohdsi-circe-0.2.1.tar.gz
+[2023-07-14 12:18:23] INFO root fetch - processPackages [th2-grpc-sim-template]: Downloading https://files.pythonhosted.org/packages/2f/fe/c784ccaa3fc27023683ad9593b4d5d442a89195c4383cbda1ce4656a7ebf/th2_grpc_sim_template-3.1.2.dev3902483411.tar.gz
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ohdsi-sqlrender]: Downloading https://files.pythonhosted.org/packages/78/20/d42044a32ec54441b4d1198c2db04365e614f0291e5b0a22d836e8b5cd2c/ohdsi-sqlrender-0.2.1.tar.gz
+[2023-07-14 12:18:23] INFO root fetch - processPackages [ohdsi-database-connector]: Downloading https://files.pythonhosted.org/packages/b2/6a/ff904bcbe6e1f7ea70c009a4dca4206a0fc43352b87297368c88dc0d42ae/ohdsi-database-connector-0.2.1.tar.gz
+[2023-07-14 12:18:23] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/44/75/7206f50997157bbbbab4a2e4b8db3eb1d3b7235e33be8b29473d8c1ad268/miauw-base-service-0.2.1.tar.gz
+[2023-07-14 12:18:23] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/2b/62/246185be57a5df74f86ada06979af0063dbbc902fccb143ea46a3fd1a1ec/th2_grpc_sim-5.0.0.dev5420121459.tar.gz
+[2023-07-14 12:18:24] INFO root fetch - processPackages [cohort-generator]: Downloading https://files.pythonhosted.org/packages/1f/97/4e761af72adfe0b55b3d6118b38adfb9fff26ee08cc2f6eeab82a17204d2/cohort-generator-0.2.1.tar.gz
+[2023-07-14 12:18:24] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/e0/b5/a022153c87e4d567da3614387185e5f33f72f7c7594b8f174bb98551700b/yetl-framework-1.7.3.tar.gz
+[2023-07-14 12:18:24] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/fa/ba/f3fbb84869b90584dcdb6d2ecf2c835ade736e0765ace9cae9a1836f2472/localstack-core-2.1.1.dev20230714101424.tar.gz
+[2023-07-14 12:18:24] INFO root fetch - processPackages [plone.app.multilingual]: Downloading https://files.pythonhosted.org/packages/0f/ec/aeb4eab54ad3b12f634bdacb93a385f1777a18d6ba21875dec081f1eaada/plone.app.multilingual-8.0.0.tar.gz
+[2023-07-14 12:18:24] INFO root fetch - processPackages [ohdsi-circe]: Downloading https://files.pythonhosted.org/packages/d8/cd/e8ee86f94267f5818367035899f8d98116d4b71081088a57d4ee32664bb6/ohdsi-circe-0.2.2.tar.gz
+[2023-07-14 12:18:24] INFO root fetch - processPackages [ohdsi-sqlrender]: Downloading https://files.pythonhosted.org/packages/09/44/1baed66054d040524953c538454ba41f0da8dc0b5da6374993cfe744b9f2/ohdsi-sqlrender-0.2.2.tar.gz
+[2023-07-14 12:18:24] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/43/f7/e59a30797b4e564e33c552d2e71f984f5a725d4053e103ae588f85f1ff45/miauw-base-service-0.3.0.tar.gz
+[2023-07-14 12:18:24] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-14 12:18:24] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.7.2.tar.gz tmp/yetl-framework-1.7.3.tar.gz --markdown 20230714/y/yetl-framework/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-07-14 12:18:24] INFO root fetch - processPackages [th2-grpc-sim-template]: Downloading https://files.pythonhosted.org/packages/a7/51/3e26f851413b8ac086611765d0690854a4c6a53134df02b0d49f0974d946/th2_grpc_sim_template-3.1.2.dev5552984188.tar.gz
+[2023-07-14 12:18:24] INFO root fetch - processPackages [cohort-generator]: Downloading https://files.pythonhosted.org/packages/fc/14/ca4cdbc3cc2b3f846d1ec3cb9a417daa9910e4c34ef57d5f47f71aec1ec7/cohort-generator-0.2.2.tar.gz
+[2023-07-14 12:18:24] INFO root fetch - processPackages [ohdsi-database-connector]: Downloading https://files.pythonhosted.org/packages/7b/cf/9e5d70f6b40978dcdbc85f848ff4a7ee8b8eed6605d89e33d75dba19874a/ohdsi-database-connector-0.2.2.tar.gz
+[2023-07-14 12:18:24] INFO root fetch - processPackages [ohdsi-sqlrender]: executing diffoscope
+[2023-07-14 12:18:24] INFO root fetch - processPackages [ohdsi-sqlrender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohdsi-sqlrender-0.2.1.tar.gz tmp/ohdsi-sqlrender-0.2.2.tar.gz --markdown 20230714/o/ohdsi-sqlrender/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-14 12:18:24] INFO root fetch - processPackages [ohdsi-circe]: executing diffoscope
+[2023-07-14 12:18:24] INFO root fetch - processPackages [ohdsi-circe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohdsi-circe-0.2.1.tar.gz tmp/ohdsi-circe-0.2.2.tar.gz --markdown 20230714/o/ohdsi-circe/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-14 12:18:24] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/18/bc/011485233c086edc856d287ba707da4aa371e287f1085976c96469f5a03a/th2_grpc_sim-5.0.0.dev5552983537.tar.gz
+[2023-07-14 12:18:24] INFO root fetch - processPackages [miauw-base-service]: executing diffoscope
+[2023-07-14 12:18:24] INFO root fetch - processPackages [cohort-generator]: executing diffoscope
+[2023-07-14 12:18:24] INFO root fetch - processPackages [miauw-base-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miauw-base-service-0.2.1.tar.gz tmp/miauw-base-service-0.3.0.tar.gz --markdown 20230714/m/miauw-base-service/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-14 12:18:24] INFO root fetch - processPackages [cohort-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohort-generator-0.2.1.tar.gz tmp/cohort-generator-0.2.2.tar.gz --markdown 20230714/c/cohort-generator/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-14 12:18:24] INFO root fetch - processPackages [plone.app.multilingual]: executing diffoscope
+[2023-07-14 12:18:24] INFO root fetch - processPackages [plone.app.multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.multilingual-7.0.2.tar.gz tmp/plone.app.multilingual-8.0.0.tar.gz --markdown 20230714/p/plone.app.multilingual/7.0.2-8.0.0/diff.md --exclude *.pyd
+[2023-07-14 12:18:24] INFO root fetch - processPackages [th2-grpc-sim-template]: executing diffoscope
+[2023-07-14 12:18:24] INFO root fetch - processPackages [th2-grpc-sim-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_sim_template-3.1.2.dev3902483411.tar.gz tmp/th2_grpc_sim_template-3.1.2.dev5552984188.tar.gz --markdown 20230714/t/th2-grpc-sim-template/3.1.2.dev3902483411-3.1.2.dev5552984188/diff.md --exclude *.pyd
+[2023-07-14 12:18:24] INFO root fetch - processPackages [ohdsi-database-connector]: executing diffoscope
+[2023-07-14 12:18:24] INFO root fetch - processPackages [ohdsi-database-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ohdsi-database-connector-0.2.1.tar.gz tmp/ohdsi-database-connector-0.2.2.tar.gz --markdown 20230714/o/ohdsi-database-connector/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-14 12:18:24] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-14 12:18:24] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230714062049.tar.gz tmp/localstack-core-2.1.1.dev20230714101424.tar.gz --markdown 20230714/l/localstack-core/2.1.1.dev20230714062049-2.1.1.dev20230714101424/diff.md --exclude *.pyd
+[2023-07-14 12:18:24] INFO root fetch - processPackages [th2-grpc-sim]: executing diffoscope
+[2023-07-14 12:18:24] INFO root fetch - processPackages [th2-grpc-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_sim-5.0.0.dev5420121459.tar.gz tmp/th2_grpc_sim-5.0.0.dev5552983537.tar.gz --markdown 20230714/t/th2-grpc-sim/5.0.0.dev5420121459-5.0.0.dev5552983537/diff.md --exclude *.pyd
+[2023-07-14 12:18:25] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.7.2.tar.gz]
+[2023-07-14 12:18:25] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.7.3.tar.gz]
+[2023-07-14 12:18:25] INFO root fetch - processPackages [yetl-framework]: Start processing: sdcclient
+[2023-07-14 12:18:25] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-14 12:18:25] INFO root fetch - processPackages [sdcclient]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-14 12:18:25] INFO root fetch - processPackages [ohdsi-sqlrender]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-sqlrender-0.2.1.tar.gz]
+[2023-07-14 12:18:25] INFO root fetch - processPackages [ohdsi-sqlrender]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-sqlrender-0.2.2.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - processPackages [ohdsi-sqlrender]: Start processing: macrometa-target-snowflake
+[2023-07-14 12:18:26] INFO root fetch - main [MainThread]: End processing [ohdsi-sqlrender]: success
+[2023-07-14 12:18:26] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-0.2.1.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-0.3.0.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - processPackages [miauw-base-service]: Start processing: plone.app.layout
+[2023-07-14 12:18:26] INFO root fetch - main [MainThread]: End processing [miauw-base-service]: success
+[2023-07-14 12:18:26] INFO root fetch - processPackages [cohort-generator]: Remove: archive file [/home/abi/fetcher/tmp/cohort-generator-0.2.1.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - processPackages [cohort-generator]: Remove: archive file [/home/abi/fetcher/tmp/cohort-generator-0.2.2.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - processPackages [cohort-generator]: Start processing: adit-dicomweb-client
+[2023-07-14 12:18:26] INFO root fetch - main [MainThread]: End processing [cohort-generator]: success
+[2023-07-14 12:18:26] INFO root fetch - processPackages [macrometa-target-snowflake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 12:18:26] INFO root fetch - processPackages [sdcclient]: Downloading https://files.pythonhosted.org/packages/fd/9f/480586c6bce679ce9016ce51b64bcb7252921b14c533de69f6df83311923/sdcclient-0.8.0.tar.gz
+[2023-07-14 12:18:26] INFO root fetch - processPackages [ohdsi-database-connector]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-database-connector-0.2.1.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - processPackages [ohdsi-database-connector]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-database-connector-0.2.2.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - main [MainThread]: End processing [ohdsi-database-connector]: success
+[2023-07-14 12:18:26] INFO root fetch - processPackages [plone.app.layout]: New version: [4.0.7] Old Version: [4.0.6]
+[2023-07-14 12:18:26] WARNING root fetch - processPackages [adit-dicomweb-client]: Skipping, unable to determine old version
+[2023-07-14 12:18:26] INFO root fetch - main [MainThread]: End processing [adit-dicomweb-client] error
+[2023-07-14 12:18:26] INFO root fetch - processPackages [ohdsi-circe]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-circe-0.2.1.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - processPackages [ohdsi-circe]: Remove: archive file [/home/abi/fetcher/tmp/ohdsi-circe-0.2.2.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - main [MainThread]: End processing [ohdsi-circe]: success
+[2023-07-14 12:18:26] INFO root fetch - processPackages [th2-grpc-sim-template]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim_template-3.1.2.dev3902483411.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - processPackages [th2-grpc-sim-template]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim_template-3.1.2.dev5552984188.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - main [MainThread]: End processing [th2-grpc-sim-template]: success
+[2023-07-14 12:18:26] INFO root fetch - processPackages [macrometa-target-snowflake]: Downloading https://files.pythonhosted.org/packages/2c/e4/8bcbc5f4f3068a7d86e14052af3e60ebc730e141065f99e9fd303b8c72b9/macrometa-target-snowflake-0.0.8.tar.gz
+[2023-07-14 12:18:26] INFO root fetch - processPackages [th2-grpc-sim]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim-5.0.0.dev5420121459.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - processPackages [th2-grpc-sim]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim-5.0.0.dev5552983537.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - main [MainThread]: End processing [th2-grpc-sim]: success
+[2023-07-14 12:18:26] INFO root fetch - processPackages [plone.app.layout]: Downloading https://files.pythonhosted.org/packages/32/6d/281c782fc570035ac5112194854e5c5c8350f1c05bd79107871c45cbb067/plone.app.layout-4.0.6.tar.gz
+[2023-07-14 12:18:26] INFO root fetch - processPackages [sdcclient]: Downloading https://files.pythonhosted.org/packages/9f/42/80db251e1c1e6c8a62934af7f96e8ad6d6e77391fdf6bf2fa0e4fafbd895/sdcclient-0.9.0.tar.gz
+[2023-07-14 12:18:26] INFO root fetch - processPackages [macrometa-target-snowflake]: Downloading https://files.pythonhosted.org/packages/7e/fa/48b7ff1ddeb683244982cee81022d74733ce456fa556798f0546b6a9b81c/macrometa-target-snowflake-0.0.9.tar.gz
+[2023-07-14 12:18:26] INFO root fetch - processPackages [plone.app.multilingual]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.multilingual-7.0.2.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - processPackages [plone.app.multilingual]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.multilingual-8.0.0.tar.gz]
+[2023-07-14 12:18:26] INFO root fetch - main [MainThread]: End processing [plone.app.multilingual]: success
+[2023-07-14 12:18:26] INFO root fetch - processPackages [plone.app.layout]: Downloading https://files.pythonhosted.org/packages/e5/a7/8850604ba6aec76e355a48f46aa158fc83f848f6275f81a4558d4c982fab/plone.app.layout-4.0.7.tar.gz
+[2023-07-14 12:18:26] INFO root fetch - processPackages [macrometa-target-snowflake]: executing diffoscope
+[2023-07-14 12:18:26] INFO root fetch - processPackages [macrometa-target-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-snowflake-0.0.8.tar.gz tmp/macrometa-target-snowflake-0.0.9.tar.gz --markdown 20230714/m/macrometa-target-snowflake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 12:18:27] INFO root fetch - processPackages [plone.app.layout]: executing diffoscope
+[2023-07-14 12:18:27] INFO root fetch - processPackages [plone.app.layout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.layout-4.0.6.tar.gz tmp/plone.app.layout-4.0.7.tar.gz --markdown 20230714/p/plone.app.layout/4.0.6-4.0.7/diff.md --exclude *.pyd
+[2023-07-14 12:18:27] INFO root fetch - processPackages [sdcclient]: executing diffoscope
+[2023-07-14 12:18:27] INFO root fetch - processPackages [sdcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdcclient-0.8.0.tar.gz tmp/sdcclient-0.9.0.tar.gz --markdown 20230714/s/sdcclient/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 12:18:27] INFO root fetch - processPackages [macrometa-target-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-snowflake-0.0.8.tar.gz]
+[2023-07-14 12:18:27] INFO root fetch - processPackages [macrometa-target-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-snowflake-0.0.9.tar.gz]
+[2023-07-14 12:18:27] INFO root fetch - main [MainThread]: End processing [macrometa-target-snowflake]: success
+[2023-07-14 12:18:28] INFO root fetch - processPackages [sdcclient]: Remove: archive file [/home/abi/fetcher/tmp/sdcclient-0.8.0.tar.gz]
+[2023-07-14 12:18:28] INFO root fetch - processPackages [sdcclient]: Remove: archive file [/home/abi/fetcher/tmp/sdcclient-0.9.0.tar.gz]
+[2023-07-14 12:18:28] INFO root fetch - main [MainThread]: End processing [sdcclient]: success
+[2023-07-14 12:18:28] INFO root fetch - processPackages [plone.app.layout]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.layout-4.0.6.tar.gz]
+[2023-07-14 12:18:28] INFO root fetch - processPackages [plone.app.layout]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.layout-4.0.7.tar.gz]
+[2023-07-14 12:18:28] INFO root fetch - main [MainThread]: End processing [plone.app.layout]: success
+[2023-07-14 12:18:29] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230714062049.tar.gz]
+[2023-07-14 12:18:29] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230714101424.tar.gz]
+[2023-07-14 12:18:29] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-14 12:18:29] INFO root fetch - main [MainThread]: Store serial: [18888217]
