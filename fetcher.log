@@ -12869,3 +12869,48 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 07:36:22] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML-Algo-1.2.8.tar.gz]
 [2023-07-14 07:36:22] INFO root fetch - main [MainThread]: End processing [ML-Algo]: success
 [2023-07-14 07:36:22] INFO root fetch - main [MainThread]: Store serial: [18885757]
+[2023-07-14 07:41:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885757]
+[2023-07-14 07:41:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-14 07:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: steamship
+[2023-07-14 07:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezsmdeploy
+[2023-07-14 07:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyspike
+[2023-07-14 07:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-akamai
+[2023-07-14 07:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nb-thumb
+[2023-07-14 07:41:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QRcodeTracking
+[2023-07-14 07:41:30] INFO root fetch - processPackages [pyspike]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-14 07:41:31] INFO root fetch - processPackages [ezsmdeploy]: New version: [1.93.dev0] Old Version: [1.91.dev0]
+[2023-07-14 07:41:31] INFO root fetch - processPackages [steamship]: New version: [2.7.17] Old Version: [2.3.9]
+[2023-07-14 07:41:31] WARNING root fetch - processPackages [QRcodeTracking]: Skipping, unable to determine old version
+[2023-07-14 07:41:31] INFO root fetch - main [MainThread]: End processing [QRcodeTracking] error
+[2023-07-14 07:41:31] WARNING root fetch - processPackages [nb-thumb]: Skipping, unable to determine old version
+[2023-07-14 07:41:31] INFO root fetch - main [MainThread]: End processing [nb-thumb] error
+[2023-07-14 07:41:31] INFO root fetch - processPackages [ezsmdeploy]: Downloading https://files.pythonhosted.org/packages/ca/c4/088caab12f127760ee82cbd0e18703ff509e683b30c2b0cbcc35fd4250f8/ezsmdeploy-1.91.dev0.tar.gz
+[2023-07-14 07:41:31] INFO root fetch - processPackages [pulumi-akamai]: New version: [5.1.0a1689311902] Old Version: [5.1.0a1688793459]
+[2023-07-14 07:41:31] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-07-14 07:41:31] INFO root fetch - processPackages [pyspike]: Downloading https://files.pythonhosted.org/packages/e9/5e/b83bb44700c86c3882b0b9e6a109846920809b1082db2f567e9fc7db5433/pyspike-0.7.0.tar.gz
+[2023-07-14 07:41:31] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/e2/5e/6007695963098642629d0db36afb599ee7755f17d003418a5a2d935e8ab9/pulumi_akamai-5.1.0a1688793459.tar.gz
+[2023-07-14 07:41:31] INFO root fetch - processPackages [ezsmdeploy]: Downloading https://files.pythonhosted.org/packages/97/29/81bbe11856a59ea65c808355461e8151cae607fca2817aead6424b107993/ezsmdeploy-1.93.dev0.tar.gz
+[2023-07-14 07:41:31] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/fc/7f/490997e5736bb6baca2fd79ebdb477307b56adeb7eeac9f7575d42158aa4/steamship-2.7.17.tar.gz
+[2023-07-14 07:41:31] INFO root fetch - processPackages [pyspike]: Downloading https://files.pythonhosted.org/packages/f1/78/56298d312e4aae756f7065d4c28898483da1597d672969bfe85380c6e470/pyspike-0.8.0.tar.gz
+[2023-07-14 07:41:31] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/83/3f/b5fa4ff23a8c48e127f1ab7a41c39fd860e84ebb5eac00107ae3b720d270/pulumi_akamai-5.1.0a1689311902.tar.gz
+[2023-07-14 07:41:31] INFO root fetch - processPackages [ezsmdeploy]: executing diffoscope
+[2023-07-14 07:41:31] INFO root fetch - processPackages [ezsmdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezsmdeploy-1.91.dev0.tar.gz tmp/ezsmdeploy-1.93.dev0.tar.gz --markdown 20230714/e/ezsmdeploy/1.91.dev0-1.93.dev0/diff.md --exclude *.pyd
+[2023-07-14 07:41:31] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-07-14 07:41:31] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.9.tar.gz tmp/steamship-2.7.17.tar.gz --markdown 20230714/s/steamship/2.3.9-2.7.17/diff.md --exclude *.pyd
+[2023-07-14 07:41:31] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-07-14 07:41:31] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-5.1.0a1688793459.tar.gz tmp/pulumi_akamai-5.1.0a1689311902.tar.gz --markdown 20230714/p/pulumi-akamai/5.1.0a1688793459-5.1.0a1689311902/diff.md --exclude *.pyd
+[2023-07-14 07:41:32] INFO root fetch - processPackages [pyspike]: executing diffoscope
+[2023-07-14 07:41:32] INFO root fetch - processPackages [pyspike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspike-0.7.0.tar.gz tmp/pyspike-0.8.0.tar.gz --markdown 20230714/p/pyspike/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-14 07:41:32] INFO root fetch - processPackages [ezsmdeploy]: Remove: archive file [/home/abi/fetcher/tmp/ezsmdeploy-1.91.dev0.tar.gz]
+[2023-07-14 07:41:32] INFO root fetch - processPackages [ezsmdeploy]: Remove: archive file [/home/abi/fetcher/tmp/ezsmdeploy-1.93.dev0.tar.gz]
+[2023-07-14 07:41:32] INFO root fetch - main [MainThread]: End processing [ezsmdeploy]: success
+[2023-07-14 07:41:34] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-5.1.0a1688793459.tar.gz]
+[2023-07-14 07:41:34] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-5.1.0a1689311902.tar.gz]
+[2023-07-14 07:41:34] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-07-14 07:41:34] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
+[2023-07-14 07:41:34] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.7.17.tar.gz]
+[2023-07-14 07:41:34] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-07-14 07:41:35] INFO root fetch - processPackages [pyspike]: Remove: archive file [/home/abi/fetcher/tmp/pyspike-0.7.0.tar.gz]
+[2023-07-14 07:41:35] INFO root fetch - processPackages [pyspike]: Remove: archive file [/home/abi/fetcher/tmp/pyspike-0.8.0.tar.gz]
+[2023-07-14 07:41:35] INFO root fetch - main [MainThread]: End processing [pyspike]: success
+[2023-07-14 07:41:35] INFO root fetch - main [MainThread]: Store serial: [18885776]
