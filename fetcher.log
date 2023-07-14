@@ -13923,3 +13923,75 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 08:33:59] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230714.tar.gz]
 [2023-07-14 08:33:59] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-14 08:33:59] INFO root fetch - main [MainThread]: Store serial: [18886099]
+[2023-07-14 08:39:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886099]
+[2023-07-14 08:39:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-14 08:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xhibit
+[2023-07-14 08:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: topologicpy
+[2023-07-14 08:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botastico
+[2023-07-14 08:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-ns1
+[2023-07-14 08:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kingsoftcloud-sdk-python
+[2023-07-14 08:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-pagerduty
+[2023-07-14 08:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mynacode
+[2023-07-14 08:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sphinx-readme
+[2023-07-14 08:39:10] INFO root fetch - processPackages [botastico]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-14 08:39:10] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-14 08:39:10] INFO root fetch - processPackages [xhibit]: New version: [9.5.0] Old Version: [9.2.1]
+[2023-07-14 08:39:10] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.1.0a1689314249] Old Version: [3.1.0a1689276268]
+[2023-07-14 08:39:10] INFO root fetch - processPackages [sphinx-readme]: New version: [0.0.1b8] Old Version: [0.0.1b7]
+[2023-07-14 08:39:10] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-14 08:39:10] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-07-14 08:39:10] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-14 08:39:10] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/fe/09/986bd65a5002787e1c6ba9948fc3e70f631e504682f76ffd4b0e42dd1f09/pulumi_ns1-3.1.0a1689276268.tar.gz
+[2023-07-14 08:39:10] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/77/71/a57b0cf34c009b1fd17561fdd1ad4ba054cf88382cffbfd21541d619f8ea/sphinx-readme-0.0.1b7.tar.gz
+[2023-07-14 08:39:10] INFO root fetch - processPackages [botastico]: Downloading https://files.pythonhosted.org/packages/81/70/88566c98135b3eb67e898299f5424e61c35a92cce8c749b6d8c5598a6451/botastico-0.1.0.tar.gz
+[2023-07-14 08:39:10] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/fa/78/8d575adfdebfda22e0d5a2df1ad791c1e18c2c2bd5b6d6aad3d624b5a470/xhibit-9.2.1.tar.gz
+[2023-07-14 08:39:10] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/5e/1d/cc68d8b897a1a8aed62da8f34ac646ce5275147c29f440ec55f207e1676c/kingsoftcloud-sdk-python-1.1.1.tar.gz
+[2023-07-14 08:39:10] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/e3/fb/cfd0770cc238f4c5d0519a47c0dfe5476a67ad16fc40bc8e1152c8898f91/pulumi_pagerduty-3.9.0a1678231019.tar.gz
+[2023-07-14 08:39:10] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-14 08:39:10] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/15/86/57531994fc339da6f12a8b31d70791471b40b34a717f26ba7d8fd2452a79/topologicpy-0.4.8.tar.gz
+[2023-07-14 08:39:10] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/f5/38/7e14e76b7539437babfdba52cf0409bcdb7cf37b0652f4f1f2b481bcc78a/pulumi_ns1-3.1.0a1689314249.tar.gz
+[2023-07-14 08:39:10] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/93/e1/ae377b8da229de584781c0cf05ac713a26119dd5dd70a33f1178440cae7e/sphinx-readme-0.0.1b8.tar.gz
+[2023-07-14 08:39:10] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/1b/ed/87be70aebae658c0f104dd9608e2791ebc90862610232b04868d4f68ba59/xhibit-9.5.0.tar.gz
+[2023-07-14 08:39:10] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/e5/90/5d4a26c76eaebfd9098afa3517a4579d29c7b4187210a6d2eac3ae243bd1/kingsoftcloud-sdk-python-1.1.2.tar.gz
+[2023-07-14 08:39:11] INFO root fetch - processPackages [botastico]: Downloading https://files.pythonhosted.org/packages/b4/91/c1fb75f399bc26510938415b8533a1d3ecaa2e0dbad90f1e65ee9d9d6bc8/botastico-0.1.1.tar.gz
+[2023-07-14 08:39:11] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-14 08:39:11] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2023-07-14 08:39:11] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.1.0a1689276268.tar.gz tmp/pulumi_ns1-3.1.0a1689314249.tar.gz --markdown 20230714/p/pulumi-ns1/3.1.0a1689276268-3.1.0a1689314249/diff.md --exclude *.pyd
+[2023-07-14 08:39:11] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/b2/77/786140b79d0946ee18e80ac92af9889e190480f889211497d09069a9f0fa/pulumi_pagerduty-3.9.0a1678824312.tar.gz
+[2023-07-14 08:39:11] INFO root fetch - processPackages [sphinx-readme]: executing diffoscope
+[2023-07-14 08:39:11] INFO root fetch - processPackages [sphinx-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-readme-0.0.1b7.tar.gz tmp/sphinx-readme-0.0.1b8.tar.gz --markdown 20230714/s/sphinx-readme/0.0.1b7-0.0.1b8/diff.md --exclude *.pyd
+[2023-07-14 08:39:11] INFO root fetch - processPackages [botastico]: executing diffoscope
+[2023-07-14 08:39:11] INFO root fetch - processPackages [botastico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botastico-0.1.0.tar.gz tmp/botastico-0.1.1.tar.gz --markdown 20230714/b/botastico/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 08:39:11] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-07-14 08:39:11] INFO root fetch - processPackages [xhibit]: executing diffoscope
+[2023-07-14 08:39:11] INFO root fetch - processPackages [xhibit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhibit-9.2.1.tar.gz tmp/xhibit-9.5.0.tar.gz --markdown 20230714/x/xhibit/9.2.1-9.5.0/diff.md --exclude *.pyd
+[2023-07-14 08:39:11] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-14 08:39:11] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230714/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-14 08:39:11] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-07-14 08:39:11] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230714/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-07-14 08:39:11] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: executing diffoscope
+[2023-07-14 08:39:11] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingsoftcloud-sdk-python-1.1.1.tar.gz tmp/kingsoftcloud-sdk-python-1.1.2.tar.gz --markdown 20230714/k/kingsoftcloud-sdk-python/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-14 08:39:11] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-07-14 08:39:11] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-07-14 08:39:12] INFO root fetch - processPackages [botastico]: Remove: archive file [/home/abi/fetcher/tmp/botastico-0.1.0.tar.gz]
+[2023-07-14 08:39:12] INFO root fetch - processPackages [botastico]: Remove: archive file [/home/abi/fetcher/tmp/botastico-0.1.1.tar.gz]
+[2023-07-14 08:39:12] INFO root fetch - main [MainThread]: End processing [botastico]: success
+[2023-07-14 08:39:12] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.2.1.tar.gz]
+[2023-07-14 08:39:12] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.0.tar.gz]
+[2023-07-14 08:39:12] INFO root fetch - main [MainThread]: End processing [xhibit]: success
+[2023-07-14 08:39:12] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-14 08:39:12] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-14 08:39:12] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-14 08:39:12] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1689276268.tar.gz]
+[2023-07-14 08:39:12] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1689314249.tar.gz]
+[2023-07-14 08:39:12] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2023-07-14 08:39:12] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.1b7.tar.gz]
+[2023-07-14 08:39:12] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.1b8.tar.gz]
+[2023-07-14 08:39:12] INFO root fetch - main [MainThread]: End processing [sphinx-readme]: success
+[2023-07-14 08:39:12] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud-sdk-python-1.1.1.tar.gz]
+[2023-07-14 08:39:12] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud-sdk-python-1.1.2.tar.gz]
+[2023-07-14 08:39:12] INFO root fetch - main [MainThread]: End processing [kingsoftcloud-sdk-python]: success
+[2023-07-14 08:39:12] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz]
+[2023-07-14 08:39:12] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz]
+[2023-07-14 08:39:12] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-07-14 08:39:12] INFO root fetch - main [MainThread]: Store serial: [18886120]
