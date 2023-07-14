@@ -16463,3 +16463,138 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 10:30:53] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.3.tar.gz]
 [2023-07-14 10:30:53] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
 [2023-07-14 10:30:53] INFO root fetch - main [MainThread]: Store serial: [18887144]
+[2023-07-14 10:35:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18887144]
+[2023-07-14 10:36:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-14 10:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowline
+[2023-07-14 10:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: countrynames
+[2023-07-14 10:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odd-cli
+[2023-07-14 10:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bbat
+[2023-07-14 10:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycones
+[2023-07-14 10:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ghga-datasteward-kit
+[2023-07-14 10:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oarepo-model-builder
+[2023-07-14 10:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openlimitHW
+[2023-07-14 10:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zensvi
+[2023-07-14 10:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mutual
+[2023-07-14 10:36:02] INFO root fetch - processPackages [openlimitHW]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-14 10:36:02] INFO root fetch - processPackages [bbat]: New version: [5.2.7] Old Version: [5.2.6]
+[2023-07-14 10:36:02] INFO root fetch - processPackages [pycones]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-14 10:36:02] INFO root fetch - processPackages [mutual]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-07-14 10:36:02] INFO root fetch - processPackages [odd-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 10:36:02] INFO root fetch - processPackages [countrynames]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-14 10:36:02] INFO root fetch - processPackages [ghga-datasteward-kit]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-14 10:36:02] INFO root fetch - processPackages [zensvi]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-14 10:36:02] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-14 10:36:02] INFO root fetch - processPackages [snowline]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-14 10:36:02] INFO root fetch - processPackages [odd-cli]: Downloading https://files.pythonhosted.org/packages/da/28/d59ec31015858eae56e776c482a6d087078806f2a41e3857b6903cecac2a/odd_cli-0.1.8.tar.gz
+[2023-07-14 10:36:02] INFO root fetch - processPackages [openlimitHW]: Downloading https://files.pythonhosted.org/packages/c8/a7/1de3dcb0bf2541065876f00d64d9c21f5ac7709140e608f159e6b6572fce/openlimitHW-0.5.3.tar.gz
+[2023-07-14 10:36:02] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/1b/90/cfc8b3f46fc50ad162ad4fbb61b9eaec196fbc7563730fa0397d1ab54392/zensvi-0.7.1.tar.gz
+[2023-07-14 10:36:02] INFO root fetch - processPackages [pycones]: Downloading https://files.pythonhosted.org/packages/d3/8e/65df166cdb9a1d67e90c81f47c89bb1b0b5d3022b76b4ecbaa1883b7fed3/pycones-0.1.2.tar.gz
+[2023-07-14 10:36:02] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/3f/a9/2206c1b6f55a91e26e89f4bd659c88246cfd4b32d63b06aea50d98274dfa/bbat-5.2.6.tar.gz
+[2023-07-14 10:36:02] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/94/a2/ba1de5d97f3637a03029d08f6c93555b8f26d53fc21fd0625cbc7c45fb45/mutual-0.0.4.tar.gz
+[2023-07-14 10:36:02] INFO root fetch - processPackages [ghga-datasteward-kit]: Downloading https://files.pythonhosted.org/packages/62/69/68b66291c596d75e75b39a3c745f0e5a5e59b6b720b0758725017187fc37/ghga_datasteward_kit-0.4.3.tar.gz
+[2023-07-14 10:36:02] INFO root fetch - processPackages [countrynames]: Downloading https://files.pythonhosted.org/packages/d2/f1/96579c0b3c4185be8034695a55f27d974f3ceaf210351b8135dee149bc41/countrynames-1.9.0.tar.gz
+[2023-07-14 10:36:02] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-14 10:36:02] INFO root fetch - processPackages [snowline]: Downloading https://files.pythonhosted.org/packages/fd/f0/9f881f6ac28624355eac0b1d2b76042cfed34ab824ebc6f27c310bc29deb/snowline-0.6.2.tar.gz
+[2023-07-14 10:36:03] INFO root fetch - processPackages [odd-cli]: Downloading https://files.pythonhosted.org/packages/f9/f5/14c61e8cbd460872feffaa66736fc22bb7b7ec0e7dd265674cd0d657ccc4/odd_cli-0.1.9.tar.gz
+[2023-07-14 10:36:03] INFO root fetch - processPackages [openlimitHW]: Downloading https://files.pythonhosted.org/packages/2c/94/0f648fc5e04fc9cbbdf28c7b876d50d00cfe75c7f17453d526304e545715/openlimitHW-0.5.4.tar.gz
+[2023-07-14 10:36:03] INFO root fetch - processPackages [pycones]: Downloading https://files.pythonhosted.org/packages/35/88/ce0dc0ab8c24ed2b9793931704e0b707bbe639876c7c8c01602098f5a420/pycones-0.1.3.tar.gz
+[2023-07-14 10:36:03] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/df/48/f1769b0265c77d5f78578d87f1734fb85c9cb7a89e2a0adb88b52def19a2/zensvi-0.7.2.tar.gz
+[2023-07-14 10:36:03] INFO root fetch - processPackages [odd-cli]: executing diffoscope
+[2023-07-14 10:36:03] INFO root fetch - processPackages [odd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_cli-0.1.8.tar.gz tmp/odd_cli-0.1.9.tar.gz --markdown 20230714/o/odd-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 10:36:03] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/ef/25/d48e237324d487c0013dfd77791d0e2d08a768f2ce41791785f3944bbee3/bbat-5.2.7.tar.gz
+[2023-07-14 10:36:03] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/b2/00/19f35b79b9fdbe6906ac3c8199590cc5c9fc4a04c224e852767029a81c2b/mutual-0.1.0.tar.gz
+[2023-07-14 10:36:03] INFO root fetch - processPackages [ghga-datasteward-kit]: Downloading https://files.pythonhosted.org/packages/19/e0/f60da6a59e449a45e7a7395f31fdddf02cf9dc30bc48979a8e7d1c4371ef/ghga_datasteward_kit-0.4.4.tar.gz
+[2023-07-14 10:36:03] INFO root fetch - processPackages [openlimitHW]: executing diffoscope
+[2023-07-14 10:36:03] INFO root fetch - processPackages [openlimitHW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlimitHW-0.5.3.tar.gz tmp/openlimitHW-0.5.4.tar.gz --markdown 20230714/o/openlimitHW/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-14 10:36:03] INFO root fetch - processPackages [snowline]: Downloading https://files.pythonhosted.org/packages/1e/7d/545a1bad0362af5199517bdf00f6144edea6086beed8a59b351c44233c3f/snowline-0.6.3.tar.gz
+[2023-07-14 10:36:03] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-14 10:36:03] INFO root fetch - processPackages [pycones]: executing diffoscope
+[2023-07-14 10:36:03] INFO root fetch - processPackages [pycones]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycones-0.1.2.tar.gz tmp/pycones-0.1.3.tar.gz --markdown 20230714/p/pycones/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-14 10:36:03] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-07-14 10:36:03] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.7.1.tar.gz tmp/zensvi-0.7.2.tar.gz --markdown 20230714/z/zensvi/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-14 10:36:03] INFO root fetch - processPackages [bbat]: executing diffoscope
+[2023-07-14 10:36:03] INFO root fetch - processPackages [bbat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbat-5.2.6.tar.gz tmp/bbat-5.2.7.tar.gz --markdown 20230714/b/bbat/5.2.6-5.2.7/diff.md --exclude *.pyd
+[2023-07-14 10:36:03] INFO root fetch - processPackages [ghga-datasteward-kit]: executing diffoscope
+[2023-07-14 10:36:03] INFO root fetch - processPackages [ghga-datasteward-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_datasteward_kit-0.4.3.tar.gz tmp/ghga_datasteward_kit-0.4.4.tar.gz --markdown 20230714/g/ghga-datasteward-kit/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-14 10:36:03] INFO root fetch - processPackages [mutual]: executing diffoscope
+[2023-07-14 10:36:03] INFO root fetch - processPackages [mutual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutual-0.0.4.tar.gz tmp/mutual-0.1.0.tar.gz --markdown 20230714/m/mutual/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-07-14 10:36:03] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-14 10:36:03] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230714/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-14 10:36:03] INFO root fetch - processPackages [snowline]: executing diffoscope
+[2023-07-14 10:36:03] INFO root fetch - processPackages [snowline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowline-0.6.2.tar.gz tmp/snowline-0.6.3.tar.gz --markdown 20230714/s/snowline/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-14 10:36:03] INFO root fetch - processPackages [countrynames]: Downloading https://files.pythonhosted.org/packages/18/81/d83ea81710132c9e8cd77a14675617690afc4e4253d14d5a07b8e5e071eb/countrynames-1.9.1.tar.gz
+[2023-07-14 10:36:03] INFO root fetch - processPackages [countrynames]: executing diffoscope
+[2023-07-14 10:36:03] INFO root fetch - processPackages [countrynames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countrynames-1.9.0.tar.gz tmp/countrynames-1.9.1.tar.gz --markdown 20230714/c/countrynames/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-14 10:36:04] INFO root fetch - processPackages [odd-cli]: Remove: archive file [/home/abi/fetcher/tmp/odd_cli-0.1.8.tar.gz]
+[2023-07-14 10:36:04] INFO root fetch - processPackages [odd-cli]: Remove: archive file [/home/abi/fetcher/tmp/odd_cli-0.1.9.tar.gz]
+[2023-07-14 10:36:04] INFO root fetch - processPackages [odd-cli]: Start processing: ccxtools
+[2023-07-14 10:36:04] INFO root fetch - main [MainThread]: End processing [odd-cli]: success
+[2023-07-14 10:36:04] INFO root fetch - processPackages [ccxtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 10:36:04] INFO root fetch - processPackages [openlimitHW]: Remove: archive file [/home/abi/fetcher/tmp/openlimitHW-0.5.3.tar.gz]
+[2023-07-14 10:36:04] INFO root fetch - processPackages [openlimitHW]: Remove: archive file [/home/abi/fetcher/tmp/openlimitHW-0.5.4.tar.gz]
+[2023-07-14 10:36:04] INFO root fetch - processPackages [openlimitHW]: Start processing: tf-nightly
+[2023-07-14 10:36:04] INFO root fetch - main [MainThread]: End processing [openlimitHW]: success
+[2023-07-14 10:36:04] INFO root fetch - processPackages [pycones]: Remove: archive file [/home/abi/fetcher/tmp/pycones-0.1.2.tar.gz]
+[2023-07-14 10:36:04] INFO root fetch - processPackages [pycones]: Remove: archive file [/home/abi/fetcher/tmp/pycones-0.1.3.tar.gz]
+[2023-07-14 10:36:04] INFO root fetch - processPackages [pycones]: Start processing: intel-extension-for-transformers
+[2023-07-14 10:36:04] INFO root fetch - main [MainThread]: End processing [pycones]: success
+[2023-07-14 10:36:04] INFO root fetch - processPackages [intel-extension-for-transformers]: New version: [1.1] Old Version: [1.0b0]
+[2023-07-14 10:36:04] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/2f/81/ac3ab54ce686eaf6c2cbf0b6b8845dc3abcd2ca613864b7c6c242ffd3c56/ccxtools-0.0.8.tar.gz
+[2023-07-14 10:36:04] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230714] Old Version: [2.14.0.dev20230713]
+[2023-07-14 10:36:05] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.0.4.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.1.0.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - processPackages [mutual]: Start processing: bbat
+[2023-07-14 10:36:05] INFO root fetch - main [MainThread]: End processing [mutual]: success
+[2023-07-14 10:36:05] INFO root fetch - processPackages [intel-extension-for-transformers]: Downloading https://files.pythonhosted.org/packages/fa/8d/019475c55d457e305ccbdb608d4af00f08bac60120fe6dfc53bac19f9e47/intel_extension_for_transformers-1.0b0.tar.gz
+[2023-07-14 10:36:05] INFO root fetch - processPackages [snowline]: Remove: archive file [/home/abi/fetcher/tmp/snowline-0.6.2.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - processPackages [snowline]: Remove: archive file [/home/abi/fetcher/tmp/snowline-0.6.3.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - processPackages [snowline]: Start processing: fastcopilot
+[2023-07-14 10:36:05] INFO root fetch - main [MainThread]: End processing [snowline]: success
+[2023-07-14 10:36:05] INFO root fetch - processPackages [bbat]: New version: [5.2.8] Old Version: [5.2.7]
+[2023-07-14 10:36:05] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.7.1.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.7.2.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-07-14 10:36:05] INFO root fetch - processPackages [fastcopilot]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-14 10:36:05] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/5d/91/d8b91d6f133b7608a36b18bfc43cf590b485fc59d200a8d33c7679ad5195/tf_nightly-2.14.0.dev20230713-cp39-cp39-win_amd64.whl
+[2023-07-14 10:36:05] INFO root fetch - processPackages [ghga-datasteward-kit]: Remove: archive file [/home/abi/fetcher/tmp/ghga_datasteward_kit-0.4.3.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - processPackages [ghga-datasteward-kit]: Remove: archive file [/home/abi/fetcher/tmp/ghga_datasteward_kit-0.4.4.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - main [MainThread]: End processing [ghga-datasteward-kit]: success
+[2023-07-14 10:36:05] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-5.2.6.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-5.2.7.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - main [MainThread]: End processing [bbat]: success
+[2023-07-14 10:36:05] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/ef/25/d48e237324d487c0013dfd77791d0e2d08a768f2ce41791785f3944bbee3/bbat-5.2.7.tar.gz
+[2023-07-14 10:36:05] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/a7/be/494e9493661bdc8c85fb2c6d39e5dd57586959d13de44a8030e28ba3a6c9/fastcopilot-0.5.1.tar.gz
+[2023-07-14 10:36:05] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/4b/e9/6ef44c6be3fb7e41208d0e44d2c881fbe5ece1952bea1b3b096a5201e196/ccxtools-0.0.9.tar.gz
+[2023-07-14 10:36:05] INFO root fetch - processPackages [countrynames]: Remove: archive file [/home/abi/fetcher/tmp/countrynames-1.9.0.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - processPackages [countrynames]: Remove: archive file [/home/abi/fetcher/tmp/countrynames-1.9.1.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - main [MainThread]: End processing [countrynames]: success
+[2023-07-14 10:36:05] INFO root fetch - processPackages [ccxtools]: executing diffoscope
+[2023-07-14 10:36:05] INFO root fetch - processPackages [ccxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxtools-0.0.8.tar.gz tmp/ccxtools-0.0.9.tar.gz --markdown 20230714/c/ccxtools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 10:36:05] INFO root fetch - processPackages [fastcopilot]: Downloading https://files.pythonhosted.org/packages/55/88/004711337a0e1f2bb6172e518cd6505074fd36611e20a414d5638d0c605e/fastcopilot-0.5.2.tar.gz
+[2023-07-14 10:36:05] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/4b/b1/04792ad6877ca360487e2918d3e29f8bb2563095a6ebe984e2857bb0d7e0/tf_nightly-2.14.0.dev20230714-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-14 10:36:05] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/8b/26/1cc16e7454eb6c34538f3d878f249f1bf7c3c0b944dac01e217eca73633e/bbat-5.2.8.tar.gz
+[2023-07-14 10:36:05] INFO root fetch - processPackages [intel-extension-for-transformers]: Downloading https://files.pythonhosted.org/packages/2d/e9/2ab402464b234883350219075afe0646223c844fc5b09ba10c17d5b4c7a0/intel_extension_for_transformers-1.1-cp38-cp38-win_amd64.whl
+[2023-07-14 10:36:05] INFO root fetch - processPackages [fastcopilot]: executing diffoscope
+[2023-07-14 10:36:05] INFO root fetch - processPackages [fastcopilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcopilot-0.5.1.tar.gz tmp/fastcopilot-0.5.2.tar.gz --markdown 20230714/f/fastcopilot/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-14 10:36:05] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491124086>=10485760
+[2023-07-14 10:36:05] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-14 10:36:05] INFO root fetch - processPackages [bbat]: executing diffoscope
+[2023-07-14 10:36:05] INFO root fetch - processPackages [bbat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbat-5.2.7.tar.gz tmp/bbat-5.2.8.tar.gz --markdown 20230714/b/bbat/5.2.7-5.2.8/diff.md --exclude *.pyd
+[2023-07-14 10:36:05] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-14 10:36:05] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-14 10:36:06] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.8.tar.gz]
+[2023-07-14 10:36:06] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.9.tar.gz]
+[2023-07-14 10:36:06] INFO root fetch - main [MainThread]: End processing [ccxtools]: success
+[2023-07-14 10:36:06] INFO root fetch - processPackages [fastcopilot]: Remove: archive file [/home/abi/fetcher/tmp/fastcopilot-0.5.1.tar.gz]
+[2023-07-14 10:36:06] INFO root fetch - processPackages [fastcopilot]: Remove: archive file [/home/abi/fetcher/tmp/fastcopilot-0.5.2.tar.gz]
+[2023-07-14 10:36:06] INFO root fetch - main [MainThread]: End processing [fastcopilot]: success
+[2023-07-14 10:36:06] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-5.2.7.tar.gz]
+[2023-07-14 10:36:06] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-5.2.8.tar.gz]
+[2023-07-14 10:36:06] INFO root fetch - main [MainThread]: End processing [bbat]: success
+[2023-07-14 10:36:10] INFO root fetch - processPackages [intel-extension-for-transformers]: executing diffoscope
+[2023-07-14 10:36:10] INFO root fetch - processPackages [intel-extension-for-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_extension_for_transformers-1.0b0.tar.gz tmp/intel_extension_for_transformers-1.1-cp38-cp38-win_amd64.whl.zip --markdown 20230714/i/intel-extension-for-transformers/1.0b0-1.1/diff.md --exclude *.pyd
+[2023-07-14 10:36:11] INFO root fetch - processPackages [intel-extension-for-transformers]: Remove: archive file [/home/abi/fetcher/tmp/intel_extension_for_transformers-1.0b0.tar.gz]
+[2023-07-14 10:36:11] INFO root fetch - processPackages [intel-extension-for-transformers]: Remove: archive file [/home/abi/fetcher/tmp/intel_extension_for_transformers-1.1-cp38-cp38-win_amd64.whl.zip]
+[2023-07-14 10:36:11] INFO root fetch - main [MainThread]: End processing [intel-extension-for-transformers]: success
+[2023-07-14 10:36:11] INFO root fetch - main [MainThread]: Store serial: [18887188]
