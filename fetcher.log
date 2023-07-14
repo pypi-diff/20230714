@@ -19610,3 +19610,132 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 13:11:13] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.3.2.tar.gz]
 [2023-07-14 13:11:13] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
 [2023-07-14 13:11:13] INFO root fetch - main [MainThread]: Store serial: [18888654]
+[2023-07-14 13:16:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888654]
+[2023-07-14 13:16:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-14 13:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: middleware-apm
+[2023-07-14 13:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sampo
+[2023-07-14 13:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wdex
+[2023-07-14 13:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-serve
+[2023-07-14 13:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inductiva
+[2023-07-14 13:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mywebapp
+[2023-07-14 13:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PureCloudPlatformClientV2
+[2023-07-14 13:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-sc-kpm
+[2023-07-14 13:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: diaossama-test3
+[2023-07-14 13:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rfcxtf
+[2023-07-14 13:16:23] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-07-14 13:16:23] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-14 13:16:23] WARNING root fetch - processPackages [diaossama-test3]: Skipping, unable to determine old version
+[2023-07-14 13:16:23] INFO root fetch - processPackages [diaossama-test3]: Start processing: akshare
+[2023-07-14 13:16:23] INFO root fetch - main [MainThread]: End processing [diaossama-test3] error
+[2023-07-14 13:16:23] INFO root fetch - processPackages [wdex]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-07-14 13:16:23] INFO root fetch - processPackages [py-sc-kpm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-14 13:16:23] WARNING root fetch - processPackages [mywebapp]: Skipping, unable to determine old version
+[2023-07-14 13:16:23] INFO root fetch - processPackages [mywebapp]: Start processing: lusid-sdk
+[2023-07-14 13:16:23] INFO root fetch - main [MainThread]: End processing [mywebapp] error
+[2023-07-14 13:16:23] INFO root fetch - processPackages [middleware-apm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 13:16:23] INFO root fetch - processPackages [rfcxtf]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-14 13:16:23] INFO root fetch - processPackages [inductiva]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 13:16:23] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-07-14 13:16:23] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-14 13:16:23] INFO root fetch - processPackages [wdex]: Downloading https://files.pythonhosted.org/packages/7f/b2/effdcec4fdfe2931e4bdb2dc690a5ead767c5152470d6904010ab2928cc6/wdex-0.0.2.tar.gz
+[2023-07-14 13:16:23] INFO root fetch - processPackages [rfcxtf]: Downloading https://files.pythonhosted.org/packages/af/ad/6d3126c596c2eda813dccbb979cf5ed6a9b974bf7445e8f7b383f6d18c0a/rfcxtf-0.0.4.tar.gz
+[2023-07-14 13:16:23] INFO root fetch - processPackages [inductiva]: Downloading https://files.pythonhosted.org/packages/f5/ff/12aafe5f40c79ba196217ac69abea4ff2395483b0cf633c43282dee37955/inductiva-0.0.8.tar.gz
+[2023-07-14 13:16:23] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/c0/f0/691fad5ee7a8eae5d9b71eb531e4b6d414959a5afcc9811977263994bd77/sampo-0.1.1.98.tar.gz
+[2023-07-14 13:16:23] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-14 13:16:23] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-14 13:16:23] INFO root fetch - processPackages [py-sc-kpm]: Downloading https://files.pythonhosted.org/packages/a6/2a/cef365414a0b4b11b696f93740d30fdfc95fa9d755b29d14765f04fd392e/py-sc-kpm-0.1.0.tar.gz
+[2023-07-14 13:16:23] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-07-14 13:16:23] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/c9/db/fa7ab1c9673926a8c26bdabf7311df866a835268e7663803b060886a9354/middleware-apm-0.1.8.tar.gz
+[2023-07-14 13:16:23] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-14 13:16:23] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-07-14 13:16:24] INFO root fetch - processPackages [rfcxtf]: Downloading https://files.pythonhosted.org/packages/c6/39/7824d3e06a1af246e0954f3f8bf181c10c1d55d4789f5aabd57bd43188c6/rfcxtf-0.0.5.tar.gz
+[2023-07-14 13:16:24] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-14 13:16:24] INFO root fetch - processPackages [inductiva]: Downloading https://files.pythonhosted.org/packages/66/8c/41e6f743b1cb237403e96113a0d1f57bd8b76d7462c0d42293e2ea2d7359/inductiva-0.0.9.tar.gz
+[2023-07-14 13:16:24] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/28/10/7f07e18ca3b08fef3d13985a88344883d8eaf53be7daeda7186b282872a8/sampo-0.1.1.99.tar.gz
+[2023-07-14 13:16:24] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/85/4e/51d46e303433412c897f03bf1f831155e665f691f00202ec4c762fb8eed6/middleware-apm-0.1.9.tar.gz
+[2023-07-14 13:16:24] INFO root fetch - processPackages [wdex]: Downloading https://files.pythonhosted.org/packages/0d/dc/ed18745e9284e927b06d6482bfa08fc79f5dbacd72914d72143a9e8fd42f/wdex-1.0.0.tar.gz
+[2023-07-14 13:16:24] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-14 13:16:24] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230714/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-14 13:16:24] INFO root fetch - processPackages [inductiva]: executing diffoscope
+[2023-07-14 13:16:24] INFO root fetch - processPackages [inductiva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inductiva-0.0.8.tar.gz tmp/inductiva-0.0.9.tar.gz --markdown 20230714/i/inductiva/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 13:16:24] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-07-14 13:16:24] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230714/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-07-14 13:16:24] INFO root fetch - processPackages [py-sc-kpm]: Downloading https://files.pythonhosted.org/packages/e4/b1/5e4c9adb62c02409b175369e8db641c94099135c128ed081193b12aaeb00/py-sc-kpm-0.1.1.tar.gz
+[2023-07-14 13:16:24] INFO root fetch - processPackages [rfcxtf]: executing diffoscope
+[2023-07-14 13:16:24] INFO root fetch - processPackages [rfcxtf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfcxtf-0.0.4.tar.gz tmp/rfcxtf-0.0.5.tar.gz --markdown 20230714/r/rfcxtf/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-14 13:16:24] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-07-14 13:16:24] INFO root fetch - processPackages [middleware-apm]: executing diffoscope
+[2023-07-14 13:16:24] INFO root fetch - processPackages [middleware-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-apm-0.1.8.tar.gz tmp/middleware-apm-0.1.9.tar.gz --markdown 20230714/m/middleware-apm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 13:16:24] INFO root fetch - processPackages [py-sc-kpm]: executing diffoscope
+[2023-07-14 13:16:24] INFO root fetch - processPackages [py-sc-kpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sc-kpm-0.1.0.tar.gz tmp/py-sc-kpm-0.1.1.tar.gz --markdown 20230714/p/py-sc-kpm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 13:16:24] INFO root fetch - processPackages [wdex]: executing diffoscope
+[2023-07-14 13:16:24] INFO root fetch - processPackages [wdex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wdex-0.0.2.tar.gz tmp/wdex-1.0.0.tar.gz --markdown 20230714/w/wdex/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-14 13:16:24] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-07-14 13:16:24] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-14 13:16:24] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-07-14 13:16:24] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230714/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-07-14 13:16:24] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-07-14 13:16:24] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230714/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-14 13:16:24] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-14 13:16:24] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230714/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-14 13:16:25] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev8.tar.gz]
+[2023-07-14 13:16:25] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev9.tar.gz]
+[2023-07-14 13:16:25] INFO root fetch - processPackages [fastapi-serve]: Start processing: request-url-2023
+[2023-07-14 13:16:25] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-14 13:16:25] INFO root fetch - processPackages [request-url-2023]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-14 13:16:25] INFO root fetch - processPackages [rfcxtf]: Remove: archive file [/home/abi/fetcher/tmp/rfcxtf-0.0.4.tar.gz]
+[2023-07-14 13:16:25] INFO root fetch - processPackages [rfcxtf]: Remove: archive file [/home/abi/fetcher/tmp/rfcxtf-0.0.5.tar.gz]
+[2023-07-14 13:16:25] INFO root fetch - processPackages [rfcxtf]: Start processing: lusid-sdk-preview
+[2023-07-14 13:16:25] INFO root fetch - main [MainThread]: End processing [rfcxtf]: success
+[2023-07-14 13:16:25] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.1.8.tar.gz]
+[2023-07-14 13:16:25] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.1.9.tar.gz]
+[2023-07-14 13:16:25] INFO root fetch - processPackages [middleware-apm]: Start processing: bioat
+[2023-07-14 13:16:25] INFO root fetch - main [MainThread]: End processing [middleware-apm]: success
+[2023-07-14 13:16:25] INFO root fetch - processPackages [bioat]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-14 13:16:26] INFO root fetch - processPackages [py-sc-kpm]: Remove: archive file [/home/abi/fetcher/tmp/py-sc-kpm-0.1.0.tar.gz]
+[2023-07-14 13:16:26] INFO root fetch - processPackages [py-sc-kpm]: Remove: archive file [/home/abi/fetcher/tmp/py-sc-kpm-0.1.1.tar.gz]
+[2023-07-14 13:16:26] INFO root fetch - processPackages [py-sc-kpm]: Start processing: matcher-marco
+[2023-07-14 13:16:26] INFO root fetch - main [MainThread]: End processing [py-sc-kpm]: success
+[2023-07-14 13:16:26] INFO root fetch - processPackages [bioat]: Downloading https://files.pythonhosted.org/packages/c7/62/fa6208d1c70ef59b1394f2fa3f4003bd4e197fee9e204f444590391b1483/bioat-0.2.1.tar.gz
+[2023-07-14 13:16:26] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-14 13:16:26] INFO root fetch - processPackages [request-url-2023]: Downloading https://files.pythonhosted.org/packages/90/2c/c7e82d32c442c00968506d9615402bde2f6e6b2adfef7935ef33bba53fce/request_url_2023-1.0.0.tar.gz
+[2023-07-14 13:16:26] WARNING root fetch - processPackages [matcher-marco]: Skipping, unable to determine old version
+[2023-07-14 13:16:26] INFO root fetch - main [MainThread]: End processing [matcher-marco] error
+[2023-07-14 13:16:26] INFO root fetch - processPackages [bioat]: Downloading https://files.pythonhosted.org/packages/87/36/6208195ba3ca78ab8c6897be992ddcc453e320085945ed72f154d2e0a48b/bioat-0.2.2.tar.gz
+[2023-07-14 13:16:26] INFO root fetch - processPackages [inductiva]: Remove: archive file [/home/abi/fetcher/tmp/inductiva-0.0.8.tar.gz]
+[2023-07-14 13:16:26] INFO root fetch - processPackages [inductiva]: Remove: archive file [/home/abi/fetcher/tmp/inductiva-0.0.9.tar.gz]
+[2023-07-14 13:16:26] INFO root fetch - main [MainThread]: End processing [inductiva]: success
+[2023-07-14 13:16:26] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-07-14 13:16:26] INFO root fetch - processPackages [wdex]: Remove: archive file [/home/abi/fetcher/tmp/wdex-0.0.2.tar.gz]
+[2023-07-14 13:16:26] INFO root fetch - processPackages [wdex]: Remove: archive file [/home/abi/fetcher/tmp/wdex-1.0.0.tar.gz]
+[2023-07-14 13:16:26] INFO root fetch - main [MainThread]: End processing [wdex]: success
+[2023-07-14 13:16:26] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.98.tar.gz]
+[2023-07-14 13:16:26] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.99.tar.gz]
+[2023-07-14 13:16:26] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-07-14 13:16:26] INFO root fetch - processPackages [bioat]: executing diffoscope
+[2023-07-14 13:16:26] INFO root fetch - processPackages [bioat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioat-0.2.1.tar.gz tmp/bioat-0.2.2.tar.gz --markdown 20230714/b/bioat/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-14 13:16:26] INFO root fetch - processPackages [request-url-2023]: Downloading https://files.pythonhosted.org/packages/3d/cf/6661b6632ac5e246eb92ab980eb572b89c5b5dc987a43841d1cf18940f82/request_url_2023-1.0.1.tar.gz
+[2023-07-14 13:16:26] INFO root fetch - processPackages [request-url-2023]: executing diffoscope
+[2023-07-14 13:16:26] INFO root fetch - processPackages [request-url-2023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request_url_2023-1.0.0.tar.gz tmp/request_url_2023-1.0.1.tar.gz --markdown 20230714/r/request-url-2023/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-14 13:16:26] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-07-14 13:16:27] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-07-14 13:16:27] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230714/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-14 13:16:27] INFO root fetch - processPackages [request-url-2023]: Remove: archive file [/home/abi/fetcher/tmp/request_url_2023-1.0.0.tar.gz]
+[2023-07-14 13:16:27] INFO root fetch - processPackages [request-url-2023]: Remove: archive file [/home/abi/fetcher/tmp/request_url_2023-1.0.1.tar.gz]
+[2023-07-14 13:16:27] INFO root fetch - main [MainThread]: End processing [request-url-2023]: success
+[2023-07-14 13:16:27] INFO root fetch - processPackages [bioat]: Remove: archive file [/home/abi/fetcher/tmp/bioat-0.2.1.tar.gz]
+[2023-07-14 13:16:27] INFO root fetch - processPackages [bioat]: Remove: archive file [/home/abi/fetcher/tmp/bioat-0.2.2.tar.gz]
+[2023-07-14 13:16:27] INFO root fetch - main [MainThread]: End processing [bioat]: success
+[2023-07-14 13:16:29] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-14 13:16:29] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-14 13:16:29] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-14 13:16:35] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-07-14 13:16:35] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-07-14 13:16:35] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-07-14 13:16:40] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-07-14 13:16:40] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-07-14 13:16:40] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-07-14 13:16:45] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-98.0.0.tar.gz]
+[2023-07-14 13:16:45] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
+[2023-07-14 13:16:45] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-07-14 13:16:45] INFO root fetch - main [MainThread]: Store serial: [18888700]
