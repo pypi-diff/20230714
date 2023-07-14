@@ -17880,3 +17880,89 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 11:36:15] INFO root fetch - processPackages [vwo-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vwo-python-sdk-1.9.0.tar.gz]
 [2023-07-14 11:36:15] INFO root fetch - main [MainThread]: End processing [vwo-python-sdk]: success
 [2023-07-14 11:36:15] INFO root fetch - main [MainThread]: Store serial: [18887860]
+[2023-07-14 11:41:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18887860]
+[2023-07-14 11:41:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-14 11:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phanos
+[2023-07-14 11:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autonomy-dev
+[2023-07-14 11:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molgenis-emx2-pyclient
+[2023-07-14 11:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numbering-exam
+[2023-07-14 11:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: formance-sdk-python
+[2023-07-14 11:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-tea-util
+[2023-07-14 11:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioat
+[2023-07-14 11:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rayvision-sync
+[2023-07-14 11:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: integration-wetsuits
+[2023-07-14 11:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlmodelservice
+[2023-07-14 11:41:24] WARNING root fetch - processPackages [numbering-exam]: Skipping, unable to determine old version
+[2023-07-14 11:41:24] INFO root fetch - processPackages [numbering-exam]: Start processing: protloc-mex1
+[2023-07-14 11:41:24] INFO root fetch - main [MainThread]: End processing [numbering-exam] error
+[2023-07-14 11:41:24] INFO root fetch - processPackages [phanos]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-14 11:41:24] INFO root fetch - processPackages [autonomy-dev]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-14 11:41:24] INFO root fetch - processPackages [formance-sdk-python]: New version: [1.0.20230714] Old Version: [1.0.20230713]
+[2023-07-14 11:41:24] INFO root fetch - processPackages [alibabacloud-tea-util]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-14 11:41:24] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.206.0] Old Version: [8.205.0]
+[2023-07-14 11:41:24] INFO root fetch - processPackages [bioat]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-14 11:41:24] INFO root fetch - processPackages [protloc-mex1]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 11:41:24] INFO root fetch - processPackages [rayvision-sync]: New version: [2.8.8.2] Old Version: [2.8.8.1]
+[2023-07-14 11:41:24] INFO root fetch - processPackages [sqlmodelservice]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-14 11:41:24] WARNING root fetch - processPackages [integration-wetsuits]: Skipping, unable to determine old version
+[2023-07-14 11:41:24] INFO root fetch - main [MainThread]: End processing [integration-wetsuits] error
+[2023-07-14 11:41:24] INFO root fetch - processPackages [formance-sdk-python]: Downloading https://files.pythonhosted.org/packages/c9/52/6ece488d61398e22cdb9fdb786c1ad3c974632902755b5c4eaccd5349c64/formance-sdk-python-1.0.20230713.tar.gz
+[2023-07-14 11:41:24] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/f1/a6/b12a1d269d5bdf4475b5466ebbe2ad69d3f3521620e4e11b9debbfd08d62/protloc_mex1-0.0.8.tar.gz
+[2023-07-14 11:41:24] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/0f/35/4d4d988be49282dfa0d3c6bf846c9f5beee16af662a4246e52bd319f481d/molgenis_emx2_pyclient-8.205.0.tar.gz
+[2023-07-14 11:41:24] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/ff/43/4a82a6d361d54cec73c3bfeb62a7903e198c73ead708cd40c6df1d270f39/phanos-0.0.7.tar.gz
+[2023-07-14 11:41:24] INFO root fetch - processPackages [bioat]: Downloading https://files.pythonhosted.org/packages/c7/62/fa6208d1c70ef59b1394f2fa3f4003bd4e197fee9e204f444590391b1483/bioat-0.2.1.tar.gz
+[2023-07-14 11:41:24] INFO root fetch - processPackages [alibabacloud-tea-util]: Downloading https://files.pythonhosted.org/packages/e6/9b/d711a92ad72e5a260a8b911e0475c4afab063cfcc76e12e15d597d683f38/alibabacloud_tea_util-0.3.8.tar.gz
+[2023-07-14 11:41:24] INFO root fetch - processPackages [rayvision-sync]: Downloading https://files.pythonhosted.org/packages/99/ce/adc947844cc822a5d6df51c2e1f68368c2f3b112f52150800c9446cca6ed/rayvision_sync-2.8.8.1.tar.gz
+[2023-07-14 11:41:24] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/ea/be/eecce34b721ca9138a542cf92e34d8d2f90603ef25ae3191b324a287d3b6/autonomy_dev-0.2.4.tar.gz
+[2023-07-14 11:41:24] INFO root fetch - processPackages [sqlmodelservice]: Downloading https://files.pythonhosted.org/packages/a1/ec/dbc382c3b68aa7725f5357bc2d4505115510b5402cd0265f08f34a3d351b/sqlmodelservice-0.2.0.tar.gz
+[2023-07-14 11:41:25] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/b1/ec/42aec6951104a9842e9ff6d86fc2cc4b4cce8658effe452817ca74f55dfe/protloc_mex1-0.0.9.tar.gz
+[2023-07-14 11:41:25] INFO root fetch - processPackages [formance-sdk-python]: Downloading https://files.pythonhosted.org/packages/15/2a/56ab6d135b49115ad2681e1c6fc705b540cbe0016b6f01a95c5242240ea4/formance-sdk-python-1.0.20230714.tar.gz
+[2023-07-14 11:41:25] WARNING root fetch - processPackages [rayvision-sync]: Skipping package: exceeds size limit 43681212>=10485760
+[2023-07-14 11:41:25] INFO root fetch - main [MainThread]: End processing [rayvision-sync] error
+[2023-07-14 11:41:25] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/ee/75/fbe05b3abe3a35d10f2087f042344f8d29e2f0a03c4c1964c004710b1103/molgenis_emx2_pyclient-8.206.0.tar.gz
+[2023-07-14 11:41:25] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/82/61/ea2e2161b155f556cdbe8e64085cc5055e1702ac6f09d6e212e4f3070a15/phanos-0.0.8.tar.gz
+[2023-07-14 11:41:25] INFO root fetch - processPackages [protloc-mex1]: executing diffoscope
+[2023-07-14 11:41:25] INFO root fetch - processPackages [protloc-mex1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex1-0.0.8.tar.gz tmp/protloc_mex1-0.0.9.tar.gz --markdown 20230714/p/protloc-mex1/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 11:41:25] INFO root fetch - processPackages [bioat]: Downloading https://files.pythonhosted.org/packages/87/36/6208195ba3ca78ab8c6897be992ddcc453e320085945ed72f154d2e0a48b/bioat-0.2.2.tar.gz
+[2023-07-14 11:41:25] INFO root fetch - processPackages [alibabacloud-tea-util]: Downloading https://files.pythonhosted.org/packages/15/77/da9e7d132fcefd54b64cc03984428191062758e5b3b8d98ababc016b2109/alibabacloud_tea_util-0.3.9.tar.gz
+[2023-07-14 11:41:25] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-14 11:41:25] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.205.0.tar.gz tmp/molgenis_emx2_pyclient-8.206.0.tar.gz --markdown 20230714/m/molgenis-emx2-pyclient/8.205.0-8.206.0/diff.md --exclude *.pyd
+[2023-07-14 11:41:25] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/3b/57/70bf757bae0f7fba92f84ebf75ec0e184cbaa18ae61b8e98639061726b73/autonomy_dev-0.2.5.tar.gz
+[2023-07-14 11:41:25] INFO root fetch - processPackages [formance-sdk-python]: executing diffoscope
+[2023-07-14 11:41:25] INFO root fetch - processPackages [formance-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formance-sdk-python-1.0.20230713.tar.gz tmp/formance-sdk-python-1.0.20230714.tar.gz --markdown 20230714/f/formance-sdk-python/1.0.20230713-1.0.20230714/diff.md --exclude *.pyd
+[2023-07-14 11:41:25] INFO root fetch - processPackages [sqlmodelservice]: Downloading https://files.pythonhosted.org/packages/4a/9f/39b43682797da4da59455f1c82429f82f151e2adcd4cfa84ab5e8e902653/sqlmodelservice-0.2.1.tar.gz
+[2023-07-14 11:41:25] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-14 11:41:25] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.7.tar.gz tmp/phanos-0.0.8.tar.gz --markdown 20230714/p/phanos/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-14 11:41:25] INFO root fetch - processPackages [alibabacloud-tea-util]: executing diffoscope
+[2023-07-14 11:41:25] INFO root fetch - processPackages [alibabacloud-tea-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_tea_util-0.3.8.tar.gz tmp/alibabacloud_tea_util-0.3.9.tar.gz --markdown 20230714/a/alibabacloud-tea-util/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-14 11:41:25] INFO root fetch - processPackages [sqlmodelservice]: executing diffoscope
+[2023-07-14 11:41:25] INFO root fetch - processPackages [sqlmodelservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmodelservice-0.2.0.tar.gz tmp/sqlmodelservice-0.2.1.tar.gz --markdown 20230714/s/sqlmodelservice/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-14 11:41:25] INFO root fetch - processPackages [autonomy-dev]: executing diffoscope
+[2023-07-14 11:41:25] INFO root fetch - processPackages [autonomy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomy_dev-0.2.4.tar.gz tmp/autonomy_dev-0.2.5.tar.gz --markdown 20230714/a/autonomy-dev/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-14 11:41:25] INFO root fetch - processPackages [bioat]: executing diffoscope
+[2023-07-14 11:41:25] INFO root fetch - processPackages [bioat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioat-0.2.1.tar.gz tmp/bioat-0.2.2.tar.gz --markdown 20230714/b/bioat/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-14 11:41:26] INFO root fetch - processPackages [protloc-mex1]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex1-0.0.8.tar.gz]
+[2023-07-14 11:41:26] INFO root fetch - processPackages [protloc-mex1]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex1-0.0.9.tar.gz]
+[2023-07-14 11:41:26] INFO root fetch - main [MainThread]: End processing [protloc-mex1]: success
+[2023-07-14 11:41:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.205.0.tar.gz]
+[2023-07-14 11:41:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.206.0.tar.gz]
+[2023-07-14 11:41:26] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-14 11:41:26] INFO root fetch - processPackages [alibabacloud-tea-util]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tea_util-0.3.8.tar.gz]
+[2023-07-14 11:41:26] INFO root fetch - processPackages [alibabacloud-tea-util]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tea_util-0.3.9.tar.gz]
+[2023-07-14 11:41:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-tea-util]: success
+[2023-07-14 11:41:26] INFO root fetch - processPackages [sqlmodelservice]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodelservice-0.2.0.tar.gz]
+[2023-07-14 11:41:26] INFO root fetch - processPackages [sqlmodelservice]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodelservice-0.2.1.tar.gz]
+[2023-07-14 11:41:26] INFO root fetch - main [MainThread]: End processing [sqlmodelservice]: success
+[2023-07-14 11:41:26] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.7.tar.gz]
+[2023-07-14 11:41:26] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.8.tar.gz]
+[2023-07-14 11:41:26] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-14 11:41:26] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.2.4.tar.gz]
+[2023-07-14 11:41:26] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.2.5.tar.gz]
+[2023-07-14 11:41:26] INFO root fetch - main [MainThread]: End processing [autonomy-dev]: success
+[2023-07-14 11:41:27] INFO root fetch - processPackages [bioat]: Remove: archive file [/home/abi/fetcher/tmp/bioat-0.2.1.tar.gz]
+[2023-07-14 11:41:27] INFO root fetch - processPackages [bioat]: Remove: archive file [/home/abi/fetcher/tmp/bioat-0.2.2.tar.gz]
+[2023-07-14 11:41:27] INFO root fetch - main [MainThread]: End processing [bioat]: success
+[2023-07-14 11:41:27] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-1.0.20230713.tar.gz]
+[2023-07-14 11:41:27] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-1.0.20230714.tar.gz]
+[2023-07-14 11:41:27] INFO root fetch - main [MainThread]: End processing [formance-sdk-python]: success
+[2023-07-14 11:41:27] INFO root fetch - main [MainThread]: Store serial: [18887900]
