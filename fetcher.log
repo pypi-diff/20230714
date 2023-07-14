@@ -22038,3 +22038,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-14 14:51:40] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.9.tar.gz]
 [2023-07-14 14:51:40] INFO root fetch - main [MainThread]: End processing [encord-active]: success
 [2023-07-14 14:51:40] INFO root fetch - main [MainThread]: Store serial: [18889626]
+[2023-07-14 14:56:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18889626]
+[2023-07-14 14:56:49] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-14 14:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: encord-active
+[2023-07-14 14:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-pdr
+[2023-07-14 14:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aorta-sirius-dev
+[2023-07-14 14:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-sim
+[2023-07-14 14:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataplicity
+[2023-07-14 14:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gocept.filestore
+[2023-07-14 14:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: manticore
+[2023-07-14 14:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oking
+[2023-07-14 14:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysdot
+[2023-07-14 14:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: th2-grpc-sim
+[2023-07-14 14:56:49] INFO root fetch - processPackages [gocept.filestore]: New version: [1.0] Old Version: [0.5]
+[2023-07-14 14:56:50] INFO root fetch - processPackages [th2-grpc-sim]: New version: [5.0.0.dev5554276200] Old Version: [5.0.0.dev5552983537]
+[2023-07-14 14:56:50] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230714] Old Version: [0.3.8.dev230713]
+[2023-07-14 14:56:50] INFO root fetch - processPackages [django-pdr]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-14 14:56:50] INFO root fetch - processPackages [th2-grpc-sim]: New version: [5.0.0.dev5554276200] Old Version: [5.0.0.dev5552983537]
+[2023-07-14 14:56:50] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 14:56:50] INFO root fetch - processPackages [pysdot]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-14 14:56:50] INFO root fetch - processPackages [encord-active]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 14:56:50] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-07-14 14:56:50] INFO root fetch - processPackages [oking]: New version: [4.1.198] Old Version: [4.1.197]
+[2023-07-14 14:56:50] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/18/bc/011485233c086edc856d287ba707da4aa371e287f1085976c96469f5a03a/th2_grpc_sim-5.0.0.dev5552983537.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/71/6d/219169a60d0780908c2a281c8ca9a8d18c5d799808680ed23c38f0766487/manticore-0.3.8.dev230713.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/14/53/4cb3529f62b21b97e90761ad702d4e864b643e4772935fb9c464f8ab6758/encord-active-0.1.8.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/58/c8/07a56a466b82e7f91faaaed1e412c855bbb21a4da376ec56718ee02e2df7/pysdot-0.2.7.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/18/bc/011485233c086edc856d287ba707da4aa371e287f1085976c96469f5a03a/th2_grpc_sim-5.0.0.dev5552983537.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [gocept.filestore]: Downloading https://files.pythonhosted.org/packages/3c/6f/1fb98ba8ed5a8e0e2a74f62673b86c6ac52b3d067d050ad00af80d66d784/gocept.filestore-0.5.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/81/24/cd50b462f351541afaa9538a80f39a1056194853c438876c50290bd37789/django-pdr-1.2.8.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/25/77/341fbe62c55d92e075e80527041c3a19982f711dbae02f88f02c9d6d3a6b/oking-4.1.197.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-07-14 14:56:50] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82502422>=10485760
+[2023-07-14 14:56:50] INFO root fetch - processPackages [oking]: Start processing: statute-utils
+[2023-07-14 14:56:50] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-07-14 14:56:50] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/13/97/8fcde2da6b06276a9ef7c3fea9e816e5e0cd9025cfe13a8053a4435c66ae/pysdot-0.2.8.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/c3/14/4bad612dc1f21c818799f76b076d38fbaeeaedf2288d7c41c915b0cdce4d/encord-active-0.1.9.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [statute-utils]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-14 14:56:50] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/17/79/551f0734ba48def44d1d285a7555b918e8e3f996868be90c3e01f5c7f73e/th2_grpc_sim-5.0.0.dev5554276200.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/17/79/551f0734ba48def44d1d285a7555b918e8e3f996868be90c3e01f5c7f73e/th2_grpc_sim-5.0.0.dev5554276200.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [gocept.filestore]: Downloading https://files.pythonhosted.org/packages/e5/a7/98c1abc3c87a7a7a3aade652b7fea069c6a49429f14e087451bdcf0e7f52/gocept.filestore-1.0.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/68/81/016a7da6b8d85dddfc145b3e99a84e1546c7a8e5030b12348bd794803d8f/manticore-0.3.8.dev230714.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/36/f9/326659fda9e7bf3ba840f0c789944e72a150630f7ca4afc665ef7eb28050/django-pdr-1.2.9.tar.gz
+[2023-07-14 14:56:50] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-14 14:56:50] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230714/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 14:56:51] INFO root fetch - processPackages [encord-active]: executing diffoscope
+[2023-07-14 14:56:51] INFO root fetch - processPackages [encord-active]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-active-0.1.8.tar.gz tmp/encord-active-0.1.9.tar.gz --markdown 20230714/e/encord-active/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 14:56:51] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-07-14 14:56:51] INFO root fetch - processPackages [django-pdr]: executing diffoscope
+[2023-07-14 14:56:51] INFO root fetch - processPackages [django-pdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pdr-1.2.8.tar.gz tmp/django-pdr-1.2.9.tar.gz --markdown 20230714/d/django-pdr/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-14 14:56:51] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/2f/c3/bd9527382774b1756b0c03a06c3bc54ce31679ef197274be2ff927854615/statute_utils-0.5.4.tar.gz
+[2023-07-14 14:56:51] INFO root fetch - processPackages [th2-grpc-sim]: executing diffoscope
+[2023-07-14 14:56:51] INFO root fetch - processPackages [th2-grpc-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_sim-5.0.0.dev5552983537.tar.gz tmp/th2_grpc_sim-5.0.0.dev5554276200.tar.gz --markdown 20230714/t/th2-grpc-sim/5.0.0.dev5552983537-5.0.0.dev5554276200/diff.md --exclude *.pyd
+[2023-07-14 14:56:51] INFO root fetch - processPackages [th2-grpc-sim]: executing diffoscope
+[2023-07-14 14:56:51] INFO root fetch - processPackages [th2-grpc-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_sim-5.0.0.dev5552983537.tar.gz tmp/th2_grpc_sim-5.0.0.dev5554276200.tar.gz --markdown 20230714/t/th2-grpc-sim/5.0.0.dev5552983537-5.0.0.dev5554276200/diff.md --exclude *.pyd
+[2023-07-14 14:56:51] INFO root fetch - processPackages [gocept.filestore]: executing diffoscope
+[2023-07-14 14:56:51] INFO root fetch - processPackages [gocept.filestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocept.filestore-0.5.tar.gz tmp/gocept.filestore-1.0.tar.gz --markdown 20230714/g/gocept.filestore/0.5-1.0/diff.md --exclude *.pyd
+[2023-07-14 14:56:51] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-14 14:56:51] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230713.tar.gz tmp/manticore-0.3.8.dev230714.tar.gz --markdown 20230714/m/manticore/0.3.8.dev230713-0.3.8.dev230714/diff.md --exclude *.pyd
+[2023-07-14 14:56:51] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-07-14 14:56:51] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230714/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-07-14 14:56:51] INFO root fetch - processPackages [pysdot]: executing diffoscope
+[2023-07-14 14:56:51] INFO root fetch - processPackages [pysdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdot-0.2.7.tar.gz tmp/pysdot-0.2.8.tar.gz --markdown 20230714/p/pysdot/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-14 14:56:51] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/18/c9/42dc080daa2edc5c3c6813ebbfe37d2870435f139b4fc4c5abf450b310da/statute_utils-0.5.5.tar.gz
+[2023-07-14 14:56:51] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-07-14 14:56:51] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.5.4.tar.gz tmp/statute_utils-0.5.5.tar.gz --markdown 20230714/s/statute-utils/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-14 14:56:52] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-14 14:56:52] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-14 14:56:52] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-14 14:56:52] INFO root fetch - processPackages [th2-grpc-sim]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim-5.0.0.dev5552983537.tar.gz]
+[2023-07-14 14:56:52] INFO root fetch - processPackages [th2-grpc-sim]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim-5.0.0.dev5554276200.tar.gz]
+[2023-07-14 14:56:52] INFO root fetch - main [MainThread]: End processing [th2-grpc-sim]: success
+[2023-07-14 14:56:52] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.7.tar.gz]
+[2023-07-14 14:56:52] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.8.tar.gz]
+[2023-07-14 14:56:52] INFO root fetch - main [MainThread]: End processing [pysdot]: success
+[2023-07-14 14:56:52] INFO root fetch - main [MainThread]: End processing [th2-grpc-sim]: success
+[2023-07-14 14:56:52] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.8.tar.gz]
+[2023-07-14 14:56:52] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.9.tar.gz]
+[2023-07-14 14:56:52] INFO root fetch - main [MainThread]: End processing [django-pdr]: success
+[2023-07-14 14:56:52] INFO root fetch - processPackages [gocept.filestore]: Remove: archive file [/home/abi/fetcher/tmp/gocept.filestore-0.5.tar.gz]
+[2023-07-14 14:56:52] INFO root fetch - processPackages [gocept.filestore]: Remove: archive file [/home/abi/fetcher/tmp/gocept.filestore-1.0.tar.gz]
+[2023-07-14 14:56:52] INFO root fetch - main [MainThread]: End processing [gocept.filestore]: success
+[2023-07-14 14:56:52] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a4.tar.gz]
+[2023-07-14 14:56:52] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
+[2023-07-14 14:56:53] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-07-14 14:56:53] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.5.4.tar.gz]
+[2023-07-14 14:56:53] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.5.5.tar.gz]
+[2023-07-14 14:56:53] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-07-14 14:56:53] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.8.tar.gz]
+[2023-07-14 14:56:53] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.9.tar.gz]
+[2023-07-14 14:56:53] INFO root fetch - main [MainThread]: End processing [encord-active]: success
+[2023-07-14 14:56:53] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230713.tar.gz]
+[2023-07-14 14:56:53] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230714.tar.gz]
+[2023-07-14 14:56:53] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-14 14:56:53] INFO root fetch - main [MainThread]: Store serial: [18889667]
