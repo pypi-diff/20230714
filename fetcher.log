@@ -11240,3 +11240,75 @@
 [2023-07-14 05:46:21] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
 [2023-07-14 05:46:21] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-07-14 05:46:21] INFO root fetch - main [MainThread]: Store serial: [18885197]
+[2023-07-14 05:51:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885197]
+[2023-07-14 05:51:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 05:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius-dev
+[2023-07-14 05:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langdash
+[2023-07-14 05:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TreeSAK
+[2023-07-14 05:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-url-security
+[2023-07-14 05:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threemystic-cloud-client
+[2023-07-14 05:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyLSHash
+[2023-07-14 05:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m23
+[2023-07-14 05:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: request-url-2023
+[2023-07-14 05:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mafese
+[2023-07-14 05:51:30] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 05:51:30] WARNING root fetch - processPackages [django-url-security]: Skipping, unable to determine old version
+[2023-07-14 05:51:30] INFO root fetch - main [MainThread]: End processing [django-url-security] error
+[2023-07-14 05:51:30] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.31] Old Version: [0.1.30]
+[2023-07-14 05:51:30] INFO root fetch - processPackages [pyLSHash]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-07-14 05:51:30] WARNING root fetch - processPackages [request-url-2023]: Skipping, unable to determine old version
+[2023-07-14 05:51:30] INFO root fetch - processPackages [mafese]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-14 05:51:30] INFO root fetch - main [MainThread]: End processing [request-url-2023] error
+[2023-07-14 05:51:30] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-14 05:51:30] INFO root fetch - processPackages [langdash]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-07-14 05:51:30] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-14 05:51:30] INFO root fetch - processPackages [mafese]: Downloading https://files.pythonhosted.org/packages/0a/f8/996da5c0922d3263b065f2e750c33830f1a4bc6cc503d2b5c3590f3db827/mafese-0.1.7.tar.gz
+[2023-07-14 05:51:30] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/69/bb/21ccc9bbeab71f37e7c94a1b318bdb24de2f00d5ccad718add4730bf3b3a/threemystic_cloud_client-0.1.30.tar.gz
+[2023-07-14 05:51:30] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-07-14 05:51:30] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-14 05:51:30] INFO root fetch - processPackages [pyLSHash]: Downloading https://files.pythonhosted.org/packages/8e/3e/50437dc80b83ead54a7ccc339918fce29a13d14645a7790bb022a0ff305c/pyLSHash-0.1.1.tar.gz
+[2023-07-14 05:51:30] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-07-14 05:51:30] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/70/21/4394bd8f1524628e21695020c53bb7c637d5b75608729ed1eb15a3730de9/langdash-1.7.4.tar.gz
+[2023-07-14 05:51:31] INFO root fetch - processPackages [mafese]: Downloading https://files.pythonhosted.org/packages/09/b0/1220710dfaa268ed98054f4e7c31ba2058cabfe6c43ccf764d06d1b0f153/mafese-0.1.8.tar.gz
+[2023-07-14 05:51:31] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/01/ca/daa3dfa57a98a48641a84e1a6f46c6c2fff7623cb782a36a516b4b9ad9f3/threemystic_cloud_client-0.1.31.tar.gz
+[2023-07-14 05:51:31] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-14 05:51:31] INFO root fetch - processPackages [pyLSHash]: Downloading https://files.pythonhosted.org/packages/54/74/cdb87c94c59641f3df7534602d93f22725b60c1c47b5d319d8692b00f16e/pyLSHash-0.2.1.tar.gz
+[2023-07-14 05:51:31] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-14 05:51:31] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.30.tar.gz tmp/threemystic_cloud_client-0.1.31.tar.gz --markdown 20230714/t/threemystic-cloud-client/0.1.30-0.1.31/diff.md --exclude *.pyd
+[2023-07-14 05:51:31] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/c7/b1/21bcd5ad46b7c80dac907324f4004e8b59d109331a89b8f674aa6cc76bf5/langdash-1.7.5.tar.gz
+[2023-07-14 05:51:31] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-07-14 05:51:31] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-07-14 05:51:31] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-14 05:51:31] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230714/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 05:51:31] INFO root fetch - processPackages [pyLSHash]: executing diffoscope
+[2023-07-14 05:51:31] INFO root fetch - processPackages [pyLSHash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyLSHash-0.1.1.tar.gz tmp/pyLSHash-0.2.1.tar.gz --markdown 20230714/p/pyLSHash/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-07-14 05:51:31] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-07-14 05:51:31] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.7.4.tar.gz tmp/langdash-1.7.5.tar.gz --markdown 20230714/l/langdash/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-07-14 05:51:31] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-07-14 05:51:31] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230714/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-14 05:51:31] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-07-14 05:51:31] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230714/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-14 05:51:31] INFO root fetch - processPackages [mafese]: executing diffoscope
+[2023-07-14 05:51:31] INFO root fetch - processPackages [mafese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mafese-0.1.7.tar.gz tmp/mafese-0.1.8.tar.gz --markdown 20230714/m/mafese/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-14 05:51:32] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-14 05:51:32] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-14 05:51:32] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-14 05:51:32] INFO root fetch - processPackages [pyLSHash]: Remove: archive file [/home/abi/fetcher/tmp/pyLSHash-0.1.1.tar.gz]
+[2023-07-14 05:51:32] INFO root fetch - processPackages [pyLSHash]: Remove: archive file [/home/abi/fetcher/tmp/pyLSHash-0.2.1.tar.gz]
+[2023-07-14 05:51:32] INFO root fetch - main [MainThread]: End processing [pyLSHash]: success
+[2023-07-14 05:51:32] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.30.tar.gz]
+[2023-07-14 05:51:32] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.31.tar.gz]
+[2023-07-14 05:51:32] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-14 05:51:32] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.7.4.tar.gz]
+[2023-07-14 05:51:32] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.7.5.tar.gz]
+[2023-07-14 05:51:32] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-07-14 05:51:32] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2023-07-14 05:51:32] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2023-07-14 05:51:32] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-07-14 05:51:33] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-07-14 05:51:33] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-07-14 05:51:33] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-07-14 05:51:33] INFO root fetch - processPackages [mafese]: Remove: archive file [/home/abi/fetcher/tmp/mafese-0.1.7.tar.gz]
+[2023-07-14 05:51:33] INFO root fetch - processPackages [mafese]: Remove: archive file [/home/abi/fetcher/tmp/mafese-0.1.8.tar.gz]
+[2023-07-14 05:51:33] INFO root fetch - main [MainThread]: End processing [mafese]: success
+[2023-07-14 05:51:33] INFO root fetch - main [MainThread]: Store serial: [18885231]
