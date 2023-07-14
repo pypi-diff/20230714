@@ -10136,3 +10136,132 @@
 [2023-07-14 04:47:58] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
 [2023-07-14 04:47:58] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-14 04:47:58] INFO root fetch - main [MainThread]: Store serial: [18884805]
+[2023-07-14 04:53:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18884805]
+[2023-07-14 04:53:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-14 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiftyone-pipeline-cloudrequestengine
+[2023-07-14 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fiftyone-pipeline-core
+[2023-07-14 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fiftyone-pipeline-engines-fiftyone
+[2023-07-14 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiftyone-pipeline-engines
+[2023-07-14 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-due-list-payment-mode
+[2023-07-14 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-account-payment
+[2023-07-14 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: decontext
+[2023-07-14 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyutils-hyutil-hoyun-lab
+[2023-07-14 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nicegui
+[2023-07-14 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pubmedtools
+[2023-07-14 04:53:13] INFO root fetch - processPackages [fiftyone-pipeline-core]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2023-07-14 04:53:13] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2023-07-14 04:53:13] WARNING root fetch - processPackages [pubmedtools]: Skipping, unable to determine old version
+[2023-07-14 04:53:13] INFO root fetch - processPackages [pubmedtools]: Start processing: tva-utils
+[2023-07-14 04:53:13] INFO root fetch - main [MainThread]: End processing [pubmedtools] error
+[2023-07-14 04:53:13] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: New version: [0.0.6.7] Old Version: [0.0.6.6]
+[2023-07-14 04:53:13] INFO root fetch - processPackages [decontext]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-14 04:53:13] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-14 04:53:13] INFO root fetch - processPackages [tva-utils]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-14 04:53:13] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2023-07-14 04:53:13] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: New version: [16.0.20230713.0] Old Version: [16.0.20230623.0]
+[2023-07-14 04:53:13] INFO root fetch - processPackages [nicegui]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-14 04:53:13] INFO root fetch - processPackages [fiftyone-pipeline-core]: Downloading https://files.pythonhosted.org/packages/76/d6/b34fc7d1d074a71df816c77ccb53905048f4ae560a2a70978ca29e3134f7/fiftyone_pipeline_core-4.4.8.0.tar.gz
+[2023-07-14 04:53:13] INFO root fetch - processPackages [tva-utils]: Downloading https://files.pythonhosted.org/packages/19/c7/076d7f075ec53ef276823c10a6662d0c8d95dd74ef187d17a84669e36899/tva_utils-0.1.9.tar.gz
+[2023-07-14 04:53:13] INFO root fetch - processPackages [fiftyone-pipeline-engines]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2023-07-14 04:53:13] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/e8/dc/b789ec39200278df7adc44e55225ff055192e8f08064bea1328fcfa6b510/hyutils-hyutil-hoyun-lab-0.0.6.6.tar.gz
+[2023-07-14 04:53:13] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Downloading https://files.pythonhosted.org/packages/6b/95/db65322b6bc7c0e4e2cb94c839191565def3d46ed1ee559f0ca6d588e227/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz
+[2023-07-14 04:53:13] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/a8/5b/4700da14dca835cafbca381f4f627a906a0eb4deacdecde0e9d5c319bec5/nicegui-1.2.9.tar.gz
+[2023-07-14 04:53:13] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Downloading https://files.pythonhosted.org/packages/57/0b/5043a75732cdb4f3894eee095bccca4eca3f291f2e64ebee5fcb716b24f2/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz
+[2023-07-14 04:53:13] INFO root fetch - processPackages [decontext]: Downloading https://files.pythonhosted.org/packages/ee/ca/8478d11c642463de5e4333cba9dfe6c8bd9a15b70d4a1bba3099508bc0a4/decontext-0.1.0.tar.gz
+[2023-07-14 04:53:13] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: Downloading https://files.pythonhosted.org/packages/97/65/47059ca9393b77ce450cf96f8293b22d521f9ad79db6f5ed82781a9f385d/odoo_addon_account_due_list_payment_mode-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Downloading https://files.pythonhosted.org/packages/4e/a3/500d24c2165afbd2f3f48b2636467d8441bc9649a45121c4b1313d6721f2/fiftyone_pipeline_engines-4.4.8.0.tar.gz
+[2023-07-14 04:53:14] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/0b/50/b9f49caaaa2dfa4943ad598c034c5151c3a0e339da556fc905e2807208cf/odoo_addons_oca_account_payment-16.0.20230623.0-py3-none-any.whl
+[2023-07-14 04:53:14] INFO root fetch - processPackages [tva-utils]: Downloading https://files.pythonhosted.org/packages/47/85/c066f597d56110d7257006ca714d1ab393d6a4a58731adeb77fa41c609ab/tva_utils-0.2.0.tar.gz
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-core]: Downloading https://files.pythonhosted.org/packages/01/0e/99e6212222e48ed13b12487df5c23221264e2d9ccf67adcb8902624547fc/fiftyone_pipeline_core-4.4.9.0.tar.gz
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Downloading https://files.pythonhosted.org/packages/5c/0e/bb656280fc3dfa6b4b69e17ab2e2d2e256d4300cdb60e8cb5e81a4fcf331/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz
+[2023-07-14 04:53:14] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/c7/e5/c5c2dbdde00bea49ee307fe8880a19cc405a95553061f6098e72c119d584/hyutils-hyutil-hoyun-lab-0.0.6.7.tar.gz
+[2023-07-14 04:53:14] INFO root fetch - processPackages [decontext]: Downloading https://files.pythonhosted.org/packages/7a/16/ed6c40bebfc773146a1eac2514b7459c3e1d1cee67a1c9abada4721b3148/decontext-0.1.1.tar.gz
+[2023-07-14 04:53:14] INFO root fetch - processPackages [tva-utils]: executing diffoscope
+[2023-07-14 04:53:14] INFO root fetch - processPackages [tva-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tva_utils-0.1.9.tar.gz tmp/tva_utils-0.2.0.tar.gz --markdown 20230714/t/tva-utils/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Downloading https://files.pythonhosted.org/packages/23/7a/370305d5cf4106a6fed8cfa73f299a087c38edf5aea1e577829f23d4a332/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-core]: executing diffoscope
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_core-4.4.8.0.tar.gz tmp/fiftyone_pipeline_core-4.4.9.0.tar.gz --markdown 20230714/f/fiftyone-pipeline-core/4.4.8.0-4.4.9.0/diff.md --exclude *.pyd
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: executing diffoscope
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz tmp/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz --markdown 20230714/f/fiftyone-pipeline-engines-fiftyone/4.4.8.0-4.4.9.0/diff.md --exclude *.pyd
+[2023-07-14 04:53:14] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: Downloading https://files.pythonhosted.org/packages/98/17/7400cc099ca8e8b465fa0b4b2c25b4bbf08cc01400cf88f5b9b642a305ab/odoo_addon_account_due_list_payment_mode-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-14 04:53:14] INFO root fetch - processPackages [decontext]: executing diffoscope
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Downloading https://files.pythonhosted.org/packages/8f/08/ccc77f7100f8f3db59fa2f751fe41a249e04249113f00c5e1ff61774197e/fiftyone_pipeline_engines-4.4.9.0.tar.gz
+[2023-07-14 04:53:14] INFO root fetch - processPackages [decontext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decontext-0.1.0.tar.gz tmp/decontext-0.1.1.tar.gz --markdown 20230714/d/decontext/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 04:53:14] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: executing diffoscope
+[2023-07-14 04:53:14] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyutils-hyutil-hoyun-lab-0.0.6.6.tar.gz tmp/hyutils-hyutil-hoyun-lab-0.0.6.7.tar.gz --markdown 20230714/h/hyutils-hyutil-hoyun-lab/0.0.6.6-0.0.6.7/diff.md --exclude *.pyd
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: executing diffoscope
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz tmp/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz --markdown 20230714/f/fiftyone-pipeline-cloudrequestengine/4.4.8.0-4.4.9.0/diff.md --exclude *.pyd
+[2023-07-14 04:53:14] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/75/23/916d0a32f2f1d6cebf29304bf7d7d4be2764a022978e4d2b15c369fea70a/odoo_addons_oca_account_payment-16.0.20230713.0-py3-none-any.whl
+[2023-07-14 04:53:14] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: executing diffoscope
+[2023-07-14 04:53:14] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_due_list_payment_mode-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_due_list_payment_mode-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-account-due-list-payment-mode/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-engines]: executing diffoscope
+[2023-07-14 04:53:14] INFO root fetch - processPackages [fiftyone-pipeline-engines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_engines-4.4.8.0.tar.gz tmp/fiftyone_pipeline_engines-4.4.9.0.tar.gz --markdown 20230714/f/fiftyone-pipeline-engines/4.4.8.0-4.4.9.0/diff.md --exclude *.pyd
+[2023-07-14 04:53:14] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: executing diffoscope
+[2023-07-14 04:53:14] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_payment-16.0.20230623.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_payment-16.0.20230713.0-py3-none-any.whl.zip --markdown 20230714/o/odoo-addons-oca-account-payment/16.0.20230623.0-16.0.20230713.0/diff.md --exclude *.pyd
+[2023-07-14 04:53:15] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/7b/e8/47beecd7cd740829b0cb68ef418b3f8f8604910fe9e1be23684722f10416/nicegui-1.3.0.tar.gz
+[2023-07-14 04:53:15] WARNING root fetch - processPackages [nicegui]: Skipping package: exceeds size limit 12576821>=10485760
+[2023-07-14 04:53:15] INFO root fetch - processPackages [nicegui]: Start processing: odoo-addon-agreement
+[2023-07-14 04:53:15] INFO root fetch - main [MainThread]: End processing [nicegui] error
+[2023-07-14 04:53:15] INFO root fetch - processPackages [odoo-addon-agreement]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2023-07-14 04:53:15] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/88/44/377d3c34aa8c83a8e79c1e902e586f78c71f3228bb620cd0fb800da63c5a/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-14 04:53:15] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/e2/70/58ed0e6fd2d57997457605948de290282d1dfa3ed761518f7ceeba345e72/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-14 04:53:15] INFO root fetch - processPackages [tva-utils]: Remove: archive file [/home/abi/fetcher/tmp/tva_utils-0.1.9.tar.gz]
+[2023-07-14 04:53:15] INFO root fetch - processPackages [tva-utils]: Remove: archive file [/home/abi/fetcher/tmp/tva_utils-0.2.0.tar.gz]
+[2023-07-14 04:53:15] INFO root fetch - processPackages [tva-utils]: Start processing: geovis-upload-sdk
+[2023-07-14 04:53:15] INFO root fetch - main [MainThread]: End processing [tva-utils]: success
+[2023-07-14 04:53:15] INFO root fetch - processPackages [geovis-upload-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-14 04:53:15] INFO root fetch - processPackages [odoo-addon-agreement]: executing diffoscope
+[2023-07-14 04:53:15] INFO root fetch - processPackages [odoo-addon-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-agreement/16.0.1.0.0.6-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-07-14 04:53:15] INFO root fetch - processPackages [geovis-upload-sdk]: Downloading https://files.pythonhosted.org/packages/3f/32/891521ca70f391fee12ce91d5d6079763fa2de9887466114901c6af40f95/geovis_upload_sdk-0.0.2-py3-none-any.whl
+[2023-07-14 04:53:16] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.8.0.tar.gz]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.9.0.tar.gz]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [fiftyone-pipeline-core]: Start processing: honeybee-radiance
+[2023-07-14 04:53:16] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-core]: success
+[2023-07-14 04:53:16] INFO root fetch - processPackages [decontext]: Remove: archive file [/home/abi/fetcher/tmp/decontext-0.1.0.tar.gz]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [decontext]: Remove: archive file [/home/abi/fetcher/tmp/decontext-0.1.1.tar.gz]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [decontext]: Start processing: honeybee-energy
+[2023-07-14 04:53:16] INFO root fetch - main [MainThread]: End processing [decontext]: success
+[2023-07-14 04:53:16] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.6.6.tar.gz]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.6.7.tar.gz]
+[2023-07-14 04:53:16] INFO root fetch - main [MainThread]: End processing [hyutils-hyutil-hoyun-lab]: success
+[2023-07-14 04:53:16] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_payment-16.0.20230623.0-py3-none-any.whl.zip]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_payment-16.0.20230713.0-py3-none-any.whl.zip]
+[2023-07-14 04:53:16] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-payment]: success
+[2023-07-14 04:53:16] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-07-14 04:53:16] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-07-14 04:53:16] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_due_list_payment_mode-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_due_list_payment_mode-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-14 04:53:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-due-list-payment-mode]: success
+[2023-07-14 04:53:16] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz]
+[2023-07-14 04:53:16] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-engines-fiftyone]: success
+[2023-07-14 04:53:16] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines-4.4.8.0.tar.gz]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines-4.4.9.0.tar.gz]
+[2023-07-14 04:53:16] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-engines]: success
+[2023-07-14 04:53:16] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz]
+[2023-07-14 04:53:16] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-cloudrequestengine]: success
+[2023-07-14 04:53:16] INFO root fetch - processPackages [geovis-upload-sdk]: Downloading https://files.pythonhosted.org/packages/e2/1b/d866eeb88c5fa874354f4dccfbaa095b8ddb1ee2d22ad1ec58fc0b715250/geovis_upload_sdk-0.0.3.tar.gz
+[2023-07-14 04:53:16] INFO root fetch - processPackages [geovis-upload-sdk]: executing diffoscope
+[2023-07-14 04:53:16] INFO root fetch - processPackages [geovis-upload-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovis_upload_sdk-0.0.2-py3-none-any.whl.zip tmp/geovis_upload_sdk-0.0.3.tar.gz --markdown 20230714/g/geovis-upload-sdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 04:53:16] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-07-14 04:53:16] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-07-14 04:53:16] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230714/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-14 04:53:16] INFO root fetch - processPackages [odoo-addon-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-14 04:53:16] INFO root fetch - processPackages [odoo-addon-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-14 04:53:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement]: success
+[2023-07-14 04:53:16] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-07-14 04:53:17] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-07-14 04:53:17] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230714/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-07-14 04:53:17] INFO root fetch - processPackages [geovis-upload-sdk]: Remove: archive file [/home/abi/fetcher/tmp/geovis_upload_sdk-0.0.2-py3-none-any.whl.zip]
+[2023-07-14 04:53:17] INFO root fetch - processPackages [geovis-upload-sdk]: Remove: archive file [/home/abi/fetcher/tmp/geovis_upload_sdk-0.0.3.tar.gz]
+[2023-07-14 04:53:17] INFO root fetch - main [MainThread]: End processing [geovis-upload-sdk]: success
+[2023-07-14 04:53:18] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2023-07-14 04:53:18] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2023-07-14 04:53:18] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-07-14 04:53:18] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-07-14 04:53:18] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-07-14 04:53:18] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-07-14 04:53:18] INFO root fetch - main [MainThread]: Store serial: [18884848]
