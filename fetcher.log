@@ -15840,3 +15840,81 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 09:59:36] INFO root fetch - processPackages [scipion-em-xmipp]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-xmipp-23.7.0.0.tar.gz]
 [2023-07-14 09:59:36] INFO root fetch - main [MainThread]: End processing [scipion-em-xmipp]: success
 [2023-07-14 09:59:36] INFO root fetch - main [MainThread]: Store serial: [18886894]
+[2023-07-14 10:04:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886894]
+[2023-07-14 10:04:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 10:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crypto-screening
+[2023-07-14 10:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rudderclient
+[2023-07-14 10:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elevenlabs
+[2023-07-14 10:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-interpreter
+[2023-07-14 10:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icinga-pusher
+[2023-07-14 10:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-announcement
+[2023-07-14 10:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rabbitmq-utils
+[2023-07-14 10:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gispandas
+[2023-07-14 10:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: texplain
+[2023-07-14 10:04:45] INFO root fetch - processPackages [crypto-screening]: New version: [4.0.0] Old Version: [3.7.0]
+[2023-07-14 10:04:45] INFO root fetch - processPackages [icinga-pusher]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 10:04:45] INFO root fetch - processPackages [rudderclient]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-14 10:04:45] WARNING root fetch - processPackages [open-interpreter]: Skipping, unable to determine old version
+[2023-07-14 10:04:45] INFO root fetch - processPackages [elevenlabs]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-14 10:04:45] INFO root fetch - main [MainThread]: End processing [open-interpreter] error
+[2023-07-14 10:04:45] INFO root fetch - processPackages [icinga-pusher]: Downloading https://files.pythonhosted.org/packages/9a/85/4d1024599cd3853f04b8aa0867395d5d5ebc9e680f9a7c63352a1ce6d041/icinga_pusher-0.1.8.tar.gz
+[2023-07-14 10:04:45] INFO root fetch - processPackages [odoo-addon-announcement]: New version: [15.0.1.2.1] Old Version: [15.0.1.2.0.1]
+[2023-07-14 10:04:45] INFO root fetch - processPackages [rabbitmq-utils]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-14 10:04:45] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/6f/7f/08b520f81a9e0b6afc4e4344acd2d3e98978e99a584a526d520914f074f6/crypto-screening-3.7.0.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [texplain]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-14 10:04:46] INFO root fetch - processPackages [gispandas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 10:04:46] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a5/4c/3a9afb62d90ff56381ecc175a96cf8cb4a4fb7732b6d3995b4784488a8ee/rudderclient-1.9.0.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [elevenlabs]: Downloading https://files.pythonhosted.org/packages/02/62/ac2064e05e83327571af24fdb93f9752a01ae9ed6bd37df85a5082cea262/elevenlabs-0.2.8.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [gispandas]: Downloading https://files.pythonhosted.org/packages/d9/69/7cdef5c023f95e6b920d228730e6237cf21a83a676a5b8599c4f6836d4d5/gispandas-0.1.8.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [rabbitmq-utils]: Downloading https://files.pythonhosted.org/packages/d1/12/ebbdc87841e3ed64b735f75c5876db9561b21b0dbb0aa82d3ff4bb1a3137/rabbitmq-utils-1.2.0.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [icinga-pusher]: Downloading https://files.pythonhosted.org/packages/c6/90/c118f409e6957e3810606271ea1ea06f10645943053c4fa7c6b3c599131a/icinga_pusher-0.1.9.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [texplain]: Downloading https://files.pythonhosted.org/packages/ff/4b/fd41c0b51aaa96632396ade96fc1094304a28198c032b5a0a7ed89012c8f/texplain-0.8.5.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/b9/58/a25c99088e24d6350b4d34c3593250c7936d99ac5abb776ff0c4f644cac9/odoo_addon_announcement-15.0.1.2.0.1-py3-none-any.whl
+[2023-07-14 10:04:46] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/78/9e/491cc04f1a37415020e1d7297dd294f7c6f1d55f8cedf9c578b141f718ac/crypto-screening-4.0.0.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a4/fe/2dab352156f0d6f5a40c80c9f3fbeb8f321f6e0c19ccd730f26a114a5da2/rudderclient-1.9.1.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [icinga-pusher]: executing diffoscope
+[2023-07-14 10:04:46] INFO root fetch - processPackages [icinga-pusher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icinga_pusher-0.1.8.tar.gz tmp/icinga_pusher-0.1.9.tar.gz --markdown 20230714/i/icinga-pusher/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 10:04:46] INFO root fetch - processPackages [elevenlabs]: Downloading https://files.pythonhosted.org/packages/46/3f/b8e0406e419eb934f54340b894bec0c1ca046f6ddeb273e7a3f7b7411f78/elevenlabs-0.2.9.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [gispandas]: Downloading https://files.pythonhosted.org/packages/68/f2/f646a9fa2f8a218f15e7b48cec65bb743b4ce9e9f6773d34c348c4a330ca/gispandas-0.1.9.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-14 10:04:46] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-3.7.0.tar.gz tmp/crypto-screening-4.0.0.tar.gz --markdown 20230714/c/crypto-screening/3.7.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-14 10:04:46] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-07-14 10:04:46] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.9.0.tar.gz tmp/rudderclient-1.9.1.tar.gz --markdown 20230714/r/rudderclient/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-14 10:04:46] INFO root fetch - processPackages [rabbitmq-utils]: Downloading https://files.pythonhosted.org/packages/ae/39/96fb902b2a4ba8c5a08ea986ef72d3f4965ec18d1cfc296aa22fe96b3a8d/rabbitmq-utils-1.2.1.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [elevenlabs]: executing diffoscope
+[2023-07-14 10:04:46] INFO root fetch - processPackages [elevenlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabs-0.2.8.tar.gz tmp/elevenlabs-0.2.9.tar.gz --markdown 20230714/e/elevenlabs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-14 10:04:46] INFO root fetch - processPackages [texplain]: Downloading https://files.pythonhosted.org/packages/f0/e2/80615ad3f7bef6f8c1d7a2711bfddfcc518d0b396cb3b77ccea2d1e33391/texplain-0.8.6.tar.gz
+[2023-07-14 10:04:46] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/11/c3/813a9592b34da89f71e4ee4384db3187f09ad1f661b974f9741b34319717/odoo_addon_announcement-15.0.1.2.1-py3-none-any.whl
+[2023-07-14 10:04:46] INFO root fetch - processPackages [gispandas]: executing diffoscope
+[2023-07-14 10:04:46] INFO root fetch - processPackages [gispandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gispandas-0.1.8.tar.gz tmp/gispandas-0.1.9.tar.gz --markdown 20230714/g/gispandas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 10:04:46] INFO root fetch - processPackages [rabbitmq-utils]: executing diffoscope
+[2023-07-14 10:04:46] INFO root fetch - processPackages [rabbitmq-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbitmq-utils-1.2.0.tar.gz tmp/rabbitmq-utils-1.2.1.tar.gz --markdown 20230714/r/rabbitmq-utils/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-14 10:04:46] INFO root fetch - processPackages [odoo-addon-announcement]: executing diffoscope
+[2023-07-14 10:04:46] INFO root fetch - processPackages [odoo-addon-announcement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_announcement-15.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_announcement-15.0.1.2.1-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-announcement/15.0.1.2.0.1-15.0.1.2.1/diff.md --exclude *.pyd
+[2023-07-14 10:04:47] INFO root fetch - processPackages [texplain]: executing diffoscope
+[2023-07-14 10:04:47] INFO root fetch - processPackages [texplain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texplain-0.8.5.tar.gz tmp/texplain-0.8.6.tar.gz --markdown 20230714/t/texplain/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-14 10:04:47] INFO root fetch - processPackages [icinga-pusher]: Remove: archive file [/home/abi/fetcher/tmp/icinga_pusher-0.1.8.tar.gz]
+[2023-07-14 10:04:47] INFO root fetch - processPackages [icinga-pusher]: Remove: archive file [/home/abi/fetcher/tmp/icinga_pusher-0.1.9.tar.gz]
+[2023-07-14 10:04:47] INFO root fetch - main [MainThread]: End processing [icinga-pusher]: success
+[2023-07-14 10:04:47] INFO root fetch - processPackages [elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/elevenlabs-0.2.8.tar.gz]
+[2023-07-14 10:04:47] INFO root fetch - processPackages [elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/elevenlabs-0.2.9.tar.gz]
+[2023-07-14 10:04:47] INFO root fetch - main [MainThread]: End processing [elevenlabs]: success
+[2023-07-14 10:04:48] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.0.tar.gz]
+[2023-07-14 10:04:48] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.1.tar.gz]
+[2023-07-14 10:04:48] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-07-14 10:04:48] INFO root fetch - processPackages [rabbitmq-utils]: Remove: archive file [/home/abi/fetcher/tmp/rabbitmq-utils-1.2.0.tar.gz]
+[2023-07-14 10:04:48] INFO root fetch - processPackages [rabbitmq-utils]: Remove: archive file [/home/abi/fetcher/tmp/rabbitmq-utils-1.2.1.tar.gz]
+[2023-07-14 10:04:48] INFO root fetch - main [MainThread]: End processing [rabbitmq-utils]: success
+[2023-07-14 10:04:48] INFO root fetch - processPackages [gispandas]: Remove: archive file [/home/abi/fetcher/tmp/gispandas-0.1.8.tar.gz]
+[2023-07-14 10:04:48] INFO root fetch - processPackages [gispandas]: Remove: archive file [/home/abi/fetcher/tmp/gispandas-0.1.9.tar.gz]
+[2023-07-14 10:04:48] INFO root fetch - main [MainThread]: End processing [gispandas]: success
+[2023-07-14 10:04:48] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-15.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-07-14 10:04:48] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-15.0.1.2.1-py3-none-any.whl.zip]
+[2023-07-14 10:04:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-announcement]: success
+[2023-07-14 10:04:48] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-3.7.0.tar.gz]
+[2023-07-14 10:04:48] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-4.0.0.tar.gz]
+[2023-07-14 10:04:48] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-14 10:04:48] INFO root fetch - processPackages [texplain]: Remove: archive file [/home/abi/fetcher/tmp/texplain-0.8.5.tar.gz]
+[2023-07-14 10:04:48] INFO root fetch - processPackages [texplain]: Remove: archive file [/home/abi/fetcher/tmp/texplain-0.8.6.tar.gz]
+[2023-07-14 10:04:48] INFO root fetch - main [MainThread]: End processing [texplain]: success
+[2023-07-14 10:04:48] INFO root fetch - main [MainThread]: Store serial: [18886929]
