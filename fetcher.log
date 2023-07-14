@@ -1893,3 +1893,94 @@
 [2023-07-14 01:59:56] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.6.tar.gz]
 [2023-07-14 01:59:56] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
 [2023-07-14 01:59:56] INFO root fetch - main [MainThread]: Store serial: [18881900]
+[2023-07-14 02:05:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881900]
+[2023-07-14 02:05:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-14 02:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meter-gear
+[2023-07-14 02:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: install-auto
+[2023-07-14 02:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commonvars
+[2023-07-14 02:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoCarver
+[2023-07-14 02:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: disc-riider-py
+[2023-07-14 02:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlalchemy-crud
+[2023-07-14 02:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rjpo
+[2023-07-14 02:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PySide6-QtAds
+[2023-07-14 02:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchdatasets-nightly
+[2023-07-14 02:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mirar
+[2023-07-14 02:05:05] WARNING root fetch - processPackages [commonvars]: Skipping, unable to determine old version
+[2023-07-14 02:05:05] INFO root fetch - processPackages [commonvars]: Start processing: mct-nightly
+[2023-07-14 02:05:05] INFO root fetch - main [MainThread]: End processing [commonvars] error
+[2023-07-14 02:05:05] INFO root fetch - processPackages [PySide6-QtAds]: New version: [4.1.0] Old Version: [4.0.3.1]
+[2023-07-14 02:05:05] INFO root fetch - processPackages [disc-riider-py]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-14 02:05:05] WARNING root fetch - processPackages [rjpo]: Skipping, unable to determine old version
+[2023-07-14 02:05:05] INFO root fetch - processPackages [rjpo]: Start processing: jaxkern-nightly
+[2023-07-14 02:05:05] INFO root fetch - main [MainThread]: End processing [rjpo] error
+[2023-07-14 02:05:05] INFO root fetch - processPackages [install-auto]: New version: [1.11] Old Version: [1.1]
+[2023-07-14 02:05:05] INFO root fetch - processPackages [mirar]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-14 02:05:05] INFO root fetch - processPackages [sqlalchemy-crud]: New version: [0.1.2] Old Version: [0.1.1b0]
+[2023-07-14 02:05:05] INFO root fetch - processPackages [AutoCarver]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-07-14 02:05:05] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-14 02:05:05] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1689206639] Old Version: [1689120209]
+[2023-07-14 02:05:05] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230713.post451] Old Version: [1.9.0.20230712.post430]
+[2023-07-14 02:05:05] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-14 02:05:05] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/05/4c/854422388d75c0b499b547b9cfc1d16cd5b59c4c8008dd5c48a4e92cf28f/torchdatasets-nightly-1689120209.tar.gz
+[2023-07-14 02:05:05] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/c4/0e/b9c2d0edf20b8fef9a538edc467cae8808be80354139fab2ac35e5608574/AutoCarver-5.0.1.tar.gz
+[2023-07-14 02:05:05] INFO root fetch - processPackages [sqlalchemy-crud]: Downloading https://files.pythonhosted.org/packages/98/08/f4df9e9e3b77ec7a0c56966812719c774a7f89a1c167dfab337338b6d7f4/sqlalchemy_crud-0.1.1b0.tar.gz
+[2023-07-14 02:05:05] INFO root fetch - processPackages [PySide6-QtAds]: Downloading https://files.pythonhosted.org/packages/6b/c4/e0d8be12dca1b38fa8672621db435269578572fb701066d89296dd709d3d/PySide6-QtAds-4.0.3.1.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [disc-riider-py]: Downloading https://files.pythonhosted.org/packages/3b/8c/4d4fe4b051dddefb6477e01bf8854aa86e22858b42956a09083b3c27d890/disc_riider_py-0.1.0.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [install-auto]: Downloading https://files.pythonhosted.org/packages/c7/de/4904517d34fb8b5f2ef811a4bb7cc5877241c0f3793bcf5de34e59007b57/install-auto-1.1.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/7e/da/74feaf3cba84920ed3581e94c9fb7c693499421933f80fc362b0d9b7a6b3/mct-nightly-1.9.0.20230712.post430.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [mirar]: Downloading https://files.pythonhosted.org/packages/b0/aa/8393f92284b6fc79a91bc33f636e1cb6d226b4eb42ce9eb36ab48940b266/mirar-0.9.0.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [meter-gear]: Downloading https://files.pythonhosted.org/packages/2e/f1/cd155aeba2b6334eb7139edd7409007e3b8ed72f5a0fd23f0236780b2afa/meter-gear-1.2.8.tar.gz
+[2023-07-14 02:05:06] WARNING root fetch - processPackages [PySide6-QtAds]: Skipping package: exceeds size limit 17854985>=10485760
+[2023-07-14 02:05:06] INFO root fetch - main [MainThread]: End processing [PySide6-QtAds] error
+[2023-07-14 02:05:06] WARNING root fetch - processPackages [mirar]: Skipping package: exceeds size limit 90069238>=10485760
+[2023-07-14 02:05:06] INFO root fetch - main [MainThread]: End processing [mirar] error
+[2023-07-14 02:05:06] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/60/5c/71a6921f7e4685d084033393a42e76f3e22ec29a7f978e19952d6e768804/AutoCarver-5.0.2.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [sqlalchemy-crud]: Downloading https://files.pythonhosted.org/packages/d1/ff/201a81ed550358aa9d1c812a82a47463e3906111960f122ffd486a2ceb69/sqlalchemy_crud-0.1.2.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/7a/8d/2237b9a972584551539e9f25e857f496e8c26f10889735fa766da10cae86/torchdatasets-nightly-1689206639.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [install-auto]: Downloading https://files.pythonhosted.org/packages/81/e0/d8b4ec17ebfe3a16c517372f6c29cd2261b7be41b0acc10790c19e077bce/install-auto-1.11.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/54/d6/dc93d8deb7033aa618a42687371072a11368dc13f31df7b66306b8594b6d/mct-nightly-1.9.0.20230713.post451.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [disc-riider-py]: Downloading https://files.pythonhosted.org/packages/16/d7/3b4ff3818b4a8f11f13127e185126972ce0f1a3b73c417b31f343d898f05/disc_riider_py-0.2.0-cp39-none-win_amd64.whl
+[2023-07-14 02:05:06] INFO root fetch - processPackages [sqlalchemy-crud]: executing diffoscope
+[2023-07-14 02:05:06] INFO root fetch - processPackages [sqlalchemy-crud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_crud-0.1.1b0.tar.gz tmp/sqlalchemy_crud-0.1.2.tar.gz --markdown 20230714/s/sqlalchemy-crud/0.1.1b0-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 02:05:06] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-14 02:05:06] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230714/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-14 02:05:06] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-14 02:05:06] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1689120209.tar.gz tmp/torchdatasets-nightly-1689206639.tar.gz --markdown 20230714/t/torchdatasets-nightly/1689120209-1689206639/diff.md --exclude *.pyd
+[2023-07-14 02:05:06] INFO root fetch - processPackages [meter-gear]: Downloading https://files.pythonhosted.org/packages/71/f4/a7dd11caf7fac30d9e5b03741087fa53c6f5a4a7c98eae024610a66a611a/meter-gear-1.2.9.tar.gz
+[2023-07-14 02:05:06] INFO root fetch - processPackages [install-auto]: executing diffoscope
+[2023-07-14 02:05:06] INFO root fetch - processPackages [install-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/install-auto-1.1.tar.gz tmp/install-auto-1.11.tar.gz --markdown 20230714/i/install-auto/1.1-1.11/diff.md --exclude *.pyd
+[2023-07-14 02:05:06] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-14 02:05:06] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.0.1.tar.gz tmp/AutoCarver-5.0.2.tar.gz --markdown 20230714/A/AutoCarver/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-07-14 02:05:06] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-14 02:05:06] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230712.post430.tar.gz tmp/mct-nightly-1.9.0.20230713.post451.tar.gz --markdown 20230714/m/mct-nightly/1.9.0.20230712.post430-1.9.0.20230713.post451/diff.md --exclude *.pyd
+[2023-07-14 02:05:06] INFO root fetch - processPackages [disc-riider-py]: executing diffoscope
+[2023-07-14 02:05:06] INFO root fetch - processPackages [disc-riider-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disc_riider_py-0.1.0.tar.gz tmp/disc_riider_py-0.2.0-cp39-none-win_amd64.whl.zip --markdown 20230714/d/disc-riider-py/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-14 02:05:06] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-07-14 02:05:06] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230714/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-14 02:05:07] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689120209.tar.gz]
+[2023-07-14 02:05:07] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689206639.tar.gz]
+[2023-07-14 02:05:07] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-14 02:05:08] INFO root fetch - processPackages [install-auto]: Remove: archive file [/home/abi/fetcher/tmp/install-auto-1.1.tar.gz]
+[2023-07-14 02:05:08] INFO root fetch - processPackages [install-auto]: Remove: archive file [/home/abi/fetcher/tmp/install-auto-1.11.tar.gz]
+[2023-07-14 02:05:08] INFO root fetch - main [MainThread]: End processing [install-auto]: success
+[2023-07-14 02:05:08] INFO root fetch - processPackages [disc-riider-py]: Remove: archive file [/home/abi/fetcher/tmp/disc_riider_py-0.1.0.tar.gz]
+[2023-07-14 02:05:08] INFO root fetch - processPackages [disc-riider-py]: Remove: archive file [/home/abi/fetcher/tmp/disc_riider_py-0.2.0-cp39-none-win_amd64.whl.zip]
+[2023-07-14 02:05:08] INFO root fetch - main [MainThread]: End processing [disc-riider-py]: success
+[2023-07-14 02:05:08] INFO root fetch - processPackages [sqlalchemy-crud]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_crud-0.1.1b0.tar.gz]
+[2023-07-14 02:05:08] INFO root fetch - processPackages [sqlalchemy-crud]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_crud-0.1.2.tar.gz]
+[2023-07-14 02:05:08] INFO root fetch - main [MainThread]: End processing [sqlalchemy-crud]: success
+[2023-07-14 02:05:08] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-14 02:05:08] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-14 02:05:08] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-14 02:05:08] INFO root fetch - processPackages [meter-gear]: Remove: archive file [/home/abi/fetcher/tmp/meter-gear-1.2.8.tar.gz]
+[2023-07-14 02:05:08] INFO root fetch - processPackages [meter-gear]: Remove: archive file [/home/abi/fetcher/tmp/meter-gear-1.2.9.tar.gz]
+[2023-07-14 02:05:08] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-07-14 02:05:08] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.1.tar.gz]
+[2023-07-14 02:05:08] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.2.tar.gz]
+[2023-07-14 02:05:08] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-14 02:05:09] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230712.post430.tar.gz]
+[2023-07-14 02:05:09] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230713.post451.tar.gz]
+[2023-07-14 02:05:09] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-14 02:05:09] INFO root fetch - main [MainThread]: Store serial: [18881969]
