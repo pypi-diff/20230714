@@ -21722,3 +21722,121 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-14 14:41:05] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a9.tar.gz]
 [2023-07-14 14:41:05] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-07-14 14:41:05] INFO root fetch - main [MainThread]: Store serial: [18889493]
+[2023-07-14 14:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18889493]
+[2023-07-14 14:46:15] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-14 14:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius-dev
+[2023-07-14 14:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xrdPlanner
+[2023-07-14 14:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-settings
+[2023-07-14 14:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: packg
+[2023-07-14 14:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clear-skies
+[2023-07-14 14:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: packg
+[2023-07-14 14:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-07-14 14:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2023-07-14 14:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oarepo-ui
+[2023-07-14 14:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nvidia-dali-nightly-cuda110
+[2023-07-14 14:46:15] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 14:46:15] INFO root fetch - processPackages [pydantic-settings]: New version: [2.0b2] Old Version: [2.0b1]
+[2023-07-14 14:46:15] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.29.0.dev20230713] Old Version: [1.29.0.dev20230711]
+[2023-07-14 14:46:15] INFO root fetch - processPackages [xrdPlanner]: New version: [2023.6.21] Old Version: [1.0.3]
+[2023-07-14 14:46:15] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.29.0.dev20230713] Old Version: [1.29.0.dev20230711]
+[2023-07-14 14:46:15] INFO root fetch - processPackages [packg]: New version: [0.2.24] Old Version: [0.2.23]
+[2023-07-14 14:46:15] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-14 14:46:15] INFO root fetch - processPackages [packg]: New version: [0.2.24] Old Version: [0.2.23]
+[2023-07-14 14:46:15] INFO root fetch - processPackages [oarepo-ui]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-07-14 14:46:15] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-14 14:46:15] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-14 14:46:15] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/79/79/646649f8bf6c7e86344a50c891afd8c1d1278383ed467f6ab94e4288ade0/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230711.tar.gz
+[2023-07-14 14:46:15] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/41/88/b780fd460312a4ed87bdd8c17dd45213540da0cce528ea0f7cb64e2da7b2/nvidia-dali-nightly-cuda110-1.29.0.dev20230711.tar.gz
+[2023-07-14 14:46:15] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/57/f7/3440e91420c38b72f3b917bf4c9e71103451dd109489469560904b90068f/packg-0.2.23.tar.gz
+[2023-07-14 14:46:15] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/57/f7/3440e91420c38b72f3b917bf4c9e71103451dd109489469560904b90068f/packg-0.2.23.tar.gz
+[2023-07-14 14:46:15] INFO root fetch - processPackages [xrdPlanner]: Downloading https://files.pythonhosted.org/packages/76/e8/4cd4e3367c1c5e9bf33dc5951519fc5c090c6de0db18f0f2e5534287ca27/xrdPlanner-1.0.3.tar.gz
+[2023-07-14 14:46:15] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-14 14:46:15] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/4d/cf/5fba1186a17a2838ab243586c284bebcee8f13a6eb5028c41c2f70f7e938/pydantic_settings-2.0b1.tar.gz
+[2023-07-14 14:46:15] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/49/3c/5d87e2fb479ef282c83cc818b68215fe52a28115915aa8288ecf89dd107c/oarepo-ui-5.0.8.tar.gz
+[2023-07-14 14:46:15] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2023-07-14 14:46:15] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/8d/df/68f728fb709fdf075065eacb41afb790eb6ff0a65e0660c74eead86a6d88/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230713.tar.gz
+[2023-07-14 14:46:16] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/e8/5b/402a5dcfb72244cf580567d7fd711f778e0da4ce484fbc810bc1f45266fa/nvidia-dali-nightly-cuda110-1.29.0.dev20230713.tar.gz
+[2023-07-14 14:46:16] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-14 14:46:16] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/4e/a0/adbea1166122ab1fd975140b98e60a0d76f5ee4ee2a83ba6bcf9053d5813/packg-0.2.24.tar.gz
+[2023-07-14 14:46:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-07-14 14:46:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230711.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230713.tar.gz --markdown 20230714/n/nvidia-dali-tf-plugin-nightly-cuda110/1.29.0.dev20230711-1.29.0.dev20230713/diff.md --exclude *.pyd
+[2023-07-14 14:46:16] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-14 14:46:16] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/4e/a0/adbea1166122ab1fd975140b98e60a0d76f5ee4ee2a83ba6bcf9053d5813/packg-0.2.24.tar.gz
+[2023-07-14 14:46:16] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2023-07-14 14:46:16] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda110-1.29.0.dev20230711.tar.gz tmp/nvidia-dali-nightly-cuda110-1.29.0.dev20230713.tar.gz --markdown 20230714/n/nvidia-dali-nightly-cuda110/1.29.0.dev20230711-1.29.0.dev20230713/diff.md --exclude *.pyd
+[2023-07-14 14:46:16] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/28/a8/876b31f0d37f6691a6f0cc192fb4328dfb89d63d2fcdc52101e5b8646a01/pydantic_settings-2.0b2.tar.gz
+[2023-07-14 14:46:16] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/3f/5a/7fecedd4e7c29ba8d68233c490b8b3e39ffb36289b9fbb4183058fc02342/oarepo-ui-5.0.9.tar.gz
+[2023-07-14 14:46:16] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2023-07-14 14:46:16] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-07-14 14:46:16] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.23.tar.gz tmp/packg-0.2.24.tar.gz --markdown 20230714/p/packg/0.2.23-0.2.24/diff.md --exclude *.pyd
+[2023-07-14 14:46:16] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-14 14:46:16] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230714/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-14 14:46:16] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-14 14:46:16] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230714/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 14:46:16] INFO root fetch - processPackages [xrdPlanner]: Downloading https://files.pythonhosted.org/packages/41/64/d98917c04771e9b308e8286daa8af34ba7bcfc8c9e3dd0f5b3690fcabb4c/xrdPlanner-2023.6.21.tar.gz
+[2023-07-14 14:46:16] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-07-14 14:46:16] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.23.tar.gz tmp/packg-0.2.24.tar.gz --markdown 20230714/p/packg/0.2.23-0.2.24/diff.md --exclude *.pyd
+[2023-07-14 14:46:16] INFO root fetch - processPackages [pydantic-settings]: executing diffoscope
+[2023-07-14 14:46:16] INFO root fetch - processPackages [pydantic-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_settings-2.0b1.tar.gz tmp/pydantic_settings-2.0b2.tar.gz --markdown 20230714/p/pydantic-settings/2.0b1-2.0b2/diff.md --exclude *.pyd
+[2023-07-14 14:46:16] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-07-14 14:46:16] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230714/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 14:46:16] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2023-07-14 14:46:16] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.0.8.tar.gz tmp/oarepo-ui-5.0.9.tar.gz --markdown 20230714/o/oarepo-ui/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-07-14 14:46:16] INFO root fetch - processPackages [xrdPlanner]: executing diffoscope
+[2023-07-14 14:46:16] INFO root fetch - processPackages [xrdPlanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrdPlanner-1.0.3.tar.gz tmp/xrdPlanner-2023.6.21.tar.gz --markdown 20230714/x/xrdPlanner/1.0.3-2023.6.21/diff.md --exclude *.pyd
+[2023-07-14 14:46:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230711.tar.gz]
+[2023-07-14 14:46:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230713.tar.gz]
+[2023-07-14 14:46:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Start processing: pyaedt
+[2023-07-14 14:46:17] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-07-14 14:46:17] INFO root fetch - processPackages [pyaedt]: New version: [0.6.85] Old Version: [0.6.82]
+[2023-07-14 14:46:17] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.29.0.dev20230711.tar.gz]
+[2023-07-14 14:46:17] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.29.0.dev20230713.tar.gz]
+[2023-07-14 14:46:17] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Start processing: making-with-code-cli
+[2023-07-14 14:46:17] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2023-07-14 14:46:17] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-14 14:46:17] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-14 14:46:17] INFO root fetch - processPackages [aorta-sirius-dev]: Start processing: django-pdr
+[2023-07-14 14:46:17] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-14 14:46:17] INFO root fetch - processPackages [pyaedt]: Downloading https://files.pythonhosted.org/packages/32/86/8356d519a2fe3127e29150f208a383e775fc8c9eb130ce3c33129ba1d081/pyaedt-0.6.82.tar.gz
+[2023-07-14 14:46:17] INFO root fetch - processPackages [django-pdr]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-14 14:46:17] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/81/24/cd50b462f351541afaa9538a80f39a1056194853c438876c50290bd37789/django-pdr-1.2.8.tar.gz
+[2023-07-14 14:46:18] INFO root fetch - processPackages [xrdPlanner]: Remove: archive file [/home/abi/fetcher/tmp/xrdPlanner-1.0.3.tar.gz]
+[2023-07-14 14:46:18] INFO root fetch - processPackages [xrdPlanner]: Remove: archive file [/home/abi/fetcher/tmp/xrdPlanner-2023.6.21.tar.gz]
+[2023-07-14 14:46:18] INFO root fetch - main [MainThread]: End processing [xrdPlanner]: success
+[2023-07-14 14:46:18] INFO root fetch - processPackages [making-with-code-cli]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-14 14:46:18] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/36/f9/326659fda9e7bf3ba840f0c789944e72a150630f7ca4afc665ef7eb28050/django-pdr-1.2.9.tar.gz
+[2023-07-14 14:46:18] INFO root fetch - processPackages [making-with-code-cli]: Downloading https://files.pythonhosted.org/packages/0d/5a/863f9ffceca1a37855eaa8b65ff0ea99df9f5c3da1344eb8bb71400adaa0/making_with_code_cli-1.2.7.tar.gz
+[2023-07-14 14:46:18] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.23.tar.gz]
+[2023-07-14 14:46:18] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.24.tar.gz]
+[2023-07-14 14:46:18] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-07-14 14:46:18] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.8.tar.gz]
+[2023-07-14 14:46:18] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.9.tar.gz]
+[2023-07-14 14:46:18] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2023-07-14 14:46:18] INFO root fetch - processPackages [pydantic-settings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_settings-2.0b1.tar.gz]
+[2023-07-14 14:46:18] INFO root fetch - processPackages [pydantic-settings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_settings-2.0b2.tar.gz]
+[2023-07-14 14:46:18] INFO root fetch - main [MainThread]: End processing [pydantic-settings]: success
+[2023-07-14 14:46:18] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-07-14 14:46:18] INFO root fetch - processPackages [django-pdr]: executing diffoscope
+[2023-07-14 14:46:18] INFO root fetch - processPackages [django-pdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pdr-1.2.8.tar.gz tmp/django-pdr-1.2.9.tar.gz --markdown 20230714/d/django-pdr/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-14 14:46:18] INFO root fetch - processPackages [pyaedt]: Downloading https://files.pythonhosted.org/packages/3c/b5/46fa7c364bc74d0beb486b4e6b68d4155f68d438415444b9e8c78bf4053c/pyaedt-0.6.85.tar.gz
+[2023-07-14 14:46:18] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.8.0.tar.gz]
+[2023-07-14 14:46:18] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
+[2023-07-14 14:46:18] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-07-14 14:46:18] INFO root fetch - processPackages [making-with-code-cli]: Downloading https://files.pythonhosted.org/packages/c3/9b/a7e7a048ac4af51a7e5e53e1723844d8b977d58b1318582e788a97397717/making_with_code_cli-1.2.8.tar.gz
+[2023-07-14 14:46:18] INFO root fetch - processPackages [making-with-code-cli]: executing diffoscope
+[2023-07-14 14:46:18] INFO root fetch - processPackages [making-with-code-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/making_with_code_cli-1.2.7.tar.gz tmp/making_with_code_cli-1.2.8.tar.gz --markdown 20230714/m/making-with-code-cli/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-14 14:46:19] INFO root fetch - processPackages [pyaedt]: executing diffoscope
+[2023-07-14 14:46:19] INFO root fetch - processPackages [pyaedt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaedt-0.6.82.tar.gz tmp/pyaedt-0.6.85.tar.gz --markdown 20230714/p/pyaedt/0.6.82-0.6.85/diff.md --exclude *.pyd
+[2023-07-14 14:46:19] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.8.tar.gz]
+[2023-07-14 14:46:19] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.9.tar.gz]
+[2023-07-14 14:46:19] INFO root fetch - main [MainThread]: End processing [django-pdr]: success
+[2023-07-14 14:46:19] INFO root fetch - processPackages [making-with-code-cli]: Remove: archive file [/home/abi/fetcher/tmp/making_with_code_cli-1.2.7.tar.gz]
+[2023-07-14 14:46:19] INFO root fetch - processPackages [making-with-code-cli]: Remove: archive file [/home/abi/fetcher/tmp/making_with_code_cli-1.2.8.tar.gz]
+[2023-07-14 14:46:19] INFO root fetch - main [MainThread]: End processing [making-with-code-cli]: success
+[2023-07-14 14:46:20] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-14 14:46:20] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-14 14:46:20] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-14 14:46:25] INFO root fetch - processPackages [pyaedt]: Remove: archive file [/home/abi/fetcher/tmp/pyaedt-0.6.82.tar.gz]
+[2023-07-14 14:46:25] INFO root fetch - processPackages [pyaedt]: Remove: archive file [/home/abi/fetcher/tmp/pyaedt-0.6.85.tar.gz]
+[2023-07-14 14:46:25] INFO root fetch - main [MainThread]: End processing [pyaedt]: success
+[2023-07-14 14:46:25] INFO root fetch - main [MainThread]: Store serial: [18889549]
