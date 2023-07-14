@@ -13725,3 +13725,105 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 08:23:31] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230714062049.tar.gz]
 [2023-07-14 08:23:31] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-14 08:23:31] INFO root fetch - main [MainThread]: Store serial: [18886040]
+[2023-07-14 08:28:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886040]
+[2023-07-14 08:28:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-14 08:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsmlibrary-viz
+[2023-07-14 08:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-newrelic
+[2023-07-14 08:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irisml-tasks
+[2023-07-14 08:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-docker
+[2023-07-14 08:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: b2a
+[2023-07-14 08:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aioinject
+[2023-07-14 08:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pankmer
+[2023-07-14 08:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reytool
+[2023-07-14 08:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chemtsv2
+[2023-07-14 08:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: glassmath
+[2023-07-14 08:28:40] INFO root fetch - processPackages [dsmlibrary-viz]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-14 08:28:40] INFO root fetch - processPackages [chemtsv2]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-14 08:28:40] INFO root fetch - processPackages [b2a]: New version: [2023.7.4.1] Old Version: [2023.7.14.1]
+[2023-07-14 08:28:40] INFO root fetch - processPackages [glassmath]: New version: [1.0] Old Version: [0.0.0]
+[2023-07-14 08:28:40] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-14 08:28:40] INFO root fetch - processPackages [aioinject]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-14 08:28:40] INFO root fetch - processPackages [pankmer]: New version: [0.9.0] Old Version: [0.12.9]
+[2023-07-14 08:28:40] INFO root fetch - processPackages [irisml-tasks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 08:28:40] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2023-07-14 08:28:40] INFO root fetch - processPackages [pulumi-docker]: New version: [4.4.0a1689313194] Old Version: [4.3.0a1687798383]
+[2023-07-14 08:28:41] INFO root fetch - processPackages [dsmlibrary-viz]: Downloading https://files.pythonhosted.org/packages/8a/dd/201e2bbe5180e40cbbbee16b393f4b02fe31ca54c77edb5e852e4046ae46/dsmlibrary_viz-0.0.6.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-14 08:28:41] INFO root fetch - processPackages [irisml-tasks]: Downloading https://files.pythonhosted.org/packages/f9/c3/617dc10d3d86277422b1376712fbcae45013c1fe00a777e78eee45fb1f31/irisml-tasks-0.0.8.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [chemtsv2]: Downloading https://files.pythonhosted.org/packages/c7/bb/62d71c733c206f2421c05238ce1ef84038766039f19069c804b1501a5d40/chemtsv2-0.9.8.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [glassmath]: Downloading https://files.pythonhosted.org/packages/b6/36/1ffc6b8d25d162ee8b41fef544670e931a308072a42f1443edd422c1a19e/glassmath-0.0.0.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [b2a]: Downloading https://files.pythonhosted.org/packages/90/6e/c5188f0f88c3f5574e65ee773d07848cedb34ea45e056987e9f2ce3b7d1b/b2a-2023.7.14.1.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/41/87/fce9d1a8959a27bb05cfca623e68aca4d19eafc5c4da6e03569dd3bd8afd/pankmer-0.12.9.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [aioinject]: Downloading https://files.pythonhosted.org/packages/2d/4d/58c0241e638181ac9218734f678ea6dadbac2004e8fa6331a5f94caf06b9/aioinject-0.8.0.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/c8/96/80a8a4006a7a301fa62d566ac4d422f40e76cadf69999523e7381329d977/pulumi_docker-4.3.0a1687798383.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-14 08:28:41] INFO root fetch - processPackages [irisml-tasks]: Downloading https://files.pythonhosted.org/packages/75/98/971cdf4f2e7e1a8cbd90c669ad60ca4117884f745d742a5d9911b79bef87/irisml-tasks-0.0.9.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [dsmlibrary-viz]: Downloading https://files.pythonhosted.org/packages/1e/a5/aacab0579c5958bd27496f049e062e344b269ebf01d0983963b3c2da1bc4/dsmlibrary_viz-0.0.7.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-14 08:28:41] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230714/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-14 08:28:41] INFO root fetch - processPackages [chemtsv2]: Downloading https://files.pythonhosted.org/packages/f4/0b/206c6dffff63d3376556071b0d898219606b1c57e94216367b2e07ce5274/chemtsv2-0.9.9.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [b2a]: Downloading https://files.pythonhosted.org/packages/d4/06/d3ab9be0d0883b528860df820dcacf5fa95db7926667a244230204551a20/b2a-2023.7.4.1.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [glassmath]: Downloading https://files.pythonhosted.org/packages/8f/a6/880e30256a654af92581bfabd0fa8929e8cb52a45e6a5ed3b675f5452fce/glassmath-1.0.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [irisml-tasks]: executing diffoscope
+[2023-07-14 08:28:41] INFO root fetch - processPackages [irisml-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-0.0.8.tar.gz tmp/irisml-tasks-0.0.9.tar.gz --markdown 20230714/i/irisml-tasks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 08:28:41] INFO root fetch - processPackages [dsmlibrary-viz]: executing diffoscope
+[2023-07-14 08:28:41] INFO root fetch - processPackages [dsmlibrary-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsmlibrary_viz-0.0.6.tar.gz tmp/dsmlibrary_viz-0.0.7.tar.gz --markdown 20230714/d/dsmlibrary-viz/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-14 08:28:41] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/ec/87/885615746e80d9141ab39f7997ee1ac00677e583de2ddcd9b167d76993a6/pankmer-0.9.0.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [aioinject]: Downloading https://files.pythonhosted.org/packages/75/fd/43a4582b58a0c8e2515234436f79915a93b6d0e6eeedae9aff0a8f2ebb96/aioinject-0.9.0.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-07-14 08:28:41] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20230714/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/diff.md --exclude *.pyd
+[2023-07-14 08:28:41] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/83/2c/f34a52fd425c38744a8f027da5e155a866ff33428c393ffbaaaddb2267f7/pulumi_docker-4.4.0a1689313194.tar.gz
+[2023-07-14 08:28:41] INFO root fetch - processPackages [chemtsv2]: executing diffoscope
+[2023-07-14 08:28:41] INFO root fetch - processPackages [chemtsv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemtsv2-0.9.8.tar.gz tmp/chemtsv2-0.9.9.tar.gz --markdown 20230714/c/chemtsv2/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-14 08:28:41] INFO root fetch - processPackages [b2a]: executing diffoscope
+[2023-07-14 08:28:41] INFO root fetch - processPackages [b2a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2a-2023.7.14.1.tar.gz tmp/b2a-2023.7.4.1.tar.gz --markdown 20230714/b/b2a/2023.7.14.1-2023.7.4.1/diff.md --exclude *.pyd
+[2023-07-14 08:28:41] INFO root fetch - processPackages [glassmath]: executing diffoscope
+[2023-07-14 08:28:41] INFO root fetch - processPackages [glassmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glassmath-0.0.0.tar.gz tmp/glassmath-1.0.tar.gz --markdown 20230714/g/glassmath/0.0.0-1.0/diff.md --exclude *.pyd
+[2023-07-14 08:28:42] INFO root fetch - processPackages [pankmer]: executing diffoscope
+[2023-07-14 08:28:42] INFO root fetch - processPackages [pankmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pankmer-0.12.9.tar.gz tmp/pankmer-0.9.0.tar.gz --markdown 20230714/p/pankmer/0.12.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 08:28:42] INFO root fetch - processPackages [aioinject]: executing diffoscope
+[2023-07-14 08:28:42] INFO root fetch - processPackages [aioinject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioinject-0.8.0.tar.gz tmp/aioinject-0.9.0.tar.gz --markdown 20230714/a/aioinject/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 08:28:42] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-07-14 08:28:42] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.3.0a1687798383.tar.gz tmp/pulumi_docker-4.4.0a1689313194.tar.gz --markdown 20230714/p/pulumi-docker/4.3.0a1687798383-4.4.0a1689313194/diff.md --exclude *.pyd
+[2023-07-14 08:28:43] INFO root fetch - processPackages [dsmlibrary-viz]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary_viz-0.0.6.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - processPackages [dsmlibrary-viz]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary_viz-0.0.7.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - processPackages [dsmlibrary-viz]: Start processing: pulumi-minio
+[2023-07-14 08:28:43] INFO root fetch - main [MainThread]: End processing [dsmlibrary-viz]: success
+[2023-07-14 08:28:43] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-14 08:28:43] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-14 08:28:43] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-14 08:28:43] INFO root fetch - processPackages [chemtsv2]: Remove: archive file [/home/abi/fetcher/tmp/chemtsv2-0.9.8.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - processPackages [chemtsv2]: Remove: archive file [/home/abi/fetcher/tmp/chemtsv2-0.9.9.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - main [MainThread]: End processing [chemtsv2]: success
+[2023-07-14 08:28:43] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-07-14 08:28:43] INFO root fetch - processPackages [b2a]: Remove: archive file [/home/abi/fetcher/tmp/b2a-2023.7.14.1.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - processPackages [b2a]: Remove: archive file [/home/abi/fetcher/tmp/b2a-2023.7.4.1.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - main [MainThread]: End processing [b2a]: success
+[2023-07-14 08:28:43] INFO root fetch - processPackages [aioinject]: Remove: archive file [/home/abi/fetcher/tmp/aioinject-0.8.0.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - processPackages [aioinject]: Remove: archive file [/home/abi/fetcher/tmp/aioinject-0.9.0.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - main [MainThread]: End processing [aioinject]: success
+[2023-07-14 08:28:43] INFO root fetch - processPackages [glassmath]: Remove: archive file [/home/abi/fetcher/tmp/glassmath-0.0.0.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - processPackages [glassmath]: Remove: archive file [/home/abi/fetcher/tmp/glassmath-1.0.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - main [MainThread]: End processing [glassmath]: success
+[2023-07-14 08:28:43] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.3.0a1687798383.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.4.0a1689313194.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-07-14 08:28:43] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.12.9.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2023-07-14 08:28:43] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.9.0.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - main [MainThread]: End processing [pankmer]: success
+[2023-07-14 08:28:43] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2023-07-14 08:28:43] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-07-14 08:28:44] INFO root fetch - processPackages [irisml-tasks]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-0.0.8.tar.gz]
+[2023-07-14 08:28:44] INFO root fetch - processPackages [irisml-tasks]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-0.0.9.tar.gz]
+[2023-07-14 08:28:44] INFO root fetch - main [MainThread]: End processing [irisml-tasks]: success
+[2023-07-14 08:28:44] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2023-07-14 08:28:44] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-07-14 08:28:44] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230714/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-07-14 08:28:45] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2023-07-14 08:28:45] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2023-07-14 08:28:45] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-07-14 08:28:45] INFO root fetch - main [MainThread]: Store serial: [18886069]
