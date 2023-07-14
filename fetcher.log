@@ -15440,3 +15440,120 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 09:43:49] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.9.tar.gz]
 [2023-07-14 09:43:49] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
 [2023-07-14 09:43:49] INFO root fetch - main [MainThread]: Store serial: [18886715]
+[2023-07-14 09:48:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886715]
+[2023-07-14 09:48:58] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-14 09:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-cpp-kernel
+[2023-07-14 09:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gtocclient
+[2023-07-14 09:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2b-agent
+[2023-07-14 09:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nowcast-lstm
+[2023-07-14 09:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: promptulate
+[2023-07-14 09:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: safe-ds-examples
+[2023-07-14 09:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metasnek
+[2023-07-14 09:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aspose-words-cloud
+[2023-07-14 09:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crandr
+[2023-07-14 09:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-aps
+[2023-07-14 09:48:58] WARNING root fetch - processPackages [jupyter-cpp-kernel]: Skipping, unable to determine old version
+[2023-07-14 09:48:58] INFO root fetch - processPackages [jupyter-cpp-kernel]: Start processing: curated-transformers
+[2023-07-14 09:48:58] INFO root fetch - main [MainThread]: End processing [jupyter-cpp-kernel] error
+[2023-07-14 09:48:58] INFO root fetch - processPackages [gtocclient]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-14 09:48:58] INFO root fetch - processPackages [django-aps]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-14 09:48:58] INFO root fetch - processPackages [crandr]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-14 09:48:58] INFO root fetch - processPackages [nowcast-lstm]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-14 09:48:58] INFO root fetch - processPackages [metasnek]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-14 09:48:58] INFO root fetch - processPackages [safe-ds-examples]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-14 09:48:58] INFO root fetch - processPackages [aspose-words-cloud]: New version: [23.6.0] Old Version: [23.5.1]
+[2023-07-14 09:48:58] WARNING root fetch - processPackages [e2b-agent]: Skipping, unable to determine old version
+[2023-07-14 09:48:58] INFO root fetch - processPackages [e2b-agent]: Start processing: fastapi-storages
+[2023-07-14 09:48:58] INFO root fetch - processPackages [promptulate]: New version: [1.2.2] Old Version: [1.2.0]
+[2023-07-14 09:48:58] INFO root fetch - main [MainThread]: End processing [e2b-agent] error
+[2023-07-14 09:48:58] INFO root fetch - processPackages [curated-transformers]: New version: [1.0.0.dev0] Old Version: [0.9.0]
+[2023-07-14 09:48:58] INFO root fetch - processPackages [django-aps]: Downloading https://files.pythonhosted.org/packages/32/a7/21a92c2a748f1a826275dbff32cb25ca99f3ee7f12aa8e516aeba2a9c3ce/django-aps-0.0.5.tar.gz
+[2023-07-14 09:48:58] INFO root fetch - processPackages [gtocclient]: Downloading https://files.pythonhosted.org/packages/64/a8/381b8aa541e41e146581a797a102149e7a58c2b562ae3449405750dcf8e2/gtocclient-0.7.8.tar.gz
+[2023-07-14 09:48:58] INFO root fetch - processPackages [curated-transformers]: Downloading https://files.pythonhosted.org/packages/df/22/f774e0539f7567d7c15e8d39a7875fd06c3cfcd60eb1a1f0c8a4e21caa74/curated-transformers-0.9.0.tar.gz
+[2023-07-14 09:48:58] INFO root fetch - processPackages [fastapi-storages]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-14 09:48:58] INFO root fetch - processPackages [promptulate]: Downloading https://files.pythonhosted.org/packages/09/2f/15e4dded1e6c75b2799667c2200bed7d09ceeb3a79e65c142e6cd52069db/promptulate-1.2.0.tar.gz
+[2023-07-14 09:48:58] INFO root fetch - processPackages [nowcast-lstm]: Downloading https://files.pythonhosted.org/packages/79/7f/e13c35b4e11d690da39b6af8ea432f9d54922cd3158b15f99417b065cb35/nowcast_lstm-0.2.4.tar.gz
+[2023-07-14 09:48:58] INFO root fetch - processPackages [aspose-words-cloud]: Downloading https://files.pythonhosted.org/packages/78/cc/9f4ef4696d9828dc19a6226527e19ae78cae90afcc62e6370fc9999bee9c/aspose-words-cloud-23.5.1.tar.gz
+[2023-07-14 09:48:58] INFO root fetch - processPackages [metasnek]: Downloading https://files.pythonhosted.org/packages/d0/8a/564cb6cc67870ff2e3883b41bfff98f1adff551e772b233ed3fa0db51cb5/metasnek-0.0.4.tar.gz
+[2023-07-14 09:48:58] INFO root fetch - processPackages [crandr]: Downloading https://files.pythonhosted.org/packages/c2/c3/0f6dc89a7984c9ee746f85efdad2f5eff5cc1930f72e31899ca269631f3d/crandr-1.2.0.tar.gz
+[2023-07-14 09:48:58] INFO root fetch - processPackages [safe-ds-examples]: Downloading https://files.pythonhosted.org/packages/c0/f2/e4cb1f76e32d962d1a2e54a697a348d7e0b656d3794a53c05653992b29a6/safe_ds_examples-0.9.0.tar.gz
+[2023-07-14 09:48:59] INFO root fetch - processPackages [fastapi-storages]: Downloading https://files.pythonhosted.org/packages/e0/f8/2a5a46bfdb6a273034c334a1a5e87b6ab5b7e7922c2b834ba13ceccdbec5/fastapi_storages-0.1.0.tar.gz
+[2023-07-14 09:48:59] INFO root fetch - processPackages [curated-transformers]: Downloading https://files.pythonhosted.org/packages/be/8c/fd34ebacb95ae43e139ae25fabc0bf7dcb9f24c58316a4febe42d13d7187/curated-transformers-1.0.0.dev0.tar.gz
+[2023-07-14 09:48:59] INFO root fetch - processPackages [gtocclient]: Downloading https://files.pythonhosted.org/packages/f7/fb/7efb046da2aa6973d05e6a51309c7735733e2940c52035e52754f8db0d78/gtocclient-0.7.9.tar.gz
+[2023-07-14 09:48:59] INFO root fetch - processPackages [django-aps]: Downloading https://files.pythonhosted.org/packages/b4/d3/512268c86e85835296d647925c0e24a41864ec85d409f9de3378ce3b57f8/django-aps-0.0.6.tar.gz
+[2023-07-14 09:48:59] INFO root fetch - processPackages [promptulate]: Downloading https://files.pythonhosted.org/packages/4b/98/1833ec3790d6fbc9f3f2fdfaeb4281c633b94ff739784c7f437cba437c7c/promptulate-1.2.2.tar.gz
+[2023-07-14 09:48:59] INFO root fetch - processPackages [nowcast-lstm]: Downloading https://files.pythonhosted.org/packages/bc/cd/862d8e700a28dbfe5020660aa808c481cad2507cd0060178ae2f48352198/nowcast_lstm-0.2.5.tar.gz
+[2023-07-14 09:48:59] INFO root fetch - processPackages [metasnek]: Downloading https://files.pythonhosted.org/packages/7a/98/dec7c2c73456bb285ead11defe6b7700dc35847b54dcdfeb8f7ed3bd1621/metasnek-0.0.5.tar.gz
+[2023-07-14 09:48:59] INFO root fetch - processPackages [aspose-words-cloud]: Downloading https://files.pythonhosted.org/packages/0a/b6/fe6723e760d70db15127f748d3d08dd05045717b9bb60d37ab318b332774/aspose-words-cloud-23.6.0.tar.gz
+[2023-07-14 09:48:59] INFO root fetch - processPackages [crandr]: Downloading https://files.pythonhosted.org/packages/aa/f1/b64e070edce645fc8c3e019e40df551474ae6c910e605819cd5487f9e6ef/crandr-1.2.1.tar.gz
+[2023-07-14 09:48:59] INFO root fetch - processPackages [curated-transformers]: executing diffoscope
+[2023-07-14 09:48:59] INFO root fetch - processPackages [curated-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curated-transformers-0.9.0.tar.gz tmp/curated-transformers-1.0.0.dev0.tar.gz --markdown 20230714/c/curated-transformers/0.9.0-1.0.0.dev0/diff.md --exclude *.pyd
+[2023-07-14 09:48:59] INFO root fetch - processPackages [gtocclient]: executing diffoscope
+[2023-07-14 09:48:59] INFO root fetch - processPackages [gtocclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtocclient-0.7.8.tar.gz tmp/gtocclient-0.7.9.tar.gz --markdown 20230714/g/gtocclient/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-14 09:48:59] INFO root fetch - processPackages [promptulate]: executing diffoscope
+[2023-07-14 09:48:59] INFO root fetch - processPackages [promptulate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptulate-1.2.0.tar.gz tmp/promptulate-1.2.2.tar.gz --markdown 20230714/p/promptulate/1.2.0-1.2.2/diff.md --exclude *.pyd
+[2023-07-14 09:48:59] INFO root fetch - processPackages [django-aps]: executing diffoscope
+[2023-07-14 09:48:59] INFO root fetch - processPackages [django-aps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-aps-0.0.5.tar.gz tmp/django-aps-0.0.6.tar.gz --markdown 20230714/d/django-aps/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-14 09:48:59] INFO root fetch - processPackages [nowcast-lstm]: executing diffoscope
+[2023-07-14 09:48:59] INFO root fetch - processPackages [nowcast-lstm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcast_lstm-0.2.4.tar.gz tmp/nowcast_lstm-0.2.5.tar.gz --markdown 20230714/n/nowcast-lstm/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-14 09:48:59] INFO root fetch - processPackages [safe-ds-examples]: Downloading https://files.pythonhosted.org/packages/d3/87/bf1fd5b20292fe74c4576d78c293e045945de174b8f02c63dcc8fc6dc39e/safe_ds_examples-0.9.1.tar.gz
+[2023-07-14 09:48:59] INFO root fetch - processPackages [fastapi-storages]: Downloading https://files.pythonhosted.org/packages/0c/4b/512d5658b62b13e719d87524ac62d9dcf36c471dfef31d5a81b063c5ea2b/fastapi_storages-0.2.0.tar.gz
+[2023-07-14 09:48:59] INFO root fetch - processPackages [crandr]: executing diffoscope
+[2023-07-14 09:48:59] INFO root fetch - processPackages [crandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crandr-1.2.0.tar.gz tmp/crandr-1.2.1.tar.gz --markdown 20230714/c/crandr/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-14 09:48:59] INFO root fetch - processPackages [aspose-words-cloud]: executing diffoscope
+[2023-07-14 09:48:59] INFO root fetch - processPackages [aspose-words-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-words-cloud-23.5.1.tar.gz tmp/aspose-words-cloud-23.6.0.tar.gz --markdown 20230714/a/aspose-words-cloud/23.5.1-23.6.0/diff.md --exclude *.pyd
+[2023-07-14 09:48:59] INFO root fetch - processPackages [metasnek]: executing diffoscope
+[2023-07-14 09:48:59] INFO root fetch - processPackages [metasnek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasnek-0.0.4.tar.gz tmp/metasnek-0.0.5.tar.gz --markdown 20230714/m/metasnek/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-14 09:48:59] INFO root fetch - processPackages [safe-ds-examples]: executing diffoscope
+[2023-07-14 09:48:59] INFO root fetch - processPackages [safe-ds-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_ds_examples-0.9.0.tar.gz tmp/safe_ds_examples-0.9.1.tar.gz --markdown 20230714/s/safe-ds-examples/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-14 09:48:59] INFO root fetch - processPackages [fastapi-storages]: executing diffoscope
+[2023-07-14 09:48:59] INFO root fetch - processPackages [fastapi-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_storages-0.1.0.tar.gz tmp/fastapi_storages-0.2.0.tar.gz --markdown 20230714/f/fastapi-storages/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-14 09:49:01] INFO root fetch - processPackages [metasnek]: Remove: archive file [/home/abi/fetcher/tmp/metasnek-0.0.4.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [metasnek]: Remove: archive file [/home/abi/fetcher/tmp/metasnek-0.0.5.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [metasnek]: Start processing: BaseNN
+[2023-07-14 09:49:01] INFO root fetch - main [MainThread]: End processing [metasnek]: success
+[2023-07-14 09:49:01] INFO root fetch - processPackages [BaseNN]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [fastapi-storages]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_storages-0.1.0.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [fastapi-storages]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_storages-0.2.0.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [fastapi-storages]: Start processing: xhibit
+[2023-07-14 09:49:01] INFO root fetch - main [MainThread]: End processing [fastapi-storages]: success
+[2023-07-14 09:49:01] INFO root fetch - processPackages [safe-ds-examples]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds_examples-0.9.0.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [safe-ds-examples]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds_examples-0.9.1.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - main [MainThread]: End processing [safe-ds-examples]: success
+[2023-07-14 09:49:01] INFO root fetch - processPackages [xhibit]: New version: [9.6.1] Old Version: [9.6.0]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [gtocclient]: Remove: archive file [/home/abi/fetcher/tmp/gtocclient-0.7.8.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [gtocclient]: Remove: archive file [/home/abi/fetcher/tmp/gtocclient-0.7.9.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/13/20/4badc4819f090859afc0a959886373525312b5dfb2434983b63a429cd6a2/xhibit-9.6.0.tar.gz
+[2023-07-14 09:49:01] INFO root fetch - main [MainThread]: End processing [gtocclient]: success
+[2023-07-14 09:49:01] INFO root fetch - processPackages [BaseNN]: Downloading https://files.pythonhosted.org/packages/8c/65/2ac1162f9e13bd524744a8217dd44ae929f4b99b2294b07721abdabbb04e/BaseNN-0.1.8.tar.gz
+[2023-07-14 09:49:01] INFO root fetch - processPackages [crandr]: Remove: archive file [/home/abi/fetcher/tmp/crandr-1.2.0.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [crandr]: Remove: archive file [/home/abi/fetcher/tmp/crandr-1.2.1.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - main [MainThread]: End processing [crandr]: success
+[2023-07-14 09:49:01] INFO root fetch - processPackages [promptulate]: Remove: archive file [/home/abi/fetcher/tmp/promptulate-1.2.0.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [promptulate]: Remove: archive file [/home/abi/fetcher/tmp/promptulate-1.2.2.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - main [MainThread]: End processing [promptulate]: success
+[2023-07-14 09:49:01] INFO root fetch - processPackages [django-aps]: Remove: archive file [/home/abi/fetcher/tmp/django-aps-0.0.5.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [django-aps]: Remove: archive file [/home/abi/fetcher/tmp/django-aps-0.0.6.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - main [MainThread]: End processing [django-aps]: success
+[2023-07-14 09:49:01] INFO root fetch - processPackages [nowcast-lstm]: Remove: archive file [/home/abi/fetcher/tmp/nowcast_lstm-0.2.4.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [nowcast-lstm]: Remove: archive file [/home/abi/fetcher/tmp/nowcast_lstm-0.2.5.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - main [MainThread]: End processing [nowcast-lstm]: success
+[2023-07-14 09:49:01] INFO root fetch - processPackages [curated-transformers]: Remove: archive file [/home/abi/fetcher/tmp/curated-transformers-0.9.0.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - processPackages [curated-transformers]: Remove: archive file [/home/abi/fetcher/tmp/curated-transformers-1.0.0.dev0.tar.gz]
+[2023-07-14 09:49:01] INFO root fetch - main [MainThread]: End processing [curated-transformers]: success
+[2023-07-14 09:49:01] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/18/2f/23a9561974b88c2663f745d98a41cac908986295928b767ac3ab99b1096c/xhibit-9.6.1.tar.gz
+[2023-07-14 09:49:02] INFO root fetch - processPackages [BaseNN]: Downloading https://files.pythonhosted.org/packages/98/72/1fd51dc128809de4a4849088c078f09c50a848f92c0e09ed7f3bc02ada23/BaseNN-0.2.0.tar.gz
+[2023-07-14 09:49:02] INFO root fetch - processPackages [xhibit]: executing diffoscope
+[2023-07-14 09:49:02] INFO root fetch - processPackages [xhibit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhibit-9.6.0.tar.gz tmp/xhibit-9.6.1.tar.gz --markdown 20230714/x/xhibit/9.6.0-9.6.1/diff.md --exclude *.pyd
+[2023-07-14 09:49:02] INFO root fetch - processPackages [BaseNN]: executing diffoscope
+[2023-07-14 09:49:02] INFO root fetch - processPackages [BaseNN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BaseNN-0.1.8.tar.gz tmp/BaseNN-0.2.0.tar.gz --markdown 20230714/B/BaseNN/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-07-14 09:49:02] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.6.0.tar.gz]
+[2023-07-14 09:49:02] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.6.1.tar.gz]
+[2023-07-14 09:49:02] INFO root fetch - main [MainThread]: End processing [xhibit]: success
+[2023-07-14 09:49:03] INFO root fetch - processPackages [BaseNN]: Remove: archive file [/home/abi/fetcher/tmp/BaseNN-0.1.8.tar.gz]
+[2023-07-14 09:49:03] INFO root fetch - processPackages [BaseNN]: Remove: archive file [/home/abi/fetcher/tmp/BaseNN-0.2.0.tar.gz]
+[2023-07-14 09:49:03] INFO root fetch - main [MainThread]: End processing [BaseNN]: success
+[2023-07-14 09:49:05] INFO root fetch - processPackages [aspose-words-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-words-cloud-23.5.1.tar.gz]
+[2023-07-14 09:49:05] INFO root fetch - processPackages [aspose-words-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-words-cloud-23.6.0.tar.gz]
+[2023-07-14 09:49:05] INFO root fetch - main [MainThread]: End processing [aspose-words-cloud]: success
+[2023-07-14 09:49:05] INFO root fetch - main [MainThread]: Store serial: [18886772]
