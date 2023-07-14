@@ -17794,3 +17794,89 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 11:31:03] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
 [2023-07-14 11:31:03] INFO root fetch - main [MainThread]: End processing [dstack]: success
 [2023-07-14 11:31:03] INFO root fetch - main [MainThread]: Store serial: [18887782]
+[2023-07-14 11:36:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18887782]
+[2023-07-14 11:36:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-14 11:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serem-bce
+[2023-07-14 11:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: x21
+[2023-07-14 11:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ddadevops
+[2023-07-14 11:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fdicdata
+[2023-07-14 11:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qubolite
+[2023-07-14 11:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pennylane-catalyst
+[2023-07-14 11:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hahomematic
+[2023-07-14 11:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pychunker
+[2023-07-14 11:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vwo-python-sdk
+[2023-07-14 11:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: compel
+[2023-07-14 11:36:12] WARNING root fetch - processPackages [fdicdata]: Skipping, unable to determine old version
+[2023-07-14 11:36:12] INFO root fetch - processPackages [fdicdata]: Start processing: eswrap
+[2023-07-14 11:36:12] INFO root fetch - main [MainThread]: End processing [fdicdata] error
+[2023-07-14 11:36:12] INFO root fetch - processPackages [pennylane-catalyst]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-14 11:36:12] INFO root fetch - processPackages [pychunker]: New version: [1.1.0] Old Version: [1.0.0.post2]
+[2023-07-14 11:36:12] WARNING root fetch - processPackages [serem-bce]: Skipping, unable to determine old version
+[2023-07-14 11:36:12] INFO root fetch - main [MainThread]: End processing [serem-bce] error
+[2023-07-14 11:36:12] INFO root fetch - processPackages [compel]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2023-07-14 11:36:12] INFO root fetch - processPackages [vwo-python-sdk]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-14 11:36:12] INFO root fetch - processPackages [hahomematic]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-14 11:36:12] INFO root fetch - processPackages [qubolite]: New version: [0.8.1] Old Version: [0.8]
+[2023-07-14 11:36:12] INFO root fetch - processPackages [x21]: New version: [0.4.9] Old Version: [0.4.6]
+[2023-07-14 11:36:12] INFO root fetch - processPackages [eswrap]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-14 11:36:12] INFO root fetch - processPackages [ddadevops]: New version: [4.0.9] Old Version: [4.0.8.dev1]
+[2023-07-14 11:36:12] INFO root fetch - processPackages [pychunker]: Downloading https://files.pythonhosted.org/packages/14/3a/7b9d0d690fe7f4b4e2599132317f51a8929069a61dcb6cc0675b0e5af533/pychunker-1.0.0.post2.tar.gz
+[2023-07-14 11:36:12] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/62/c5/8ec84c08cc05d1b79ea7f260f249f0dc306f55b13bd9d9c435bd80a8bb8e/eswrap-0.4.7.tar.gz
+[2023-07-14 11:36:12] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/50/31/bd872754199abd349cb0d8332e473238d8fb7fee38d1dd4ec136ff1a84ab/ddadevops-4.0.8.dev1.tar.gz
+[2023-07-14 11:36:12] INFO root fetch - processPackages [pennylane-catalyst]: Downloading https://files.pythonhosted.org/packages/4c/24/f1763d18c5882422372dfad2ca5985b013b260ac7a744bcb9d1e4fe7a221/pennylane_catalyst-0.2.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-14 11:36:12] INFO root fetch - processPackages [compel]: Downloading https://files.pythonhosted.org/packages/ed/2c/de308e9d1095ba1f132e5cd11e6d3c180dfa21bc977889abe08329a097b7/compel-2.0.0rc1.tar.gz
+[2023-07-14 11:36:12] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/43/9e/831877c33ce8e4f020b1efcae45cc76f3cf9f114301cf91c925dadedbad4/vwo-python-sdk-1.8.2.tar.gz
+[2023-07-14 11:36:13] INFO root fetch - processPackages [qubolite]: Downloading https://files.pythonhosted.org/packages/eb/0d/d796a2cb3c2b6ffef38be421eae9bf3fd51e701f92eb3c84adebfa703d47/qubolite-0.8.tar.gz
+[2023-07-14 11:36:13] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/d5/e7/aa5b8970d5b3b182d0849726d6eb9458736e31f99c846805c54bfa52a450/hahomematic-2023.7.2.tar.gz
+[2023-07-14 11:36:13] WARNING root fetch - processPackages [pennylane-catalyst]: Skipping package: exceeds size limit 77526458>=10485760
+[2023-07-14 11:36:13] INFO root fetch - processPackages [x21]: Downloading https://files.pythonhosted.org/packages/6e/33/7090126440e92e2441d66dcd6b628faab210ffcbef3dc19654ae524483b5/x21-0.4.6-cp39-cp39-win_amd64.whl
+[2023-07-14 11:36:13] INFO root fetch - main [MainThread]: End processing [pennylane-catalyst] error
+[2023-07-14 11:36:13] INFO root fetch - processPackages [pychunker]: Downloading https://files.pythonhosted.org/packages/cd/92/db579ece818fc8aaffce587792db4da2720c193f87bc21abb6a94b33b893/pychunker-1.1.0.tar.gz
+[2023-07-14 11:36:13] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/8d/6a/c2de37260bd4c3d9bcc370e5c90de036021aecec3366c64a3e7dc3eed5a3/eswrap-0.4.8.tar.gz
+[2023-07-14 11:36:13] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/b7/86/883745ce4b39c3406ebec6269e63d99ab7400df2b79af3749014b70e2a7d/ddadevops-4.0.9.tar.gz
+[2023-07-14 11:36:13] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-07-14 11:36:13] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.4.7.tar.gz tmp/eswrap-0.4.8.tar.gz --markdown 20230714/e/eswrap/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-14 11:36:13] INFO root fetch - processPackages [compel]: Downloading https://files.pythonhosted.org/packages/83/05/6f7b4eb20729fe0e95d4c614e1bd8a307ff7090b5f3751bdf10e6b698291/compel-2.0.0rc2.tar.gz
+[2023-07-14 11:36:13] INFO root fetch - processPackages [pychunker]: executing diffoscope
+[2023-07-14 11:36:13] INFO root fetch - processPackages [pychunker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychunker-1.0.0.post2.tar.gz tmp/pychunker-1.1.0.tar.gz --markdown 20230714/p/pychunker/1.0.0.post2-1.1.0/diff.md --exclude *.pyd
+[2023-07-14 11:36:13] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-07-14 11:36:13] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.8.dev1.tar.gz tmp/ddadevops-4.0.9.tar.gz --markdown 20230714/d/ddadevops/4.0.8.dev1-4.0.9/diff.md --exclude *.pyd
+[2023-07-14 11:36:13] INFO root fetch - processPackages [qubolite]: Downloading https://files.pythonhosted.org/packages/f2/e8/297da34ebb1f1aff85f3b27a2989dae14ce1f7d8ba5955b14baf7e4b2a33/qubolite-0.8.1.tar.gz
+[2023-07-14 11:36:13] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/de/7d/8cd5e04708bb59bf280172c05156df8933f0595a9fae37371435c500bf16/hahomematic-2023.7.3.tar.gz
+[2023-07-14 11:36:13] INFO root fetch - processPackages [x21]: Downloading https://files.pythonhosted.org/packages/76/7d/a1a28bf03d4ddb450a0004e07be72fa1c9a883ac739bd0b0fce5509b5188/x21-0.4.9-cp39-cp39-win_amd64.whl
+[2023-07-14 11:36:13] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/da/72/3c1b74f57b5b647b27a01d8c3a65b25ee7acc4aa566fa905f1dde110e5d2/vwo-python-sdk-1.9.0.tar.gz
+[2023-07-14 11:36:13] INFO root fetch - processPackages [compel]: executing diffoscope
+[2023-07-14 11:36:13] INFO root fetch - processPackages [compel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compel-2.0.0rc1.tar.gz tmp/compel-2.0.0rc2.tar.gz --markdown 20230714/c/compel/2.0.0rc1-2.0.0rc2/diff.md --exclude *.pyd
+[2023-07-14 11:36:13] INFO root fetch - processPackages [qubolite]: executing diffoscope
+[2023-07-14 11:36:13] INFO root fetch - processPackages [qubolite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qubolite-0.8.tar.gz tmp/qubolite-0.8.1.tar.gz --markdown 20230714/q/qubolite/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-07-14 11:36:13] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2023-07-14 11:36:13] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2023.7.2.tar.gz tmp/hahomematic-2023.7.3.tar.gz --markdown 20230714/h/hahomematic/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-14 11:36:13] INFO root fetch - processPackages [x21]: executing diffoscope
+[2023-07-14 11:36:13] INFO root fetch - processPackages [x21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x21-0.4.6-cp39-cp39-win_amd64.whl.zip tmp/x21-0.4.9-cp39-cp39-win_amd64.whl.zip --markdown 20230714/x/x21/0.4.6-0.4.9/diff.md --exclude *.pyd
+[2023-07-14 11:36:13] INFO root fetch - processPackages [vwo-python-sdk]: executing diffoscope
+[2023-07-14 11:36:13] INFO root fetch - processPackages [vwo-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vwo-python-sdk-1.8.2.tar.gz tmp/vwo-python-sdk-1.9.0.tar.gz --markdown 20230714/v/vwo-python-sdk/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 11:36:14] INFO root fetch - processPackages [pychunker]: Remove: archive file [/home/abi/fetcher/tmp/pychunker-1.0.0.post2.tar.gz]
+[2023-07-14 11:36:14] INFO root fetch - processPackages [pychunker]: Remove: archive file [/home/abi/fetcher/tmp/pychunker-1.1.0.tar.gz]
+[2023-07-14 11:36:14] INFO root fetch - main [MainThread]: End processing [pychunker]: success
+[2023-07-14 11:36:14] INFO root fetch - processPackages [eswrap]: Remove: archive file [/home/abi/fetcher/tmp/eswrap-0.4.7.tar.gz]
+[2023-07-14 11:36:14] INFO root fetch - processPackages [eswrap]: Remove: archive file [/home/abi/fetcher/tmp/eswrap-0.4.8.tar.gz]
+[2023-07-14 11:36:14] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-07-14 11:36:14] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.8.dev1.tar.gz]
+[2023-07-14 11:36:14] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.9.tar.gz]
+[2023-07-14 11:36:14] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-07-14 11:36:14] INFO root fetch - processPackages [compel]: Remove: archive file [/home/abi/fetcher/tmp/compel-2.0.0rc1.tar.gz]
+[2023-07-14 11:36:14] INFO root fetch - processPackages [compel]: Remove: archive file [/home/abi/fetcher/tmp/compel-2.0.0rc2.tar.gz]
+[2023-07-14 11:36:14] INFO root fetch - main [MainThread]: End processing [compel]: success
+[2023-07-14 11:36:15] INFO root fetch - processPackages [x21]: Remove: archive file [/home/abi/fetcher/tmp/x21-0.4.6-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 11:36:15] INFO root fetch - processPackages [x21]: Remove: archive file [/home/abi/fetcher/tmp/x21-0.4.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 11:36:15] INFO root fetch - main [MainThread]: End processing [x21]: success
+[2023-07-14 11:36:15] INFO root fetch - processPackages [qubolite]: Remove: archive file [/home/abi/fetcher/tmp/qubolite-0.8.tar.gz]
+[2023-07-14 11:36:15] INFO root fetch - processPackages [qubolite]: Remove: archive file [/home/abi/fetcher/tmp/qubolite-0.8.1.tar.gz]
+[2023-07-14 11:36:15] INFO root fetch - main [MainThread]: End processing [qubolite]: success
+[2023-07-14 11:36:15] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.7.2.tar.gz]
+[2023-07-14 11:36:15] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.7.3.tar.gz]
+[2023-07-14 11:36:15] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2023-07-14 11:36:15] INFO root fetch - processPackages [vwo-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vwo-python-sdk-1.8.2.tar.gz]
+[2023-07-14 11:36:15] INFO root fetch - processPackages [vwo-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vwo-python-sdk-1.9.0.tar.gz]
+[2023-07-14 11:36:15] INFO root fetch - main [MainThread]: End processing [vwo-python-sdk]: success
+[2023-07-14 11:36:15] INFO root fetch - main [MainThread]: Store serial: [18887860]
