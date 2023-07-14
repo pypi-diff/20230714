@@ -9372,3 +9372,42 @@
 [2023-07-14 04:00:43] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.11.7.4-py39-none-any.whl.zip]
 [2023-07-14 04:00:43] INFO root fetch - main [MainThread]: End processing [runningz]: success
 [2023-07-14 04:00:43] INFO root fetch - main [MainThread]: Store serial: [18884429]
+[2023-07-14 04:05:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18884429]
+[2023-07-14 04:05:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-14 04:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radstar
+[2023-07-14 04:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdfsBlankDetection
+[2023-07-14 04:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onqlave-python-sdk-pilot
+[2023-07-14 04:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unibox
+[2023-07-14 04:05:57] INFO root fetch - processPackages [unibox]: New version: [0.1.4] Old Version: [0.1.3.5]
+[2023-07-14 04:05:57] INFO root fetch - processPackages [pdfsBlankDetection]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-14 04:05:57] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-14 04:05:57] INFO root fetch - processPackages [radstar]: New version: [0.13.1] Old Version: [0.13.0]
+[2023-07-14 04:05:57] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/4d/fd/08a1c1333b876703d4e1a28d36f8db7d0393babb2afb0301fa0bb98eb2fc/unibox-0.1.3.5.tar.gz
+[2023-07-14 04:05:57] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/6d/d5/fbb468959c73bdda5b8deaa1a5f3d481966cd9736ff61987329a0ea879e1/radstar-0.13.0-py3-none-any.whl
+[2023-07-14 04:05:57] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/98/ac/7eb34b37b942264e98434a830ba17e3a145fbd9fa9d651183b0c15c40c48/onqlave-python-sdk-pilot-0.0.2.tar.gz
+[2023-07-14 04:05:57] INFO root fetch - processPackages [pdfsBlankDetection]: Downloading https://files.pythonhosted.org/packages/30/88/1f402c7326b3638460fe583ddb0d0257c73d8a82a916e28e0a0ee2a04f4a/pdfsBlankDetection-0.1.3.tar.gz
+[2023-07-14 04:05:58] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/fa/c6/6ac438d4c59cf36d34418ac12583c44ee86ecef439160232f9a99d3e6b23/unibox-0.1.4.tar.gz
+[2023-07-14 04:05:58] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/42/b3/f0d987e651611c973b7e074fb140fdd465c0c7a6e896e0b5c960ce985287/onqlave-python-sdk-pilot-0.0.3.tar.gz
+[2023-07-14 04:05:58] INFO root fetch - processPackages [pdfsBlankDetection]: Downloading https://files.pythonhosted.org/packages/5c/37/b85fb6ab93ccf0cae7c82767bad6693bbc08628d9f43228ed206de769216/pdfsBlankDetection-0.1.4.tar.gz
+[2023-07-14 04:05:58] INFO root fetch - processPackages [unibox]: executing diffoscope
+[2023-07-14 04:05:58] INFO root fetch - processPackages [unibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unibox-0.1.3.5.tar.gz tmp/unibox-0.1.4.tar.gz --markdown 20230714/u/unibox/0.1.3.5-0.1.4/diff.md --exclude *.pyd
+[2023-07-14 04:05:58] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/18/68/0f586c9114ea9cef3d9daee886ab19b08d0f76ca197543fc075d3bedbe71/radstar-0.13.1-py3-none-any.whl
+[2023-07-14 04:05:58] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: executing diffoscope
+[2023-07-14 04:05:58] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-sdk-pilot-0.0.2.tar.gz tmp/onqlave-python-sdk-pilot-0.0.3.tar.gz --markdown 20230714/o/onqlave-python-sdk-pilot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 04:05:58] INFO root fetch - processPackages [pdfsBlankDetection]: executing diffoscope
+[2023-07-14 04:05:58] INFO root fetch - processPackages [pdfsBlankDetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfsBlankDetection-0.1.3.tar.gz tmp/pdfsBlankDetection-0.1.4.tar.gz --markdown 20230714/p/pdfsBlankDetection/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-14 04:05:58] INFO root fetch - processPackages [radstar]: executing diffoscope
+[2023-07-14 04:05:58] INFO root fetch - processPackages [radstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radstar-0.13.0-py3-none-any.whl.zip tmp/radstar-0.13.1-py3-none-any.whl.zip --markdown 20230714/r/radstar/0.13.0-0.13.1/diff.md --exclude *.pyd
+[2023-07-14 04:05:59] INFO root fetch - processPackages [pdfsBlankDetection]: Remove: archive file [/home/abi/fetcher/tmp/pdfsBlankDetection-0.1.3.tar.gz]
+[2023-07-14 04:05:59] INFO root fetch - processPackages [pdfsBlankDetection]: Remove: archive file [/home/abi/fetcher/tmp/pdfsBlankDetection-0.1.4.tar.gz]
+[2023-07-14 04:05:59] INFO root fetch - main [MainThread]: End processing [pdfsBlankDetection]: success
+[2023-07-14 04:05:59] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.1.3.5.tar.gz]
+[2023-07-14 04:05:59] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.1.4.tar.gz]
+[2023-07-14 04:05:59] INFO root fetch - main [MainThread]: End processing [unibox]: success
+[2023-07-14 04:05:59] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.2.tar.gz]
+[2023-07-14 04:05:59] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.3.tar.gz]
+[2023-07-14 04:05:59] INFO root fetch - main [MainThread]: End processing [onqlave-python-sdk-pilot]: success
+[2023-07-14 04:06:00] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.13.0-py3-none-any.whl.zip]
+[2023-07-14 04:06:00] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.13.1-py3-none-any.whl.zip]
+[2023-07-14 04:06:00] INFO root fetch - main [MainThread]: End processing [radstar]: success
+[2023-07-14 04:06:00] INFO root fetch - main [MainThread]: Store serial: [18884557]
