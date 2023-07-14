@@ -19412,3 +19412,75 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 13:00:47] INFO root fetch - main [MainThread]: End processing [ifiscripts]: success
 [2023-07-14 13:00:47] INFO root fetch - main [MainThread]: End processing [summers]: success
 [2023-07-14 13:00:47] INFO root fetch - main [MainThread]: Store serial: [18888562]
+[2023-07-14 13:05:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888562]
+[2023-07-14 13:05:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 13:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mollie-api-python
+[2023-07-14 13:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zitan
+[2023-07-14 13:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctxvalue-shifter
+[2023-07-14 13:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amukhsimov-jupyter-templates-bigdata
+[2023-07-14 13:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-databend-cloud
+[2023-07-14 13:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-serve
+[2023-07-14 13:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mostats
+[2023-07-14 13:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wdex
+[2023-07-14 13:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smart-notes-robot
+[2023-07-14 13:05:56] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-14 13:05:56] INFO root fetch - processPackages [zitan]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-14 13:05:56] INFO root fetch - processPackages [mollie-api-python]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-07-14 13:05:56] INFO root fetch - processPackages [dbt-databend-cloud]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-14 13:05:56] INFO root fetch - processPackages [ctxvalue-shifter]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-14 13:05:56] WARNING root fetch - processPackages [wdex]: Skipping, unable to determine old version
+[2023-07-14 13:05:56] INFO root fetch - processPackages [mostats]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-14 13:05:56] INFO root fetch - main [MainThread]: End processing [wdex] error
+[2023-07-14 13:05:56] WARNING root fetch - processPackages [smart-notes-robot]: Skipping, unable to determine old version
+[2023-07-14 13:05:56] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 13:05:56] INFO root fetch - main [MainThread]: End processing [smart-notes-robot] error
+[2023-07-14 13:05:56] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-14 13:05:56] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/b2/d2/a1a71c7f22bdfbe6fa2bf69ca31203d84e6a7f4ef9c2c84e862b5b589f22/mostats-1.0.4-py3-none-any.whl
+[2023-07-14 13:05:56] INFO root fetch - processPackages [ctxvalue-shifter]: Downloading https://files.pythonhosted.org/packages/94/3d/bd025af25cb4388bb6a8367b9b1797a853822acecd66cc8ccd88c437141e/ctxvalue_shifter-1.2.0-py3-none-any.whl
+[2023-07-14 13:05:56] INFO root fetch - processPackages [zitan]: Downloading https://files.pythonhosted.org/packages/a0/89/5f8e9b39ce1efa1e630ed1f478820a4eaddf334de173075a1d47e7fa8a00/zitan-0.1.2.tar.gz
+[2023-07-14 13:05:56] INFO root fetch - processPackages [mollie-api-python]: Downloading https://files.pythonhosted.org/packages/53/af/ee8602111029521e0cfa197d21efc33b87705e86ce46bb59c0c6fd9f51ca/mollie-api-python-3.4.0.tar.gz
+[2023-07-14 13:05:56] INFO root fetch - processPackages [dbt-databend-cloud]: Downloading https://files.pythonhosted.org/packages/43/35/03e884ea3ca5cbaff3baefcb84c9f9c3c1481a10937241dfb298a8a2f705/dbt_databend_cloud-1.3.8-py3-none-any.whl
+[2023-07-14 13:05:56] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Downloading https://files.pythonhosted.org/packages/3e/fa/20f4c41cae8fc8bf7badb45be2831f85765806500fb6f5d1ea4941e99f4e/amukhsimov-jupyter-templates-bigdata-0.0.8.tar.gz
+[2023-07-14 13:05:56] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-14 13:05:56] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/44/04/dcc594e1d0073962d0335f303ecc1f7c4a6219d7a1913fd4f54b4c20a9a2/mostats-1.0.5-py3-none-any.whl
+[2023-07-14 13:05:56] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-14 13:05:56] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230714/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-14 13:05:56] INFO root fetch - processPackages [ctxvalue-shifter]: Downloading https://files.pythonhosted.org/packages/7a/73/b68afed7b4cde51f0619e2e4b29e38862691f9375b1675c05d36edd75ae5/ctxvalue_shifter-1.2.1-py3-none-any.whl
+[2023-07-14 13:05:56] INFO root fetch - processPackages [mostats]: executing diffoscope
+[2023-07-14 13:05:56] INFO root fetch - processPackages [mostats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mostats-1.0.4-py3-none-any.whl.zip tmp/mostats-1.0.5-py3-none-any.whl.zip --markdown 20230714/m/mostats/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-14 13:05:56] INFO root fetch - processPackages [mollie-api-python]: Downloading https://files.pythonhosted.org/packages/e7/4b/c50d9d546b78c627bb52eae3b51eeda2e50c0779fa0ed951c9c2197db034/mollie-api-python-3.5.0.tar.gz
+[2023-07-14 13:05:56] INFO root fetch - processPackages [zitan]: Downloading https://files.pythonhosted.org/packages/0b/c4/64d9702ea26053df39b342786d46d613ddfd725b900118965c8bfbbd53c2/zitan-0.1.3.tar.gz
+[2023-07-14 13:05:56] INFO root fetch - processPackages [ctxvalue-shifter]: executing diffoscope
+[2023-07-14 13:05:56] INFO root fetch - processPackages [ctxvalue-shifter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctxvalue_shifter-1.2.0-py3-none-any.whl.zip tmp/ctxvalue_shifter-1.2.1-py3-none-any.whl.zip --markdown 20230714/c/ctxvalue-shifter/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-14 13:05:56] INFO root fetch - processPackages [mollie-api-python]: executing diffoscope
+[2023-07-14 13:05:56] INFO root fetch - processPackages [mollie-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mollie-api-python-3.4.0.tar.gz tmp/mollie-api-python-3.5.0.tar.gz --markdown 20230714/m/mollie-api-python/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-07-14 13:05:56] INFO root fetch - processPackages [zitan]: executing diffoscope
+[2023-07-14 13:05:56] INFO root fetch - processPackages [zitan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zitan-0.1.2.tar.gz tmp/zitan-0.1.3.tar.gz --markdown 20230714/z/zitan/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-14 13:05:56] INFO root fetch - processPackages [dbt-databend-cloud]: Downloading https://files.pythonhosted.org/packages/a4/92/5170cd9fe140277fa0636402f4f6a73671e7c91af438683a5b666313c45d/dbt_databend_cloud-1.3.9-py3-none-any.whl
+[2023-07-14 13:05:56] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Downloading https://files.pythonhosted.org/packages/ae/0f/25144b4e5bde02901ff4222df947917bc9b4dca4b9db07232fd008c95abe/amukhsimov-jupyter-templates-bigdata-0.0.9.tar.gz
+[2023-07-14 13:05:57] INFO root fetch - processPackages [dbt-databend-cloud]: executing diffoscope
+[2023-07-14 13:05:57] INFO root fetch - processPackages [dbt-databend-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_databend_cloud-1.3.8-py3-none-any.whl.zip tmp/dbt_databend_cloud-1.3.9-py3-none-any.whl.zip --markdown 20230714/d/dbt-databend-cloud/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-14 13:05:57] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: executing diffoscope
+[2023-07-14 13:05:57] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amukhsimov-jupyter-templates-bigdata-0.0.8.tar.gz tmp/amukhsimov-jupyter-templates-bigdata-0.0.9.tar.gz --markdown 20230714/a/amukhsimov-jupyter-templates-bigdata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 13:05:57] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.4-py3-none-any.whl.zip]
+[2023-07-14 13:05:57] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.5-py3-none-any.whl.zip]
+[2023-07-14 13:05:57] INFO root fetch - main [MainThread]: End processing [mostats]: success
+[2023-07-14 13:05:57] INFO root fetch - processPackages [ctxvalue-shifter]: Remove: archive file [/home/abi/fetcher/tmp/ctxvalue_shifter-1.2.0-py3-none-any.whl.zip]
+[2023-07-14 13:05:57] INFO root fetch - processPackages [ctxvalue-shifter]: Remove: archive file [/home/abi/fetcher/tmp/ctxvalue_shifter-1.2.1-py3-none-any.whl.zip]
+[2023-07-14 13:05:57] INFO root fetch - main [MainThread]: End processing [ctxvalue-shifter]: success
+[2023-07-14 13:05:57] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev8.tar.gz]
+[2023-07-14 13:05:57] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev9.tar.gz]
+[2023-07-14 13:05:57] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-14 13:05:58] INFO root fetch - processPackages [zitan]: Remove: archive file [/home/abi/fetcher/tmp/zitan-0.1.2.tar.gz]
+[2023-07-14 13:05:58] INFO root fetch - processPackages [zitan]: Remove: archive file [/home/abi/fetcher/tmp/zitan-0.1.3.tar.gz]
+[2023-07-14 13:05:58] INFO root fetch - main [MainThread]: End processing [zitan]: success
+[2023-07-14 13:05:58] INFO root fetch - processPackages [dbt-databend-cloud]: Remove: archive file [/home/abi/fetcher/tmp/dbt_databend_cloud-1.3.8-py3-none-any.whl.zip]
+[2023-07-14 13:05:58] INFO root fetch - processPackages [dbt-databend-cloud]: Remove: archive file [/home/abi/fetcher/tmp/dbt_databend_cloud-1.3.9-py3-none-any.whl.zip]
+[2023-07-14 13:05:58] INFO root fetch - main [MainThread]: End processing [dbt-databend-cloud]: success
+[2023-07-14 13:05:58] INFO root fetch - processPackages [mollie-api-python]: Remove: archive file [/home/abi/fetcher/tmp/mollie-api-python-3.4.0.tar.gz]
+[2023-07-14 13:05:58] INFO root fetch - processPackages [mollie-api-python]: Remove: archive file [/home/abi/fetcher/tmp/mollie-api-python-3.5.0.tar.gz]
+[2023-07-14 13:05:58] INFO root fetch - main [MainThread]: End processing [mollie-api-python]: success
+[2023-07-14 13:05:58] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Remove: archive file [/home/abi/fetcher/tmp/amukhsimov-jupyter-templates-bigdata-0.0.8.tar.gz]
+[2023-07-14 13:05:58] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Remove: archive file [/home/abi/fetcher/tmp/amukhsimov-jupyter-templates-bigdata-0.0.9.tar.gz]
+[2023-07-14 13:05:58] INFO root fetch - main [MainThread]: End processing [amukhsimov-jupyter-templates-bigdata]: success
+[2023-07-14 13:05:58] INFO root fetch - main [MainThread]: Store serial: [18888597]
