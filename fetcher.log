@@ -19256,3 +19256,63 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 12:45:13] INFO root fetch - processPackages [signal-ocean]: Remove: archive file [/home/abi/fetcher/tmp/signal-ocean-7.1.1.tar.gz]
 [2023-07-14 12:45:13] INFO root fetch - main [MainThread]: End processing [signal-ocean]: success
 [2023-07-14 12:45:13] INFO root fetch - main [MainThread]: Store serial: [18888480]
+[2023-07-14 12:50:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888480]
+[2023-07-14 12:50:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-14 12:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weelib
+[2023-07-14 12:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: puwifi
+[2023-07-14 12:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saracendb
+[2023-07-14 12:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctat
+[2023-07-14 12:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sherpa-onnx
+[2023-07-14 12:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tickit
+[2023-07-14 12:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: filedata-ext
+[2023-07-14 12:50:22] INFO root fetch - processPackages [saracendb]: New version: [0.7.1] Old Version: [0.7]
+[2023-07-14 12:50:23] INFO root fetch - processPackages [tickit]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-14 12:50:23] INFO root fetch - processPackages [weelib]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-14 12:50:23] WARNING root fetch - processPackages [ctat]: Skipping, unable to determine old version
+[2023-07-14 12:50:23] INFO root fetch - main [MainThread]: End processing [ctat] error
+[2023-07-14 12:50:23] INFO root fetch - processPackages [puwifi]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-14 12:50:23] INFO root fetch - processPackages [sherpa-onnx]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-14 12:50:23] INFO root fetch - processPackages [saracendb]: Downloading https://files.pythonhosted.org/packages/67/91/4daa3a5de0db178924ff4cccd2d6538d0b6ba4e3db9a8b26fddb49431ce5/saracendb-0.7.tar.gz
+[2023-07-14 12:50:23] INFO root fetch - processPackages [filedata-ext]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-14 12:50:23] INFO root fetch - processPackages [puwifi]: Downloading https://files.pythonhosted.org/packages/2b/f9/73cd2994d101bcc9f8df577ef391ff47fefce93a83e35bc28c37bc2575c2/puwifi-1.0.6.tar.gz
+[2023-07-14 12:50:23] INFO root fetch - processPackages [tickit]: Downloading https://files.pythonhosted.org/packages/69/1d/9c310e47f31f5942063e251d2abcf97f405c2f6b80afc025c1f1d8812062/tickit-0.2.2.tar.gz
+[2023-07-14 12:50:23] INFO root fetch - processPackages [weelib]: Downloading https://files.pythonhosted.org/packages/f0/c5/55a2256fb9a9954cc516803af410d8ad042019b15f833016a1ca3521d6d9/weelib-0.1.5.tar.gz
+[2023-07-14 12:50:23] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/9b/78/1e876846d3e41be5f60c510d8ca9cca262f5661c797446c7bd7788a6362a/sherpa-onnx-1.5.1.tar.gz
+[2023-07-14 12:50:23] INFO root fetch - processPackages [filedata-ext]: Downloading https://files.pythonhosted.org/packages/f1/1b/cbd4bbd4e8ec7770512ae5a64b906c949a3408e012f2388076e2283ae23c/filedata-ext-0.2.1.tar.gz
+[2023-07-14 12:50:23] INFO root fetch - processPackages [saracendb]: Downloading https://files.pythonhosted.org/packages/f6/3f/e8f12bb802ecc487e302d2e7cfc1e18b63e91991bec90a5bb6aced84ba02/saracendb-0.7.1.tar.gz
+[2023-07-14 12:50:23] INFO root fetch - processPackages [puwifi]: Downloading https://files.pythonhosted.org/packages/c8/13/ff2945205febe2525b11a481b22c2ffb8b763a43de02f0a5a2152a8c3fcc/puwifi-1.0.7.tar.gz
+[2023-07-14 12:50:23] INFO root fetch - processPackages [saracendb]: executing diffoscope
+[2023-07-14 12:50:23] INFO root fetch - processPackages [saracendb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saracendb-0.7.tar.gz tmp/saracendb-0.7.1.tar.gz --markdown 20230714/s/saracendb/0.7-0.7.1/diff.md --exclude *.pyd
+[2023-07-14 12:50:23] INFO root fetch - processPackages [tickit]: Downloading https://files.pythonhosted.org/packages/da/cd/8331cf663d333db36160240de5b73d84a5e6f34f5875281906384ba745c7/tickit-0.2.3.tar.gz
+[2023-07-14 12:50:23] INFO root fetch - processPackages [weelib]: Downloading https://files.pythonhosted.org/packages/f4/29/872f5d51532be3d110275a75dc936abbc953477c1226ac9d2500bf1c8305/weelib-0.1.6.tar.gz
+[2023-07-14 12:50:23] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/44/7c/a43e6a46911920abe838d803b64f342a24d22d694e148dd7e812e5d7f653/sherpa-onnx-1.5.2.tar.gz
+[2023-07-14 12:50:23] INFO root fetch - processPackages [puwifi]: executing diffoscope
+[2023-07-14 12:50:23] INFO root fetch - processPackages [puwifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puwifi-1.0.6.tar.gz tmp/puwifi-1.0.7.tar.gz --markdown 20230714/p/puwifi/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-14 12:50:23] INFO root fetch - processPackages [weelib]: executing diffoscope
+[2023-07-14 12:50:23] INFO root fetch - processPackages [weelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weelib-0.1.5.tar.gz tmp/weelib-0.1.6.tar.gz --markdown 20230714/w/weelib/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-14 12:50:23] INFO root fetch - processPackages [tickit]: executing diffoscope
+[2023-07-14 12:50:23] INFO root fetch - processPackages [tickit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tickit-0.2.2.tar.gz tmp/tickit-0.2.3.tar.gz --markdown 20230714/t/tickit/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-14 12:50:23] INFO root fetch - processPackages [filedata-ext]: Downloading https://files.pythonhosted.org/packages/c2/b3/832c2212ce28beba28ef0e4de8fc3a9353b00197e229dd946007cd97007d/filedata-ext-0.2.2.tar.gz
+[2023-07-14 12:50:23] INFO root fetch - processPackages [sherpa-onnx]: executing diffoscope
+[2023-07-14 12:50:23] INFO root fetch - processPackages [sherpa-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa-onnx-1.5.1.tar.gz tmp/sherpa-onnx-1.5.2.tar.gz --markdown 20230714/s/sherpa-onnx/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-14 12:50:24] INFO root fetch - processPackages [filedata-ext]: executing diffoscope
+[2023-07-14 12:50:24] INFO root fetch - processPackages [filedata-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filedata-ext-0.2.1.tar.gz tmp/filedata-ext-0.2.2.tar.gz --markdown 20230714/f/filedata-ext/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-14 12:50:24] INFO root fetch - processPackages [saracendb]: Remove: archive file [/home/abi/fetcher/tmp/saracendb-0.7.tar.gz]
+[2023-07-14 12:50:24] INFO root fetch - processPackages [saracendb]: Remove: archive file [/home/abi/fetcher/tmp/saracendb-0.7.1.tar.gz]
+[2023-07-14 12:50:24] INFO root fetch - main [MainThread]: End processing [saracendb]: success
+[2023-07-14 12:50:24] INFO root fetch - processPackages [weelib]: Remove: archive file [/home/abi/fetcher/tmp/weelib-0.1.5.tar.gz]
+[2023-07-14 12:50:24] INFO root fetch - processPackages [weelib]: Remove: archive file [/home/abi/fetcher/tmp/weelib-0.1.6.tar.gz]
+[2023-07-14 12:50:24] INFO root fetch - main [MainThread]: End processing [weelib]: success
+[2023-07-14 12:50:24] INFO root fetch - processPackages [puwifi]: Remove: archive file [/home/abi/fetcher/tmp/puwifi-1.0.6.tar.gz]
+[2023-07-14 12:50:24] INFO root fetch - processPackages [puwifi]: Remove: archive file [/home/abi/fetcher/tmp/puwifi-1.0.7.tar.gz]
+[2023-07-14 12:50:24] INFO root fetch - main [MainThread]: End processing [puwifi]: success
+[2023-07-14 12:50:25] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.5.1.tar.gz]
+[2023-07-14 12:50:25] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.5.2.tar.gz]
+[2023-07-14 12:50:25] INFO root fetch - main [MainThread]: End processing [sherpa-onnx]: success
+[2023-07-14 12:50:25] INFO root fetch - processPackages [filedata-ext]: Remove: archive file [/home/abi/fetcher/tmp/filedata-ext-0.2.1.tar.gz]
+[2023-07-14 12:50:25] INFO root fetch - processPackages [filedata-ext]: Remove: archive file [/home/abi/fetcher/tmp/filedata-ext-0.2.2.tar.gz]
+[2023-07-14 12:50:25] INFO root fetch - main [MainThread]: End processing [filedata-ext]: success
+[2023-07-14 12:50:25] INFO root fetch - processPackages [tickit]: Remove: archive file [/home/abi/fetcher/tmp/tickit-0.2.2.tar.gz]
+[2023-07-14 12:50:25] INFO root fetch - processPackages [tickit]: Remove: archive file [/home/abi/fetcher/tmp/tickit-0.2.3.tar.gz]
+[2023-07-14 12:50:25] INFO root fetch - main [MainThread]: End processing [tickit]: success
+[2023-07-14 12:50:25] INFO root fetch - main [MainThread]: Store serial: [18888507]
