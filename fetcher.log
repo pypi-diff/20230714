@@ -17707,3 +17707,90 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 11:25:51] INFO root fetch - processPackages [trattoria-core]: Remove: archive file [/home/abi/fetcher/tmp/trattoria_core-0.4.4.tar.gz]
 [2023-07-14 11:25:51] INFO root fetch - main [MainThread]: End processing [trattoria-core]: success
 [2023-07-14 11:25:51] INFO root fetch - main [MainThread]: Store serial: [18887729]
+[2023-07-14 11:30:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18887729]
+[2023-07-14 11:31:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-14 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ghoshell
+[2023-07-14 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dstack
+[2023-07-14 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rqdatac
+[2023-07-14 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: breeze-strategies
+[2023-07-14 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2023-07-14 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: async-wiiload
+[2023-07-14 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-beam
+[2023-07-14 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Supplier-API-tester
+[2023-07-14 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skale-contracts
+[2023-07-14 11:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chatgpt-klient
+[2023-07-14 11:31:00] INFO root fetch - processPackages [async-wiiload]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-14 11:31:00] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev9117570598767099862] Old Version: [0.0.1.dev8027846711168070537]
+[2023-07-14 11:31:00] INFO root fetch - processPackages [Supplier-API-tester]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-14 11:31:00] WARNING root fetch - processPackages [ghoshell]: Skipping, unable to determine old version
+[2023-07-14 11:31:00] INFO root fetch - main [MainThread]: End processing [ghoshell] error
+[2023-07-14 11:31:00] INFO root fetch - processPackages [chatgpt-klient]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-14 11:31:00] INFO root fetch - processPackages [django-beam]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-07-14 11:31:00] INFO root fetch - processPackages [breeze-strategies]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-14 11:31:00] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2023-07-14 11:31:00] INFO root fetch - processPackages [rqdatac]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-07-14 11:31:00] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-14 11:31:00] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/2d/e9/db18e49d8c7e96729e4df70f48f37aeadc2676835ce7e36d4df72ffc886a/skale-contracts-0.0.1.dev8027846711168070537.tar.gz
+[2023-07-14 11:31:00] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2023-07-14 11:31:00] INFO root fetch - processPackages [django-beam]: Downloading https://files.pythonhosted.org/packages/7f/e3/de219149553dfef56be5fb6c6bff2c951db3a1d816cc25a8d90dca2a7609/django-beam-1.4.2.tar.gz
+[2023-07-14 11:31:00] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/7a/1a/a3915a8a4ad8e904e6b4af2cc648ad1915c0b5cfbf9b66af849ce8ee0508/breeze_strategies-1.0.8.tar.gz
+[2023-07-14 11:31:00] INFO root fetch - processPackages [async-wiiload]: Downloading https://files.pythonhosted.org/packages/af/64/dba1077f1e01e1fd167c95180062fd94387834346bade783730cab1d00ba/async-wiiload-1.0.3.tar.gz
+[2023-07-14 11:31:00] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/13/10/715270eaf3fa0ed2c59d73bb633cc52b2ae605b11cb3fc5256a563c7d7a0/chatgpt-klient-0.0.6.tar.gz
+[2023-07-14 11:31:01] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-14 11:31:01] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/90/b6/591b01b456b98874d6e034b98d6ec3812de60b8dc0e73b29d834f8b185ba/rqdatac-2.9.7-cp38-cp38-win_amd64.whl
+[2023-07-14 11:31:01] INFO root fetch - processPackages [Supplier-API-tester]: Downloading https://files.pythonhosted.org/packages/ab/a1/cc22778ac67435b92de94fa12071fdc4c53a967d1990c5062f564b5a25fc/Supplier%20API%20tester-2.0.4.tar.gz
+[2023-07-14 11:31:01] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2023-07-14 11:31:01] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/bc/b5/b080f62f198efdb57d8d6128b29940abb5a6a01125d0d14f29bb71b762e2/skale-contracts-0.0.1.dev9117570598767099862.tar.gz
+[2023-07-14 11:31:01] INFO root fetch - processPackages [async-wiiload]: Downloading https://files.pythonhosted.org/packages/82/02/72135d45856561a06732a02803a0af8ee186ad04c29ca32e13e0852b2c5f/async-wiiload-1.0.4.tar.gz
+[2023-07-14 11:31:01] INFO root fetch - processPackages [django-beam]: Downloading https://files.pythonhosted.org/packages/38/2c/f85c8d78eca8ac499e17610d8984eeeb7b8fe08b88adc38bc9a55d5599f9/django-beam-1.5.0.tar.gz
+[2023-07-14 11:31:01] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/d6/cf/51051b52cdbade7aa3c185f1d7fb144e327ff1c676a67ba8d842f933df4b/rqdatac-2.9.8-cp38-cp38-win_amd64.whl
+[2023-07-14 11:31:01] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-14 11:31:01] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-07-14 11:31:01] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20230714/d/dstack/0.9.post1-0.9rc2/diff.md --exclude *.pyd
+[2023-07-14 11:31:01] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/97/6e/72c7af8890795c7931a119e4a911560f6cdda38b09aea3f4c91fb5422edc/chatgpt-klient-0.1.0.tar.gz
+[2023-07-14 11:31:01] INFO root fetch - processPackages [async-wiiload]: executing diffoscope
+[2023-07-14 11:31:01] INFO root fetch - processPackages [async-wiiload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async-wiiload-1.0.3.tar.gz tmp/async-wiiload-1.0.4.tar.gz --markdown 20230714/a/async-wiiload/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-14 11:31:01] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-14 11:31:01] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev8027846711168070537.tar.gz tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz --markdown 20230714/s/skale-contracts/0.0.1.dev8027846711168070537-0.0.1.dev9117570598767099862/diff.md --exclude *.pyd
+[2023-07-14 11:31:01] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/25/27/ddd07901137c8ac044f11aafa90d9961311b3ca2ee539e8a99446fdf45c3/breeze_strategies-1.0.9.tar.gz
+[2023-07-14 11:31:01] INFO root fetch - processPackages [django-beam]: executing diffoscope
+[2023-07-14 11:31:01] INFO root fetch - processPackages [django-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-beam-1.4.2.tar.gz tmp/django-beam-1.5.0.tar.gz --markdown 20230714/d/django-beam/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-07-14 11:31:01] INFO root fetch - processPackages [rqdatac]: executing diffoscope
+[2023-07-14 11:31:01] INFO root fetch - processPackages [rqdatac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip --markdown 20230714/r/rqdatac/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-07-14 11:31:01] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-14 11:31:01] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230714/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 11:31:01] INFO root fetch - processPackages [chatgpt-klient]: executing diffoscope
+[2023-07-14 11:31:01] INFO root fetch - processPackages [chatgpt-klient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-klient-0.0.6.tar.gz tmp/chatgpt-klient-0.1.0.tar.gz --markdown 20230714/c/chatgpt-klient/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-14 11:31:01] INFO root fetch - processPackages [Supplier-API-tester]: Downloading https://files.pythonhosted.org/packages/9d/fe/805cdacd437f572e0a64d6f43c56a67116c6012d9f55c14468e6ae84852f/Supplier%20API%20tester-2.0.5.tar.gz
+[2023-07-14 11:31:01] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-07-14 11:31:01] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-1.0.8.tar.gz tmp/breeze_strategies-1.0.9.tar.gz --markdown 20230714/b/breeze-strategies/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-14 11:31:01] INFO root fetch - processPackages [Supplier-API-tester]: executing diffoscope
+[2023-07-14 11:31:01] INFO root fetch - processPackages [Supplier-API-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Supplier API tester-2.0.4.tar.gz tmp/Supplier API tester-2.0.5.tar.gz --markdown 20230714/S/Supplier-API-tester/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-14 11:31:03] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev8027846711168070537.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9117570598767099862.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-14 11:31:03] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-klient-0.0.6.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-klient-0.1.0.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - main [MainThread]: End processing [chatgpt-klient]: success
+[2023-07-14 11:31:03] INFO root fetch - processPackages [async-wiiload]: Remove: archive file [/home/abi/fetcher/tmp/async-wiiload-1.0.3.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - processPackages [async-wiiload]: Remove: archive file [/home/abi/fetcher/tmp/async-wiiload-1.0.4.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - main [MainThread]: End processing [async-wiiload]: success
+[2023-07-14 11:31:03] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.8.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.9.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-07-14 11:31:03] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-14 11:31:03] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-14 11:31:03] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-14 11:31:03] INFO root fetch - processPackages [Supplier-API-tester]: Remove: archive file [/home/abi/fetcher/tmp/Supplier API tester-2.0.4.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - processPackages [Supplier-API-tester]: Remove: archive file [/home/abi/fetcher/tmp/Supplier API tester-2.0.5.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - main [MainThread]: End processing [Supplier-API-tester]: success
+[2023-07-14 11:31:03] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip]
+[2023-07-14 11:31:03] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip]
+[2023-07-14 11:31:03] INFO root fetch - main [MainThread]: End processing [rqdatac]: success
+[2023-07-14 11:31:03] INFO root fetch - processPackages [django-beam]: Remove: archive file [/home/abi/fetcher/tmp/django-beam-1.4.2.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - processPackages [django-beam]: Remove: archive file [/home/abi/fetcher/tmp/django-beam-1.5.0.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - main [MainThread]: End processing [django-beam]: success
+[2023-07-14 11:31:03] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2023-07-14 11:31:03] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-07-14 11:31:03] INFO root fetch - main [MainThread]: Store serial: [18887782]
