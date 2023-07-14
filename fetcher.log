@@ -16738,3 +16738,108 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 10:41:35] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2023-07-14 10:41:35] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-07-14 10:41:35] INFO root fetch - main [MainThread]: Store serial: [18887246]
+[2023-07-14 10:46:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18887246]
+[2023-07-14 10:46:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-14 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylabolt
+[2023-07-14 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reflex-ui
+[2023-07-14 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: breeze-strategies
+[2023-07-14 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: churchtools
+[2023-07-14 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spellbook-serve-client
+[2023-07-14 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: x21
+[2023-07-14 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bbox-objected
+[2023-07-14 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prophecy-libs
+[2023-07-14 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fun-sentence-splitter
+[2023-07-14 10:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zhmcclient
+[2023-07-14 10:46:45] INFO root fetch - processPackages [churchtools]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-14 10:46:45] INFO root fetch - processPackages [breeze-strategies]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-14 10:46:45] INFO root fetch - processPackages [pylabolt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 10:46:45] INFO root fetch - processPackages [spellbook-serve-client]: New version: [0.0.0a1] Old Version: [0.0.0a0]
+[2023-07-14 10:46:45] INFO root fetch - processPackages [bbox-objected]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-14 10:46:45] INFO root fetch - processPackages [reflex-ui]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 10:46:45] INFO root fetch - processPackages [fun-sentence-splitter]: New version: [0.2.344] Old Version: [0.1.344.post1]
+[2023-07-14 10:46:45] INFO root fetch - processPackages [prophecy-libs]: New version: [1.5.9.dev1] Old Version: [1.5.9.dev0]
+[2023-07-14 10:46:45] INFO root fetch - processPackages [zhmcclient]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-14 10:46:45] INFO root fetch - processPackages [x21]: New version: [0.4.9] Old Version: [0.4.6]
+[2023-07-14 10:46:45] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/17/7f/ec3356b2e7f83c0d9bd7b4f7fb06aad46455cd35a85e96c72d77eeac7851/breeze_strategies-1.0.7.tar.gz
+[2023-07-14 10:46:45] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/80/94/edeba85dbc518781d442179a68e037a77ac188c817b153cf02aea12c6e3f/prophecy-libs-1.5.9.dev0.tar.gz
+[2023-07-14 10:46:45] INFO root fetch - processPackages [churchtools]: Downloading https://files.pythonhosted.org/packages/0d/5c/0af2c0fc4784996aa850c8a5b080e928f912122652fe0c6a205c1ac6619b/churchtools-0.1.6.tar.gz
+[2023-07-14 10:46:45] INFO root fetch - processPackages [pylabolt]: Downloading https://files.pythonhosted.org/packages/06/d9/fb3621c45dc1cd2aad651694c765b0781b696237b0d170c54a0c0da45503/pylabolt-0.1.1.tar.gz
+[2023-07-14 10:46:45] INFO root fetch - processPackages [fun-sentence-splitter]: Downloading https://files.pythonhosted.org/packages/3b/d7/b776a2ac747a752ce992af7fa115e306a25999e0752f19ea8865b59921fb/fun_sentence_splitter-0.1.344.post1.tar.gz
+[2023-07-14 10:46:45] INFO root fetch - processPackages [bbox-objected]: Downloading https://files.pythonhosted.org/packages/a5/b7/027738e0eedee65b643dc22dbf299b57cd6aa5c22cc69756e0fb79ae75cc/bbox_objected-0.1.5.tar.gz
+[2023-07-14 10:46:45] INFO root fetch - processPackages [spellbook-serve-client]: Downloading https://files.pythonhosted.org/packages/0c/e3/608df2b4752eed52dce18f81deed27246bd72238445c1c9d57a2fe793893/spellbook_serve_client-0.0.0a0.tar.gz
+[2023-07-14 10:46:45] INFO root fetch - processPackages [reflex-ui]: Downloading https://files.pythonhosted.org/packages/71/bd/2f47112915147526e3f5a4a69adb3b1872f22e20ebf738ac4e5d4aa12ed3/reflex_ui-0.1.1.tar.gz
+[2023-07-14 10:46:45] INFO root fetch - processPackages [zhmcclient]: Downloading https://files.pythonhosted.org/packages/dd/b6/fb9f80ed4f2ae1fab0a0914df0b220634cd87dc9acbdda7ae336e2f3ff3b/zhmcclient-1.8.2.tar.gz
+[2023-07-14 10:46:45] INFO root fetch - processPackages [x21]: Downloading https://files.pythonhosted.org/packages/6e/33/7090126440e92e2441d66dcd6b628faab210ffcbef3dc19654ae524483b5/x21-0.4.6-cp39-cp39-win_amd64.whl
+[2023-07-14 10:46:45] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/7a/1a/a3915a8a4ad8e904e6b4af2cc648ad1915c0b5cfbf9b66af849ce8ee0508/breeze_strategies-1.0.8.tar.gz
+[2023-07-14 10:46:46] INFO root fetch - processPackages [fun-sentence-splitter]: Downloading https://files.pythonhosted.org/packages/05/bc/f507e7fa7f8e6500a5be50ba983c9ed7ab9a5be58e5d135abe9ffed1db85/fun_sentence_splitter-0.2.344.tar.gz
+[2023-07-14 10:46:46] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/51/01/85df825807aba0b774aec1f7c0180a53310a0428d918eac26f8f737d9a9d/prophecy-libs-1.5.9.dev1.tar.gz
+[2023-07-14 10:46:46] INFO root fetch - processPackages [churchtools]: Downloading https://files.pythonhosted.org/packages/cf/19/76a6acb856eb309015209f928f249d0e529b6f921d0ef3047d0ff01b11fe/churchtools-0.1.7.tar.gz
+[2023-07-14 10:46:46] INFO root fetch - processPackages [pylabolt]: Downloading https://files.pythonhosted.org/packages/8e/6c/0562b435431250ecdcf91946ea80f8c4ae40f15bf5c633307e4900851f80/pylabolt-0.1.2.tar.gz
+[2023-07-14 10:46:46] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-07-14 10:46:46] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-1.0.7.tar.gz tmp/breeze_strategies-1.0.8.tar.gz --markdown 20230714/b/breeze-strategies/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-14 10:46:46] INFO root fetch - processPackages [fun-sentence-splitter]: executing diffoscope
+[2023-07-14 10:46:46] INFO root fetch - processPackages [fun-sentence-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fun_sentence_splitter-0.1.344.post1.tar.gz tmp/fun_sentence_splitter-0.2.344.tar.gz --markdown 20230714/f/fun-sentence-splitter/0.1.344.post1-0.2.344/diff.md --exclude *.pyd
+[2023-07-14 10:46:46] INFO root fetch - processPackages [spellbook-serve-client]: Downloading https://files.pythonhosted.org/packages/3a/86/19cb358d9dec3bf5f2e969df6aa3c4d9bafa2c083e934afc677effe87d59/spellbook_serve_client-0.0.0a1.tar.gz
+[2023-07-14 10:46:46] INFO root fetch - processPackages [bbox-objected]: Downloading https://files.pythonhosted.org/packages/5e/d8/4659418c7267ade9170f6878a8de5fce3a0942a4e07e56bc6ed59f88fb70/bbox_objected-0.1.6.tar.gz
+[2023-07-14 10:46:46] INFO root fetch - processPackages [churchtools]: executing diffoscope
+[2023-07-14 10:46:46] INFO root fetch - processPackages [churchtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/churchtools-0.1.6.tar.gz tmp/churchtools-0.1.7.tar.gz --markdown 20230714/c/churchtools/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-14 10:46:46] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2023-07-14 10:46:46] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.5.9.dev0.tar.gz tmp/prophecy-libs-1.5.9.dev1.tar.gz --markdown 20230714/p/prophecy-libs/1.5.9.dev0-1.5.9.dev1/diff.md --exclude *.pyd
+[2023-07-14 10:46:46] INFO root fetch - processPackages [pylabolt]: executing diffoscope
+[2023-07-14 10:46:46] INFO root fetch - processPackages [pylabolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylabolt-0.1.1.tar.gz tmp/pylabolt-0.1.2.tar.gz --markdown 20230714/p/pylabolt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 10:46:46] INFO root fetch - processPackages [zhmcclient]: Downloading https://files.pythonhosted.org/packages/0e/0c/964970a0c6e1bbc3ab9c05b2d48d132b17e4df96f13e8a91fd396bd09d3a/zhmcclient-1.9.0.tar.gz
+[2023-07-14 10:46:46] INFO root fetch - processPackages [bbox-objected]: executing diffoscope
+[2023-07-14 10:46:46] INFO root fetch - processPackages [bbox-objected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbox_objected-0.1.5.tar.gz tmp/bbox_objected-0.1.6.tar.gz --markdown 20230714/b/bbox-objected/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-14 10:46:46] INFO root fetch - processPackages [reflex-ui]: Downloading https://files.pythonhosted.org/packages/4c/05/0a89fd04a52b8fe1ad735a33c717c760c7a99eb1d1d37a2824948d7dafe8/reflex_ui-0.1.2.tar.gz
+[2023-07-14 10:46:46] INFO root fetch - processPackages [x21]: Downloading https://files.pythonhosted.org/packages/76/7d/a1a28bf03d4ddb450a0004e07be72fa1c9a883ac739bd0b0fce5509b5188/x21-0.4.9-cp39-cp39-win_amd64.whl
+[2023-07-14 10:46:46] INFO root fetch - processPackages [spellbook-serve-client]: executing diffoscope
+[2023-07-14 10:46:46] INFO root fetch - processPackages [spellbook-serve-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spellbook_serve_client-0.0.0a0.tar.gz tmp/spellbook_serve_client-0.0.0a1.tar.gz --markdown 20230714/s/spellbook-serve-client/0.0.0a0-0.0.0a1/diff.md --exclude *.pyd
+[2023-07-14 10:46:46] INFO root fetch - processPackages [zhmcclient]: executing diffoscope
+[2023-07-14 10:46:46] INFO root fetch - processPackages [zhmcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmcclient-1.8.2.tar.gz tmp/zhmcclient-1.9.0.tar.gz --markdown 20230714/z/zhmcclient/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 10:46:46] INFO root fetch - processPackages [reflex-ui]: executing diffoscope
+[2023-07-14 10:46:46] INFO root fetch - processPackages [reflex-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex_ui-0.1.1.tar.gz tmp/reflex_ui-0.1.2.tar.gz --markdown 20230714/r/reflex-ui/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 10:46:46] INFO root fetch - processPackages [x21]: executing diffoscope
+[2023-07-14 10:46:46] INFO root fetch - processPackages [x21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x21-0.4.6-cp39-cp39-win_amd64.whl.zip tmp/x21-0.4.9-cp39-cp39-win_amd64.whl.zip --markdown 20230714/x/x21/0.4.6-0.4.9/diff.md --exclude *.pyd
+[2023-07-14 10:46:47] INFO root fetch - processPackages [fun-sentence-splitter]: Remove: archive file [/home/abi/fetcher/tmp/fun_sentence_splitter-0.1.344.post1.tar.gz]
+[2023-07-14 10:46:47] INFO root fetch - processPackages [fun-sentence-splitter]: Remove: archive file [/home/abi/fetcher/tmp/fun_sentence_splitter-0.2.344.tar.gz]
+[2023-07-14 10:46:47] INFO root fetch - processPackages [fun-sentence-splitter]: Start processing: ant-ask-me
+[2023-07-14 10:46:47] INFO root fetch - main [MainThread]: End processing [fun-sentence-splitter]: success
+[2023-07-14 10:46:47] WARNING root fetch - processPackages [ant-ask-me]: Skipping, unable to determine old version
+[2023-07-14 10:46:47] INFO root fetch - processPackages [ant-ask-me]: Start processing: churchtools
+[2023-07-14 10:46:47] INFO root fetch - main [MainThread]: End processing [ant-ask-me] error
+[2023-07-14 10:46:47] INFO root fetch - processPackages [churchtools]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-14 10:46:47] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.7.tar.gz]
+[2023-07-14 10:46:47] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.8.tar.gz]
+[2023-07-14 10:46:47] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-07-14 10:46:47] INFO root fetch - processPackages [churchtools]: Remove: archive file [/home/abi/fetcher/tmp/churchtools-0.1.6.tar.gz]
+[2023-07-14 10:46:47] INFO root fetch - processPackages [churchtools]: Remove: archive file [/home/abi/fetcher/tmp/churchtools-0.1.7.tar.gz]
+[2023-07-14 10:46:47] INFO root fetch - main [MainThread]: End processing [churchtools]: success
+[2023-07-14 10:46:47] INFO root fetch - processPackages [churchtools]: Downloading https://files.pythonhosted.org/packages/2a/bf/580fa681c4dc5d91377d775d4c880e39864e8d08ad8def0883dd0908dd73/churchtools-0.1.8.tar.gz
+[2023-07-14 10:46:48] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.5.9.dev0.tar.gz]
+[2023-07-14 10:46:48] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.5.9.dev1.tar.gz]
+[2023-07-14 10:46:48] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2023-07-14 10:46:48] INFO root fetch - processPackages [pylabolt]: Remove: archive file [/home/abi/fetcher/tmp/pylabolt-0.1.1.tar.gz]
+[2023-07-14 10:46:48] INFO root fetch - processPackages [spellbook-serve-client]: Remove: archive file [/home/abi/fetcher/tmp/spellbook_serve_client-0.0.0a0.tar.gz]
+[2023-07-14 10:46:48] INFO root fetch - processPackages [pylabolt]: Remove: archive file [/home/abi/fetcher/tmp/pylabolt-0.1.2.tar.gz]
+[2023-07-14 10:46:48] INFO root fetch - processPackages [spellbook-serve-client]: Remove: archive file [/home/abi/fetcher/tmp/spellbook_serve_client-0.0.0a1.tar.gz]
+[2023-07-14 10:46:48] INFO root fetch - main [MainThread]: End processing [pylabolt]: success
+[2023-07-14 10:46:48] INFO root fetch - main [MainThread]: End processing [spellbook-serve-client]: success
+[2023-07-14 10:46:48] INFO root fetch - processPackages [x21]: Remove: archive file [/home/abi/fetcher/tmp/x21-0.4.6-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 10:46:48] INFO root fetch - processPackages [x21]: Remove: archive file [/home/abi/fetcher/tmp/x21-0.4.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 10:46:48] INFO root fetch - main [MainThread]: End processing [x21]: success
+[2023-07-14 10:46:48] INFO root fetch - processPackages [bbox-objected]: Remove: archive file [/home/abi/fetcher/tmp/bbox_objected-0.1.5.tar.gz]
+[2023-07-14 10:46:48] INFO root fetch - processPackages [bbox-objected]: Remove: archive file [/home/abi/fetcher/tmp/bbox_objected-0.1.6.tar.gz]
+[2023-07-14 10:46:48] INFO root fetch - main [MainThread]: End processing [bbox-objected]: success
+[2023-07-14 10:46:48] INFO root fetch - processPackages [churchtools]: executing diffoscope
+[2023-07-14 10:46:48] INFO root fetch - processPackages [churchtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/churchtools-0.1.7.tar.gz tmp/churchtools-0.1.8.tar.gz --markdown 20230714/c/churchtools/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-14 10:46:48] INFO root fetch - processPackages [reflex-ui]: Remove: archive file [/home/abi/fetcher/tmp/reflex_ui-0.1.1.tar.gz]
+[2023-07-14 10:46:48] INFO root fetch - processPackages [reflex-ui]: Remove: archive file [/home/abi/fetcher/tmp/reflex_ui-0.1.2.tar.gz]
+[2023-07-14 10:46:48] INFO root fetch - main [MainThread]: End processing [reflex-ui]: success
+[2023-07-14 10:46:48] INFO root fetch - processPackages [zhmcclient]: Remove: archive file [/home/abi/fetcher/tmp/zhmcclient-1.8.2.tar.gz]
+[2023-07-14 10:46:48] INFO root fetch - processPackages [zhmcclient]: Remove: archive file [/home/abi/fetcher/tmp/zhmcclient-1.9.0.tar.gz]
+[2023-07-14 10:46:48] INFO root fetch - main [MainThread]: End processing [zhmcclient]: success
+[2023-07-14 10:46:48] ERROR root fetch - processPackages [churchtools]: Diffoscope failed: time="2023-07-14T10:46:48+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/churchtools-0.1.7.tar.gz: No such file or directory
+
+[2023-07-14 10:46:48] INFO root fetch - main [MainThread]: End processing [churchtools] error
+[2023-07-14 10:46:48] INFO root fetch - main [MainThread]: Store serial: [18887313]
