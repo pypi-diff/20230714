@@ -9411,3 +9411,96 @@
 [2023-07-14 04:06:00] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.13.1-py3-none-any.whl.zip]
 [2023-07-14 04:06:00] INFO root fetch - main [MainThread]: End processing [radstar]: success
 [2023-07-14 04:06:00] INFO root fetch - main [MainThread]: Store serial: [18884557]
+[2023-07-14 04:11:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18884557]
+[2023-07-14 04:11:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-14 04:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mock-cli-framework
+[2023-07-14 04:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyBigDFT
+[2023-07-14 04:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reliableGPT
+[2023-07-14 04:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ladybug-geometry
+[2023-07-14 04:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bank-of-ghana-fx-rates
+[2023-07-14 04:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mctech-discovery
+[2023-07-14 04:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onqlave-python-sdk-pilot
+[2023-07-14 04:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyquery-xpath
+[2023-07-14 04:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kirkwoodnight
+[2023-07-14 04:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eztils
+[2023-07-14 04:11:09] INFO root fetch - processPackages [eztils]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-07-14 04:11:09] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 04:11:09] INFO root fetch - processPackages [mctech-discovery]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-14 04:11:09] INFO root fetch - processPackages [bank-of-ghana-fx-rates]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 04:11:09] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-14 04:11:09] INFO root fetch - processPackages [mock-cli-framework]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-14 04:11:09] INFO root fetch - processPackages [PyBigDFT]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-14 04:11:09] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.997] Old Version: [0.2.996]
+[2023-07-14 04:11:09] INFO root fetch - processPackages [pyquery-xpath]: New version: [0.2] Old Version: [0.1]
+[2023-07-14 04:11:09] INFO root fetch - processPackages [ladybug-geometry]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-14 04:11:09] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/42/b3/f0d987e651611c973b7e074fb140fdd465c0c7a6e896e0b5c960ce985287/onqlave-python-sdk-pilot-0.0.3.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/b4/f5/a30c067df83f0b5b59464bea73e94904babc29b86194a660fc5c406cafe4/reliableGPT-0.2.996.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [PyBigDFT]: Downloading https://files.pythonhosted.org/packages/ab/81/6dea2fe8e979d288ff5388abb107b1612933bc71efbc41db39dd9660a434/pybigdft-1.0.6.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [mctech-discovery]: Downloading https://files.pythonhosted.org/packages/f5/6c/6de64293bf2e4cfd1cb1d318d6603498117cbe90b4e019a85610a3656c0e/mctech_discovery-1.0.2.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [pyquery-xpath]: Downloading https://files.pythonhosted.org/packages/24/5b/16d88aa2de2c34d5a589ae499c019ee4d40761c0a80421aee8bdbf1b50db/pyquery_xpath-0.1.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [bank-of-ghana-fx-rates]: Downloading https://files.pythonhosted.org/packages/fa/f2/77efe9d5c41ceaa5a86a05dac943eeb87db57fcecb21e904b83d19017650/bank-of-ghana-fx-rates-0.1.8.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [mock-cli-framework]: Downloading https://files.pythonhosted.org/packages/fd/ef/0a2005831811a1284bf64edd4a0d98042c6fc74c64451d1acbb12a246ba2/mock-cli-framework-0.5.0.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/73/b9/eb0d232df800d6e5dfa1247520f85cfb316c1f1c0f1fa86404231a512779/ladybug-geometry-1.8.1.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/8c/d0/df7b75d54a3c948caf559e99a63a29e1b2dbb24dcf620a19f62e7f3a94e4/eztils-0.3.6.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/14/26/f71ac6a2777502d6b1957820f1af05216aaf2f1b56652b953cadafd70b36/reliableGPT-0.2.997.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/7a/c8/67d2a873f10afe159bfb16db72449f3a7163b5c215f41c5a091d99d5be02/onqlave-python-sdk-pilot-0.0.4.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 04:11:09] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 04:11:09] INFO root fetch - processPackages [pyquery-xpath]: Downloading https://files.pythonhosted.org/packages/76/c4/41eb83211291ce4a49684b0a0f91952a8b33aa68fb7b05094a7c4a861f3e/pyquery_xpath-0.2.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-14 04:11:09] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.996.tar.gz tmp/reliableGPT-0.2.997.tar.gz --markdown 20230714/r/reliableGPT/0.2.996-0.2.997/diff.md --exclude *.pyd
+[2023-07-14 04:11:09] INFO root fetch - processPackages [bank-of-ghana-fx-rates]: Downloading https://files.pythonhosted.org/packages/3e/d1/3ad1511b420eecd129abeccac32a055e815682cb7098785970abbb7c9afc/bank-of-ghana-fx-rates-0.1.9.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [mctech-discovery]: Downloading https://files.pythonhosted.org/packages/84/0a/dd5c64eb740d2d05b9172d51882419cd119824e620db1b33266349ab9ddd/mctech_discovery-1.0.3-py3-none-any.whl
+[2023-07-14 04:11:09] INFO root fetch - processPackages [mock-cli-framework]: Downloading https://files.pythonhosted.org/packages/68/9c/928c1fccb11c9a4ba071fa3bb1c734b36ef93f4c41a794a552832d65a275/mock-cli-framework-0.5.1.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/db/dd/de27c6a6dcef7c085431a3aad2dd8e634158d64366b5a964062683c4cda5/eztils-0.4.0.tar.gz
+[2023-07-14 04:11:09] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: executing diffoscope
+[2023-07-14 04:11:09] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-sdk-pilot-0.0.3.tar.gz tmp/onqlave-python-sdk-pilot-0.0.4.tar.gz --markdown 20230714/o/onqlave-python-sdk-pilot/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-14 04:11:10] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/1d/6e/0f64e45efb187aa1304e9685bee2042ef1bd0a00daba0172bf39aadfa2b6/ladybug-geometry-1.9.0.tar.gz
+[2023-07-14 04:11:10] INFO root fetch - processPackages [pyquery-xpath]: executing diffoscope
+[2023-07-14 04:11:10] INFO root fetch - processPackages [bank-of-ghana-fx-rates]: executing diffoscope
+[2023-07-14 04:11:10] INFO root fetch - processPackages [pyquery-xpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquery_xpath-0.1.tar.gz tmp/pyquery_xpath-0.2.tar.gz --markdown 20230714/p/pyquery-xpath/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-14 04:11:10] INFO root fetch - processPackages [bank-of-ghana-fx-rates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bank-of-ghana-fx-rates-0.1.8.tar.gz tmp/bank-of-ghana-fx-rates-0.1.9.tar.gz --markdown 20230714/b/bank-of-ghana-fx-rates/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 04:11:10] INFO root fetch - processPackages [mock-cli-framework]: executing diffoscope
+[2023-07-14 04:11:10] INFO root fetch - processPackages [mock-cli-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock-cli-framework-0.5.0.tar.gz tmp/mock-cli-framework-0.5.1.tar.gz --markdown 20230714/m/mock-cli-framework/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-14 04:11:10] INFO root fetch - processPackages [mctech-discovery]: executing diffoscope
+[2023-07-14 04:11:10] INFO root fetch - processPackages [mctech-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mctech_discovery-1.0.2.tar.gz tmp/mctech_discovery-1.0.3-py3-none-any.whl.zip --markdown 20230714/m/mctech-discovery/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-14 04:11:10] INFO root fetch - processPackages [eztils]: executing diffoscope
+[2023-07-14 04:11:10] INFO root fetch - processPackages [eztils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eztils-0.3.6.tar.gz tmp/eztils-0.4.0.tar.gz --markdown 20230714/e/eztils/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-07-14 04:11:10] INFO root fetch - processPackages [ladybug-geometry]: executing diffoscope
+[2023-07-14 04:11:10] INFO root fetch - processPackages [ladybug-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-1.8.1.tar.gz tmp/ladybug-geometry-1.9.0.tar.gz --markdown 20230714/l/ladybug-geometry/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 04:11:10] INFO root fetch - processPackages [PyBigDFT]: Downloading https://files.pythonhosted.org/packages/67/1c/32063e5dc3a81784586c0aa9e01a8657d4dafcb87a3aa135e2e0e45ce5a3/pybigdft-1.0.7.tar.gz
+[2023-07-14 04:11:10] INFO root fetch - processPackages [PyBigDFT]: executing diffoscope
+[2023-07-14 04:11:10] INFO root fetch - processPackages [PyBigDFT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybigdft-1.0.6.tar.gz tmp/pybigdft-1.0.7.tar.gz --markdown 20230714/P/PyBigDFT/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-14 04:11:11] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.996.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.997.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-14 04:11:11] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 04:11:11] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.3.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.4.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - main [MainThread]: End processing [onqlave-python-sdk-pilot]: success
+[2023-07-14 04:11:11] INFO root fetch - processPackages [bank-of-ghana-fx-rates]: Remove: archive file [/home/abi/fetcher/tmp/bank-of-ghana-fx-rates-0.1.8.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - processPackages [bank-of-ghana-fx-rates]: Remove: archive file [/home/abi/fetcher/tmp/bank-of-ghana-fx-rates-0.1.9.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - main [MainThread]: End processing [bank-of-ghana-fx-rates]: success
+[2023-07-14 04:11:11] INFO root fetch - processPackages [pyquery-xpath]: Remove: archive file [/home/abi/fetcher/tmp/pyquery_xpath-0.1.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - processPackages [pyquery-xpath]: Remove: archive file [/home/abi/fetcher/tmp/pyquery_xpath-0.2.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - main [MainThread]: End processing [pyquery-xpath]: success
+[2023-07-14 04:11:11] INFO root fetch - processPackages [mctech-discovery]: Remove: archive file [/home/abi/fetcher/tmp/mctech_discovery-1.0.2.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - processPackages [mctech-discovery]: Remove: archive file [/home/abi/fetcher/tmp/mctech_discovery-1.0.3-py3-none-any.whl.zip]
+[2023-07-14 04:11:11] INFO root fetch - main [MainThread]: End processing [mctech-discovery]: success
+[2023-07-14 04:11:11] INFO root fetch - processPackages [mock-cli-framework]: Remove: archive file [/home/abi/fetcher/tmp/mock-cli-framework-0.5.0.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - processPackages [mock-cli-framework]: Remove: archive file [/home/abi/fetcher/tmp/mock-cli-framework-0.5.1.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - main [MainThread]: End processing [mock-cli-framework]: success
+[2023-07-14 04:11:11] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.3.6.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.0.tar.gz]
+[2023-07-14 04:11:11] INFO root fetch - main [MainThread]: End processing [eztils]: success
+[2023-07-14 04:11:12] INFO root fetch - processPackages [ladybug-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-1.8.1.tar.gz]
+[2023-07-14 04:11:12] INFO root fetch - processPackages [ladybug-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-1.9.0.tar.gz]
+[2023-07-14 04:11:12] INFO root fetch - main [MainThread]: End processing [ladybug-geometry]: success
+[2023-07-14 04:11:13] INFO root fetch - processPackages [PyBigDFT]: Remove: archive file [/home/abi/fetcher/tmp/pybigdft-1.0.6.tar.gz]
+[2023-07-14 04:11:13] INFO root fetch - processPackages [PyBigDFT]: Remove: archive file [/home/abi/fetcher/tmp/pybigdft-1.0.7.tar.gz]
+[2023-07-14 04:11:13] INFO root fetch - main [MainThread]: End processing [PyBigDFT]: success
+[2023-07-14 04:11:13] INFO root fetch - main [MainThread]: Store serial: [18884587]
