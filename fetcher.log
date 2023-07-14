@@ -5587,3 +5587,69 @@
 [2023-07-14 03:19:54] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
 [2023-07-14 03:19:54] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-14 03:19:54] INFO root fetch - main [MainThread]: Store serial: [18883276]
+[2023-07-14 03:24:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18883276]
+[2023-07-14 03:25:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ats-case
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reliableGPT
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kirkwoodnight
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AiBot.py
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reliableGPT
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ThalamusEngine
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: socscikit
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bento-sts
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: platos-closet
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-14 03:25:04] INFO root fetch - processPackages [AiBot.py]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ThalamusEngine]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-14 03:25:04] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.995] Old Version: [0.2.994]
+[2023-07-14 03:25:04] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 03:25:04] WARNING root fetch - processPackages [platos-closet]: Skipping, unable to determine old version
+[2023-07-14 03:25:04] INFO root fetch - main [MainThread]: End processing [platos-closet] error
+[2023-07-14 03:25:04] INFO root fetch - processPackages [socscikit]: New version: [0.0.4.1] Old Version: [0.0.4]
+[2023-07-14 03:25:04] WARNING root fetch - processPackages [bento-sts]: Skipping, unable to determine old version
+[2023-07-14 03:25:04] INFO root fetch - main [MainThread]: End processing [bento-sts] error
+[2023-07-14 03:25:04] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.995] Old Version: [0.2.994]
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-14 03:25:04] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 03:25:04] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/27/35/bab1f4468167b775415c0b7fe5c23526cac2e496ac62908b031ab8409adb/socscikit-0.0.4.tar.gz
+[2023-07-14 03:25:04] INFO root fetch - processPackages [ThalamusEngine]: Downloading https://files.pythonhosted.org/packages/62/9f/037bb2e4328ec03bf2e2922ecf5a06f7115369cf08085cac0c37616c469d/ThalamusEngine-0.1.4.tar.gz
+[2023-07-14 03:25:04] INFO root fetch - processPackages [AiBot.py]: Downloading https://files.pythonhosted.org/packages/4d/4f/b4f71aeb72b94df62212a79ac6dea326222b618c7fa2ac6fc1dd09d736d8/AiBot.py-1.2.5.tar.gz
+[2023-07-14 03:25:04] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/03/d8/43a234b18a1b15813c1cf013ee3212358c504793c46f05bb1e5406e4a5ed/reliableGPT-0.2.994.tar.gz
+[2023-07-14 03:25:04] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/03/d8/43a234b18a1b15813c1cf013ee3212358c504793c46f05bb1e5406e4a5ed/reliableGPT-0.2.994.tar.gz
+[2023-07-14 03:25:04] WARNING root fetch - processPackages [ThalamusEngine]: Skipping package: exceeds size limit 28942870>=10485760
+[2023-07-14 03:25:04] INFO root fetch - main [MainThread]: End processing [ThalamusEngine] error
+[2023-07-14 03:25:05] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-14 03:25:05] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 03:25:05] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-14 03:25:05] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230714/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-14 03:25:05] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 03:25:05] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 03:25:05] INFO root fetch - processPackages [AiBot.py]: Downloading https://files.pythonhosted.org/packages/53/cb/40038b8e4fdb2f867c06489d9d272cf3036fa445be38d5c5610e6d95220f/AiBot.py-1.2.6.tar.gz
+[2023-07-14 03:25:05] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/48/4c/3fa28763a761ec99fcb69eb09373b746ecbf6b82ee8e48982483aceaa22f/reliableGPT-0.2.995.tar.gz
+[2023-07-14 03:25:05] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/48/4c/3fa28763a761ec99fcb69eb09373b746ecbf6b82ee8e48982483aceaa22f/reliableGPT-0.2.995.tar.gz
+[2023-07-14 03:25:05] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/8d/17/655c7c7496b06e23a0ce466955b30cadfbf8b15f0f9f223326350553ffd4/socscikit-0.0.4.1.tar.gz
+[2023-07-14 03:25:05] INFO root fetch - processPackages [AiBot.py]: executing diffoscope
+[2023-07-14 03:25:05] INFO root fetch - processPackages [AiBot.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AiBot.py-1.2.5.tar.gz tmp/AiBot.py-1.2.6.tar.gz --markdown 20230714/A/AiBot.py/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-14 03:25:05] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-14 03:25:05] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.994.tar.gz tmp/reliableGPT-0.2.995.tar.gz --markdown 20230714/r/reliableGPT/0.2.994-0.2.995/diff.md --exclude *.pyd
+[2023-07-14 03:25:05] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-14 03:25:05] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.994.tar.gz tmp/reliableGPT-0.2.995.tar.gz --markdown 20230714/r/reliableGPT/0.2.994-0.2.995/diff.md --exclude *.pyd
+[2023-07-14 03:25:05] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-14 03:25:05] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.4.tar.gz tmp/socscikit-0.0.4.1.tar.gz --markdown 20230714/s/socscikit/0.0.4-0.0.4.1/diff.md --exclude *.pyd
+[2023-07-14 03:25:06] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-14 03:25:06] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-14 03:25:06] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-14 03:25:06] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-14 03:25:06] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-14 03:25:06] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 03:25:06] INFO root fetch - processPackages [AiBot.py]: Remove: archive file [/home/abi/fetcher/tmp/AiBot.py-1.2.5.tar.gz]
+[2023-07-14 03:25:06] INFO root fetch - processPackages [AiBot.py]: Remove: archive file [/home/abi/fetcher/tmp/AiBot.py-1.2.6.tar.gz]
+[2023-07-14 03:25:06] INFO root fetch - main [MainThread]: End processing [AiBot.py]: success
+[2023-07-14 03:25:06] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.994.tar.gz]
+[2023-07-14 03:25:06] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.995.tar.gz]
+[2023-07-14 03:25:06] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-14 03:25:06] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-14 03:25:07] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.4.tar.gz]
+[2023-07-14 03:25:07] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.4.1.tar.gz]
+[2023-07-14 03:25:07] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-14 03:25:07] INFO root fetch - main [MainThread]: Store serial: [18883309]
