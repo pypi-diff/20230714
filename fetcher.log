@@ -12980,3 +12980,95 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 07:46:47] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.1.tar.gz]
 [2023-07-14 07:46:47] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
 [2023-07-14 07:46:47] INFO root fetch - main [MainThread]: Store serial: [18885798]
+[2023-07-14 07:51:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885798]
+[2023-07-14 07:51:56] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-14 07:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domain-admin
+[2023-07-14 07:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudinit
+[2023-07-14 07:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libmata
+[2023-07-14 07:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botcity-cloudvision-plugin
+[2023-07-14 07:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-hr-timesheet-sheet
+[2023-07-14 07:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thunder-ase
+[2023-07-14 07:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zfl-ai
+[2023-07-14 07:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-secure-log-bucket
+[2023-07-14 07:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certbot-dns-godaddy
+[2023-07-14 07:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: abeja-sdk
+[2023-07-14 07:51:56] INFO root fetch - processPackages [certbot-dns-godaddy]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-14 07:51:56] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-07-14 07:51:56] INFO root fetch - processPackages [thunder-ase]: New version: [0.4.1] Old Version: [0.4]
+[2023-07-14 07:51:56] INFO root fetch - processPackages [zfl-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 07:51:56] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.4.0a1689312018] Old Version: [1.4.0a1687670371]
+[2023-07-14 07:51:56] INFO root fetch - processPackages [libmata]: New version: [0.79.0] Old Version: [0.78.0]
+[2023-07-14 07:51:56] INFO root fetch - processPackages [botcity-cloudvision-plugin]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-14 07:51:56] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-14 07:51:57] INFO root fetch - processPackages [abeja-sdk]: New version: [2.2.1rc1] Old Version: [2.2.1]
+[2023-07-14 07:51:57] WARNING root fetch - processPackages [aws-secure-log-bucket]: Skipping, unable to determine old version
+[2023-07-14 07:51:57] INFO root fetch - processPackages [aws-secure-log-bucket]: Start processing: pulumi-azuread
+[2023-07-14 07:51:57] INFO root fetch - main [MainThread]: End processing [aws-secure-log-bucket] error
+[2023-07-14 07:51:57] INFO root fetch - processPackages [certbot-dns-godaddy]: Downloading https://files.pythonhosted.org/packages/ae/04/3ea78af0dcc15c931367edcd5d37de36ab76fdbf7c2343373ad71dd79dcd/certbot_dns_godaddy-0.2.3.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [zfl-ai]: Downloading https://files.pythonhosted.org/packages/03/91/551384ced74a08245e2e33bc6408b3877abd30b2262ffd9a661984a15009/zfl_ai-0.0.8.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/4d/6f/2dbca44d86ffe91b5db262c2aacd4ba7172beb6c48b6787d4dd05f134a40/libmata-0.78.0.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/cf/8a/9cc7c036551445eb453e151e14bbb86b20d1ace1f71bec856badd8699d13/pulumi_cloudinit-1.4.0a1687670371.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/10/83/a9e799dac3d9b1205f309896e0b6ee5d7ae353105532e6c3852b5f255d7c/thunder-ase-0.4.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/42/56/31f73ced2f3f77e8f255cc833e458611b80114170feceec74918c9538001/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-14 07:51:57] WARNING root fetch - processPackages [zfl-ai]: Skipping package: exceeds size limit 30240283>=10485760
+[2023-07-14 07:51:57] INFO root fetch - main [MainThread]: End processing [zfl-ai] error
+[2023-07-14 07:51:57] INFO root fetch - processPackages [abeja-sdk]: Downloading https://files.pythonhosted.org/packages/13/c1/842eb4af9bead0f622759088a819ecc5d806b7ebb7115c52d9254594712b/abeja_sdk-2.2.1-py3-none-any.whl
+[2023-07-14 07:51:57] INFO root fetch - processPackages [botcity-cloudvision-plugin]: Downloading https://files.pythonhosted.org/packages/54/11/464c36c9ec1b97596319a3043cb50b936017f13a93fbdd7d7046e49b4e6e/botcity-cloudvision-plugin-0.1.5.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-07-14 07:51:57] INFO root fetch - processPackages [certbot-dns-godaddy]: Downloading https://files.pythonhosted.org/packages/9e/4a/be38bb24dd4ae27b2aa00f9612a3bb3b6225387b37a81ed9bdefd39aff27/certbot_dns_godaddy-0.2.4.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/c3/22/6c3ea4031a912d4245fbbdd6dad8a3ff81c3245b5455b3b0eef112cfa7b6/pulumi_cloudinit-1.4.0a1689312018.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/93/23/ec9afcca56d78d1b4656be012afa90cb7732e00244d799813802970bd196/thunder-ase-0.4.1.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [certbot-dns-godaddy]: executing diffoscope
+[2023-07-14 07:51:57] INFO root fetch - processPackages [certbot-dns-godaddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot_dns_godaddy-0.2.3.tar.gz tmp/certbot_dns_godaddy-0.2.4.tar.gz --markdown 20230714/c/certbot-dns-godaddy/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-14 07:51:57] INFO root fetch - processPackages [botcity-cloudvision-plugin]: Downloading https://files.pythonhosted.org/packages/9a/6b/f27fe29c64ee8e204636d92c2c7b28091d8368df806545461785cdc9275d/botcity-cloudvision-plugin-0.1.6.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/65/6b/d718f52c84fc728442e785d3863c068f27addba40014231b31c560a5b1c3/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-14 07:51:57] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/8e/e0/9a42dc33c4214370797a742000c70c0e6233ea5e1aea3084fc8c055f6381/libmata-0.79.0.tar.gz
+[2023-07-14 07:51:57] INFO root fetch - processPackages [thunder-ase]: executing diffoscope
+[2023-07-14 07:51:57] INFO root fetch - processPackages [thunder-ase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunder-ase-0.4.tar.gz tmp/thunder-ase-0.4.1.tar.gz --markdown 20230714/t/thunder-ase/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-07-14 07:51:57] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2023-07-14 07:51:57] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.4.0a1687670371.tar.gz tmp/pulumi_cloudinit-1.4.0a1689312018.tar.gz --markdown 20230714/p/pulumi-cloudinit/1.4.0a1687670371-1.4.0a1689312018/diff.md --exclude *.pyd
+[2023-07-14 07:51:57] INFO root fetch - processPackages [abeja-sdk]: Downloading https://files.pythonhosted.org/packages/df/00/73e4d7f83b99e76eb81037623eb8174cbbcfb64e0548f07c474a763bf48c/abeja_sdk-2.2.1rc1-py3-none-any.whl
+[2023-07-14 07:51:57] INFO root fetch - processPackages [botcity-cloudvision-plugin]: executing diffoscope
+[2023-07-14 07:51:57] INFO root fetch - processPackages [botcity-cloudvision-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botcity-cloudvision-plugin-0.1.5.tar.gz tmp/botcity-cloudvision-plugin-0.1.6.tar.gz --markdown 20230714/b/botcity-cloudvision-plugin/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-14 07:51:58] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-14 07:51:58] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230714/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-14 07:51:58] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-07-14 07:51:58] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-hr-timesheet-sheet/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-14 07:51:58] INFO root fetch - processPackages [abeja-sdk]: executing diffoscope
+[2023-07-14 07:51:58] INFO root fetch - processPackages [abeja-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abeja_sdk-2.2.1-py3-none-any.whl.zip tmp/abeja_sdk-2.2.1rc1-py3-none-any.whl.zip --markdown 20230714/a/abeja-sdk/2.2.1-2.2.1rc1/diff.md --exclude *.pyd
+[2023-07-14 07:51:58] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2023-07-14 07:51:58] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-07-14 07:51:58] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.78.0.tar.gz tmp/libmata-0.79.0.tar.gz --markdown 20230714/l/libmata/0.78.0-0.79.0/diff.md --exclude *.pyd
+[2023-07-14 07:51:58] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-07-14 07:51:58] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230714/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-07-14 07:51:58] INFO root fetch - processPackages [certbot-dns-godaddy]: Remove: archive file [/home/abi/fetcher/tmp/certbot_dns_godaddy-0.2.3.tar.gz]
+[2023-07-14 07:51:58] INFO root fetch - processPackages [certbot-dns-godaddy]: Remove: archive file [/home/abi/fetcher/tmp/certbot_dns_godaddy-0.2.4.tar.gz]
+[2023-07-14 07:51:58] INFO root fetch - main [MainThread]: End processing [certbot-dns-godaddy]: success
+[2023-07-14 07:51:59] INFO root fetch - processPackages [thunder-ase]: Remove: archive file [/home/abi/fetcher/tmp/thunder-ase-0.4.tar.gz]
+[2023-07-14 07:51:59] INFO root fetch - processPackages [thunder-ase]: Remove: archive file [/home/abi/fetcher/tmp/thunder-ase-0.4.1.tar.gz]
+[2023-07-14 07:51:59] INFO root fetch - main [MainThread]: End processing [thunder-ase]: success
+[2023-07-14 07:51:59] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.4.0a1687670371.tar.gz]
+[2023-07-14 07:51:59] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.4.0a1689312018.tar.gz]
+[2023-07-14 07:51:59] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2023-07-14 07:51:59] INFO root fetch - processPackages [botcity-cloudvision-plugin]: Remove: archive file [/home/abi/fetcher/tmp/botcity-cloudvision-plugin-0.1.5.tar.gz]
+[2023-07-14 07:51:59] INFO root fetch - processPackages [botcity-cloudvision-plugin]: Remove: archive file [/home/abi/fetcher/tmp/botcity-cloudvision-plugin-0.1.6.tar.gz]
+[2023-07-14 07:51:59] INFO root fetch - main [MainThread]: End processing [botcity-cloudvision-plugin]: success
+[2023-07-14 07:51:59] INFO root fetch - processPackages [abeja-sdk]: Remove: archive file [/home/abi/fetcher/tmp/abeja_sdk-2.2.1-py3-none-any.whl.zip]
+[2023-07-14 07:51:59] INFO root fetch - processPackages [abeja-sdk]: Remove: archive file [/home/abi/fetcher/tmp/abeja_sdk-2.2.1rc1-py3-none-any.whl.zip]
+[2023-07-14 07:51:59] INFO root fetch - main [MainThread]: End processing [abeja-sdk]: success
+[2023-07-14 07:51:59] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2023-07-14 07:51:59] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2023-07-14 07:51:59] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-07-14 07:52:00] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-14 07:52:00] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-14 07:52:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet]: success
+[2023-07-14 07:52:02] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.78.0.tar.gz]
+[2023-07-14 07:52:02] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.79.0.tar.gz]
+[2023-07-14 07:52:02] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-07-14 07:52:07] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-14 07:52:07] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-14 07:52:07] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-14 07:52:07] INFO root fetch - main [MainThread]: Store serial: [18885828]
