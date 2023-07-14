@@ -10456,3 +10456,149 @@
 [2023-07-14 05:03:48] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-14 05:03:48] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-14 05:03:48] INFO root fetch - main [MainThread]: Store serial: [18884919]
+[2023-07-14 05:08:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18884919]
+[2023-07-14 05:08:57] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-14 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyNNRW
+[2023-07-14 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-radiance
+[2023-07-14 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: underthesea
+[2023-07-14 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-product-contract
+[2023-07-14 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-product-contract
+[2023-07-14 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: radicalpy
+[2023-07-14 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-contract
+[2023-07-14 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codefast
+[2023-07-14 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-product-contract
+[2023-07-14 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sphinx-sql
+[2023-07-14 05:08:57] INFO root fetch - processPackages [odoo12-addon-product-contract]: New version: [12.0.5.3.1.99.dev3] Old Version: [12.0.5.3.1.99.dev2]
+[2023-07-14 05:08:57] INFO root fetch - processPackages [odoo13-addon-product-contract]: New version: [13.0.1.0.2.dev4] Old Version: [13.0.1.0.2.dev3]
+[2023-07-14 05:08:57] INFO root fetch - processPackages [codefast]: New version: [23.7.14.11] Old Version: [23.5.7.16]
+[2023-07-14 05:08:57] INFO root fetch - processPackages [underthesea]: New version: [6.4.0] Old Version: [6.3.0]
+[2023-07-14 05:08:57] INFO root fetch - processPackages [sphinx-sql]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-14 05:08:57] INFO root fetch - processPackages [pyNNRW]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-14 05:08:57] INFO root fetch - processPackages [odoo14-addon-product-contract]: New version: [14.0.1.1.1.dev2] Old Version: [14.0.1.1.1.dev1]
+[2023-07-14 05:08:57] INFO root fetch - processPackages [radicalpy]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-14 05:08:57] INFO root fetch - processPackages [odoo-addon-contract]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-07-14 05:08:58] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-14 05:08:58] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/de/2c/089d191bf8233e8cb178a8c24c32ca33b24e96f5ae53e3367d0d05d2f59b/odoo_addon_contract-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-14 05:08:58] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-07-14 05:08:58] INFO root fetch - processPackages [odoo12-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/b7/4c/433b5976318a76960059eb05d1208e07f4f0ff36c1ffc392756d7c555388/odoo12_addon_product_contract-12.0.5.3.1.99.dev2-py3-none-any.whl
+[2023-07-14 05:08:58] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/e1/dc/e5ab881162d1a6aa054fcf137d835cbddf14f9f3c79699515f32b9a706ef/codefast-23.5.7.16.tar.gz
+[2023-07-14 05:08:58] INFO root fetch - processPackages [odoo13-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/9f/0f/a3dbb197fee40d27159cea62147e94d24a42fbf7f11ba30c0267d182f71f/odoo13_addon_product_contract-13.0.1.0.2.dev3-py3-none-any.whl
+[2023-07-14 05:08:58] INFO root fetch - processPackages [underthesea]: Downloading https://files.pythonhosted.org/packages/78/01/916fa742f4b0cd611e88091a4ce2921f5013d252d3929645ded6a4852070/underthesea-6.3.0.tar.gz
+[2023-07-14 05:08:58] INFO root fetch - processPackages [pyNNRW]: Downloading https://files.pythonhosted.org/packages/d5/89/4f529f5ed6c512856618e32fe4db932dffc424c63880fa51258e760ee053/pyNNRW-0.3.4.tar.gz
+[2023-07-14 05:08:58] INFO root fetch - processPackages [odoo14-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/3f/b3/46c8a0b9f412bc17648a5dc760bd807ad16df234275138d342740885a04b/odoo14_addon_product_contract-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-07-14 05:08:58] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/4b/6e/8ea2218b7de26919f000826bf63e3a6ac973a3ead83d173a8c8ad370401c/radicalpy-0.6.1.tar.gz
+[2023-07-14 05:08:58] INFO root fetch - processPackages [sphinx-sql]: Downloading https://files.pythonhosted.org/packages/43/bf/4b3d1da2d5f428277d2c8cb022691a86de9c593f8ca96b6de470bb3958c7/sphinx-sql-1.3.4.tar.gz
+[2023-07-14 05:08:58] WARNING root fetch - processPackages [underthesea]: Skipping package: exceeds size limit 19745805>=10485760
+[2023-07-14 05:08:58] INFO root fetch - processPackages [underthesea]: Start processing: dragonfly-uwg
+[2023-07-14 05:08:58] INFO root fetch - main [MainThread]: End processing [underthesea] error
+[2023-07-14 05:08:58] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-14 05:08:58] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-07-14 05:08:58] INFO root fetch - processPackages [odoo12-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/48/db/75738566ff3894dd1c1e17f7d390aa6aec8a9ffb633fee5576a7e01a26cb/odoo12_addon_product_contract-12.0.5.3.1.99.dev3-py3-none-any.whl
+[2023-07-14 05:08:58] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/99/a7/03db30c0769c19c6dfb46f11bbab423f60bcb83d5fd0823556a674ce2b24/odoo_addon_contract-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-14 05:08:58] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/84/4c/d6eb6ee12d3d892fe3947d47a9a38a90e8a25601ed8fae71dd319f8a90b1/codefast-23.7.14.11.tar.gz
+[2023-07-14 05:08:58] INFO root fetch - processPackages [odoo13-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/b0/b9/4e5d27af96735c18b8fd47f5f5f15caaabf67ec4130fce3ec0cdb04865cb/odoo13_addon_product_contract-13.0.1.0.2.dev4-py3-none-any.whl
+[2023-07-14 05:08:58] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-14 05:08:58] INFO root fetch - processPackages [pyNNRW]: Downloading https://files.pythonhosted.org/packages/e9/68/72cd8535d75d69b150a153495e9e9ab608c08e70e4d96009c39d23b57754/pyNNRW-0.3.5.tar.gz
+[2023-07-14 05:08:58] INFO root fetch - processPackages [odoo14-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/49/2b/2d23c5b0dca7c8af21bab669b75fe76d3f6bf3ea70a74cfa233b115232ad/odoo14_addon_product_contract-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-07-14 05:08:58] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/c0/a7/3bb320b3f767b864977aaa8ff99b838f1cf128ea338d4e046ac6483c4fc7/radicalpy-0.6.2.tar.gz
+[2023-07-14 05:08:58] INFO root fetch - processPackages [sphinx-sql]: Downloading https://files.pythonhosted.org/packages/65/52/eaa1e5f342acd027dd04e89dffbe823427c896a1995ee79d637e3821e611/sphinx-sql-1.3.5.tar.gz
+[2023-07-14 05:08:59] INFO root fetch - processPackages [odoo12-addon-product-contract]: executing diffoscope
+[2023-07-14 05:08:59] INFO root fetch - processPackages [odoo12-addon-product-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_contract-12.0.5.3.1.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_product_contract-12.0.5.3.1.99.dev3-py3-none-any.whl.zip --markdown 20230714/o/odoo12-addon-product-contract/12.0.5.3.1.99.dev2-12.0.5.3.1.99.dev3/diff.md --exclude *.pyd
+[2023-07-14 05:08:59] INFO root fetch - processPackages [codefast]: executing diffoscope
+[2023-07-14 05:08:59] INFO root fetch - processPackages [codefast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codefast-23.5.7.16.tar.gz tmp/codefast-23.7.14.11.tar.gz --markdown 20230714/c/codefast/23.5.7.16-23.7.14.11/diff.md --exclude *.pyd
+[2023-07-14 05:08:59] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-14 05:08:59] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230714/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-14 05:08:59] INFO root fetch - processPackages [pyNNRW]: executing diffoscope
+[2023-07-14 05:08:59] INFO root fetch - processPackages [pyNNRW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyNNRW-0.3.4.tar.gz tmp/pyNNRW-0.3.5.tar.gz --markdown 20230714/p/pyNNRW/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-14 05:08:59] INFO root fetch - processPackages [odoo13-addon-product-contract]: executing diffoscope
+[2023-07-14 05:08:59] INFO root fetch - processPackages [odoo13-addon-product-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_product_contract-13.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo13_addon_product_contract-13.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230714/o/odoo13-addon-product-contract/13.0.1.0.2.dev3-13.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-07-14 05:08:59] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-07-14 05:08:59] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2023-07-14 05:08:59] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_contract-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-contract/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-07-14 05:08:59] INFO root fetch - processPackages [odoo14-addon-product-contract]: executing diffoscope
+[2023-07-14 05:08:59] INFO root fetch - processPackages [odoo14-addon-product-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_contract-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_product_contract-14.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230714/o/odoo14-addon-product-contract/14.0.1.1.1.dev1-14.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-07-14 05:08:59] INFO root fetch - processPackages [radicalpy]: executing diffoscope
+[2023-07-14 05:08:59] INFO root fetch - processPackages [radicalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radicalpy-0.6.1.tar.gz tmp/radicalpy-0.6.2.tar.gz --markdown 20230714/r/radicalpy/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-14 05:08:59] INFO root fetch - processPackages [sphinx-sql]: executing diffoscope
+[2023-07-14 05:08:59] INFO root fetch - processPackages [sphinx-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-sql-1.3.4.tar.gz tmp/sphinx-sql-1.3.5.tar.gz --markdown 20230714/s/sphinx-sql/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-14 05:08:59] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-07-14 05:08:59] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230714/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-14 05:09:00] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.8.tar.gz]
+[2023-07-14 05:09:00] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-14 05:09:00] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: simple-ts
+[2023-07-14 05:09:00] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-14 05:09:00] WARNING root fetch - processPackages [simple-ts]: Skipping, unable to determine old version
+[2023-07-14 05:09:00] INFO root fetch - processPackages [simple-ts]: Start processing: lbt-dragonfly
+[2023-07-14 05:09:00] INFO root fetch - main [MainThread]: End processing [simple-ts] error
+[2023-07-14 05:09:00] INFO root fetch - processPackages [odoo13-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_product_contract-13.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-07-14 05:09:00] INFO root fetch - processPackages [odoo13-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_product_contract-13.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2023-07-14 05:09:00] INFO root fetch - processPackages [odoo13-addon-product-contract]: Start processing: lbt-honeybee
+[2023-07-14 05:09:00] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-contract]: success
+[2023-07-14 05:09:01] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [pyNNRW]: Remove: archive file [/home/abi/fetcher/tmp/pyNNRW-0.3.4.tar.gz]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [pyNNRW]: Remove: archive file [/home/abi/fetcher/tmp/pyNNRW-0.3.5.tar.gz]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [pyNNRW]: Start processing: psychoanalyze
+[2023-07-14 05:09:01] INFO root fetch - main [MainThread]: End processing [pyNNRW]: success
+[2023-07-14 05:09:01] INFO root fetch - processPackages [sphinx-sql]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-sql-1.3.4.tar.gz]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [sphinx-sql]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-sql-1.3.5.tar.gz]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [sphinx-sql]: Start processing: laok
+[2023-07-14 05:09:01] INFO root fetch - main [MainThread]: End processing [sphinx-sql]: success
+[2023-07-14 05:09:01] INFO root fetch - processPackages [psychoanalyze]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-14 05:09:01] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.6.1.tar.gz]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.6.2.tar.gz]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [radicalpy]: Start processing: odoo-addon-sale-financial-risk-info
+[2023-07-14 05:09:01] INFO root fetch - main [MainThread]: End processing [radicalpy]: success
+[2023-07-14 05:09:01] INFO root fetch - processPackages [odoo12-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_contract-12.0.5.3.1.99.dev2-py3-none-any.whl.zip]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [odoo12-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_contract-12.0.5.3.1.99.dev3-py3-none-any.whl.zip]
+[2023-07-14 05:09:01] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-contract]: success
+[2023-07-14 05:09:01] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-14 05:09:01] INFO root fetch - processPackages [codefast]: Remove: archive file [/home/abi/fetcher/tmp/codefast-23.5.7.16.tar.gz]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [codefast]: Remove: archive file [/home/abi/fetcher/tmp/codefast-23.7.14.11.tar.gz]
+[2023-07-14 05:09:01] INFO root fetch - main [MainThread]: End processing [codefast]: success
+[2023-07-14 05:09:01] INFO root fetch - processPackages [odoo14-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_contract-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [odoo14-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_contract-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-07-14 05:09:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-contract]: success
+[2023-07-14 05:09:01] INFO root fetch - processPackages [laok]: New version: [0.2.19] Old Version: [0.2.18]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/db/6d/81bf8d7fa373f9f4fc347916742d104ad6c5478192f29c408b14cbc9ba34/psychoanalyze-0.4.9.tar.gz
+[2023-07-14 05:09:01] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-07-14 05:09:01] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-07-14 05:09:01] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-14 05:09:01] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-14 05:09:01] INFO root fetch - processPackages [laok]: Downloading https://files.pythonhosted.org/packages/c1/33/f102f4a3b259365ddfe77179621528cf48dae1ef96dc62395620bd9d66bf/laok-0.2.18.tar.gz
+[2023-07-14 05:09:01] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-14 05:09:01] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230714/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-14 05:09:01] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: Downloading https://files.pythonhosted.org/packages/99/52/d8738b38902b656fb54156e3ffc797db805fe7d52eb4c228dd2236fb6c74/odoo_addon_sale_financial_risk_info-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-14 05:09:01] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-14 05:09:01] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230714/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-14 05:09:01] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-14 05:09:01] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-14 05:09:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2023-07-14 05:09:01] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/3e/c3/af8ca455fc898761f645e4c1d279f98056ad7bdb3dd43d829451a6032fdb/psychoanalyze-0.5.0.tar.gz
+[2023-07-14 05:09:01] INFO root fetch - processPackages [laok]: Downloading https://files.pythonhosted.org/packages/3e/fc/41ddcd7181c6ca318734f746b1c3f4180ac2bb26242685a2025c9e5a4f77/laok-0.2.19.tar.gz
+[2023-07-14 05:09:01] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: Downloading https://files.pythonhosted.org/packages/85/6e/828e5040e75db7c3485418964b9dc0e4126561fac46eda689e263ff504d3/odoo_addon_sale_financial_risk_info-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-14 05:09:01] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-14 05:09:01] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.4.9.tar.gz tmp/psychoanalyze-0.5.0.tar.gz --markdown 20230714/p/psychoanalyze/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-07-14 05:09:02] INFO root fetch - processPackages [laok]: executing diffoscope
+[2023-07-14 05:09:02] INFO root fetch - processPackages [laok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laok-0.2.18.tar.gz tmp/laok-0.2.19.tar.gz --markdown 20230714/l/laok/0.2.18-0.2.19/diff.md --exclude *.pyd
+[2023-07-14 05:09:02] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: executing diffoscope
+[2023-07-14 05:09:02] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_financial_risk_info-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_financial_risk_info-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-sale-financial-risk-info/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-14 05:09:02] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-14 05:09:02] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-14 05:09:02] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-14 05:09:02] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-14 05:09:02] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-14 05:09:02] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-14 05:09:02] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.4.9.tar.gz]
+[2023-07-14 05:09:02] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.5.0.tar.gz]
+[2023-07-14 05:09:02] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-14 05:09:03] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_financial_risk_info-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-14 05:09:03] INFO root fetch - processPackages [odoo-addon-sale-financial-risk-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_financial_risk_info-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-14 05:09:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-financial-risk-info]: success
+[2023-07-14 05:09:03] INFO root fetch - processPackages [laok]: Remove: archive file [/home/abi/fetcher/tmp/laok-0.2.18.tar.gz]
+[2023-07-14 05:09:03] INFO root fetch - processPackages [laok]: Remove: archive file [/home/abi/fetcher/tmp/laok-0.2.19.tar.gz]
+[2023-07-14 05:09:03] INFO root fetch - main [MainThread]: End processing [laok]: success
+[2023-07-14 05:09:03] INFO root fetch - main [MainThread]: Store serial: [18884984]
