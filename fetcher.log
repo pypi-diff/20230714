@@ -11476,3 +11476,30 @@
 [2023-07-14 06:12:19] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
 [2023-07-14 06:12:19] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
 [2023-07-14 06:12:19] INFO root fetch - main [MainThread]: Store serial: [18885297]
+[2023-07-14 06:17:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885297]
+[2023-07-14 06:17:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-14 06:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starsign
+[2023-07-14 06:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hojichar
+[2023-07-14 06:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-ge
+[2023-07-14 06:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-url-tokenizer
+[2023-07-14 06:17:27] WARNING root fetch - processPackages [starsign]: Skipping, unable to determine old version
+[2023-07-14 06:17:27] INFO root fetch - main [MainThread]: End processing [starsign] error
+[2023-07-14 06:17:27] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 06:17:27] INFO root fetch - processPackages [hojichar]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-07-14 06:17:27] WARNING root fetch - processPackages [easy-ge]: Skipping, unable to determine old version
+[2023-07-14 06:17:27] INFO root fetch - main [MainThread]: End processing [easy-ge] error
+[2023-07-14 06:17:28] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-14 06:17:28] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/55/5d/c2f31d97c79675d7aed02024fc8e237b3bc9b513e477332d62be1e1f4e2f/hojichar-0.5.3.tar.gz
+[2023-07-14 06:17:28] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-14 06:17:28] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-14 06:17:28] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230714/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 06:17:28] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/a8/5a/d48d1d43422c98a818b0048f580e017d390b3af23144e8f9186567ee912e/hojichar-0.6.0.tar.gz
+[2023-07-14 06:17:28] INFO root fetch - processPackages [hojichar]: executing diffoscope
+[2023-07-14 06:17:28] INFO root fetch - processPackages [hojichar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hojichar-0.5.3.tar.gz tmp/hojichar-0.6.0.tar.gz --markdown 20230714/h/hojichar/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-07-14 06:17:29] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-14 06:17:29] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-14 06:17:29] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-14 06:17:29] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.5.3.tar.gz]
+[2023-07-14 06:17:29] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.6.0.tar.gz]
+[2023-07-14 06:17:29] INFO root fetch - main [MainThread]: End processing [hojichar]: success
+[2023-07-14 06:17:29] INFO root fetch - main [MainThread]: Store serial: [18885312]
