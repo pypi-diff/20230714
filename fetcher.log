@@ -20786,3 +20786,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-14 13:59:05] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
 [2023-07-14 13:59:05] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-07-14 13:59:05] INFO root fetch - main [MainThread]: Store serial: [18889123]
+[2023-07-14 14:04:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18889123]
+[2023-07-14 14:04:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-14 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pprint3x
+[2023-07-14 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: helios-rl
+[2023-07-14 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LiteClashProMan
+[2023-07-14 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wagtailimagecaptions
+[2023-07-14 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rabbitmq-utils
+[2023-07-14 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbx
+[2023-07-14 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datamazing
+[2023-07-14 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: celerabit-pipeline-integration
+[2023-07-14 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-grpc-lw-data-provider
+[2023-07-14 14:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SydneyGPT
+[2023-07-14 14:04:14] INFO root fetch - processPackages [LiteClashProMan]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-14 14:04:14] INFO root fetch - processPackages [wagtailimagecaptions]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 14:04:14] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-14 14:04:14] INFO root fetch - processPackages [datamazing]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-14 14:04:14] INFO root fetch - processPackages [SydneyGPT]: New version: [0.12.1] Old Version: [0.11.8]
+[2023-07-14 14:04:14] INFO root fetch - processPackages [rabbitmq-utils]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-07-14 14:04:14] INFO root fetch - processPackages [dbx]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-14 14:04:14] INFO root fetch - processPackages [pprint3x]: New version: [3.10.4.6] Old Version: [3.10.4.5]
+[2023-07-14 14:04:14] INFO root fetch - processPackages [celerabit-pipeline-integration]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-14 14:04:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5553826715]
+[2023-07-14 14:04:14] INFO root fetch - processPackages [wagtailimagecaptions]: Downloading https://files.pythonhosted.org/packages/d6/d2/76566197c0fe96bd4451f5b80522e97df8326b2dc49b7127631de42ba82c/wagtailimagecaptions-0.1.1.tar.gz
+[2023-07-14 14:04:14] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/a8/ec/d135817bc658d2e3b82898a4e4426da1f51ed0a7b8e6ea2659f505ecb2fb/datamazing-1.0.0.tar.gz
+[2023-07-14 14:04:14] INFO root fetch - processPackages [rabbitmq-utils]: Downloading https://files.pythonhosted.org/packages/ae/39/96fb902b2a4ba8c5a08ea986ef72d3f4965ec18d1cfc296aa22fe96b3a8d/rabbitmq-utils-1.2.1.tar.gz
+[2023-07-14 14:04:14] INFO root fetch - processPackages [LiteClashProMan]: Downloading https://files.pythonhosted.org/packages/5a/40/81e23f10c76c03b9fa45ab2c5ac53501067fcc52f5490540038251c8fd1a/liteclashproman-0.2.0.tar.gz
+[2023-07-14 14:04:14] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-14 14:04:14] INFO root fetch - processPackages [SydneyGPT]: Downloading https://files.pythonhosted.org/packages/cf/90/3a1577af82495529b5937d9a4b224d0923bf74bad9c9c13dacb422b9a24c/SydneyGPT-0.11.8.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [pprint3x]: Downloading https://files.pythonhosted.org/packages/46/14/8e031e7166ff26b889b47a405c845494b56ed83b70f1cd144660bcc1280c/pprint3x-3.10.4.5.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/ca/ac/0f6967ef9d0607340874ec32bd4e0e533f3e2e30258f1d9bc1532b443037/th2_grpc_lw_data_provider-2.0.0.dev5553826715.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [celerabit-pipeline-integration]: Downloading https://files.pythonhosted.org/packages/28/90/484d0512d7bc48c73c176702d9a256387efcd98a6b56c27dc6ff3871152a/celerabit-pipeline-integration-1.0.1.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [dbx]: Downloading https://files.pythonhosted.org/packages/4a/6f/cdb7e5d3f21562fc53f6987fbb39eddbb303bfd6ccc1a29e0c8fefdbaa14/dbx-0.8.8-py3-none-any.whl
+[2023-07-14 14:04:15] INFO root fetch - processPackages [wagtailimagecaptions]: Downloading https://files.pythonhosted.org/packages/4b/9b/c747098bee3d494a6aa34faf65831f8031cd9135b7dbb5802ea9f3e62868/wagtailimagecaptions-0.1.2.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/b8/8d/b55d38b710da33ea8a723e08a8122e11f8e16b9f2001501e05d045180a1e/datamazing-1.0.1.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [rabbitmq-utils]: Downloading https://files.pythonhosted.org/packages/71/65/d6e8e3c937c548623e37863b36ddf260d92992e624d7cd1bc9495541a42a/rabbitmq-utils-1.3.0.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [SydneyGPT]: Downloading https://files.pythonhosted.org/packages/4a/96/c7d970827f73a8298425bdbbdd26a5a4e3108a0dcfd3d752f58bbea2ba95/SydneyGPT-0.12.1.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [LiteClashProMan]: Downloading https://files.pythonhosted.org/packages/d8/75/d11af25265352bffe076b0e7d47ae7dbbd471b43f39f1fffbf714d54a17f/liteclashproman-0.2.1.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [pprint3x]: Downloading https://files.pythonhosted.org/packages/c3/05/ddba5ef7043a6f8dfa19e3369b1df039051063f140b4fbae185d4e90487e/pprint3x-3.10.4.6.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [celerabit-pipeline-integration]: Downloading https://files.pythonhosted.org/packages/83/d2/b85b35449323422c3c62fe6cbe11eccce56d2e58d193718f11bac3a7f712/celerabit-pipeline-integration-1.0.2.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [wagtailimagecaptions]: executing diffoscope
+[2023-07-14 14:04:15] INFO root fetch - processPackages [wagtailimagecaptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailimagecaptions-0.1.1.tar.gz tmp/wagtailimagecaptions-0.1.2.tar.gz --markdown 20230714/w/wagtailimagecaptions/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 14:04:15] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2023-07-14 14:04:15] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-1.0.0.tar.gz tmp/datamazing-1.0.1.tar.gz --markdown 20230714/d/datamazing/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-14 14:04:15] INFO root fetch - processPackages [rabbitmq-utils]: executing diffoscope
+[2023-07-14 14:04:15] INFO root fetch - processPackages [SydneyGPT]: executing diffoscope
+[2023-07-14 14:04:15] INFO root fetch - processPackages [rabbitmq-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbitmq-utils-1.2.1.tar.gz tmp/rabbitmq-utils-1.3.0.tar.gz --markdown 20230714/r/rabbitmq-utils/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-07-14 14:04:15] INFO root fetch - processPackages [SydneyGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SydneyGPT-0.11.8.tar.gz tmp/SydneyGPT-0.12.1.tar.gz --markdown 20230714/S/SydneyGPT/0.11.8-0.12.1/diff.md --exclude *.pyd
+[2023-07-14 14:04:15] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-14 14:04:15] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230714/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-14 14:04:15] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-07-14 14:04:15] INFO root fetch - processPackages [LiteClashProMan]: executing diffoscope
+[2023-07-14 14:04:15] INFO root fetch - processPackages [LiteClashProMan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteclashproman-0.2.0.tar.gz tmp/liteclashproman-0.2.1.tar.gz --markdown 20230714/L/LiteClashProMan/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-14 14:04:15] INFO root fetch - processPackages [pprint3x]: executing diffoscope
+[2023-07-14 14:04:15] INFO root fetch - processPackages [pprint3x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pprint3x-3.10.4.5.tar.gz tmp/pprint3x-3.10.4.6.tar.gz --markdown 20230714/p/pprint3x/3.10.4.5-3.10.4.6/diff.md --exclude *.pyd
+[2023-07-14 14:04:15] INFO root fetch - processPackages [celerabit-pipeline-integration]: executing diffoscope
+[2023-07-14 14:04:15] INFO root fetch - processPackages [celerabit-pipeline-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerabit-pipeline-integration-1.0.1.tar.gz tmp/celerabit-pipeline-integration-1.0.2.tar.gz --markdown 20230714/c/celerabit-pipeline-integration/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-14 14:04:15] INFO root fetch - processPackages [dbx]: Downloading https://files.pythonhosted.org/packages/6c/37/07bb3b0701caca23275b5ae6a911c5e142132a954743c1ccb9d5ed287846/dbx-0.8.9-py3-none-any.whl
+[2023-07-14 14:04:15] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-07-14 14:04:15] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5553826715.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230714/t/th2-grpc-lw-data-provider/2.0.0.dev5553826715-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-07-14 14:04:16] INFO root fetch - processPackages [dbx]: executing diffoscope
+[2023-07-14 14:04:16] INFO root fetch - processPackages [dbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbx-0.8.8-py3-none-any.whl.zip tmp/dbx-0.8.9-py3-none-any.whl.zip --markdown 20230714/d/dbx/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-14 14:04:17] INFO root fetch - processPackages [rabbitmq-utils]: Remove: archive file [/home/abi/fetcher/tmp/rabbitmq-utils-1.2.1.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [rabbitmq-utils]: Remove: archive file [/home/abi/fetcher/tmp/rabbitmq-utils-1.3.0.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [rabbitmq-utils]: Start processing: jupyter-on-golem
+[2023-07-14 14:04:17] INFO root fetch - main [MainThread]: End processing [rabbitmq-utils]: success
+[2023-07-14 14:04:17] INFO root fetch - processPackages [SydneyGPT]: Remove: archive file [/home/abi/fetcher/tmp/SydneyGPT-0.11.8.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [SydneyGPT]: Remove: archive file [/home/abi/fetcher/tmp/SydneyGPT-0.12.1.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [SydneyGPT]: Start processing: aorta-sirius-dev
+[2023-07-14 14:04:17] INFO root fetch - main [MainThread]: End processing [SydneyGPT]: success
+[2023-07-14 14:04:17] INFO root fetch - processPackages [jupyter-on-golem]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-1.0.0.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-1.0.1.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2023-07-14 14:04:17] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-14 14:04:17] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-14 14:04:17] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5553826715.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-07-14 14:04:17] INFO root fetch - processPackages [pprint3x]: Remove: archive file [/home/abi/fetcher/tmp/pprint3x-3.10.4.5.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [pprint3x]: Remove: archive file [/home/abi/fetcher/tmp/pprint3x-3.10.4.6.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - main [MainThread]: End processing [pprint3x]: success
+[2023-07-14 14:04:17] INFO root fetch - processPackages [celerabit-pipeline-integration]: Remove: archive file [/home/abi/fetcher/tmp/celerabit-pipeline-integration-1.0.1.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [celerabit-pipeline-integration]: Remove: archive file [/home/abi/fetcher/tmp/celerabit-pipeline-integration-1.0.2.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - main [MainThread]: End processing [celerabit-pipeline-integration]: success
+[2023-07-14 14:04:17] INFO root fetch - processPackages [LiteClashProMan]: Remove: archive file [/home/abi/fetcher/tmp/liteclashproman-0.2.0.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [LiteClashProMan]: Remove: archive file [/home/abi/fetcher/tmp/liteclashproman-0.2.1.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - main [MainThread]: End processing [LiteClashProMan]: success
+[2023-07-14 14:04:17] INFO root fetch - processPackages [jupyter-on-golem]: Downloading https://files.pythonhosted.org/packages/d7/29/d1b73b3d5d8e249dd5a83dd12937d74bdcb74780b3a817f3e9945f6a5a08/jupyter_on_golem-0.1.1.tar.gz
+[2023-07-14 14:04:17] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-14 14:04:17] INFO root fetch - processPackages [wagtailimagecaptions]: Remove: archive file [/home/abi/fetcher/tmp/wagtailimagecaptions-0.1.1.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [wagtailimagecaptions]: Remove: archive file [/home/abi/fetcher/tmp/wagtailimagecaptions-0.1.2.tar.gz]
+[2023-07-14 14:04:17] INFO root fetch - main [MainThread]: End processing [wagtailimagecaptions]: success
+[2023-07-14 14:04:17] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-14 14:04:17] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230714/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 14:04:17] INFO root fetch - processPackages [jupyter-on-golem]: Downloading https://files.pythonhosted.org/packages/f9/f1/7a0543ac9a555920d65c8998f3d5321c45d62273a72991527cf62ebb72cf/jupyter_on_golem-0.1.2.tar.gz
+[2023-07-14 14:04:17] INFO root fetch - processPackages [dbx]: Remove: archive file [/home/abi/fetcher/tmp/dbx-0.8.8-py3-none-any.whl.zip]
+[2023-07-14 14:04:17] INFO root fetch - processPackages [dbx]: Remove: archive file [/home/abi/fetcher/tmp/dbx-0.8.9-py3-none-any.whl.zip]
+[2023-07-14 14:04:17] INFO root fetch - main [MainThread]: End processing [dbx]: success
+[2023-07-14 14:04:17] INFO root fetch - processPackages [jupyter-on-golem]: executing diffoscope
+[2023-07-14 14:04:17] INFO root fetch - processPackages [jupyter-on-golem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_on_golem-0.1.1.tar.gz tmp/jupyter_on_golem-0.1.2.tar.gz --markdown 20230714/j/jupyter-on-golem/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 14:04:18] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-14 14:04:18] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-14 14:04:18] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-14 14:04:18] INFO root fetch - processPackages [jupyter-on-golem]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_on_golem-0.1.1.tar.gz]
+[2023-07-14 14:04:18] INFO root fetch - processPackages [jupyter-on-golem]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_on_golem-0.1.2.tar.gz]
+[2023-07-14 14:04:18] INFO root fetch - main [MainThread]: End processing [jupyter-on-golem]: success
+[2023-07-14 14:04:18] INFO root fetch - main [MainThread]: Store serial: [18889159]
