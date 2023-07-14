@@ -12914,3 +12914,69 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 07:41:35] INFO root fetch - processPackages [pyspike]: Remove: archive file [/home/abi/fetcher/tmp/pyspike-0.8.0.tar.gz]
 [2023-07-14 07:41:35] INFO root fetch - main [MainThread]: End processing [pyspike]: success
 [2023-07-14 07:41:35] INFO root fetch - main [MainThread]: Store serial: [18885776]
+[2023-07-14 07:46:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885776]
+[2023-07-14 07:46:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-14 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imdlib
+[2023-07-14 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelz-py
+[2023-07-14 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ndp-app-versioncontrol
+[2023-07-14 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whatsapp-chatbot-python
+[2023-07-14 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blendedUx-Lang
+[2023-07-14 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-auth0
+[2023-07-14 07:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redbrick-sdk
+[2023-07-14 07:46:45] INFO root fetch - processPackages [modelz-py]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-14 07:46:45] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-07-14 07:46:45] INFO root fetch - processPackages [imdlib]: New version: [0.1.9] Old Version: [0.1.8.1]
+[2023-07-14 07:46:45] INFO root fetch - processPackages [redbrick-sdk]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-14 07:46:45] INFO root fetch - processPackages [ndp-app-versioncontrol]: New version: [1.5] Old Version: [1.4]
+[2023-07-14 07:46:45] INFO root fetch - processPackages [whatsapp-chatbot-python]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-14 07:46:45] INFO root fetch - processPackages [blendedUx-Lang]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-14 07:46:45] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/6a/2f/5c2b10952b6a8abf7f8d3fed1df9386ff58b6199b36f2e93ead35b1f0067/ndp-app-versioncontrol-1.4.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/39/80/dc7084102f17b9bfc0989d45c43808a79888bb2b1ede233fc3c06f239087/redbrick-sdk-2.9.0.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [modelz-py]: Downloading https://files.pythonhosted.org/packages/dd/52/b15495d8c4c687b55037e6b820e8a44eb2e8e022b1e7b3592b3b0abe5988/modelz-py-0.3.2.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/3e/35/7d6e4499bceba97755c0134f6a13d88ed94dadff204afd15746602f4d885/pulumi_auth0-2.9.0a1651588791.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [imdlib]: Downloading https://files.pythonhosted.org/packages/34/f3/1fa877f3f0ec3b082186bf09870ca24da0c4af46e0a03afe8cee65d4cfc5/imdlib-0.1.8.1.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [blendedUx-Lang]: Downloading https://files.pythonhosted.org/packages/de/8b/838351f8c729dbf8de8f5b511e3de695d7da68356324ea1bccee450555b5/blendedUx_Lang-1.0.0.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [whatsapp-chatbot-python]: Downloading https://files.pythonhosted.org/packages/bb/37/2192893a4d5c7bc75e04407006461f43ea5575ff22b235e98dfdfff63686/whatsapp-chatbot-python-0.5.1.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/29/73/72f9e6fac05a2d5011c55a934a1ed6798b095060a6ed09bfd6fbe27910d8/ndp-app-versioncontrol-1.5.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [ndp-app-versioncontrol]: executing diffoscope
+[2023-07-14 07:46:45] INFO root fetch - processPackages [ndp-app-versioncontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndp-app-versioncontrol-1.4.tar.gz tmp/ndp-app-versioncontrol-1.5.tar.gz --markdown 20230714/n/ndp-app-versioncontrol/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-14 07:46:45] INFO root fetch - processPackages [whatsapp-chatbot-python]: Downloading https://files.pythonhosted.org/packages/8a/af/dc0552831e629955fc1f3fd7aced76b4895999d99e370d01a84d28f8a963/whatsapp-chatbot-python-0.5.2.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/19/fc/57f01dd941ba0ec2ad79d6e6f06dc951a65e89280d974bb8be71b3a6bc6a/pulumi_auth0-2.9.0a1653604814.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [modelz-py]: Downloading https://files.pythonhosted.org/packages/10/25/1bf603c22c0bceeb03fdcebfeb5fe57db3ae2453edd41304b13ad8b44675/modelz-py-0.3.3.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [blendedUx-Lang]: Downloading https://files.pythonhosted.org/packages/d5/33/7f6db744f0ca3f110b5043d09fcf5a772fed5da9f25959d282c6cbc5278d/blendedUx_Lang-1.1.0.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [imdlib]: Downloading https://files.pythonhosted.org/packages/fa/89/844c1d98badb49fbb67987b50626fd97cd1f6579bee1fd2488daa2fe79a0/imdlib-0.1.9.tar.gz
+[2023-07-14 07:46:45] INFO root fetch - processPackages [whatsapp-chatbot-python]: executing diffoscope
+[2023-07-14 07:46:45] INFO root fetch - processPackages [whatsapp-chatbot-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-chatbot-python-0.5.1.tar.gz tmp/whatsapp-chatbot-python-0.5.2.tar.gz --markdown 20230714/w/whatsapp-chatbot-python/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-14 07:46:45] INFO root fetch - processPackages [modelz-py]: executing diffoscope
+[2023-07-14 07:46:45] INFO root fetch - processPackages [modelz-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-py-0.3.2.tar.gz tmp/modelz-py-0.3.3.tar.gz --markdown 20230714/m/modelz-py/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-14 07:46:46] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-07-14 07:46:46] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230714/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-07-14 07:46:46] INFO root fetch - processPackages [blendedUx-Lang]: executing diffoscope
+[2023-07-14 07:46:46] INFO root fetch - processPackages [blendedUx-Lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blendedUx_Lang-1.0.0.tar.gz tmp/blendedUx_Lang-1.1.0.tar.gz --markdown 20230714/b/blendedUx-Lang/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-14 07:46:46] INFO root fetch - processPackages [imdlib]: executing diffoscope
+[2023-07-14 07:46:46] INFO root fetch - processPackages [imdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imdlib-0.1.8.1.tar.gz tmp/imdlib-0.1.9.tar.gz --markdown 20230714/i/imdlib/0.1.8.1-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 07:46:46] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/a7/76/019f7262b8485c21cf169b7845636395b17c40312c8ef76d03c3492c4218/redbrick-sdk-2.9.1.tar.gz
+[2023-07-14 07:46:46] INFO root fetch - processPackages [redbrick-sdk]: executing diffoscope
+[2023-07-14 07:46:46] INFO root fetch - processPackages [redbrick-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbrick-sdk-2.9.0.tar.gz tmp/redbrick-sdk-2.9.1.tar.gz --markdown 20230714/r/redbrick-sdk/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-14 07:46:46] INFO root fetch - processPackages [ndp-app-versioncontrol]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-versioncontrol-1.4.tar.gz]
+[2023-07-14 07:46:46] INFO root fetch - processPackages [ndp-app-versioncontrol]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-versioncontrol-1.5.tar.gz]
+[2023-07-14 07:46:46] INFO root fetch - main [MainThread]: End processing [ndp-app-versioncontrol]: success
+[2023-07-14 07:46:47] INFO root fetch - processPackages [modelz-py]: Remove: archive file [/home/abi/fetcher/tmp/modelz-py-0.3.2.tar.gz]
+[2023-07-14 07:46:47] INFO root fetch - processPackages [modelz-py]: Remove: archive file [/home/abi/fetcher/tmp/modelz-py-0.3.3.tar.gz]
+[2023-07-14 07:46:47] INFO root fetch - main [MainThread]: End processing [modelz-py]: success
+[2023-07-14 07:46:47] INFO root fetch - processPackages [whatsapp-chatbot-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-chatbot-python-0.5.1.tar.gz]
+[2023-07-14 07:46:47] INFO root fetch - processPackages [whatsapp-chatbot-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-chatbot-python-0.5.2.tar.gz]
+[2023-07-14 07:46:47] INFO root fetch - main [MainThread]: End processing [whatsapp-chatbot-python]: success
+[2023-07-14 07:46:47] INFO root fetch - processPackages [imdlib]: Remove: archive file [/home/abi/fetcher/tmp/imdlib-0.1.8.1.tar.gz]
+[2023-07-14 07:46:47] INFO root fetch - processPackages [imdlib]: Remove: archive file [/home/abi/fetcher/tmp/imdlib-0.1.9.tar.gz]
+[2023-07-14 07:46:47] INFO root fetch - main [MainThread]: End processing [imdlib]: success
+[2023-07-14 07:46:47] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1651588791.tar.gz]
+[2023-07-14 07:46:47] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1653604814.tar.gz]
+[2023-07-14 07:46:47] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-07-14 07:46:47] INFO root fetch - processPackages [blendedUx-Lang]: Remove: archive file [/home/abi/fetcher/tmp/blendedUx_Lang-1.0.0.tar.gz]
+[2023-07-14 07:46:47] INFO root fetch - processPackages [blendedUx-Lang]: Remove: archive file [/home/abi/fetcher/tmp/blendedUx_Lang-1.1.0.tar.gz]
+[2023-07-14 07:46:47] INFO root fetch - main [MainThread]: End processing [blendedUx-Lang]: success
+[2023-07-14 07:46:47] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.0.tar.gz]
+[2023-07-14 07:46:47] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.1.tar.gz]
+[2023-07-14 07:46:47] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
+[2023-07-14 07:46:47] INFO root fetch - main [MainThread]: Store serial: [18885798]
