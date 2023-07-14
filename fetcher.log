@@ -13072,3 +13072,119 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 07:52:07] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
 [2023-07-14 07:52:07] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-14 07:52:07] INFO root fetch - main [MainThread]: Store serial: [18885828]
+[2023-07-14 07:57:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885828]
+[2023-07-14 07:57:15] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-14 07:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdal2numpy
+[2023-07-14 07:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyangbind
+[2023-07-14 07:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: casbin
+[2023-07-14 07:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: general-calculator-zsd
+[2023-07-14 07:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-databricks
+[2023-07-14 07:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyprshade
+[2023-07-14 07:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nicegui
+[2023-07-14 07:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyutils-hyutil-hoyun-lab
+[2023-07-14 07:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blendedux
+[2023-07-14 07:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: heisenbridge
+[2023-07-14 07:57:16] INFO root fetch - processPackages [heisenbridge]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-14 07:57:16] INFO root fetch - processPackages [hyprshade]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-14 07:57:16] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2023-07-14 07:57:16] INFO root fetch - processPackages [blendedux]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-14 07:57:16] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 07:57:16] INFO root fetch - processPackages [pyangbind]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-14 07:57:16] INFO root fetch - processPackages [casbin]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-14 07:57:16] INFO root fetch - processPackages [general-calculator-zsd]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-14 07:57:16] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: New version: [0.0.7.0] Old Version: [0.0.6.9]
+[2023-07-14 07:57:16] INFO root fetch - processPackages [nicegui]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-14 07:57:16] INFO root fetch - processPackages [hyprshade]: Downloading https://files.pythonhosted.org/packages/d3/a3/493272e3b190e660208473b8f224ab2c401528d4dab8620e1d8693801cc7/hyprshade-0.6.0.tar.gz
+[2023-07-14 07:57:16] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-14 07:57:16] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/7b/e8/47beecd7cd740829b0cb68ef418b3f8f8604910fe9e1be23684722f10416/nicegui-1.3.0.tar.gz
+[2023-07-14 07:57:16] INFO root fetch - processPackages [casbin]: Downloading https://files.pythonhosted.org/packages/e0/4b/6705f46f38bf244de36891801411a8a9ba15af8bf995b7fa418b4b92c844/casbin-1.9.6.tar.gz
+[2023-07-14 07:57:16] INFO root fetch - processPackages [heisenbridge]: Downloading https://files.pythonhosted.org/packages/63/a8/cbad209594b4d4a178ae6608741034bfc8cc02d770d187e372d149eac367/heisenbridge-1.8.2.tar.gz
+[2023-07-14 07:57:16] WARNING root fetch - processPackages [nicegui]: Skipping package: exceeds size limit 12576821>=10485760
+[2023-07-14 07:57:16] INFO root fetch - processPackages [nicegui]: Start processing: easy-ge
+[2023-07-14 07:57:16] INFO root fetch - main [MainThread]: End processing [nicegui] error
+[2023-07-14 07:57:16] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/e3/f1/0d4ba504ba19efe0294121c7489ad00b225bf1f1c3a595824dcead50061a/hyutils-hyutil-hoyun-lab-0.0.6.9.tar.gz
+[2023-07-14 07:57:16] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2023-07-14 07:57:16] INFO root fetch - processPackages [blendedux]: Downloading https://files.pythonhosted.org/packages/82/ef/5a0f89287d3c13f8a599c5ad893aef170ff5754d19bb53be2213ff72b9c0/blendedux-0.0.2.tar.gz
+[2023-07-14 07:57:16] INFO root fetch - processPackages [pyangbind]: Downloading https://files.pythonhosted.org/packages/2e/20/7b3f2de320d120e845bce141148a23522fccb089b76ae0c76b5d5623d515/pyangbind-0.8.1.tar.gz
+[2023-07-14 07:57:16] INFO root fetch - processPackages [easy-ge]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 07:57:16] INFO root fetch - processPackages [general-calculator-zsd]: Downloading https://files.pythonhosted.org/packages/6c/f7/6d258ca7ec1e56f56a4870f20807be549ef6404522a70a01ea2e2e81e964/general_calculator_zsd-1.2.1.tar.gz
+[2023-07-14 07:57:16] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-14 07:57:16] INFO root fetch - processPackages [easy-ge]: Downloading https://files.pythonhosted.org/packages/0d/59/5598771492e64ec0f799e5f31aef0cfcba8554b0881202cfbd3076a32b7b/easy_ge-0.1.8.tar.gz
+[2023-07-14 07:57:16] INFO root fetch - processPackages [hyprshade]: Downloading https://files.pythonhosted.org/packages/cc/21/475a60a4bb3cb64cc87cf7afab564ffe9e3345fcdcf793b550d356585674/hyprshade-0.6.1.tar.gz
+[2023-07-14 07:57:17] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/ba/20/bc575788fa150aca645607e997115c0eb9cb7f5500e3019b5ad75691ad49/hyutils-hyutil-hoyun-lab-0.0.7.0.tar.gz
+[2023-07-14 07:57:17] INFO root fetch - processPackages [hyprshade]: executing diffoscope
+[2023-07-14 07:57:17] INFO root fetch - processPackages [hyprshade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyprshade-0.6.0.tar.gz tmp/hyprshade-0.6.1.tar.gz --markdown 20230714/h/hyprshade/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-14 07:57:17] INFO root fetch - processPackages [pyangbind]: Downloading https://files.pythonhosted.org/packages/e1/dc/44b3936e2052d05816815ccb9b2862730542183cfeb855269a8a7fc42982/pyangbind-0.8.2.tar.gz
+[2023-07-14 07:57:17] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-14 07:57:17] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230714/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 07:57:17] INFO root fetch - processPackages [heisenbridge]: Downloading https://files.pythonhosted.org/packages/c3/2f/5e4e71ed6bea3b9a897920e25bb12f7576c3dca1690c442436010ce26b74/heisenbridge-1.9.0.tar.gz
+[2023-07-14 07:57:17] INFO root fetch - processPackages [casbin]: Downloading https://files.pythonhosted.org/packages/26/02/6fc77035e3ebdb3b90d105af40fe549419f2ba4d4fa30025b5d5baa1d172/casbin-1.9.7.tar.gz
+[2023-07-14 07:57:17] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2023-07-14 07:57:17] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: executing diffoscope
+[2023-07-14 07:57:17] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyutils-hyutil-hoyun-lab-0.0.6.9.tar.gz tmp/hyutils-hyutil-hoyun-lab-0.0.7.0.tar.gz --markdown 20230714/h/hyutils-hyutil-hoyun-lab/0.0.6.9-0.0.7.0/diff.md --exclude *.pyd
+[2023-07-14 07:57:17] INFO root fetch - processPackages [blendedux]: Downloading https://files.pythonhosted.org/packages/0f/b2/03dff23d95840d6e9f0f8c9eb06ecee36555e071bcfbcf58ce47ba2dcbf7/blendedux-0.1.0.tar.gz
+[2023-07-14 07:57:17] INFO root fetch - processPackages [general-calculator-zsd]: Downloading https://files.pythonhosted.org/packages/78/ce/3e1c77f7aff6412abf96949e95fba4df10347f0c68fee7afbf42d8ffbb5b/general_calculator_zsd-1.2.2.tar.gz
+[2023-07-14 07:57:17] INFO root fetch - processPackages [easy-ge]: Downloading https://files.pythonhosted.org/packages/a5/36/12aa9c368034d71c9fd2a16c95830401d15448986ffbc741fe2d80d2ab6c/easy_ge-0.1.9.tar.gz
+[2023-07-14 07:57:17] INFO root fetch - processPackages [pyangbind]: executing diffoscope
+[2023-07-14 07:57:17] INFO root fetch - processPackages [pyangbind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyangbind-0.8.1.tar.gz tmp/pyangbind-0.8.2.tar.gz --markdown 20230714/p/pyangbind/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-14 07:57:17] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2023-07-14 07:57:17] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20230714/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/diff.md --exclude *.pyd
+[2023-07-14 07:57:17] INFO root fetch - processPackages [blendedux]: executing diffoscope
+[2023-07-14 07:57:17] INFO root fetch - processPackages [blendedux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blendedux-0.0.2.tar.gz tmp/blendedux-0.1.0.tar.gz --markdown 20230714/b/blendedux/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-14 07:57:17] INFO root fetch - processPackages [easy-ge]: executing diffoscope
+[2023-07-14 07:57:17] INFO root fetch - processPackages [easy-ge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_ge-0.1.8.tar.gz tmp/easy_ge-0.1.9.tar.gz --markdown 20230714/e/easy-ge/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 07:57:17] INFO root fetch - processPackages [general-calculator-zsd]: executing diffoscope
+[2023-07-14 07:57:17] INFO root fetch - processPackages [general-calculator-zsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_calculator_zsd-1.2.1.tar.gz tmp/general_calculator_zsd-1.2.2.tar.gz --markdown 20230714/g/general-calculator-zsd/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-14 07:57:17] INFO root fetch - processPackages [heisenbridge]: executing diffoscope
+[2023-07-14 07:57:17] INFO root fetch - processPackages [heisenbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heisenbridge-1.8.2.tar.gz tmp/heisenbridge-1.9.0.tar.gz --markdown 20230714/h/heisenbridge/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 07:57:17] INFO root fetch - processPackages [casbin]: executing diffoscope
+[2023-07-14 07:57:17] INFO root fetch - processPackages [casbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casbin-1.9.6.tar.gz tmp/casbin-1.9.7.tar.gz --markdown 20230714/c/casbin/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-14 07:57:18] INFO root fetch - processPackages [hyprshade]: Remove: archive file [/home/abi/fetcher/tmp/hyprshade-0.6.0.tar.gz]
+[2023-07-14 07:57:18] INFO root fetch - processPackages [hyprshade]: Remove: archive file [/home/abi/fetcher/tmp/hyprshade-0.6.1.tar.gz]
+[2023-07-14 07:57:18] INFO root fetch - processPackages [hyprshade]: Start processing: pulumi-cloudamqp
+[2023-07-14 07:57:18] INFO root fetch - main [MainThread]: End processing [hyprshade]: success
+[2023-07-14 07:57:18] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-07-14 07:57:18] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-14 07:57:18] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-14 07:57:18] INFO root fetch - processPackages [gdal2numpy]: Start processing: pulumi-cloudflare
+[2023-07-14 07:57:18] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-14 07:57:18] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.6.0a1689276308] Old Version: [5.6.0]
+[2023-07-14 07:57:18] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.6.9.tar.gz]
+[2023-07-14 07:57:18] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.7.0.tar.gz]
+[2023-07-14 07:57:18] INFO root fetch - main [MainThread]: End processing [hyutils-hyutil-hoyun-lab]: success
+[2023-07-14 07:57:18] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/8a/ea/42c8ad0f79800a9b66a32a6cec7cceadc3e5da740e76cb5649fd9995171b/pulumi_cloudflare-5.6.0.tar.gz
+[2023-07-14 07:57:18] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2023-07-14 07:57:19] INFO root fetch - processPackages [easy-ge]: Remove: archive file [/home/abi/fetcher/tmp/easy_ge-0.1.8.tar.gz]
+[2023-07-14 07:57:19] INFO root fetch - processPackages [easy-ge]: Remove: archive file [/home/abi/fetcher/tmp/easy_ge-0.1.9.tar.gz]
+[2023-07-14 07:57:19] INFO root fetch - main [MainThread]: End processing [easy-ge]: success
+[2023-07-14 07:57:19] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ee/94/c075813d25067dbcd5dac9885dbe39052ad5b169cfae1f537d4b171d87da/pulumi_cloudflare-5.6.0a1689276308.tar.gz
+[2023-07-14 07:57:19] INFO root fetch - processPackages [general-calculator-zsd]: Remove: archive file [/home/abi/fetcher/tmp/general_calculator_zsd-1.2.1.tar.gz]
+[2023-07-14 07:57:19] INFO root fetch - processPackages [general-calculator-zsd]: Remove: archive file [/home/abi/fetcher/tmp/general_calculator_zsd-1.2.2.tar.gz]
+[2023-07-14 07:57:19] INFO root fetch - main [MainThread]: End processing [general-calculator-zsd]: success
+[2023-07-14 07:57:19] INFO root fetch - processPackages [pyangbind]: Remove: archive file [/home/abi/fetcher/tmp/pyangbind-0.8.1.tar.gz]
+[2023-07-14 07:57:19] INFO root fetch - processPackages [pyangbind]: Remove: archive file [/home/abi/fetcher/tmp/pyangbind-0.8.2.tar.gz]
+[2023-07-14 07:57:19] INFO root fetch - main [MainThread]: End processing [pyangbind]: success
+[2023-07-14 07:57:19] INFO root fetch - processPackages [heisenbridge]: Remove: archive file [/home/abi/fetcher/tmp/heisenbridge-1.8.2.tar.gz]
+[2023-07-14 07:57:19] INFO root fetch - processPackages [heisenbridge]: Remove: archive file [/home/abi/fetcher/tmp/heisenbridge-1.9.0.tar.gz]
+[2023-07-14 07:57:19] INFO root fetch - main [MainThread]: End processing [heisenbridge]: success
+[2023-07-14 07:57:19] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-07-14 07:57:19] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.6.0.tar.gz tmp/pulumi_cloudflare-5.6.0a1689276308.tar.gz --markdown 20230714/p/pulumi-cloudflare/5.6.0-5.6.0a1689276308/diff.md --exclude *.pyd
+[2023-07-14 07:57:19] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2023-07-14 07:57:19] INFO root fetch - processPackages [casbin]: Remove: archive file [/home/abi/fetcher/tmp/casbin-1.9.6.tar.gz]
+[2023-07-14 07:57:19] INFO root fetch - processPackages [casbin]: Remove: archive file [/home/abi/fetcher/tmp/casbin-1.9.7.tar.gz]
+[2023-07-14 07:57:19] INFO root fetch - main [MainThread]: End processing [casbin]: success
+[2023-07-14 07:57:19] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2023-07-14 07:57:19] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20230714/p/pulumi-cloudamqp/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-07-14 07:57:19] INFO root fetch - processPackages [blendedux]: Remove: archive file [/home/abi/fetcher/tmp/blendedux-0.0.2.tar.gz]
+[2023-07-14 07:57:19] INFO root fetch - processPackages [blendedux]: Remove: archive file [/home/abi/fetcher/tmp/blendedux-0.1.0.tar.gz]
+[2023-07-14 07:57:19] INFO root fetch - main [MainThread]: End processing [blendedux]: success
+[2023-07-14 07:57:20] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2023-07-14 07:57:20] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2023-07-14 07:57:20] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2023-07-14 07:57:20] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2023-07-14 07:57:20] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2023-07-14 07:57:20] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2023-07-14 07:57:20] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.6.0.tar.gz]
+[2023-07-14 07:57:20] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.6.0a1689276308.tar.gz]
+[2023-07-14 07:57:20] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-07-14 07:57:20] INFO root fetch - main [MainThread]: Store serial: [18885860]
