@@ -19484,3 +19484,129 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 13:05:58] INFO root fetch - processPackages [amukhsimov-jupyter-templates-bigdata]: Remove: archive file [/home/abi/fetcher/tmp/amukhsimov-jupyter-templates-bigdata-0.0.9.tar.gz]
 [2023-07-14 13:05:58] INFO root fetch - main [MainThread]: End processing [amukhsimov-jupyter-templates-bigdata]: success
 [2023-07-14 13:05:58] INFO root fetch - main [MainThread]: Store serial: [18888597]
+[2023-07-14 13:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888597]
+[2023-07-14 13:11:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-14 13:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wasmpy-build
+[2023-07-14 13:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fiddler-client
+[2023-07-14 13:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sosse
+[2023-07-14 13:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-admin-index
+[2023-07-14 13:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlflow-tritonserver
+[2023-07-14 13:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mayorpdf
+[2023-07-14 13:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Coquille
+[2023-07-14 13:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funasr
+[2023-07-14 13:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dolang
+[2023-07-14 13:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drupal-scout
+[2023-07-14 13:11:07] INFO root fetch - processPackages [funasr]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-07-14 13:11:07] INFO root fetch - processPackages [wasmpy-build]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-14 13:11:07] INFO root fetch - processPackages [drupal-scout]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-14 13:11:07] WARNING root fetch - processPackages [mayorpdf]: Skipping, unable to determine old version
+[2023-07-14 13:11:07] INFO root fetch - processPackages [mayorpdf]: Start processing: isometry
+[2023-07-14 13:11:07] INFO root fetch - main [MainThread]: End processing [mayorpdf] error
+[2023-07-14 13:11:07] INFO root fetch - processPackages [mlflow-tritonserver]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-14 13:11:07] INFO root fetch - processPackages [Coquille]: New version: [1.0.0] Old Version: [0.1.4]
+[2023-07-14 13:11:07] INFO root fetch - processPackages [sosse]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-14 13:11:07] INFO root fetch - processPackages [dolang]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 13:11:07] INFO root fetch - processPackages [django-admin-index]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-14 13:11:07] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev6] Old Version: [2.0.0.dev5]
+[2023-07-14 13:11:07] WARNING root fetch - processPackages [isometry]: Skipping, unable to determine old version
+[2023-07-14 13:11:07] INFO root fetch - processPackages [isometry]: Start processing: hydrusvideodeduplicator
+[2023-07-14 13:11:07] INFO root fetch - main [MainThread]: End processing [isometry] error
+[2023-07-14 13:11:07] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/17/5b/e37d195c20311c26df2570bcf8ff1648f66f31c6383e27434be0ad47cb30/funasr-0.6.9.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/9c/1a/2644eb8ce64920f49707b494d2502c9819d3fc552e7b1da47a5ab1b963c7/wasmpy-build-0.3.1.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-14 13:11:07] INFO root fetch - processPackages [drupal-scout]: Downloading https://files.pythonhosted.org/packages/e4/be/76b72ada42d69c0e1241b47749a42ac70b0722a0ebe3b4b46c3508425f35/drupal-scout-1.0.0.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/e8/22/96588e8fb8a498c049df0ed44703b9d1cba0a6df7e517aa4f12109cc1a11/Coquille-0.1.4.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [django-admin-index]: Downloading https://files.pythonhosted.org/packages/1d/ec/411bc4bd26112b98d8253b84b19881ca516782f5f8c44d60888542aa44a1/django-admin-index-3.0.0.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [mlflow-tritonserver]: Downloading https://files.pythonhosted.org/packages/95/0a/5a0f6e960044a1a22db40c63a53f03f2ef75c8e313c41475d8927193d7a0/mlflow-tritonserver-1.0.0.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [dolang]: Downloading https://files.pythonhosted.org/packages/86/cb/8e5a39bfe6c4bd89d4701005092e2a9f3e5b6029b163f92b2bdc0c445b14/dolang-0.0.8.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [sosse]: Downloading https://files.pythonhosted.org/packages/3a/35/74995fa058356b9228241a896947474cc1061033a60dd159110c7c2a6e7b/sosse-1.1.1.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/a6/89/a05235ced8375ca35530ed2660fe44e6699c6d36879bc64f39eb9c4e9a1a/fiddler-client-2.0.0.dev5.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/2c/da/c7cf3942771b104fd99840d4ac31943e1b8cdbd0785c5315a241c2f5f3b7/hydrusvideodeduplicator-0.2.3.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/89/9e/9d05364184b8c2992ed27ae94910d2aff6d95212ff018a80c3574f239a3e/Coquille-1.0.0.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [drupal-scout]: Downloading https://files.pythonhosted.org/packages/f1/b3/c8489dccd45c2be0d53b8cf6b7afbf0fbebde032e1b141dde56a3ec8ca76/drupal-scout-1.0.1.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/bf/5f/d9b2c45db6e96a38c5ee9eb59250bf338d2d81f26d7242e54e3ffb70f17a/funasr-0.7.0.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [django-admin-index]: Downloading https://files.pythonhosted.org/packages/cb/c2/a00e7e1abd3c78de15e359f45f53d035872235303ac25574dccd0e756410/django-admin-index-3.1.0.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/ae/6b/9c61b47c1605df7d2d0a946dfc54fea03ba0e53455ebd42e0d32cc1c4825/wasmpy-build-0.3.2.tar.gz
+[2023-07-14 13:11:07] INFO root fetch - processPackages [mlflow-tritonserver]: Downloading https://files.pythonhosted.org/packages/41/14/8c34590f7e09f5fb17cce1ca19b641d58c9345a80be34484214e7381af0f/mlflow-tritonserver-1.1.0.tar.gz
+[2023-07-14 13:11:08] INFO root fetch - processPackages [dolang]: Downloading https://files.pythonhosted.org/packages/93/7d/2892c5fe05b93c5ed220eed06fcc7d37ef07e50db12f807ae566050102b4/dolang-0.0.9.tar.gz
+[2023-07-14 13:11:08] INFO root fetch - processPackages [sosse]: Downloading https://files.pythonhosted.org/packages/fa/87/93bcaa6a1801ec66dc85d35877a4b71558dc5a94bd3b21b8cdbba4e1f539/sosse-1.2.0.tar.gz
+[2023-07-14 13:11:08] INFO root fetch - processPackages [Coquille]: executing diffoscope
+[2023-07-14 13:11:08] INFO root fetch - processPackages [Coquille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Coquille-0.1.4.tar.gz tmp/Coquille-1.0.0.tar.gz --markdown 20230714/C/Coquille/0.1.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-14 13:11:08] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/b0/e4/ecf99f1e991407e1a8eaaefe0ff7fb583e361bad1c0dbc070e4df60d3c0b/fiddler-client-2.0.0.dev6.tar.gz
+[2023-07-14 13:11:08] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/ae/27/d7376a5681086a40eb2f32c69146d76b359479fa01f62c2c9701f9c7eb7b/hydrusvideodeduplicator-0.2.4.tar.gz
+[2023-07-14 13:11:08] INFO root fetch - processPackages [drupal-scout]: executing diffoscope
+[2023-07-14 13:11:08] INFO root fetch - processPackages [drupal-scout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drupal-scout-1.0.0.tar.gz tmp/drupal-scout-1.0.1.tar.gz --markdown 20230714/d/drupal-scout/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-14 13:11:08] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-07-14 13:11:08] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.6.9.tar.gz tmp/funasr-0.7.0.tar.gz --markdown 20230714/f/funasr/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-07-14 13:11:08] INFO root fetch - processPackages [dolang]: executing diffoscope
+[2023-07-14 13:11:08] INFO root fetch - processPackages [dolang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolang-0.0.8.tar.gz tmp/dolang-0.0.9.tar.gz --markdown 20230714/d/dolang/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 13:11:08] INFO root fetch - processPackages [sosse]: executing diffoscope
+[2023-07-14 13:11:08] INFO root fetch - processPackages [sosse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosse-1.1.1.tar.gz tmp/sosse-1.2.0.tar.gz --markdown 20230714/s/sosse/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-14 13:11:08] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-07-14 13:11:08] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev5.tar.gz tmp/fiddler-client-2.0.0.dev6.tar.gz --markdown 20230714/f/fiddler-client/2.0.0.dev5-2.0.0.dev6/diff.md --exclude *.pyd
+[2023-07-14 13:11:08] INFO root fetch - processPackages [django-admin-index]: executing diffoscope
+[2023-07-14 13:11:08] INFO root fetch - processPackages [django-admin-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-index-3.0.0.tar.gz tmp/django-admin-index-3.1.0.tar.gz --markdown 20230714/d/django-admin-index/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-14 13:11:08] INFO root fetch - processPackages [mlflow-tritonserver]: executing diffoscope
+[2023-07-14 13:11:08] INFO root fetch - processPackages [mlflow-tritonserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-tritonserver-1.0.0.tar.gz tmp/mlflow-tritonserver-1.1.0.tar.gz --markdown 20230714/m/mlflow-tritonserver/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-14 13:11:08] INFO root fetch - processPackages [wasmpy-build]: executing diffoscope
+[2023-07-14 13:11:08] INFO root fetch - processPackages [wasmpy-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmpy-build-0.3.1.tar.gz tmp/wasmpy-build-0.3.2.tar.gz --markdown 20230714/w/wasmpy-build/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-14 13:11:08] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-07-14 13:11:08] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.2.3.tar.gz tmp/hydrusvideodeduplicator-0.2.4.tar.gz --markdown 20230714/h/hydrusvideodeduplicator/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-14 13:11:09] INFO root fetch - processPackages [drupal-scout]: Remove: archive file [/home/abi/fetcher/tmp/drupal-scout-1.0.0.tar.gz]
+[2023-07-14 13:11:09] INFO root fetch - processPackages [drupal-scout]: Remove: archive file [/home/abi/fetcher/tmp/drupal-scout-1.0.1.tar.gz]
+[2023-07-14 13:11:09] INFO root fetch - processPackages [drupal-scout]: Start processing: indicina-decide
+[2023-07-14 13:11:09] INFO root fetch - main [MainThread]: End processing [drupal-scout]: success
+[2023-07-14 13:11:09] INFO root fetch - processPackages [Coquille]: Remove: archive file [/home/abi/fetcher/tmp/Coquille-0.1.4.tar.gz]
+[2023-07-14 13:11:09] INFO root fetch - processPackages [Coquille]: Remove: archive file [/home/abi/fetcher/tmp/Coquille-1.0.0.tar.gz]
+[2023-07-14 13:11:09] INFO root fetch - processPackages [Coquille]: Start processing: lib-detect-testenv
+[2023-07-14 13:11:09] INFO root fetch - main [MainThread]: End processing [Coquille]: success
+[2023-07-14 13:11:09] INFO root fetch - processPackages [lib-detect-testenv]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-14 13:11:09] INFO root fetch - processPackages [indicina-decide]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-14 13:11:09] INFO root fetch - processPackages [lib-detect-testenv]: Downloading https://files.pythonhosted.org/packages/a3/5c/68c7f89552df1f0a26be88f50b3d5c4e53252e719b663f475a46cec05d07/lib_detect_testenv-2.0.5.tar.gz
+[2023-07-14 13:11:09] INFO root fetch - processPackages [dolang]: Remove: archive file [/home/abi/fetcher/tmp/dolang-0.0.8.tar.gz]
+[2023-07-14 13:11:09] INFO root fetch - processPackages [dolang]: Remove: archive file [/home/abi/fetcher/tmp/dolang-0.0.9.tar.gz]
+[2023-07-14 13:11:09] INFO root fetch - processPackages [dolang]: Start processing: pydantic
+[2023-07-14 13:11:09] INFO root fetch - main [MainThread]: End processing [dolang]: success
+[2023-07-14 13:11:10] INFO root fetch - processPackages [indicina-decide]: Downloading https://files.pythonhosted.org/packages/02/83/4a785417d1a923ce6763577605152bfb76ddafa0dd1ef566bfc568e55f31/indicina-decide-0.5.0.tar.gz
+[2023-07-14 13:11:10] INFO root fetch - processPackages [pydantic]: New version: [2.0b3] Old Version: [2.0b2]
+[2023-07-14 13:11:10] INFO root fetch - processPackages [lib-detect-testenv]: Downloading https://files.pythonhosted.org/packages/5b/bf/f887af9351c307c955e22aaa03f626fbdd10b92eb951b8c2efbdc07b2562/lib_detect_testenv-2.0.6.tar.gz
+[2023-07-14 13:11:10] INFO root fetch - processPackages [mlflow-tritonserver]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-tritonserver-1.0.0.tar.gz]
+[2023-07-14 13:11:10] INFO root fetch - processPackages [mlflow-tritonserver]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-tritonserver-1.1.0.tar.gz]
+[2023-07-14 13:11:10] INFO root fetch - main [MainThread]: End processing [mlflow-tritonserver]: success
+[2023-07-14 13:11:10] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.2.3.tar.gz]
+[2023-07-14 13:11:10] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.2.4.tar.gz]
+[2023-07-14 13:11:10] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-07-14 13:11:10] INFO root fetch - processPackages [django-admin-index]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-index-3.0.0.tar.gz]
+[2023-07-14 13:11:10] INFO root fetch - processPackages [django-admin-index]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-index-3.1.0.tar.gz]
+[2023-07-14 13:11:10] INFO root fetch - main [MainThread]: End processing [django-admin-index]: success
+[2023-07-14 13:11:10] INFO root fetch - processPackages [lib-detect-testenv]: executing diffoscope
+[2023-07-14 13:11:10] INFO root fetch - processPackages [lib-detect-testenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_detect_testenv-2.0.5.tar.gz tmp/lib_detect_testenv-2.0.6.tar.gz --markdown 20230714/l/lib-detect-testenv/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-14 13:11:10] INFO root fetch - processPackages [indicina-decide]: Downloading https://files.pythonhosted.org/packages/19/65/489524b44b86e13626a3c0aa6404fd4600d6abd7ebac08a4f6097447f2ea/indicina-decide-0.5.1.tar.gz
+[2023-07-14 13:11:10] INFO root fetch - processPackages [pydantic]: Downloading https://files.pythonhosted.org/packages/05/6f/504e94dcda88a5ec8c680864d188bf3501090536f0bbd3e72c8cb22446bf/pydantic-2.0b2.tar.gz
+[2023-07-14 13:11:10] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev5.tar.gz]
+[2023-07-14 13:11:10] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev6.tar.gz]
+[2023-07-14 13:11:10] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-07-14 13:11:10] INFO root fetch - processPackages [indicina-decide]: executing diffoscope
+[2023-07-14 13:11:10] INFO root fetch - processPackages [indicina-decide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indicina-decide-0.5.0.tar.gz tmp/indicina-decide-0.5.1.tar.gz --markdown 20230714/i/indicina-decide/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-14 13:11:10] INFO root fetch - processPackages [pydantic]: Downloading https://files.pythonhosted.org/packages/85/13/e96e6dda5cf3fb8f8df959d1bfaa819869328ffb0d8ed7d27eb36659093e/pydantic-2.0b3.tar.gz
+[2023-07-14 13:11:11] INFO root fetch - processPackages [pydantic]: executing diffoscope
+[2023-07-14 13:11:11] INFO root fetch - processPackages [pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-2.0b2.tar.gz tmp/pydantic-2.0b3.tar.gz --markdown 20230714/p/pydantic/2.0b2-2.0b3/diff.md --exclude *.pyd
+[2023-07-14 13:11:11] INFO root fetch - processPackages [sosse]: Remove: archive file [/home/abi/fetcher/tmp/sosse-1.1.1.tar.gz]
+[2023-07-14 13:11:11] INFO root fetch - processPackages [sosse]: Remove: archive file [/home/abi/fetcher/tmp/sosse-1.2.0.tar.gz]
+[2023-07-14 13:11:11] INFO root fetch - main [MainThread]: End processing [sosse]: success
+[2023-07-14 13:11:11] INFO root fetch - processPackages [lib-detect-testenv]: Remove: archive file [/home/abi/fetcher/tmp/lib_detect_testenv-2.0.5.tar.gz]
+[2023-07-14 13:11:11] INFO root fetch - processPackages [lib-detect-testenv]: Remove: archive file [/home/abi/fetcher/tmp/lib_detect_testenv-2.0.6.tar.gz]
+[2023-07-14 13:11:11] INFO root fetch - main [MainThread]: End processing [lib-detect-testenv]: success
+[2023-07-14 13:11:11] INFO root fetch - processPackages [indicina-decide]: Remove: archive file [/home/abi/fetcher/tmp/indicina-decide-0.5.0.tar.gz]
+[2023-07-14 13:11:11] INFO root fetch - processPackages [indicina-decide]: Remove: archive file [/home/abi/fetcher/tmp/indicina-decide-0.5.1.tar.gz]
+[2023-07-14 13:11:11] INFO root fetch - main [MainThread]: End processing [indicina-decide]: success
+[2023-07-14 13:11:11] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.9.tar.gz]
+[2023-07-14 13:11:11] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.7.0.tar.gz]
+[2023-07-14 13:11:11] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-07-14 13:11:13] INFO root fetch - processPackages [pydantic]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-2.0b2.tar.gz]
+[2023-07-14 13:11:13] INFO root fetch - processPackages [pydantic]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-2.0b3.tar.gz]
+[2023-07-14 13:11:13] INFO root fetch - main [MainThread]: End processing [pydantic]: success
+[2023-07-14 13:11:13] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.3.1.tar.gz]
+[2023-07-14 13:11:13] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.3.2.tar.gz]
+[2023-07-14 13:11:13] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
+[2023-07-14 13:11:13] INFO root fetch - main [MainThread]: Store serial: [18888654]
