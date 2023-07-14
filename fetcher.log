@@ -10868,3 +10868,135 @@
 [2023-07-14 05:25:04] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230714.tar.gz]
 [2023-07-14 05:25:04] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-07-14 05:25:04] INFO root fetch - main [MainThread]: Store serial: [18885086]
+[2023-07-14 05:30:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885086]
+[2023-07-14 05:30:12] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-14 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reytool
+[2023-07-14 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chainbench
+[2023-07-14 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-gatools
+[2023-07-14 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-fieldservice
+[2023-07-14 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-fieldservice
+[2023-07-14 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bingbong
+[2023-07-14 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idea-bio
+[2023-07-14 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-fieldservice
+[2023-07-14 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-fieldservice
+[2023-07-14 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-fieldservice-fleet
+[2023-07-14 05:30:13] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-14 05:30:13] INFO root fetch - processPackages [bingbong]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-14 05:30:13] INFO root fetch - processPackages [odoo13-addon-fieldservice]: New version: [13.0.1.2.2.dev9] Old Version: [13.0.1.2.2.dev8]
+[2023-07-14 05:30:13] INFO root fetch - processPackages [chainbench]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-14 05:30:13] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.3]
+[2023-07-14 05:30:13] INFO root fetch - processPackages [python-gatools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-14 05:30:13] INFO root fetch - processPackages [odoo12-addon-fieldservice]: New version: [12.0.2.9.0.99.dev1] Old Version: [12.0.2.9.0]
+[2023-07-14 05:30:13] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2023-07-14 05:30:13] INFO root fetch - processPackages [odoo14-addon-fieldservice]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1.dev2]
+[2023-07-14 05:30:13] INFO root fetch - processPackages [idea-bio]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-14 05:30:13] INFO root fetch - processPackages [bingbong]: Downloading https://files.pythonhosted.org/packages/71/c2/b9beaed9abee97e8fe452eb23813156fef67314df29355d5ae087e89709d/bingbong-0.4.1-py3-none-any.whl
+[2023-07-14 05:30:13] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/e9/0a/4f403fad2559da21b84ccd3f022dd4377bd624888854366878da08ecd357/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl
+[2023-07-14 05:30:13] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/09/57/ed4a9efdc31fff38f7d6810756943aae399a99702c94c0bd67d7c53f5684/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl
+[2023-07-14 05:30:13] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: Downloading https://files.pythonhosted.org/packages/2c/06/69aaf9f3680bc85cfcd6cdbf9962cd65ae962c8cf687dc176e692f8aa1de/odoo_addon_fieldservice_fleet-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-14 05:30:13] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-14 05:30:13] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/3f/56/229478954a45e8ee232a87aeadafca36af0592574490d95cc77212f7fe4f/chainbench-0.3.2.tar.gz
+[2023-07-14 05:30:13] INFO root fetch - processPackages [odoo13-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/b7/f9/6204173f92df7282c97674995816c023b608fe25cdc6387dbf29e051f546/odoo13_addon_fieldservice-13.0.1.2.2.dev8-py3-none-any.whl
+[2023-07-14 05:30:13] INFO root fetch - processPackages [odoo12-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/6e/d9/491d315bbcae1bc30b657dcff85a22fcdeb0f4bf5a59899db786b40c98e2/odoo12_addon_fieldservice-12.0.2.9.0-py3-none-any.whl
+[2023-07-14 05:30:13] INFO root fetch - processPackages [idea-bio]: Downloading https://files.pythonhosted.org/packages/e6/49/4fe47202443af0fcc0a01ebccfba8552e666096654220d3cf959e675a891/idea_bio-0.1.3.tar.gz
+[2023-07-14 05:30:13] INFO root fetch - processPackages [python-gatools]: Downloading https://files.pythonhosted.org/packages/f7/0d/661d0abaa8c5f06168e975ba5abd38792d2d9748d317dec2191fb378cbde/python_gatools-0.1.3-py3-none-any.whl
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/3d/74/ca80c19c22d228dc8ed506d3f593667c03000d63f4bac7c7c02685ea3c2a/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl
+[2023-07-14 05:30:14] INFO root fetch - processPackages [bingbong]: Downloading https://files.pythonhosted.org/packages/00/7f/82a4adb71441d470a5a3ad0f9db606eb6fb5cbf753dfbb1f89dabede913c/bingbong-0.4.2-py3-none-any.whl
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/bc/3d/11a8f7e067c2d86acfde953d26ca1bb6972c5badbcb23298205f5d451181/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: Downloading https://files.pythonhosted.org/packages/17/61/5408787d598d266a5e7b3dc11f72472b593294a74731e295957bd1679ca0/odoo_addon_fieldservice_fleet-15.0.1.0.0.5-py3-none-any.whl
+[2023-07-14 05:30:14] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-14 05:30:14] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/24/b0/5f9703d821f95cedfb36fae183c9df1cd1849e2e2e520d26795a5efdff83/chainbench-0.4.0.tar.gz
+[2023-07-14 05:30:14] INFO root fetch - processPackages [python-gatools]: Downloading https://files.pythonhosted.org/packages/94/5b/71e71b9d7df2f01372dfd57aae75b9cf4e6266dcd32c387e4934d47a32bd/python_gatools-0.1.4-py3-none-any.whl
+[2023-07-14 05:30:14] INFO root fetch - processPackages [idea-bio]: Downloading https://files.pythonhosted.org/packages/a1/fe/1bb07cca9372f44a341d8b97146f004504e82873a6e955b91b8dac6f8ce1/idea_bio-0.1.4.tar.gz
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo13-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/45/0e/3702a2b37a8675f2c719893a338623af7532f287568fcfc3d32b1ab978b7/odoo13_addon_fieldservice-13.0.1.2.2.dev9-py3-none-any.whl
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2023-07-14 05:30:14] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-fieldservice/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-07-14 05:30:14] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.4.1-py3-none-any.whl.zip tmp/bingbong-0.4.2-py3-none-any.whl.zip --markdown 20230714/b/bingbong/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo14-addon-fieldservice]: executing diffoscope
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo14-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip --markdown 20230714/o/odoo14-addon-fieldservice/14.0.1.8.1.dev2-14.0.1.9.0/diff.md --exclude *.pyd
+[2023-07-14 05:30:14] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-14 05:30:14] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230714/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo12-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/0d/99/9c12b1b3a9373eb6b44ae076eab5c1e08eb41838fbbc86eac1f9ac99f83f/odoo12_addon_fieldservice-12.0.2.9.0.99.dev1-py3-none-any.whl
+[2023-07-14 05:30:14] INFO root fetch - processPackages [chainbench]: executing diffoscope
+[2023-07-14 05:30:14] INFO root fetch - processPackages [chainbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainbench-0.3.2.tar.gz tmp/chainbench-0.4.0.tar.gz --markdown 20230714/c/chainbench/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: executing diffoscope
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_fleet-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_fleet-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-fieldservice-fleet/15.0.1.0.0.3-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-14 05:30:14] INFO root fetch - processPackages [idea-bio]: executing diffoscope
+[2023-07-14 05:30:14] INFO root fetch - processPackages [idea-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idea_bio-0.1.3.tar.gz tmp/idea_bio-0.1.4.tar.gz --markdown 20230714/i/idea-bio/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo13-addon-fieldservice]: executing diffoscope
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo13-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_fieldservice-13.0.1.2.2.dev8-py3-none-any.whl.zip tmp/odoo13_addon_fieldservice-13.0.1.2.2.dev9-py3-none-any.whl.zip --markdown 20230714/o/odoo13-addon-fieldservice/13.0.1.2.2.dev8-13.0.1.2.2.dev9/diff.md --exclude *.pyd
+[2023-07-14 05:30:14] INFO root fetch - processPackages [python-gatools]: executing diffoscope
+[2023-07-14 05:30:14] INFO root fetch - processPackages [python-gatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_gatools-0.1.3-py3-none-any.whl.zip tmp/python_gatools-0.1.4-py3-none-any.whl.zip --markdown 20230714/p/python-gatools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo12-addon-fieldservice]: executing diffoscope
+[2023-07-14 05:30:14] INFO root fetch - processPackages [odoo12-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice-12.0.2.9.0-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice-12.0.2.9.0.99.dev1-py3-none-any.whl.zip --markdown 20230714/o/odoo12-addon-fieldservice/12.0.2.9.0-12.0.2.9.0.99.dev1/diff.md --exclude *.pyd
+[2023-07-14 05:30:16] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [reytool]: Start processing: odoo-addons-oca-field-service
+[2023-07-14 05:30:16] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-14 05:30:16] INFO root fetch - processPackages [idea-bio]: Remove: archive file [/home/abi/fetcher/tmp/idea_bio-0.1.3.tar.gz]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [idea-bio]: Remove: archive file [/home/abi/fetcher/tmp/idea_bio-0.1.4.tar.gz]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [idea-bio]: Start processing: odoo-addon-fieldservice
+[2023-07-14 05:30:16] INFO root fetch - main [MainThread]: End processing [idea-bio]: success
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addons-oca-field-service]: New version: [16.0.20230713.1] Old Version: [16.0.20230711.1]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [python-gatools]: Remove: archive file [/home/abi/fetcher/tmp/python_gatools-0.1.3-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [python-gatools]: Remove: archive file [/home/abi/fetcher/tmp/python_gatools-0.1.4-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [python-gatools]: Start processing: odoo-addon-fieldservice-recurring
+[2023-07-14 05:30:16] INFO root fetch - main [MainThread]: End processing [python-gatools]: success
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_fleet-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_fleet-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: Start processing: odoo-addons-oca-field-service
+[2023-07-14 05:30:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-fleet]: success
+[2023-07-14 05:30:16] INFO root fetch - processPackages [bingbong]: Remove: archive file [/home/abi/fetcher/tmp/bingbong-0.4.1-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [bingbong]: Remove: archive file [/home/abi/fetcher/tmp/bingbong-0.4.2-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [bingbong]: Start processing: amiyabot
+[2023-07-14 05:30:16] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.3.2.tar.gz]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.4.0.tar.gz]
+[2023-07-14 05:30:16] INFO root fetch - main [MainThread]: End processing [chainbench]: success
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addons-oca-field-service]: New version: [16.0.20230713.1] Old Version: [16.0.20230711.1]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/ef/f1/16d2071528b69e076610f84413a3cbd98ce6a91d12541aee3efd60194ff6/odoo_addons_oca_field_service-16.0.20230711.1-py3-none-any.whl
+[2023-07-14 05:30:16] INFO root fetch - processPackages [amiyabot]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/ef/f1/16d2071528b69e076610f84413a3cbd98ce6a91d12541aee3efd60194ff6/odoo_addons_oca_field_service-16.0.20230711.1-py3-none-any.whl
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-fieldservice/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Downloading https://files.pythonhosted.org/packages/23/fd/40685cbb0db6450c63c471075a9ba674da37370c9b8aae420b423d63b300/odoo_addon_fieldservice_recurring-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-14 05:30:16] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/92/cd/91d2341602b3aa7bdcb1ca3d5a0c7df6b7753182d13f625756a28df45f34/amiyabot-1.5.6-py3-none-any.whl
+[2023-07-14 05:30:16] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11311306>=10485760
+[2023-07-14 05:30:16] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/db/40/e2c5703c6b7ae636692599d1886b3dd831a9b0cd0672555bb441badffcb1/odoo_addons_oca_field_service-16.0.20230713.1-py3-none-any.whl
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/db/40/e2c5703c6b7ae636692599d1886b3dd831a9b0cd0672555bb441badffcb1/odoo_addons_oca_field_service-16.0.20230713.1-py3-none-any.whl
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice]: success
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo12-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice-12.0.2.9.0-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo12-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice-12.0.2.9.0.99.dev1-py3-none-any.whl.zip]
+[2023-07-14 05:30:16] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice]: success
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Downloading https://files.pythonhosted.org/packages/b4/11/85160e2aebfb94e6f786672bd9744af7d5f649139c3fdaf663027caa4a8c/odoo_addon_fieldservice_recurring-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addons-oca-field-service]: executing diffoscope
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addons-oca-field-service]: executing diffoscope
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addons-oca-field-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_field_service-16.0.20230711.1-py3-none-any.whl.zip tmp/odoo_addons_oca_field_service-16.0.20230713.1-py3-none-any.whl.zip --markdown 20230714/o/odoo-addons-oca-field-service/16.0.20230711.1-16.0.20230713.1/diff.md --exclude *.pyd
+[2023-07-14 05:30:16] INFO root fetch - processPackages [odoo-addons-oca-field-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_field_service-16.0.20230711.1-py3-none-any.whl.zip tmp/odoo_addons_oca_field_service-16.0.20230713.1-py3-none-any.whl.zip --markdown 20230714/o/odoo-addons-oca-field-service/16.0.20230711.1-16.0.20230713.1/diff.md --exclude *.pyd
+[2023-07-14 05:30:17] INFO root fetch - processPackages [odoo13-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_fieldservice-13.0.1.2.2.dev8-py3-none-any.whl.zip]
+[2023-07-14 05:30:17] INFO root fetch - processPackages [odoo13-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_fieldservice-13.0.1.2.2.dev9-py3-none-any.whl.zip]
+[2023-07-14 05:30:17] INFO root fetch - main [MainThread]: End processing [odoo13-addon-fieldservice]: success
+[2023-07-14 05:30:17] ERROR root fetch - processPackages [odoo-addon-fieldservice]: Diffoscope failed: time="2023-07-14T05:30:16+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-14 05:30:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice] error
+[2023-07-14 05:30:17] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: executing diffoscope
+[2023-07-14 05:30:17] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_recurring-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_recurring-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-fieldservice-recurring/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-14 05:30:17] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20230711.1-py3-none-any.whl.zip]
+[2023-07-14 05:30:17] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20230713.1-py3-none-any.whl.zip]
+[2023-07-14 05:30:17] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-field-service]: success
+[2023-07-14 05:30:17] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-field-service]: success
+[2023-07-14 05:30:18] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_recurring-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-14 05:30:18] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_recurring-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-14 05:30:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-recurring]: success
+[2023-07-14 05:30:18] INFO root fetch - main [MainThread]: Store serial: [18885118]
