@@ -19885,3 +19885,111 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 13:22:14] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a2.tar.gz]
 [2023-07-14 13:22:14] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2023-07-14 13:22:14] INFO root fetch - main [MainThread]: Store serial: [18888760]
+[2023-07-14 13:27:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888760]
+[2023-07-14 13:27:23] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-14 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioat
+[2023-07-14 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tb-nightly
+[2023-07-14 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: griffon
+[2023-07-14 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bulk-editor
+[2023-07-14 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-login-form
+[2023-07-14 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rtc-tools
+[2023-07-14 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: loutilities
+[2023-07-14 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matcher-marco
+[2023-07-14 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchtnt-nightly
+[2023-07-14 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localstack-core
+[2023-07-14 13:27:23] INFO root fetch - processPackages [rtc-tools]: New version: [2.5.2rc3] Old Version: [2.5.2rc2]
+[2023-07-14 13:27:23] WARNING root fetch - processPackages [st-login-form]: Skipping, unable to determine old version
+[2023-07-14 13:27:23] INFO root fetch - processPackages [st-login-form]: Start processing: torchrl-nightly
+[2023-07-14 13:27:23] INFO root fetch - main [MainThread]: End processing [st-login-form] error
+[2023-07-14 13:27:23] INFO root fetch - processPackages [matcher-marco]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-14 13:27:23] WARNING root fetch - processPackages [bulk-editor]: Skipping, unable to determine old version
+[2023-07-14 13:27:23] INFO root fetch - processPackages [bulk-editor]: Start processing: pct-python-default-test
+[2023-07-14 13:27:23] INFO root fetch - main [MainThread]: End processing [bulk-editor] error
+[2023-07-14 13:27:23] INFO root fetch - processPackages [bioat]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-14 13:27:23] INFO root fetch - processPackages [griffon]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-14 13:27:24] INFO root fetch - processPackages [loutilities]: New version: [3.9.0.dev1] Old Version: [3.8.3]
+[2023-07-14 13:27:24] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230714112410] Old Version: [2.1.1.dev20230714101424]
+[2023-07-14 13:27:24] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-14 13:27:24] INFO root fetch - processPackages [pct-python-default-test]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-14 13:27:24] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-14 13:27:24] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/fa/ba/f3fbb84869b90584dcdb6d2ecf2c835ade736e0765ace9cae9a1836f2472/localstack-core-2.1.1.dev20230714101424.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-14 13:27:24] INFO root fetch - processPackages [pct-python-default-test]: Downloading https://files.pythonhosted.org/packages/e7/05/70897b55c4e44d010b2e585968e929faf377ef1798c83b63d243781ff4ee/pct_python_default_test-1.0.7.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/47/a5/6e0ce29c38b55188a4ab6ec32c5f4908ef7a19908d233cb0c077fcc21462/torchtnt-nightly-2023.7.8.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-14 13:27:24] INFO root fetch - processPackages [rtc-tools]: Downloading https://files.pythonhosted.org/packages/13/4c/9ef727fde11e255ba200cec881f0f725638be5918884c9f7ff3d33d6001c/rtc-tools-2.5.2rc2.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [bioat]: Downloading https://files.pythonhosted.org/packages/77/40/47ef664cf25c976a365cc7a9a03d0e2a09670ae45fa81ecc8c3ec6856f5d/bioat-0.2.3.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [matcher-marco]: Downloading https://files.pythonhosted.org/packages/aa/91/1cb11e2696151a99b072d189b219c827b3a385745cbc3f73f2c7b723eec4/matcher_marco-0.1.0.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/0b/6b/5564fe5b66bd54e15cf6684604c2924c6d6a5b6aab4160ec053aea1dcab8/griffon-0.2.8.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [loutilities]: Downloading https://files.pythonhosted.org/packages/1b/13/ad607725ea208dfcb409f955dfbc43d6d54a023fa99e66074b5f435f0f08/loutilities-3.8.3.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-14 13:27:24] INFO root fetch - processPackages [pct-python-default-test]: Downloading https://files.pythonhosted.org/packages/bf/8d/016b8f408a1fa9f08ea63a0ff510bbb738d652a02aad027ee723d2a642bb/pct_python_default_test-1.0.8.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-14 13:27:24] INFO root fetch - processPackages [matcher-marco]: Downloading https://files.pythonhosted.org/packages/98/83/fe6e38f6d6f91fb22d830dc22cc6fe2b8f774d263912f0cad2942d1fbe94/matcher_marco-0.1.1.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [bioat]: Downloading https://files.pythonhosted.org/packages/7b/af/c026e8407e70cb12116b41622227811212badf5b7bf7f4054e2c7b84e335/bioat-0.2.4.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/10/0e/180fb47cb7ba189be661bec6e42929fdfbd2024fb9dc1d5fc9e1929bf5e8/localstack-core-2.1.1.dev20230714112410.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [loutilities]: Downloading https://files.pythonhosted.org/packages/fb/c7/71e106f6a3fa5ff610369ab9236c5dfe651c5fd2bc138e3080678ee5caf5/loutilities-3.9.0.dev1.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-14 13:27:24] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.8.tar.gz tmp/torchtnt-nightly-2023.7.9.tar.gz --markdown 20230714/t/torchtnt-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-14 13:27:24] INFO root fetch - processPackages [rtc-tools]: Downloading https://files.pythonhosted.org/packages/cb/85/8dad1c216591b17353774666e271b95e7726017cb7bd31e34efd551dc06c/rtc-tools-2.5.2rc3.tar.gz
+[2023-07-14 13:27:24] INFO root fetch - processPackages [pct-python-default-test]: executing diffoscope
+[2023-07-14 13:27:24] INFO root fetch - processPackages [pct-python-default-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pct_python_default_test-1.0.7.tar.gz tmp/pct_python_default_test-1.0.8.tar.gz --markdown 20230714/p/pct-python-default-test/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-14 13:27:25] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/e8/3c/17888a21a950e536dbbfb731858cdc8be559b6a88de9a48f58a3cbf592d4/griffon-0.2.9.tar.gz
+[2023-07-14 13:27:25] INFO root fetch - processPackages [matcher-marco]: executing diffoscope
+[2023-07-14 13:27:25] INFO root fetch - processPackages [matcher-marco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matcher_marco-0.1.0.tar.gz tmp/matcher_marco-0.1.1.tar.gz --markdown 20230714/m/matcher-marco/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 13:27:25] INFO root fetch - processPackages [bioat]: executing diffoscope
+[2023-07-14 13:27:25] INFO root fetch - processPackages [bioat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioat-0.2.3.tar.gz tmp/bioat-0.2.4.tar.gz --markdown 20230714/b/bioat/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-14 13:27:25] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-14 13:27:25] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230714/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-14 13:27:25] INFO root fetch - processPackages [loutilities]: executing diffoscope
+[2023-07-14 13:27:25] INFO root fetch - processPackages [loutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loutilities-3.8.3.tar.gz tmp/loutilities-3.9.0.dev1.tar.gz --markdown 20230714/l/loutilities/3.8.3-3.9.0.dev1/diff.md --exclude *.pyd
+[2023-07-14 13:27:25] INFO root fetch - processPackages [rtc-tools]: executing diffoscope
+[2023-07-14 13:27:25] INFO root fetch - processPackages [rtc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtc-tools-2.5.2rc2.tar.gz tmp/rtc-tools-2.5.2rc3.tar.gz --markdown 20230714/r/rtc-tools/2.5.2rc2-2.5.2rc3/diff.md --exclude *.pyd
+[2023-07-14 13:27:25] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-14 13:27:25] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-07-14 13:27:25] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.2.8.tar.gz tmp/griffon-0.2.9.tar.gz --markdown 20230714/g/griffon/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-14 13:27:25] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-14 13:27:25] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230714101424.tar.gz tmp/localstack-core-2.1.1.dev20230714112410.tar.gz --markdown 20230714/l/localstack-core/2.1.1.dev20230714101424-2.1.1.dev20230714112410/diff.md --exclude *.pyd
+[2023-07-14 13:27:25] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-14 13:27:25] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230714/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-14 13:27:26] INFO root fetch - processPackages [matcher-marco]: Remove: archive file [/home/abi/fetcher/tmp/matcher_marco-0.1.0.tar.gz]
+[2023-07-14 13:27:26] INFO root fetch - processPackages [matcher-marco]: Remove: archive file [/home/abi/fetcher/tmp/matcher_marco-0.1.1.tar.gz]
+[2023-07-14 13:27:26] INFO root fetch - processPackages [matcher-marco]: Start processing: sampo
+[2023-07-14 13:27:26] INFO root fetch - main [MainThread]: End processing [matcher-marco]: success
+[2023-07-14 13:27:26] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-07-14 13:27:26] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/c0/f0/691fad5ee7a8eae5d9b71eb531e4b6d414959a5afcc9811977263994bd77/sampo-0.1.1.98.tar.gz
+[2023-07-14 13:27:26] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/28/10/7f07e18ca3b08fef3d13985a88344883d8eaf53be7daeda7186b282872a8/sampo-0.1.1.99.tar.gz
+[2023-07-14 13:27:26] INFO root fetch - processPackages [pct-python-default-test]: Remove: archive file [/home/abi/fetcher/tmp/pct_python_default_test-1.0.7.tar.gz]
+[2023-07-14 13:27:26] INFO root fetch - processPackages [pct-python-default-test]: Remove: archive file [/home/abi/fetcher/tmp/pct_python_default_test-1.0.8.tar.gz]
+[2023-07-14 13:27:26] INFO root fetch - main [MainThread]: End processing [pct-python-default-test]: success
+[2023-07-14 13:27:26] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.8.tar.gz]
+[2023-07-14 13:27:26] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-07-14 13:27:26] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-14 13:27:27] INFO root fetch - processPackages [bioat]: Remove: archive file [/home/abi/fetcher/tmp/bioat-0.2.3.tar.gz]
+[2023-07-14 13:27:27] INFO root fetch - processPackages [bioat]: Remove: archive file [/home/abi/fetcher/tmp/bioat-0.2.4.tar.gz]
+[2023-07-14 13:27:27] INFO root fetch - main [MainThread]: End processing [bioat]: success
+[2023-07-14 13:27:27] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-07-14 13:27:27] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230714/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-07-14 13:27:27] INFO root fetch - processPackages [rtc-tools]: Remove: archive file [/home/abi/fetcher/tmp/rtc-tools-2.5.2rc2.tar.gz]
+[2023-07-14 13:27:27] INFO root fetch - processPackages [rtc-tools]: Remove: archive file [/home/abi/fetcher/tmp/rtc-tools-2.5.2rc3.tar.gz]
+[2023-07-14 13:27:27] INFO root fetch - main [MainThread]: End processing [rtc-tools]: success
+[2023-07-14 13:27:27] INFO root fetch - processPackages [griffon]: Remove: archive file [/home/abi/fetcher/tmp/griffon-0.2.8.tar.gz]
+[2023-07-14 13:27:27] INFO root fetch - processPackages [griffon]: Remove: archive file [/home/abi/fetcher/tmp/griffon-0.2.9.tar.gz]
+[2023-07-14 13:27:27] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-07-14 13:27:27] INFO root fetch - processPackages [loutilities]: Remove: archive file [/home/abi/fetcher/tmp/loutilities-3.8.3.tar.gz]
+[2023-07-14 13:27:27] INFO root fetch - processPackages [loutilities]: Remove: archive file [/home/abi/fetcher/tmp/loutilities-3.9.0.dev1.tar.gz]
+[2023-07-14 13:27:27] INFO root fetch - main [MainThread]: End processing [loutilities]: success
+[2023-07-14 13:27:27] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 13:27:27] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 13:27:27] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-14 13:27:28] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.98.tar.gz]
+[2023-07-14 13:27:28] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.99.tar.gz]
+[2023-07-14 13:27:28] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-07-14 13:27:28] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-14 13:27:28] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-14 13:27:28] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-14 13:27:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230714101424.tar.gz]
+[2023-07-14 13:27:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230714112410.tar.gz]
+[2023-07-14 13:27:30] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-14 13:27:30] INFO root fetch - main [MainThread]: Store serial: [18888802]
