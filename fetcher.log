@@ -14350,3 +14350,104 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 08:54:57] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
 [2023-07-14 08:54:57] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
 [2023-07-14 08:54:57] INFO root fetch - main [MainThread]: Store serial: [18886284]
+[2023-07-14 09:00:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886284]
+[2023-07-14 09:00:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-14 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdal2numpy
+[2023-07-14 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-signalfx
+[2023-07-14 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyezoo
+[2023-07-14 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seatable-api
+[2023-07-14 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xhibit
+[2023-07-14 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-random
+[2023-07-14 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clara-viz
+[2023-07-14 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dumb-menu
+[2023-07-14 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clara-viz-core
+[2023-07-14 09:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clara-viz-widgets
+[2023-07-14 09:00:06] INFO root fetch - processPackages [xhibit]: New version: [9.5.6] Old Version: [9.5.5]
+[2023-07-14 09:00:06] INFO root fetch - processPackages [seatable-api]: New version: [2.6.6] Old Version: [2.6.5]
+[2023-07-14 09:00:06] WARNING root fetch - processPackages [pyezoo]: Skipping, unable to determine old version
+[2023-07-14 09:00:06] INFO root fetch - processPackages [pyezoo]: Start processing: miko-analyzer
+[2023-07-14 09:00:06] INFO root fetch - main [MainThread]: End processing [pyezoo] error
+[2023-07-14 09:00:06] INFO root fetch - processPackages [pulumi-signalfx]: New version: [5.9.0a1678179334] Old Version: [5.9.0a1678129624]
+[2023-07-14 09:00:06] INFO root fetch - processPackages [clara-viz]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-14 09:00:06] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 09:00:06] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2023-07-14 09:00:06] INFO root fetch - processPackages [clara-viz-widgets]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-14 09:00:06] INFO root fetch - processPackages [clara-viz-core]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-14 09:00:06] INFO root fetch - processPackages [dumb-menu]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-14 09:00:06] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/32/6e/2c0ee408c57fea67ebd839336f6e99451395a0e2a9ea37a4e091c69661ff/xhibit-9.5.5.tar.gz
+[2023-07-14 09:00:06] INFO root fetch - processPackages [miko-analyzer]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-14 09:00:06] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/7e/61/ade4c59b6ce7c16df044d071b13218024e861c7693bfa058bbc2391d3850/pulumi_signalfx-5.9.0a1678129624.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [seatable-api]: Downloading https://files.pythonhosted.org/packages/89/e7/f6a5ce00e398e590486b40cb7719c2f9fedc488dd3857bc992cda5d430f1/seatable-api-2.6.5.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [clara-viz]: Downloading https://files.pythonhosted.org/packages/05/ff/df721e4ab9608d5ec456e8140c6cd2486ef952b50f465f49e68b27a950fe/clara_viz-0.3.0-py2.py3-none-any.whl
+[2023-07-14 09:00:07] INFO root fetch - processPackages [clara-viz-widgets]: Downloading https://files.pythonhosted.org/packages/35/70/e86a4f58a7e2047a60b6e1b6defede9c1b9c2d979b907ab06237fd534893/clara_viz_widgets-0.3.0-py2.py3-none-any.whl
+[2023-07-14 09:00:07] INFO root fetch - processPackages [dumb-menu]: Downloading https://files.pythonhosted.org/packages/e0/9d/ec0c430361e269ed11a9008e55fda98bcf06f138f0bcc022b8175f276749/dumb_menu-1.0.7.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [clara-viz-core]: Downloading https://files.pythonhosted.org/packages/93/0d/0b628aeaa8db00c99104ecdeca96a04d0f6f6ef49d02d78bf4e01af4a0a9/clara_viz_core-0.3.0-py2.py3-none-manylinux_2_28_x86_64.whl
+[2023-07-14 09:00:07] INFO root fetch - processPackages [miko-analyzer]: Downloading https://files.pythonhosted.org/packages/a3/96/dac59292441b8acb82cf5d4c0b807a960d5dea204b2fadefc5a6f333ea20/miko_analyzer-0.3.2.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/7e/94/10076888700730f839a590be4f56ec6d653febe359ad08a87411f44460b0/xhibit-9.5.6.tar.gz
+[2023-07-14 09:00:07] WARNING root fetch - processPackages [clara-viz-core]: Skipping package: exceeds size limit 16182708>=10485760
+[2023-07-14 09:00:07] INFO root fetch - processPackages [clara-viz-core]: Start processing: meteo-hr
+[2023-07-14 09:00:07] INFO root fetch - main [MainThread]: End processing [clara-viz-core] error
+[2023-07-14 09:00:07] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-14 09:00:07] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230714/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 09:00:07] INFO root fetch - processPackages [xhibit]: executing diffoscope
+[2023-07-14 09:00:07] INFO root fetch - processPackages [xhibit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhibit-9.5.5.tar.gz tmp/xhibit-9.5.6.tar.gz --markdown 20230714/x/xhibit/9.5.5-9.5.6/diff.md --exclude *.pyd
+[2023-07-14 09:00:07] INFO root fetch - processPackages [meteo-hr]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-14 09:00:07] INFO root fetch - processPackages [seatable-api]: Downloading https://files.pythonhosted.org/packages/85/05/0286053b92da67dc1e4de20270e6832f1593c47fb9040bcfa2946a52298e/seatable-api-2.6.6.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/de/fa/3f3b9230a1ef9eea16d4715b365d7651076d7530dc754902f930cb2a83cc/pulumi_signalfx-5.9.0a1678179334.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [meteo-hr]: Downloading https://files.pythonhosted.org/packages/ca/3e/e6bdbd60bb126b6ce89517ae65f8cf20f152a5c9c22d0b43b92ba05be455/meteo_hr-1.0.0.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [clara-viz]: Downloading https://files.pythonhosted.org/packages/1f/21/5ec0e04a8dd9aafbe6538af65017ab743994d1bd3a513c2bbbdf42b83f69/clara_viz-0.3.1-py2.py3-none-any.whl
+[2023-07-14 09:00:07] INFO root fetch - processPackages [seatable-api]: executing diffoscope
+[2023-07-14 09:00:07] INFO root fetch - processPackages [seatable-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seatable-api-2.6.5.tar.gz tmp/seatable-api-2.6.6.tar.gz --markdown 20230714/s/seatable-api/2.6.5-2.6.6/diff.md --exclude *.pyd
+[2023-07-14 09:00:07] INFO root fetch - processPackages [miko-analyzer]: Downloading https://files.pythonhosted.org/packages/38/be/e9fd78a7807f5656bb58265ee6b16e85c5f63b168faa2e964b07608badcc/miko_analyzer-0.3.3.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [clara-viz-widgets]: Downloading https://files.pythonhosted.org/packages/bf/f5/775ef4bc295d9b78cae81d5c454411373f5f13112208f188218666d1a65a/clara_viz_widgets-0.3.1-py2.py3-none-any.whl
+[2023-07-14 09:00:07] INFO root fetch - processPackages [dumb-menu]: Downloading https://files.pythonhosted.org/packages/4f/0e/a53eaadd908c44c7e4f51ca972f90b74ea1aaead3d940c3458a192247b44/dumb_menu-1.0.8.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2023-07-14 09:00:07] INFO root fetch - processPackages [clara-viz]: executing diffoscope
+[2023-07-14 09:00:07] INFO root fetch - processPackages [clara-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clara_viz-0.3.0-py2.py3-none-any.whl.zip tmp/clara_viz-0.3.1-py2.py3-none-any.whl.zip --markdown 20230714/c/clara-viz/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-14 09:00:07] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-07-14 09:00:07] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz --markdown 20230714/p/pulumi-signalfx/5.9.0a1678129624-5.9.0a1678179334/diff.md --exclude *.pyd
+[2023-07-14 09:00:08] INFO root fetch - processPackages [meteo-hr]: Downloading https://files.pythonhosted.org/packages/42/05/9a60a08fe91da2a2f9bcbaaa30e2e07c39b42ca72b1b1db8cea36a7e99fc/meteo_hr-1.0.1.tar.gz
+[2023-07-14 09:00:08] INFO root fetch - processPackages [miko-analyzer]: executing diffoscope
+[2023-07-14 09:00:08] INFO root fetch - processPackages [miko-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miko_analyzer-0.3.2.tar.gz tmp/miko_analyzer-0.3.3.tar.gz --markdown 20230714/m/miko-analyzer/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-14 09:00:08] INFO root fetch - processPackages [dumb-menu]: executing diffoscope
+[2023-07-14 09:00:08] INFO root fetch - processPackages [dumb-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumb_menu-1.0.7.tar.gz tmp/dumb_menu-1.0.8.tar.gz --markdown 20230714/d/dumb-menu/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-14 09:00:08] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2023-07-14 09:00:08] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20230714/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/diff.md --exclude *.pyd
+[2023-07-14 09:00:08] INFO root fetch - processPackages [meteo-hr]: executing diffoscope
+[2023-07-14 09:00:08] INFO root fetch - processPackages [meteo-hr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meteo_hr-1.0.0.tar.gz tmp/meteo_hr-1.0.1.tar.gz --markdown 20230714/m/meteo-hr/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-14 09:00:08] INFO root fetch - processPackages [clara-viz-widgets]: executing diffoscope
+[2023-07-14 09:00:08] INFO root fetch - processPackages [clara-viz-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clara_viz_widgets-0.3.0-py2.py3-none-any.whl.zip tmp/clara_viz_widgets-0.3.1-py2.py3-none-any.whl.zip --markdown 20230714/c/clara-viz-widgets/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-14 09:00:08] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-14 09:00:08] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-14 09:00:08] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-14 09:00:09] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.5.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.6.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - main [MainThread]: End processing [xhibit]: success
+[2023-07-14 09:00:09] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.6.5.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.6.6.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - main [MainThread]: End processing [seatable-api]: success
+[2023-07-14 09:00:09] INFO root fetch - processPackages [clara-viz]: Remove: archive file [/home/abi/fetcher/tmp/clara_viz-0.3.0-py2.py3-none-any.whl.zip]
+[2023-07-14 09:00:09] INFO root fetch - processPackages [clara-viz]: Remove: archive file [/home/abi/fetcher/tmp/clara_viz-0.3.1-py2.py3-none-any.whl.zip]
+[2023-07-14 09:00:09] INFO root fetch - main [MainThread]: End processing [clara-viz]: success
+[2023-07-14 09:00:09] INFO root fetch - processPackages [dumb-menu]: Remove: archive file [/home/abi/fetcher/tmp/dumb_menu-1.0.7.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - processPackages [dumb-menu]: Remove: archive file [/home/abi/fetcher/tmp/dumb_menu-1.0.8.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - main [MainThread]: End processing [dumb-menu]: success
+[2023-07-14 09:00:09] INFO root fetch - processPackages [meteo-hr]: Remove: archive file [/home/abi/fetcher/tmp/meteo_hr-1.0.0.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - processPackages [meteo-hr]: Remove: archive file [/home/abi/fetcher/tmp/meteo_hr-1.0.1.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - main [MainThread]: End processing [meteo-hr]: success
+[2023-07-14 09:00:09] INFO root fetch - processPackages [miko-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/miko_analyzer-0.3.2.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - processPackages [miko-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/miko_analyzer-0.3.3.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - main [MainThread]: End processing [miko-analyzer]: success
+[2023-07-14 09:00:09] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2023-07-14 09:00:09] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz]
+[2023-07-14 09:00:09] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-07-14 09:00:15] INFO root fetch - processPackages [clara-viz-widgets]: Remove: archive file [/home/abi/fetcher/tmp/clara_viz_widgets-0.3.0-py2.py3-none-any.whl.zip]
+[2023-07-14 09:00:15] INFO root fetch - processPackages [clara-viz-widgets]: Remove: archive file [/home/abi/fetcher/tmp/clara_viz_widgets-0.3.1-py2.py3-none-any.whl.zip]
+[2023-07-14 09:00:15] INFO root fetch - main [MainThread]: End processing [clara-viz-widgets]: success
+[2023-07-14 09:00:15] INFO root fetch - main [MainThread]: Store serial: [18886315]
