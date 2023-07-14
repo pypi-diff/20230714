@@ -9730,3 +9730,96 @@
 [2023-07-14 04:27:02] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
 [2023-07-14 04:27:02] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
 [2023-07-14 04:27:02] INFO root fetch - main [MainThread]: Store serial: [18884664]
+[2023-07-14 04:32:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18884664]
+[2023-07-14 04:32:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-14 04:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-devops20210625-py2
+[2023-07-14 04:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-devops20210625
+[2023-07-14 04:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyperdx-opentelemetry
+[2023-07-14 04:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eztils
+[2023-07-14 04:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kirkwoodnight
+[2023-07-14 04:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-14 04:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: formkit-ninja
+[2023-07-14 04:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: strangeworks
+[2023-07-14 04:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unitclass
+[2023-07-14 04:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modsys
+[2023-07-14 04:32:11] INFO root fetch - processPackages [eztils]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-14 04:32:11] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-14 04:32:11] INFO root fetch - processPackages [strangeworks]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-14 04:32:12] INFO root fetch - processPackages [hyperdx-opentelemetry]: New version: [0.0.2.post1] Old Version: [0.0.2]
+[2023-07-14 04:32:12] INFO root fetch - processPackages [alibabacloud-devops20210625]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-14 04:32:12] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 04:32:12] INFO root fetch - processPackages [unitclass]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-14 04:32:12] INFO root fetch - processPackages [modsys]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-14 04:32:12] INFO root fetch - processPackages [formkit-ninja]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-14 04:32:12] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-14 04:32:12] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/db/dd/de27c6a6dcef7c085431a3aad2dd8e634158d64366b5a964062683c4cda5/eztils-0.4.0.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/69/c1/31bb5f1aed308926583312da8ccfbb6257f3fb909f4fa3a273ad3312ac41/nonebot_plugin_stable_diffusion_diao-0.3.8.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/1b/d3/d7202086550f633b463c70631bd40c3f7ebb41c17e0c72e8b4b236012b99/unitclass-1.0.4.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [hyperdx-opentelemetry]: Downloading https://files.pythonhosted.org/packages/43/cd/9c8a4eac40338a8eb19dd567363ffa23884c077dcaf32dbae3deb20dca97/hyperdx_opentelemetry-0.0.2.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [strangeworks]: Downloading https://files.pythonhosted.org/packages/27/88/0f17117be28e66fdd586fb5b03ce0e0732aadd7ee2ebcfd1de57f38c7269/strangeworks-0.4.2.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [alibabacloud-devops20210625]: Downloading https://files.pythonhosted.org/packages/b3/87/a0a1a210ee39de08753b4891f48b757ab80b1f9b20b87fe40be0895285df/alibabacloud_devops20210625-3.0.1.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [formkit-ninja]: Downloading https://files.pythonhosted.org/packages/62/14/992d81491cf8cc1affbe34718596b3b58ee3241382f556810ba3f18f24bf/formkit_ninja-0.3.4.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [modsys]: Downloading https://files.pythonhosted.org/packages/e5/10/458b0039e2d3d38e4d5a83dac8767ed81e8a1636da36846ee4a35d6fd175/modsys-0.3.1.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: Downloading https://files.pythonhosted.org/packages/d5/30/ab131feafdee1943cb71f2a7691ae426a60a6ed3000634587394996fca1d/alibabacloud_devops20210625_py2-3.0.1.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/1c/46/8cb34d0dd38b6ad7329a7c8d0bd64dd1d96fde05cf1082814c21326fcbdc/eztils-0.4.1.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/7d/6d/63f458cc34826cb09985867614ecf87eeedc9f16cbaa577be2228ae84861/nonebot_plugin_stable_diffusion_diao-0.3.9.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [unitclass]: Downloading https://files.pythonhosted.org/packages/d5/94/372ddc3f07cedd9f0c942eec2c4c6bb284fce8753051683df7a283c013aa/unitclass-1.0.5.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [hyperdx-opentelemetry]: Downloading https://files.pythonhosted.org/packages/38/5d/dfc279db97cd4726436734270dd819803f882d955b92630628b12eede444/hyperdx_opentelemetry-0.0.2.post1.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [strangeworks]: Downloading https://files.pythonhosted.org/packages/99/4c/c34ee58dcafcdf2acd70771c9970cb9e5cd639e5f148c481f028739a8b30/strangeworks-0.4.3.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 04:32:12] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 04:32:12] INFO root fetch - processPackages [alibabacloud-devops20210625]: Downloading https://files.pythonhosted.org/packages/a5/6f/368a9da7d118431380303af4023b30039d8c2962a7e6e15e1a06af769d28/alibabacloud_devops20210625-3.0.2.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [formkit-ninja]: Downloading https://files.pythonhosted.org/packages/00/96/079e1edfd03f6b687d508492d7c72c3f62e2235e6aac2d8cfde9c4a3e670/formkit_ninja-0.3.5.tar.gz
+[2023-07-14 04:32:12] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-14 04:32:12] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.8.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.tar.gz --markdown 20230714/n/nonebot-plugin-stable-diffusion-diao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-14 04:32:13] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: Downloading https://files.pythonhosted.org/packages/82/67/268a53ce4ae2de8f032fc3bbfc80700e556f9e4870d6bc587e4696f3afed/alibabacloud_devops20210625_py2-3.0.2.tar.gz
+[2023-07-14 04:32:13] INFO root fetch - processPackages [modsys]: Downloading https://files.pythonhosted.org/packages/31/6f/4e3da1d249ffac0e3ac1a66808a31ef0b2ccfd51172932dc05c52208533c/modsys-0.4.0.tar.gz
+[2023-07-14 04:32:13] INFO root fetch - processPackages [eztils]: executing diffoscope
+[2023-07-14 04:32:13] INFO root fetch - processPackages [eztils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eztils-0.4.0.tar.gz tmp/eztils-0.4.1.tar.gz --markdown 20230714/e/eztils/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-14 04:32:13] INFO root fetch - processPackages [unitclass]: executing diffoscope
+[2023-07-14 04:32:13] INFO root fetch - processPackages [unitclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitclass-1.0.4.tar.gz tmp/unitclass-1.0.5.tar.gz --markdown 20230714/u/unitclass/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-14 04:32:13] INFO root fetch - processPackages [formkit-ninja]: executing diffoscope
+[2023-07-14 04:32:13] INFO root fetch - processPackages [formkit-ninja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formkit_ninja-0.3.4.tar.gz tmp/formkit_ninja-0.3.5.tar.gz --markdown 20230714/f/formkit-ninja/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-14 04:32:13] INFO root fetch - processPackages [alibabacloud-devops20210625]: executing diffoscope
+[2023-07-14 04:32:13] INFO root fetch - processPackages [alibabacloud-devops20210625]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_devops20210625-3.0.1.tar.gz tmp/alibabacloud_devops20210625-3.0.2.tar.gz --markdown 20230714/a/alibabacloud-devops20210625/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-14 04:32:13] INFO root fetch - processPackages [strangeworks]: executing diffoscope
+[2023-07-14 04:32:13] INFO root fetch - processPackages [strangeworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks-0.4.2.tar.gz tmp/strangeworks-0.4.3.tar.gz --markdown 20230714/s/strangeworks/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-14 04:32:13] INFO root fetch - processPackages [hyperdx-opentelemetry]: executing diffoscope
+[2023-07-14 04:32:13] INFO root fetch - processPackages [hyperdx-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperdx_opentelemetry-0.0.2.tar.gz tmp/hyperdx_opentelemetry-0.0.2.post1.tar.gz --markdown 20230714/h/hyperdx-opentelemetry/0.0.2-0.0.2.post1/diff.md --exclude *.pyd
+[2023-07-14 04:32:13] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: executing diffoscope
+[2023-07-14 04:32:13] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_devops20210625_py2-3.0.1.tar.gz tmp/alibabacloud_devops20210625_py2-3.0.2.tar.gz --markdown 20230714/a/alibabacloud-devops20210625-py2/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-14 04:32:13] INFO root fetch - processPackages [modsys]: executing diffoscope
+[2023-07-14 04:32:13] INFO root fetch - processPackages [modsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modsys-0.3.1.tar.gz tmp/modsys-0.4.0.tar.gz --markdown 20230714/m/modsys/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-14 04:32:14] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 04:32:14] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.0.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.1.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - main [MainThread]: End processing [eztils]: success
+[2023-07-14 04:32:14] INFO root fetch - processPackages [formkit-ninja]: Remove: archive file [/home/abi/fetcher/tmp/formkit_ninja-0.3.4.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - processPackages [formkit-ninja]: Remove: archive file [/home/abi/fetcher/tmp/formkit_ninja-0.3.5.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - main [MainThread]: End processing [formkit-ninja]: success
+[2023-07-14 04:32:14] INFO root fetch - processPackages [strangeworks]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks-0.4.2.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - processPackages [strangeworks]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks-0.4.3.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - main [MainThread]: End processing [strangeworks]: success
+[2023-07-14 04:32:14] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.8.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-14 04:32:14] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.4.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - processPackages [unitclass]: Remove: archive file [/home/abi/fetcher/tmp/unitclass-1.0.5.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - main [MainThread]: End processing [unitclass]: success
+[2023-07-14 04:32:14] INFO root fetch - processPackages [hyperdx-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/hyperdx_opentelemetry-0.0.2.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - processPackages [hyperdx-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/hyperdx_opentelemetry-0.0.2.post1.tar.gz]
+[2023-07-14 04:32:14] INFO root fetch - main [MainThread]: End processing [hyperdx-opentelemetry]: success
+[2023-07-14 04:32:15] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.3.1.tar.gz]
+[2023-07-14 04:32:15] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.4.0.tar.gz]
+[2023-07-14 04:32:15] INFO root fetch - main [MainThread]: End processing [modsys]: success
+[2023-07-14 04:32:15] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625_py2-3.0.1.tar.gz]
+[2023-07-14 04:32:15] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625_py2-3.0.2.tar.gz]
+[2023-07-14 04:32:15] INFO root fetch - main [MainThread]: End processing [alibabacloud-devops20210625-py2]: success
+[2023-07-14 04:32:15] INFO root fetch - processPackages [alibabacloud-devops20210625]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625-3.0.1.tar.gz]
+[2023-07-14 04:32:15] INFO root fetch - processPackages [alibabacloud-devops20210625]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625-3.0.2.tar.gz]
+[2023-07-14 04:32:15] INFO root fetch - main [MainThread]: End processing [alibabacloud-devops20210625]: success
+[2023-07-14 04:32:15] INFO root fetch - main [MainThread]: Store serial: [18884694]
