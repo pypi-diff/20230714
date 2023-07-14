@@ -11630,3 +11630,174 @@
 [2023-07-14 06:22:42] INFO root fetch - processPackages [starpoint]: Remove: archive file [/home/abi/fetcher/tmp/starpoint-0.1.2.tar.gz]
 [2023-07-14 06:22:42] INFO root fetch - main [MainThread]: End processing [starpoint]: success
 [2023-07-14 06:22:42] INFO root fetch - main [MainThread]: Store serial: [18885347]
+[2023-07-14 06:27:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885347]
+[2023-07-14 06:27:51] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-14 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius-dev
+[2023-07-14 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aorta-sirius-dev
+[2023-07-14 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-07-14 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-07-14 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.identity
+[2023-07-14 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-mrp-component-operation
+[2023-07-14 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-07-14 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-mrp-production-note
+[2023-07-14 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-07-14 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-07-14 06:27:51] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2023-07-14 06:27:51] INFO root fetch - processPackages [odoo14-addon-mrp-production-note]: New version: [14.0.1.0.1.dev3] Old Version: [14.0.1.0.1.dev2]
+[2023-07-14 06:27:51] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 06:27:51] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 06:27:51] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-14 06:27:51] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-14 06:27:51] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-07-14 06:27:51] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-14 06:27:51] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-14 06:27:51] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-14 06:27:52] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: Downloading https://files.pythonhosted.org/packages/a6/77/ec07279fb66fc134a702d9ee2acb587e304874cd9e1666d1e7573190190d/odoo14_addon_mrp_component_operation-14.0.1.1.0-py3-none-any.whl
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [odoo14-addon-mrp-production-note]: Downloading https://files.pythonhosted.org/packages/5b/01/51d553a471d53e4a8fd3c555eb02c2458fec1d76103deda3d967c35fcb2e/odoo14_addon_mrp_production_note-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-07-14 06:27:52] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.pipeline
+[2023-07-14 06:27:52] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: Downloading https://files.pythonhosted.org/packages/00/9a/f958ee5a176db352cfe038dd964e9309e656bf40f3b08bb59289433258fd/odoo14_addon_mrp_component_operation-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230714/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 06:27:52] INFO root fetch - processPackages [odoo14-addon-mrp-production-note]: Downloading https://files.pythonhosted.org/packages/21/01/7cda776f03eaa3810b375f0c823e42d35bc017e4e090321d7837ab2a33ae/odoo14_addon_mrp_production_note-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230714/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [odoo14-addon-mrp-production-note]: executing diffoscope
+[2023-07-14 06:27:52] INFO root fetch - processPackages [odoo14-addon-mrp-production-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_production_note-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_mrp_production_note-14.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20230714/o/odoo14-addon-mrp-production-note/14.0.1.0.1.dev2-14.0.1.0.1.dev3/diff.md --exclude *.pyd
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-07-14 06:27:52] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: executing diffoscope
+[2023-07-14 06:27:52] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_component_operation-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_mrp_component_operation-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230714/o/odoo14-addon-mrp-component-operation/14.0.1.1.0-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230714/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230714/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230714/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230714/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230714/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230714/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aorta-sirius-dev]: Start processing: aws-prototyping-sdk.static-website
+[2023-07-14 06:27:53] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-14 06:27:53] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-14 06:27:54] ERROR root fetch - processPackages [aorta-sirius-dev]: Diffoscope failed: time="2023-07-14T06:27:52+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/aorta_sirius_dev-0.8.tar.gz does not exist
+
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aorta-sirius-dev]: Start processing: quickstart-vdk
+[2023-07-14 06:27:54] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev] error
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-07-14 06:27:54] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.930840603.dev12256] Old Version: [0.2.929623402.dev12231]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/8a/f5/53f9377e6a24abe47179db05d6a2b4b0b8aa5ebea4900ee4a25abb7cf37d/quickstart-vdk-0.2.929623402.dev12231.tar.gz
+[2023-07-14 06:27:54] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_component_operation-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_component_operation-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [odoo14-addon-mrp-component-operation]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-07-14 06:27:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-component-operation]: success
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: odoo-addon-quality-control-oca
+[2023-07-14 06:27:54] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-07-14 06:27:54] INFO root fetch - processPackages [odoo14-addon-mrp-production-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_production_note-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [odoo14-addon-mrp-production-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_production_note-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [odoo14-addon-mrp-production-note]: Start processing: mercury-sync
+[2023-07-14 06:27:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-production-note]: success
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Start processing: protloc-mex1
+[2023-07-14 06:27:54] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-07-14 06:27:54] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/1a/1c/32a4d92470c13199d2b8f615f433b9ee74f8e94f1e2f78da9fc1621c7b9d/quickstart-vdk-0.2.930840603.dev12256.tar.gz
+[2023-07-14 06:27:54] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
+[2023-07-14 06:27:54] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz]
+[2023-07-14 06:27:54] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-07-14 06:27:54] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
+[2023-07-14 06:27:54] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-07-14 06:27:54] INFO root fetch - processPackages [protloc-mex1]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230714/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz]
+[2023-07-14 06:27:54] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz]
+[2023-07-14 06:27:54] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-07-14 06:27:55] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/f1/a6/b12a1d269d5bdf4475b5466ebbe2ad69d3f3521620e4e11b9debbfd08d62/protloc_mex1-0.0.8.tar.gz
+[2023-07-14 06:27:55] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-14 06:27:55] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.929623402.dev12231.tar.gz tmp/quickstart-vdk-0.2.930840603.dev12256.tar.gz --markdown 20230714/q/quickstart-vdk/0.2.929623402.dev12231-0.2.930840603.dev12256/diff.md --exclude *.pyd
+[2023-07-14 06:27:55] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Downloading https://files.pythonhosted.org/packages/ac/9a/e20a4a4ca39618eb108575de07b27c526e075c982e6c46a445487adb4018/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-14 06:27:55] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-14 06:27:55] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/b1/ec/42aec6951104a9842e9ff6d86fc2cc4b4cce8658effe452817ca74f55dfe/protloc_mex1-0.0.9.tar.gz
+[2023-07-14 06:27:55] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-14 06:27:55] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230714/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-14 06:27:55] INFO root fetch - processPackages [protloc-mex1]: executing diffoscope
+[2023-07-14 06:27:55] INFO root fetch - processPackages [protloc-mex1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex1-0.0.8.tar.gz tmp/protloc_mex1-0.0.9.tar.gz --markdown 20230714/p/protloc-mex1/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 06:27:55] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-07-14 06:27:55] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Downloading https://files.pythonhosted.org/packages/b7/13/079ced61883dc20aef6e569352f11af1fb76b2abc20344b5484c6ef0584b/odoo_addon_quality_control_oca-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-14 06:27:55] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-07-14 06:27:55] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230714/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-07-14 06:27:55] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: executing diffoscope
+[2023-07-14 06:27:55] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_quality_control_oca-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-quality-control-oca/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-14 06:27:55] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz]
+[2023-07-14 06:27:55] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz]
+[2023-07-14 06:27:55] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-07-14 06:27:55] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.929623402.dev12231.tar.gz]
+[2023-07-14 06:27:55] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.930840603.dev12256.tar.gz]
+[2023-07-14 06:27:55] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-14 06:27:56] INFO root fetch - processPackages [protloc-mex1]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex1-0.0.8.tar.gz]
+[2023-07-14 06:27:56] INFO root fetch - processPackages [protloc-mex1]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex1-0.0.9.tar.gz]
+[2023-07-14 06:27:56] INFO root fetch - main [MainThread]: End processing [protloc-mex1]: success
+[2023-07-14 06:27:56] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-14 06:27:56] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-14 06:27:56] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-14 06:27:56] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-07-14 06:27:56] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-07-14 06:27:56] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-07-14 06:27:57] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-14 06:27:57] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-14 06:27:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-oca]: success
+[2023-07-14 06:27:57] INFO root fetch - main [MainThread]: Store serial: [18885392]
