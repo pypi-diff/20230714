@@ -14574,3 +14574,87 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 09:05:28] INFO root fetch - processPackages [sybil]: Remove: archive file [/home/abi/fetcher/tmp/sybil-5.0.3.tar.gz]
 [2023-07-14 09:05:28] INFO root fetch - main [MainThread]: End processing [sybil]: success
 [2023-07-14 09:05:28] INFO root fetch - main [MainThread]: Store serial: [18886363]
+[2023-07-14 09:10:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886363]
+[2023-07-14 09:10:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 09:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-snowflake
+[2023-07-14 09:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-wavefront
+[2023-07-14 09:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-venafi
+[2023-07-14 09:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-vault
+[2023-07-14 09:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-vsphere
+[2023-07-14 09:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pptx-tools
+[2023-07-14 09:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pfizer-components
+[2023-07-14 09:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aanalyticsact
+[2023-07-14 09:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-product-configurator
+[2023-07-14 09:10:36] INFO root fetch - processPackages [pfizer-components]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-14 09:10:37] INFO root fetch - processPackages [aanalyticsact]: New version: [0.0.1.31] Old Version: [0.0.0.9]
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-wavefront]: New version: [1.5.0a1689317371] Old Version: [1.5.0a1687758259]
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.6.0a1689317304] Old Version: [1.6.0a1687758204]
+[2023-07-14 09:10:37] INFO root fetch - processPackages [odoo14-addon-product-configurator]: New version: [14.0.1.3.1.dev1] Old Version: [14.0.1.2.6]
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pptx-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-vault]: New version: [5.9.0a1678382334] Old Version: [5.9.0a1678129627]
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.6.0a1689317257] Old Version: [4.6.0a1687903041]
+[2023-07-14 09:10:37] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/c7/ad/8dfb0ce46b1218b0fd738bd90a652d6f6c828910799e03dac35b1cb9ea20/aanalyticsact-0.0.0.9.tar.gz
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/d0/7d/6af2fda6f8c2483bccc7c6595ceb2494e3ff55a286b42b33fcadddfde152/pfizer_components-0.2.5-py3-none-any.whl
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/55/b8/9f0dc5a8843a3f5ce1c8c1ba5001bbd701181322e513207d44db015806e4/pulumi_wavefront-1.5.0a1687758259.tar.gz
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/28/7f/116d8d34437898974731ea8722d06ea2b5bf13759eaf50e2225ca7e7c3a8/pulumi_venafi-1.6.0a1687758204.tar.gz
+[2023-07-14 09:10:37] INFO root fetch - processPackages [odoo14-addon-product-configurator]: Downloading https://files.pythonhosted.org/packages/f1/66/a8d42c36e17b9067a2632ac0c1b228718ddee25f66b7c37c5d8f1534e0ad/odoo14_addon_product_configurator-14.0.1.2.6-py3-none-any.whl
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/9a/a4/fea7d4828b2ff2184a1be700ea77e371814f0e4d3e1de5528e470f9eb4e6/pulumi_vsphere-4.6.0a1687903041.tar.gz
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/e3/c9/65898499b67448eae06780fb3be448afa8cd40dece05d5bff04eb8c060fd/pulumi_vault-5.9.0a1678129627.tar.gz
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pptx-tools]: Downloading https://files.pythonhosted.org/packages/a7/52/5cb961b21bef55bf9ea68239eaa74ed3f78b1e8f2cb1b23a6df6505ee068/pptx-tools-0.1.5.tar.gz
+[2023-07-14 09:10:37] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/1c/f4/03b2fc8d4d0e49ea6630746baf2a9b86a50169276a73eda211ac7ac5e128/aanalyticsact-0.0.1.31.tar.gz
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/1a/55/13427d0b7cbe5f2266e02b5002d1be8b0a8fe37e0674f47e5d305ea15a03/pfizer_components-0.2.6-py3-none-any.whl
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/c4/16/c4d0bf3c5396b407ef30b055b04092ac5e8ef0b9cdb11206fabc090cd0d7/pulumi_wavefront-1.5.0a1689317371.tar.gz
+[2023-07-14 09:10:37] INFO root fetch - processPackages [aanalyticsact]: executing diffoscope
+[2023-07-14 09:10:37] INFO root fetch - processPackages [aanalyticsact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact-0.0.0.9.tar.gz tmp/aanalyticsact-0.0.1.31.tar.gz --markdown 20230714/a/aanalyticsact/0.0.0.9-0.0.1.31/diff.md --exclude *.pyd
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/73/c5/bdee1874edce3428682c25a3df098ad97e88af71108e1678ee563746631a/pulumi_venafi-1.6.0a1689317304.tar.gz
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pptx-tools]: Downloading https://files.pythonhosted.org/packages/46/39/aa67cf692c0246af131d14042b488db1c949d9e2dea04d111d75bc7a0fd0/pptx-tools-0.1.6.tar.gz
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/30/87/3186a391cbf688372749e9a5471e3516057abf316b7503a285ce470788b2/pulumi_vsphere-4.6.0a1689317257.tar.gz
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-07-14 09:10:37] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-1.5.0a1687758259.tar.gz tmp/pulumi_wavefront-1.5.0a1689317371.tar.gz --markdown 20230714/p/pulumi-wavefront/1.5.0a1687758259-1.5.0a1689317371/diff.md --exclude *.pyd
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.6.0a1687758204.tar.gz tmp/pulumi_venafi-1.6.0a1689317304.tar.gz --markdown 20230714/p/pulumi-venafi/1.6.0a1687758204-1.6.0a1689317304/diff.md --exclude *.pyd
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pfizer-components]: executing diffoscope
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pfizer-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components-0.2.5-py3-none-any.whl.zip tmp/pfizer_components-0.2.6-py3-none-any.whl.zip --markdown 20230714/p/pfizer-components/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-14 09:10:38] INFO root fetch - processPackages [odoo14-addon-product-configurator]: Downloading https://files.pythonhosted.org/packages/65/1e/edb23ed4c4a24be367ed47e80d9097fccdea4280dc5d3b7e23ea7c1324dc/odoo14_addon_product_configurator-14.0.1.3.1.dev1-py3-none-any.whl
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.6.0a1687903041.tar.gz tmp/pulumi_vsphere-4.6.0a1689317257.tar.gz --markdown 20230714/p/pulumi-vsphere/4.6.0a1687903041-4.6.0a1689317257/diff.md --exclude *.pyd
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pptx-tools]: executing diffoscope
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pptx-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pptx-tools-0.1.5.tar.gz tmp/pptx-tools-0.1.6.tar.gz --markdown 20230714/p/pptx-tools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/ed/2f/d2dbb3407f0fdd01cc4ad94d930a70843270a50c7d8cc4597b5113561639/pulumi_vault-5.9.0a1678382334.tar.gz
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-5.9.0a1678129627.tar.gz tmp/pulumi_vault-5.9.0a1678382334.tar.gz --markdown 20230714/p/pulumi-vault/5.9.0a1678129627-5.9.0a1678382334/diff.md --exclude *.pyd
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-07-14 09:10:38] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230714/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-07-14 09:10:38] INFO root fetch - processPackages [odoo14-addon-product-configurator]: executing diffoscope
+[2023-07-14 09:10:38] INFO root fetch - processPackages [odoo14-addon-product-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_configurator-14.0.1.2.6-py3-none-any.whl.zip tmp/odoo14_addon_product_configurator-14.0.1.3.1.dev1-py3-none-any.whl.zip --markdown 20230714/o/odoo14-addon-product-configurator/14.0.1.2.6-14.0.1.3.1.dev1/diff.md --exclude *.pyd
+[2023-07-14 09:10:38] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.0.9.tar.gz]
+[2023-07-14 09:10:38] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.1.31.tar.gz]
+[2023-07-14 09:10:38] INFO root fetch - main [MainThread]: End processing [aanalyticsact]: success
+[2023-07-14 09:10:39] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.6.0a1687758204.tar.gz]
+[2023-07-14 09:10:39] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.6.0a1689317304.tar.gz]
+[2023-07-14 09:10:39] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2023-07-14 09:10:39] INFO root fetch - processPackages [pptx-tools]: Remove: archive file [/home/abi/fetcher/tmp/pptx-tools-0.1.5.tar.gz]
+[2023-07-14 09:10:39] INFO root fetch - processPackages [pptx-tools]: Remove: archive file [/home/abi/fetcher/tmp/pptx-tools-0.1.6.tar.gz]
+[2023-07-14 09:10:39] INFO root fetch - main [MainThread]: End processing [pptx-tools]: success
+[2023-07-14 09:10:39] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-1.5.0a1687758259.tar.gz]
+[2023-07-14 09:10:39] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-1.5.0a1689317371.tar.gz]
+[2023-07-14 09:10:39] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-07-14 09:10:39] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.2.5-py3-none-any.whl.zip]
+[2023-07-14 09:10:39] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.2.6-py3-none-any.whl.zip]
+[2023-07-14 09:10:39] INFO root fetch - main [MainThread]: End processing [pfizer-components]: success
+[2023-07-14 09:10:39] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1687903041.tar.gz]
+[2023-07-14 09:10:39] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1689317257.tar.gz]
+[2023-07-14 09:10:39] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2023-07-14 09:10:40] INFO root fetch - processPackages [odoo14-addon-product-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_configurator-14.0.1.2.6-py3-none-any.whl.zip]
+[2023-07-14 09:10:40] INFO root fetch - processPackages [odoo14-addon-product-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_configurator-14.0.1.3.1.dev1-py3-none-any.whl.zip]
+[2023-07-14 09:10:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-configurator]: success
+[2023-07-14 09:10:40] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2023-07-14 09:10:40] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2023-07-14 09:10:40] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-07-14 09:10:40] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678129627.tar.gz]
+[2023-07-14 09:10:40] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678382334.tar.gz]
+[2023-07-14 09:10:40] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2023-07-14 09:10:40] INFO root fetch - main [MainThread]: Store serial: [18886383]
