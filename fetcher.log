@@ -19133,3 +19133,126 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 12:39:59] INFO root fetch - processPackages [mayan-edms]: Remove: archive file [/home/abi/fetcher/tmp/mayan-edms-4.4.7.tar.gz]
 [2023-07-14 12:39:59] INFO root fetch - main [MainThread]: End processing [mayan-edms]: success
 [2023-07-14 12:39:59] INFO root fetch - main [MainThread]: Store serial: [18888428]
+[2023-07-14 12:45:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888428]
+[2023-07-14 12:45:08] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-14 12:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serem-bce
+[2023-07-14 12:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adit-dicomweb-client
+[2023-07-14 12:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ifiscripts
+[2023-07-14 12:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mrzerocore
+[2023-07-14 12:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adit-dicomweb-client
+[2023-07-14 12:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easybio
+[2023-07-14 12:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skypilot-nightly
+[2023-07-14 12:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testpackageforyoutube
+[2023-07-14 12:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spid-cie-oidc
+[2023-07-14 12:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vdk-jupyterlab-extension
+[2023-07-14 12:45:08] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230713] Old Version: [1.0.0.dev20221126]
+[2023-07-14 12:45:08] INFO root fetch - processPackages [serem-bce]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-14 12:45:08] INFO root fetch - processPackages [vdk-jupyterlab-extension]: New version: [0.1.931147919] Old Version: [0.1.931128384]
+[2023-07-14 12:45:08] INFO root fetch - processPackages [easybio]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-14 12:45:08] WARNING root fetch - processPackages [adit-dicomweb-client]: Skipping, unable to determine old version
+[2023-07-14 12:45:08] INFO root fetch - processPackages [adit-dicomweb-client]: Start processing: hearthstone
+[2023-07-14 12:45:08] INFO root fetch - main [MainThread]: End processing [adit-dicomweb-client] error
+[2023-07-14 12:45:08] INFO root fetch - processPackages [mrzerocore]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-14 12:45:08] WARNING root fetch - processPackages [adit-dicomweb-client]: Skipping, unable to determine old version
+[2023-07-14 12:45:08] INFO root fetch - processPackages [adit-dicomweb-client]: Start processing: pyees
+[2023-07-14 12:45:08] WARNING root fetch - processPackages [testpackageforyoutube]: Skipping, unable to determine old version
+[2023-07-14 12:45:08] INFO root fetch - main [MainThread]: End processing [adit-dicomweb-client] error
+[2023-07-14 12:45:08] INFO root fetch - processPackages [testpackageforyoutube]: Start processing: ddadevops
+[2023-07-14 12:45:08] INFO root fetch - main [MainThread]: End processing [testpackageforyoutube] error
+[2023-07-14 12:45:08] INFO root fetch - processPackages [ifiscripts]: New version: [2023.7.3.2] Old Version: [2023.7.3.1]
+[2023-07-14 12:45:08] INFO root fetch - processPackages [spid-cie-oidc]: New version: [1.0.0] Old Version: [0.8.9]
+[2023-07-14 12:45:08] INFO root fetch - processPackages [hearthstone]: New version: [7.2.2] Old Version: [7.2.1]
+[2023-07-14 12:45:08] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/01/5b/ff7c93f55b92b0f3ac6475071377a04336956e8431ffbdfb23b904503c32/skypilot-nightly-1.0.0.dev20221126.tar.gz
+[2023-07-14 12:45:08] INFO root fetch - processPackages [pyees]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-14 12:45:08] INFO root fetch - processPackages [mrzerocore]: Downloading https://files.pythonhosted.org/packages/99/86/6a0eb47fede16081d8c7a2f1a078d2866530455e8b17b51c727c7bae5bb9/MRzeroCore-0.2.2-cp37-abi3-win_amd64.whl
+[2023-07-14 12:45:08] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/82/3d/aa61c35faea36cfa6373c7a3f78c8bd11cb4a149a82bb57afe3bdc172a63/vdk_jupyterlab_extension-0.1.931128384.tar.gz
+[2023-07-14 12:45:08] INFO root fetch - processPackages [ddadevops]: New version: [4.1.0.dev2] Old Version: [4.1.0.dev1]
+[2023-07-14 12:45:08] INFO root fetch - processPackages [serem-bce]: Downloading https://files.pythonhosted.org/packages/52/20/26be02d7e4f361f28f035fb9d75050d274cb2cd2dc56b920b7f6ccc9a242/serem_bce-0.0.2.tar.gz
+[2023-07-14 12:45:08] INFO root fetch - processPackages [easybio]: Downloading https://files.pythonhosted.org/packages/e5/6d/21e8fb5563ec7090b95fad4775ee15082b2cb8ed9fc1f5e3578bf78ae7f3/easybio-0.4.0.tar.gz
+[2023-07-14 12:45:08] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/05/25/b6a8ef15d89f51588dfff487c64672834a510f6384bfd0ff7610c2bdad11/pyees-1.3.8.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [ifiscripts]: Downloading https://files.pythonhosted.org/packages/bf/4d/1ca5b12802f0fe3ce88165a0045a9252ff400f03f62496f998806e1a176e/ifiscripts-2023.7.3.1.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [spid-cie-oidc]: Downloading https://files.pythonhosted.org/packages/5b/31/7b9013419ddbb5db4271086a0a9ff9800669f9a1b08095d2d0e3fb5ce777/spid_cie_oidc-0.8.9.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/9e/d0/d3a6ec0ee2fe19f9b12090ec282461ca2cd56a04b1e78db3f519c9c32169/ddadevops-4.1.0.dev1.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/ce/d6/e2f38abdda9d29e241e51878a8b47421d110c648bb9c083e1bd3cea11131/hearthstone-7.2.1.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/83/08/bcc0acf702fe767df82d5681b6485f3675571d7dab2c38e4e08470f9a1a4/skypilot-nightly-1.0.0.dev20230713.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [mrzerocore]: Downloading https://files.pythonhosted.org/packages/7b/49/602450d0ff9b81d07590210f476b45d397abb79351411833990675641776/MRzeroCore-0.2.3-cp37-abi3-win_amd64.whl
+[2023-07-14 12:45:09] INFO root fetch - processPackages [serem-bce]: Downloading https://files.pythonhosted.org/packages/34/18/6a4f43eb933eb29a3cfe6cb06099a6001031827d81980e8aed4f3f588424/serem_bce-0.0.3.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/7c/31/91241b1cbfdfb252f65a2094d7289fd81381fa5f9574019605e7eee14623/vdk_jupyterlab_extension-0.1.931147919.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/9f/06/1c5b76a44a5a700f027abc3fd2c5391aeba3c900509b6b0f79aeb031a695/pyees-1.3.9.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [easybio]: Downloading https://files.pythonhosted.org/packages/c3/f7/d8890b281ea42a0a55e1189ecc796dce222cbc73b34b8359a2d98486af4f/easybio-0.4.1.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [ifiscripts]: Downloading https://files.pythonhosted.org/packages/68/fc/2be6656ca51423f0d4b271c80cf2426c53c0b1aae697221ac758ddc2f22c/ifiscripts-2023.7.3.2.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/d7/9a/a04da7dbb1a696187e45654581af5ae64f8de1aed7226554ea11e57621cf/ddadevops-4.1.0.dev2.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-14 12:45:09] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20221126.tar.gz tmp/skypilot-nightly-1.0.0.dev20230713.tar.gz --markdown 20230714/s/skypilot-nightly/1.0.0.dev20221126-1.0.0.dev20230713/diff.md --exclude *.pyd
+[2023-07-14 12:45:09] INFO root fetch - processPackages [spid-cie-oidc]: Downloading https://files.pythonhosted.org/packages/15/8d/3347c1a54048f484cb1f55ebbd6a41cdb4691e71bc44fe63d3bc30bdb281/spid_cie_oidc-1.0.0.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/bc/0d/49866678d983608145a113629ae964e0390065c3373c6ae79ffd27b64b69/hearthstone-7.2.2.tar.gz
+[2023-07-14 12:45:09] INFO root fetch - processPackages [mrzerocore]: executing diffoscope
+[2023-07-14 12:45:09] INFO root fetch - processPackages [mrzerocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MRzeroCore-0.2.2-cp37-abi3-win_amd64.whl.zip tmp/MRzeroCore-0.2.3-cp37-abi3-win_amd64.whl.zip --markdown 20230714/m/mrzerocore/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-14 12:45:09] INFO root fetch - processPackages [ifiscripts]: executing diffoscope
+[2023-07-14 12:45:09] INFO root fetch - processPackages [ifiscripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifiscripts-2023.7.3.1.tar.gz tmp/ifiscripts-2023.7.3.2.tar.gz --markdown 20230714/i/ifiscripts/2023.7.3.1-2023.7.3.2/diff.md --exclude *.pyd
+[2023-07-14 12:45:09] INFO root fetch - processPackages [serem-bce]: executing diffoscope
+[2023-07-14 12:45:09] INFO root fetch - processPackages [serem-bce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serem_bce-0.0.2.tar.gz tmp/serem_bce-0.0.3.tar.gz --markdown 20230714/s/serem-bce/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 12:45:09] INFO root fetch - processPackages [easybio]: executing diffoscope
+[2023-07-14 12:45:09] INFO root fetch - processPackages [easybio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybio-0.4.0.tar.gz tmp/easybio-0.4.1.tar.gz --markdown 20230714/e/easybio/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-14 12:45:09] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-07-14 12:45:09] INFO root fetch - processPackages [pyees]: executing diffoscope
+[2023-07-14 12:45:09] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.1.0.dev1.tar.gz tmp/ddadevops-4.1.0.dev2.tar.gz --markdown 20230714/d/ddadevops/4.1.0.dev1-4.1.0.dev2/diff.md --exclude *.pyd
+[2023-07-14 12:45:09] INFO root fetch - processPackages [pyees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyees-1.3.8.tar.gz tmp/pyees-1.3.9.tar.gz --markdown 20230714/p/pyees/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-14 12:45:09] INFO root fetch - processPackages [hearthstone]: executing diffoscope
+[2023-07-14 12:45:09] INFO root fetch - processPackages [hearthstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hearthstone-7.2.1.tar.gz tmp/hearthstone-7.2.2.tar.gz --markdown 20230714/h/hearthstone/7.2.1-7.2.2/diff.md --exclude *.pyd
+[2023-07-14 12:45:09] INFO root fetch - processPackages [vdk-jupyterlab-extension]: executing diffoscope
+[2023-07-14 12:45:09] INFO root fetch - processPackages [vdk-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk_jupyterlab_extension-0.1.931128384.tar.gz tmp/vdk_jupyterlab_extension-0.1.931147919.tar.gz --markdown 20230714/v/vdk-jupyterlab-extension/0.1.931128384-0.1.931147919/diff.md --exclude *.pyd
+[2023-07-14 12:45:09] INFO root fetch - processPackages [spid-cie-oidc]: executing diffoscope
+[2023-07-14 12:45:09] INFO root fetch - processPackages [spid-cie-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spid_cie_oidc-0.8.9.tar.gz tmp/spid_cie_oidc-1.0.0.tar.gz --markdown 20230714/s/spid-cie-oidc/0.8.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-14 12:45:11] INFO root fetch - processPackages [mrzerocore]: Remove: archive file [/home/abi/fetcher/tmp/MRzeroCore-0.2.2-cp37-abi3-win_amd64.whl.zip]
+[2023-07-14 12:45:11] INFO root fetch - processPackages [mrzerocore]: Remove: archive file [/home/abi/fetcher/tmp/MRzeroCore-0.2.3-cp37-abi3-win_amd64.whl.zip]
+[2023-07-14 12:45:11] INFO root fetch - processPackages [mrzerocore]: Start processing: test-serem
+[2023-07-14 12:45:11] INFO root fetch - main [MainThread]: End processing [mrzerocore]: success
+[2023-07-14 12:45:11] WARNING root fetch - processPackages [test-serem]: Skipping, unable to determine old version
+[2023-07-14 12:45:11] INFO root fetch - processPackages [test-serem]: Start processing: signal-ocean
+[2023-07-14 12:45:11] INFO root fetch - main [MainThread]: End processing [test-serem] error
+[2023-07-14 12:45:11] INFO root fetch - processPackages [signal-ocean]: New version: [7.1.1] Old Version: [7.1.0]
+[2023-07-14 12:45:11] INFO root fetch - processPackages [hearthstone]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone-7.2.1.tar.gz]
+[2023-07-14 12:45:11] INFO root fetch - processPackages [hearthstone]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone-7.2.2.tar.gz]
+[2023-07-14 12:45:11] INFO root fetch - processPackages [hearthstone]: Start processing: siman
+[2023-07-14 12:45:11] INFO root fetch - main [MainThread]: End processing [hearthstone]: success
+[2023-07-14 12:45:11] INFO root fetch - processPackages [signal-ocean]: Downloading https://files.pythonhosted.org/packages/c5/03/3d9e54d11829e88cc4ebf26e787595e2dbaec351bf710007c7ca2ea8590a/signal-ocean-7.1.0.tar.gz
+[2023-07-14 12:45:11] INFO root fetch - processPackages [easybio]: Remove: archive file [/home/abi/fetcher/tmp/easybio-0.4.0.tar.gz]
+[2023-07-14 12:45:11] INFO root fetch - processPackages [easybio]: Remove: archive file [/home/abi/fetcher/tmp/easybio-0.4.1.tar.gz]
+[2023-07-14 12:45:11] INFO root fetch - main [MainThread]: End processing [easybio]: success
+[2023-07-14 12:45:11] INFO root fetch - processPackages [siman]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-14 12:45:11] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.1.0.dev1.tar.gz]
+[2023-07-14 12:45:11] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.1.0.dev2.tar.gz]
+[2023-07-14 12:45:11] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-07-14 12:45:11] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.3.8.tar.gz]
+[2023-07-14 12:45:11] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.3.9.tar.gz]
+[2023-07-14 12:45:11] INFO root fetch - main [MainThread]: End processing [pyees]: success
+[2023-07-14 12:45:11] INFO root fetch - processPackages [serem-bce]: Remove: archive file [/home/abi/fetcher/tmp/serem_bce-0.0.2.tar.gz]
+[2023-07-14 12:45:11] INFO root fetch - processPackages [serem-bce]: Remove: archive file [/home/abi/fetcher/tmp/serem_bce-0.0.3.tar.gz]
+[2023-07-14 12:45:11] INFO root fetch - main [MainThread]: End processing [serem-bce]: success
+[2023-07-14 12:45:11] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/93/0b/6feee7df9c987e8beb90d7207546888948fbf605cc3de1e335bab74bde6f/siman-1.3.4.tar.gz
+[2023-07-14 12:45:12] INFO root fetch - processPackages [ifiscripts]: Remove: archive file [/home/abi/fetcher/tmp/ifiscripts-2023.7.3.1.tar.gz]
+[2023-07-14 12:45:12] INFO root fetch - processPackages [ifiscripts]: Remove: archive file [/home/abi/fetcher/tmp/ifiscripts-2023.7.3.2.tar.gz]
+[2023-07-14 12:45:12] INFO root fetch - main [MainThread]: End processing [ifiscripts]: success
+[2023-07-14 12:45:12] INFO root fetch - processPackages [signal-ocean]: Downloading https://files.pythonhosted.org/packages/aa/50/aec8925318939524c8c4659c868593a7c5b7d2f84a4e2856a8f62715d751/signal-ocean-7.1.1.tar.gz
+[2023-07-14 12:45:12] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/30/78/64a2ef8a1326aeb0598b00e57aa8b94a094e71a1d485bac1a9703743bdd0/siman-1.3.5.tar.gz
+[2023-07-14 12:45:12] INFO root fetch - processPackages [siman]: executing diffoscope
+[2023-07-14 12:45:12] INFO root fetch - processPackages [siman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siman-1.3.4.tar.gz tmp/siman-1.3.5.tar.gz --markdown 20230714/s/siman/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-14 12:45:12] INFO root fetch - processPackages [signal-ocean]: executing diffoscope
+[2023-07-14 12:45:12] INFO root fetch - processPackages [signal-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signal-ocean-7.1.0.tar.gz tmp/signal-ocean-7.1.1.tar.gz --markdown 20230714/s/signal-ocean/7.1.0-7.1.1/diff.md --exclude *.pyd
+[2023-07-14 12:45:12] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20221126.tar.gz]
+[2023-07-14 12:45:12] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230713.tar.gz]
+[2023-07-14 12:45:12] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-14 12:45:12] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk_jupyterlab_extension-0.1.931128384.tar.gz]
+[2023-07-14 12:45:12] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk_jupyterlab_extension-0.1.931147919.tar.gz]
+[2023-07-14 12:45:12] INFO root fetch - main [MainThread]: End processing [vdk-jupyterlab-extension]: success
+[2023-07-14 12:45:13] INFO root fetch - processPackages [spid-cie-oidc]: Remove: archive file [/home/abi/fetcher/tmp/spid_cie_oidc-0.8.9.tar.gz]
+[2023-07-14 12:45:13] INFO root fetch - processPackages [spid-cie-oidc]: Remove: archive file [/home/abi/fetcher/tmp/spid_cie_oidc-1.0.0.tar.gz]
+[2023-07-14 12:45:13] INFO root fetch - main [MainThread]: End processing [spid-cie-oidc]: success
+[2023-07-14 12:45:13] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.3.4.tar.gz]
+[2023-07-14 12:45:13] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.3.5.tar.gz]
+[2023-07-14 12:45:13] INFO root fetch - main [MainThread]: End processing [siman]: success
+[2023-07-14 12:45:13] INFO root fetch - processPackages [signal-ocean]: Remove: archive file [/home/abi/fetcher/tmp/signal-ocean-7.1.0.tar.gz]
+[2023-07-14 12:45:13] INFO root fetch - processPackages [signal-ocean]: Remove: archive file [/home/abi/fetcher/tmp/signal-ocean-7.1.1.tar.gz]
+[2023-07-14 12:45:13] INFO root fetch - main [MainThread]: End processing [signal-ocean]: success
+[2023-07-14 12:45:13] INFO root fetch - main [MainThread]: Store serial: [18888480]
