@@ -19993,3 +19993,137 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 13:27:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230714112410.tar.gz]
 [2023-07-14 13:27:30] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-14 13:27:30] INFO root fetch - main [MainThread]: Store serial: [18888802]
+[2023-07-14 13:32:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888802]
+[2023-07-14 13:32:39] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-14 13:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchserve-nightly
+[2023-07-14 13:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-archiver-nightly
+[2023-07-14 13:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-workflow-archiver-nightly
+[2023-07-14 13:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-cradmin
+[2023-07-14 13:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smefit
+[2023-07-14 13:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lxd-sphinx-extensions
+[2023-07-14 13:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odd-collector-sdk
+[2023-07-14 13:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: diaossama-test3
+[2023-07-14 13:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zhmc-os-forwarder
+[2023-07-14 13:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchrec-nightly
+[2023-07-14 13:32:39] INFO root fetch - processPackages [lxd-sphinx-extensions]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-14 13:32:39] WARNING root fetch - processPackages [smefit]: Skipping, unable to determine old version
+[2023-07-14 13:32:39] INFO root fetch - processPackages [smefit]: Start processing: wagtailimagecaptions
+[2023-07-14 13:32:39] INFO root fetch - main [MainThread]: End processing [smefit] error
+[2023-07-14 13:32:39] WARNING root fetch - processPackages [diaossama-test3]: Skipping, unable to determine old version
+[2023-07-14 13:32:39] INFO root fetch - processPackages [diaossama-test3]: Start processing: timezoneutils
+[2023-07-14 13:32:39] INFO root fetch - main [MainThread]: End processing [diaossama-test3] error
+[2023-07-14 13:32:39] INFO root fetch - processPackages [odd-collector-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-14 13:32:39] WARNING root fetch - processPackages [zhmc-os-forwarder]: Skipping, unable to determine old version
+[2023-07-14 13:32:39] INFO root fetch - processPackages [zhmc-os-forwarder]: Start processing: pykebab
+[2023-07-14 13:32:39] INFO root fetch - main [MainThread]: End processing [zhmc-os-forwarder] error
+[2023-07-14 13:32:39] INFO root fetch - processPackages [django-cradmin]: New version: [9.2.0] Old Version: [9.1.0]
+[2023-07-14 13:32:39] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-14 13:32:39] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-14 13:32:39] INFO root fetch - processPackages [timezoneutils]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-14 13:32:39] INFO root fetch - processPackages [wagtailimagecaptions]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-14 13:32:39] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.7.13] Old Version: [2023.7.12]
+[2023-07-14 13:32:39] INFO root fetch - processPackages [pykebab]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-14 13:32:39] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ba/ce865f52258c39c0b1d62ee3998decaf12b77f41fc74cc29f739aef2418a/odd-collector-sdk-0.3.8.tar.gz
+[2023-07-14 13:32:39] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-14 13:32:39] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-14 13:32:39] INFO root fetch - processPackages [lxd-sphinx-extensions]: Downloading https://files.pythonhosted.org/packages/08/5e/130dcbcc1c947afa3b04b37349c9029725bf907d7171791442807bd362f9/lxd-sphinx-extensions-0.0.7.tar.gz
+[2023-07-14 13:32:39] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-14 13:32:39] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/86/f6/5af10f82ea2b94284b6d0d49a0d8cb9af66745646293cf1441aa26510a91/pykebab-0.7.8.tar.gz
+[2023-07-14 13:32:39] INFO root fetch - processPackages [wagtailimagecaptions]: Downloading https://files.pythonhosted.org/packages/2f/ad/79bafc1fb7829df9a6148d0afcd35187c78e4fb8191ca5bd1ad7c0fe20f0/wagtailimagecaptions-0.1.tar.gz
+[2023-07-14 13:32:39] INFO root fetch - processPackages [timezoneutils]: Downloading https://files.pythonhosted.org/packages/5a/71/a470355e473d9d64947906bddc6431903c58a90b5b2fd358a6c99ebec773/timezoneutils-0.0.1.tar.gz
+[2023-07-14 13:32:39] INFO root fetch - processPackages [django-cradmin]: Downloading https://files.pythonhosted.org/packages/96/50/052526ab62f57083d4dd75575b1c54b757b4f69a1947e6a2670d133fca68/django-cradmin-9.1.0.tar.gz
+[2023-07-14 13:32:39] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/7e/b0/95011268ce33b7699c79b03c1cffea6a02bc2bbb9521b7a7ea93974deafa/torchrec_nightly-2023.7.12-py39-none-any.whl
+[2023-07-14 13:32:39] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d6/b2/b77948f318b41f4c30bce37021e5eaab04bf7c8abae416af053b02be3370/torchserve_nightly-2023.7.8-py3-none-any.whl
+[2023-07-14 13:32:39] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/b7/09/a072e072a86ba00164c8e4095f66211981ce5e1276abb17076ff23854b5d/odd_collector_sdk-0.3.9.tar.gz
+[2023-07-14 13:32:40] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-14 13:32:40] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750079>=10485760
+[2023-07-14 13:32:40] INFO root fetch - processPackages [torchserve-nightly]: Start processing: amqp-mqtt-transport
+[2023-07-14 13:32:40] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-14 13:32:40] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-14 13:32:40] INFO root fetch - processPackages [lxd-sphinx-extensions]: Downloading https://files.pythonhosted.org/packages/1e/49/258e03c2d0a1ec1a5f9d4b3c0a3330aebccaee0d9a19959c80f56af5f5c7/lxd-sphinx-extensions-0.0.8.tar.gz
+[2023-07-14 13:32:40] INFO root fetch - processPackages [amqp-mqtt-transport]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 13:32:40] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-14 13:32:40] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230714/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-14 13:32:40] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/6c/70/0c443d763dc91f4bc2903ca57ca8a334bbc2283e18dd08407faa5d1bc8d5/pykebab-0.7.9.tar.gz
+[2023-07-14 13:32:40] INFO root fetch - processPackages [odd-collector-sdk]: executing diffoscope
+[2023-07-14 13:32:40] INFO root fetch - processPackages [odd-collector-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-collector-sdk-0.3.8.tar.gz tmp/odd_collector_sdk-0.3.9.tar.gz --markdown 20230714/o/odd-collector-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-14 13:32:40] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-14 13:32:40] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230714/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-14 13:32:40] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/a8/1e/70c9196877c897b36caf4fa7c9db8a772d2c2f790039ef0f2b3cd22c27ca/torchrec_nightly-2023.7.13-py39-none-any.whl
+[2023-07-14 13:32:40] INFO root fetch - processPackages [lxd-sphinx-extensions]: executing diffoscope
+[2023-07-14 13:32:40] INFO root fetch - processPackages [lxd-sphinx-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxd-sphinx-extensions-0.0.7.tar.gz tmp/lxd-sphinx-extensions-0.0.8.tar.gz --markdown 20230714/l/lxd-sphinx-extensions/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-14 13:32:40] INFO root fetch - processPackages [timezoneutils]: Downloading https://files.pythonhosted.org/packages/85/20/71dc71574de3eac47d2e4fe5e4d3092f4bee207f0b689e58f6d6a5d75e79/timezoneutils-0.1.0.tar.gz
+[2023-07-14 13:32:40] INFO root fetch - processPackages [amqp-mqtt-transport]: Downloading https://files.pythonhosted.org/packages/9e/5d/8c8d7e581d2c47e33072cb0c37d82c6f26261f782f7950a3af6a132ae111/amqp_mqtt_transport-0.1.8.tar.gz
+[2023-07-14 13:32:40] INFO root fetch - processPackages [pykebab]: executing diffoscope
+[2023-07-14 13:32:40] INFO root fetch - processPackages [pykebab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykebab-0.7.8.tar.gz tmp/pykebab-0.7.9.tar.gz --markdown 20230714/p/pykebab/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-14 13:32:40] INFO root fetch - processPackages [wagtailimagecaptions]: Downloading https://files.pythonhosted.org/packages/d6/d2/76566197c0fe96bd4451f5b80522e97df8326b2dc49b7127631de42ba82c/wagtailimagecaptions-0.1.1.tar.gz
+[2023-07-14 13:32:40] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-07-14 13:32:40] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.7.12-py39-none-any.whl.zip tmp/torchrec_nightly-2023.7.13-py39-none-any.whl.zip --markdown 20230714/t/torchrec-nightly/2023.7.12-2023.7.13/diff.md --exclude *.pyd
+[2023-07-14 13:32:40] INFO root fetch - processPackages [timezoneutils]: executing diffoscope
+[2023-07-14 13:32:40] INFO root fetch - processPackages [timezoneutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timezoneutils-0.0.1.tar.gz tmp/timezoneutils-0.1.0.tar.gz --markdown 20230714/t/timezoneutils/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-14 13:32:40] INFO root fetch - processPackages [wagtailimagecaptions]: executing diffoscope
+[2023-07-14 13:32:40] INFO root fetch - processPackages [wagtailimagecaptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailimagecaptions-0.1.tar.gz tmp/wagtailimagecaptions-0.1.1.tar.gz --markdown 20230714/w/wagtailimagecaptions/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 13:32:40] INFO root fetch - processPackages [amqp-mqtt-transport]: Downloading https://files.pythonhosted.org/packages/5f/dc/f44da89700ac05a4667136ebf0650a6aadf109dc36b18f30cc9b3c4d5aa1/amqp_mqtt_transport-0.1.9.tar.gz
+[2023-07-14 13:32:41] INFO root fetch - processPackages [amqp-mqtt-transport]: executing diffoscope
+[2023-07-14 13:32:41] INFO root fetch - processPackages [amqp-mqtt-transport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amqp_mqtt_transport-0.1.8.tar.gz tmp/amqp_mqtt_transport-0.1.9.tar.gz --markdown 20230714/a/amqp-mqtt-transport/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 13:32:41] INFO root fetch - processPackages [django-cradmin]: Downloading https://files.pythonhosted.org/packages/23/85/f38ba4732c972a67d52a04b76e82d47209993d7df27ad891360ebf61c88b/django-cradmin-9.2.0.tar.gz
+[2023-07-14 13:32:41] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-14 13:32:41] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-14 13:32:41] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: mostats
+[2023-07-14 13:32:41] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-14 13:32:41] INFO root fetch - processPackages [mostats]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-14 13:32:41] INFO root fetch - processPackages [django-cradmin]: executing diffoscope
+[2023-07-14 13:32:41] INFO root fetch - processPackages [django-cradmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cradmin-9.1.0.tar.gz tmp/django-cradmin-9.2.0.tar.gz --markdown 20230714/d/django-cradmin/9.1.0-9.2.0/diff.md --exclude *.pyd
+[2023-07-14 13:32:41] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd-collector-sdk-0.3.8.tar.gz]
+[2023-07-14 13:32:41] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd_collector_sdk-0.3.9.tar.gz]
+[2023-07-14 13:32:41] INFO root fetch - processPackages [odd-collector-sdk]: Start processing: flow360
+[2023-07-14 13:32:41] INFO root fetch - main [MainThread]: End processing [odd-collector-sdk]: success
+[2023-07-14 13:32:41] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/b2/d2/a1a71c7f22bdfbe6fa2bf69ca31203d84e6a7f4ef9c2c84e862b5b589f22/mostats-1.0.4-py3-none-any.whl
+[2023-07-14 13:32:41] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-14 13:32:41] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-14 13:32:41] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: eswrap
+[2023-07-14 13:32:41] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-14 13:32:41] INFO root fetch - processPackages [flow360]: New version: [0.2.0b9] Old Version: [0.2.0b8]
+[2023-07-14 13:32:41] INFO root fetch - processPackages [eswrap]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-14 13:32:41] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.7.8.tar.gz]
+[2023-07-14 13:32:41] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.7.9.tar.gz]
+[2023-07-14 13:32:41] INFO root fetch - main [MainThread]: End processing [pykebab]: success
+[2023-07-14 13:32:41] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/8d/6a/c2de37260bd4c3d9bcc370e5c90de036021aecec3366c64a3e7dc3eed5a3/eswrap-0.4.8.tar.gz
+[2023-07-14 13:32:42] INFO root fetch - processPackages [timezoneutils]: Remove: archive file [/home/abi/fetcher/tmp/timezoneutils-0.0.1.tar.gz]
+[2023-07-14 13:32:42] INFO root fetch - processPackages [timezoneutils]: Remove: archive file [/home/abi/fetcher/tmp/timezoneutils-0.1.0.tar.gz]
+[2023-07-14 13:32:42] INFO root fetch - main [MainThread]: End processing [timezoneutils]: success
+[2023-07-14 13:32:42] INFO root fetch - processPackages [wagtailimagecaptions]: Remove: archive file [/home/abi/fetcher/tmp/wagtailimagecaptions-0.1.tar.gz]
+[2023-07-14 13:32:42] INFO root fetch - processPackages [wagtailimagecaptions]: Remove: archive file [/home/abi/fetcher/tmp/wagtailimagecaptions-0.1.1.tar.gz]
+[2023-07-14 13:32:42] INFO root fetch - main [MainThread]: End processing [wagtailimagecaptions]: success
+[2023-07-14 13:32:42] INFO root fetch - processPackages [flow360]: Downloading https://files.pythonhosted.org/packages/d0/fb/a17fd0a3a12d858f09d0a20f14fa6e9733f5c8f80dbbbeb346515f6a8d56/flow360-0.2.0b8.tar.gz
+[2023-07-14 13:32:42] INFO root fetch - processPackages [lxd-sphinx-extensions]: Remove: archive file [/home/abi/fetcher/tmp/lxd-sphinx-extensions-0.0.7.tar.gz]
+[2023-07-14 13:32:42] INFO root fetch - processPackages [lxd-sphinx-extensions]: Remove: archive file [/home/abi/fetcher/tmp/lxd-sphinx-extensions-0.0.8.tar.gz]
+[2023-07-14 13:32:42] INFO root fetch - main [MainThread]: End processing [lxd-sphinx-extensions]: success
+[2023-07-14 13:32:42] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/44/04/dcc594e1d0073962d0335f303ecc1f7c4a6219d7a1913fd4f54b4c20a9a2/mostats-1.0.5-py3-none-any.whl
+[2023-07-14 13:32:42] INFO root fetch - processPackages [mostats]: executing diffoscope
+[2023-07-14 13:32:42] INFO root fetch - processPackages [mostats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mostats-1.0.4-py3-none-any.whl.zip tmp/mostats-1.0.5-py3-none-any.whl.zip --markdown 20230714/m/mostats/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-14 13:32:42] INFO root fetch - processPackages [amqp-mqtt-transport]: Remove: archive file [/home/abi/fetcher/tmp/amqp_mqtt_transport-0.1.8.tar.gz]
+[2023-07-14 13:32:42] INFO root fetch - processPackages [amqp-mqtt-transport]: Remove: archive file [/home/abi/fetcher/tmp/amqp_mqtt_transport-0.1.9.tar.gz]
+[2023-07-14 13:32:42] INFO root fetch - main [MainThread]: End processing [amqp-mqtt-transport]: success
+[2023-07-14 13:32:42] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/d7/e8/ed873afb7a823c96b13cc1257f4fe68caefd033a2e64270712c0e524af5b/eswrap-0.4.9.tar.gz
+[2023-07-14 13:32:42] INFO root fetch - processPackages [flow360]: Downloading https://files.pythonhosted.org/packages/0d/ee/2aac20ba73627ab1e7df3cb57ce7fe8a8bde6077cd7e34caaa47dd086274/flow360-0.2.0b9.tar.gz
+[2023-07-14 13:32:42] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-07-14 13:32:42] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.4.8.tar.gz tmp/eswrap-0.4.9.tar.gz --markdown 20230714/e/eswrap/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-14 13:32:42] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.12-py39-none-any.whl.zip]
+[2023-07-14 13:32:42] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.13-py39-none-any.whl.zip]
+[2023-07-14 13:32:42] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-07-14 13:32:42] INFO root fetch - processPackages [flow360]: executing diffoscope
+[2023-07-14 13:32:42] INFO root fetch - processPackages [flow360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow360-0.2.0b8.tar.gz tmp/flow360-0.2.0b9.tar.gz --markdown 20230714/f/flow360/0.2.0b8-0.2.0b9/diff.md --exclude *.pyd
+[2023-07-14 13:32:43] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.4-py3-none-any.whl.zip]
+[2023-07-14 13:32:43] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.5-py3-none-any.whl.zip]
+[2023-07-14 13:32:43] INFO root fetch - main [MainThread]: End processing [mostats]: success
+[2023-07-14 13:32:43] INFO root fetch - processPackages [eswrap]: Remove: archive file [/home/abi/fetcher/tmp/eswrap-0.4.8.tar.gz]
+[2023-07-14 13:32:43] INFO root fetch - processPackages [eswrap]: Remove: archive file [/home/abi/fetcher/tmp/eswrap-0.4.9.tar.gz]
+[2023-07-14 13:32:43] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-07-14 13:32:43] INFO root fetch - processPackages [flow360]: Remove: archive file [/home/abi/fetcher/tmp/flow360-0.2.0b8.tar.gz]
+[2023-07-14 13:32:43] INFO root fetch - processPackages [flow360]: Remove: archive file [/home/abi/fetcher/tmp/flow360-0.2.0b9.tar.gz]
+[2023-07-14 13:32:43] INFO root fetch - main [MainThread]: End processing [flow360]: success
+[2023-07-14 13:32:52] INFO root fetch - processPackages [django-cradmin]: Remove: archive file [/home/abi/fetcher/tmp/django-cradmin-9.1.0.tar.gz]
+[2023-07-14 13:32:52] INFO root fetch - processPackages [django-cradmin]: Remove: archive file [/home/abi/fetcher/tmp/django-cradmin-9.2.0.tar.gz]
+[2023-07-14 13:32:52] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
+[2023-07-14 13:32:52] INFO root fetch - main [MainThread]: Store serial: [18888855]
