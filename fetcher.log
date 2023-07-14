@@ -5367,3 +5367,133 @@
 [2023-07-14 03:08:50] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
 [2023-07-14 03:08:50] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2023-07-14 03:08:50] INFO root fetch - main [MainThread]: Store serial: [18883178]
+[2023-07-14 03:13:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18883178]
+[2023-07-14 03:13:59] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-14 03:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vscode-server-bin
+[2023-07-14 03:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyagrum-nightly
+[2023-07-14 03:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2023-07-14 03:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d20-securityLayer
+[2023-07-14 03:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: benchling-api-client
+[2023-07-14 03:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlmesh
+[2023-07-14 03:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tccli-intl-en
+[2023-07-14 03:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-14 03:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oca-odoo-pre-commit-hooks
+[2023-07-14 03:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torscrape
+[2023-07-14 03:14:00] INFO root fetch - processPackages [vscode-server-bin]: New version: [1.80.1] Old Version: [1.80.0]
+[2023-07-14 03:14:00] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-14 03:14:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-14 03:14:00] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-14 03:14:00] INFO root fetch - processPackages [torscrape]: New version: [0.1.21] Old Version: [0.1.2]
+[2023-07-14 03:14:00] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-14 03:14:00] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-14 03:14:00] INFO root fetch - processPackages [oca-odoo-pre-commit-hooks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 03:14:00] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-14 03:14:00] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-07-14 03:14:00] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-07-14 03:14:00] INFO root fetch - processPackages [torscrape]: Downloading https://files.pythonhosted.org/packages/00/4b/f37e691b49995da8a57efd18db10101dd414b2ece6a3501761a38e101a8c/torscrape-0.1.2.tar.gz
+[2023-07-14 03:14:00] INFO root fetch - processPackages [vscode-server-bin]: Downloading https://files.pythonhosted.org/packages/e3/59/96e6be743c2ea5565b547ed8516ef68c1b87bba34754445a6a62af48309d/vscode_server_bin-1.80.0-py3-none-any.whl
+[2023-07-14 03:14:00] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-07-14 03:14:00] WARNING root fetch - processPackages [vscode-server-bin]: Skipping package: exceeds size limit 55604306>=10485760
+[2023-07-14 03:14:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-14 03:14:00] INFO root fetch - processPackages [vscode-server-bin]: Start processing: docassemble
+[2023-07-14 03:14:00] INFO root fetch - main [MainThread]: End processing [vscode-server-bin] error
+[2023-07-14 03:14:00] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-07-14 03:14:00] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-07-14 03:14:00] INFO root fetch - processPackages [oca-odoo-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/25/74/7c9fe480c85236a0b39309cf0cb2668c914c4964635422daa0af75002c3f/oca-odoo-pre-commit-hooks-0.0.8.tar.gz
+[2023-07-14 03:14:00] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-07-14 03:14:00] INFO root fetch - processPackages [docassemble]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-14 03:14:00] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-07-14 03:14:00] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-07-14 03:14:00] INFO root fetch - processPackages [torscrape]: Downloading https://files.pythonhosted.org/packages/a1/c3/6abb0f5826686cf6d69b26de95e10c61f6902053f3a59b00d60b16b9ba7c/torscrape-0.1.21.tar.gz
+[2023-07-14 03:14:00] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-07-14 03:14:00] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230714/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-14 03:14:00] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/1b/b1/8cd8c51bc2b5aa0fa89d1528f73674a02f1202fc12d3696bb33172926993/docassemble-1.4.8.tar.gz
+[2023-07-14 03:14:01] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-07-14 03:14:01] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-14 03:14:01] INFO root fetch - processPackages [torscrape]: executing diffoscope
+[2023-07-14 03:14:01] INFO root fetch - processPackages [torscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torscrape-0.1.2.tar.gz tmp/torscrape-0.1.21.tar.gz --markdown 20230714/t/torscrape/0.1.2-0.1.21/diff.md --exclude *.pyd
+[2023-07-14 03:14:01] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-07-14 03:14:01] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-07-14 03:14:01] INFO root fetch - processPackages [oca-odoo-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/e9/b4/a9b466b3c7511c467e0ceffa648c3487bd770913883d3173ab1df6db3588/oca-odoo-pre-commit-hooks-0.0.9.tar.gz
+[2023-07-14 03:14:01] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-07-14 03:14:01] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-07-14 03:14:01] INFO root fetch - processPackages [oca-odoo-pre-commit-hooks]: executing diffoscope
+[2023-07-14 03:14:01] INFO root fetch - processPackages [oca-odoo-pre-commit-hooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oca-odoo-pre-commit-hooks-0.0.8.tar.gz tmp/oca-odoo-pre-commit-hooks-0.0.9.tar.gz --markdown 20230714/o/oca-odoo-pre-commit-hooks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 03:14:01] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-07-14 03:14:01] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230714/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-14 03:14:01] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-07-14 03:14:01] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230714/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-14 03:14:01] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-14 03:14:01] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230714/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-14 03:14:01] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/8b/4e/0fabe3ae223b84b73fa9a38526c3f22a21eab5f747f408034f5c0ba59e7d/docassemble-1.4.9.tar.gz
+[2023-07-14 03:14:01] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-07-14 03:14:01] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230714/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-14 03:14:01] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-14 03:14:01] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230714/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-07-14 03:14:01] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-07-14 03:14:01] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230714/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 03:14:01] INFO root fetch - processPackages [docassemble]: executing diffoscope
+[2023-07-14 03:14:01] INFO root fetch - processPackages [docassemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble-1.4.8.tar.gz tmp/docassemble-1.4.9.tar.gz --markdown 20230714/d/docassemble/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-14 03:14:02] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-07-14 03:14:02] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-07-14 03:14:02] INFO root fetch - processPackages [d20-securityLayer]: Start processing: docassemble.base
+[2023-07-14 03:14:02] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-07-14 03:14:02] INFO root fetch - processPackages [docassemble.base]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-14 03:14:02] INFO root fetch - processPackages [torscrape]: Remove: archive file [/home/abi/fetcher/tmp/torscrape-0.1.2.tar.gz]
+[2023-07-14 03:14:02] INFO root fetch - processPackages [torscrape]: Remove: archive file [/home/abi/fetcher/tmp/torscrape-0.1.21.tar.gz]
+[2023-07-14 03:14:02] INFO root fetch - processPackages [torscrape]: Start processing: docassemble.demo
+[2023-07-14 03:14:02] INFO root fetch - main [MainThread]: End processing [torscrape]: success
+[2023-07-14 03:14:02] INFO root fetch - processPackages [docassemble.demo]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-14 03:14:02] INFO root fetch - processPackages [docassemble.base]: Downloading https://files.pythonhosted.org/packages/49/6f/c82f5b1b26e0b12bdf1e565f9218b862142854979a0f01ea54c864ac7770/docassemble.base-1.4.8.tar.gz
+[2023-07-14 03:14:02] WARNING root fetch - processPackages [docassemble.base]: Skipping package: exceeds size limit 10987248>=10485760
+[2023-07-14 03:14:02] INFO root fetch - processPackages [docassemble.base]: Start processing: docassemble.webapp
+[2023-07-14 03:14:02] INFO root fetch - main [MainThread]: End processing [docassemble.base] error
+[2023-07-14 03:14:02] INFO root fetch - processPackages [docassemble.webapp]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-14 03:14:02] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/12/65/72be3778d6c8df2fc0725932b11671c295cbe40fccf8e32f5fad392c226b/docassemble.demo-1.4.8.tar.gz
+[2023-07-14 03:14:03] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/fe/48/4d304022057f0e254fc8916a718a52b355f0ae2843c22d86139803ae0020/docassemble.webapp-1.4.8.tar.gz
+[2023-07-14 03:14:03] INFO root fetch - processPackages [oca-odoo-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/oca-odoo-pre-commit-hooks-0.0.8.tar.gz]
+[2023-07-14 03:14:03] INFO root fetch - processPackages [oca-odoo-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/oca-odoo-pre-commit-hooks-0.0.9.tar.gz]
+[2023-07-14 03:14:03] INFO root fetch - processPackages [oca-odoo-pre-commit-hooks]: Start processing: reliableGPT
+[2023-07-14 03:14:03] INFO root fetch - main [MainThread]: End processing [oca-odoo-pre-commit-hooks]: success
+[2023-07-14 03:14:03] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-14 03:14:03] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-14 03:14:03] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-14 03:14:03] INFO root fetch - processPackages [docassemble]: Remove: archive file [/home/abi/fetcher/tmp/docassemble-1.4.8.tar.gz]
+[2023-07-14 03:14:03] INFO root fetch - processPackages [docassemble]: Remove: archive file [/home/abi/fetcher/tmp/docassemble-1.4.9.tar.gz]
+[2023-07-14 03:14:03] INFO root fetch - main [MainThread]: End processing [docassemble]: success
+[2023-07-14 03:14:03] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.991] Old Version: [0.2.990]
+[2023-07-14 03:14:03] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 03:14:03] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 03:14:03] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-14 03:14:03] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/42/41/95313df31b2fa63b41c8a7bc12a61e9bd579e1d3ac0f7691cccb064d3420/reliableGPT-0.2.990.tar.gz
+[2023-07-14 03:14:03] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/7c/fa/e08d1ebf8442b9beafe06b0c599ccfa2e1affca3afdb86665a645d11ee0c/reliableGPT-0.2.991.tar.gz
+[2023-07-14 03:14:03] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-14 03:14:03] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.990.tar.gz tmp/reliableGPT-0.2.991.tar.gz --markdown 20230714/r/reliableGPT/0.2.990-0.2.991/diff.md --exclude *.pyd
+[2023-07-14 03:14:04] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/ee/bd/035c358ae80b3b4826a36a17e6a993251ad2bb4c42b826fd879f02355d0e/docassemble.webapp-1.4.9.tar.gz
+[2023-07-14 03:14:04] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/ea/e2/301126e8ccea026042cf14b25646d8a8775d5bc90eaed08eb9da6c61421a/docassemble.demo-1.4.9.tar.gz
+[2023-07-14 03:14:04] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.990.tar.gz]
+[2023-07-14 03:14:04] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.991.tar.gz]
+[2023-07-14 03:14:04] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-14 03:14:05] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-07-14 03:14:05] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-07-14 03:14:05] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-07-14 03:14:05] INFO root fetch - processPackages [docassemble.webapp]: executing diffoscope
+[2023-07-14 03:14:05] INFO root fetch - processPackages [docassemble.webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.webapp-1.4.8.tar.gz tmp/docassemble.webapp-1.4.9.tar.gz --markdown 20230714/d/docassemble.webapp/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-14 03:14:05] INFO root fetch - processPackages [docassemble.demo]: executing diffoscope
+[2023-07-14 03:14:05] INFO root fetch - processPackages [docassemble.demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.demo-1.4.8.tar.gz tmp/docassemble.demo-1.4.9.tar.gz --markdown 20230714/d/docassemble.demo/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-14 03:14:09] INFO root fetch - processPackages [docassemble.demo]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.demo-1.4.8.tar.gz]
+[2023-07-14 03:14:09] INFO root fetch - processPackages [docassemble.demo]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.demo-1.4.9.tar.gz]
+[2023-07-14 03:14:09] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
+[2023-07-14 03:14:10] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.8.tar.gz]
+[2023-07-14 03:14:10] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.9.tar.gz]
+[2023-07-14 03:14:10] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
+[2023-07-14 03:14:22] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-07-14 03:14:22] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-07-14 03:14:22] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-07-14 03:14:33] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-07-14 03:14:33] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-07-14 03:14:33] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-07-14 03:14:40] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2023-07-14 03:14:40] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2023-07-14 03:14:40] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-07-14 03:14:40] INFO root fetch - main [MainThread]: Store serial: [18883241]
