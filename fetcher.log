@@ -10265,3 +10265,159 @@
 [2023-07-14 04:53:18] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
 [2023-07-14 04:53:18] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
 [2023-07-14 04:53:18] INFO root fetch - main [MainThread]: Store serial: [18884848]
+[2023-07-14 04:58:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18884848]
+[2023-07-14 04:58:27] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-14 04:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-core
+[2023-07-14 04:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tva-utils
+[2023-07-14 04:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pubmedtools
+[2023-07-14 04:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deskaone-sdk-api
+[2023-07-14 04:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaar-gpt-tools
+[2023-07-14 04:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-request-filters
+[2023-07-14 04:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iam-actions
+[2023-07-14 04:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbt-ladybug
+[2023-07-14 04:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyquery-xpath
+[2023-07-14 04:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bingbong
+[2023-07-14 04:58:27] INFO root fetch - processPackages [tva-utils]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-14 04:58:27] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-14 04:58:27] INFO root fetch - processPackages [bingbong]: New version: [0.4.1] Old Version: [0.3.2]
+[2023-07-14 04:58:27] INFO root fetch - processPackages [kaar-gpt-tools]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-14 04:58:27] INFO root fetch - processPackages [pyquery-xpath]: New version: [0.5] Old Version: [0.3]
+[2023-07-14 04:58:27] INFO root fetch - processPackages [pubmedtools]: New version: [0.0.0.1] Old Version: [0.0.0.0]
+[2023-07-14 04:58:27] INFO root fetch - processPackages [django-request-filters]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-14 04:58:27] INFO root fetch - processPackages [deskaone-sdk-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-14 04:58:27] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230714] Old Version: [1.2.20230713]
+[2023-07-14 04:58:27] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-14 04:58:27] INFO root fetch - processPackages [pyquery-xpath]: Downloading https://files.pythonhosted.org/packages/c3/d7/32255e3e0e2df586363722385cc3c94aed708d6b000149a5291e111e6711/pyquery_xpath-0.3.tar.gz
+[2023-07-14 04:58:27] INFO root fetch - processPackages [tva-utils]: Downloading https://files.pythonhosted.org/packages/47/85/c066f597d56110d7257006ca714d1ab393d6a4a58731adeb77fa41c609ab/tva_utils-0.2.0.tar.gz
+[2023-07-14 04:58:27] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/4b/66/cc2d8016ab9f1c0bc77fd415b5661285ab334151ddbdae402e642ba050d5/iam_actions-1.2.20230713.tar.gz
+[2023-07-14 04:58:27] INFO root fetch - processPackages [bingbong]: Downloading https://files.pythonhosted.org/packages/72/88/36a3dc8c0bd935a58c6487920d7f448577f89c6fa32c954eabe01b8bfd44/bingbong-0.3.2-py3-none-any.whl
+[2023-07-14 04:58:27] INFO root fetch - processPackages [kaar-gpt-tools]: Downloading https://files.pythonhosted.org/packages/ce/e2/f24c698ede707ba76b2ab490a54dc490d44b017ce1fc6cbf5205b1a2407c/kaar_gpt_tools-0.0.1.tar.gz
+[2023-07-14 04:58:27] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/e4/ac/474c600d6f495b8d63c49d7689b2b076f0c5f94c22728fe795233852a9e1/lbt-ladybug-0.8.1.tar.gz
+[2023-07-14 04:58:27] INFO root fetch - processPackages [deskaone-sdk-api]: Downloading https://files.pythonhosted.org/packages/1e/fe/1e6ab3f15327dda07c5f629b8264d10f76437a7f442e78c8ac57f6697326/deskaone_sdk_api-0.0.1.tar.gz
+[2023-07-14 04:58:27] INFO root fetch - processPackages [pubmedtools]: Downloading https://files.pythonhosted.org/packages/bc/bb/bb3509e6980bfc0004e2e271c557f2b080c8eb0ee446b9c0b1e899c9ea73/pubmedtools-0.0.0.0-py3.10.egg
+[2023-07-14 04:58:27] INFO root fetch - processPackages [django-request-filters]: Downloading https://files.pythonhosted.org/packages/9a/6b/2705d6004ef20f339f3f1e47d170b8605a20875343e1220480bbf2521673/django_request_filters-0.0.3.tar.gz
+[2023-07-14 04:58:27] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-07-14 04:58:28] INFO root fetch - processPackages [pyquery-xpath]: Downloading https://files.pythonhosted.org/packages/3d/94/9372961e096e05e16d6cb16308fdde113f83439eedc1b2c2c632b4af1aa7/pyquery_xpath-0.5.tar.gz
+[2023-07-14 04:58:28] INFO root fetch - processPackages [tva-utils]: Downloading https://files.pythonhosted.org/packages/5b/da/ed69a6c6f49a8f5171f45eae6cf66f5b99e4ff66dbec0c7609bd350de875/tva_utils-0.2.1.tar.gz
+[2023-07-14 04:58:28] INFO root fetch - processPackages [bingbong]: Downloading https://files.pythonhosted.org/packages/71/c2/b9beaed9abee97e8fe452eb23813156fef67314df29355d5ae087e89709d/bingbong-0.4.1-py3-none-any.whl
+[2023-07-14 04:58:28] INFO root fetch - processPackages [kaar-gpt-tools]: Downloading https://files.pythonhosted.org/packages/51/2c/c1e817d89e0d24520312c25ca5c798d622dc6ed07f584aef6818fbe83c66/kaar_gpt_tools-0.1.0.tar.gz
+[2023-07-14 04:58:28] INFO root fetch - processPackages [deskaone-sdk-api]: Downloading https://files.pythonhosted.org/packages/ab/e3/5357bee242fe75de1f43d61c1acd8fd4b2084f25b851319bfb056fca0ec4/deskaone_sdk_api-0.0.2.tar.gz
+[2023-07-14 04:58:28] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/d3/36/e08220cb23633b4f1051f1ecd76b501168918732e06596eacfc4df48598a/iam_actions-1.2.20230714.tar.gz
+[2023-07-14 04:58:28] INFO root fetch - processPackages [pyquery-xpath]: executing diffoscope
+[2023-07-14 04:58:28] INFO root fetch - processPackages [pyquery-xpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquery_xpath-0.3.tar.gz tmp/pyquery_xpath-0.5.tar.gz --markdown 20230714/p/pyquery-xpath/0.3-0.5/diff.md --exclude *.pyd
+[2023-07-14 04:58:28] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-07-14 04:58:28] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.3.2-py3-none-any.whl.zip tmp/bingbong-0.4.1-py3-none-any.whl.zip --markdown 20230714/b/bingbong/0.3.2-0.4.1/diff.md --exclude *.pyd
+[2023-07-14 04:58:28] INFO root fetch - processPackages [pubmedtools]: Downloading https://files.pythonhosted.org/packages/c9/68/acf3bcd84549e4fd8bdf99b89c0d03638e9d7f7730f06e526315c222a279/pubmedtools-0.0.0.1-py3.10.egg
+[2023-07-14 04:58:28] INFO root fetch - processPackages [tva-utils]: executing diffoscope
+[2023-07-14 04:58:28] INFO root fetch - processPackages [tva-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tva_utils-0.2.0.tar.gz tmp/tva_utils-0.2.1.tar.gz --markdown 20230714/t/tva-utils/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-14 04:58:28] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-07-14 04:58:28] INFO root fetch - processPackages [django-request-filters]: Downloading https://files.pythonhosted.org/packages/88/58/2b1169abd376a19f55cc371a14a51c20adb4ce2cb78c0a22bbc73a96c95b/django_request_filters-0.0.4.tar.gz
+[2023-07-14 04:58:28] INFO root fetch - processPackages [kaar-gpt-tools]: executing diffoscope
+[2023-07-14 04:58:28] INFO root fetch - processPackages [kaar-gpt-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaar_gpt_tools-0.0.1.tar.gz tmp/kaar_gpt_tools-0.1.0.tar.gz --markdown 20230714/k/kaar-gpt-tools/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-14 04:58:28] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/6e/e7/a4e6dcfc6b2750475acd6dee9e849a991053471ff22a90aa8f986eaef25b/lbt-ladybug-0.9.0.tar.gz
+[2023-07-14 04:58:28] INFO root fetch - processPackages [deskaone-sdk-api]: executing diffoscope
+[2023-07-14 04:58:28] INFO root fetch - processPackages [deskaone-sdk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deskaone_sdk_api-0.0.1.tar.gz tmp/deskaone_sdk_api-0.0.2.tar.gz --markdown 20230714/d/deskaone-sdk-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-14 04:58:28] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-07-14 04:58:28] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230714/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 04:58:28] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-14 04:58:28] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230713.tar.gz tmp/iam_actions-1.2.20230714.tar.gz --markdown 20230714/i/iam-actions/1.2.20230713-1.2.20230714/diff.md --exclude *.pyd
+[2023-07-14 04:58:28] INFO root fetch - processPackages [pubmedtools]: executing diffoscope
+[2023-07-14 04:58:28] INFO root fetch - processPackages [pubmedtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubmedtools-0.0.0.0-py3.10.egg tmp/pubmedtools-0.0.0.1-py3.10.egg --markdown 20230714/p/pubmedtools/0.0.0.0-0.0.0.1/diff.md --exclude *.pyd
+[2023-07-14 04:58:28] INFO root fetch - processPackages [django-request-filters]: executing diffoscope
+[2023-07-14 04:58:28] INFO root fetch - processPackages [django-request-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_request_filters-0.0.3.tar.gz tmp/django_request_filters-0.0.4.tar.gz --markdown 20230714/d/django-request-filters/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-14 04:58:28] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2023-07-14 04:58:28] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20230714/l/lbt-ladybug/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 04:58:29] INFO root fetch - processPackages [pyquery-xpath]: Remove: archive file [/home/abi/fetcher/tmp/pyquery_xpath-0.3.tar.gz]
+[2023-07-14 04:58:29] INFO root fetch - processPackages [pyquery-xpath]: Remove: archive file [/home/abi/fetcher/tmp/pyquery_xpath-0.5.tar.gz]
+[2023-07-14 04:58:29] INFO root fetch - processPackages [pyquery-xpath]: Start processing: odoo-addon-business-requirement
+[2023-07-14 04:58:29] INFO root fetch - main [MainThread]: End processing [pyquery-xpath]: success
+[2023-07-14 04:58:29] INFO root fetch - processPackages [odoo-addon-business-requirement]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-14 04:58:29] INFO root fetch - processPackages [bingbong]: Remove: archive file [/home/abi/fetcher/tmp/bingbong-0.3.2-py3-none-any.whl.zip]
+[2023-07-14 04:58:29] INFO root fetch - processPackages [bingbong]: Remove: archive file [/home/abi/fetcher/tmp/bingbong-0.4.1-py3-none-any.whl.zip]
+[2023-07-14 04:58:29] INFO root fetch - processPackages [bingbong]: Start processing: odoo-addons-oca-business-requirement
+[2023-07-14 04:58:29] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-07-14 04:58:29] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: New version: [16.0.20230713.0] Old Version: [15.0.20220322.0]
+[2023-07-14 04:58:29] INFO root fetch - processPackages [odoo-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/99/0c/bedd39ddefb1a77ef4be9cdb049c097d9d18a23318b80f8fa98a9b7ab4b4/odoo_addon_business_requirement-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-14 04:58:29] INFO root fetch - processPackages [tva-utils]: Remove: archive file [/home/abi/fetcher/tmp/tva_utils-0.2.0.tar.gz]
+[2023-07-14 04:58:29] INFO root fetch - processPackages [tva-utils]: Remove: archive file [/home/abi/fetcher/tmp/tva_utils-0.2.1.tar.gz]
+[2023-07-14 04:58:29] INFO root fetch - processPackages [tva-utils]: Start processing: lmfit
+[2023-07-14 04:58:29] INFO root fetch - main [MainThread]: End processing [tva-utils]: success
+[2023-07-14 04:58:29] INFO root fetch - processPackages [kaar-gpt-tools]: Remove: archive file [/home/abi/fetcher/tmp/kaar_gpt_tools-0.0.1.tar.gz]
+[2023-07-14 04:58:29] INFO root fetch - processPackages [kaar-gpt-tools]: Remove: archive file [/home/abi/fetcher/tmp/kaar_gpt_tools-0.1.0.tar.gz]
+[2023-07-14 04:58:29] INFO root fetch - processPackages [kaar-gpt-tools]: Start processing: dank-mids
+[2023-07-14 04:58:29] INFO root fetch - main [MainThread]: End processing [kaar-gpt-tools]: success
+[2023-07-14 04:58:30] INFO root fetch - processPackages [deskaone-sdk-api]: Remove: archive file [/home/abi/fetcher/tmp/deskaone_sdk_api-0.0.1.tar.gz]
+[2023-07-14 04:58:30] INFO root fetch - processPackages [deskaone-sdk-api]: Remove: archive file [/home/abi/fetcher/tmp/deskaone_sdk_api-0.0.2.tar.gz]
+[2023-07-14 04:58:30] INFO root fetch - processPackages [deskaone-sdk-api]: Start processing: TinetApiRequest
+[2023-07-14 04:58:30] INFO root fetch - main [MainThread]: End processing [deskaone-sdk-api]: success
+[2023-07-14 04:58:30] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-14 04:58:30] INFO root fetch - processPackages [lmfit]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-14 04:58:30] INFO root fetch - processPackages [TinetApiRequest]: New version: [0.1.9] Old Version: [0.1.8.1]
+[2023-07-14 04:58:30] INFO root fetch - processPackages [pubmedtools]: Remove: archive file [/home/abi/fetcher/tmp/pubmedtools-0.0.0.0-py3.10.egg]
+[2023-07-14 04:58:30] INFO root fetch - processPackages [pubmedtools]: Remove: archive file [/home/abi/fetcher/tmp/pubmedtools-0.0.0.1-py3.10.egg]
+[2023-07-14 04:58:30] INFO root fetch - processPackages [pubmedtools]: Start processing: b2sim
+[2023-07-14 04:58:30] INFO root fetch - main [MainThread]: End processing [pubmedtools]: success
+[2023-07-14 04:58:30] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: Downloading https://files.pythonhosted.org/packages/2c/d0/554a67cf9c83a00b282f1d1172370b8cba6ca45ea6e5e12027710955040c/odoo_addons_oca_business_requirement-15.0.20220322.0-py3-none-any.whl
+[2023-07-14 04:58:30] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-14 04:58:30] INFO root fetch - processPackages [b2sim]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-14 04:58:30] INFO root fetch - processPackages [django-request-filters]: Remove: archive file [/home/abi/fetcher/tmp/django_request_filters-0.0.3.tar.gz]
+[2023-07-14 04:58:30] INFO root fetch - processPackages [django-request-filters]: Remove: archive file [/home/abi/fetcher/tmp/django_request_filters-0.0.4.tar.gz]
+[2023-07-14 04:58:30] INFO root fetch - processPackages [django-request-filters]: Start processing: lbt-honeybee
+[2023-07-14 04:58:30] INFO root fetch - main [MainThread]: End processing [django-request-filters]: success
+[2023-07-14 04:58:30] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/c1/4f/fb74bb936e2ab2b759370b9b56ddee8d60f6a920fa800d29e46566e26b64/TinetApiRequest-0.1.8.1.tar.gz
+[2023-07-14 04:58:30] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-07-14 04:58:30] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-07-14 04:58:30] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-07-14 04:58:30] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-14 04:58:30] INFO root fetch - processPackages [odoo-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/2c/5f/c7d45ed5e0ca03aa331f8c55e749cccf4883082535033ca3dda58400529f/odoo_addon_business_requirement-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-14 04:58:30] INFO root fetch - processPackages [lmfit]: Downloading https://files.pythonhosted.org/packages/94/79/f0e2042b4239228dd2eacfd60cab641e12c1bf5c33f628d98fd5b349cddd/lmfit-1.2.1.tar.gz
+[2023-07-14 04:58:30] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/78/d7/2fc0e3a1395376cc23c08c830320d26a3c2207410d440f7ab51b3fc4b361/b2sim-1.1.0.tar.gz
+[2023-07-14 04:58:30] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-14 04:58:30] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-14 04:58:30] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: Downloading https://files.pythonhosted.org/packages/2d/f2/5f162addf98d21188ea62cb04d92364a93012ba5ac2d60e2859f59a4831b/odoo_addons_oca_business_requirement-16.0.20230713.0-py3-none-any.whl
+[2023-07-14 04:58:30] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: executing diffoscope
+[2023-07-14 04:58:30] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-14 04:58:30] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_business_requirement-15.0.20220322.0-py3-none-any.whl.zip tmp/odoo_addons_oca_business_requirement-16.0.20230713.0-py3-none-any.whl.zip --markdown 20230714/o/odoo-addons-oca-business-requirement/15.0.20220322.0-16.0.20230713.0/diff.md --exclude *.pyd
+[2023-07-14 04:58:30] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230714/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-14 04:58:30] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/4a/9b/61417a017b76c37a0abfec87fc99d718d125c05556631fe1f6e297381c7a/TinetApiRequest-0.1.9.tar.gz
+[2023-07-14 04:58:30] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-14 04:58:30] INFO root fetch - processPackages [lmfit]: Downloading https://files.pythonhosted.org/packages/83/8a/75993dbf43f593bc5f4815806b9c61b25819dbced2a165c0dd11a5d70a2c/lmfit-1.2.2.tar.gz
+[2023-07-14 04:58:30] INFO root fetch - processPackages [odoo-addon-business-requirement]: executing diffoscope
+[2023-07-14 04:58:30] INFO root fetch - processPackages [odoo-addon-business-requirement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_business_requirement-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_business_requirement-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-business-requirement/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-14 04:58:30] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/d4/ab/8f59ea391a11ebc2dc869c4a8970ab8c0db701969ba4cbad6b00016c9ef9/b2sim-1.1.1.tar.gz
+[2023-07-14 04:58:30] INFO root fetch - processPackages [TinetApiRequest]: executing diffoscope
+[2023-07-14 04:58:30] INFO root fetch - processPackages [TinetApiRequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TinetApiRequest-0.1.8.1.tar.gz tmp/TinetApiRequest-0.1.9.tar.gz --markdown 20230714/T/TinetApiRequest/0.1.8.1-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 04:58:30] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-14 04:58:30] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230714/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-14 04:58:31] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.8.1.tar.gz]
+[2023-07-14 04:58:31] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
+[2023-07-14 04:58:31] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2023-07-14 04:58:31] INFO root fetch - processPackages [lmfit]: executing diffoscope
+[2023-07-14 04:58:31] INFO root fetch - processPackages [lmfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmfit-1.2.1.tar.gz tmp/lmfit-1.2.2.tar.gz --markdown 20230714/l/lmfit/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-14 04:58:31] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2023-07-14 04:58:31] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-1.1.0.tar.gz tmp/b2sim-1.1.1.tar.gz --markdown 20230714/b/b2sim/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-14 04:58:31] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_business_requirement-15.0.20220322.0-py3-none-any.whl.zip]
+[2023-07-14 04:58:31] INFO root fetch - processPackages [odoo-addons-oca-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_business_requirement-16.0.20230713.0-py3-none-any.whl.zip]
+[2023-07-14 04:58:31] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-business-requirement]: success
+[2023-07-14 04:58:31] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-14 04:58:31] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-14 04:58:31] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-14 04:58:32] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-14 04:58:32] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-14 04:58:32] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-14 04:58:32] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-0.1.8.1.tar.gz]
+[2023-07-14 04:58:32] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-0.1.9.tar.gz]
+[2023-07-14 04:58:32] INFO root fetch - main [MainThread]: End processing [TinetApiRequest]: success
+[2023-07-14 04:58:32] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.1.0.tar.gz]
+[2023-07-14 04:58:32] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.1.1.tar.gz]
+[2023-07-14 04:58:32] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2023-07-14 04:58:32] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-14 04:58:32] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-14 04:58:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-business-requirement]: success
+[2023-07-14 04:58:33] INFO root fetch - processPackages [lmfit]: Remove: archive file [/home/abi/fetcher/tmp/lmfit-1.2.1.tar.gz]
+[2023-07-14 04:58:33] INFO root fetch - processPackages [lmfit]: Remove: archive file [/home/abi/fetcher/tmp/lmfit-1.2.2.tar.gz]
+[2023-07-14 04:58:33] INFO root fetch - main [MainThread]: End processing [lmfit]: success
+[2023-07-14 04:58:34] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230713.tar.gz]
+[2023-07-14 04:58:34] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230714.tar.gz]
+[2023-07-14 04:58:34] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-14 04:58:34] INFO root fetch - main [MainThread]: Store serial: [18884907]
