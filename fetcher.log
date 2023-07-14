@@ -22693,3 +22693,208 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-14 15:19:19] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.1.1.tar.gz]
 [2023-07-14 15:19:19] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2023-07-14 15:19:19] INFO root fetch - main [MainThread]: Store serial: [18889892]
+[2023-07-14 15:24:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18889892]
+[2023-07-14 15:24:49] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-14 15:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: receptor-digger
+[2023-07-14 15:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparkx
+[2023-07-14 15:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cenas
+[2023-07-14 15:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CDK-pywrapper
+[2023-07-14 15:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-sphinx
+[2023-07-14 15:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: efel
+[2023-07-14 15:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BlueDesc-pywrapper
+[2023-07-14 15:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-django
+[2023-07-14 15:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: magik
+[2023-07-14 15:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: talos-install
+[2023-07-14 15:24:49] WARNING root fetch - processPackages [sparkx]: Skipping, unable to determine old version
+[2023-07-14 15:24:49] INFO root fetch - processPackages [sparkx]: Start processing: odoo-addon-web-responsive
+[2023-07-14 15:24:49] INFO root fetch - main [MainThread]: End processing [sparkx] error
+[2023-07-14 15:24:49] INFO root fetch - processPackages [receptor-digger]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-14 15:24:49] INFO root fetch - processPackages [talos-install]: New version: [0.2.2.dev146] Old Version: [0.2.1]
+[2023-07-14 15:24:49] INFO root fetch - processPackages [cenas]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-14 15:24:49] INFO root fetch - processPackages [magik]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 15:24:49] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 15:24:49] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 15:24:50] INFO root fetch - processPackages [BlueDesc-pywrapper]: New version: [0.0.3] Old Version: [0.0.2.post1]
+[2023-07-14 15:24:50] INFO root fetch - processPackages [CDK-pywrapper]: New version: [0.0.2.post1] Old Version: [0.0.2]
+[2023-07-14 15:24:50] INFO root fetch - processPackages [talos-install]: Downloading https://files.pythonhosted.org/packages/a9/34/09045cd7d1ac6bfb61537a52bff4284a9bfa5dec5ee689ec905f01dfa636/talos_install-0.2.1.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [odoo-addon-web-responsive]: New version: [16.0.1.1.2.1] Old Version: [16.0.1.1.2]
+[2023-07-14 15:24:50] INFO root fetch - processPackages [efel]: New version: [4.3.6] Old Version: [4.3.5]
+[2023-07-14 15:24:50] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/48/60/8d20b9f7df895423cd99cf9873662c30279ace59758ca4d3551397709ebd/magik-0.1.1.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/62/d5/f5fc1a646e6f9c010791e0efb338622d58ac497d3f946626c7ba1f79b55e/cenas-1.1.1.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [receptor-digger]: Downloading https://files.pythonhosted.org/packages/06/73/945e5bf6d0436f1b2cdd50e7c8750dd7324138d9d32d83ceee9f73686da6/receptor_digger-0.5.4.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [odoo-addon-web-responsive]: Downloading https://files.pythonhosted.org/packages/5c/d9/547433fbe3d72f74430324f28ba8ce9a93d1bdee0f2908975f166c144d2c/odoo_addon_web_responsive-16.0.1.1.2-py3-none-any.whl
+[2023-07-14 15:24:50] INFO root fetch - processPackages [BlueDesc-pywrapper]: Downloading https://files.pythonhosted.org/packages/bc/0d/a9a0ff0fb535b252c91e741ef53c62a10e1a99d43bd50dbc7b757e518063/BlueDesc_pywrapper-0.0.2.post1.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [CDK-pywrapper]: Downloading https://files.pythonhosted.org/packages/7e/9e/4d529fe297bf81a9fdd70160ef344360bee9add7abe9600e503f35786bcc/CDK_pywrapper-0.0.2.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-14 15:24:50] WARNING root fetch - processPackages [CDK-pywrapper]: Skipping package: exceeds size limit 43148171>=10485760
+[2023-07-14 15:24:50] INFO root fetch - processPackages [CDK-pywrapper]: Start processing: planqk-quantum
+[2023-07-14 15:24:50] INFO root fetch - main [MainThread]: End processing [CDK-pywrapper] error
+[2023-07-14 15:24:50] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/4a/23/5d4d25c8515eb8e934a1b26f86fb0e3315fe2bd07e5a2e9f9e881d29b59c/efel-4.3.5.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/c7/d6/8a7686ac07d9a8998e9e66d8812b86837a803682bad56581d2fc07a99803/magik-0.1.2.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [planqk-quantum]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-07-14 15:24:50] ERROR root fetch - processPackages [talos-install]: Unable to fetch info: No such project/version 'talos-install' 0.2.2.dev146
+[2023-07-14 15:24:50] INFO root fetch - processPackages [talos-install]: Start processing: nbdev-apl
+[2023-07-14 15:24:50] INFO root fetch - main [MainThread]: End processing [talos-install] error
+[2023-07-14 15:24:50] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-14 15:24:50] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230714/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 15:24:50] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/d7/61/2ccbd8c3b8a1f87427258a128d80fcb636fa5d3fde7e6444d7e819d12fc8/cenas-1.1.2.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [magik]: executing diffoscope
+[2023-07-14 15:24:50] INFO root fetch - processPackages [magik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magik-0.1.1.tar.gz tmp/magik-0.1.2.tar.gz --markdown 20230714/m/magik/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 15:24:50] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.893] Old Version: [0.0.892]
+[2023-07-14 15:24:50] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-14 15:24:50] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.1.tar.gz tmp/cenas-1.1.2.tar.gz --markdown 20230714/c/cenas/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-14 15:24:50] INFO root fetch - processPackages [receptor-digger]: Downloading https://files.pythonhosted.org/packages/26/29/dee652b6b6cba6709c927087f16ff9b615030ebbf1c27d5191d058e949f3/receptor_digger-0.5.5.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/cd/eb/144cea62868489a0e50cd5b2db17807a834c20e5d899f03d2d2a00d23600/nbdev-apl-0.0.892.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [BlueDesc-pywrapper]: Downloading https://files.pythonhosted.org/packages/74/2c/f2125215040b72b9f1f903a6b0064b1bbb2ae079b03c320f173729269021/BlueDesc_pywrapper-0.0.3.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/a2/2283b7561efc1f28847bda5663a94ecf7f878f29f7b3a1590a79b839125d/planqk-quantum-1.8.6.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/b7/58/ed8dd9d538fe83af361e49371e08fe530903d91c18713a9ca300c1ba014b/efel-4.3.6.tar.gz
+[2023-07-14 15:24:50] INFO root fetch - processPackages [receptor-digger]: executing diffoscope
+[2023-07-14 15:24:50] INFO root fetch - processPackages [receptor-digger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/receptor_digger-0.5.4.tar.gz tmp/receptor_digger-0.5.5.tar.gz --markdown 20230714/r/receptor-digger/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-14 15:24:51] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/e9/62/cfb24a0b7a061fa40e6e876d278fcbbcf2f118e17c14882440db4f01cfc4/nbdev-apl-0.0.893.tar.gz
+[2023-07-14 15:24:51] INFO root fetch - processPackages [BlueDesc-pywrapper]: executing diffoscope
+[2023-07-14 15:24:51] INFO root fetch - processPackages [BlueDesc-pywrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlueDesc_pywrapper-0.0.2.post1.tar.gz tmp/BlueDesc_pywrapper-0.0.3.tar.gz --markdown 20230714/B/BlueDesc-pywrapper/0.0.2.post1-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 15:24:51] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/a3/13/7cd24d3b8a0478841e1fa07648a7156ac8b299a7e39addc247212e1e8a60/planqk-quantum-1.9.0.tar.gz
+[2023-07-14 15:24:51] INFO root fetch - processPackages [efel]: executing diffoscope
+[2023-07-14 15:24:51] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-4.3.5.tar.gz tmp/efel-4.3.6.tar.gz --markdown 20230714/e/efel/4.3.5-4.3.6/diff.md --exclude *.pyd
+[2023-07-14 15:24:51] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-14 15:24:51] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.6.tar.gz tmp/planqk-quantum-1.9.0.tar.gz --markdown 20230714/p/planqk-quantum/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 15:24:51] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-14 15:24:51] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230714/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 15:24:51] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-14 15:24:51] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.892.tar.gz tmp/nbdev-apl-0.0.893.tar.gz --markdown 20230714/n/nbdev-apl/0.0.892-0.0.893/diff.md --exclude *.pyd
+[2023-07-14 15:24:51] INFO root fetch - processPackages [odoo-addon-web-responsive]: Downloading https://files.pythonhosted.org/packages/b3/79/6874701cdf20f48e997aad88b08b56037f2db8f920494eb6a0b27c324446/odoo_addon_web_responsive-16.0.1.1.2.1-py3-none-any.whl
+[2023-07-14 15:24:51] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-14 15:24:51] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-14 15:24:51] INFO root fetch - processPackages [nbdev-django]: Start processing: helios-rl
+[2023-07-14 15:24:51] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-14 15:24:52] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.1.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.2.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [cenas]: Start processing: odoo-addon-shipment-advice
+[2023-07-14 15:24:52] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-14 15:24:52] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.1.1.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.1.2.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [magik]: Start processing: coiled
+[2023-07-14 15:24:52] INFO root fetch - main [MainThread]: End processing [magik]: success
+[2023-07-14 15:24:52] INFO root fetch - processPackages [odoo-addon-shipment-advice]: New version: [16.0.1.1.5] Old Version: [16.0.1.1.4]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-14 15:24:52] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [odoo-addon-web-responsive]: executing diffoscope
+[2023-07-14 15:24:52] INFO root fetch - processPackages [odoo-addon-web-responsive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_responsive-16.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_web_responsive-16.0.1.1.2.1-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-web-responsive/16.0.1.1.2-16.0.1.1.2.1/diff.md --exclude *.pyd
+[2023-07-14 15:24:52] INFO root fetch - processPackages [BlueDesc-pywrapper]: Remove: archive file [/home/abi/fetcher/tmp/BlueDesc_pywrapper-0.0.2.post1.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [BlueDesc-pywrapper]: Remove: archive file [/home/abi/fetcher/tmp/BlueDesc_pywrapper-0.0.3.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [BlueDesc-pywrapper]: Start processing: fieldedge-utilities
+[2023-07-14 15:24:52] INFO root fetch - main [MainThread]: End processing [BlueDesc-pywrapper]: success
+[2023-07-14 15:24:52] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-14 15:24:52] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/d0/4d/b442a0e5343dd94845461052fd3561f27cfe156abf14e903c9192faf163d/odoo_addon_shipment_advice-16.0.1.1.4-py3-none-any.whl
+[2023-07-14 15:24:52] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-14 15:24:52] INFO root fetch - processPackages [receptor-digger]: Remove: archive file [/home/abi/fetcher/tmp/receptor_digger-0.5.4.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [receptor-digger]: Remove: archive file [/home/abi/fetcher/tmp/receptor_digger-0.5.5.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [receptor-digger]: Start processing: pysdot
+[2023-07-14 15:24:52] INFO root fetch - main [MainThread]: End processing [receptor-digger]: success
+[2023-07-14 15:24:52] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-14 15:24:52] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230714/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-14 15:24:52] INFO root fetch - processPackages [pysdot]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.6.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.9.0.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [planqk-quantum]: Start processing: mobicontrol
+[2023-07-14 15:24:52] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-14 15:24:52] INFO root fetch - processPackages [mobicontrol]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-14 15:24:52] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/58/c8/07a56a466b82e7f91faaaed1e412c855bbb21a4da376ec56718ee02e2df7/pysdot-0.2.7.tar.gz
+[2023-07-14 15:24:52] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/42/31/bfa0b95c3133e011ddf8a64646636457dca7435d056024a123450ded08b6/odoo_addon_shipment_advice-16.0.1.1.5-py3-none-any.whl
+[2023-07-14 15:24:52] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.892.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.893.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [nbdev-apl]: Start processing: BTM
+[2023-07-14 15:24:52] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-14 15:24:52] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: FinQuant
+[2023-07-14 15:24:52] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-14 15:24:52] INFO root fetch - processPackages [BTM]: New version: [1.1.1] Old Version: [1.0.15]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [mobicontrol]: Downloading https://files.pythonhosted.org/packages/b6/83/9def14e9ec67373da1ed111dc271337b6f0636bde6cc84a0929ac52fe841/mobicontrol-1.1.0.tar.gz
+[2023-07-14 15:24:52] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-4.3.5.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-4.3.6.tar.gz]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [efel]: Start processing: qalita
+[2023-07-14 15:24:52] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2023-07-14 15:24:52] INFO root fetch - processPackages [fieldedge-utilities]: Downloading https://files.pythonhosted.org/packages/94/51/27351e27b84fb88e4cafeee9829c12c91fa3a932466885fd524f7745c83c/fieldedge-utilities-0.9.4.tar.gz
+[2023-07-14 15:24:52] INFO root fetch - processPackages [qalita]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-07-14 15:24:52] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-14 15:24:52] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230714/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-14 15:24:53] INFO root fetch - processPackages [BTM]: Downloading https://files.pythonhosted.org/packages/98/2d/d5eeabf96aea6ad5e88bade405477133557a1a4d9126c30fc1d88c8571f2/BTM-1.0.15.tar.gz
+[2023-07-14 15:24:53] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/13/97/8fcde2da6b06276a9ef7c3fea9e816e5e0cd9025cfe13a8053a4435c66ae/pysdot-0.2.8.tar.gz
+[2023-07-14 15:24:53] INFO root fetch - processPackages [FinQuant]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-14 15:24:53] INFO root fetch - processPackages [odoo-addon-shipment-advice]: executing diffoscope
+[2023-07-14 15:24:53] INFO root fetch - processPackages [odoo-addon-shipment-advice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shipment_advice-16.0.1.1.4-py3-none-any.whl.zip tmp/odoo_addon_shipment_advice-16.0.1.1.5-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-shipment-advice/16.0.1.1.4-16.0.1.1.5/diff.md --exclude *.pyd
+[2023-07-14 15:24:53] INFO root fetch - processPackages [qalita]: Downloading https://files.pythonhosted.org/packages/8c/8e/5e4ed48fd3021d4c23e490faf1e432a60e045b87a8c3156884eef9c9986c/qalita-1.0.1.tar.gz
+[2023-07-14 15:24:53] INFO root fetch - processPackages [mobicontrol]: Downloading https://files.pythonhosted.org/packages/58/d9/3d42c85a604d87ec40604112d47b1ac215d3bcaf96b4edea3f361e143570/mobicontrol-1.2.0.tar.gz
+[2023-07-14 15:24:53] INFO root fetch - processPackages [pysdot]: executing diffoscope
+[2023-07-14 15:24:53] INFO root fetch - processPackages [pysdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdot-0.2.7.tar.gz tmp/pysdot-0.2.8.tar.gz --markdown 20230714/p/pysdot/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-14 15:24:53] INFO root fetch - processPackages [mobicontrol]: executing diffoscope
+[2023-07-14 15:24:53] INFO root fetch - processPackages [mobicontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobicontrol-1.1.0.tar.gz tmp/mobicontrol-1.2.0.tar.gz --markdown 20230714/m/mobicontrol/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-14 15:24:53] INFO root fetch - processPackages [FinQuant]: Downloading https://files.pythonhosted.org/packages/de/8b/2483dc869af336872af28882a3196d2cc9cd22ec49109b2c3f82a6393cc5/FinQuant-0.2.3.tar.gz
+[2023-07-14 15:24:53] INFO root fetch - processPackages [fieldedge-utilities]: Downloading https://files.pythonhosted.org/packages/a4/cc/5e3cca6cf81fd198ab60061c1fc2991aa7d6101683864c4fac3709547e03/fieldedge-utilities-0.9.5.tar.gz
+[2023-07-14 15:24:53] INFO root fetch - processPackages [qalita]: Downloading https://files.pythonhosted.org/packages/66/e1/c347dded7158648baafe4d0a2adea3e4e22adb1db49628d0cde6f6feef7c/qalita-1.0.3.tar.gz
+[2023-07-14 15:24:53] INFO root fetch - processPackages [BTM]: Downloading https://files.pythonhosted.org/packages/eb/c7/cdbaf9695067ec97f2bc8a49fb66f7eb5d5882d7208694bf486a80dcf3d2/BTM-1.1.1.tar.gz
+[2023-07-14 15:24:53] INFO root fetch - processPackages [qalita]: executing diffoscope
+[2023-07-14 15:24:53] INFO root fetch - processPackages [qalita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qalita-1.0.1.tar.gz tmp/qalita-1.0.3.tar.gz --markdown 20230714/q/qalita/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-07-14 15:24:53] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-07-14 15:24:53] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230714/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-14 15:24:53] INFO root fetch - processPackages [BTM]: executing diffoscope
+[2023-07-14 15:24:53] INFO root fetch - processPackages [BTM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BTM-1.0.15.tar.gz tmp/BTM-1.1.1.tar.gz --markdown 20230714/B/BTM/1.0.15-1.1.1/diff.md --exclude *.pyd
+[2023-07-14 15:24:53] INFO root fetch - processPackages [FinQuant]: Downloading https://files.pythonhosted.org/packages/60/45/4ddec8dce07349c10f1f5680f5c525718747e9707f1ba43ca6ea0252759b/FinQuant-0.3.0.tar.gz
+[2023-07-14 15:24:53] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-14 15:24:53] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-14 15:24:53] INFO root fetch - processPackages [helios-rl]: Start processing: anndata2ri
+[2023-07-14 15:24:53] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-14 15:24:53] INFO root fetch - processPackages [odoo-addon-web-responsive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_responsive-16.0.1.1.2-py3-none-any.whl.zip]
+[2023-07-14 15:24:53] INFO root fetch - processPackages [odoo-addon-web-responsive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_responsive-16.0.1.1.2.1-py3-none-any.whl.zip]
+[2023-07-14 15:24:53] INFO root fetch - processPackages [odoo-addon-web-responsive]: Start processing: Simple-Q
+[2023-07-14 15:24:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-responsive]: success
+[2023-07-14 15:24:54] INFO root fetch - processPackages [anndata2ri]: New version: [1.2] Old Version: [1.1]
+[2023-07-14 15:24:54] INFO root fetch - processPackages [FinQuant]: executing diffoscope
+[2023-07-14 15:24:54] INFO root fetch - processPackages [FinQuant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinQuant-0.2.3.tar.gz tmp/FinQuant-0.3.0.tar.gz --markdown 20230714/F/FinQuant/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-14 15:24:54] INFO root fetch - processPackages [Simple-Q]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-14 15:24:54] INFO root fetch - processPackages [Simple-Q]: Downloading https://files.pythonhosted.org/packages/c3/49/981355268157662f0b4bde2a4c38caf60792a2268e33f6aa0835ea428743/Simple_Q-1.0.1.tar.gz
+[2023-07-14 15:24:54] INFO root fetch - processPackages [anndata2ri]: Downloading https://files.pythonhosted.org/packages/a9/10/ea222c17531913e239e55680ef71d91631f6b50550f4ad273ca12477f774/anndata2ri-1.1.tar.gz
+[2023-07-14 15:24:54] INFO root fetch - processPackages [Simple-Q]: Downloading https://files.pythonhosted.org/packages/1a/64/c52a23979893eba3988590d2343d32b4c2ed1f5394091143b778138340cd/Simple_Q-1.0.2.tar.gz
+[2023-07-14 15:24:54] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-14 15:24:54] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-14 15:24:54] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-14 15:24:54] INFO root fetch - processPackages [mobicontrol]: Remove: archive file [/home/abi/fetcher/tmp/mobicontrol-1.1.0.tar.gz]
+[2023-07-14 15:24:54] INFO root fetch - processPackages [mobicontrol]: Remove: archive file [/home/abi/fetcher/tmp/mobicontrol-1.2.0.tar.gz]
+[2023-07-14 15:24:54] INFO root fetch - main [MainThread]: End processing [mobicontrol]: success
+[2023-07-14 15:24:54] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.7.tar.gz]
+[2023-07-14 15:24:54] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.8.tar.gz]
+[2023-07-14 15:24:54] INFO root fetch - main [MainThread]: End processing [pysdot]: success
+[2023-07-14 15:24:54] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shipment_advice-16.0.1.1.4-py3-none-any.whl.zip]
+[2023-07-14 15:24:54] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shipment_advice-16.0.1.1.5-py3-none-any.whl.zip]
+[2023-07-14 15:24:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-shipment-advice]: success
+[2023-07-14 15:24:54] INFO root fetch - processPackages [anndata2ri]: Downloading https://files.pythonhosted.org/packages/89/f8/a1f86e3801fbc70543d2247ad23c48d248d2f95cadba3e5fd1524c9e66b4/anndata2ri-1.2.tar.gz
+[2023-07-14 15:24:54] INFO root fetch - processPackages [Simple-Q]: executing diffoscope
+[2023-07-14 15:24:54] INFO root fetch - processPackages [Simple-Q]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simple_Q-1.0.1.tar.gz tmp/Simple_Q-1.0.2.tar.gz --markdown 20230714/S/Simple-Q/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-14 15:24:54] INFO root fetch - processPackages [anndata2ri]: executing diffoscope
+[2023-07-14 15:24:54] INFO root fetch - processPackages [anndata2ri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anndata2ri-1.1.tar.gz tmp/anndata2ri-1.2.tar.gz --markdown 20230714/a/anndata2ri/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-14 15:24:54] INFO root fetch - processPackages [fieldedge-utilities]: Remove: archive file [/home/abi/fetcher/tmp/fieldedge-utilities-0.9.4.tar.gz]
+[2023-07-14 15:24:54] INFO root fetch - processPackages [fieldedge-utilities]: Remove: archive file [/home/abi/fetcher/tmp/fieldedge-utilities-0.9.5.tar.gz]
+[2023-07-14 15:24:54] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-07-14 15:24:55] INFO root fetch - processPackages [qalita]: Remove: archive file [/home/abi/fetcher/tmp/qalita-1.0.1.tar.gz]
+[2023-07-14 15:24:55] INFO root fetch - processPackages [qalita]: Remove: archive file [/home/abi/fetcher/tmp/qalita-1.0.3.tar.gz]
+[2023-07-14 15:24:55] INFO root fetch - main [MainThread]: End processing [qalita]: success
+[2023-07-14 15:24:55] INFO root fetch - processPackages [FinQuant]: Remove: archive file [/home/abi/fetcher/tmp/FinQuant-0.2.3.tar.gz]
+[2023-07-14 15:24:55] INFO root fetch - processPackages [FinQuant]: Remove: archive file [/home/abi/fetcher/tmp/FinQuant-0.3.0.tar.gz]
+[2023-07-14 15:24:55] INFO root fetch - main [MainThread]: End processing [FinQuant]: success
+[2023-07-14 15:24:55] INFO root fetch - processPackages [Simple-Q]: Remove: archive file [/home/abi/fetcher/tmp/Simple_Q-1.0.1.tar.gz]
+[2023-07-14 15:24:55] INFO root fetch - processPackages [Simple-Q]: Remove: archive file [/home/abi/fetcher/tmp/Simple_Q-1.0.2.tar.gz]
+[2023-07-14 15:24:55] INFO root fetch - main [MainThread]: End processing [Simple-Q]: success
+[2023-07-14 15:24:55] INFO root fetch - processPackages [anndata2ri]: Remove: archive file [/home/abi/fetcher/tmp/anndata2ri-1.1.tar.gz]
+[2023-07-14 15:24:55] INFO root fetch - processPackages [anndata2ri]: Remove: archive file [/home/abi/fetcher/tmp/anndata2ri-1.2.tar.gz]
+[2023-07-14 15:24:55] INFO root fetch - main [MainThread]: End processing [anndata2ri]: success
+[2023-07-14 15:24:57] INFO root fetch - processPackages [BTM]: Remove: archive file [/home/abi/fetcher/tmp/BTM-1.0.15.tar.gz]
+[2023-07-14 15:24:57] INFO root fetch - processPackages [BTM]: Remove: archive file [/home/abi/fetcher/tmp/BTM-1.1.1.tar.gz]
+[2023-07-14 15:24:57] INFO root fetch - main [MainThread]: End processing [BTM]: success
+[2023-07-14 15:24:57] INFO root fetch - main [MainThread]: Store serial: [18890011]
