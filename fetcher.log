@@ -13995,3 +13995,115 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 08:39:12] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz]
 [2023-07-14 08:39:12] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
 [2023-07-14 08:39:12] INFO root fetch - main [MainThread]: Store serial: [18886120]
+[2023-07-14 08:44:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886120]
+[2023-07-14 08:44:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-14 08:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-opsgenie
+[2023-07-14 08:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xhibit
+[2023-07-14 08:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ir-digit
+[2023-07-14 08:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ndp-app-versioncontrol
+[2023-07-14 08:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-okta
+[2023-07-14 08:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyperdx-opentelemetry
+[2023-07-14 08:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botastico
+[2023-07-14 08:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xhibit
+[2023-07-14 08:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-l10n-es-aeat-sii-oca
+[2023-07-14 08:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-es-pos-sii
+[2023-07-14 08:44:21] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1689314769] Old Version: [1.3.0a1688042112]
+[2023-07-14 08:44:21] INFO root fetch - processPackages [ndp-app-versioncontrol]: New version: [1.6] Old Version: [1.5]
+[2023-07-14 08:44:21] INFO root fetch - processPackages [xhibit]: New version: [9.5.2] Old Version: [9.5.1]
+[2023-07-14 08:44:21] INFO root fetch - processPackages [hyperdx-opentelemetry]: New version: [0.0.3] Old Version: [0.0.2.post1]
+[2023-07-14 08:44:21] INFO root fetch - processPackages [ir-digit]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-07-14 08:44:21] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: New version: [16.0.1.3.1] Old Version: [16.0.1.3.0]
+[2023-07-14 08:44:21] INFO root fetch - processPackages [pulumi-okta]: New version: [4.2.0a1689314511] Old Version: [4.1.0a1689006772]
+[2023-07-14 08:44:21] WARNING root fetch - processPackages [odoo-addon-l10n-es-pos-sii]: Skipping, unable to determine old version
+[2023-07-14 08:44:21] INFO root fetch - processPackages [odoo-addon-l10n-es-pos-sii]: Start processing: odoo-addon-l10n-es-aeat-sii-oss
+[2023-07-14 08:44:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-pos-sii] error
+[2023-07-14 08:44:21] INFO root fetch - processPackages [botastico]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 08:44:21] INFO root fetch - processPackages [xhibit]: New version: [9.5.2] Old Version: [9.5.1]
+[2023-07-14 08:44:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oss]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.2]
+[2023-07-14 08:44:22] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/29/73/72f9e6fac05a2d5011c55a934a1ed6798b095060a6ed09bfd6fbe27910d8/ndp-app-versioncontrol-1.5.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/e5/85/8c846630d2a8974fcd18efadc9511f521f552466e415db95367d5a8c586a/ir_digit-1.0.0.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [hyperdx-opentelemetry]: Downloading https://files.pythonhosted.org/packages/38/5d/dfc279db97cd4726436734270dd819803f882d955b92630628b12eede444/hyperdx_opentelemetry-0.0.2.post1.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [botastico]: Downloading https://files.pythonhosted.org/packages/b4/91/c1fb75f399bc26510938415b8533a1d3ecaa2e0dbad90f1e65ee9d9d6bc8/botastico-0.1.1.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/5b/97/b22b3f5a40834f3525080aff39f3b1f43ddff23220c93cc95ae7da23a7a6/pulumi_opsgenie-1.3.0a1688042112.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/13/ac/0e33e09dc329776200d0bac70cdef32895cb7cda8e26dbc96b706991a1c5/xhibit-9.5.1.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/13/ac/0e33e09dc329776200d0bac70cdef32895cb7cda8e26dbc96b706991a1c5/xhibit-9.5.1.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/61/d0/7193070952d366900d188ef448bab3fe077eda881302d6a62ae9151b0905/pulumi_okta-4.1.0a1689006772.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/dc/b1/4825bb34bb46de835ddc9fe82d13a0684ebdb4bfacc424e0d618d37d5d09/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl
+[2023-07-14 08:44:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oss]: Downloading https://files.pythonhosted.org/packages/6a/94/cd6158f933c1c7a08e3dbc9acb17490d4eb5f3d1d5fe6e2741005de139a9/odoo_addon_l10n_es_aeat_sii_oss-15.0.1.0.2-py3-none-any.whl
+[2023-07-14 08:44:22] INFO root fetch - processPackages [hyperdx-opentelemetry]: Downloading https://files.pythonhosted.org/packages/83/a5/22a345a6886eba6e1990eb8bab5a743df1615bc06101f9cb1cc8b8df845e/hyperdx_opentelemetry-0.0.3.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/53/dd/698e13aebccb18d8c39d5317dff70b1ff1e0072cfaa192af3fb0ddf01e58/ndp-app-versioncontrol-1.6.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [ir-digit]: Downloading https://files.pythonhosted.org/packages/75/7f/4b0a7a15bb9edea6600906456139017d86969ebd7459e63f389f3e85597f/ir_digit-1.1.1.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [botastico]: Downloading https://files.pythonhosted.org/packages/aa/b1/a3d4c9916e75f86b97979af057e66a176fc9882cac776367650b2fae5839/botastico-0.1.2.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/a4/9c/6f265071703d02338e00ddfc86c771367674b0023158cab6489b7f331c59/pulumi_opsgenie-1.3.0a1689314769.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/e4/47/b729b43cedfba1bed9f94ca6077eac7096380f482e470e32566f0f640029/xhibit-9.5.2.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/e4/47/b729b43cedfba1bed9f94ca6077eac7096380f482e470e32566f0f640029/xhibit-9.5.2.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [ndp-app-versioncontrol]: executing diffoscope
+[2023-07-14 08:44:22] INFO root fetch - processPackages [ndp-app-versioncontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndp-app-versioncontrol-1.5.tar.gz tmp/ndp-app-versioncontrol-1.6.tar.gz --markdown 20230714/n/ndp-app-versioncontrol/1.5-1.6/diff.md --exclude *.pyd
+[2023-07-14 08:44:22] INFO root fetch - processPackages [hyperdx-opentelemetry]: executing diffoscope
+[2023-07-14 08:44:22] INFO root fetch - processPackages [hyperdx-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperdx_opentelemetry-0.0.2.post1.tar.gz tmp/hyperdx_opentelemetry-0.0.3.tar.gz --markdown 20230714/h/hyperdx-opentelemetry/0.0.2.post1-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 08:44:22] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/67/bb/c871e8a837dadb7df65a862f172e14fca6855f668296302d04bf552aad5d/pulumi_okta-4.2.0a1689314511.tar.gz
+[2023-07-14 08:44:22] INFO root fetch - processPackages [ir-digit]: executing diffoscope
+[2023-07-14 08:44:22] INFO root fetch - processPackages [ir-digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_digit-1.0.0.tar.gz tmp/ir_digit-1.1.1.tar.gz --markdown 20230714/i/ir-digit/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-14 08:44:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/40/3f/6507a40a2b7c28c76b87c5c1a167ebe91fb68b890e36eadc35df33e5f2a8/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl
+[2023-07-14 08:44:22] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-07-14 08:44:22] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1688042112.tar.gz tmp/pulumi_opsgenie-1.3.0a1689314769.tar.gz --markdown 20230714/p/pulumi-opsgenie/1.3.0a1688042112-1.3.0a1689314769/diff.md --exclude *.pyd
+[2023-07-14 08:44:22] INFO root fetch - processPackages [botastico]: executing diffoscope
+[2023-07-14 08:44:22] INFO root fetch - processPackages [botastico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botastico-0.1.1.tar.gz tmp/botastico-0.1.2.tar.gz --markdown 20230714/b/botastico/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 08:44:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oss]: Downloading https://files.pythonhosted.org/packages/37/ad/232c48ea1390e24cd8d3cc7ab3b3a5e692a87792bab5d474c271b74165d7/odoo_addon_l10n_es_aeat_sii_oss-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-14 08:44:23] INFO root fetch - processPackages [xhibit]: executing diffoscope
+[2023-07-14 08:44:23] INFO root fetch - processPackages [xhibit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhibit-9.5.1.tar.gz tmp/xhibit-9.5.2.tar.gz --markdown 20230714/x/xhibit/9.5.1-9.5.2/diff.md --exclude *.pyd
+[2023-07-14 08:44:23] INFO root fetch - processPackages [xhibit]: executing diffoscope
+[2023-07-14 08:44:23] INFO root fetch - processPackages [xhibit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhibit-9.5.1.tar.gz tmp/xhibit-9.5.2.tar.gz --markdown 20230714/x/xhibit/9.5.1-9.5.2/diff.md --exclude *.pyd
+[2023-07-14 08:44:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oss]: executing diffoscope
+[2023-07-14 08:44:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oss-15.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oss-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-l10n-es-aeat-sii-oss/15.0.1.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-14 08:44:23] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2023-07-14 08:44:23] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.1.0a1689006772.tar.gz tmp/pulumi_okta-4.2.0a1689314511.tar.gz --markdown 20230714/p/pulumi-okta/4.1.0a1689006772-4.2.0a1689314511/diff.md --exclude *.pyd
+[2023-07-14 08:44:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2023-07-14 08:44:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-l10n-es-aeat-sii-oca/16.0.1.3.0-16.0.1.3.1/diff.md --exclude *.pyd
+[2023-07-14 08:44:24] INFO root fetch - processPackages [hyperdx-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/hyperdx_opentelemetry-0.0.2.post1.tar.gz]
+[2023-07-14 08:44:24] INFO root fetch - processPackages [hyperdx-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/hyperdx_opentelemetry-0.0.3.tar.gz]
+[2023-07-14 08:44:24] INFO root fetch - processPackages [hyperdx-opentelemetry]: Start processing: odoo-addon-l10n-es-dua-sii
+[2023-07-14 08:44:24] INFO root fetch - main [MainThread]: End processing [hyperdx-opentelemetry]: success
+[2023-07-14 08:44:24] INFO root fetch - processPackages [botastico]: Remove: archive file [/home/abi/fetcher/tmp/botastico-0.1.1.tar.gz]
+[2023-07-14 08:44:24] INFO root fetch - processPackages [botastico]: Remove: archive file [/home/abi/fetcher/tmp/botastico-0.1.2.tar.gz]
+[2023-07-14 08:44:24] INFO root fetch - processPackages [botastico]: Start processing: labeva
+[2023-07-14 08:44:24] INFO root fetch - main [MainThread]: End processing [botastico]: success
+[2023-07-14 08:44:24] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-14 08:44:24] INFO root fetch - processPackages [labeva]: New version: [2.1.0a2.dev1] Old Version: [2.1.0a1.dev1]
+[2023-07-14 08:44:24] INFO root fetch - processPackages [ndp-app-versioncontrol]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-versioncontrol-1.5.tar.gz]
+[2023-07-14 08:44:24] INFO root fetch - processPackages [ndp-app-versioncontrol]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-versioncontrol-1.6.tar.gz]
+[2023-07-14 08:44:24] INFO root fetch - main [MainThread]: End processing [ndp-app-versioncontrol]: success
+[2023-07-14 08:44:24] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-1.0.0.tar.gz]
+[2023-07-14 08:44:24] INFO root fetch - processPackages [ir-digit]: Remove: archive file [/home/abi/fetcher/tmp/ir_digit-1.1.1.tar.gz]
+[2023-07-14 08:44:24] INFO root fetch - main [MainThread]: End processing [ir-digit]: success
+[2023-07-14 08:44:24] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.1.tar.gz]
+[2023-07-14 08:44:24] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.2.tar.gz]
+[2023-07-14 08:44:24] INFO root fetch - main [MainThread]: End processing [xhibit]: success
+[2023-07-14 08:44:24] INFO root fetch - main [MainThread]: End processing [xhibit]: success
+[2023-07-14 08:44:24] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1688042112.tar.gz]
+[2023-07-14 08:44:24] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1689314769.tar.gz]
+[2023-07-14 08:44:24] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-07-14 08:44:24] INFO root fetch - processPackages [labeva]: Downloading https://files.pythonhosted.org/packages/91/b5/608f712a5852cf407fcb6dbc78bda2d3cbb63d98cf461e4dc05f9ae9e3ee/labeva-2.1.0a1.dev1.tar.gz
+[2023-07-14 08:44:24] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: Downloading https://files.pythonhosted.org/packages/f8/f7/d6f0cc0544d86a29b6e6af9286acfc51849026ba4868d91575cbc96d78b6/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-14 08:44:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oss]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oss-15.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-14 08:44:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oss]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oss-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-14 08:44:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oss]: success
+[2023-07-14 08:44:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl.zip]
+[2023-07-14 08:44:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip]
+[2023-07-14 08:44:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca]: success
+[2023-07-14 08:44:25] INFO root fetch - processPackages [labeva]: Downloading https://files.pythonhosted.org/packages/73/71/880b609bedc1b306353017b87b6bf3b6e31a10cac856ba6e91d0119528f4/labeva-2.1.0a2.dev1.tar.gz
+[2023-07-14 08:44:25] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: Downloading https://files.pythonhosted.org/packages/02/3a/92bca6600d46a64795dbb34dd132f05ed0d51c6afdaf3812ea422cefa928/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-14 08:44:25] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: executing diffoscope
+[2023-07-14 08:44:25] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-l10n-es-dua-sii/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-14 08:44:25] INFO root fetch - processPackages [labeva]: executing diffoscope
+[2023-07-14 08:44:25] INFO root fetch - processPackages [labeva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeva-2.1.0a1.dev1.tar.gz tmp/labeva-2.1.0a2.dev1.tar.gz --markdown 20230714/l/labeva/2.1.0a1.dev1-2.1.0a2.dev1/diff.md --exclude *.pyd
+[2023-07-14 08:44:25] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.1.0a1689006772.tar.gz]
+[2023-07-14 08:44:25] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.2.0a1689314511.tar.gz]
+[2023-07-14 08:44:25] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2023-07-14 08:44:26] INFO root fetch - processPackages [labeva]: Remove: archive file [/home/abi/fetcher/tmp/labeva-2.1.0a1.dev1.tar.gz]
+[2023-07-14 08:44:26] INFO root fetch - processPackages [labeva]: Remove: archive file [/home/abi/fetcher/tmp/labeva-2.1.0a2.dev1.tar.gz]
+[2023-07-14 08:44:26] INFO root fetch - main [MainThread]: End processing [labeva]: success
+[2023-07-14 08:44:26] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-14 08:44:26] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-14 08:44:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-dua-sii]: success
+[2023-07-14 08:44:26] INFO root fetch - main [MainThread]: Store serial: [18886155]
