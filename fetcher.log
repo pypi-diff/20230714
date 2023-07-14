@@ -9908,3 +9908,153 @@
 [2023-07-14 04:37:30] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
 [2023-07-14 04:37:30] INFO root fetch - main [MainThread]: End processing [m23]: success
 [2023-07-14 04:37:30] INFO root fetch - main [MainThread]: Store serial: [18884725]
+[2023-07-14 04:42:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18884725]
+[2023-07-14 04:42:38] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-14 04:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiokeydb
+[2023-07-14 04:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alphawave
+[2023-07-14 04:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fosslight-util
+[2023-07-14 04:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: honeybee-core
+[2023-07-14 04:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaar-gpt-tools
+[2023-07-14 04:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-account-move-template
+[2023-07-14 04:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-usability
+[2023-07-14 04:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: turing-sdk
+[2023-07-14 04:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt-index
+[2023-07-14 04:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SpaceShare
+[2023-07-14 04:42:39] INFO root fetch - processPackages [alphawave]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-14 04:42:39] INFO root fetch - processPackages [gpt-index]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-07-14 04:42:39] INFO root fetch - processPackages [odoo-addon-account-usability]: New version: [16.0.1.0.3.7] Old Version: [16.0.1.0.3.6]
+[2023-07-14 04:42:39] INFO root fetch - processPackages [fosslight-util]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-14 04:42:39] INFO root fetch - processPackages [aiokeydb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 04:42:39] INFO root fetch - processPackages [SpaceShare]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-14 04:42:39] WARNING root fetch - processPackages [kaar-gpt-tools]: Skipping, unable to determine old version
+[2023-07-14 04:42:39] INFO root fetch - processPackages [kaar-gpt-tools]: Start processing: llama-index
+[2023-07-14 04:42:39] INFO root fetch - main [MainThread]: End processing [kaar-gpt-tools] error
+[2023-07-14 04:42:39] INFO root fetch - processPackages [odoo14-addon-account-move-template]: New version: [14.0.1.1.3.dev9] Old Version: [14.0.1.1.3.dev8]
+[2023-07-14 04:42:39] INFO root fetch - processPackages [turing-sdk]: New version: [0.9.1] Old Version: [0.9.0rc1]
+[2023-07-14 04:42:39] INFO root fetch - processPackages [llama-index]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-07-14 04:42:39] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-14 04:42:39] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/66/b4/0112ceb23b054a4f29ea6133a1ee49c2020f71380ac4dcebad455c4692f2/gpt_index-0.7.7.tar.gz
+[2023-07-14 04:42:39] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/dc/46/f08e88ac85a96c74fdf76116b266a9f4509e5858b86400a2870c9407b1cc/llama_index-0.7.7.tar.gz
+[2023-07-14 04:42:39] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2023-07-14 04:42:39] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/9c/26/2bded64e0195dc4e6367bb67e71625c5a1db36221bf58f86ef16f19bb955/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl
+[2023-07-14 04:42:39] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/d0/ca/3238ee41727edc3bd327f6beb7ef97f2d92d986227f3bf775259a3e223ae/fosslight_util-1.4.8.tar.gz
+[2023-07-14 04:42:39] INFO root fetch - processPackages [odoo-addon-account-usability]: Downloading https://files.pythonhosted.org/packages/ec/a7/3ac752e6f62d6ccdf4d06b83d7043c32f39b35920f7de7c65c93c7284596/odoo_addon_account_usability-16.0.1.0.3.6-py3-none-any.whl
+[2023-07-14 04:42:39] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/ea/8b/344966480cc4256b6761ce54126c73a3adaa311fe0f78cc100e7d40d9566/alphawave-0.3.7.tar.gz
+[2023-07-14 04:42:39] INFO root fetch - processPackages [aiokeydb]: Downloading https://files.pythonhosted.org/packages/20/25/21f8103754ee16f18d37a261f6c78ebd5f5ce07634c0270159d5287b3e3e/aiokeydb-0.1.8.tar.gz
+[2023-07-14 04:42:39] INFO root fetch - processPackages [SpaceShare]: Downloading https://files.pythonhosted.org/packages/a7/0e/b32d10ac07bc1595058e4eac046fecacefc377ca79240c3da9477f993869/SpaceShare-0.1.tar.gz
+[2023-07-14 04:42:39] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/26/36/2ac15f8049170e515149e0b51fbf0316d875cdb2d73ecbc60270ff767a87/turing-sdk-0.9.0rc1.tar.gz
+[2023-07-14 04:42:39] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2023-07-14 04:42:39] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/56/eb/f3c337beb846c1bf66c163eca56c51db6db1171e561668b9026b0699ea95/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl
+[2023-07-14 04:42:39] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/2f/e7/26c0a77d20d762a2e856738f0f1e38342069be88566479653d9d9118e33a/llama_index-0.7.8.tar.gz
+[2023-07-14 04:42:39] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/a9/fc/759318b247b4f445b1da56bb0d8b711a7de1adda75a92c3fd92176d9984c/gpt_index-0.7.8.tar.gz
+[2023-07-14 04:42:40] INFO root fetch - processPackages [odoo-addon-account-usability]: Downloading https://files.pythonhosted.org/packages/57/a9/fc84c562ebe81387173a8542fbc72135d0e49f99e0bafea316b05c9cb239/odoo_addon_account_usability-16.0.1.0.3.7-py3-none-any.whl
+[2023-07-14 04:42:40] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2023-07-14 04:42:40] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20230714/h/honeybee-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 04:42:40] INFO root fetch - processPackages [SpaceShare]: Downloading https://files.pythonhosted.org/packages/4c/6e/33427123f0b7ea3d44b4e360af4c48227325572335b94e2f539f85892fae/SpaceShare-0.1.1.tar.gz
+[2023-07-14 04:42:40] INFO root fetch - processPackages [odoo14-addon-account-move-template]: executing diffoscope
+[2023-07-14 04:42:40] INFO root fetch - processPackages [odoo14-addon-account-move-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl.zip --markdown 20230714/o/odoo14-addon-account-move-template/14.0.1.1.3.dev8-14.0.1.1.3.dev9/diff.md --exclude *.pyd
+[2023-07-14 04:42:40] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/71/34/7ff53a16d7b6158d9a3c315fc5c6ec4234c6cbd988bbaddba18c36762604/alphawave-0.3.8.tar.gz
+[2023-07-14 04:42:40] INFO root fetch - processPackages [aiokeydb]: Downloading https://files.pythonhosted.org/packages/6a/d0/d5b49c43fc0ac44c201063793737833fa0cc1228a7de48a1fa0a08cc708c/aiokeydb-0.1.9.tar.gz
+[2023-07-14 04:42:40] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/2d/ff/d3b618586eb0ac11d36e9027ecbd3201b2a991a6f9504008ee0f7cac19c0/turing-sdk-0.9.1.tar.gz
+[2023-07-14 04:42:40] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-07-14 04:42:40] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.7.7.tar.gz tmp/gpt_index-0.7.8.tar.gz --markdown 20230714/g/gpt-index/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-07-14 04:42:40] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-07-14 04:42:40] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.7.7.tar.gz tmp/llama_index-0.7.8.tar.gz --markdown 20230714/l/llama-index/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-07-14 04:42:40] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/2d/d2/e674ac0c05f462aeb548384d4b1f6351624dd534bb73301158868691826c/fosslight_util-1.4.9.tar.gz
+[2023-07-14 04:42:40] INFO root fetch - processPackages [odoo-addon-account-usability]: executing diffoscope
+[2023-07-14 04:42:40] INFO root fetch - processPackages [odoo-addon-account-usability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_usability-16.0.1.0.3.6-py3-none-any.whl.zip tmp/odoo_addon_account_usability-16.0.1.0.3.7-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-account-usability/16.0.1.0.3.6-16.0.1.0.3.7/diff.md --exclude *.pyd
+[2023-07-14 04:42:40] INFO root fetch - processPackages [aiokeydb]: executing diffoscope
+[2023-07-14 04:42:40] INFO root fetch - processPackages [SpaceShare]: executing diffoscope
+[2023-07-14 04:42:40] INFO root fetch - processPackages [aiokeydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokeydb-0.1.8.tar.gz tmp/aiokeydb-0.1.9.tar.gz --markdown 20230714/a/aiokeydb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 04:42:40] INFO root fetch - processPackages [SpaceShare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpaceShare-0.1.tar.gz tmp/SpaceShare-0.1.1.tar.gz --markdown 20230714/S/SpaceShare/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 04:42:40] INFO root fetch - processPackages [turing-sdk]: executing diffoscope
+[2023-07-14 04:42:40] INFO root fetch - processPackages [turing-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turing-sdk-0.9.0rc1.tar.gz tmp/turing-sdk-0.9.1.tar.gz --markdown 20230714/t/turing-sdk/0.9.0rc1-0.9.1/diff.md --exclude *.pyd
+[2023-07-14 04:42:40] INFO root fetch - processPackages [alphawave]: executing diffoscope
+[2023-07-14 04:42:40] INFO root fetch - processPackages [alphawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphawave-0.3.7.tar.gz tmp/alphawave-0.3.8.tar.gz --markdown 20230714/a/alphawave/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-14 04:42:40] INFO root fetch - processPackages [fosslight-util]: executing diffoscope
+[2023-07-14 04:42:40] INFO root fetch - processPackages [fosslight-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_util-1.4.8.tar.gz tmp/fosslight_util-1.4.9.tar.gz --markdown 20230714/f/fosslight-util/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-14 04:42:41] INFO root fetch - processPackages [SpaceShare]: Remove: archive file [/home/abi/fetcher/tmp/SpaceShare-0.1.tar.gz]
+[2023-07-14 04:42:41] INFO root fetch - processPackages [SpaceShare]: Remove: archive file [/home/abi/fetcher/tmp/SpaceShare-0.1.1.tar.gz]
+[2023-07-14 04:42:41] INFO root fetch - processPackages [SpaceShare]: Start processing: twitchify
+[2023-07-14 04:42:41] INFO root fetch - main [MainThread]: End processing [SpaceShare]: success
+[2023-07-14 04:42:42] INFO root fetch - processPackages [twitchify]: New version: [1.2.2] Old Version: [1.2.0]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [honeybee-core]: Start processing: fosslight-scanner
+[2023-07-14 04:42:42] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2023-07-14 04:42:42] INFO root fetch - processPackages [fosslight-scanner]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [twitchify]: Downloading https://files.pythonhosted.org/packages/80/aa/f9799238d9395c68ba46c962fb17bb9de8f40619d85df2cfe758fc3faff6/twitchify-1.2.0.tar.gz
+[2023-07-14 04:42:42] INFO root fetch - processPackages [fosslight-scanner]: Downloading https://files.pythonhosted.org/packages/29/52/ebbdf6a6e063398271f8932f5b6fefdcd270f750b972a29bf2f956dd3cc7/fosslight_scanner-1.7.8.tar.gz
+[2023-07-14 04:42:42] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl.zip]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl.zip]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Start processing: cdk8s-plus-24
+[2023-07-14 04:42:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-template]: success
+[2023-07-14 04:42:42] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.3.7.tar.gz]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.3.8.tar.gz]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [alphawave]: Start processing: m23
+[2023-07-14 04:42:42] INFO root fetch - main [MainThread]: End processing [alphawave]: success
+[2023-07-14 04:42:42] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.89]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [odoo-addon-account-usability]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_usability-16.0.1.0.3.6-py3-none-any.whl.zip]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [odoo-addon-account-usability]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_usability-16.0.1.0.3.7-py3-none-any.whl.zip]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [odoo-addon-account-usability]: Start processing: django-cloud-storages
+[2023-07-14 04:42:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-usability]: success
+[2023-07-14 04:42:42] INFO root fetch - processPackages [twitchify]: Downloading https://files.pythonhosted.org/packages/22/22/a63be0dc3853ce89c64958215f2223c4aef82790e366164a53e70702fc4b/twitchify-1.2.2.tar.gz
+[2023-07-14 04:42:42] INFO root fetch - processPackages [django-cloud-storages]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [aiokeydb]: Remove: archive file [/home/abi/fetcher/tmp/aiokeydb-0.1.8.tar.gz]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [aiokeydb]: Remove: archive file [/home/abi/fetcher/tmp/aiokeydb-0.1.9.tar.gz]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [aiokeydb]: Start processing: mstuff
+[2023-07-14 04:42:42] INFO root fetch - main [MainThread]: End processing [aiokeydb]: success
+[2023-07-14 04:42:42] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-07-14 04:42:42] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/15/f6/1c4f46749940260f927fbd465a7f1f1f2c33b4c8d930a3bd9f9477de0391/cdk8s-plus-24-2.8.89.tar.gz
+[2023-07-14 04:42:42] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.8.tar.gz]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.9.tar.gz]
+[2023-07-14 04:42:42] INFO root fetch - main [MainThread]: End processing [fosslight-util]: success
+[2023-07-14 04:42:42] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.0rc1.tar.gz]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/e2/68/7ac0c271a0e28d24c09f6b6e5ac23ab342ad1d9c12898ff0179c00b84579/django_cloud_storages-1.2.1.tar.gz
+[2023-07-14 04:42:42] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.1.tar.gz]
+[2023-07-14 04:42:42] INFO root fetch - main [MainThread]: End processing [turing-sdk]: success
+[2023-07-14 04:42:42] INFO root fetch - processPackages [mstuff]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-07-14 04:42:42] INFO root fetch - processPackages [fosslight-scanner]: Downloading https://files.pythonhosted.org/packages/49/60/6eb1e1a4606d6df3400213c55f545bc24a747a7ac1293839763561673e0d/fosslight_scanner-1.7.9.tar.gz
+[2023-07-14 04:42:42] INFO root fetch - processPackages [twitchify]: executing diffoscope
+[2023-07-14 04:42:42] INFO root fetch - processPackages [twitchify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitchify-1.2.0.tar.gz tmp/twitchify-1.2.2.tar.gz --markdown 20230714/t/twitchify/1.2.0-1.2.2/diff.md --exclude *.pyd
+[2023-07-14 04:42:43] INFO root fetch - processPackages [fosslight-scanner]: executing diffoscope
+[2023-07-14 04:42:43] INFO root fetch - processPackages [fosslight-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_scanner-1.7.8.tar.gz tmp/fosslight_scanner-1.7.9.tar.gz --markdown 20230714/f/fosslight-scanner/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-14 04:42:43] INFO root fetch - processPackages [mstuff]: Downloading https://files.pythonhosted.org/packages/3b/b4/789a48f932edf14303c009d10bf9587dc5e41752453a3ff04f05681fe0e7/mstuff-0.7.6.tar.gz
+[2023-07-14 04:42:43] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/ba/e7/f8f4e7a0c0ce3923ad03bac84090b718fcf854bd57e4d2d67b0b3049718c/django_cloud_storages-1.2.2.tar.gz
+[2023-07-14 04:42:43] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-07-14 04:42:43] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-14 04:42:43] INFO root fetch - processPackages [mstuff]: Downloading https://files.pythonhosted.org/packages/6e/8b/7bded8e58718256a70e4bfe2b338a63f22cf8df5e76d634e4c1b4d30c13b/mstuff-0.7.7.tar.gz
+[2023-07-14 04:42:43] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-07-14 04:42:43] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-1.2.1.tar.gz tmp/django_cloud_storages-1.2.2.tar.gz --markdown 20230714/d/django-cloud-storages/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-14 04:42:43] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-14 04:42:43] INFO root fetch - processPackages [mstuff]: executing diffoscope
+[2023-07-14 04:42:43] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.89.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230714/c/cdk8s-plus-24/2.8.89-2.8.9/diff.md --exclude *.pyd
+[2023-07-14 04:42:43] INFO root fetch - processPackages [mstuff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mstuff-0.7.6.tar.gz tmp/mstuff-0.7.7.tar.gz --markdown 20230714/m/mstuff/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-07-14 04:42:43] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-07-14 04:42:43] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230714/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-14 04:42:44] INFO root fetch - processPackages [fosslight-scanner]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_scanner-1.7.8.tar.gz]
+[2023-07-14 04:42:44] INFO root fetch - processPackages [fosslight-scanner]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_scanner-1.7.9.tar.gz]
+[2023-07-14 04:42:44] INFO root fetch - main [MainThread]: End processing [fosslight-scanner]: success
+[2023-07-14 04:42:44] INFO root fetch - processPackages [twitchify]: Remove: archive file [/home/abi/fetcher/tmp/twitchify-1.2.0.tar.gz]
+[2023-07-14 04:42:44] INFO root fetch - processPackages [twitchify]: Remove: archive file [/home/abi/fetcher/tmp/twitchify-1.2.2.tar.gz]
+[2023-07-14 04:42:44] INFO root fetch - main [MainThread]: End processing [twitchify]: success
+[2023-07-14 04:42:44] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.2.1.tar.gz]
+[2023-07-14 04:42:44] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.2.2.tar.gz]
+[2023-07-14 04:42:44] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-07-14 04:42:44] INFO root fetch - processPackages [mstuff]: Remove: archive file [/home/abi/fetcher/tmp/mstuff-0.7.6.tar.gz]
+[2023-07-14 04:42:44] INFO root fetch - processPackages [mstuff]: Remove: archive file [/home/abi/fetcher/tmp/mstuff-0.7.7.tar.gz]
+[2023-07-14 04:42:44] INFO root fetch - main [MainThread]: End processing [mstuff]: success
+[2023-07-14 04:42:45] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.7.tar.gz]
+[2023-07-14 04:42:45] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.8.tar.gz]
+[2023-07-14 04:42:45] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-07-14 04:42:45] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.7.tar.gz]
+[2023-07-14 04:42:45] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.8.tar.gz]
+[2023-07-14 04:42:45] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-07-14 04:42:45] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.89.tar.gz]
+[2023-07-14 04:42:45] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-14 04:42:45] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-14 04:42:45] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-07-14 04:42:45] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-07-14 04:42:45] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-07-14 04:42:45] INFO root fetch - main [MainThread]: Store serial: [18884778]
