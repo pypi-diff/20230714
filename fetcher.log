@@ -16598,3 +16598,143 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 10:36:11] INFO root fetch - processPackages [intel-extension-for-transformers]: Remove: archive file [/home/abi/fetcher/tmp/intel_extension_for_transformers-1.1-cp38-cp38-win_amd64.whl.zip]
 [2023-07-14 10:36:11] INFO root fetch - main [MainThread]: End processing [intel-extension-for-transformers]: success
 [2023-07-14 10:36:11] INFO root fetch - main [MainThread]: Store serial: [18887188]
+[2023-07-14 10:41:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18887188]
+[2023-07-14 10:41:20] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-14 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-aps
+[2023-07-14 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vum
+[2023-07-14 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rudderclient
+[2023-07-14 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: t2iapi
+[2023-07-14 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CDK-pywrapper
+[2023-07-14 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unipi-control
+[2023-07-14 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-azure
+[2023-07-14 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: few-shot-priming
+[2023-07-14 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-estimator-nightly
+[2023-07-14 10:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: churchtools
+[2023-07-14 10:41:20] INFO root fetch - processPackages [unipi-control]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-14 10:41:20] INFO root fetch - processPackages [CDK-pywrapper]: New version: [0.0.2] Old Version: [0.0.1.post1]
+[2023-07-14 10:41:20] INFO root fetch - processPackages [django-aps]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-14 10:41:20] WARNING root fetch - processPackages [vum]: Skipping, unable to determine old version
+[2023-07-14 10:41:20] INFO root fetch - processPackages [vum]: Start processing: macrometa-source-collection
+[2023-07-14 10:41:20] INFO root fetch - main [MainThread]: End processing [vum] error
+[2023-07-14 10:41:20] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev227] Old Version: [3.0.0.dev226]
+[2023-07-14 10:41:20] INFO root fetch - processPackages [rudderclient]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-14 10:41:20] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-14 10:41:20] WARNING root fetch - processPackages [churchtools]: Skipping, unable to determine old version
+[2023-07-14 10:41:20] INFO root fetch - processPackages [churchtools]: Start processing: flashcam
+[2023-07-14 10:41:20] INFO root fetch - main [MainThread]: End processing [churchtools] error
+[2023-07-14 10:41:20] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-07-14 10:41:20] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-14 10:41:20] INFO root fetch - processPackages [flashcam]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-14 10:41:20] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.56] Old Version: [0.0.55]
+[2023-07-14 10:41:20] INFO root fetch - processPackages [django-aps]: Downloading https://files.pythonhosted.org/packages/2b/2a/2998cd5b7d1d1bc3889e42d9ff2eed4bee5ae8a3354eed537ad7b1b325bd/django-aps-0.1.0.tar.gz
+[2023-07-14 10:41:20] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a5/4c/3a9afb62d90ff56381ecc175a96cf8cb4a4fb7732b6d3995b4784488a8ee/rudderclient-1.9.0.tar.gz
+[2023-07-14 10:41:20] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/6d/37/e3f8e95408ff4d1075921242eac86d91b6807403e1d3cff6db1d93d60fa3/t2iapi-3.0.0.dev226.tar.gz
+[2023-07-14 10:41:20] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-14 10:41:20] INFO root fetch - processPackages [unipi-control]: Downloading https://files.pythonhosted.org/packages/d1/5e/5fead7d7d79987f790b695640a2fedc7c26d19a3f7bef1a6eed61606bc2d/unipi-control-2.0.0.tar.gz
+[2023-07-14 10:41:20] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/43/c4/81751e0f0e5a74adcad806ec91770a7ead7a403d800206a29937e1cf622d/flashcam-1.5.4.tar.gz
+[2023-07-14 10:41:20] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-14 10:41:20] INFO root fetch - processPackages [CDK-pywrapper]: Downloading https://files.pythonhosted.org/packages/11/7d/97ddaafa42fee25958d1528b8da8b92e7ed528dc9bd71039d27b59da733a/CDK_pywrapper-0.0.1.post1.tar.gz
+[2023-07-14 10:41:20] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2023-07-14 10:41:20] WARNING root fetch - processPackages [CDK-pywrapper]: Skipping package: exceeds size limit 43142137>=10485760
+[2023-07-14 10:41:20] INFO root fetch - processPackages [CDK-pywrapper]: Start processing: macrometa-target-collection
+[2023-07-14 10:41:20] INFO root fetch - main [MainThread]: End processing [CDK-pywrapper] error
+[2023-07-14 10:41:21] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.81] Old Version: [0.0.80]
+[2023-07-14 10:41:21] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/ca/17/961e57f727b53aee0e27ec22d31f119da9dcb2f7c577997d997da60e2ccc/macrometa-source-collection-0.0.55.tar.gz
+[2023-07-14 10:41:21] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a4/fe/2dab352156f0d6f5a40c80c9f3fbeb8f321f6e0c19ccd730f26a114a5da2/rudderclient-1.9.1.tar.gz
+[2023-07-14 10:41:21] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-14 10:41:21] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/1a/30/f31406020bd937e6e251b1a79b5bf7051f00602dfd85c989bdc5f05bc0f1/t2iapi-3.0.0.dev227.tar.gz
+[2023-07-14 10:41:21] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-14 10:41:21] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/23/70/ed45903608819fd4e2a4f179a137eb7e765cfefd1c98372579b9c6c9d364/flashcam-1.5.5.tar.gz
+[2023-07-14 10:41:21] INFO root fetch - processPackages [unipi-control]: Downloading https://files.pythonhosted.org/packages/67/c8/3060ef8c2e2b430ff8f43175eeb046ec6d8614c69990f493563dee63ca2a/unipi-control-2.1.0.tar.gz
+[2023-07-14 10:41:21] INFO root fetch - processPackages [django-aps]: Downloading https://files.pythonhosted.org/packages/9c/f3/506cfb413db263d31139663367df8ab84ba4152e50b3f369182d6b415d74/django-aps-0.1.1.tar.gz
+[2023-07-14 10:41:21] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-07-14 10:41:21] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.9.0.tar.gz tmp/rudderclient-1.9.1.tar.gz --markdown 20230714/r/rudderclient/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-14 10:41:21] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/42/33/cffe05dfa50f1afdf344a93bf3839ba3fec442f5357b3bb16b2c73c90899/macrometa-target-collection-0.0.80.tar.gz
+[2023-07-14 10:41:21] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-14 10:41:21] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230714/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 10:41:21] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-07-14 10:41:21] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev226.tar.gz tmp/t2iapi-3.0.0.dev227.tar.gz --markdown 20230714/t/t2iapi/3.0.0.dev226-3.0.0.dev227/diff.md --exclude *.pyd
+[2023-07-14 10:41:21] INFO root fetch - processPackages [unipi-control]: executing diffoscope
+[2023-07-14 10:41:21] INFO root fetch - processPackages [unipi-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unipi-control-2.0.0.tar.gz tmp/unipi-control-2.1.0.tar.gz --markdown 20230714/u/unipi-control/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-14 10:41:21] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-14 10:41:21] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230714/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-14 10:41:21] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/33/e8/446d80000362662c2ab3b3c357cb864ade81427b36ead3ab4625d84506be/macrometa-source-collection-0.0.56.tar.gz
+[2023-07-14 10:41:21] INFO root fetch - processPackages [django-aps]: executing diffoscope
+[2023-07-14 10:41:21] INFO root fetch - processPackages [django-aps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-aps-0.1.0.tar.gz tmp/django-aps-0.1.1.tar.gz --markdown 20230714/d/django-aps/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 10:41:21] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-07-14 10:41:21] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.55.tar.gz tmp/macrometa-source-collection-0.0.56.tar.gz --markdown 20230714/m/macrometa-source-collection/0.0.55-0.0.56/diff.md --exclude *.pyd
+[2023-07-14 10:41:21] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/15/f4/4ec4ada2f47ff55bee3bf033f96e257741c6ba93c9acde12838927dc3c9b/macrometa-target-collection-0.0.81.tar.gz
+[2023-07-14 10:41:21] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2023-07-14 10:41:21] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.5.4.tar.gz tmp/flashcam-1.5.5.tar.gz --markdown 20230714/f/flashcam/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-14 10:41:21] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-07-14 10:41:21] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.80.tar.gz tmp/macrometa-target-collection-0.0.81.tar.gz --markdown 20230714/m/macrometa-target-collection/0.0.80-0.0.81/diff.md --exclude *.pyd
+[2023-07-14 10:41:22] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2023-07-14 10:41:22] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-14 10:41:22] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-14 10:41:22] INFO root fetch - processPackages [few-shot-priming]: Start processing: macrometa-target-postgres
+[2023-07-14 10:41:22] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-14 10:41:22] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.0.tar.gz]
+[2023-07-14 10:41:22] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.1.tar.gz]
+[2023-07-14 10:41:22] INFO root fetch - processPackages [rudderclient]: Start processing: pyepics-asyncio
+[2023-07-14 10:41:22] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-07-14 10:41:22] INFO root fetch - processPackages [macrometa-target-postgres]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 10:41:22] INFO root fetch - processPackages [pyepics-asyncio]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-14 10:41:23] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev226.tar.gz]
+[2023-07-14 10:41:23] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev227.tar.gz]
+[2023-07-14 10:41:23] INFO root fetch - processPackages [t2iapi]: Start processing: django-aps
+[2023-07-14 10:41:23] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-07-14 10:41:23] INFO root fetch - processPackages [pyepics-asyncio]: Downloading https://files.pythonhosted.org/packages/bb/0e/a237790a4cd90f3e612dc240fb750a66d3dce81590e8893bb5aa93b5b006/pyepics_asyncio-0.2.1.tar.gz
+[2023-07-14 10:41:23] INFO root fetch - processPackages [macrometa-target-postgres]: Downloading https://files.pythonhosted.org/packages/26/2d/fc4b31224bb1b913acec648292a678d9f7683561eb2bc6dec6d6b5d2bec5/macrometa-target-postgres-0.0.8.tar.gz
+[2023-07-14 10:41:23] INFO root fetch - processPackages [django-aps]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-14 10:41:23] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.55.tar.gz]
+[2023-07-14 10:41:23] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.56.tar.gz]
+[2023-07-14 10:41:23] INFO root fetch - processPackages [macrometa-source-collection]: Start processing: odd-dbt
+[2023-07-14 10:41:23] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-07-14 10:41:23] INFO root fetch - processPackages [django-aps]: Remove: archive file [/home/abi/fetcher/tmp/django-aps-0.1.0.tar.gz]
+[2023-07-14 10:41:23] INFO root fetch - processPackages [django-aps]: Remove: archive file [/home/abi/fetcher/tmp/django-aps-0.1.1.tar.gz]
+[2023-07-14 10:41:23] INFO root fetch - main [MainThread]: End processing [django-aps]: success
+[2023-07-14 10:41:23] INFO root fetch - processPackages [odd-dbt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 10:41:23] INFO root fetch - processPackages [django-aps]: Downloading https://files.pythonhosted.org/packages/9c/f3/506cfb413db263d31139663367df8ab84ba4152e50b3f369182d6b415d74/django-aps-0.1.1.tar.gz
+[2023-07-14 10:41:23] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.80.tar.gz]
+[2023-07-14 10:41:23] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.81.tar.gz]
+[2023-07-14 10:41:23] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-07-14 10:41:23] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-07-14 10:41:23] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230714/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-07-14 10:41:23] INFO root fetch - processPackages [pyepics-asyncio]: Downloading https://files.pythonhosted.org/packages/f9/e0/580896faeda9ceaf6b7a515a5137590d12d1ff35b5f92595651a1bd37272/pyepics_asyncio-0.2.2.tar.gz
+[2023-07-14 10:41:23] INFO root fetch - processPackages [django-aps]: executing diffoscope
+[2023-07-14 10:41:23] INFO root fetch - processPackages [django-aps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-aps-0.1.0.tar.gz tmp/django-aps-0.1.1.tar.gz --markdown 20230714/d/django-aps/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 10:41:23] INFO root fetch - processPackages [macrometa-target-postgres]: Downloading https://files.pythonhosted.org/packages/2b/b6/d492597bdf160b748f1ef192c570821bcdec04e77828b16d7b7f06addb2d/macrometa-target-postgres-0.0.9.tar.gz
+[2023-07-14 10:41:23] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.4.tar.gz]
+[2023-07-14 10:41:23] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.5.tar.gz]
+[2023-07-14 10:41:23] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2023-07-14 10:41:23] INFO root fetch - processPackages [odd-dbt]: Downloading https://files.pythonhosted.org/packages/b7/77/67690ce5b1e290b99a44b98cc3db13869c03435faaa81822b620ed66a2cd/odd_dbt-0.1.8.tar.gz
+[2023-07-14 10:41:23] INFO root fetch - processPackages [macrometa-target-postgres]: executing diffoscope
+[2023-07-14 10:41:23] INFO root fetch - processPackages [macrometa-target-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-postgres-0.0.8.tar.gz tmp/macrometa-target-postgres-0.0.9.tar.gz --markdown 20230714/m/macrometa-target-postgres/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 10:41:23] INFO root fetch - processPackages [pyepics-asyncio]: executing diffoscope
+[2023-07-14 10:41:23] INFO root fetch - processPackages [pyepics-asyncio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepics_asyncio-0.2.1.tar.gz tmp/pyepics_asyncio-0.2.2.tar.gz --markdown 20230714/p/pyepics-asyncio/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-14 10:41:23] INFO root fetch - processPackages [unipi-control]: Remove: archive file [/home/abi/fetcher/tmp/unipi-control-2.0.0.tar.gz]
+[2023-07-14 10:41:23] INFO root fetch - processPackages [unipi-control]: Remove: archive file [/home/abi/fetcher/tmp/unipi-control-2.1.0.tar.gz]
+[2023-07-14 10:41:23] INFO root fetch - main [MainThread]: End processing [unipi-control]: success
+[2023-07-14 10:41:23] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-14 10:41:23] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-14 10:41:23] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-14 10:41:23] INFO root fetch - processPackages [odd-dbt]: Downloading https://files.pythonhosted.org/packages/76/80/81cebf15f3ce39f89419c1c84befe62cab623b6f95a7b4808ef81c967e1b/odd_dbt-0.1.9.tar.gz
+[2023-07-14 10:41:23] INFO root fetch - processPackages [odd-dbt]: executing diffoscope
+[2023-07-14 10:41:23] INFO root fetch - processPackages [odd-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_dbt-0.1.8.tar.gz tmp/odd_dbt-0.1.9.tar.gz --markdown 20230714/o/odd-dbt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 10:41:24] ERROR root fetch - processPackages [django-aps]: Diffoscope failed: time="2023-07-14T10:41:23+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/django-aps-0.1.0.tar.gz: No such file or directory
+
+[2023-07-14 10:41:24] INFO root fetch - main [MainThread]: End processing [django-aps] error
+[2023-07-14 10:41:24] INFO root fetch - processPackages [macrometa-target-postgres]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-postgres-0.0.8.tar.gz]
+[2023-07-14 10:41:24] INFO root fetch - processPackages [macrometa-target-postgres]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-postgres-0.0.9.tar.gz]
+[2023-07-14 10:41:24] INFO root fetch - main [MainThread]: End processing [macrometa-target-postgres]: success
+[2023-07-14 10:41:24] INFO root fetch - processPackages [pyepics-asyncio]: Remove: archive file [/home/abi/fetcher/tmp/pyepics_asyncio-0.2.1.tar.gz]
+[2023-07-14 10:41:24] INFO root fetch - processPackages [pyepics-asyncio]: Remove: archive file [/home/abi/fetcher/tmp/pyepics_asyncio-0.2.2.tar.gz]
+[2023-07-14 10:41:24] INFO root fetch - main [MainThread]: End processing [pyepics-asyncio]: success
+[2023-07-14 10:41:24] INFO root fetch - processPackages [odd-dbt]: Remove: archive file [/home/abi/fetcher/tmp/odd_dbt-0.1.8.tar.gz]
+[2023-07-14 10:41:24] INFO root fetch - processPackages [odd-dbt]: Remove: archive file [/home/abi/fetcher/tmp/odd_dbt-0.1.9.tar.gz]
+[2023-07-14 10:41:24] INFO root fetch - main [MainThread]: End processing [odd-dbt]: success
+[2023-07-14 10:41:35] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2023-07-14 10:41:35] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2023-07-14 10:41:35] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-07-14 10:41:35] INFO root fetch - main [MainThread]: Store serial: [18887246]
