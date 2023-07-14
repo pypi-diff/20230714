@@ -15969,3 +15969,78 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 10:09:59] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.0.tar.gz]
 [2023-07-14 10:09:59] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-07-14 10:09:59] INFO root fetch - main [MainThread]: Store serial: [18886945]
+[2023-07-14 10:15:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886945]
+[2023-07-14 10:15:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-14 10:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-interpreter
+[2023-07-14 10:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NodeGraphQt
+[2023-07-14 10:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: protloc-mex1
+[2023-07-14 10:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyobs-gui
+[2023-07-14 10:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acryo
+[2023-07-14 10:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: twyn
+[2023-07-14 10:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrape-schema
+[2023-07-14 10:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: favicorn
+[2023-07-14 10:15:08] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-14 10:15:08] INFO root fetch - processPackages [pyobs-gui]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-14 10:15:08] INFO root fetch - processPackages [NodeGraphQt]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-14 10:15:08] INFO root fetch - processPackages [twyn]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-07-14 10:15:08] INFO root fetch - processPackages [protloc-mex1]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 10:15:08] INFO root fetch - processPackages [scrape-schema]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-14 10:15:08] INFO root fetch - processPackages [acryo]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-14 10:15:08] INFO root fetch - processPackages [favicorn]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-14 10:15:08] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/86/73/39ab96f3091b70fb83abecf03c2829035243ff30e301eff68c1496f4c824/NodeGraphQt-0.6.7.tar.gz
+[2023-07-14 10:15:08] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/01/96/5902e187f63e77a13b9204968bc67ccc1129280334e7a51e009e9f3f7500/twyn-2.5.0.tar.gz
+[2023-07-14 10:15:08] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/f1/a6/b12a1d269d5bdf4475b5466ebbe2ad69d3f3521620e4e11b9debbfd08d62/protloc_mex1-0.0.8.tar.gz
+[2023-07-14 10:15:08] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/ed/80/4449e5be18e79d7c19c9c26fec74b25ad6b970e9da5662f191b426962db3/open_interpreter-0.0.1.tar.gz
+[2023-07-14 10:15:08] INFO root fetch - processPackages [pyobs-gui]: Downloading https://files.pythonhosted.org/packages/53/0a/dcbdc0e9c0d97697109353e26fbdbae8cffa631a09a5e6241c97be541367/pyobs_gui-1.0.6.tar.gz
+[2023-07-14 10:15:08] INFO root fetch - processPackages [acryo]: Downloading https://files.pythonhosted.org/packages/63/c4/a5a39bfd0d23cc865fb64c317df2bcd59777bdbd887de72f3e69d4083a99/acryo-0.4.2.tar.gz
+[2023-07-14 10:15:09] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/67/e8/172c2fc213ae2593656913018de85ffda8fd27e0462d64faedbf1c44eda1/scrape_schema-0.3.3.tar.gz
+[2023-07-14 10:15:09] INFO root fetch - processPackages [favicorn]: Downloading https://files.pythonhosted.org/packages/24/78/6f5d4e0c46359edb2224be007d5cb1a05646413a02bc5d17f30e1dff3d84/favicorn-0.0.4.tar.gz
+[2023-07-14 10:15:09] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/b1/ec/42aec6951104a9842e9ff6d86fc2cc4b4cce8658effe452817ca74f55dfe/protloc_mex1-0.0.9.tar.gz
+[2023-07-14 10:15:09] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/d3/ec/fb950534937f6aaf4efb573d8340c8ffbe55117125821bf6e5348a6ea157/NodeGraphQt-0.6.8.tar.gz
+[2023-07-14 10:15:09] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/a2/30/9fa1092416a9c21f16516647636a20f0eca4295d7363a64b73562e61ed68/twyn-2.5.1.tar.gz
+[2023-07-14 10:15:09] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/dc/2e/255d628b61791091372da259da95c6ff5d391feee4ced00f07e0ffd74f30/open_interpreter-0.0.2.tar.gz
+[2023-07-14 10:15:09] INFO root fetch - processPackages [protloc-mex1]: executing diffoscope
+[2023-07-14 10:15:09] INFO root fetch - processPackages [protloc-mex1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex1-0.0.8.tar.gz tmp/protloc_mex1-0.0.9.tar.gz --markdown 20230714/p/protloc-mex1/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 10:15:09] INFO root fetch - processPackages [acryo]: Downloading https://files.pythonhosted.org/packages/82/06/cc5fc48ed03e2da909240c89358fc511ce1a4ce9a45a27df5e842d0b6369/acryo-0.4.3.tar.gz
+[2023-07-14 10:15:09] INFO root fetch - processPackages [pyobs-gui]: Downloading https://files.pythonhosted.org/packages/e5/70/1cb15bd30736bec249642705878e5ff62eb7f49eb80ef71441e3a3e2ee7e/pyobs_gui-1.0.7.tar.gz
+[2023-07-14 10:15:09] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/67/50/db59baaded40ff9f35363785e425b6412d111b33f3d155eab60178b78f7f/scrape_schema-0.3.4.tar.gz
+[2023-07-14 10:15:09] INFO root fetch - processPackages [favicorn]: Downloading https://files.pythonhosted.org/packages/9b/70/fcc3084d66aafef0f9c39843401a80a214073f1136a802073f3ae9a108b7/favicorn-0.0.5.tar.gz
+[2023-07-14 10:15:09] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-07-14 10:15:09] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.5.0.tar.gz tmp/twyn-2.5.1.tar.gz --markdown 20230714/t/twyn/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-07-14 10:15:09] INFO root fetch - processPackages [NodeGraphQt]: executing diffoscope
+[2023-07-14 10:15:09] INFO root fetch - processPackages [NodeGraphQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NodeGraphQt-0.6.7.tar.gz tmp/NodeGraphQt-0.6.8.tar.gz --markdown 20230714/N/NodeGraphQt/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-14 10:15:09] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-14 10:15:09] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.1.tar.gz tmp/open_interpreter-0.0.2.tar.gz --markdown 20230714/o/open-interpreter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-14 10:15:09] INFO root fetch - processPackages [acryo]: executing diffoscope
+[2023-07-14 10:15:09] INFO root fetch - processPackages [acryo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryo-0.4.2.tar.gz tmp/acryo-0.4.3.tar.gz --markdown 20230714/a/acryo/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-14 10:15:09] INFO root fetch - processPackages [pyobs-gui]: executing diffoscope
+[2023-07-14 10:15:09] INFO root fetch - processPackages [pyobs-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobs_gui-1.0.6.tar.gz tmp/pyobs_gui-1.0.7.tar.gz --markdown 20230714/p/pyobs-gui/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-14 10:15:09] INFO root fetch - processPackages [favicorn]: executing diffoscope
+[2023-07-14 10:15:09] INFO root fetch - processPackages [favicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/favicorn-0.0.4.tar.gz tmp/favicorn-0.0.5.tar.gz --markdown 20230714/f/favicorn/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-14 10:15:09] INFO root fetch - processPackages [scrape-schema]: executing diffoscope
+[2023-07-14 10:15:09] INFO root fetch - processPackages [scrape-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrape_schema-0.3.3.tar.gz tmp/scrape_schema-0.3.4.tar.gz --markdown 20230714/s/scrape-schema/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-14 10:15:10] INFO root fetch - processPackages [protloc-mex1]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex1-0.0.8.tar.gz]
+[2023-07-14 10:15:10] INFO root fetch - processPackages [protloc-mex1]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex1-0.0.9.tar.gz]
+[2023-07-14 10:15:10] INFO root fetch - main [MainThread]: End processing [protloc-mex1]: success
+[2023-07-14 10:15:10] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.1.tar.gz]
+[2023-07-14 10:15:10] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.2.tar.gz]
+[2023-07-14 10:15:10] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-14 10:15:10] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.0.tar.gz]
+[2023-07-14 10:15:10] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.1.tar.gz]
+[2023-07-14 10:15:10] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-07-14 10:15:11] INFO root fetch - processPackages [favicorn]: Remove: archive file [/home/abi/fetcher/tmp/favicorn-0.0.4.tar.gz]
+[2023-07-14 10:15:11] INFO root fetch - processPackages [favicorn]: Remove: archive file [/home/abi/fetcher/tmp/favicorn-0.0.5.tar.gz]
+[2023-07-14 10:15:11] INFO root fetch - main [MainThread]: End processing [favicorn]: success
+[2023-07-14 10:15:11] INFO root fetch - processPackages [acryo]: Remove: archive file [/home/abi/fetcher/tmp/acryo-0.4.2.tar.gz]
+[2023-07-14 10:15:11] INFO root fetch - processPackages [acryo]: Remove: archive file [/home/abi/fetcher/tmp/acryo-0.4.3.tar.gz]
+[2023-07-14 10:15:11] INFO root fetch - main [MainThread]: End processing [acryo]: success
+[2023-07-14 10:15:11] INFO root fetch - processPackages [scrape-schema]: Remove: archive file [/home/abi/fetcher/tmp/scrape_schema-0.3.3.tar.gz]
+[2023-07-14 10:15:11] INFO root fetch - processPackages [scrape-schema]: Remove: archive file [/home/abi/fetcher/tmp/scrape_schema-0.3.4.tar.gz]
+[2023-07-14 10:15:11] INFO root fetch - main [MainThread]: End processing [scrape-schema]: success
+[2023-07-14 10:15:11] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.7.tar.gz]
+[2023-07-14 10:15:11] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.8.tar.gz]
+[2023-07-14 10:15:11] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
+[2023-07-14 10:15:11] INFO root fetch - processPackages [pyobs-gui]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_gui-1.0.6.tar.gz]
+[2023-07-14 10:15:11] INFO root fetch - processPackages [pyobs-gui]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_gui-1.0.7.tar.gz]
+[2023-07-14 10:15:11] INFO root fetch - main [MainThread]: End processing [pyobs-gui]: success
+[2023-07-14 10:15:11] INFO root fetch - main [MainThread]: Store serial: [18886979]
