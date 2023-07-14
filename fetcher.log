@@ -12063,3 +12063,51 @@ AssertionError: tmp/aorta_sirius_dev-0.8.tar.gz does not exist
 [2023-07-14 06:43:59] INFO root fetch - processPackages [odoo-addon-partner-external-map]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_external_map-16.0.1.0.0.6-py3-none-any.whl.zip]
 [2023-07-14 06:43:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-external-map]: success
 [2023-07-14 06:43:59] INFO root fetch - main [MainThread]: Store serial: [18885498]
+[2023-07-14 06:49:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885498]
+[2023-07-14 06:49:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-14 06:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boldigger
+[2023-07-14 06:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cache-result
+[2023-07-14 06:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaohn-common-utils
+[2023-07-14 06:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reverse-projection
+[2023-07-14 06:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jcloud
+[2023-07-14 06:49:08] INFO root fetch - processPackages [boldigger]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-14 06:49:08] INFO root fetch - processPackages [reverse-projection]: New version: [0.0.2.5] Old Version: [0.0.2.4]
+[2023-07-14 06:49:08] INFO root fetch - processPackages [cache-result]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-14 06:49:08] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-07-14 06:49:08] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-07-14 06:49:08] INFO root fetch - processPackages [cache-result]: Downloading https://files.pythonhosted.org/packages/30/5a/558ac43ab8d5cba56b25cc6128657c33d022036b3ca8edeece235b9e6e01/cache-result-0.1.3.tar.gz
+[2023-07-14 06:49:08] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/10/db/fed201f91aee60b063b5804d8260f7d6c183e9d99a25f8863c806efdd237/gaohn-common-utils-0.0.92.tar.gz
+[2023-07-14 06:49:08] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-07-14 06:49:09] INFO root fetch - processPackages [reverse-projection]: Downloading https://files.pythonhosted.org/packages/4f/72/8bf7ec2a8e4856a23fb9101a1c414741dbb38c20617772cf174f12a02686/reverse-projection-0.0.2.4.tar.gz
+[2023-07-14 06:49:09] INFO root fetch - processPackages [boldigger]: Downloading https://files.pythonhosted.org/packages/6b/8a/808bb9a65dfb4f5cb09b341c899ca79af344fbea6161463858f08a74bdb3/boldigger-2.1.2.tar.gz
+[2023-07-14 06:49:09] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/bb/b0/d7ca100ca332b39b692bce70264e0ab3f4134daafc57ab3b397666234d61/jcloud-0.2.9.dev4.tar.gz
+[2023-07-14 06:49:09] INFO root fetch - processPackages [cache-result]: Downloading https://files.pythonhosted.org/packages/22/4b/f5c64b2289dc12bd68a2390c9732b1e3bd75174d62cc9c4efb2d1ebea172/cache-result-0.1.4.tar.gz
+[2023-07-14 06:49:09] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/6e/4c/b992d47e4ad064f98448ed586f3af3d68978cd45df76bc2b27ed4458fda3/gaohn-common-utils-0.0.93.tar.gz
+[2023-07-14 06:49:09] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-07-14 06:49:09] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230714/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-07-14 06:49:09] INFO root fetch - processPackages [reverse-projection]: Downloading https://files.pythonhosted.org/packages/33/35/e489070d8e9199c4a0dd5cbc0c0f6cd9d5a1897674c7d89d6c9c17a323c7/reverse-projection-0.0.2.5.tar.gz
+[2023-07-14 06:49:09] INFO root fetch - processPackages [cache-result]: executing diffoscope
+[2023-07-14 06:49:09] INFO root fetch - processPackages [cache-result]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cache-result-0.1.3.tar.gz tmp/cache-result-0.1.4.tar.gz --markdown 20230714/c/cache-result/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-14 06:49:09] INFO root fetch - processPackages [boldigger]: Downloading https://files.pythonhosted.org/packages/17/57/a5a9062fc0c612c7e9528cad7410504452094fe89e48677daf6addf366ab/boldigger-2.1.3.tar.gz
+[2023-07-14 06:49:09] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-07-14 06:49:09] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.92.tar.gz tmp/gaohn-common-utils-0.0.93.tar.gz --markdown 20230714/g/gaohn-common-utils/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-07-14 06:49:09] INFO root fetch - processPackages [reverse-projection]: executing diffoscope
+[2023-07-14 06:49:09] INFO root fetch - processPackages [reverse-projection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reverse-projection-0.0.2.4.tar.gz tmp/reverse-projection-0.0.2.5.tar.gz --markdown 20230714/r/reverse-projection/0.0.2.4-0.0.2.5/diff.md --exclude *.pyd
+[2023-07-14 06:49:09] INFO root fetch - processPackages [boldigger]: executing diffoscope
+[2023-07-14 06:49:09] INFO root fetch - processPackages [boldigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boldigger-2.1.2.tar.gz tmp/boldigger-2.1.3.tar.gz --markdown 20230714/b/boldigger/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-14 06:49:10] INFO root fetch - processPackages [cache-result]: Remove: archive file [/home/abi/fetcher/tmp/cache-result-0.1.3.tar.gz]
+[2023-07-14 06:49:10] INFO root fetch - processPackages [cache-result]: Remove: archive file [/home/abi/fetcher/tmp/cache-result-0.1.4.tar.gz]
+[2023-07-14 06:49:10] INFO root fetch - main [MainThread]: End processing [cache-result]: success
+[2023-07-14 06:49:10] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.92.tar.gz]
+[2023-07-14 06:49:10] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.93.tar.gz]
+[2023-07-14 06:49:10] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-07-14 06:49:10] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev3.tar.gz]
+[2023-07-14 06:49:10] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev4.tar.gz]
+[2023-07-14 06:49:10] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-07-14 06:49:10] INFO root fetch - processPackages [boldigger]: Remove: archive file [/home/abi/fetcher/tmp/boldigger-2.1.2.tar.gz]
+[2023-07-14 06:49:10] INFO root fetch - processPackages [boldigger]: Remove: archive file [/home/abi/fetcher/tmp/boldigger-2.1.3.tar.gz]
+[2023-07-14 06:49:10] INFO root fetch - main [MainThread]: End processing [boldigger]: success
+[2023-07-14 06:49:10] INFO root fetch - processPackages [reverse-projection]: Remove: archive file [/home/abi/fetcher/tmp/reverse-projection-0.0.2.4.tar.gz]
+[2023-07-14 06:49:10] INFO root fetch - processPackages [reverse-projection]: Remove: archive file [/home/abi/fetcher/tmp/reverse-projection-0.0.2.5.tar.gz]
+[2023-07-14 06:49:10] INFO root fetch - main [MainThread]: End processing [reverse-projection]: success
+[2023-07-14 06:49:10] INFO root fetch - main [MainThread]: Store serial: [18885512]
