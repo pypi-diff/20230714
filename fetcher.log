@@ -14107,3 +14107,123 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 08:44:26] INFO root fetch - processPackages [odoo-addon-l10n-es-dua-sii]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_dua_sii-16.0.1.0.0.4-py3-none-any.whl.zip]
 [2023-07-14 08:44:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-dua-sii]: success
 [2023-07-14 08:44:26] INFO root fetch - main [MainThread]: Store serial: [18886155]
+[2023-07-14 08:49:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886155]
+[2023-07-14 08:49:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-14 08:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gcm-toolkit
+[2023-07-14 08:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: augpathlib
+[2023-07-14 08:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentelemetry_wrapper
+[2023-07-14 08:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xhibit
+[2023-07-14 08:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: breeze-strategies
+[2023-07-14 08:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsmlibrary-viz
+[2023-07-14 08:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-rabbitmq
+[2023-07-14 08:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyezoo
+[2023-07-14 08:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: peelml
+[2023-07-14 08:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: botastico
+[2023-07-14 08:49:35] INFO root fetch - processPackages [peelml]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-14 08:49:35] INFO root fetch - processPackages [gcm-toolkit]: New version: [0.3.1] Old Version: [0.3]
+[2023-07-14 08:49:35] INFO root fetch - processPackages [augpathlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 08:49:35] INFO root fetch - processPackages [botastico]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-14 08:49:35] INFO root fetch - processPackages [dsmlibrary-viz]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-14 08:49:35] INFO root fetch - processPackages [breeze-strategies]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-14 08:49:35] INFO root fetch - processPackages [pyezoo]: New version: [2.0.0.post20230714] Old Version: [2.0.0.20230714]
+[2023-07-14 08:49:35] INFO root fetch - processPackages [opentelemetry_wrapper]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-14 08:49:35] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1689314904] Old Version: [3.4.0a1687673691]
+[2023-07-14 08:49:35] INFO root fetch - processPackages [xhibit]: New version: [9.5.3] Old Version: [9.5.2]
+[2023-07-14 08:49:35] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/da/68/d5424ccfd0d75032ab26f0d2d04e4351a9f0622876a6a78bc760e0cca691/breeze_strategies-1.0.6.tar.gz
+[2023-07-14 08:49:35] INFO root fetch - processPackages [botastico]: Downloading https://files.pythonhosted.org/packages/aa/b1/a3d4c9916e75f86b97979af057e66a176fc9882cac776367650b2fae5839/botastico-0.1.2.tar.gz
+[2023-07-14 08:49:35] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/e4/47/b729b43cedfba1bed9f94ca6077eac7096380f482e470e32566f0f640029/xhibit-9.5.2.tar.gz
+[2023-07-14 08:49:35] INFO root fetch - processPackages [peelml]: Downloading https://files.pythonhosted.org/packages/00/5d/7b7b6ce9753c97bdf9ce44160b640ba083a1813af3a4cfca2e1bcc27e4fe/peelml-0.0.3.tar.gz
+[2023-07-14 08:49:35] INFO root fetch - processPackages [dsmlibrary-viz]: Downloading https://files.pythonhosted.org/packages/1e/a5/aacab0579c5958bd27496f049e062e344b269ebf01d0983963b3c2da1bc4/dsmlibrary_viz-0.0.7.tar.gz
+[2023-07-14 08:49:35] INFO root fetch - processPackages [augpathlib]: Downloading https://files.pythonhosted.org/packages/b3/59/9b4a6181169539b166bcf777106dd4da3e04aa8ecd4562eb289b7ea9be22/augpathlib-0.0.8.tar.gz
+[2023-07-14 08:49:35] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/69/7c/67f841dc4a13f5eb61170313031d5288db7f50949035570e3de21b9171ff/pulumi_rabbitmq-3.4.0a1687673691.tar.gz
+[2023-07-14 08:49:35] INFO root fetch - processPackages [gcm-toolkit]: Downloading https://files.pythonhosted.org/packages/9c/f7/aadc60445cca3bc1971dcb833b5ba1411f2a2ff1324dd661f0e2f0a69e1a/gcm_toolkit-0.3.tar.gz
+[2023-07-14 08:49:35] INFO root fetch - processPackages [pyezoo]: Downloading https://files.pythonhosted.org/packages/15/ca/fa93746551b06f72ad09d626ce09163e817f239976ea2e7a30868c2bdb11/pyezoo-2.0.0.20230714.tar.gz
+[2023-07-14 08:49:35] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/1b/f4/cd4e9dabe3591f0a26e4ff6e36f50990c486f5ac10babd448c39fcc61cbe/opentelemetry_wrapper-0.0.9.tar.gz
+[2023-07-14 08:49:36] INFO root fetch - processPackages [botastico]: Downloading https://files.pythonhosted.org/packages/4a/69/fe2317ed901d4f70ea443ff9ed144acc452d55cbc3b8ce50c483c7e7e37f/botastico-0.1.3.tar.gz
+[2023-07-14 08:49:36] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/17/7f/ec3356b2e7f83c0d9bd7b4f7fb06aad46455cd35a85e96c72d77eeac7851/breeze_strategies-1.0.7.tar.gz
+[2023-07-14 08:49:36] INFO root fetch - processPackages [dsmlibrary-viz]: Downloading https://files.pythonhosted.org/packages/1c/8b/164463f1f49601a8af91de82729735158f400ed18e2f79d0730610834437/dsmlibrary_viz-0.0.8.tar.gz
+[2023-07-14 08:49:36] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/8d/c9/d7e0fe819796931055dbe89c64e12ac633a14bb691734b243e8e284157dd/xhibit-9.5.3.tar.gz
+[2023-07-14 08:49:36] INFO root fetch - processPackages [pyezoo]: Downloading https://files.pythonhosted.org/packages/3b/48/8274c40f5f8f50a51ba7497935640717bbe040f188f2aee6c5cf6ff669a2/pyezoo-2.0.0.post20230714.tar.gz
+[2023-07-14 08:49:36] INFO root fetch - processPackages [augpathlib]: Downloading https://files.pythonhosted.org/packages/81/84/ce5dc1dc8101143f2553820ed664469e8462ce1bed567615dea5389202ef/augpathlib-0.0.9.tar.gz
+[2023-07-14 08:49:36] INFO root fetch - processPackages [peelml]: Downloading https://files.pythonhosted.org/packages/74/d2/f9bd6d8f35d68622b142693bb603492f6eb591d8f7264ad4c33343732e09/peelml-0.0.4.tar.gz
+[2023-07-14 08:49:36] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-07-14 08:49:36] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-1.0.6.tar.gz tmp/breeze_strategies-1.0.7.tar.gz --markdown 20230714/b/breeze-strategies/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-14 08:49:36] INFO root fetch - processPackages [botastico]: executing diffoscope
+[2023-07-14 08:49:36] INFO root fetch - processPackages [botastico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botastico-0.1.2.tar.gz tmp/botastico-0.1.3.tar.gz --markdown 20230714/b/botastico/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-14 08:49:36] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/6a/54/ec68b37e60fb07e07b3955fef82dd63bfe02f4aa0afaff5661a2b692e1e8/pulumi_rabbitmq-3.4.0a1689314904.tar.gz
+[2023-07-14 08:49:36] INFO root fetch - processPackages [dsmlibrary-viz]: executing diffoscope
+[2023-07-14 08:49:36] INFO root fetch - processPackages [dsmlibrary-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsmlibrary_viz-0.0.7.tar.gz tmp/dsmlibrary_viz-0.0.8.tar.gz --markdown 20230714/d/dsmlibrary-viz/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-14 08:49:36] INFO root fetch - processPackages [xhibit]: executing diffoscope
+[2023-07-14 08:49:36] INFO root fetch - processPackages [xhibit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhibit-9.5.2.tar.gz tmp/xhibit-9.5.3.tar.gz --markdown 20230714/x/xhibit/9.5.2-9.5.3/diff.md --exclude *.pyd
+[2023-07-14 08:49:36] INFO root fetch - processPackages [gcm-toolkit]: Downloading https://files.pythonhosted.org/packages/87/1d/d41dba12186eed67ded0f44c3b91be36d71fa928254fee433d0472f81f83/gcm_toolkit-0.3.1.tar.gz
+[2023-07-14 08:49:36] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/6c/bd/855cd00bf6cdd14c4ad65ce736fa33db25739b903f275c1ec936e020716d/opentelemetry_wrapper-0.1.0.tar.gz
+[2023-07-14 08:49:36] INFO root fetch - processPackages [augpathlib]: executing diffoscope
+[2023-07-14 08:49:36] INFO root fetch - processPackages [augpathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augpathlib-0.0.8.tar.gz tmp/augpathlib-0.0.9.tar.gz --markdown 20230714/a/augpathlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 08:49:36] INFO root fetch - processPackages [pyezoo]: executing diffoscope
+[2023-07-14 08:49:36] INFO root fetch - processPackages [pyezoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyezoo-2.0.0.20230714.tar.gz tmp/pyezoo-2.0.0.post20230714.tar.gz --markdown 20230714/p/pyezoo/2.0.0.20230714-2.0.0.post20230714/diff.md --exclude *.pyd
+[2023-07-14 08:49:36] INFO root fetch - processPackages [peelml]: executing diffoscope
+[2023-07-14 08:49:36] INFO root fetch - processPackages [peelml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peelml-0.0.3.tar.gz tmp/peelml-0.0.4.tar.gz --markdown 20230714/p/peelml/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-14 08:49:36] INFO root fetch - processPackages [opentelemetry_wrapper]: executing diffoscope
+[2023-07-14 08:49:36] INFO root fetch - processPackages [opentelemetry_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_wrapper-0.0.9.tar.gz tmp/opentelemetry_wrapper-0.1.0.tar.gz --markdown 20230714/o/opentelemetry_wrapper/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-14 08:49:36] INFO root fetch - processPackages [gcm-toolkit]: executing diffoscope
+[2023-07-14 08:49:36] INFO root fetch - processPackages [gcm-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcm_toolkit-0.3.tar.gz tmp/gcm_toolkit-0.3.1.tar.gz --markdown 20230714/g/gcm-toolkit/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-07-14 08:49:36] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2023-07-14 08:49:36] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1687673691.tar.gz tmp/pulumi_rabbitmq-3.4.0a1689314904.tar.gz --markdown 20230714/p/pulumi-rabbitmq/3.4.0a1687673691-3.4.0a1689314904/diff.md --exclude *.pyd
+[2023-07-14 08:49:37] INFO root fetch - processPackages [botastico]: Remove: archive file [/home/abi/fetcher/tmp/botastico-0.1.2.tar.gz]
+[2023-07-14 08:49:37] INFO root fetch - processPackages [botastico]: Remove: archive file [/home/abi/fetcher/tmp/botastico-0.1.3.tar.gz]
+[2023-07-14 08:49:37] INFO root fetch - processPackages [botastico]: Start processing: hubble-exchange
+[2023-07-14 08:49:37] INFO root fetch - main [MainThread]: End processing [botastico]: success
+[2023-07-14 08:49:37] INFO root fetch - processPackages [dsmlibrary-viz]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary_viz-0.0.7.tar.gz]
+[2023-07-14 08:49:37] INFO root fetch - processPackages [dsmlibrary-viz]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary_viz-0.0.8.tar.gz]
+[2023-07-14 08:49:37] INFO root fetch - processPackages [dsmlibrary-viz]: Start processing: pulumi-postgresql
+[2023-07-14 08:49:37] INFO root fetch - main [MainThread]: End processing [dsmlibrary-viz]: success
+[2023-07-14 08:49:37] INFO root fetch - processPackages [hubble-exchange]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-14 08:49:37] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689315090] Old Version: [3.9.0a1687892989]
+[2023-07-14 08:49:38] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.6.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.7.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - processPackages [breeze-strategies]: Start processing: sphinx-readme
+[2023-07-14 08:49:38] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-07-14 08:49:38] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.2.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.3.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - main [MainThread]: End processing [xhibit]: success
+[2023-07-14 08:49:38] INFO root fetch - processPackages [sphinx-readme]: New version: [0.0.1b6] Old Version: [0.0.1]
+[2023-07-14 08:49:38] INFO root fetch - processPackages [augpathlib]: Remove: archive file [/home/abi/fetcher/tmp/augpathlib-0.0.8.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - processPackages [augpathlib]: Remove: archive file [/home/abi/fetcher/tmp/augpathlib-0.0.9.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - main [MainThread]: End processing [augpathlib]: success
+[2023-07-14 08:49:38] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/af/fd/dda0498e3018b5d0b793a1bd9ae7ee2d497fd437151d2f05ece2ec8283fd/hubble_exchange-0.1.1.tar.gz
+[2023-07-14 08:49:38] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/9c/ec/adc5e238687d09ba4a16e89dfc495002232fc24b47b1791b9db5131ae664/sphinx-readme-0.0.1.tar.gz
+[2023-07-14 08:49:38] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/7f/9f/0c75e064fed8fa7271e8cce7a11c1d7f074c31a70fa1cf16e9c7741c91ba/pulumi_postgresql-3.9.0a1687892989.tar.gz
+[2023-07-14 08:49:38] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1687673691.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1689314904.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2023-07-14 08:49:38] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.0.9.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.0.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - main [MainThread]: End processing [opentelemetry_wrapper]: success
+[2023-07-14 08:49:38] INFO root fetch - processPackages [gcm-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/gcm_toolkit-0.3.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - processPackages [gcm-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/gcm_toolkit-0.3.1.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - main [MainThread]: End processing [gcm-toolkit]: success
+[2023-07-14 08:49:38] INFO root fetch - processPackages [pyezoo]: Remove: archive file [/home/abi/fetcher/tmp/pyezoo-2.0.0.20230714.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - processPackages [pyezoo]: Remove: archive file [/home/abi/fetcher/tmp/pyezoo-2.0.0.post20230714.tar.gz]
+[2023-07-14 08:49:38] INFO root fetch - main [MainThread]: End processing [pyezoo]: success
+[2023-07-14 08:49:38] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/bb/e2/19a557f4c54dd2ecb599a438b74f453df4f747c5a70e980e5fc1402ffd52/sphinx-readme-0.0.1b6.tar.gz
+[2023-07-14 08:49:38] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/fd/46/2dff572079d4163f347a94f95f3aeead800e14db73a18443785254653e54/hubble_exchange-0.2.0.tar.gz
+[2023-07-14 08:49:38] INFO root fetch - processPackages [sphinx-readme]: executing diffoscope
+[2023-07-14 08:49:38] INFO root fetch - processPackages [sphinx-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-readme-0.0.1.tar.gz tmp/sphinx-readme-0.0.1b6.tar.gz --markdown 20230714/s/sphinx-readme/0.0.1-0.0.1b6/diff.md --exclude *.pyd
+[2023-07-14 08:49:38] INFO root fetch - processPackages [hubble-exchange]: executing diffoscope
+[2023-07-14 08:49:38] INFO root fetch - processPackages [hubble-exchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubble_exchange-0.1.1.tar.gz tmp/hubble_exchange-0.2.0.tar.gz --markdown 20230714/h/hubble-exchange/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-14 08:49:39] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2023-07-14 08:49:39] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2023-07-14 08:49:39] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1687892989.tar.gz tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz --markdown 20230714/p/pulumi-postgresql/3.9.0a1687892989-3.9.0a1689315090/diff.md --exclude *.pyd
+[2023-07-14 08:49:39] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.1.1.tar.gz]
+[2023-07-14 08:49:39] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.2.0.tar.gz]
+[2023-07-14 08:49:39] INFO root fetch - main [MainThread]: End processing [hubble-exchange]: success
+[2023-07-14 08:49:39] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.1.tar.gz]
+[2023-07-14 08:49:39] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.1b6.tar.gz]
+[2023-07-14 08:49:39] INFO root fetch - main [MainThread]: End processing [sphinx-readme]: success
+[2023-07-14 08:49:40] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1687892989.tar.gz]
+[2023-07-14 08:49:40] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2023-07-14 08:49:40] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2023-07-14 08:49:41] INFO root fetch - processPackages [peelml]: Remove: archive file [/home/abi/fetcher/tmp/peelml-0.0.3.tar.gz]
+[2023-07-14 08:49:41] INFO root fetch - processPackages [peelml]: Remove: archive file [/home/abi/fetcher/tmp/peelml-0.0.4.tar.gz]
+[2023-07-14 08:49:41] INFO root fetch - main [MainThread]: End processing [peelml]: success
+[2023-07-14 08:49:41] INFO root fetch - main [MainThread]: Store serial: [18886202]
