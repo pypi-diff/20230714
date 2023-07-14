@@ -15918,3 +15918,54 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 10:04:48] INFO root fetch - processPackages [texplain]: Remove: archive file [/home/abi/fetcher/tmp/texplain-0.8.6.tar.gz]
 [2023-07-14 10:04:48] INFO root fetch - main [MainThread]: End processing [texplain]: success
 [2023-07-14 10:04:48] INFO root fetch - main [MainThread]: Store serial: [18886929]
+[2023-07-14 10:09:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886929]
+[2023-07-14 10:09:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-14 10:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twyn
+[2023-07-14 10:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gcp-ng-helpers
+[2023-07-14 10:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AddBookmarket
+[2023-07-14 10:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2023-07-14 10:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qreader
+[2023-07-14 10:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visionai-data-format
+[2023-07-14 10:09:57] WARNING root fetch - processPackages [AddBookmarket]: Skipping, unable to determine old version
+[2023-07-14 10:09:57] INFO root fetch - main [MainThread]: End processing [AddBookmarket] error
+[2023-07-14 10:09:57] INFO root fetch - processPackages [pyglove]: New version: [0.4.0] Old Version: [0.3.1.dev20230713]
+[2023-07-14 10:09:57] INFO root fetch - processPackages [twyn]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-07-14 10:09:57] INFO root fetch - processPackages [qreader]: New version: [2.8] Old Version: [2.7]
+[2023-07-14 10:09:57] INFO root fetch - processPackages [visionai-data-format]: New version: [1.0.5a1] Old Version: [1.0.4]
+[2023-07-14 10:09:57] INFO root fetch - processPackages [gcp-ng-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 10:09:57] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/cc/26/fc7d2fdc643e0a8bf4c6dc13b5dc276b8d4205fa9110af97d85ca87865ad/pyglove-0.3.1.dev20230713.tar.gz
+[2023-07-14 10:09:57] INFO root fetch - processPackages [gcp-ng-helpers]: Downloading https://files.pythonhosted.org/packages/54/78/15f3207f0255fc2e3b7c7eaa198c84588a50a8e4a7da118ad1c8f76f5eba/gcp_ng_helpers-0.0.8.tar.gz
+[2023-07-14 10:09:57] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/c1/e3/30db1b357290976b9e6677c1d2c0e6c64b4fff57eead103fd22886b5c765/twyn-2.4.1.tar.gz
+[2023-07-14 10:09:57] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/f7/eb/a3d0b4e62aad59fea8f5e0a5688c2df052b8d445118af458011e77c663c4/visionai-data-format-1.0.4.tar.gz
+[2023-07-14 10:09:57] INFO root fetch - processPackages [qreader]: Downloading https://files.pythonhosted.org/packages/7d/f8/87060a6e4ae467fbf22a2fd0912895629b14dcbd78cca129e3126982a643/qreader-2.7.tar.gz
+[2023-07-14 10:09:57] INFO root fetch - processPackages [gcp-ng-helpers]: Downloading https://files.pythonhosted.org/packages/c9/5b/f3d84d39a61bb6b652aaf1d308da0692936d869373c6fe507bcd898f29cb/gcp_ng_helpers-0.0.9.tar.gz
+[2023-07-14 10:09:57] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/a3/0f/0383fa698433b23a7f6190aee65a556ad64d148850611be797bbb3b5db7f/pyglove-0.4.0.tar.gz
+[2023-07-14 10:09:57] INFO root fetch - processPackages [gcp-ng-helpers]: executing diffoscope
+[2023-07-14 10:09:57] INFO root fetch - processPackages [gcp-ng-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_ng_helpers-0.0.8.tar.gz tmp/gcp_ng_helpers-0.0.9.tar.gz --markdown 20230714/g/gcp-ng-helpers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 10:09:57] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-14 10:09:57] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230713.tar.gz tmp/pyglove-0.4.0.tar.gz --markdown 20230714/p/pyglove/0.3.1.dev20230713-0.4.0/diff.md --exclude *.pyd
+[2023-07-14 10:09:58] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/01/96/5902e187f63e77a13b9204968bc67ccc1129280334e7a51e009e9f3f7500/twyn-2.5.0.tar.gz
+[2023-07-14 10:09:58] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/29/e5/b1b3a066d4a61c2c9d725f917a68eafd444b52899f41b9d9020673fc47f1/visionai-data-format-1.0.5a1.tar.gz
+[2023-07-14 10:09:58] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-07-14 10:09:58] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.4.1.tar.gz tmp/twyn-2.5.0.tar.gz --markdown 20230714/t/twyn/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-07-14 10:09:58] INFO root fetch - processPackages [visionai-data-format]: executing diffoscope
+[2023-07-14 10:09:58] INFO root fetch - processPackages [visionai-data-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionai-data-format-1.0.4.tar.gz tmp/visionai-data-format-1.0.5a1.tar.gz --markdown 20230714/v/visionai-data-format/1.0.4-1.0.5a1/diff.md --exclude *.pyd
+[2023-07-14 10:09:58] INFO root fetch - processPackages [qreader]: Downloading https://files.pythonhosted.org/packages/1e/26/b7161a55898d2043ae2512419c642cec690249c886297626c5ceb25c66a4/qreader-2.8.tar.gz
+[2023-07-14 10:09:58] INFO root fetch - processPackages [qreader]: executing diffoscope
+[2023-07-14 10:09:58] INFO root fetch - processPackages [qreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qreader-2.7.tar.gz tmp/qreader-2.8.tar.gz --markdown 20230714/q/qreader/2.7-2.8/diff.md --exclude *.pyd
+[2023-07-14 10:09:58] INFO root fetch - processPackages [gcp-ng-helpers]: Remove: archive file [/home/abi/fetcher/tmp/gcp_ng_helpers-0.0.8.tar.gz]
+[2023-07-14 10:09:58] INFO root fetch - processPackages [gcp-ng-helpers]: Remove: archive file [/home/abi/fetcher/tmp/gcp_ng_helpers-0.0.9.tar.gz]
+[2023-07-14 10:09:58] INFO root fetch - main [MainThread]: End processing [gcp-ng-helpers]: success
+[2023-07-14 10:09:59] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.4.1.tar.gz]
+[2023-07-14 10:09:59] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.0.tar.gz]
+[2023-07-14 10:09:59] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-07-14 10:09:59] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai-data-format-1.0.4.tar.gz]
+[2023-07-14 10:09:59] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai-data-format-1.0.5a1.tar.gz]
+[2023-07-14 10:09:59] INFO root fetch - main [MainThread]: End processing [visionai-data-format]: success
+[2023-07-14 10:09:59] INFO root fetch - processPackages [qreader]: Remove: archive file [/home/abi/fetcher/tmp/qreader-2.7.tar.gz]
+[2023-07-14 10:09:59] INFO root fetch - processPackages [qreader]: Remove: archive file [/home/abi/fetcher/tmp/qreader-2.8.tar.gz]
+[2023-07-14 10:09:59] INFO root fetch - main [MainThread]: End processing [qreader]: success
+[2023-07-14 10:09:59] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230713.tar.gz]
+[2023-07-14 10:09:59] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.0.tar.gz]
+[2023-07-14 10:09:59] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-14 10:09:59] INFO root fetch - main [MainThread]: Store serial: [18886945]
