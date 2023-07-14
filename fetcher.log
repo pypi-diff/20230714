@@ -20689,3 +20689,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-14 13:53:51] INFO root fetch - processPackages [pop-create-idem]: Remove: archive file [/home/abi/fetcher/tmp/pop-create-idem-4.3.1.tar.gz]
 [2023-07-14 13:53:51] INFO root fetch - main [MainThread]: End processing [pop-create-idem]: success
 [2023-07-14 13:53:51] INFO root fetch - main [MainThread]: Store serial: [18889075]
+[2023-07-14 13:58:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18889075]
+[2023-07-14 13:59:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-14 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinx-enos-theme
+[2023-07-14 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: render-thumbnail
+[2023-07-14 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-organization-python
+[2023-07-14 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-id-python
+[2023-07-14 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dh-json-logic
+[2023-07-14 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-bank-python
+[2023-07-14 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: few-shot-priming
+[2023-07-14 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ramodels
+[2023-07-14 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: render-thumbnail
+[2023-07-14 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gdal2numpy
+[2023-07-14 13:59:01] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 13:59:01] INFO root fetch - processPackages [render-thumbnail]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 13:59:01] INFO root fetch - processPackages [render-thumbnail]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 13:59:01] WARNING root fetch - processPackages [dh-json-logic]: Skipping, unable to determine old version
+[2023-07-14 13:59:01] INFO root fetch - processPackages [dh-json-logic]: Start processing: efel
+[2023-07-14 13:59:01] INFO root fetch - main [MainThread]: End processing [dh-json-logic] error
+[2023-07-14 13:59:01] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-14 13:59:01] INFO root fetch - processPackages [sphinx-enos-theme]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-14 13:59:01] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-14 13:59:01] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-14 13:59:01] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-14 13:59:01] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-14 13:59:01] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-14 13:59:01] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/b8/21/09c505e143ec0e6ed28dcbc5aff9e445fffba8a0e9aa2e84b0cf5951fc20/render_thumbnail-0.1.8.tar.gz
+[2023-07-14 13:59:01] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/b8/21/09c505e143ec0e6ed28dcbc5aff9e445fffba8a0e9aa2e84b0cf5951fc20/render_thumbnail-0.1.8.tar.gz
+[2023-07-14 13:59:01] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-07-14 13:59:01] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-07-14 13:59:01] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-14 13:59:01] INFO root fetch - processPackages [efel]: New version: [4.3.5] Old Version: [4.3.4]
+[2023-07-14 13:59:01] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-07-14 13:59:01] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/d1/91/a94ff8e2f017a275c7162f624377aa91f191fa1086cc9b0c9871f44f67ed/sphinx_enos_theme-0.2.8.tar.gz
+[2023-07-14 13:59:02] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-14 13:59:02] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-14 13:59:02] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/d3/8a/ffb6ef92545da2ef3be741c1cb211a81f2dc75d467db05d5db17d643394e/efel-4.3.4.tar.gz
+[2023-07-14 13:59:02] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-14 13:59:02] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-07-14 13:59:02] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/43/b2/adb27517d948df8772b1547bfa7d7d7c38eacc0b6c2a02febc096cfd1b65/render_thumbnail-0.1.9.tar.gz
+[2023-07-14 13:59:02] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/43/b2/adb27517d948df8772b1547bfa7d7d7c38eacc0b6c2a02febc096cfd1b65/render_thumbnail-0.1.9.tar.gz
+[2023-07-14 13:59:02] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-14 13:59:02] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230714/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 13:59:02] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-07-14 13:59:02] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-07-14 13:59:02] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-14 13:59:02] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-14 13:59:02] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230714/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-14 13:59:02] INFO root fetch - processPackages [render-thumbnail]: executing diffoscope
+[2023-07-14 13:59:02] INFO root fetch - processPackages [render-thumbnail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_thumbnail-0.1.8.tar.gz tmp/render_thumbnail-0.1.9.tar.gz --markdown 20230714/r/render-thumbnail/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 13:59:02] INFO root fetch - processPackages [render-thumbnail]: executing diffoscope
+[2023-07-14 13:59:02] INFO root fetch - processPackages [render-thumbnail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_thumbnail-0.1.8.tar.gz tmp/render_thumbnail-0.1.9.tar.gz --markdown 20230714/r/render-thumbnail/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 13:59:02] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-14 13:59:02] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230714/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 13:59:02] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-07-14 13:59:02] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230714/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-14 13:59:02] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/4a/23/5d4d25c8515eb8e934a1b26f86fb0e3315fe2bd07e5a2e9f9e881d29b59c/efel-4.3.5.tar.gz
+[2023-07-14 13:59:02] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-14 13:59:02] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230714/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-14 13:59:02] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-07-14 13:59:02] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230714/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-14 13:59:02] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/cf/26/5cc1b9d871cfd2bf60bdd6594178f1651766e04dfa4731e2d745543aa7e3/sphinx_enos_theme-0.2.9.tar.gz
+[2023-07-14 13:59:02] INFO root fetch - processPackages [efel]: executing diffoscope
+[2023-07-14 13:59:02] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-4.3.4.tar.gz tmp/efel-4.3.5.tar.gz --markdown 20230714/e/efel/4.3.4-4.3.5/diff.md --exclude *.pyd
+[2023-07-14 13:59:02] INFO root fetch - processPackages [sphinx-enos-theme]: executing diffoscope
+[2023-07-14 13:59:02] INFO root fetch - processPackages [sphinx-enos-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_enos_theme-0.2.8.tar.gz tmp/sphinx_enos_theme-0.2.9.tar.gz --markdown 20230714/s/sphinx-enos-theme/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-14 13:59:03] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-14 13:59:03] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-14 13:59:03] INFO root fetch - processPackages [gdal2numpy]: Start processing: isometry
+[2023-07-14 13:59:03] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-14 13:59:03] WARNING root fetch - processPackages [isometry]: Skipping, unable to determine old version
+[2023-07-14 13:59:03] INFO root fetch - main [MainThread]: End processing [isometry] error
+[2023-07-14 13:59:04] INFO root fetch - processPackages [render-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/render_thumbnail-0.1.8.tar.gz]
+[2023-07-14 13:59:04] INFO root fetch - processPackages [render-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/render_thumbnail-0.1.9.tar.gz]
+[2023-07-14 13:59:04] INFO root fetch - main [MainThread]: End processing [render-thumbnail]: success
+[2023-07-14 13:59:04] INFO root fetch - main [MainThread]: End processing [render-thumbnail]: success
+[2023-07-14 13:59:04] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-14 13:59:04] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-14 13:59:04] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-14 13:59:04] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-14 13:59:04] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-14 13:59:04] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-14 13:59:04] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-14 13:59:04] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-14 13:59:04] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-14 13:59:04] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-4.3.4.tar.gz]
+[2023-07-14 13:59:04] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-4.3.5.tar.gz]
+[2023-07-14 13:59:04] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2023-07-14 13:59:04] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.8.tar.gz]
+[2023-07-14 13:59:04] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.9.tar.gz]
+[2023-07-14 13:59:04] INFO root fetch - main [MainThread]: End processing [sphinx-enos-theme]: success
+[2023-07-14 13:59:04] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-07-14 13:59:04] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-07-14 13:59:04] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-07-14 13:59:05] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-07-14 13:59:05] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-07-14 13:59:05] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-07-14 13:59:05] INFO root fetch - main [MainThread]: Store serial: [18889123]
