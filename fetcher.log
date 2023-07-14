@@ -15557,3 +15557,150 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 09:49:05] INFO root fetch - processPackages [aspose-words-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-words-cloud-23.6.0.tar.gz]
 [2023-07-14 09:49:05] INFO root fetch - main [MainThread]: End processing [aspose-words-cloud]: success
 [2023-07-14 09:49:05] INFO root fetch - main [MainThread]: Store serial: [18886772]
+[2023-07-14 09:54:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886772]
+[2023-07-14 09:54:14] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-14 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reytool
+[2023-07-14 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-account-document-reversal
+[2023-07-14 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu
+[2023-07-14 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kuba-test-e2b-agent
+[2023-07-14 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nightly
+[2023-07-14 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iitkgp-erp-login
+[2023-07-14 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jilei
+[2023-07-14 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spead2
+[2023-07-14 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aanalyticsact
+[2023-07-14 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Spatialign
+[2023-07-14 09:54:15] INFO root fetch - processPackages [aanalyticsact]: New version: [0.0.1.35] Old Version: [0.0.1.34]
+[2023-07-14 09:54:15] INFO root fetch - processPackages [iitkgp-erp-login]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-07-14 09:54:15] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-14 09:54:15] WARNING root fetch - processPackages [Spatialign]: Skipping, unable to determine old version
+[2023-07-14 09:54:15] INFO root fetch - processPackages [Spatialign]: Start processing: nvosscript
+[2023-07-14 09:54:15] INFO root fetch - main [MainThread]: End processing [Spatialign] error
+[2023-07-14 09:54:15] WARNING root fetch - processPackages [kuba-test-e2b-agent]: Skipping, unable to determine old version
+[2023-07-14 09:54:15] INFO root fetch - processPackages [kuba-test-e2b-agent]: Start processing: xhibit
+[2023-07-14 09:54:15] INFO root fetch - main [MainThread]: End processing [kuba-test-e2b-agent] error
+[2023-07-14 09:54:15] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: New version: [13.0.1.0.3] Old Version: [13.0.1.0.2]
+[2023-07-14 09:54:15] INFO root fetch - processPackages [jilei]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-14 09:54:15] INFO root fetch - processPackages [spead2]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-14 09:54:15] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-14 09:54:15] INFO root fetch - processPackages [xhibit]: New version: [9.6.7] Old Version: [9.6.5]
+[2023-07-14 09:54:15] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230714] Old Version: [2.14.0.dev20230713]
+[2023-07-14 09:54:15] INFO root fetch - processPackages [nvosscript]: New version: [1.3.7.3] Old Version: [1.3.7.2]
+[2023-07-14 09:54:15] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/bd/e7/7c568300233db8baab30e4ab8809d776fc0391364fc7b49b2b0611b0da0d/aanalyticsact-0.0.1.34.tar.gz
+[2023-07-14 09:54:15] INFO root fetch - processPackages [iitkgp-erp-login]: Downloading https://files.pythonhosted.org/packages/bf/93/8453f71e988b5ac90b1ef6605eaa5965c165d8750f508ca57386ad4da7f3/iitkgp_erp_login-1.0.1.tar.gz
+[2023-07-14 09:54:15] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Downloading https://files.pythonhosted.org/packages/ec/73/fc69b4affefbf9874d67687a12de409cf3848b1b64d23d995c3d0a88458d/odoo13_addon_account_document_reversal-13.0.1.0.2-py3-none-any.whl
+[2023-07-14 09:54:15] INFO root fetch - processPackages [jilei]: Downloading https://files.pythonhosted.org/packages/1b/57/0498ad3222628e9bc0567fec19dbde106cb7c9a3d701674d4b349762562c/jilei-0.2.2.tar.gz
+[2023-07-14 09:54:15] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/ee/94/b1dbef4fc5697c2b0260a0b74dd1b25b2f4c4accc648ee36e6539aec9e50/xhibit-9.6.5.tar.gz
+[2023-07-14 09:54:15] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-14 09:54:15] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/95/fa/a75c44d0ae0de82c935963891df2a9f2551a7148a4a5e24e29a6ba62bb65/nvosscript-1.3.7.2.tar.gz
+[2023-07-14 09:54:15] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-14 09:54:15] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/40/68/7fc6be530bc6d148f0016d28b2e5acbda161babaa55bf395c0ec4db2726f/tf_nightly_cpu-2.14.0.dev20230713-cp39-cp39-win_amd64.whl
+[2023-07-14 09:54:15] INFO root fetch - processPackages [spead2]: Downloading https://files.pythonhosted.org/packages/98/ec/1273313292bf2472ae0694dc3a0f146ccedfdd6746655d83e22aff5b6c11/spead2-3.9.0.tar.gz
+[2023-07-14 09:54:15] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/17/4b/9e1706df0819d1842c405c3e83207846aad782187accf267ad72150011bc/aanalyticsact-0.0.1.35.tar.gz
+[2023-07-14 09:54:15] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Downloading https://files.pythonhosted.org/packages/e0/4c/4f5ae735aa89b4d4efb4f07e0ac9af0c4701ab0e9461e40fee6fe663e3ae/odoo13_addon_account_document_reversal-13.0.1.0.3-py3-none-any.whl
+[2023-07-14 09:54:15] INFO root fetch - processPackages [jilei]: Downloading https://files.pythonhosted.org/packages/d9/96/42e59c4fa900d8ec3ef043ae1571bd1323eb9f65fb04391a95f6dcd3507b/jilei-0.2.3.tar.gz
+[2023-07-14 09:54:16] INFO root fetch - processPackages [aanalyticsact]: executing diffoscope
+[2023-07-14 09:54:16] INFO root fetch - processPackages [aanalyticsact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact-0.0.1.34.tar.gz tmp/aanalyticsact-0.0.1.35.tar.gz --markdown 20230714/a/aanalyticsact/0.0.1.34-0.0.1.35/diff.md --exclude *.pyd
+[2023-07-14 09:54:16] INFO root fetch - processPackages [iitkgp-erp-login]: Downloading https://files.pythonhosted.org/packages/f8/61/b5ec338d5e88f1cad2f02993ff302ae8600d293abee65d92033411eded15/iitkgp_erp_login-2.0.0.tar.gz
+[2023-07-14 09:54:16] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/23/52/dfbf4fa4610aceb8da3d67f8c12aca2b5f6065ad2503ee83e6322f4538e5/xhibit-9.6.7.tar.gz
+[2023-07-14 09:54:16] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: executing diffoscope
+[2023-07-14 09:54:16] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_document_reversal-13.0.1.0.2-py3-none-any.whl.zip tmp/odoo13_addon_account_document_reversal-13.0.1.0.3-py3-none-any.whl.zip --markdown 20230714/o/odoo13-addon-account-document-reversal/13.0.1.0.2-13.0.1.0.3/diff.md --exclude *.pyd
+[2023-07-14 09:54:16] INFO root fetch - processPackages [jilei]: executing diffoscope
+[2023-07-14 09:54:16] INFO root fetch - processPackages [jilei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jilei-0.2.2.tar.gz tmp/jilei-0.2.3.tar.gz --markdown 20230714/j/jilei/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-14 09:54:16] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/bc/d1/176c1bdf91d7e149895fa1e483f9fab304742b3d6bf4bc45a9f970472b0e/nvosscript-1.3.7.3.tar.gz
+[2023-07-14 09:54:16] INFO root fetch - processPackages [iitkgp-erp-login]: executing diffoscope
+[2023-07-14 09:54:16] INFO root fetch - processPackages [iitkgp-erp-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iitkgp_erp_login-1.0.1.tar.gz tmp/iitkgp_erp_login-2.0.0.tar.gz --markdown 20230714/i/iitkgp-erp-login/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-14 09:54:16] INFO root fetch - processPackages [xhibit]: executing diffoscope
+[2023-07-14 09:54:16] INFO root fetch - processPackages [xhibit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhibit-9.6.5.tar.gz tmp/xhibit-9.6.7.tar.gz --markdown 20230714/x/xhibit/9.6.5-9.6.7/diff.md --exclude *.pyd
+[2023-07-14 09:54:16] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-14 09:54:16] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-07-14 09:54:16] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.7.2.tar.gz tmp/nvosscript-1.3.7.3.tar.gz --markdown 20230714/n/nvosscript/1.3.7.2-1.3.7.3/diff.md --exclude *.pyd
+[2023-07-14 09:54:16] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/67/97/abad1207e388bdfa832bfba0fd9a4c10f53902ffec37acf54b575fd0741d/tf_nightly_cpu-2.14.0.dev20230714-cp39-cp39-win_amd64.whl
+[2023-07-14 09:54:16] INFO root fetch - processPackages [spead2]: Downloading https://files.pythonhosted.org/packages/12/11/34b80e91f53015d36e6f92f8bf6a1919338e0ec89399e6f8b5b094ce24a5/spead2-3.9.1.tar.gz
+[2023-07-14 09:54:16] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-14 09:54:16] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230714/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-14 09:54:16] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-14 09:54:16] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-14 09:54:16] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230713-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230714-cp39-cp39-win_amd64.whl.zip --markdown 20230714/t/tf-nightly-cpu/2.14.0.dev20230713-2.14.0.dev20230714/diff.md --exclude *.pyd
+[2023-07-14 09:54:16] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-14 09:54:16] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230714/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-14 09:54:16] INFO root fetch - processPackages [spead2]: executing diffoscope
+[2023-07-14 09:54:16] INFO root fetch - processPackages [spead2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spead2-3.9.0.tar.gz tmp/spead2-3.9.1.tar.gz --markdown 20230714/s/spead2/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-14 09:54:17] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.1.34.tar.gz]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.1.35.tar.gz]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [aanalyticsact]: Start processing: pymetard
+[2023-07-14 09:54:17] INFO root fetch - main [MainThread]: End processing [aanalyticsact]: success
+[2023-07-14 09:54:17] WARNING root fetch - processPackages [pymetard]: Skipping, unable to determine old version
+[2023-07-14 09:54:17] INFO root fetch - processPackages [pymetard]: Start processing: gpru
+[2023-07-14 09:54:17] INFO root fetch - main [MainThread]: End processing [pymetard] error
+[2023-07-14 09:54:17] INFO root fetch - processPackages [gpru]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [jilei]: Remove: archive file [/home/abi/fetcher/tmp/jilei-0.2.2.tar.gz]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [jilei]: Remove: archive file [/home/abi/fetcher/tmp/jilei-0.2.3.tar.gz]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [jilei]: Start processing: unidist
+[2023-07-14 09:54:17] INFO root fetch - main [MainThread]: End processing [jilei]: success
+[2023-07-14 09:54:17] INFO root fetch - processPackages [unidist]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [iitkgp-erp-login]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp_erp_login-1.0.1.tar.gz]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [iitkgp-erp-login]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp_erp_login-2.0.0.tar.gz]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [iitkgp-erp-login]: Start processing: PyAlgoEngine
+[2023-07-14 09:54:17] INFO root fetch - main [MainThread]: End processing [iitkgp-erp-login]: success
+[2023-07-14 09:54:17] INFO root fetch - processPackages [PyAlgoEngine]: New version: [0.3.9.post2] Old Version: [0.3.9.post1]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_document_reversal-13.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_document_reversal-13.0.1.0.3-py3-none-any.whl.zip]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Start processing: bw-libs
+[2023-07-14 09:54:17] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-document-reversal]: success
+[2023-07-14 09:54:17] INFO root fetch - processPackages [gpru]: Downloading https://files.pythonhosted.org/packages/76/f8/564e04241b8325c3d7d7384b04811cdf1152291a6f3ca1d62d4451c80d79/gpru-0.2.0.tar.gz
+[2023-07-14 09:54:17] INFO root fetch - processPackages [bw-libs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [unidist]: Downloading https://files.pythonhosted.org/packages/0a/0e/f70cac95782b4c393f13ba57d07ebe9a35001a33d0971d3664192c213e24/unidist-0.4.0.tar.gz
+[2023-07-14 09:54:17] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.6.5.tar.gz]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.6.7.tar.gz]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [xhibit]: Start processing: whyshift
+[2023-07-14 09:54:17] INFO root fetch - main [MainThread]: End processing [xhibit]: success
+[2023-07-14 09:54:17] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/25/65/29eed040dd9b5eeea47e4ef4064de9902a16856825bfb36b7085d533f75e/PyAlgoEngine-0.3.9.post1.tar.gz
+[2023-07-14 09:54:17] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.7.2.tar.gz]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.7.3.tar.gz]
+[2023-07-14 09:54:17] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-07-14 09:54:17] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-14 09:54:17] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-14 09:54:17] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-14 09:54:18] INFO root fetch - processPackages [bw-libs]: Downloading https://files.pythonhosted.org/packages/88/7c/5571c34832b105793be575606274b7d839627aece2412bf0be50da155c73/bw_libs-0.1.0.tar.gz
+[2023-07-14 09:54:18] INFO root fetch - processPackages [whyshift]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-14 09:54:18] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230713-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 09:54:18] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230714-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 09:54:18] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-14 09:54:18] INFO root fetch - processPackages [gpru]: Downloading https://files.pythonhosted.org/packages/08/4a/4e4434804f12eaaa370c83070241bb4526919a6cea0dae1f017478cb9ccf/gpru-0.3.0.tar.gz
+[2023-07-14 09:54:18] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/5b/dd/c9215edffe96a24a457d718e4ac1d33011306cb42a50ca2ff5465250308b/PyAlgoEngine-0.3.9.post2.tar.gz
+[2023-07-14 09:54:18] INFO root fetch - processPackages [unidist]: Downloading https://files.pythonhosted.org/packages/22/66/7d66c833229053a66f1c081fa67391654b6663fa10397c0f586c37662ad9/unidist-0.4.1.tar.gz
+[2023-07-14 09:54:18] INFO root fetch - processPackages [whyshift]: Downloading https://files.pythonhosted.org/packages/a0/3b/be4d2628348e30bd1d58547bb12466ce2030603632cdfb7e036f382012f6/whyshift-0.0.2.tar.gz
+[2023-07-14 09:54:18] INFO root fetch - processPackages [gpru]: executing diffoscope
+[2023-07-14 09:54:18] INFO root fetch - processPackages [gpru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpru-0.2.0.tar.gz tmp/gpru-0.3.0.tar.gz --markdown 20230714/g/gpru/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-14 09:54:18] INFO root fetch - processPackages [bw-libs]: Downloading https://files.pythonhosted.org/packages/f7/cc/e285f55f8b5381834d85eaf68a99f1df190a9e87eb7140278b1a93b9a6a8/bw_libs-0.1.1.tar.gz
+[2023-07-14 09:54:18] INFO root fetch - processPackages [PyAlgoEngine]: executing diffoscope
+[2023-07-14 09:54:18] INFO root fetch - processPackages [PyAlgoEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAlgoEngine-0.3.9.post1.tar.gz tmp/PyAlgoEngine-0.3.9.post2.tar.gz --markdown 20230714/P/PyAlgoEngine/0.3.9.post1-0.3.9.post2/diff.md --exclude *.pyd
+[2023-07-14 09:54:18] INFO root fetch - processPackages [unidist]: executing diffoscope
+[2023-07-14 09:54:18] INFO root fetch - processPackages [unidist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unidist-0.4.0.tar.gz tmp/unidist-0.4.1.tar.gz --markdown 20230714/u/unidist/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-14 09:54:18] INFO root fetch - processPackages [bw-libs]: executing diffoscope
+[2023-07-14 09:54:18] INFO root fetch - processPackages [bw-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_libs-0.1.0.tar.gz tmp/bw_libs-0.1.1.tar.gz --markdown 20230714/b/bw-libs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 09:54:18] INFO root fetch - processPackages [whyshift]: Downloading https://files.pythonhosted.org/packages/cc/eb/163febbc7370fa35581a4132fe11daeba32bd4f6dd0d26ad7dfc55850bee/whyshift-0.0.3.tar.gz
+[2023-07-14 09:54:18] INFO root fetch - processPackages [whyshift]: executing diffoscope
+[2023-07-14 09:54:18] INFO root fetch - processPackages [whyshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyshift-0.0.2.tar.gz tmp/whyshift-0.0.3.tar.gz --markdown 20230714/w/whyshift/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 09:54:19] INFO root fetch - processPackages [bw-libs]: Remove: archive file [/home/abi/fetcher/tmp/bw_libs-0.1.0.tar.gz]
+[2023-07-14 09:54:19] INFO root fetch - processPackages [bw-libs]: Remove: archive file [/home/abi/fetcher/tmp/bw_libs-0.1.1.tar.gz]
+[2023-07-14 09:54:19] INFO root fetch - main [MainThread]: End processing [bw-libs]: success
+[2023-07-14 09:54:19] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.9.post1.tar.gz]
+[2023-07-14 09:54:19] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.9.post2.tar.gz]
+[2023-07-14 09:54:19] INFO root fetch - main [MainThread]: End processing [PyAlgoEngine]: success
+[2023-07-14 09:54:19] INFO root fetch - processPackages [gpru]: Remove: archive file [/home/abi/fetcher/tmp/gpru-0.2.0.tar.gz]
+[2023-07-14 09:54:19] INFO root fetch - processPackages [gpru]: Remove: archive file [/home/abi/fetcher/tmp/gpru-0.3.0.tar.gz]
+[2023-07-14 09:54:19] INFO root fetch - main [MainThread]: End processing [gpru]: success
+[2023-07-14 09:54:19] INFO root fetch - processPackages [spead2]: Remove: archive file [/home/abi/fetcher/tmp/spead2-3.9.0.tar.gz]
+[2023-07-14 09:54:19] INFO root fetch - processPackages [spead2]: Remove: archive file [/home/abi/fetcher/tmp/spead2-3.9.1.tar.gz]
+[2023-07-14 09:54:19] INFO root fetch - main [MainThread]: End processing [spead2]: success
+[2023-07-14 09:54:19] INFO root fetch - processPackages [whyshift]: Remove: archive file [/home/abi/fetcher/tmp/whyshift-0.0.2.tar.gz]
+[2023-07-14 09:54:19] INFO root fetch - processPackages [whyshift]: Remove: archive file [/home/abi/fetcher/tmp/whyshift-0.0.3.tar.gz]
+[2023-07-14 09:54:19] INFO root fetch - main [MainThread]: End processing [whyshift]: success
+[2023-07-14 09:54:19] INFO root fetch - processPackages [unidist]: Remove: archive file [/home/abi/fetcher/tmp/unidist-0.4.0.tar.gz]
+[2023-07-14 09:54:19] INFO root fetch - processPackages [unidist]: Remove: archive file [/home/abi/fetcher/tmp/unidist-0.4.1.tar.gz]
+[2023-07-14 09:54:19] INFO root fetch - main [MainThread]: End processing [unidist]: success
+[2023-07-14 09:54:21] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-14 09:54:21] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-14 09:54:21] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-14 09:54:21] INFO root fetch - main [MainThread]: Store serial: [18886836]
