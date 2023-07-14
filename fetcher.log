@@ -5812,3 +5812,96 @@
 [2023-07-14 03:35:33] INFO root fetch - processPackages [rna-tools]: Remove: archive file [/home/abi/fetcher/tmp/rna_tools-3.8.6-py3-none-any.whl.zip]
 [2023-07-14 03:35:33] INFO root fetch - main [MainThread]: End processing [rna-tools]: success
 [2023-07-14 03:35:33] INFO root fetch - main [MainThread]: Store serial: [18883371]
+[2023-07-14 03:40:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18883371]
+[2023-07-14 03:40:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-14 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-07-14 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aihandler
+[2023-07-14 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyemvue
+[2023-07-14 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bcutils4r
+[2023-07-14 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airunner
+[2023-07-14 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioregistry
+[2023-07-14 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-numpy
+[2023-07-14 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: onqlave-python-sdk-pilot
+[2023-07-14 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-pandas
+[2023-07-14 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pbs-installer
+[2023-07-14 03:40:42] INFO root fetch - processPackages [airunner]: New version: [2.2.0] Old Version: [2.1.3]
+[2023-07-14 03:40:42] INFO root fetch - processPackages [pyemvue]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-14 03:40:42] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-14 03:40:42] INFO root fetch - processPackages [pbs-installer]: New version: [2023.7.14] Old Version: [2023.7.13.post0]
+[2023-07-14 03:40:42] INFO root fetch - processPackages [bcutils4r]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-07-14 03:40:42] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-14 03:40:42] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-14 03:40:42] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 03:40:42] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 03:40:42] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 03:40:42] INFO root fetch - processPackages [pbs-installer]: Downloading https://files.pythonhosted.org/packages/96/a7/4f998dc6b200901cbb519dbeff1093fb6f4dcdf3be4f9b2087e24be31282/pbs_installer-2023.7.13.post0.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [bcutils4r]: Downloading https://files.pythonhosted.org/packages/53/cd/3e80df2ac1bf9e751860a24619dbe62185afb3ba76c5fb82888c60a033e3/bcutils4r-0.0.22.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/81/7e/46d0a73cb92f8b94efa26a3860a3aff6fabfc7d7514fb75a4cbb08da8710/airunner-2.1.3.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/33/d6/312861de0bc1b780e52011fb57139ae47951a7250f172b2e12e085f5430f/onqlave-python-sdk-pilot-0.0.1.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [pyemvue]: Downloading https://files.pythonhosted.org/packages/89/60/d761d288786887ed5eca20a36b6169a1932ffb0e6f10eeede718ecc5fa16/pyemvue-0.9.8.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/5f/59/0f3fec3d9c2165b2534eebc579ad40951d28dd76a141ee0517afca3f1a84/aihandler-1.9.8.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [pbs-installer]: Downloading https://files.pythonhosted.org/packages/f7/eb/9c6b1fdda83d4938366cc63b2a64b8a79d29704225ad1c9e88533f639d32/pbs_installer-2023.7.14.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [bcutils4r]: Downloading https://files.pythonhosted.org/packages/11/09/5972ce7e6c38051e02d76d66f0eeb9d9ccfe2ab3a189c5051591dbdc688f/bcutils4r-0.0.23.tar.gz
+[2023-07-14 03:40:42] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/0f/77/a7f1b11007b731fafc49f3e3c7a8373570a4a02b65c6dc4a639ed6135fdf/airunner-2.2.0.tar.gz
+[2023-07-14 03:40:43] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/98/ac/7eb34b37b942264e98434a830ba17e3a145fbd9fa9d651183b0c15c40c48/onqlave-python-sdk-pilot-0.0.2.tar.gz
+[2023-07-14 03:40:43] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-14 03:40:43] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/b3/c7/544c990d7d396289c416e3676f2fdf02804edee7d23e678081cc4c761c29/aihandler-1.9.9.tar.gz
+[2023-07-14 03:40:43] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-14 03:40:43] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230714/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 03:40:43] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-14 03:40:43] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230714/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 03:40:43] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-14 03:40:43] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230714/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 03:40:43] INFO root fetch - processPackages [bcutils4r]: executing diffoscope
+[2023-07-14 03:40:43] INFO root fetch - processPackages [bcutils4r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcutils4r-0.0.22.tar.gz tmp/bcutils4r-0.0.23.tar.gz --markdown 20230714/b/bcutils4r/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-07-14 03:40:43] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-07-14 03:40:43] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230714/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-14 03:40:43] INFO root fetch - processPackages [pbs-installer]: executing diffoscope
+[2023-07-14 03:40:43] INFO root fetch - processPackages [pbs-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbs_installer-2023.7.13.post0.tar.gz tmp/pbs_installer-2023.7.14.tar.gz --markdown 20230714/p/pbs-installer/2023.7.13.post0-2023.7.14/diff.md --exclude *.pyd
+[2023-07-14 03:40:43] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-07-14 03:40:43] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-2.1.3.tar.gz tmp/airunner-2.2.0.tar.gz --markdown 20230714/a/airunner/2.1.3-2.2.0/diff.md --exclude *.pyd
+[2023-07-14 03:40:43] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: executing diffoscope
+[2023-07-14 03:40:43] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-sdk-pilot-0.0.1.tar.gz tmp/onqlave-python-sdk-pilot-0.0.2.tar.gz --markdown 20230714/o/onqlave-python-sdk-pilot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-14 03:40:43] INFO root fetch - processPackages [pyemvue]: Downloading https://files.pythonhosted.org/packages/5a/28/a098a184fe8de2bcd880b3a30e1877ab4234ac435291074f532111359eee/pyemvue-0.9.9.tar.gz
+[2023-07-14 03:40:43] INFO root fetch - processPackages [pyemvue]: executing diffoscope
+[2023-07-14 03:40:43] INFO root fetch - processPackages [pyemvue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyemvue-0.9.8.tar.gz tmp/pyemvue-0.9.9.tar.gz --markdown 20230714/p/pyemvue/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-14 03:40:43] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-14 03:40:44] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-14 03:40:44] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230714/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-14 03:40:44] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-14 03:40:44] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-14 03:40:44] INFO root fetch - processPackages [pbs-installer]: Remove: archive file [/home/abi/fetcher/tmp/pbs_installer-2023.7.13.post0.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - processPackages [pbs-installer]: Remove: archive file [/home/abi/fetcher/tmp/pbs_installer-2023.7.14.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - main [MainThread]: End processing [pbs-installer]: success
+[2023-07-14 03:40:44] INFO root fetch - processPackages [bcutils4r]: Remove: archive file [/home/abi/fetcher/tmp/bcutils4r-0.0.22.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - processPackages [bcutils4r]: Remove: archive file [/home/abi/fetcher/tmp/bcutils4r-0.0.23.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - main [MainThread]: End processing [bcutils4r]: success
+[2023-07-14 03:40:44] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-14 03:40:44] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.1.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.2.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - main [MainThread]: End processing [onqlave-python-sdk-pilot]: success
+[2023-07-14 03:40:44] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.8.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.9.tar.gz]
+[2023-07-14 03:40:44] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-07-14 03:40:45] INFO root fetch - processPackages [pyemvue]: Remove: archive file [/home/abi/fetcher/tmp/pyemvue-0.9.8.tar.gz]
+[2023-07-14 03:40:45] INFO root fetch - processPackages [pyemvue]: Remove: archive file [/home/abi/fetcher/tmp/pyemvue-0.9.9.tar.gz]
+[2023-07-14 03:40:45] INFO root fetch - main [MainThread]: End processing [pyemvue]: success
+[2023-07-14 03:40:45] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.1.3.tar.gz]
+[2023-07-14 03:40:45] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.2.0.tar.gz]
+[2023-07-14 03:40:45] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-07-14 03:42:39] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-14 03:42:39] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-14 03:42:39] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-14 03:42:39] INFO root fetch - main [MainThread]: Store serial: [18883401]
