@@ -22345,3 +22345,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-14 15:07:20] INFO root fetch - processPackages [nemo-sz]: Remove: archive file [/home/abi/fetcher/tmp/nemo-sz-0.6.0.tar.gz]
 [2023-07-14 15:07:20] INFO root fetch - main [MainThread]: End processing [nemo-sz]: success
 [2023-07-14 15:07:20] INFO root fetch - main [MainThread]: Store serial: [18889767]
+[2023-07-14 15:12:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18889767]
+[2023-07-14 15:12:29] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-14 15:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-14 15:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib-programname
+[2023-07-14 15:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: repository-service-tuf
+[2023-07-14 15:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecallisto-ng
+[2023-07-14 15:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nowcasting-datamodel
+[2023-07-14 15:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neuropop
+[2023-07-14 15:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: toypandas
+[2023-07-14 15:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: petisco
+[2023-07-14 15:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-pdr
+[2023-07-14 15:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-stdlib
+[2023-07-14 15:12:29] INFO root fetch - processPackages [lib-programname]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-14 15:12:29] INFO root fetch - processPackages [neuropop]: New version: [1.0] Old Version: [0.1]
+[2023-07-14 15:12:29] INFO root fetch - processPackages [django-pdr]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-14 15:12:29] INFO root fetch - processPackages [repository-service-tuf]: New version: [0.4.0b1] Old Version: [0.3.0a1]
+[2023-07-14 15:12:29] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-07-14 15:12:29] INFO root fetch - processPackages [toypandas]: New version: [0.1.0.2] Old Version: [0.1]
+[2023-07-14 15:12:29] INFO root fetch - processPackages [ecallisto-ng]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-14 15:12:29] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 15:12:29] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-14 15:12:30] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.14] Old Version: [2023.7.13]
+[2023-07-14 15:12:30] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/81/24/cd50b462f351541afaa9538a80f39a1056194853c438876c50290bd37789/django-pdr-1.2.8.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/01/ff/fb83ea8f39027c88f49407fb7ff4b1ac29409e608e02c6385c1de05f1bb9/nowcasting_datamodel-1.4.8.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [neuropop]: Downloading https://files.pythonhosted.org/packages/fa/a7/16a72499431bffb6c24537fe2bda9e6dd6572d354474a629a4590ac6eb8c/neuropop-0.1.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [lib-programname]: Downloading https://files.pythonhosted.org/packages/0a/7c/c80739fcf038f4a1f4fe8eccb20301c69807f49150902132de0501e5425b/lib_programname-2.0.8.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [repository-service-tuf]: Downloading https://files.pythonhosted.org/packages/bf/74/599cd527ee4cfa3ad22fb6e608a6ff9a2608935186f21c2a2f6779ea9f57/repository_service_tuf-0.3.0a1.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/51/2b/e4dd71b8209196e06224236efab25d43c2ba30468d4ddb12dc048167b29c/ecallisto_ng-0.1.2.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [toypandas]: Downloading https://files.pythonhosted.org/packages/b7/5e/7c0e4d6c25965983381d110ccd5b9473d4b7c359a6d4433e9c9d000c02ec/toypandas-0.1.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/6c/22/10d99d1280b98239e5c5f4c45e4e4f017af7c413c388a012689ece0e0fc4/petisco-2.0.0rc8.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/21/9c/eee1d21e3908b7b87e6984cf3edda01728edcb157b45a82c194814125922/fbgemm_gpu_nightly_cpu-2023.7.13-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-14 15:12:30] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/36/f9/326659fda9e7bf3ba840f0c789944e72a150630f7ca4afc665ef7eb28050/django-pdr-1.2.9.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [django-pdr]: executing diffoscope
+[2023-07-14 15:12:30] INFO root fetch - processPackages [django-pdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pdr-1.2.8.tar.gz tmp/django-pdr-1.2.9.tar.gz --markdown 20230714/d/django-pdr/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-14 15:12:30] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/54/88/f05a4b9ec0d6199779a67651f044b38cbfca8f5dd46185ffff5321580aa2/nowcasting_datamodel-1.4.9.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [lib-programname]: Downloading https://files.pythonhosted.org/packages/85/b4/6775d67ecc289e24302e1f7d6f401ae8853d4d516f0fe30bd7e62edb3f2f/lib_programname-2.0.9.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-14 15:12:30] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230714/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 15:12:30] INFO root fetch - processPackages [toypandas]: Downloading https://files.pythonhosted.org/packages/cd/03/c5f1543cdabec20d851c9865ae6b78df0b4d7fa1d698bc0da484f4baaaff/toypandas-0.1.0.2.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/48/cf/f3b40d867673a62f1f37303f5453f7509662848e71b078fb20c3b751dec6/ecallisto_ng-0.1.3.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [repository-service-tuf]: Downloading https://files.pythonhosted.org/packages/6c/46/bf04fbbbc7d184e1c00034420273a3435d38975571b45f98a2e37308e56f/repository_service_tuf-0.4.0b1.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [neuropop]: Downloading https://files.pythonhosted.org/packages/a6/75/3304f1e3cc7f344bc7dbaad3d8daebea89f437d4a50b0168d44f99a9d4b4/neuropop-1.0.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/f1/b1/328e5fa54c27eb9b31458e81fd400ae04d15d17f4c236659198a4b9cd373/petisco-2.0.0rc9.tar.gz
+[2023-07-14 15:12:30] INFO root fetch - processPackages [lib-programname]: executing diffoscope
+[2023-07-14 15:12:30] INFO root fetch - processPackages [lib-programname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_programname-2.0.8.tar.gz tmp/lib_programname-2.0.9.tar.gz --markdown 20230714/l/lib-programname/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-14 15:12:30] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-07-14 15:12:30] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.4.8.tar.gz tmp/nowcasting_datamodel-1.4.9.tar.gz --markdown 20230714/n/nowcasting-datamodel/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-14 15:12:30] INFO root fetch - processPackages [toypandas]: executing diffoscope
+[2023-07-14 15:12:30] INFO root fetch - processPackages [toypandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toypandas-0.1.tar.gz tmp/toypandas-0.1.0.2.tar.gz --markdown 20230714/t/toypandas/0.1-0.1.0.2/diff.md --exclude *.pyd
+[2023-07-14 15:12:30] INFO root fetch - processPackages [ecallisto-ng]: executing diffoscope
+[2023-07-14 15:12:30] INFO root fetch - processPackages [ecallisto-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecallisto_ng-0.1.2.tar.gz tmp/ecallisto_ng-0.1.3.tar.gz --markdown 20230714/e/ecallisto-ng/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-14 15:12:31] INFO root fetch - processPackages [neuropop]: executing diffoscope
+[2023-07-14 15:12:31] INFO root fetch - processPackages [neuropop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuropop-0.1.tar.gz tmp/neuropop-1.0.tar.gz --markdown 20230714/n/neuropop/0.1-1.0/diff.md --exclude *.pyd
+[2023-07-14 15:12:31] INFO root fetch - processPackages [repository-service-tuf]: executing diffoscope
+[2023-07-14 15:12:31] INFO root fetch - processPackages [repository-service-tuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repository_service_tuf-0.3.0a1.tar.gz tmp/repository_service_tuf-0.4.0b1.tar.gz --markdown 20230714/r/repository-service-tuf/0.3.0a1-0.4.0b1/diff.md --exclude *.pyd
+[2023-07-14 15:12:31] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-07-14 15:12:31] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc8.tar.gz tmp/petisco-2.0.0rc9.tar.gz --markdown 20230714/p/petisco/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-07-14 15:12:31] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/fb/f3/7cb5d761098dcf87f1500cf7484a987709f8b4094f9ba787acf0882d5350/fbgemm_gpu_nightly_cpu-2023.7.14-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-14 15:12:32] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: aorta-sirius-dev
+[2023-07-14 15:12:32] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-14 15:12:32] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.8.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.9.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [django-pdr]: Start processing: aaa1111
+[2023-07-14 15:12:32] INFO root fetch - main [MainThread]: End processing [django-pdr]: success
+[2023-07-14 15:12:32] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-14 15:12:32] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.13-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.14-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230714/f/fbgemm-gpu-nightly-cpu/2023.7.13-2023.7.14/diff.md --exclude *.pyd
+[2023-07-14 15:12:32] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-07-14 15:12:32] INFO root fetch - processPackages [aaa1111]: New version: [0.1.0.dev4] Old Version: [0.1.0.dev1]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.1.2.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.1.3.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [ecallisto-ng]: Start processing: FITSImageQA
+[2023-07-14 15:12:32] INFO root fetch - main [MainThread]: End processing [ecallisto-ng]: success
+[2023-07-14 15:12:32] WARNING root fetch - processPackages [FITSImageQA]: Skipping, unable to determine old version
+[2023-07-14 15:12:32] INFO root fetch - processPackages [FITSImageQA]: Start processing: guide-bot
+[2023-07-14 15:12:32] INFO root fetch - main [MainThread]: End processing [FITSImageQA] error
+[2023-07-14 15:12:32] INFO root fetch - processPackages [toypandas]: Remove: archive file [/home/abi/fetcher/tmp/toypandas-0.1.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [toypandas]: Remove: archive file [/home/abi/fetcher/tmp/toypandas-0.1.0.2.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [toypandas]: Start processing: ecallisto-ng
+[2023-07-14 15:12:32] INFO root fetch - main [MainThread]: End processing [toypandas]: success
+[2023-07-14 15:12:32] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-07-14 15:12:32] INFO root fetch - processPackages [guide-bot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [ecallisto-ng]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [aaa1111]: Downloading https://files.pythonhosted.org/packages/8f/0c/fa5cde27ed6c1fda8375c3b6eda6734cf10a84534ef5c56ef7c1778a72b8/aaa1111-0.1.0.dev1.tar.gz
+[2023-07-14 15:12:32] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-07-14 15:12:32] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230714/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 15:12:32] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/51/2b/e4dd71b8209196e06224236efab25d43c2ba30468d4ddb12dc048167b29c/ecallisto_ng-0.1.2.tar.gz
+[2023-07-14 15:12:32] INFO root fetch - processPackages [neuropop]: Remove: archive file [/home/abi/fetcher/tmp/neuropop-0.1.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [neuropop]: Remove: archive file [/home/abi/fetcher/tmp/neuropop-1.0.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [neuropop]: Start processing: nbdev-numpy
+[2023-07-14 15:12:32] INFO root fetch - main [MainThread]: End processing [neuropop]: success
+[2023-07-14 15:12:32] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.8.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.9.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-07-14 15:12:32] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [lib-programname]: Remove: archive file [/home/abi/fetcher/tmp/lib_programname-2.0.8.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - processPackages [lib-programname]: Remove: archive file [/home/abi/fetcher/tmp/lib_programname-2.0.9.tar.gz]
+[2023-07-14 15:12:32] INFO root fetch - main [MainThread]: End processing [lib-programname]: success
+[2023-07-14 15:12:32] INFO root fetch - processPackages [guide-bot]: Downloading https://files.pythonhosted.org/packages/ea/54/5bf82c5eb4e5c70d9d79a804cb0a7f7976410ccb414bebae95da2e67b8b1/guide_bot-0.0.8.tar.gz
+[2023-07-14 15:12:32] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/48/cf/f3b40d867673a62f1f37303f5453f7509662848e71b078fb20c3b751dec6/ecallisto_ng-0.1.3.tar.gz
+[2023-07-14 15:12:32] INFO root fetch - processPackages [aaa1111]: Downloading https://files.pythonhosted.org/packages/4f/a8/4fede23233b016cbe1a5ae95ae75905a6344be581054f02f108bfcd24d87/aaa1111-0.1.0.dev4.tar.gz
+[2023-07-14 15:12:32] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-14 15:12:32] INFO root fetch - processPackages [ecallisto-ng]: executing diffoscope
+[2023-07-14 15:12:32] INFO root fetch - processPackages [ecallisto-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecallisto_ng-0.1.2.tar.gz tmp/ecallisto_ng-0.1.3.tar.gz --markdown 20230714/e/ecallisto-ng/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-14 15:12:33] INFO root fetch - processPackages [repository-service-tuf]: Remove: archive file [/home/abi/fetcher/tmp/repository_service_tuf-0.3.0a1.tar.gz]
+[2023-07-14 15:12:33] INFO root fetch - processPackages [repository-service-tuf]: Remove: archive file [/home/abi/fetcher/tmp/repository_service_tuf-0.4.0b1.tar.gz]
+[2023-07-14 15:12:33] INFO root fetch - main [MainThread]: End processing [repository-service-tuf]: success
+[2023-07-14 15:12:33] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-14 15:12:33] INFO root fetch - processPackages [aaa1111]: executing diffoscope
+[2023-07-14 15:12:33] INFO root fetch - processPackages [aaa1111]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aaa1111-0.1.0.dev1.tar.gz tmp/aaa1111-0.1.0.dev4.tar.gz --markdown 20230714/a/aaa1111/0.1.0.dev1-0.1.0.dev4/diff.md --exclude *.pyd
+[2023-07-14 15:12:33] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-14 15:12:33] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230714/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 15:12:33] INFO root fetch - processPackages [guide-bot]: Downloading https://files.pythonhosted.org/packages/d4/8b/da82359bee28ef3082a187815ba16351965f698af72f58e5b1e19116dd22/guide_bot-0.0.9.tar.gz
+[2023-07-14 15:12:33] INFO root fetch - processPackages [guide-bot]: executing diffoscope
+[2023-07-14 15:12:33] INFO root fetch - processPackages [guide-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guide_bot-0.0.8.tar.gz tmp/guide_bot-0.0.9.tar.gz --markdown 20230714/g/guide-bot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 15:12:33] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
+[2023-07-14 15:12:33] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc9.tar.gz]
+[2023-07-14 15:12:33] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-07-14 15:12:33] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-07-14 15:12:33] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-07-14 15:12:33] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-07-14 15:12:34] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.1.2.tar.gz]
+[2023-07-14 15:12:34] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.1.3.tar.gz]
+[2023-07-14 15:12:34] INFO root fetch - main [MainThread]: End processing [ecallisto-ng]: success
+[2023-07-14 15:12:34] INFO root fetch - processPackages [aaa1111]: Remove: archive file [/home/abi/fetcher/tmp/aaa1111-0.1.0.dev1.tar.gz]
+[2023-07-14 15:12:34] INFO root fetch - processPackages [aaa1111]: Remove: archive file [/home/abi/fetcher/tmp/aaa1111-0.1.0.dev4.tar.gz]
+[2023-07-14 15:12:34] INFO root fetch - main [MainThread]: End processing [aaa1111]: success
+[2023-07-14 15:12:34] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-14 15:12:34] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-14 15:12:34] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-14 15:12:34] INFO root fetch - processPackages [guide-bot]: Remove: archive file [/home/abi/fetcher/tmp/guide_bot-0.0.8.tar.gz]
+[2023-07-14 15:12:34] INFO root fetch - processPackages [guide-bot]: Remove: archive file [/home/abi/fetcher/tmp/guide_bot-0.0.9.tar.gz]
+[2023-07-14 15:12:34] INFO root fetch - main [MainThread]: End processing [guide-bot]: success
+[2023-07-14 15:12:59] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.13-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-14 15:12:59] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.14-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-14 15:12:59] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-14 15:12:59] INFO root fetch - main [MainThread]: Store serial: [18889823]
