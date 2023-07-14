@@ -14451,3 +14451,126 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 09:00:15] INFO root fetch - processPackages [clara-viz-widgets]: Remove: archive file [/home/abi/fetcher/tmp/clara_viz_widgets-0.3.1-py2.py3-none-any.whl.zip]
 [2023-07-14 09:00:15] INFO root fetch - main [MainThread]: End processing [clara-viz-widgets]: success
 [2023-07-14 09:00:15] INFO root fetch - main [MainThread]: Store serial: [18886315]
+[2023-07-14 09:05:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886315]
+[2023-07-14 09:05:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-14 09:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlflow-tritonserver
+[2023-07-14 09:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pfizer-components-new
+[2023-07-14 09:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-sumologic
+[2023-07-14 09:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rudderclient
+[2023-07-14 09:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-onelogin
+[2023-07-14 09:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xhibit
+[2023-07-14 09:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-tailscale
+[2023-07-14 09:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-splunk
+[2023-07-14 09:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-mrp-multi-level-estimate
+[2023-07-14 09:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aanalyticsact
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1689315869] Old Version: [1.3.0a1687758094]
+[2023-07-14 09:05:24] INFO root fetch - processPackages [xhibit]: New version: [9.5.7] Old Version: [9.5.6]
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.6.1a1689314478] Old Version: [0.6.1a1687672553]
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2023-07-14 09:05:24] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: New version: [16.0.1.1.0.2] Old Version: [15.0.1.1.0.2]
+[2023-07-14 09:05:24] INFO root fetch - processPackages [rudderclient]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2023-07-14 09:05:24] WARNING root fetch - processPackages [pfizer-components-new]: Skipping, unable to determine old version
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pfizer-components-new]: Start processing: seqio-nightly
+[2023-07-14 09:05:24] INFO root fetch - main [MainThread]: End processing [pfizer-components-new] error
+[2023-07-14 09:05:24] INFO root fetch - processPackages [aanalyticsact]: New version: [0.0.1.31] Old Version: [0.0.0.9]
+[2023-07-14 09:05:24] WARNING root fetch - processPackages [mlflow-tritonserver]: Skipping, unable to determine old version
+[2023-07-14 09:05:24] INFO root fetch - processPackages [mlflow-tritonserver]: Start processing: pulumi-spotinst
+[2023-07-14 09:05:24] INFO root fetch - main [MainThread]: End processing [mlflow-tritonserver] error
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-07-14 09:05:24] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-14 09:05:24] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/7e/94/10076888700730f839a590be4f56ec6d653febe359ad08a87411f44460b0/xhibit-9.5.6.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a5/4c/3a9afb62d90ff56381ecc175a96cf8cb4a4fb7732b6d3995b4784488a8ee/rudderclient-1.9.0.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/9a/43/44517e399d0b61e2550a11213e1ca666f0725315d1d12657de406ca94066/pulumi_splunk-1.3.0a1687758094.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/fa/d2/d1562be57282382b21f783831e5b2847da071bbe406d49d0e7627c548e5d/pulumi_onelogin-0.6.1a1687672553.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Downloading https://files.pythonhosted.org/packages/0d/d7/9262fe3ef8bd5dcf2b66ffa7faa94fb2d47e904fc556391279c7a92bd05b/odoo_addon_mrp_multi_level_estimate-15.0.1.1.0.2-py3-none-any.whl
+[2023-07-14 09:05:24] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/c7/ad/8dfb0ce46b1218b0fd738bd90a652d6f6c828910799e03dac35b1cb9ea20/aanalyticsact-0.0.0.9.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/48/39/fd75e0cb409f9645092e60b7633d9d3a483007c6e0512f6e6fcae529ffc9/xhibit-9.5.7.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a4/fe/2dab352156f0d6f5a40c80c9f3fbeb8f321f6e0c19ccd730f26a114a5da2/rudderclient-1.9.1.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-14 09:05:24] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/c7/25/533d10537eda6b016b1b057a3a0e4476e32f44aecd0a627a0974677b0082/pulumi_splunk-1.3.0a1689315869.tar.gz
+[2023-07-14 09:05:25] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Downloading https://files.pythonhosted.org/packages/a7/fd/5ef93cc8eba9dbf5188e8978877c109307df27cb5a5d2b56ce93f0e344c1/odoo_addon_mrp_multi_level_estimate-16.0.1.1.0.2-py3-none-any.whl
+[2023-07-14 09:05:25] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/d7/44/5043da6f5cce20b0f7dcdbaff9f2ef6f2fdbd3c3991c0c0b6585888c1045/pulumi_onelogin-0.6.1a1689314478.tar.gz
+[2023-07-14 09:05:25] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-07-14 09:05:25] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.9.0.tar.gz tmp/rudderclient-1.9.1.tar.gz --markdown 20230714/r/rudderclient/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-14 09:05:25] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/1c/f4/03b2fc8d4d0e49ea6630746baf2a9b86a50169276a73eda211ac7ac5e128/aanalyticsact-0.0.1.31.tar.gz
+[2023-07-14 09:05:25] INFO root fetch - processPackages [xhibit]: executing diffoscope
+[2023-07-14 09:05:25] INFO root fetch - processPackages [xhibit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhibit-9.5.6.tar.gz tmp/xhibit-9.5.7.tar.gz --markdown 20230714/x/xhibit/9.5.6-9.5.7/diff.md --exclude *.pyd
+[2023-07-14 09:05:25] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-07-14 09:05:25] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230714/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-07-14 09:05:25] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-14 09:05:25] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230714/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-14 09:05:25] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2023-07-14 09:05:25] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20230714/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/diff.md --exclude *.pyd
+[2023-07-14 09:05:25] INFO root fetch - processPackages [aanalyticsact]: executing diffoscope
+[2023-07-14 09:05:25] INFO root fetch - processPackages [aanalyticsact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact-0.0.0.9.tar.gz tmp/aanalyticsact-0.0.1.31.tar.gz --markdown 20230714/a/aanalyticsact/0.0.0.9-0.0.1.31/diff.md --exclude *.pyd
+[2023-07-14 09:05:25] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: executing diffoscope
+[2023-07-14 09:05:25] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level_estimate-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level_estimate-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-mrp-multi-level-estimate/15.0.1.1.0.2-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-07-14 09:05:25] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2023-07-14 09:05:25] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1687758094.tar.gz tmp/pulumi_splunk-1.3.0a1689315869.tar.gz --markdown 20230714/p/pulumi-splunk/1.3.0a1687758094-1.3.0a1689315869/diff.md --exclude *.pyd
+[2023-07-14 09:05:25] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2023-07-14 09:05:25] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.6.1a1687672553.tar.gz tmp/pulumi_onelogin-0.6.1a1689314478.tar.gz --markdown 20230714/p/pulumi-onelogin/0.6.1a1687672553-0.6.1a1689314478/diff.md --exclude *.pyd
+[2023-07-14 09:05:26] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2023-07-14 09:05:26] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2023-07-14 09:05:26] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20230714/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/diff.md --exclude *.pyd
+[2023-07-14 09:05:26] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.6.tar.gz]
+[2023-07-14 09:05:26] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.7.tar.gz]
+[2023-07-14 09:05:26] INFO root fetch - processPackages [xhibit]: Start processing: pyezoo
+[2023-07-14 09:05:26] INFO root fetch - main [MainThread]: End processing [xhibit]: success
+[2023-07-14 09:05:26] WARNING root fetch - processPackages [pyezoo]: Skipping, unable to determine old version
+[2023-07-14 09:05:26] INFO root fetch - processPackages [pyezoo]: Start processing: spellbook-serve-client
+[2023-07-14 09:05:26] INFO root fetch - main [MainThread]: End processing [pyezoo] error
+[2023-07-14 09:05:26] WARNING root fetch - processPackages [spellbook-serve-client]: Skipping, unable to determine old version
+[2023-07-14 09:05:26] INFO root fetch - processPackages [spellbook-serve-client]: Start processing: jilei
+[2023-07-14 09:05:26] INFO root fetch - main [MainThread]: End processing [spellbook-serve-client] error
+[2023-07-14 09:05:26] INFO root fetch - processPackages [jilei]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-14 09:05:26] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level_estimate-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-07-14 09:05:26] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level_estimate-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-07-14 09:05:26] INFO root fetch - processPackages [odoo-addon-mrp-multi-level-estimate]: Start processing: sybil
+[2023-07-14 09:05:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level-estimate]: success
+[2023-07-14 09:05:26] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.0.tar.gz]
+[2023-07-14 09:05:26] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.0.9.tar.gz]
+[2023-07-14 09:05:26] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.1.tar.gz]
+[2023-07-14 09:05:26] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.1.31.tar.gz]
+[2023-07-14 09:05:26] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-07-14 09:05:26] INFO root fetch - main [MainThread]: End processing [aanalyticsact]: success
+[2023-07-14 09:05:26] INFO root fetch - processPackages [sybil]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-07-14 09:05:27] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1687758094.tar.gz]
+[2023-07-14 09:05:27] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1689315869.tar.gz]
+[2023-07-14 09:05:27] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2023-07-14 09:05:27] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-14 09:05:27] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-14 09:05:27] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-14 09:05:27] INFO root fetch - processPackages [jilei]: Downloading https://files.pythonhosted.org/packages/95/9b/f046fd108961c262d2a0b174db859174998935d3e4164a491191a6c4f036/jilei-0.1.1.tar.gz
+[2023-07-14 09:05:27] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1687672553.tar.gz]
+[2023-07-14 09:05:27] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1689314478.tar.gz]
+[2023-07-14 09:05:27] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2023-07-14 09:05:27] INFO root fetch - processPackages [sybil]: Downloading https://files.pythonhosted.org/packages/55/fc/c82a952c3365df7aa9d2d85a1c414c4c9967f7890220e77f5b8bdbcd49af/sybil-5.0.2.tar.gz
+[2023-07-14 09:05:27] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2023-07-14 09:05:27] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2023-07-14 09:05:27] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-07-14 09:05:27] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2023-07-14 09:05:27] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2023-07-14 09:05:27] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2023-07-14 09:05:27] INFO root fetch - processPackages [jilei]: Downloading https://files.pythonhosted.org/packages/04/35/0881ee39ace0b733f2f6d93d1e7c1718c9ab54ea130b70ea5f550907ee75/jilei-0.2.0.tar.gz
+[2023-07-14 09:05:27] INFO root fetch - processPackages [jilei]: executing diffoscope
+[2023-07-14 09:05:27] INFO root fetch - processPackages [jilei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jilei-0.1.1.tar.gz tmp/jilei-0.2.0.tar.gz --markdown 20230714/j/jilei/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-14 09:05:27] INFO root fetch - processPackages [sybil]: Downloading https://files.pythonhosted.org/packages/2c/ff/3f50f4ece1ab231b1017bbaa2d54cfc8b6da707a46e961a1cf4df3149294/sybil-5.0.3.tar.gz
+[2023-07-14 09:05:27] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2023-07-14 09:05:27] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2023-07-14 09:05:27] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2023-07-14 09:05:27] INFO root fetch - processPackages [sybil]: executing diffoscope
+[2023-07-14 09:05:27] INFO root fetch - processPackages [sybil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sybil-5.0.2.tar.gz tmp/sybil-5.0.3.tar.gz --markdown 20230714/s/sybil/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-07-14 09:05:28] INFO root fetch - processPackages [jilei]: Remove: archive file [/home/abi/fetcher/tmp/jilei-0.1.1.tar.gz]
+[2023-07-14 09:05:28] INFO root fetch - processPackages [jilei]: Remove: archive file [/home/abi/fetcher/tmp/jilei-0.2.0.tar.gz]
+[2023-07-14 09:05:28] INFO root fetch - main [MainThread]: End processing [jilei]: success
+[2023-07-14 09:05:28] INFO root fetch - processPackages [sybil]: Remove: archive file [/home/abi/fetcher/tmp/sybil-5.0.2.tar.gz]
+[2023-07-14 09:05:28] INFO root fetch - processPackages [sybil]: Remove: archive file [/home/abi/fetcher/tmp/sybil-5.0.3.tar.gz]
+[2023-07-14 09:05:28] INFO root fetch - main [MainThread]: End processing [sybil]: success
+[2023-07-14 09:05:28] INFO root fetch - main [MainThread]: Store serial: [18886363]
