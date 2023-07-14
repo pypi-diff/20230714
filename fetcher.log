@@ -16930,3 +16930,75 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 10:52:04] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-14 10:52:04] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-14 10:52:04] INFO root fetch - main [MainThread]: Store serial: [18887341]
+[2023-07-14 10:57:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18887341]
+[2023-07-14 10:57:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 10:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-07-14 10:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vision-chain
+[2023-07-14 10:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jumpavg
+[2023-07-14 10:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-product-packaging-dimension
+[2023-07-14 10:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-smi2
+[2023-07-14 10:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycones
+[2023-07-14 10:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ultima-scraper-collection
+[2023-07-14 10:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inductiva
+[2023-07-14 10:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fdicdata
+[2023-07-14 10:57:13] INFO root fetch - processPackages [pycones]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-14 10:57:13] INFO root fetch - processPackages [odoo-addon-product-packaging-dimension]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.6]
+[2023-07-14 10:57:13] INFO root fetch - processPackages [nvidia-smi2]: New version: [0.0.1.post3] Old Version: [0.0.1.post2]
+[2023-07-14 10:57:14] ERROR root fetch - processPackages [fdicdata]: Unable to get metadata: No such project 'fdicdata'
+[2023-07-14 10:57:14] INFO root fetch - main [MainThread]: End processing [fdicdata] error
+[2023-07-14 10:57:14] INFO root fetch - processPackages [jumpavg]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-14 10:57:14] WARNING root fetch - processPackages [vision-chain]: Skipping, unable to determine old version
+[2023-07-14 10:57:14] INFO root fetch - main [MainThread]: End processing [vision-chain] error
+[2023-07-14 10:57:14] INFO root fetch - processPackages [inductiva]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 10:57:14] INFO root fetch - processPackages [ultima-scraper-collection]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-14 10:57:14] INFO root fetch - processPackages [kfish]: New version: [99.0.202307140852] Old Version: [99.0.202307132024]
+[2023-07-14 10:57:14] INFO root fetch - processPackages [nvidia-smi2]: Downloading https://files.pythonhosted.org/packages/06/62/90ed3455091c52fb64d4147050203f03884bf75cc0d18530394ef01a1b07/nvidia-smi2-0.0.1.post2.tar.gz
+[2023-07-14 10:57:14] INFO root fetch - processPackages [inductiva]: Downloading https://files.pythonhosted.org/packages/f5/ff/12aafe5f40c79ba196217ac69abea4ff2395483b0cf633c43282dee37955/inductiva-0.0.8.tar.gz
+[2023-07-14 10:57:14] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/79/4c/ad14963c79dfc2f842cb6cb8ddac7230157ba86c9dd970c9761da0811dcb/kfish-99.0.202307132024-py3-none-any.whl
+[2023-07-14 10:57:14] INFO root fetch - processPackages [pycones]: Downloading https://files.pythonhosted.org/packages/03/83/7da4fe4a632032d092abb993c9358ef96f458f41d7a671f1508249ff1155/pycones-0.1.4.tar.gz
+[2023-07-14 10:57:14] INFO root fetch - processPackages [odoo-addon-product-packaging-dimension]: Downloading https://files.pythonhosted.org/packages/74/14/004d282921087e30632544db06059ebda279e3eaed7629ead69ba234dbef/odoo_addon_product_packaging_dimension-16.0.1.0.1.6-py3-none-any.whl
+[2023-07-14 10:57:14] INFO root fetch - processPackages [jumpavg]: Downloading https://files.pythonhosted.org/packages/81/1e/3455802f134129b2e753347b4911607f70b880a79b4d9dfc01edea4ad3ea/jumpavg-0.4.0.tar.gz
+[2023-07-14 10:57:14] INFO root fetch - processPackages [ultima-scraper-collection]: Downloading https://files.pythonhosted.org/packages/ea/6d/f0fc7f83feb26f877a33e0532ec61aa58019e06fdf7fd37900d72857f595/ultima_scraper_collection-2.0.0.tar.gz
+[2023-07-14 10:57:14] INFO root fetch - processPackages [inductiva]: Downloading https://files.pythonhosted.org/packages/66/8c/41e6f743b1cb237403e96113a0d1f57bd8b76d7462c0d42293e2ea2d7359/inductiva-0.0.9.tar.gz
+[2023-07-14 10:57:14] INFO root fetch - processPackages [nvidia-smi2]: Downloading https://files.pythonhosted.org/packages/b7/c0/888a017b168108856016ef5c91e2a6b16807a17f57cbd3e2dd3fcfb2e8dd/nvidia-smi2-0.0.1.post3.tar.gz
+[2023-07-14 10:57:14] INFO root fetch - processPackages [pycones]: Downloading https://files.pythonhosted.org/packages/a2/8a/7e244a6f35f3e2fa3bee83dcf63b1dde916b1fe6430806166c2a5c6a066f/pycones-0.1.5.tar.gz
+[2023-07-14 10:57:14] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c4/1e/02816a9857f426dc08055143813ae0501aeac55747c5e824daf42fc0e1d0/kfish-99.0.202307140852-py3-none-any.whl
+[2023-07-14 10:57:14] INFO root fetch - processPackages [inductiva]: executing diffoscope
+[2023-07-14 10:57:14] INFO root fetch - processPackages [inductiva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inductiva-0.0.8.tar.gz tmp/inductiva-0.0.9.tar.gz --markdown 20230714/i/inductiva/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 10:57:14] INFO root fetch - processPackages [nvidia-smi2]: executing diffoscope
+[2023-07-14 10:57:14] INFO root fetch - processPackages [nvidia-smi2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-smi2-0.0.1.post2.tar.gz tmp/nvidia-smi2-0.0.1.post3.tar.gz --markdown 20230714/n/nvidia-smi2/0.0.1.post2-0.0.1.post3/diff.md --exclude *.pyd
+[2023-07-14 10:57:14] INFO root fetch - processPackages [pycones]: executing diffoscope
+[2023-07-14 10:57:14] INFO root fetch - processPackages [pycones]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycones-0.1.4.tar.gz tmp/pycones-0.1.5.tar.gz --markdown 20230714/p/pycones/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-14 10:57:14] INFO root fetch - processPackages [ultima-scraper-collection]: Downloading https://files.pythonhosted.org/packages/c0/35/4a4d46b652024855707abe4808019cf8317ba0ac414757a383642f75bf10/ultima_scraper_collection-2.1.0.tar.gz
+[2023-07-14 10:57:14] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-14 10:57:14] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307132024-py3-none-any.whl.zip tmp/kfish-99.0.202307140852-py3-none-any.whl.zip --markdown 20230714/k/kfish/99.0.202307132024-99.0.202307140852/diff.md --exclude *.pyd
+[2023-07-14 10:57:14] INFO root fetch - processPackages [odoo-addon-product-packaging-dimension]: Downloading https://files.pythonhosted.org/packages/15/4a/68ab8938e70801afe1517eee2403a85f50474ead02e0e9f4023edc24d6a7/odoo_addon_product_packaging_dimension-16.0.1.0.2-py3-none-any.whl
+[2023-07-14 10:57:14] INFO root fetch - processPackages [ultima-scraper-collection]: executing diffoscope
+[2023-07-14 10:57:14] INFO root fetch - processPackages [ultima-scraper-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_collection-2.0.0.tar.gz tmp/ultima_scraper_collection-2.1.0.tar.gz --markdown 20230714/u/ultima-scraper-collection/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-14 10:57:14] INFO root fetch - processPackages [jumpavg]: Downloading https://files.pythonhosted.org/packages/8a/07/25315bda42ca9d311b0d9da40352f188b13ab11b6a54ef9b5aa82456fae8/jumpavg-0.4.1.tar.gz
+[2023-07-14 10:57:14] INFO root fetch - processPackages [odoo-addon-product-packaging-dimension]: executing diffoscope
+[2023-07-14 10:57:14] INFO root fetch - processPackages [odoo-addon-product-packaging-dimension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_packaging_dimension-16.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_product_packaging_dimension-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-product-packaging-dimension/16.0.1.0.1.6-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-14 10:57:14] INFO root fetch - processPackages [jumpavg]: executing diffoscope
+[2023-07-14 10:57:14] INFO root fetch - processPackages [jumpavg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jumpavg-0.4.0.tar.gz tmp/jumpavg-0.4.1.tar.gz --markdown 20230714/j/jumpavg/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-14 10:57:15] INFO root fetch - processPackages [pycones]: Remove: archive file [/home/abi/fetcher/tmp/pycones-0.1.4.tar.gz]
+[2023-07-14 10:57:15] INFO root fetch - processPackages [pycones]: Remove: archive file [/home/abi/fetcher/tmp/pycones-0.1.5.tar.gz]
+[2023-07-14 10:57:15] INFO root fetch - main [MainThread]: End processing [pycones]: success
+[2023-07-14 10:57:15] INFO root fetch - processPackages [nvidia-smi2]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-smi2-0.0.1.post2.tar.gz]
+[2023-07-14 10:57:15] INFO root fetch - processPackages [nvidia-smi2]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-smi2-0.0.1.post3.tar.gz]
+[2023-07-14 10:57:15] INFO root fetch - main [MainThread]: End processing [nvidia-smi2]: success
+[2023-07-14 10:57:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307132024-py3-none-any.whl.zip]
+[2023-07-14 10:57:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307140852-py3-none-any.whl.zip]
+[2023-07-14 10:57:15] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-14 10:57:16] INFO root fetch - processPackages [odoo-addon-product-packaging-dimension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_packaging_dimension-16.0.1.0.1.6-py3-none-any.whl.zip]
+[2023-07-14 10:57:16] INFO root fetch - processPackages [odoo-addon-product-packaging-dimension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_packaging_dimension-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-14 10:57:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-packaging-dimension]: success
+[2023-07-14 10:57:16] INFO root fetch - processPackages [jumpavg]: Remove: archive file [/home/abi/fetcher/tmp/jumpavg-0.4.0.tar.gz]
+[2023-07-14 10:57:16] INFO root fetch - processPackages [jumpavg]: Remove: archive file [/home/abi/fetcher/tmp/jumpavg-0.4.1.tar.gz]
+[2023-07-14 10:57:16] INFO root fetch - main [MainThread]: End processing [jumpavg]: success
+[2023-07-14 10:57:16] INFO root fetch - processPackages [inductiva]: Remove: archive file [/home/abi/fetcher/tmp/inductiva-0.0.8.tar.gz]
+[2023-07-14 10:57:16] INFO root fetch - processPackages [inductiva]: Remove: archive file [/home/abi/fetcher/tmp/inductiva-0.0.9.tar.gz]
+[2023-07-14 10:57:16] INFO root fetch - main [MainThread]: End processing [inductiva]: success
+[2023-07-14 10:57:16] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-2.0.0.tar.gz]
+[2023-07-14 10:57:16] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-2.1.0.tar.gz]
+[2023-07-14 10:57:16] INFO root fetch - main [MainThread]: End processing [ultima-scraper-collection]: success
+[2023-07-14 10:57:16] INFO root fetch - main [MainThread]: Store serial: [18887373]
