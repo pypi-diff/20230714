@@ -18807,3 +18807,93 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 12:23:43] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk_jupyterlab_extension-0.1.931128384.tar.gz]
 [2023-07-14 12:23:43] INFO root fetch - main [MainThread]: End processing [vdk-jupyterlab-extension]: success
 [2023-07-14 12:23:43] INFO root fetch - main [MainThread]: Store serial: [18888250]
+[2023-07-14 12:28:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888250]
+[2023-07-14 12:28:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-14 12:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wbpUFO
+[2023-07-14 12:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whiffle-client
+[2023-07-14 12:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vectordb
+[2023-07-14 12:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maddaq
+[2023-07-14 12:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsv2py
+[2023-07-14 12:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chanfig
+[2023-07-14 12:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-notifications-sdk-preview
+[2023-07-14 12:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ctxvalue-shifter
+[2023-07-14 12:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keras-eo
+[2023-07-14 12:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sampo
+[2023-07-14 12:28:52] WARNING root fetch - processPackages [tsv2py]: Skipping, unable to determine old version
+[2023-07-14 12:28:52] INFO root fetch - processPackages [tsv2py]: Start processing: DV.Udit
+[2023-07-14 12:28:52] INFO root fetch - main [MainThread]: End processing [tsv2py] error
+[2023-07-14 12:28:52] INFO root fetch - processPackages [chanfig]: New version: [0.0.9.post7] Old Version: [0.0.9.post5]
+[2023-07-14 12:28:52] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.784] Old Version: [0.1.783]
+[2023-07-14 12:28:52] INFO root fetch - processPackages [whiffle-client]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-14 12:28:52] WARNING root fetch - processPackages [keras-eo]: Skipping, unable to determine old version
+[2023-07-14 12:28:52] INFO root fetch - processPackages [keras-eo]: Start processing: pct-python-default-test
+[2023-07-14 12:28:52] INFO root fetch - main [MainThread]: End processing [keras-eo] error
+[2023-07-14 12:28:52] WARNING root fetch - processPackages [ctxvalue-shifter]: Skipping, unable to determine old version
+[2023-07-14 12:28:52] INFO root fetch - processPackages [ctxvalue-shifter]: Start processing: factorio
+[2023-07-14 12:28:52] INFO root fetch - main [MainThread]: End processing [ctxvalue-shifter] error
+[2023-07-14 12:28:52] INFO root fetch - processPackages [vectordb]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-07-14 12:28:52] INFO root fetch - processPackages [maddaq]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-14 12:28:52] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-07-14 12:28:52] WARNING root fetch - processPackages [wbpUFO]: Skipping, unable to determine old version
+[2023-07-14 12:28:52] INFO root fetch - main [MainThread]: End processing [wbpUFO] error
+[2023-07-14 12:28:52] WARNING root fetch - processPackages [DV.Udit]: Skipping, unable to determine old version
+[2023-07-14 12:28:52] INFO root fetch - main [MainThread]: End processing [DV.Udit] error
+[2023-07-14 12:28:52] INFO root fetch - processPackages [pct-python-default-test]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-14 12:28:52] INFO root fetch - processPackages [factorio]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-14 12:28:52] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/14/c8/c72f2dc0c23bb13ec110b4a46fb06b9714a06b22781fe818c91fd8840310/vectordb-0.0.9.tar.gz
+[2023-07-14 12:28:52] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/c0/f0/691fad5ee7a8eae5d9b71eb531e4b6d414959a5afcc9811977263994bd77/sampo-0.1.1.98.tar.gz
+[2023-07-14 12:28:52] INFO root fetch - processPackages [pct-python-default-test]: Downloading https://files.pythonhosted.org/packages/5a/84/b0316eade813c46118a6f5bd6b831ba6befbd53618dfb2c0f668bd514e56/pct_python_default_test-1.0.6.tar.gz
+[2023-07-14 12:28:52] INFO root fetch - processPackages [chanfig]: Downloading https://files.pythonhosted.org/packages/9c/95/3464fcb2ce09549672e7ef758061448ee3c098e9227e8fd3d9ff272e3f1c/chanfig-0.0.9.post5.tar.gz
+[2023-07-14 12:28:52] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/9d/5c/e63531c70afa05e023d8eecc66159872bdcb30680a8724c57216438f6593/lusid-notifications-sdk-preview-0.1.783.tar.gz
+[2023-07-14 12:28:52] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/25/6b/75e269f7849aa8733579ebebcd7d610bd1000e86ff568212174669591655/whiffle_client-0.2.2.tar.gz
+[2023-07-14 12:28:52] INFO root fetch - processPackages [maddaq]: Downloading https://files.pythonhosted.org/packages/1c/06/6402e16e3be879a14d5bff7318466a138f74afe84e27cb4ab7e00d3ad118/maddaq-0.7.8.tar.gz
+[2023-07-14 12:28:52] INFO root fetch - processPackages [factorio]: Downloading https://files.pythonhosted.org/packages/eb/90/944e5312b5a5e9f40ed7c99cd05ba6efef2a115cec9a2d9257cf737d3045/factorio-0.2.0.tar.gz
+[2023-07-14 12:28:52] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/4d/15/d8a0903c4b3b48fc826096c99accdadd5069d00fa51694f5b7071d2f618a/vectordb-0.0.9.dev2.tar.gz
+[2023-07-14 12:28:52] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/28/10/7f07e18ca3b08fef3d13985a88344883d8eaf53be7daeda7186b282872a8/sampo-0.1.1.99.tar.gz
+[2023-07-14 12:28:52] INFO root fetch - processPackages [pct-python-default-test]: Downloading https://files.pythonhosted.org/packages/e7/05/70897b55c4e44d010b2e585968e929faf377ef1798c83b63d243781ff4ee/pct_python_default_test-1.0.7.tar.gz
+[2023-07-14 12:28:52] INFO root fetch - processPackages [chanfig]: Downloading https://files.pythonhosted.org/packages/8c/b9/eed7fd81e144603e27c017fb099cfcb7eb4f36c186f1c76bd2eab7350b7f/chanfig-0.0.9.post7.tar.gz
+[2023-07-14 12:28:52] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/68/da/653b089e0fe102d34c6ec904f8e6e51509bc745ea286f194491b507a743e/lusid-notifications-sdk-preview-0.1.784.tar.gz
+[2023-07-14 12:28:53] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-07-14 12:28:53] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.9.tar.gz tmp/vectordb-0.0.9.dev2.tar.gz --markdown 20230714/v/vectordb/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-07-14 12:28:53] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/de/cb/b52e1703c17d8e71e44a10c937830d36b7222b4c2503f3f923c88e3b75f3/whiffle_client-0.2.3.tar.gz
+[2023-07-14 12:28:53] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-07-14 12:28:53] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230714/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-07-14 12:28:53] INFO root fetch - processPackages [chanfig]: executing diffoscope
+[2023-07-14 12:28:53] INFO root fetch - processPackages [chanfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanfig-0.0.9.post5.tar.gz tmp/chanfig-0.0.9.post7.tar.gz --markdown 20230714/c/chanfig/0.0.9.post5-0.0.9.post7/diff.md --exclude *.pyd
+[2023-07-14 12:28:53] INFO root fetch - processPackages [factorio]: Downloading https://files.pythonhosted.org/packages/42/48/f18df32236253134016449e705a3b7729bfac485b99d9e8751477e018da3/factorio-0.3.0.tar.gz
+[2023-07-14 12:28:53] INFO root fetch - processPackages [maddaq]: Downloading https://files.pythonhosted.org/packages/0a/9d/22d6b8d45171de2ddd2c27a18380472d922a9086ef11e34b879964139593/maddaq-0.7.9.tar.gz
+[2023-07-14 12:28:53] INFO root fetch - processPackages [pct-python-default-test]: executing diffoscope
+[2023-07-14 12:28:53] INFO root fetch - processPackages [pct-python-default-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pct_python_default_test-1.0.6.tar.gz tmp/pct_python_default_test-1.0.7.tar.gz --markdown 20230714/p/pct-python-default-test/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-14 12:28:53] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-07-14 12:28:53] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.783.tar.gz tmp/lusid-notifications-sdk-preview-0.1.784.tar.gz --markdown 20230714/l/lusid-notifications-sdk-preview/0.1.783-0.1.784/diff.md --exclude *.pyd
+[2023-07-14 12:28:53] INFO root fetch - processPackages [whiffle-client]: executing diffoscope
+[2023-07-14 12:28:53] INFO root fetch - processPackages [whiffle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whiffle_client-0.2.2.tar.gz tmp/whiffle_client-0.2.3.tar.gz --markdown 20230714/w/whiffle-client/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-14 12:28:53] INFO root fetch - processPackages [maddaq]: executing diffoscope
+[2023-07-14 12:28:53] INFO root fetch - processPackages [maddaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maddaq-0.7.8.tar.gz tmp/maddaq-0.7.9.tar.gz --markdown 20230714/m/maddaq/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-14 12:28:53] INFO root fetch - processPackages [factorio]: executing diffoscope
+[2023-07-14 12:28:53] INFO root fetch - processPackages [factorio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factorio-0.2.0.tar.gz tmp/factorio-0.3.0.tar.gz --markdown 20230714/f/factorio/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-14 12:28:54] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.9.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.9.dev2.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-07-14 12:28:54] INFO root fetch - processPackages [chanfig]: Remove: archive file [/home/abi/fetcher/tmp/chanfig-0.0.9.post5.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - processPackages [chanfig]: Remove: archive file [/home/abi/fetcher/tmp/chanfig-0.0.9.post7.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - main [MainThread]: End processing [chanfig]: success
+[2023-07-14 12:28:54] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.2.2.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.2.3.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - main [MainThread]: End processing [whiffle-client]: success
+[2023-07-14 12:28:54] INFO root fetch - processPackages [maddaq]: Remove: archive file [/home/abi/fetcher/tmp/maddaq-0.7.8.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - processPackages [maddaq]: Remove: archive file [/home/abi/fetcher/tmp/maddaq-0.7.9.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - main [MainThread]: End processing [maddaq]: success
+[2023-07-14 12:28:54] INFO root fetch - processPackages [factorio]: Remove: archive file [/home/abi/fetcher/tmp/factorio-0.2.0.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - processPackages [factorio]: Remove: archive file [/home/abi/fetcher/tmp/factorio-0.3.0.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - main [MainThread]: End processing [factorio]: success
+[2023-07-14 12:28:54] INFO root fetch - processPackages [pct-python-default-test]: Remove: archive file [/home/abi/fetcher/tmp/pct_python_default_test-1.0.6.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - processPackages [pct-python-default-test]: Remove: archive file [/home/abi/fetcher/tmp/pct_python_default_test-1.0.7.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - main [MainThread]: End processing [pct-python-default-test]: success
+[2023-07-14 12:28:54] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.98.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.99.tar.gz]
+[2023-07-14 12:28:54] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-07-14 12:28:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.783.tar.gz]
+[2023-07-14 12:28:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.784.tar.gz]
+[2023-07-14 12:28:55] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-07-14 12:28:55] INFO root fetch - main [MainThread]: Store serial: [18888306]
