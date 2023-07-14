@@ -15704,3 +15704,139 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 09:54:21] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-14 09:54:21] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-14 09:54:21] INFO root fetch - main [MainThread]: Store serial: [18886836]
+[2023-07-14 09:59:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886836]
+[2023-07-14 09:59:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-14 09:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycobol2csv
+[2023-07-14 09:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-aps
+[2023-07-14 09:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scipion-em-xmipptomo
+[2023-07-14 09:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bw-libs
+[2023-07-14 09:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gm
+[2023-07-14 09:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zensvi
+[2023-07-14 09:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fbnlab-preview
+[2023-07-14 09:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyobs-core
+[2023-07-14 09:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bw-libs
+[2023-07-14 09:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: htagweb
+[2023-07-14 09:59:30] INFO root fetch - processPackages [scipion-em-xmipptomo]: New version: [3.23.7.0] Old Version: [3.23.3.6]
+[2023-07-14 09:59:30] INFO root fetch - processPackages [bw-libs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-14 09:59:30] INFO root fetch - processPackages [pycobol2csv]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-14 09:59:30] INFO root fetch - processPackages [bw-libs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-14 09:59:30] INFO root fetch - processPackages [zensvi]: New version: [0.7.1] Old Version: [0.6.9]
+[2023-07-14 09:59:30] INFO root fetch - processPackages [htagweb]: New version: [0.3.0] Old Version: [0.1.0]
+[2023-07-14 09:59:30] INFO root fetch - processPackages [fbnlab-preview]: New version: [0.1.8] Old Version: [0.1.64]
+[2023-07-14 09:59:30] INFO root fetch - processPackages [django-aps]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-14 09:59:30] INFO root fetch - processPackages [gm]: New version: [3.0.157] Old Version: [3.0.156]
+[2023-07-14 09:59:30] INFO root fetch - processPackages [pyobs-core]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-14 09:59:30] INFO root fetch - processPackages [django-aps]: Downloading https://files.pythonhosted.org/packages/b4/d3/512268c86e85835296d647925c0e24a41864ec85d409f9de3378ce3b57f8/django-aps-0.0.6.tar.gz
+[2023-07-14 09:59:30] INFO root fetch - processPackages [scipion-em-xmipptomo]: Downloading https://files.pythonhosted.org/packages/82/c9/773f506aad8873df80f59bcb123e550fe3d1063c81232f59840ac5ad5687/scipion-em-xmipptomo-3.23.3.6.tar.gz
+[2023-07-14 09:59:30] INFO root fetch - processPackages [bw-libs]: Downloading https://files.pythonhosted.org/packages/db/43/8634cf88af617bd2ee4e72a788553682228d5742ee6d54d0475431329675/bw_libs-0.1.2.tar.gz
+[2023-07-14 09:59:30] INFO root fetch - processPackages [pycobol2csv]: Downloading https://files.pythonhosted.org/packages/8f/54/400980fc1f2d6907e225212edab4733856686cc90097b59db0fa9c43ae4e/pycobol2csv-0.1.2-py3-none-any.whl
+[2023-07-14 09:59:30] INFO root fetch - processPackages [bw-libs]: Downloading https://files.pythonhosted.org/packages/db/43/8634cf88af617bd2ee4e72a788553682228d5742ee6d54d0475431329675/bw_libs-0.1.2.tar.gz
+[2023-07-14 09:59:30] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/10/e1/21b6ab47846076f6ace63c9adf9587e339a4eac994d43fad346066602b60/zensvi-0.6.9.tar.gz
+[2023-07-14 09:59:30] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/7e/db/9eabbfe905727222b8cc72fd043c1f521b560cf7753848b1bb14b2b18a2e/fbnlab_preview-0.1.64-py3-none-any.whl
+[2023-07-14 09:59:30] INFO root fetch - processPackages [gm]: Downloading https://files.pythonhosted.org/packages/b4/69/8c672504aa1b381e34c6c54d610387c370c439f9f789846d5b1590d07c0c/gm-3.0.156-cp39-cp39-win_amd64.whl
+[2023-07-14 09:59:30] INFO root fetch - processPackages [pyobs-core]: Downloading https://files.pythonhosted.org/packages/47/c0/3b88cb87e1dc4632825bd9a13f3a57711c5ab8a04cdca9a366ef627539d2/pyobs_core-1.4.2.tar.gz
+[2023-07-14 09:59:30] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/24/92/6bdfcbcdd8271c29daa49b52175c9da39c099224bc3d84e134a9889f5e4f/htagweb-0.1.0.tar.gz
+[2023-07-14 09:59:31] INFO root fetch - processPackages [django-aps]: Downloading https://files.pythonhosted.org/packages/c4/90/50eee4facf3f35af6377df42701d8615ee124da8d45618751969aa626852/django-aps-0.0.7.tar.gz
+[2023-07-14 09:59:31] INFO root fetch - processPackages [scipion-em-xmipptomo]: Downloading https://files.pythonhosted.org/packages/74/35/877fc7c5e1155482e46807c254775085de7458d17f756d448c1c94a8d4bf/scipion-em-xmipptomo-3.23.7.0.tar.gz
+[2023-07-14 09:59:31] INFO root fetch - processPackages [pycobol2csv]: Downloading https://files.pythonhosted.org/packages/9d/e4/881559a1ef15c821696898d4fa04a5edbf6e2c93cd84b92223d53e620300/pycobol2csv-0.1.3-py3-none-any.whl
+[2023-07-14 09:59:31] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/1b/90/cfc8b3f46fc50ad162ad4fbb61b9eaec196fbc7563730fa0397d1ab54392/zensvi-0.7.1.tar.gz
+[2023-07-14 09:59:31] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/d7/3a/47c89e574c39c0662e1815320fe44c7232deaec9dfc8f45c9607f9d1f0fb/fbnlab_preview-0.1.8-py3-none-any.whl
+[2023-07-14 09:59:31] INFO root fetch - processPackages [django-aps]: executing diffoscope
+[2023-07-14 09:59:31] INFO root fetch - processPackages [django-aps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-aps-0.0.6.tar.gz tmp/django-aps-0.0.7.tar.gz --markdown 20230714/d/django-aps/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-14 09:59:31] INFO root fetch - processPackages [pyobs-core]: Downloading https://files.pythonhosted.org/packages/e4/14/cdb1955e0f521977fa191256ef6ef0c80e24b04e6ac652295047efc21745/pyobs_core-1.4.3.tar.gz
+[2023-07-14 09:59:31] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/09/8e/fc65a237dffa9afca2546b27a1dcd070579d4614531f55ce9549bcf8fcb4/htagweb-0.3.0.tar.gz
+[2023-07-14 09:59:31] INFO root fetch - processPackages [pycobol2csv]: executing diffoscope
+[2023-07-14 09:59:31] INFO root fetch - processPackages [pycobol2csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycobol2csv-0.1.2-py3-none-any.whl.zip tmp/pycobol2csv-0.1.3-py3-none-any.whl.zip --markdown 20230714/p/pycobol2csv/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-14 09:59:31] INFO root fetch - processPackages [scipion-em-xmipptomo]: executing diffoscope
+[2023-07-14 09:59:31] INFO root fetch - processPackages [scipion-em-xmipptomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-xmipptomo-3.23.3.6.tar.gz tmp/scipion-em-xmipptomo-3.23.7.0.tar.gz --markdown 20230714/s/scipion-em-xmipptomo/3.23.3.6-3.23.7.0/diff.md --exclude *.pyd
+[2023-07-14 09:59:31] INFO root fetch - processPackages [bw-libs]: Downloading https://files.pythonhosted.org/packages/37/35/208cbbb12d6c898baebb8ddaab438598595ff6fde2d9583467652216ecce/bw_libs-0.1.3.tar.gz
+[2023-07-14 09:59:31] INFO root fetch - processPackages [bw-libs]: Downloading https://files.pythonhosted.org/packages/37/35/208cbbb12d6c898baebb8ddaab438598595ff6fde2d9583467652216ecce/bw_libs-0.1.3.tar.gz
+[2023-07-14 09:59:31] INFO root fetch - processPackages [fbnlab-preview]: executing diffoscope
+[2023-07-14 09:59:31] INFO root fetch - processPackages [fbnlab-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnlab_preview-0.1.64-py3-none-any.whl.zip tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip --markdown 20230714/f/fbnlab-preview/0.1.64-0.1.8/diff.md --exclude *.pyd
+[2023-07-14 09:59:31] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-07-14 09:59:31] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.6.9.tar.gz tmp/zensvi-0.7.1.tar.gz --markdown 20230714/z/zensvi/0.6.9-0.7.1/diff.md --exclude *.pyd
+[2023-07-14 09:59:31] INFO root fetch - processPackages [gm]: Downloading https://files.pythonhosted.org/packages/1c/be/ae9fa6bbd8198bf3d77a3409434b33a833b548af53e5850b1ca3ce18d562/gm-3.0.157-cp39-cp39-win_amd64.whl
+[2023-07-14 09:59:31] INFO root fetch - processPackages [pyobs-core]: executing diffoscope
+[2023-07-14 09:59:31] INFO root fetch - processPackages [pyobs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobs_core-1.4.2.tar.gz tmp/pyobs_core-1.4.3.tar.gz --markdown 20230714/p/pyobs-core/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-14 09:59:31] INFO root fetch - processPackages [htagweb]: executing diffoscope
+[2023-07-14 09:59:31] INFO root fetch - processPackages [htagweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagweb-0.1.0.tar.gz tmp/htagweb-0.3.0.tar.gz --markdown 20230714/h/htagweb/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-14 09:59:31] INFO root fetch - processPackages [bw-libs]: executing diffoscope
+[2023-07-14 09:59:31] INFO root fetch - processPackages [bw-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_libs-0.1.2.tar.gz tmp/bw_libs-0.1.3.tar.gz --markdown 20230714/b/bw-libs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-14 09:59:31] INFO root fetch - processPackages [bw-libs]: executing diffoscope
+[2023-07-14 09:59:31] INFO root fetch - processPackages [bw-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_libs-0.1.2.tar.gz tmp/bw_libs-0.1.3.tar.gz --markdown 20230714/b/bw-libs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-14 09:59:32] INFO root fetch - processPackages [pycobol2csv]: Remove: archive file [/home/abi/fetcher/tmp/pycobol2csv-0.1.2-py3-none-any.whl.zip]
+[2023-07-14 09:59:32] INFO root fetch - processPackages [pycobol2csv]: Remove: archive file [/home/abi/fetcher/tmp/pycobol2csv-0.1.3-py3-none-any.whl.zip]
+[2023-07-14 09:59:32] INFO root fetch - processPackages [pycobol2csv]: Start processing: mtg-ssm
+[2023-07-14 09:59:32] INFO root fetch - main [MainThread]: End processing [pycobol2csv]: success
+[2023-07-14 09:59:32] INFO root fetch - processPackages [mtg-ssm]: New version: [2.6.3.dev1] Old Version: [2.6.2.dev6]
+[2023-07-14 09:59:32] INFO root fetch - processPackages [gm]: executing diffoscope
+[2023-07-14 09:59:32] INFO root fetch - processPackages [gm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gm-3.0.156-cp39-cp39-win_amd64.whl.zip tmp/gm-3.0.157-cp39-cp39-win_amd64.whl.zip --markdown 20230714/g/gm/3.0.156-3.0.157/diff.md --exclude *.pyd
+[2023-07-14 09:59:32] INFO root fetch - processPackages [django-aps]: Remove: archive file [/home/abi/fetcher/tmp/django-aps-0.0.6.tar.gz]
+[2023-07-14 09:59:32] INFO root fetch - processPackages [django-aps]: Remove: archive file [/home/abi/fetcher/tmp/django-aps-0.0.7.tar.gz]
+[2023-07-14 09:59:32] INFO root fetch - processPackages [django-aps]: Start processing: multiversx-sdk-cli
+[2023-07-14 09:59:32] INFO root fetch - main [MainThread]: End processing [django-aps]: success
+[2023-07-14 09:59:32] INFO root fetch - processPackages [mtg-ssm]: Downloading https://files.pythonhosted.org/packages/19/00/ca1744e3893ff0047af0261f11edab996d39e49351af047b9ee52d503bbc/mtg_ssm-2.6.2.dev6.tar.gz
+[2023-07-14 09:59:32] INFO root fetch - processPackages [multiversx-sdk-cli]: New version: [7.1.0] Old Version: [7.0.0b1]
+[2023-07-14 09:59:33] INFO root fetch - processPackages [bw-libs]: Remove: archive file [/home/abi/fetcher/tmp/bw_libs-0.1.2.tar.gz]
+[2023-07-14 09:59:33] INFO root fetch - processPackages [bw-libs]: Remove: archive file [/home/abi/fetcher/tmp/bw_libs-0.1.3.tar.gz]
+[2023-07-14 09:59:33] INFO root fetch - processPackages [bw-libs]: Start processing: django-aps
+[2023-07-14 09:59:33] INFO root fetch - main [MainThread]: End processing [bw-libs]: success
+[2023-07-14 09:59:33] INFO root fetch - processPackages [django-aps]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-14 09:59:33] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/43/78/7ad6e22b25337eda3b958c77dd0266124f096853064767f49b046d173b05/multiversx_sdk_cli-7.0.0b1.tar.gz
+[2023-07-14 09:59:33] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.1.0.tar.gz]
+[2023-07-14 09:59:33] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.3.0.tar.gz]
+[2023-07-14 09:59:33] INFO root fetch - processPackages [htagweb]: Start processing: dipex
+[2023-07-14 09:59:33] INFO root fetch - main [MainThread]: End processing [htagweb]: success
+[2023-07-14 09:59:33] INFO root fetch - processPackages [django-aps]: Downloading https://files.pythonhosted.org/packages/c4/90/50eee4facf3f35af6377df42701d8615ee124da8d45618751969aa626852/django-aps-0.0.7.tar.gz
+[2023-07-14 09:59:33] INFO root fetch - processPackages [mtg-ssm]: Downloading https://files.pythonhosted.org/packages/13/66/321fc41ad223ef31b206e707aad0b684ec9aa76628b4ce65e6c13c6484db/mtg_ssm-2.6.3.dev1.tar.gz
+[2023-07-14 09:59:33] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-07-14 09:59:33] INFO root fetch - processPackages [bw-libs]: Start processing: scipion-em-xmipp
+[2023-07-14 09:59:33] INFO root fetch - main [MainThread]: End processing [bw-libs]: success
+[2023-07-14 09:59:33] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.6.9.tar.gz]
+[2023-07-14 09:59:33] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.7.1.tar.gz]
+[2023-07-14 09:59:33] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-07-14 09:59:33] INFO root fetch - processPackages [scipion-em-xmipptomo]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-xmipptomo-3.23.3.6.tar.gz]
+[2023-07-14 09:59:33] INFO root fetch - processPackages [scipion-em-xmipptomo]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-xmipptomo-3.23.7.0.tar.gz]
+[2023-07-14 09:59:33] INFO root fetch - main [MainThread]: End processing [scipion-em-xmipptomo]: success
+[2023-07-14 09:59:33] INFO root fetch - processPackages [scipion-em-xmipp]: New version: [23.7.0.0] Old Version: [23.3.0.3]
+[2023-07-14 09:59:33] INFO root fetch - processPackages [fbnlab-preview]: Remove: archive file [/home/abi/fetcher/tmp/fbnlab_preview-0.1.64-py3-none-any.whl.zip]
+[2023-07-14 09:59:33] INFO root fetch - processPackages [fbnlab-preview]: Remove: archive file [/home/abi/fetcher/tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip]
+[2023-07-14 09:59:33] INFO root fetch - main [MainThread]: End processing [fbnlab-preview]: success
+[2023-07-14 09:59:33] INFO root fetch - processPackages [mtg-ssm]: executing diffoscope
+[2023-07-14 09:59:33] INFO root fetch - processPackages [mtg-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtg_ssm-2.6.2.dev6.tar.gz tmp/mtg_ssm-2.6.3.dev1.tar.gz --markdown 20230714/m/mtg-ssm/2.6.2.dev6-2.6.3.dev1/diff.md --exclude *.pyd
+[2023-07-14 09:59:33] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/8c/55/17f61b3bc6b703c5ebec94d3382f1758054f094f1d1c7ea6b9b2ad6082e1/multiversx_sdk_cli-7.1.0.tar.gz
+[2023-07-14 09:59:33] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-07-14 09:59:33] INFO root fetch - processPackages [scipion-em-xmipp]: Downloading https://files.pythonhosted.org/packages/90/5f/c90a6c5e3135c917a405eb1ca33eb1d964a7990d929b6c04d30088f25de8/scipion-em-xmipp-23.3.0.3.tar.gz
+[2023-07-14 09:59:33] INFO root fetch - processPackages [django-aps]: Downloading https://files.pythonhosted.org/packages/05/d1/7b8331c14f777a8dab2ba9762a098cbec98c69b8285b65e769a60f812c73/django-aps-0.0.8.tar.gz
+[2023-07-14 09:59:33] INFO root fetch - processPackages [multiversx-sdk-cli]: executing diffoscope
+[2023-07-14 09:59:33] INFO root fetch - processPackages [multiversx-sdk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_cli-7.0.0b1.tar.gz tmp/multiversx_sdk_cli-7.1.0.tar.gz --markdown 20230714/m/multiversx-sdk-cli/7.0.0b1-7.1.0/diff.md --exclude *.pyd
+[2023-07-14 09:59:33] INFO root fetch - processPackages [django-aps]: executing diffoscope
+[2023-07-14 09:59:33] INFO root fetch - processPackages [django-aps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-aps-0.0.7.tar.gz tmp/django-aps-0.0.8.tar.gz --markdown 20230714/d/django-aps/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-14 09:59:33] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-07-14 09:59:34] INFO root fetch - processPackages [scipion-em-xmipp]: Downloading https://files.pythonhosted.org/packages/88/80/e4c6257566147cd0f156d98966aec432f69a2e3eb811c4a7cb277a640fe0/scipion-em-xmipp-23.7.0.0.tar.gz
+[2023-07-14 09:59:34] INFO root fetch - processPackages [pyobs-core]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_core-1.4.2.tar.gz]
+[2023-07-14 09:59:34] INFO root fetch - processPackages [pyobs-core]: Remove: archive file [/home/abi/fetcher/tmp/pyobs_core-1.4.3.tar.gz]
+[2023-07-14 09:59:34] INFO root fetch - main [MainThread]: End processing [pyobs-core]: success
+[2023-07-14 09:59:34] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-07-14 09:59:34] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230714/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:59:34] INFO root fetch - processPackages [scipion-em-xmipp]: executing diffoscope
+[2023-07-14 09:59:34] INFO root fetch - processPackages [scipion-em-xmipp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-xmipp-23.3.0.3.tar.gz tmp/scipion-em-xmipp-23.7.0.0.tar.gz --markdown 20230714/s/scipion-em-xmipp/23.3.0.3-23.7.0.0/diff.md --exclude *.pyd
+[2023-07-14 09:59:34] INFO root fetch - processPackages [mtg-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mtg_ssm-2.6.2.dev6.tar.gz]
+[2023-07-14 09:59:34] INFO root fetch - processPackages [mtg-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mtg_ssm-2.6.3.dev1.tar.gz]
+[2023-07-14 09:59:34] INFO root fetch - main [MainThread]: End processing [mtg-ssm]: success
+[2023-07-14 09:59:35] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-7.0.0b1.tar.gz]
+[2023-07-14 09:59:35] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-7.1.0.tar.gz]
+[2023-07-14 09:59:35] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-cli]: success
+[2023-07-14 09:59:35] INFO root fetch - processPackages [django-aps]: Remove: archive file [/home/abi/fetcher/tmp/django-aps-0.0.7.tar.gz]
+[2023-07-14 09:59:35] INFO root fetch - processPackages [django-aps]: Remove: archive file [/home/abi/fetcher/tmp/django-aps-0.0.8.tar.gz]
+[2023-07-14 09:59:35] INFO root fetch - main [MainThread]: End processing [django-aps]: success
+[2023-07-14 09:59:35] INFO root fetch - processPackages [gm]: Remove: archive file [/home/abi/fetcher/tmp/gm-3.0.156-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 09:59:35] INFO root fetch - processPackages [gm]: Remove: archive file [/home/abi/fetcher/tmp/gm-3.0.157-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 09:59:35] INFO root fetch - main [MainThread]: End processing [gm]: success
+[2023-07-14 09:59:35] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-07-14 09:59:35] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-07-14 09:59:35] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-07-14 09:59:36] INFO root fetch - processPackages [scipion-em-xmipp]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-xmipp-23.3.0.3.tar.gz]
+[2023-07-14 09:59:36] INFO root fetch - processPackages [scipion-em-xmipp]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-xmipp-23.7.0.0.tar.gz]
+[2023-07-14 09:59:36] INFO root fetch - main [MainThread]: End processing [scipion-em-xmipp]: success
+[2023-07-14 09:59:36] INFO root fetch - main [MainThread]: Store serial: [18886894]
