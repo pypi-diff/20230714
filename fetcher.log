@@ -14227,3 +14227,126 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 08:49:41] INFO root fetch - processPackages [peelml]: Remove: archive file [/home/abi/fetcher/tmp/peelml-0.0.4.tar.gz]
 [2023-07-14 08:49:41] INFO root fetch - main [MainThread]: End processing [peelml]: success
 [2023-07-14 08:49:41] INFO root fetch - main [MainThread]: Store serial: [18886202]
+[2023-07-14 08:54:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886202]
+[2023-07-14 08:54:52] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-14 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lennybot
+[2023-07-14 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-14 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selectfix
+[2023-07-14 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-14 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duckdb-engine
+[2023-07-14 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-slack
+[2023-07-14 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vectordb
+[2023-07-14 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lmcloud
+[2023-07-14 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: catgpt
+[2023-07-14 08:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydflow
+[2023-07-14 08:54:52] INFO root fetch - processPackages [vectordb]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-07-14 08:54:52] INFO root fetch - processPackages [lennybot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-14 08:54:52] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-14 08:54:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-14 08:54:52] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.3a1689315244] Old Version: [0.4.3a1687757895]
+[2023-07-14 08:54:52] INFO root fetch - processPackages [catgpt]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-14 08:54:52] INFO root fetch - processPackages [selectfix]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-14 08:54:52] INFO root fetch - processPackages [duckdb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-14 08:54:53] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-14 08:54:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-14 08:54:53] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/14/c8/c72f2dc0c23bb13ec110b4a46fb06b9714a06b22781fe818c91fd8840310/vectordb-0.0.9.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [lennybot]: Downloading https://files.pythonhosted.org/packages/1d/06/43687aac50e1f22da72944518203b06764005d8fb3003000b5e271c7ee70/lennybot-1.0.8.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/e9/85/7b29ccc85f74fd6b3e61ec0a76e1bf36d0a1797ad7dec34aac9d3dba0c76/pulumi_slack-0.4.3a1687757895.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [duckdb-engine]: Downloading https://files.pythonhosted.org/packages/de/1b/fe0ee27fc21f21ecccfabcecc40778527d5d0abb95d705facd78a9bead27/duckdb_engine-0.9.0.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [catgpt]: Downloading https://files.pythonhosted.org/packages/1c/3a/0cca53ed45d64093b3e44e94d14fb7d1d03a790a5fb7fd202e07bbfcbacf/catgpt-0.0.4.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [selectfix]: Downloading https://files.pythonhosted.org/packages/6c/bf/b3723b9f99b7f26afb949a4247c1cde669aa122bd197bcdee20de9de470d/selectfix-0.2.1.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/4d/15/d8a0903c4b3b48fc826096c99accdadd5069d00fa51694f5b7071d2f618a/vectordb-0.0.9.dev2.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-07-14 08:54:53] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.9.tar.gz tmp/vectordb-0.0.9.dev2.tar.gz --markdown 20230714/v/vectordb/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-07-14 08:54:53] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-07-14 08:54:53] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230714/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-14 08:54:53] INFO root fetch - processPackages [lennybot]: Downloading https://files.pythonhosted.org/packages/ee/ff/8cfaf1f4d8111858dbace1900626f0b0ba097b6eea7790a4c12d95980679/lennybot-1.0.9.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [duckdb-engine]: Downloading https://files.pythonhosted.org/packages/9b/66/055e9e10ea0605016ab188d26ebb75b529e92eddb9d35ad114e48fc16bbd/duckdb_engine-0.9.1.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/03/46/9268511f044fcc92d37baebd79686530c5b67991b9bc129c1a0e3f26db81/pulumi_slack-0.4.3a1689315244.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [catgpt]: Downloading https://files.pythonhosted.org/packages/fd/ea/e40523237b2932c14d0f7280e2600e2071b26cf03e00a09ab2cb89d053cd/catgpt-0.0.5.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [selectfix]: Downloading https://files.pythonhosted.org/packages/15/7d/07c6a8ad93c44d79c52b7e1e6fa8d20402c191f8729248849b2f012f9f4c/selectfix-0.2.2.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-14 08:54:53] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-14 08:54:54] INFO root fetch - processPackages [lennybot]: executing diffoscope
+[2023-07-14 08:54:54] INFO root fetch - processPackages [lennybot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lennybot-1.0.8.tar.gz tmp/lennybot-1.0.9.tar.gz --markdown 20230714/l/lennybot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-14 08:54:54] INFO root fetch - processPackages [duckdb-engine]: executing diffoscope
+[2023-07-14 08:54:54] INFO root fetch - processPackages [duckdb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb_engine-0.9.0.tar.gz tmp/duckdb_engine-0.9.1.tar.gz --markdown 20230714/d/duckdb-engine/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-14 08:54:54] INFO root fetch - processPackages [catgpt]: executing diffoscope
+[2023-07-14 08:54:54] INFO root fetch - processPackages [catgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catgpt-0.0.4.tar.gz tmp/catgpt-0.0.5.tar.gz --markdown 20230714/c/catgpt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-14 08:54:54] INFO root fetch - processPackages [selectfix]: executing diffoscope
+[2023-07-14 08:54:54] INFO root fetch - processPackages [selectfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selectfix-0.2.1.tar.gz tmp/selectfix-0.2.2.tar.gz --markdown 20230714/s/selectfix/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-14 08:54:54] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2023-07-14 08:54:54] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.3a1687757895.tar.gz tmp/pulumi_slack-0.4.3a1689315244.tar.gz --markdown 20230714/p/pulumi-slack/0.4.3a1687757895-0.4.3a1689315244/diff.md --exclude *.pyd
+[2023-07-14 08:54:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-14 08:54:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230714/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-14 08:54:54] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-14 08:54:54] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230714/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-14 08:54:54] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-07-14 08:54:54] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-07-14 08:54:54] INFO root fetch - processPackages [lmcloud]: Start processing: xhibit
+[2023-07-14 08:54:54] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-07-14 08:54:55] INFO root fetch - processPackages [xhibit]: New version: [9.5.5] Old Version: [9.5.3]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.9.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.9.dev2.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [vectordb]: Start processing: AddBookmarket
+[2023-07-14 08:54:55] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-07-14 08:54:55] WARNING root fetch - processPackages [AddBookmarket]: Skipping, unable to determine old version
+[2023-07-14 08:54:55] INFO root fetch - processPackages [AddBookmarket]: Start processing: ofscraper
+[2023-07-14 08:54:55] INFO root fetch - main [MainThread]: End processing [AddBookmarket] error
+[2023-07-14 08:54:55] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/8d/c9/d7e0fe819796931055dbe89c64e12ac633a14bb691734b243e8e284157dd/xhibit-9.5.3.tar.gz
+[2023-07-14 08:54:55] INFO root fetch - processPackages [ofscraper]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/b8/7d/9dfa66bf7ae6d4794b5509874955b1c207242ca184a15ad94233786e1eee/ofscraper-2.7.1.tar.gz
+[2023-07-14 08:54:55] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/32/6e/2c0ee408c57fea67ebd839336f6e99451395a0e2a9ea37a4e091c69661ff/xhibit-9.5.5.tar.gz
+[2023-07-14 08:54:55] INFO root fetch - processPackages [catgpt]: Remove: archive file [/home/abi/fetcher/tmp/catgpt-0.0.4.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [catgpt]: Remove: archive file [/home/abi/fetcher/tmp/catgpt-0.0.5.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [catgpt]: Start processing: tinybird-cli
+[2023-07-14 08:54:55] INFO root fetch - main [MainThread]: End processing [catgpt]: success
+[2023-07-14 08:54:55] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.3a1687757895.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [lennybot]: Remove: archive file [/home/abi/fetcher/tmp/lennybot-1.0.8.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.3a1689315244.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [lennybot]: Remove: archive file [/home/abi/fetcher/tmp/lennybot-1.0.9.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2023-07-14 08:54:55] INFO root fetch - main [MainThread]: End processing [lennybot]: success
+[2023-07-14 08:54:55] INFO root fetch - processPackages [duckdb-engine]: Remove: archive file [/home/abi/fetcher/tmp/duckdb_engine-0.9.0.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [duckdb-engine]: Remove: archive file [/home/abi/fetcher/tmp/duckdb_engine-0.9.1.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - main [MainThread]: End processing [duckdb-engine]: success
+[2023-07-14 08:54:55] INFO root fetch - processPackages [selectfix]: Remove: archive file [/home/abi/fetcher/tmp/selectfix-0.2.1.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [selectfix]: Remove: archive file [/home/abi/fetcher/tmp/selectfix-0.2.2.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - main [MainThread]: End processing [selectfix]: success
+[2023-07-14 08:54:55] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-14 08:54:55] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-14 08:54:55] INFO root fetch - processPackages [xhibit]: executing diffoscope
+[2023-07-14 08:54:55] INFO root fetch - processPackages [xhibit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhibit-9.5.3.tar.gz tmp/xhibit-9.5.5.tar.gz --markdown 20230714/x/xhibit/9.5.3-9.5.5/diff.md --exclude *.pyd
+[2023-07-14 08:54:55] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-14 08:54:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-14 08:54:55] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/1b/7b/ae04b083182963ca4015369736e9ea6b7d6dfff0d1e0464fe78529ccb096/ofscraper-2.7.2.tar.gz
+[2023-07-14 08:54:56] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-07-14 08:54:56] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.7.1.tar.gz tmp/ofscraper-2.7.2.tar.gz --markdown 20230714/o/ofscraper/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-07-14 08:54:56] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-14 08:54:56] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.3.tar.gz]
+[2023-07-14 08:54:56] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.5.tar.gz]
+[2023-07-14 08:54:56] INFO root fetch - main [MainThread]: End processing [xhibit]: success
+[2023-07-14 08:54:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-14 08:54:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230714/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 08:54:56] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-14 08:54:57] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.7.1.tar.gz]
+[2023-07-14 08:54:57] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.7.2.tar.gz]
+[2023-07-14 08:54:57] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-07-14 08:54:57] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-14 08:54:57] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230714/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-14 08:54:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-14 08:54:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-14 08:54:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-14 08:54:57] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-14 08:54:57] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-14 08:54:57] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-14 08:54:57] INFO root fetch - main [MainThread]: Store serial: [18886284]
