@@ -18154,3 +18154,63 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 11:52:05] INFO root fetch - processPackages [unicat]: Remove: archive file [/home/abi/fetcher/tmp/unicat-0.4.1.tar.gz]
 [2023-07-14 11:52:05] INFO root fetch - main [MainThread]: End processing [unicat]: success
 [2023-07-14 11:52:05] INFO root fetch - main [MainThread]: Store serial: [18888003]
+[2023-07-14 11:57:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888003]
+[2023-07-14 11:57:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-easy-notify
+[2023-07-14 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neoadmin
+[2023-07-14 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ievv-auth
+[2023-07-14 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vanitas-antispam
+[2023-07-14 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyassorted
+[2023-07-14 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccxt
+[2023-07-14 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-it-pos-fatturapa
+[2023-07-14 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flySkyiBus
+[2023-07-14 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plone.app.robotframework
+[2023-07-14 11:57:14] WARNING root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: Skipping, unable to determine old version
+[2023-07-14 11:57:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-pos-fatturapa] error
+[2023-07-14 11:57:15] INFO root fetch - processPackages [ievv-auth]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-14 11:57:15] WARNING root fetch - processPackages [flySkyiBus]: Skipping, unable to determine old version
+[2023-07-14 11:57:15] INFO root fetch - main [MainThread]: End processing [flySkyiBus] error
+[2023-07-14 11:57:15] INFO root fetch - processPackages [pyassorted]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-14 11:57:15] WARNING root fetch - processPackages [django-easy-notify]: Skipping, unable to determine old version
+[2023-07-14 11:57:15] WARNING root fetch - processPackages [neoadmin]: Skipping, unable to determine old version
+[2023-07-14 11:57:15] INFO root fetch - main [MainThread]: End processing [django-easy-notify] error
+[2023-07-14 11:57:15] INFO root fetch - main [MainThread]: End processing [neoadmin] error
+[2023-07-14 11:57:15] INFO root fetch - processPackages [vanitas-antispam]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-14 11:57:15] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-14 11:57:15] INFO root fetch - processPackages [ievv-auth]: Downloading https://files.pythonhosted.org/packages/9c/64/51510730db11e194584d715d2db77c2e9663ae7ddc8490edcc34eb5b6020/ievv_auth-3.0.0.tar.gz
+[2023-07-14 11:57:15] INFO root fetch - processPackages [plone.app.robotframework]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2023-07-14 11:57:15] INFO root fetch - processPackages [vanitas-antispam]: Downloading https://files.pythonhosted.org/packages/03/e7/fb9298a0642392b1f62b7edcf5d2542ffbade5507e44cc7f90d23235a849/vanitas-antispam-1.0.0.tar.gz
+[2023-07-14 11:57:15] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/2d/c2/f6c97ee2dc2d0b12d939a00963ea9e554026f7aca4975d70253e3057eccb/pyassorted-0.7.4.tar.gz
+[2023-07-14 11:57:15] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-14 11:57:15] INFO root fetch - processPackages [plone.app.robotframework]: Downloading https://files.pythonhosted.org/packages/29/5c/68a8c604fd03eed19590a1ce5694282881a8907d65f6c75b41e1460e533a/plone.app.robotframework-2.0.0b2.tar.gz
+[2023-07-14 11:57:15] INFO root fetch - processPackages [vanitas-antispam]: Downloading https://files.pythonhosted.org/packages/71/1a/104bbd7f38e23b5bad6356ef80a5ddfa34a95ee08de3ebabf144366e073a/vanitas-antispam-1.0.1.tar.gz
+[2023-07-14 11:57:15] INFO root fetch - processPackages [ievv-auth]: Downloading https://files.pythonhosted.org/packages/fe/3c/9d3185d0955024d2329f07f95b0ecb9e5ffca200b2c2c484458835fde77a/ievv_auth-3.1.0.tar.gz
+[2023-07-14 11:57:15] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/b9/eb/9201a184371dc49849be6af4caacf604e40512b5a59dcbe0ed3d58900ca5/pyassorted-0.7.5.tar.gz
+[2023-07-14 11:57:15] INFO root fetch - processPackages [vanitas-antispam]: executing diffoscope
+[2023-07-14 11:57:15] INFO root fetch - processPackages [vanitas-antispam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanitas-antispam-1.0.0.tar.gz tmp/vanitas-antispam-1.0.1.tar.gz --markdown 20230714/v/vanitas-antispam/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-14 11:57:15] INFO root fetch - processPackages [ievv-auth]: executing diffoscope
+[2023-07-14 11:57:15] INFO root fetch - processPackages [ievv-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ievv_auth-3.0.0.tar.gz tmp/ievv_auth-3.1.0.tar.gz --markdown 20230714/i/ievv-auth/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-14 11:57:15] INFO root fetch - processPackages [pyassorted]: executing diffoscope
+[2023-07-14 11:57:15] INFO root fetch - processPackages [pyassorted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyassorted-0.7.4.tar.gz tmp/pyassorted-0.7.5.tar.gz --markdown 20230714/p/pyassorted/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-14 11:57:16] INFO root fetch - processPackages [plone.app.robotframework]: Downloading https://files.pythonhosted.org/packages/80/a4/7047abddbe1873967ac8181e8aecaffd3639cd307140a406f908bc83990e/plone.app.robotframework-2.0.1.tar.gz
+[2023-07-14 11:57:16] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-14 11:57:16] INFO root fetch - processPackages [plone.app.robotframework]: executing diffoscope
+[2023-07-14 11:57:16] INFO root fetch - processPackages [plone.app.robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.robotframework-2.0.0b2.tar.gz tmp/plone.app.robotframework-2.0.1.tar.gz --markdown 20230714/p/plone.app.robotframework/2.0.0b2-2.0.1/diff.md --exclude *.pyd
+[2023-07-14 11:57:16] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-14 11:57:16] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230714/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-14 11:57:16] INFO root fetch - processPackages [vanitas-antispam]: Remove: archive file [/home/abi/fetcher/tmp/vanitas-antispam-1.0.0.tar.gz]
+[2023-07-14 11:57:16] INFO root fetch - processPackages [vanitas-antispam]: Remove: archive file [/home/abi/fetcher/tmp/vanitas-antispam-1.0.1.tar.gz]
+[2023-07-14 11:57:16] INFO root fetch - main [MainThread]: End processing [vanitas-antispam]: success
+[2023-07-14 11:57:16] INFO root fetch - processPackages [ievv-auth]: Remove: archive file [/home/abi/fetcher/tmp/ievv_auth-3.0.0.tar.gz]
+[2023-07-14 11:57:16] INFO root fetch - processPackages [ievv-auth]: Remove: archive file [/home/abi/fetcher/tmp/ievv_auth-3.1.0.tar.gz]
+[2023-07-14 11:57:16] INFO root fetch - main [MainThread]: End processing [ievv-auth]: success
+[2023-07-14 11:57:16] INFO root fetch - processPackages [pyassorted]: Remove: archive file [/home/abi/fetcher/tmp/pyassorted-0.7.4.tar.gz]
+[2023-07-14 11:57:16] INFO root fetch - processPackages [pyassorted]: Remove: archive file [/home/abi/fetcher/tmp/pyassorted-0.7.5.tar.gz]
+[2023-07-14 11:57:16] INFO root fetch - main [MainThread]: End processing [pyassorted]: success
+[2023-07-14 11:57:17] INFO root fetch - processPackages [plone.app.robotframework]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.robotframework-2.0.0b2.tar.gz]
+[2023-07-14 11:57:17] INFO root fetch - processPackages [plone.app.robotframework]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.robotframework-2.0.1.tar.gz]
+[2023-07-14 11:57:17] INFO root fetch - main [MainThread]: End processing [plone.app.robotframework]: success
+[2023-07-14 11:57:21] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-14 11:57:21] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-14 11:57:21] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-14 11:57:21] INFO root fetch - main [MainThread]: Store serial: [18888034]
