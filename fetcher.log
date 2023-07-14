@@ -21597,3 +21597,128 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-14 14:35:50] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230714123349.tar.gz]
 [2023-07-14 14:35:50] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-14 14:35:50] INFO root fetch - main [MainThread]: Store serial: [18889438]
+[2023-07-14 14:40:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18889438]
+[2023-07-14 14:40:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-14 14:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aim
+[2023-07-14 14:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib-shopware6-api
+[2023-07-14 14:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projen
+[2023-07-14 14:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jetto-tools
+[2023-07-14 14:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparksnake
+[2023-07-14 14:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-quantum
+[2023-07-14 14:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: esmerald
+[2023-07-14 14:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lib-list
+[2023-07-14 14:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-pdr
+[2023-07-14 14:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysdot
+[2023-07-14 14:40:59] INFO root fetch - processPackages [lib-list]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-14 14:40:59] INFO root fetch - processPackages [sparksnake]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-14 14:40:59] INFO root fetch - processPackages [esmerald]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-14 14:40:59] INFO root fetch - processPackages [pytorch-quantum]: New version: [0.2] Old Version: [0.1.dev3]
+[2023-07-14 14:40:59] INFO root fetch - processPackages [django-pdr]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-14 14:41:00] INFO root fetch - processPackages [jetto-tools]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-07-14 14:41:00] INFO root fetch - processPackages [pysdot]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-14 14:41:00] INFO root fetch - processPackages [lib-shopware6-api]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-14 14:41:00] INFO root fetch - processPackages [aim]: New version: [4.0.0a9] Old Version: [4.0.0a7]
+[2023-07-14 14:41:00] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-14 14:41:00] INFO root fetch - processPackages [lib-list]: Downloading https://files.pythonhosted.org/packages/4d/bd/aea49caea60125c3b12b8a89910fad4ca9df73463b5e22aa4e01006d7ec1/lib_list-1.1.7.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/81/24/cd50b462f351541afaa9538a80f39a1056194853c438876c50290bd37789/django-pdr-1.2.8.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [lib-shopware6-api]: Downloading https://files.pythonhosted.org/packages/2a/16/03ed00bb09c279908082ae0f3c72938c9acc806abbefffb92f3faed87fe2/lib_shopware6_api-2.0.4.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [pytorch-quantum]: Downloading https://files.pythonhosted.org/packages/e2/00/d4fc8e60000b173cc0456a1af3b0748defc3e75bd09cd17bac291deab36c/pytorch-quantum-0.1.dev3.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [sparksnake]: Downloading https://files.pythonhosted.org/packages/b5/a5/0d11b64de0a9255680b372c7d5d3ad54ba07b8ac3e6cb490da9f5a96eb6b/sparksnake-0.2.0.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/88/e5/778bad01d6f40839140bd00adecd6d57012667da418a158d7a443acfbbff/esmerald-2.0.0.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [jetto-tools]: Downloading https://files.pythonhosted.org/packages/74/3b/7757691e66bc91e57cea55a23d02766c570174b39d74b44e363cfc79f074/jetto_tools-1.8.8.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/58/c8/07a56a466b82e7f91faaaed1e412c855bbb21a4da376ec56718ee02e2df7/pysdot-0.2.7.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/ee/90/668cdef5d777ae82570a5b95b243506790b0f53ace49feff6d50ef11e28f/aim-4.0.0a7.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [lib-shopware6-api]: Downloading https://files.pythonhosted.org/packages/8b/38/485cd104d5e840841f8841380d17a5b733f18f806f9ac99976818b01b6d4/lib_shopware6_api-2.0.5.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/36/f9/326659fda9e7bf3ba840f0c789944e72a150630f7ca4afc665ef7eb28050/django-pdr-1.2.9.tar.gz
+[2023-07-14 14:41:00] WARNING root fetch - processPackages [jetto-tools]: Skipping package: exceeds size limit 16367867>=10485760
+[2023-07-14 14:41:00] INFO root fetch - processPackages [jetto-tools]: Start processing: helios-rl
+[2023-07-14 14:41:00] INFO root fetch - main [MainThread]: End processing [jetto-tools] error
+[2023-07-14 14:41:00] INFO root fetch - processPackages [lib-list]: Downloading https://files.pythonhosted.org/packages/53/e7/5db88d01413827755ca3005b60f27d187a598cdeeb5289173a7a11f0dda0/lib_list-1.1.8.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-14 14:41:00] INFO root fetch - processPackages [lib-shopware6-api]: executing diffoscope
+[2023-07-14 14:41:00] INFO root fetch - processPackages [lib-shopware6-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_shopware6_api-2.0.4.tar.gz tmp/lib_shopware6_api-2.0.5.tar.gz --markdown 20230714/l/lib-shopware6-api/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-14 14:41:00] INFO root fetch - processPackages [sparksnake]: Downloading https://files.pythonhosted.org/packages/00/fb/ed7a26fb6bfc2a689309ca50372574ea6b794fd1054a8284a83470bccc43/sparksnake-0.2.1.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [pytorch-quantum]: Downloading https://files.pythonhosted.org/packages/15/d5/19ff9ec9a4358bf3201b4499fe6aa0495cac8e9f255353735228ab9314f6/pytorch-quantum-0.2.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/40/f9/7c88eaaf24a29fe7f28525bcb48007f648a2a9fd45fbc8071a54310fa17a/esmerald-2.0.1.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [lib-list]: executing diffoscope
+[2023-07-14 14:41:00] INFO root fetch - processPackages [lib-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_list-1.1.7.tar.gz tmp/lib_list-1.1.8.tar.gz --markdown 20230714/l/lib-list/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-14 14:41:00] INFO root fetch - processPackages [django-pdr]: executing diffoscope
+[2023-07-14 14:41:00] INFO root fetch - processPackages [django-pdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pdr-1.2.8.tar.gz tmp/django-pdr-1.2.9.tar.gz --markdown 20230714/d/django-pdr/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-14 14:41:00] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-14 14:41:00] INFO root fetch - processPackages [pytorch-quantum]: executing diffoscope
+[2023-07-14 14:41:00] INFO root fetch - processPackages [pytorch-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-quantum-0.1.dev3.tar.gz tmp/pytorch-quantum-0.2.tar.gz --markdown 20230714/p/pytorch-quantum/0.1.dev3-0.2/diff.md --exclude *.pyd
+[2023-07-14 14:41:00] INFO root fetch - processPackages [sparksnake]: executing diffoscope
+[2023-07-14 14:41:00] INFO root fetch - processPackages [sparksnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparksnake-0.2.0.tar.gz tmp/sparksnake-0.2.1.tar.gz --markdown 20230714/s/sparksnake/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-14 14:41:00] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/13/97/8fcde2da6b06276a9ef7c3fea9e816e5e0cd9025cfe13a8053a4435c66ae/pysdot-0.2.8.tar.gz
+[2023-07-14 14:41:01] INFO root fetch - processPackages [esmerald]: executing diffoscope
+[2023-07-14 14:41:01] INFO root fetch - processPackages [esmerald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esmerald-2.0.0.tar.gz tmp/esmerald-2.0.1.tar.gz --markdown 20230714/e/esmerald/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-14 14:41:01] INFO root fetch - processPackages [pysdot]: executing diffoscope
+[2023-07-14 14:41:01] INFO root fetch - processPackages [pysdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdot-0.2.7.tar.gz tmp/pysdot-0.2.8.tar.gz --markdown 20230714/p/pysdot/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-14 14:41:01] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/c1/52/6d631d823c78de7a69774c9cb9ea8a853c3a663c3066fb47b845adc1b869/aim-4.0.0a9.tar.gz
+[2023-07-14 14:41:01] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-14 14:41:01] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-14 14:41:01] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230714/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-14 14:41:01] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-07-14 14:41:01] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0a7.tar.gz tmp/aim-4.0.0a9.tar.gz --markdown 20230714/a/aim/4.0.0a7-4.0.0a9/diff.md --exclude *.pyd
+[2023-07-14 14:41:01] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-14 14:41:02] INFO root fetch - processPackages [pytorch-quantum]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-quantum-0.1.dev3.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [pytorch-quantum]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-quantum-0.2.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [pytorch-quantum]: Start processing: web3-ethereum-defi
+[2023-07-14 14:41:02] INFO root fetch - main [MainThread]: End processing [pytorch-quantum]: success
+[2023-07-14 14:41:02] INFO root fetch - processPackages [web3-ethereum-defi]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/f7/34/bc567b2d884ed84729cca7ee7fa158347e0f72fc19d964b3721fd4ad740b/web3-ethereum-defi-0.8.tar.gz
+[2023-07-14 14:41:02] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.8.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.9.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [django-pdr]: Start processing: dask-deltatable
+[2023-07-14 14:41:02] INFO root fetch - main [MainThread]: End processing [django-pdr]: success
+[2023-07-14 14:41:02] INFO root fetch - processPackages [lib-list]: Remove: archive file [/home/abi/fetcher/tmp/lib_list-1.1.7.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [lib-list]: Remove: archive file [/home/abi/fetcher/tmp/lib_list-1.1.8.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [lib-list]: Start processing: autora-theorist-bms
+[2023-07-14 14:41:02] INFO root fetch - main [MainThread]: End processing [lib-list]: success
+[2023-07-14 14:41:02] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.7.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.8.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - main [MainThread]: End processing [pysdot]: success
+[2023-07-14 14:41:02] INFO root fetch - processPackages [dask-deltatable]: New version: [0.3] Old Version: [0.2]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/02/9e/0b69309d6f37b54cc726ee3588483bd2d6bd07282539b30d2a04e48b82cd/web3-ethereum-defi-0.9.tar.gz
+[2023-07-14 14:41:02] INFO root fetch - processPackages [sparksnake]: Remove: archive file [/home/abi/fetcher/tmp/sparksnake-0.2.0.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [sparksnake]: Remove: archive file [/home/abi/fetcher/tmp/sparksnake-0.2.1.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - main [MainThread]: End processing [sparksnake]: success
+[2023-07-14 14:41:02] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-14 14:41:02] INFO root fetch - processPackages [autora-theorist-bms]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [lib-shopware6-api]: Remove: archive file [/home/abi/fetcher/tmp/lib_shopware6_api-2.0.4.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - processPackages [lib-shopware6-api]: Remove: archive file [/home/abi/fetcher/tmp/lib_shopware6_api-2.0.5.tar.gz]
+[2023-07-14 14:41:02] INFO root fetch - main [MainThread]: End processing [lib-shopware6-api]: success
+[2023-07-14 14:41:02] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-14 14:41:02] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230714/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-14 14:41:02] INFO root fetch - processPackages [web3-ethereum-defi]: executing diffoscope
+[2023-07-14 14:41:02] INFO root fetch - processPackages [web3-ethereum-defi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-ethereum-defi-0.8.tar.gz tmp/web3-ethereum-defi-0.9.tar.gz --markdown 20230714/w/web3-ethereum-defi/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 14:41:03] INFO root fetch - processPackages [dask-deltatable]: Downloading https://files.pythonhosted.org/packages/d0/9d/6e634d77502d1ae920791083e064beb1da97d8b347a2f996aa0bbd1770df/dask-deltatable-0.2.tar.gz
+[2023-07-14 14:41:03] INFO root fetch - processPackages [autora-theorist-bms]: Downloading https://files.pythonhosted.org/packages/cf/7c/3bb5d7cd9f56ebc5b3e80677317395acc0b5e4696cb38055fc6c8a5a1614/autora-theorist-bms-1.0.2.tar.gz
+[2023-07-14 14:41:03] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-2.0.0.tar.gz]
+[2023-07-14 14:41:03] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-2.0.1.tar.gz]
+[2023-07-14 14:41:03] INFO root fetch - main [MainThread]: End processing [esmerald]: success
+[2023-07-14 14:41:03] INFO root fetch - processPackages [dask-deltatable]: Downloading https://files.pythonhosted.org/packages/d8/c5/550c2a24db1a3b12b6e6912bc927d3439d729c4979add27103fb8e57b01e/dask-deltatable-0.3.tar.gz
+[2023-07-14 14:41:03] INFO root fetch - processPackages [autora-theorist-bms]: Downloading https://files.pythonhosted.org/packages/37/e4/dc075034875a8456272ce9889b8c140e4632481e1e33d54b2b87b50ac7d2/autora-theorist-bms-1.0.3.tar.gz
+[2023-07-14 14:41:03] INFO root fetch - processPackages [dask-deltatable]: executing diffoscope
+[2023-07-14 14:41:03] INFO root fetch - processPackages [dask-deltatable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-deltatable-0.2.tar.gz tmp/dask-deltatable-0.3.tar.gz --markdown 20230714/d/dask-deltatable/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-14 14:41:03] INFO root fetch - processPackages [autora-theorist-bms]: executing diffoscope
+[2023-07-14 14:41:03] INFO root fetch - processPackages [autora-theorist-bms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-theorist-bms-1.0.2.tar.gz tmp/autora-theorist-bms-1.0.3.tar.gz --markdown 20230714/a/autora-theorist-bms/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-14 14:41:04] INFO root fetch - processPackages [dask-deltatable]: Remove: archive file [/home/abi/fetcher/tmp/dask-deltatable-0.2.tar.gz]
+[2023-07-14 14:41:04] INFO root fetch - processPackages [dask-deltatable]: Remove: archive file [/home/abi/fetcher/tmp/dask-deltatable-0.3.tar.gz]
+[2023-07-14 14:41:04] INFO root fetch - main [MainThread]: End processing [dask-deltatable]: success
+[2023-07-14 14:41:04] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-14 14:41:04] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-14 14:41:04] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-14 14:41:04] INFO root fetch - processPackages [autora-theorist-bms]: Remove: archive file [/home/abi/fetcher/tmp/autora-theorist-bms-1.0.2.tar.gz]
+[2023-07-14 14:41:04] INFO root fetch - processPackages [autora-theorist-bms]: Remove: archive file [/home/abi/fetcher/tmp/autora-theorist-bms-1.0.3.tar.gz]
+[2023-07-14 14:41:04] INFO root fetch - main [MainThread]: End processing [autora-theorist-bms]: success
+[2023-07-14 14:41:04] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.8.tar.gz]
+[2023-07-14 14:41:04] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.9.tar.gz]
+[2023-07-14 14:41:04] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
+[2023-07-14 14:41:05] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a7.tar.gz]
+[2023-07-14 14:41:05] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a9.tar.gz]
+[2023-07-14 14:41:05] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-07-14 14:41:05] INFO root fetch - main [MainThread]: Store serial: [18889493]
