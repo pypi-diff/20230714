@@ -22486,3 +22486,210 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-14 15:12:59] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.14-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-14 15:12:59] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-07-14 15:12:59] INFO root fetch - main [MainThread]: Store serial: [18889823]
+[2023-07-14 15:18:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18889823]
+[2023-07-14 15:18:12] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-14 15:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-nextauth-jwt
+[2023-07-14 15:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2023-07-14 15:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lti-consumer-xblock
+[2023-07-14 15:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-sim-template
+[2023-07-14 15:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pandas
+[2023-07-14 15:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonblocking-logging
+[2023-07-14 15:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: target-s3-delta
+[2023-07-14 15:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cognite-extractor-utils
+[2023-07-14 15:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-databend-cloud
+[2023-07-14 15:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chainforge
+[2023-07-14 15:18:13] INFO root fetch - processPackages [chainforge]: New version: [0.2.1.1] Old Version: [0.2.1]
+[2023-07-14 15:18:13] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 15:18:13] INFO root fetch - processPackages [lti-consumer-xblock]: New version: [9.5.5] Old Version: [9.5.4]
+[2023-07-14 15:18:13] INFO root fetch - processPackages [nonblocking-logging]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 15:18:13] INFO root fetch - processPackages [th2-grpc-sim-template]: New version: [3.2.0.dev5554474997] Old Version: [3.1.2.dev5552984188]
+[2023-07-14 15:18:13] INFO root fetch - processPackages [fastapi-nextauth-jwt]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-14 15:18:13] INFO root fetch - processPackages [cognite-extractor-utils]: New version: [5.3.0] Old Version: [5.2.1]
+[2023-07-14 15:18:13] INFO root fetch - processPackages [dbt-databend-cloud]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-07-14 15:18:13] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 15:18:13] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-14 15:18:13] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/6e/50/6609962e0ce887f6c841f96a73f490fe61ec69bc79eed9c6942d332cbd98/target_s3_delta-0.0.8.tar.gz
+[2023-07-14 15:18:13] INFO root fetch - processPackages [nonblocking-logging]: Downloading https://files.pythonhosted.org/packages/6b/00/c9e429a0ce1f721d09258cad9f7275dd3ca65ab30891dfab93c336efafea/nonblocking_logging-0.1.1.tar.gz
+[2023-07-14 15:18:13] INFO root fetch - processPackages [fastapi-nextauth-jwt]: Downloading https://files.pythonhosted.org/packages/78/10/1861c468d1a4290309600091a1c47059fe8f8f75450bae39b1d0401563e5/fastapi_nextauth_jwt-1.0.1.tar.gz
+[2023-07-14 15:18:13] INFO root fetch - processPackages [dbt-databend-cloud]: Downloading https://files.pythonhosted.org/packages/a4/92/5170cd9fe140277fa0636402f4f6a73671e7c91af438683a5b666313c45d/dbt_databend_cloud-1.3.9-py3-none-any.whl
+[2023-07-14 15:18:13] INFO root fetch - processPackages [th2-grpc-sim-template]: Downloading https://files.pythonhosted.org/packages/a7/51/3e26f851413b8ac086611765d0690854a4c6a53134df02b0d49f0974d946/th2_grpc_sim_template-3.1.2.dev5552984188.tar.gz
+[2023-07-14 15:18:13] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/8f/e7/865f6a0fb62b31ca1ee21a9a7ba2649b20dfc74ffe489d273fa3a20b9135/cognite_extractor_utils-5.2.1.tar.gz
+[2023-07-14 15:18:13] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/f5/a3/111294bb6876041f5c777ed7886a5fe2e5b0690d628ff49c36e85b75971b/chainforge-0.2.1.tar.gz
+[2023-07-14 15:18:13] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-14 15:18:13] INFO root fetch - processPackages [lti-consumer-xblock]: Downloading https://files.pythonhosted.org/packages/71/60/c441bb265901ed16cfbcf85647971834c1714573a0743f14e6e427eecf96/lti-consumer-xblock-9.5.4.tar.gz
+[2023-07-14 15:18:13] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-14 15:18:13] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/fb/f8/26c91f2455b8afd469305bcff50568a081c15ba427ed9957fa9c40f0067f/target_s3_delta-0.0.9.tar.gz
+[2023-07-14 15:18:13] INFO root fetch - processPackages [nonblocking-logging]: Downloading https://files.pythonhosted.org/packages/e6/85/18e4985646846439c0cca3bd88f62b52c78895abe70cb4ba769f4a7ea187/nonblocking_logging-0.1.2.tar.gz
+[2023-07-14 15:18:13] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-07-14 15:18:14] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.8.tar.gz tmp/target_s3_delta-0.0.9.tar.gz --markdown 20230714/t/target-s3-delta/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 15:18:14] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-14 15:18:14] INFO root fetch - processPackages [th2-grpc-sim-template]: Downloading https://files.pythonhosted.org/packages/2b/ff/e85196d15e6412b9848d1b52d5500c43fec5cc8f72f9fe2a6aabb6a4859e/th2_grpc_sim_template-3.2.0.dev5554474997.tar.gz
+[2023-07-14 15:18:14] INFO root fetch - processPackages [fastapi-nextauth-jwt]: Downloading https://files.pythonhosted.org/packages/1c/9d/52f41285b6709a0d3c2f4747a99f3e62c8479057706035642b19d1da562e/fastapi_nextauth_jwt-1.1.0.tar.gz
+[2023-07-14 15:18:14] INFO root fetch - processPackages [dbt-databend-cloud]: Downloading https://files.pythonhosted.org/packages/cf/62/83018d843531de2f211852ae1d8369f1a1c8ee49da2cac39eb3f59b8ed0e/dbt_databend_cloud-1.4.0-py3-none-any.whl
+[2023-07-14 15:18:14] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/15/d6/9314148f246c7e7072a9fa307dfaa211e3bf413d9acdd441fb46d252c9cd/cognite_extractor_utils-5.3.0.tar.gz
+[2023-07-14 15:18:14] INFO root fetch - processPackages [nonblocking-logging]: executing diffoscope
+[2023-07-14 15:18:14] INFO root fetch - processPackages [nonblocking-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonblocking_logging-0.1.1.tar.gz tmp/nonblocking_logging-0.1.2.tar.gz --markdown 20230714/n/nonblocking-logging/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 15:18:14] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-14 15:18:14] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230714/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 15:18:14] INFO root fetch - processPackages [lti-consumer-xblock]: Downloading https://files.pythonhosted.org/packages/47/09/ea883fe32b605e2a128a23e46006bb7f2b1e83f6d2645ba1a6e72f3446d0/lti-consumer-xblock-9.5.5.tar.gz
+[2023-07-14 15:18:14] INFO root fetch - processPackages [th2-grpc-sim-template]: executing diffoscope
+[2023-07-14 15:18:14] INFO root fetch - processPackages [th2-grpc-sim-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_sim_template-3.1.2.dev5552984188.tar.gz tmp/th2_grpc_sim_template-3.2.0.dev5554474997.tar.gz --markdown 20230714/t/th2-grpc-sim-template/3.1.2.dev5552984188-3.2.0.dev5554474997/diff.md --exclude *.pyd
+[2023-07-14 15:18:14] INFO root fetch - processPackages [cognite-extractor-utils]: executing diffoscope
+[2023-07-14 15:18:14] INFO root fetch - processPackages [cognite-extractor-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_extractor_utils-5.2.1.tar.gz tmp/cognite_extractor_utils-5.3.0.tar.gz --markdown 20230714/c/cognite-extractor-utils/5.2.1-5.3.0/diff.md --exclude *.pyd
+[2023-07-14 15:18:14] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-14 15:18:14] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/2b/7e/86976bce81e36f7445b76feb7cb8e14107509c3e29b95dc568cdc21ecde2/chainforge-0.2.1.1.tar.gz
+[2023-07-14 15:18:14] INFO root fetch - processPackages [dbt-databend-cloud]: executing diffoscope
+[2023-07-14 15:18:14] INFO root fetch - processPackages [dbt-databend-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_databend_cloud-1.3.9-py3-none-any.whl.zip tmp/dbt_databend_cloud-1.4.0-py3-none-any.whl.zip --markdown 20230714/d/dbt-databend-cloud/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-07-14 15:18:14] INFO root fetch - processPackages [fastapi-nextauth-jwt]: executing diffoscope
+[2023-07-14 15:18:14] INFO root fetch - processPackages [fastapi-nextauth-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_nextauth_jwt-1.0.1.tar.gz tmp/fastapi_nextauth_jwt-1.1.0.tar.gz --markdown 20230714/f/fastapi-nextauth-jwt/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-14 15:18:14] INFO root fetch - processPackages [lti-consumer-xblock]: executing diffoscope
+[2023-07-14 15:18:14] INFO root fetch - processPackages [lti-consumer-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lti-consumer-xblock-9.5.4.tar.gz tmp/lti-consumer-xblock-9.5.5.tar.gz --markdown 20230714/l/lti-consumer-xblock/9.5.4-9.5.5/diff.md --exclude *.pyd
+[2023-07-14 15:18:14] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-14 15:18:14] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230714/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 15:18:14] INFO root fetch - processPackages [chainforge]: executing diffoscope
+[2023-07-14 15:18:14] INFO root fetch - processPackages [chainforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainforge-0.2.1.tar.gz tmp/chainforge-0.2.1.1.tar.gz --markdown 20230714/c/chainforge/0.2.1-0.2.1.1/diff.md --exclude *.pyd
+[2023-07-14 15:18:15] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.8.tar.gz]
+[2023-07-14 15:18:15] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.9.tar.gz]
+[2023-07-14 15:18:15] INFO root fetch - processPackages [target-s3-delta]: Start processing: nbdev-pytorch
+[2023-07-14 15:18:15] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-07-14 15:18:15] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 15:18:15] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-14 15:18:15] INFO root fetch - processPackages [nonblocking-logging]: Remove: archive file [/home/abi/fetcher/tmp/nonblocking_logging-0.1.1.tar.gz]
+[2023-07-14 15:18:15] INFO root fetch - processPackages [nonblocking-logging]: Remove: archive file [/home/abi/fetcher/tmp/nonblocking_logging-0.1.2.tar.gz]
+[2023-07-14 15:18:15] INFO root fetch - processPackages [nonblocking-logging]: Start processing: birdroid.aws-secure-bucket
+[2023-07-14 15:18:15] INFO root fetch - main [MainThread]: End processing [nonblocking-logging]: success
+[2023-07-14 15:18:15] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-14 15:18:15] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-14 15:18:15] INFO root fetch - processPackages [nbdev-pandas]: Start processing: aa-package-monitor
+[2023-07-14 15:18:15] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-14 15:18:15] WARNING root fetch - processPackages [birdroid.aws-secure-bucket]: Skipping, unable to determine old version
+[2023-07-14 15:18:15] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: Start processing: bigdl-nano
+[2023-07-14 15:18:15] INFO root fetch - main [MainThread]: End processing [birdroid.aws-secure-bucket] error
+[2023-07-14 15:18:15] INFO root fetch - processPackages [th2-grpc-sim-template]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim_template-3.1.2.dev5552984188.tar.gz]
+[2023-07-14 15:18:15] INFO root fetch - processPackages [th2-grpc-sim-template]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim_template-3.2.0.dev5554474997.tar.gz]
+[2023-07-14 15:18:15] INFO root fetch - processPackages [th2-grpc-sim-template]: Start processing: bigdl-llm
+[2023-07-14 15:18:15] INFO root fetch - main [MainThread]: End processing [th2-grpc-sim-template]: success
+[2023-07-14 15:18:15] INFO root fetch - processPackages [aa-package-monitor]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-14 15:18:15] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-14 15:18:15] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230714] Old Version: [2.4.0b20230713]
+[2023-07-14 15:18:15] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230714] Old Version: [2.4.0b20230713]
+[2023-07-14 15:18:15] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/d3/10/ebfe83f336efd4f4076c5da97125f4850dbd7aa48bfc0aaceae721803a50/bigdl_llm-2.4.0b20230713-py3-none-win_amd64.whl
+[2023-07-14 15:18:16] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-14 15:18:16] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230714/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 15:18:16] INFO root fetch - processPackages [fastapi-nextauth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_nextauth_jwt-1.0.1.tar.gz]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [fastapi-nextauth-jwt]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_nextauth_jwt-1.1.0.tar.gz]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [fastapi-nextauth-jwt]: Start processing: bigdl-chronos
+[2023-07-14 15:18:16] INFO root fetch - main [MainThread]: End processing [fastapi-nextauth-jwt]: success
+[2023-07-14 15:18:16] INFO root fetch - processPackages [dbt-databend-cloud]: Remove: archive file [/home/abi/fetcher/tmp/dbt_databend_cloud-1.3.9-py3-none-any.whl.zip]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [dbt-databend-cloud]: Remove: archive file [/home/abi/fetcher/tmp/dbt_databend_cloud-1.4.0-py3-none-any.whl.zip]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [dbt-databend-cloud]: Start processing: gd32graphing
+[2023-07-14 15:18:16] INFO root fetch - main [MainThread]: End processing [dbt-databend-cloud]: success
+[2023-07-14 15:18:16] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230714] Old Version: [2.4.0b20230713]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [gd32graphing]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/29/1f/772b0c6fa8a3126a3312003a513ea79e56202d096cf33c17f94f2c101fee/bigdl_nano-2.4.0b20230713-py3-none-win_amd64.whl
+[2023-07-14 15:18:16] INFO root fetch - processPackages [aa-package-monitor]: Downloading https://files.pythonhosted.org/packages/70/6e/ab8e51cf531d3a95d247816d251174a087a8ca79265c4b36d8901370b3f7/aa_package_monitor-1.9.1.tar.gz
+[2023-07-14 15:18:16] INFO root fetch - processPackages [cognite-extractor-utils]: Remove: archive file [/home/abi/fetcher/tmp/cognite_extractor_utils-5.2.1.tar.gz]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [cognite-extractor-utils]: Remove: archive file [/home/abi/fetcher/tmp/cognite_extractor_utils-5.3.0.tar.gz]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [cognite-extractor-utils]: Start processing: bigdl-serving
+[2023-07-14 15:18:16] INFO root fetch - main [MainThread]: End processing [cognite-extractor-utils]: success
+[2023-07-14 15:18:16] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [few-shot-priming]: Start processing: weelib
+[2023-07-14 15:18:16] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-14 15:18:16] INFO root fetch - processPackages [gd32graphing]: Downloading https://files.pythonhosted.org/packages/42/64/f2e7fe8e87fe0d6a03cb09b3e466be9614d2a3459adcbc8cf8a0a30d9d58/gd32graphing-0.0.2.tar.gz
+[2023-07-14 15:18:16] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230714] Old Version: [2.4.0b20230713]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [weelib]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/7e/11/9cf956899dba2c1888411e15ec9f7a0a97ecd4149e693ccb1ad5b75a85ec/bigdl_llm-2.4.0b20230714-py3-none-win_amd64.whl
+[2023-07-14 15:18:16] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/26/98/01dc4e9c87aad97426455f530ff88639bafe3910104b6a2354eac67d8823/bigdl_serving-2.4.0b20230713-py2.py3-none-any.whl
+[2023-07-14 15:18:16] INFO root fetch - processPackages [weelib]: Downloading https://files.pythonhosted.org/packages/f4/29/872f5d51532be3d110275a75dc936abbc953477c1226ac9d2500bf1c8305/weelib-0.1.6.tar.gz
+[2023-07-14 15:18:16] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/89/6e/fe1608010e54bea8284dead190ca01c9b4e526ec0c01d591fc30d9cd66aa/bigdl_chronos-2.4.0b20230713-py3-none-win_amd64.whl
+[2023-07-14 15:18:16] INFO root fetch - processPackages [aa-package-monitor]: Downloading https://files.pythonhosted.org/packages/fc/f7/2e10da76ebb5c138616d42e05f0867bd1b7e4d48775ebf1b4a52c50d4f2a/aa_package_monitor-1.9.2.tar.gz
+[2023-07-14 15:18:16] INFO root fetch - processPackages [gd32graphing]: Downloading https://files.pythonhosted.org/packages/a0/12/5ffac1ac81de664cd00013514a03ae3e2f4b3f763e04b91382ce1c767c00/gd32graphing-0.0.3.tar.gz
+[2023-07-14 15:18:16] INFO root fetch - processPackages [lti-consumer-xblock]: Remove: archive file [/home/abi/fetcher/tmp/lti-consumer-xblock-9.5.4.tar.gz]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [lti-consumer-xblock]: Remove: archive file [/home/abi/fetcher/tmp/lti-consumer-xblock-9.5.5.tar.gz]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [lti-consumer-xblock]: Start processing: evennia
+[2023-07-14 15:18:16] INFO root fetch - main [MainThread]: End processing [lti-consumer-xblock]: success
+[2023-07-14 15:18:16] INFO root fetch - processPackages [evennia]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/45/5d/10a91974b0d198657672ea8dbae8987eaac1028612cb568060218ed396bd/bigdl_nano-2.4.0b20230714-py3-none-win_amd64.whl
+[2023-07-14 15:18:16] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/e5/cd/a432d2f23dab9a092c4331d6b698263f9083f6bbe86b8f23cffa39792e1b/bigdl_serving-2.4.0b20230714-py2.py3-none-any.whl
+[2023-07-14 15:18:16] INFO root fetch - processPackages [aa-package-monitor]: executing diffoscope
+[2023-07-14 15:18:16] INFO root fetch - processPackages [aa-package-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_package_monitor-1.9.1.tar.gz tmp/aa_package_monitor-1.9.2.tar.gz --markdown 20230714/a/aa-package-monitor/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-14 15:18:16] INFO root fetch - processPackages [weelib]: Downloading https://files.pythonhosted.org/packages/c5/82/622dfbabb8704ca531e9ed62053aa501e132ad92389e4c7f6b8f01847ae1/weelib-0.1.7.tar.gz
+[2023-07-14 15:18:16] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/9c/d5/80ff9f600afc9c3be08a0766ae68123f498d99f5769e85c4603341874d9e/bigdl_chronos-2.4.0b20230714-py3-none-win_amd64.whl
+[2023-07-14 15:18:16] INFO root fetch - processPackages [gd32graphing]: executing diffoscope
+[2023-07-14 15:18:16] INFO root fetch - processPackages [gd32graphing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gd32graphing-0.0.2.tar.gz tmp/gd32graphing-0.0.3.tar.gz --markdown 20230714/g/gd32graphing/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 15:18:16] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-14 15:18:16] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: nbdev-scipy
+[2023-07-14 15:18:16] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-14 15:18:16] INFO root fetch - processPackages [evennia]: Downloading https://files.pythonhosted.org/packages/27/b6/2770f954e9a615ea2c3f2d1ccc48f1b2c2491cd510e721309a94bcf28cb2/evennia-2.0.1.tar.gz
+[2023-07-14 15:18:16] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-14 15:18:16] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230713-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230714-py2.py3-none-any.whl.zip --markdown 20230714/b/bigdl-serving/2.4.0b20230713-2.4.0b20230714/diff.md --exclude *.pyd
+[2023-07-14 15:18:17] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-14 15:18:17] INFO root fetch - processPackages [weelib]: executing diffoscope
+[2023-07-14 15:18:17] INFO root fetch - processPackages [weelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weelib-0.1.6.tar.gz tmp/weelib-0.1.7.tar.gz --markdown 20230714/w/weelib/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-14 15:18:17] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-14 15:18:17] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230713-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230714-py3-none-win_amd64.whl.zip --markdown 20230714/b/bigdl-chronos/2.4.0b20230713-2.4.0b20230714/diff.md --exclude *.pyd
+[2023-07-14 15:18:17] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-14 15:18:17] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230713-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230714-py3-none-win_amd64.whl.zip --markdown 20230714/b/bigdl-llm/2.4.0b20230713-2.4.0b20230714/diff.md --exclude *.pyd
+[2023-07-14 15:18:17] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-14 15:18:17] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-14 15:18:17] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230713-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230714-py3-none-win_amd64.whl.zip --markdown 20230714/b/bigdl-nano/2.4.0b20230713-2.4.0b20230714/diff.md --exclude *.pyd
+[2023-07-14 15:18:17] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-14 15:18:17] INFO root fetch - processPackages [evennia]: Downloading https://files.pythonhosted.org/packages/6d/99/18e8bb4762f25871b20b1f1592081facd2a05049a67f25012b301eb8bc5c/evennia-2.1.0.tar.gz
+[2023-07-14 15:18:17] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-14 15:18:17] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230714/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-14 15:18:18] INFO root fetch - processPackages [evennia]: executing diffoscope
+[2023-07-14 15:18:18] INFO root fetch - processPackages [evennia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evennia-2.0.1.tar.gz tmp/evennia-2.1.0.tar.gz --markdown 20230714/e/evennia/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-07-14 15:18:18] INFO root fetch - processPackages [gd32graphing]: Remove: archive file [/home/abi/fetcher/tmp/gd32graphing-0.0.2.tar.gz]
+[2023-07-14 15:18:18] INFO root fetch - processPackages [gd32graphing]: Remove: archive file [/home/abi/fetcher/tmp/gd32graphing-0.0.3.tar.gz]
+[2023-07-14 15:18:18] INFO root fetch - processPackages [gd32graphing]: Start processing: sematic
+[2023-07-14 15:18:18] INFO root fetch - main [MainThread]: End processing [gd32graphing]: success
+[2023-07-14 15:18:18] INFO root fetch - processPackages [sematic]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-14 15:18:18] INFO root fetch - processPackages [aa-package-monitor]: Remove: archive file [/home/abi/fetcher/tmp/aa_package_monitor-1.9.1.tar.gz]
+[2023-07-14 15:18:18] INFO root fetch - processPackages [aa-package-monitor]: Remove: archive file [/home/abi/fetcher/tmp/aa_package_monitor-1.9.2.tar.gz]
+[2023-07-14 15:18:18] INFO root fetch - processPackages [aa-package-monitor]: Start processing: vedastro
+[2023-07-14 15:18:18] INFO root fetch - main [MainThread]: End processing [aa-package-monitor]: success
+[2023-07-14 15:18:18] INFO root fetch - processPackages [weelib]: Remove: archive file [/home/abi/fetcher/tmp/weelib-0.1.6.tar.gz]
+[2023-07-14 15:18:18] INFO root fetch - processPackages [weelib]: Remove: archive file [/home/abi/fetcher/tmp/weelib-0.1.7.tar.gz]
+[2023-07-14 15:18:18] INFO root fetch - processPackages [weelib]: Start processing: django-ace
+[2023-07-14 15:18:18] INFO root fetch - main [MainThread]: End processing [weelib]: success
+[2023-07-14 15:18:18] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230713-py2.py3-none-any.whl.zip]
+[2023-07-14 15:18:18] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230714-py2.py3-none-any.whl.zip]
+[2023-07-14 15:18:18] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-14 15:18:18] INFO root fetch - processPackages [sematic]: Downloading https://files.pythonhosted.org/packages/d2/0d/a5fb8f74f229be4fb51e48b4a6b8e9e2534e8f81d0a45ea955f70dd65f86/sematic-0.8.0-py3-none-any.whl
+[2023-07-14 15:18:18] WARNING root fetch - processPackages [vedastro]: Skipping, unable to determine old version
+[2023-07-14 15:18:18] INFO root fetch - main [MainThread]: End processing [vedastro] error
+[2023-07-14 15:18:18] INFO root fetch - processPackages [django-ace]: New version: [1.23.4] Old Version: [1.22.1]
+[2023-07-14 15:18:18] INFO root fetch - processPackages [django-ace]: Downloading https://files.pythonhosted.org/packages/00/1b/7448c6e552190f33bef6f2a79e9173e8f437c0c45bc1e703b4455ae1359d/django-ace-1.22.1.tar.gz
+[2023-07-14 15:18:18] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-14 15:18:18] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-14 15:18:18] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-14 15:18:19] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230713-py3-none-win_amd64.whl.zip]
+[2023-07-14 15:18:19] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230714-py3-none-win_amd64.whl.zip]
+[2023-07-14 15:18:19] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-14 15:18:19] INFO root fetch - processPackages [django-ace]: Downloading https://files.pythonhosted.org/packages/7a/fd/e9bf7575840e376013d4187c1dc1eb8ca2f7290b917945570ad6c6b7e46f/django-ace-1.23.4.tar.gz
+[2023-07-14 15:18:19] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230713-py3-none-win_amd64.whl.zip]
+[2023-07-14 15:18:19] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230714-py3-none-win_amd64.whl.zip]
+[2023-07-14 15:18:19] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-14 15:18:20] INFO root fetch - processPackages [django-ace]: executing diffoscope
+[2023-07-14 15:18:20] INFO root fetch - processPackages [django-ace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ace-1.22.1.tar.gz tmp/django-ace-1.23.4.tar.gz --markdown 20230714/d/django-ace/1.22.1-1.23.4/diff.md --exclude *.pyd
+[2023-07-14 15:18:20] INFO root fetch - processPackages [sematic]: Downloading https://files.pythonhosted.org/packages/6c/da/66aa52c982dd16ec61527b791f792948f173ec21d163d99374f27e06c2eb/sematic-0.9.0-py3-none-any.whl
+[2023-07-14 15:18:22] INFO root fetch - processPackages [sematic]: executing diffoscope
+[2023-07-14 15:18:22] INFO root fetch - processPackages [sematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sematic-0.8.0-py3-none-any.whl.zip tmp/sematic-0.9.0-py3-none-any.whl.zip --markdown 20230714/s/sematic/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 15:18:23] INFO root fetch - processPackages [evennia]: Remove: archive file [/home/abi/fetcher/tmp/evennia-2.0.1.tar.gz]
+[2023-07-14 15:18:23] INFO root fetch - processPackages [evennia]: Remove: archive file [/home/abi/fetcher/tmp/evennia-2.1.0.tar.gz]
+[2023-07-14 15:18:23] INFO root fetch - main [MainThread]: End processing [evennia]: success
+[2023-07-14 15:18:25] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230713-py3-none-win_amd64.whl.zip]
+[2023-07-14 15:18:25] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230714-py3-none-win_amd64.whl.zip]
+[2023-07-14 15:18:25] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-14 15:18:39] INFO root fetch - processPackages [django-ace]: Remove: archive file [/home/abi/fetcher/tmp/django-ace-1.22.1.tar.gz]
+[2023-07-14 15:18:39] INFO root fetch - processPackages [django-ace]: Remove: archive file [/home/abi/fetcher/tmp/django-ace-1.23.4.tar.gz]
+[2023-07-14 15:18:39] INFO root fetch - main [MainThread]: End processing [django-ace]: success
+[2023-07-14 15:18:52] INFO root fetch - processPackages [sematic]: Remove: archive file [/home/abi/fetcher/tmp/sematic-0.8.0-py3-none-any.whl.zip]
+[2023-07-14 15:18:52] INFO root fetch - processPackages [sematic]: Remove: archive file [/home/abi/fetcher/tmp/sematic-0.9.0-py3-none-any.whl.zip]
+[2023-07-14 15:18:52] INFO root fetch - main [MainThread]: End processing [sematic]: success
+[2023-07-14 15:19:19] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.1.tar.gz]
+[2023-07-14 15:19:19] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.1.1.tar.gz]
+[2023-07-14 15:19:19] INFO root fetch - main [MainThread]: End processing [chainforge]: success
+[2023-07-14 15:19:19] INFO root fetch - main [MainThread]: Store serial: [18889892]
