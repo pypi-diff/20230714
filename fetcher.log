@@ -5718,3 +5718,97 @@
 [2023-07-14 03:30:19] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-07-14 03:30:19] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-07-14 03:30:19] INFO root fetch - main [MainThread]: Store serial: [18883338]
+[2023-07-14 03:35:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18883338]
+[2023-07-14 03:35:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-14 03:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rna-tools
+[2023-07-14 03:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kirkwoodnight
+[2023-07-14 03:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goobie
+[2023-07-14 03:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bcdata
+[2023-07-14 03:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-subminute
+[2023-07-14 03:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shaq
+[2023-07-14 03:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-enabler
+[2023-07-14 03:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kirkwoodnight
+[2023-07-14 03:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xj-thread
+[2023-07-14 03:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: npn
+[2023-07-14 03:35:28] INFO root fetch - processPackages [shaq]: New version: [0.0.1rc1] Old Version: [0.0.1rc0]
+[2023-07-14 03:35:28] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 03:35:28] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 03:35:28] INFO root fetch - processPackages [bcdata]: New version: [0.8.0b1] Old Version: [0.8.0a3]
+[2023-07-14 03:35:28] INFO root fetch - processPackages [pytest-enabler]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-14 03:35:28] INFO root fetch - processPackages [rna-tools]: New version: [3.8.6] Old Version: [3.8.5]
+[2023-07-14 03:35:28] WARNING root fetch - processPackages [goobie]: Skipping, unable to determine old version
+[2023-07-14 03:35:28] INFO root fetch - processPackages [goobie]: Start processing: fv1-programmer
+[2023-07-14 03:35:28] INFO root fetch - main [MainThread]: End processing [goobie] error
+[2023-07-14 03:35:28] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-14 03:35:28] INFO root fetch - processPackages [npn]: New version: [1.1] Old Version: [1.0]
+[2023-07-14 03:35:28] INFO root fetch - processPackages [shaq]: Downloading https://files.pythonhosted.org/packages/49/40/1741fe02f50a17a7b44401c49ebe9b5e4c4fa401ca7d3618469f87a35d07/shaq-0.0.1rc0.tar.gz
+[2023-07-14 03:35:28] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-14 03:35:28] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 03:35:28] INFO root fetch - processPackages [pytest-enabler]: Downloading https://files.pythonhosted.org/packages/95/ef/02be8dec41263a2b06ff2b8052b809e2545629f8300b089d5c2c5253ce20/pytest-enabler-2.3.0.tar.gz
+[2023-07-14 03:35:28] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 03:35:28] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-14 03:35:28] INFO root fetch - processPackages [fv1-programmer]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-07-14 03:35:28] INFO root fetch - processPackages [bcdata]: Downloading https://files.pythonhosted.org/packages/11/5e/074e56ccd4245ec1bf542f766472086a4b43e5dff21442536b68d0d102c1/bcdata-0.8.0a3.tar.gz
+[2023-07-14 03:35:28] INFO root fetch - processPackages [rna-tools]: Downloading https://files.pythonhosted.org/packages/fc/28/54f42db5d1d8058ac335285407279b707fba209f5002f9d45fb13a5507c2/rna_tools-3.8.5-py3-none-any.whl
+[2023-07-14 03:35:29] INFO root fetch - processPackages [npn]: Downloading https://files.pythonhosted.org/packages/76/1f/fbc9152f0a6d44609545086cbcd8a132b3a0d624b20f5e22f00cd94a93ab/npn-1.0.tar.gz
+[2023-07-14 03:35:29] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-07-14 03:35:29] INFO root fetch - processPackages [shaq]: Downloading https://files.pythonhosted.org/packages/c6/3a/7077b8eefc609021dd1c7be49c69b4907675ff04a483d4758f4ce198e764/shaq-0.0.1rc1.tar.gz
+[2023-07-14 03:35:29] INFO root fetch - processPackages [fv1-programmer]: Downloading https://files.pythonhosted.org/packages/82/6b/b7c61cce39dbec76fa65902ab681e3c34eaeac4fdbe666500e4d9d49ebca/fv1_programmer-0.2.1.tar.gz
+[2023-07-14 03:35:29] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 03:35:29] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 03:35:29] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-14 03:35:29] INFO root fetch - processPackages [pytest-enabler]: Downloading https://files.pythonhosted.org/packages/bd/08/3a9516eeb3f8c8bd393347ad82688150d2a1e753edf1bc1565101ed0cd38/pytest-enabler-2.3.1.tar.gz
+[2023-07-14 03:35:29] INFO root fetch - processPackages [shaq]: executing diffoscope
+[2023-07-14 03:35:29] INFO root fetch - processPackages [shaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaq-0.0.1rc0.tar.gz tmp/shaq-0.0.1rc1.tar.gz --markdown 20230714/s/shaq/0.0.1rc0-0.0.1rc1/diff.md --exclude *.pyd
+[2023-07-14 03:35:29] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 03:35:29] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 03:35:29] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 03:35:29] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 03:35:29] INFO root fetch - processPackages [bcdata]: Downloading https://files.pythonhosted.org/packages/55/ab/54160822b66176b8f15470032599438968441fb97905c69a37139dc5100e/bcdata-0.8.0b1.tar.gz
+[2023-07-14 03:35:29] INFO root fetch - processPackages [rna-tools]: Downloading https://files.pythonhosted.org/packages/a5/23/4d5f4be246b1d866327d5cc6efa1c4b508e3ca659cfdc33efceda1613518/rna_tools-3.8.6-py3-none-any.whl
+[2023-07-14 03:35:29] INFO root fetch - processPackages [npn]: Downloading https://files.pythonhosted.org/packages/6d/5e/bc26406a2f4b52082b586cfc9447a5c07c995122260aadbf9d46d5d04bb8/npn-1.1.tar.gz
+[2023-07-14 03:35:29] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-14 03:35:29] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230714/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-14 03:35:29] INFO root fetch - processPackages [pytest-enabler]: executing diffoscope
+[2023-07-14 03:35:29] INFO root fetch - processPackages [pytest-enabler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-enabler-2.3.0.tar.gz tmp/pytest-enabler-2.3.1.tar.gz --markdown 20230714/p/pytest-enabler/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-14 03:35:29] INFO root fetch - processPackages [fv1-programmer]: Downloading https://files.pythonhosted.org/packages/54/69/6b99b8b4339037f116b83c6b16c45b528562860105256115d3309099faee/fv1_programmer-0.2.3.tar.gz
+[2023-07-14 03:35:29] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-07-14 03:35:29] INFO root fetch - processPackages [rna-tools]: executing diffoscope
+[2023-07-14 03:35:29] INFO root fetch - processPackages [rna-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rna_tools-3.8.5-py3-none-any.whl.zip tmp/rna_tools-3.8.6-py3-none-any.whl.zip --markdown 20230714/r/rna-tools/3.8.5-3.8.6/diff.md --exclude *.pyd
+[2023-07-14 03:35:29] INFO root fetch - processPackages [bcdata]: executing diffoscope
+[2023-07-14 03:35:29] INFO root fetch - processPackages [bcdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcdata-0.8.0a3.tar.gz tmp/bcdata-0.8.0b1.tar.gz --markdown 20230714/b/bcdata/0.8.0a3-0.8.0b1/diff.md --exclude *.pyd
+[2023-07-14 03:35:29] INFO root fetch - processPackages [npn]: executing diffoscope
+[2023-07-14 03:35:29] INFO root fetch - processPackages [npn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npn-1.0.tar.gz tmp/npn-1.1.tar.gz --markdown 20230714/n/npn/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-14 03:35:29] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-07-14 03:35:29] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230714/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-14 03:35:29] INFO root fetch - processPackages [fv1-programmer]: executing diffoscope
+[2023-07-14 03:35:29] INFO root fetch - processPackages [fv1-programmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fv1_programmer-0.2.1.tar.gz tmp/fv1_programmer-0.2.3.tar.gz --markdown 20230714/f/fv1-programmer/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-14 03:35:30] INFO root fetch - processPackages [shaq]: Remove: archive file [/home/abi/fetcher/tmp/shaq-0.0.1rc0.tar.gz]
+[2023-07-14 03:35:30] INFO root fetch - processPackages [shaq]: Remove: archive file [/home/abi/fetcher/tmp/shaq-0.0.1rc1.tar.gz]
+[2023-07-14 03:35:30] INFO root fetch - main [MainThread]: End processing [shaq]: success
+[2023-07-14 03:35:31] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 03:35:31] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 03:35:31] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-14 03:35:31] INFO root fetch - processPackages [pytest-enabler]: Remove: archive file [/home/abi/fetcher/tmp/pytest-enabler-2.3.0.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - processPackages [pytest-enabler]: Remove: archive file [/home/abi/fetcher/tmp/pytest-enabler-2.3.1.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - main [MainThread]: End processing [pytest-enabler]: success
+[2023-07-14 03:35:31] INFO root fetch - processPackages [fv1-programmer]: Remove: archive file [/home/abi/fetcher/tmp/fv1_programmer-0.2.1.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - processPackages [fv1-programmer]: Remove: archive file [/home/abi/fetcher/tmp/fv1_programmer-0.2.3.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - main [MainThread]: End processing [fv1-programmer]: success
+[2023-07-14 03:35:31] INFO root fetch - processPackages [bcdata]: Remove: archive file [/home/abi/fetcher/tmp/bcdata-0.8.0a3.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - processPackages [bcdata]: Remove: archive file [/home/abi/fetcher/tmp/bcdata-0.8.0b1.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - main [MainThread]: End processing [bcdata]: success
+[2023-07-14 03:35:31] INFO root fetch - processPackages [npn]: Remove: archive file [/home/abi/fetcher/tmp/npn-1.0.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - processPackages [npn]: Remove: archive file [/home/abi/fetcher/tmp/npn-1.1.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - main [MainThread]: End processing [npn]: success
+[2023-07-14 03:35:31] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.98.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
+[2023-07-14 03:35:31] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-07-14 03:35:33] INFO root fetch - processPackages [rna-tools]: Remove: archive file [/home/abi/fetcher/tmp/rna_tools-3.8.5-py3-none-any.whl.zip]
+[2023-07-14 03:35:33] INFO root fetch - processPackages [rna-tools]: Remove: archive file [/home/abi/fetcher/tmp/rna_tools-3.8.6-py3-none-any.whl.zip]
+[2023-07-14 03:35:33] INFO root fetch - main [MainThread]: End processing [rna-tools]: success
+[2023-07-14 03:35:33] INFO root fetch - main [MainThread]: Store serial: [18883371]
