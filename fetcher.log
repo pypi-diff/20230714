@@ -12642,3 +12642,69 @@ AssertionError: tmp/aorta_sirius_dev-0.8.tar.gz does not exist
 [2023-07-14 07:20:42] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230712-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-14 07:20:42] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-07-14 07:20:42] INFO root fetch - main [MainThread]: Store serial: [18885681]
+[2023-07-14 07:25:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885681]
+[2023-07-14 07:25:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 07:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Inde-Abbre
+[2023-07-14 07:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waffle-box
+[2023-07-14 07:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crowdstrike-falconpy-dev
+[2023-07-14 07:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: VGPY
+[2023-07-14 07:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crowdstrike-falconpy
+[2023-07-14 07:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-adapter-feishu
+[2023-07-14 07:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clinker
+[2023-07-14 07:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BIOecmpy
+[2023-07-14 07:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iv-tools
+[2023-07-14 07:25:55] INFO root fetch - processPackages [nonebot-adapter-feishu]: New version: [2.0.0b8] Old Version: [2.0.0b7]
+[2023-07-14 07:25:55] WARNING root fetch - processPackages [VGPY]: Skipping, unable to determine old version
+[2023-07-14 07:25:55] INFO root fetch - main [MainThread]: End processing [VGPY] error
+[2023-07-14 07:25:55] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: New version: [1.3.0.dev6] Old Version: [1.3.0.dev1]
+[2023-07-14 07:25:55] WARNING root fetch - processPackages [BIOecmpy]: Skipping, unable to determine old version
+[2023-07-14 07:25:55] INFO root fetch - main [MainThread]: End processing [BIOecmpy] error
+[2023-07-14 07:25:55] WARNING root fetch - processPackages [waffle-box]: Skipping, unable to determine old version
+[2023-07-14 07:25:55] INFO root fetch - main [MainThread]: End processing [waffle-box] error
+[2023-07-14 07:25:55] INFO root fetch - processPackages [Inde-Abbre]: New version: [0.1] Old Version: [0.0.9]
+[2023-07-14 07:25:55] INFO root fetch - processPackages [iv-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-14 07:25:55] INFO root fetch - processPackages [clinker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 07:25:55] INFO root fetch - processPackages [crowdstrike-falconpy]: New version: [1.3.0.dev6] Old Version: [1.3.0.dev5]
+[2023-07-14 07:25:55] INFO root fetch - processPackages [iv-tools]: Downloading https://files.pythonhosted.org/packages/b3/3f/7e9e2aa4b2cca7574ff0696c49fc111c66ddcd0810138facd8d22a918d1e/iv_tools-0.0.2.tar.gz
+[2023-07-14 07:25:55] INFO root fetch - processPackages [nonebot-adapter-feishu]: Downloading https://files.pythonhosted.org/packages/98/dd/91410a20e235eb05933306008997c83f75df44c3dc7b5302b0a29d9dfbfe/nonebot_adapter_feishu-2.0.0b7.tar.gz
+[2023-07-14 07:25:55] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Downloading https://files.pythonhosted.org/packages/ee/c2/56f3227aeb9e54800f4081fb509190ffcb87d175d9c8f1dd878cb61f9026/crowdstrike-falconpy-dev-1.3.0.dev1.tar.gz
+[2023-07-14 07:25:55] INFO root fetch - processPackages [clinker]: Downloading https://files.pythonhosted.org/packages/c4/8f/460539b13d35d5f111f66501d7fb5fa01ed157fe8cb926bd2d9f883f12d4/clinker-0.0.8.tar.gz
+[2023-07-14 07:25:55] INFO root fetch - processPackages [Inde-Abbre]: Downloading https://files.pythonhosted.org/packages/d6/7a/b16cd8acd4b431a10feea083d4bbaaaac79ec336d0bfd48112e5978c253a/Inde_Abbre-0.0.9-py3-none-any.whl
+[2023-07-14 07:25:55] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/5d/32/01425dc7cfb10bd46c69240b4effa634878171bf4d4db9b95ff21feec6f4/crowdstrike-falconpy-1.3.0.dev5.tar.gz
+[2023-07-14 07:25:55] INFO root fetch - processPackages [iv-tools]: Downloading https://files.pythonhosted.org/packages/7f/fd/57620b2291caa40408e5be1b4b41ab5aa3cc7d56c643076e6e69b5b205f2/iv_tools-0.0.3.tar.gz
+[2023-07-14 07:25:55] INFO root fetch - processPackages [iv-tools]: executing diffoscope
+[2023-07-14 07:25:55] INFO root fetch - processPackages [iv-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iv_tools-0.0.2.tar.gz tmp/iv_tools-0.0.3.tar.gz --markdown 20230714/i/iv-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 07:25:55] INFO root fetch - processPackages [clinker]: Downloading https://files.pythonhosted.org/packages/ca/cd/c5fb2b85842fab411ab4b7f93b4cdecba601a6c7745d10121db0839bcde5/clinker-0.0.9.tar.gz
+[2023-07-14 07:25:55] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Downloading https://files.pythonhosted.org/packages/db/fb/bad0d9e4ac087215a4b790b28d28ec5451031392538195d5e0b4f7a98fe8/crowdstrike-falconpy-dev-1.3.0.dev6.tar.gz
+[2023-07-14 07:25:55] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/7e/32/816cc23497068b32c56ebc929ce06c06dd37bd1d859927d484dc25c4e54b/crowdstrike-falconpy-1.3.0.dev6.tar.gz
+[2023-07-14 07:25:55] INFO root fetch - processPackages [Inde-Abbre]: Downloading https://files.pythonhosted.org/packages/c4/cd/22d5d7331b1d3cd522632cd91e0434d1ebe6de2bb9074a19dbae073ae3ae/Inde_Abbre-0.1.tar.gz
+[2023-07-14 07:25:55] INFO root fetch - processPackages [nonebot-adapter-feishu]: Downloading https://files.pythonhosted.org/packages/aa/cc/9583f1631bcaf2bcebeb657ab79610650bc75136570ca8f850ebcb501160/nonebot_adapter_feishu-2.0.0b8.tar.gz
+[2023-07-14 07:25:56] INFO root fetch - processPackages [clinker]: executing diffoscope
+[2023-07-14 07:25:56] INFO root fetch - processPackages [clinker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinker-0.0.8.tar.gz tmp/clinker-0.0.9.tar.gz --markdown 20230714/c/clinker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 07:25:56] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: executing diffoscope
+[2023-07-14 07:25:56] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-dev-1.3.0.dev1.tar.gz tmp/crowdstrike-falconpy-dev-1.3.0.dev6.tar.gz --markdown 20230714/c/crowdstrike-falconpy-dev/1.3.0.dev1-1.3.0.dev6/diff.md --exclude *.pyd
+[2023-07-14 07:25:56] INFO root fetch - processPackages [crowdstrike-falconpy]: executing diffoscope
+[2023-07-14 07:25:56] INFO root fetch - processPackages [crowdstrike-falconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-1.3.0.dev5.tar.gz tmp/crowdstrike-falconpy-1.3.0.dev6.tar.gz --markdown 20230714/c/crowdstrike-falconpy/1.3.0.dev5-1.3.0.dev6/diff.md --exclude *.pyd
+[2023-07-14 07:25:56] INFO root fetch - processPackages [Inde-Abbre]: executing diffoscope
+[2023-07-14 07:25:56] INFO root fetch - processPackages [Inde-Abbre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Inde_Abbre-0.0.9-py3-none-any.whl.zip tmp/Inde_Abbre-0.1.tar.gz --markdown 20230714/I/Inde-Abbre/0.0.9-0.1/diff.md --exclude *.pyd
+[2023-07-14 07:25:56] INFO root fetch - processPackages [nonebot-adapter-feishu]: executing diffoscope
+[2023-07-14 07:25:56] INFO root fetch - processPackages [nonebot-adapter-feishu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_feishu-2.0.0b7.tar.gz tmp/nonebot_adapter_feishu-2.0.0b8.tar.gz --markdown 20230714/n/nonebot-adapter-feishu/2.0.0b7-2.0.0b8/diff.md --exclude *.pyd
+[2023-07-14 07:25:56] INFO root fetch - processPackages [iv-tools]: Remove: archive file [/home/abi/fetcher/tmp/iv_tools-0.0.2.tar.gz]
+[2023-07-14 07:25:56] INFO root fetch - processPackages [iv-tools]: Remove: archive file [/home/abi/fetcher/tmp/iv_tools-0.0.3.tar.gz]
+[2023-07-14 07:25:56] INFO root fetch - main [MainThread]: End processing [iv-tools]: success
+[2023-07-14 07:25:57] INFO root fetch - processPackages [Inde-Abbre]: Remove: archive file [/home/abi/fetcher/tmp/Inde_Abbre-0.0.9-py3-none-any.whl.zip]
+[2023-07-14 07:25:57] INFO root fetch - processPackages [Inde-Abbre]: Remove: archive file [/home/abi/fetcher/tmp/Inde_Abbre-0.1.tar.gz]
+[2023-07-14 07:25:57] INFO root fetch - main [MainThread]: End processing [Inde-Abbre]: success
+[2023-07-14 07:25:57] INFO root fetch - processPackages [nonebot-adapter-feishu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_feishu-2.0.0b7.tar.gz]
+[2023-07-14 07:25:57] INFO root fetch - processPackages [nonebot-adapter-feishu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_feishu-2.0.0b8.tar.gz]
+[2023-07-14 07:25:57] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-feishu]: success
+[2023-07-14 07:25:57] INFO root fetch - processPackages [clinker]: Remove: archive file [/home/abi/fetcher/tmp/clinker-0.0.8.tar.gz]
+[2023-07-14 07:25:57] INFO root fetch - processPackages [clinker]: Remove: archive file [/home/abi/fetcher/tmp/clinker-0.0.9.tar.gz]
+[2023-07-14 07:25:57] INFO root fetch - main [MainThread]: End processing [clinker]: success
+[2023-07-14 07:25:57] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev5.tar.gz]
+[2023-07-14 07:25:57] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev6.tar.gz]
+[2023-07-14 07:25:57] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy]: success
+[2023-07-14 07:25:58] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-dev-1.3.0.dev1.tar.gz]
+[2023-07-14 07:25:58] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-dev-1.3.0.dev6.tar.gz]
+[2023-07-14 07:25:58] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy-dev]: success
+[2023-07-14 07:25:58] INFO root fetch - main [MainThread]: Store serial: [18885713]
