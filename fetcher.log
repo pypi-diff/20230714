@@ -10058,3 +10058,81 @@
 [2023-07-14 04:42:45] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
 [2023-07-14 04:42:45] INFO root fetch - main [MainThread]: End processing [m23]: success
 [2023-07-14 04:42:45] INFO root fetch - main [MainThread]: Store serial: [18884778]
+[2023-07-14 04:47:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18884778]
+[2023-07-14 04:47:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 04:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaar-gpt
+[2023-07-14 04:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ladybug-comfort
+[2023-07-14 04:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yxspkg
+[2023-07-14 04:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geovis-upload-sdk
+[2023-07-14 04:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-25
+[2023-07-14 04:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-26
+[2023-07-14 04:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-auth-dingding
+[2023-07-14 04:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: naif-eop-high-prec
+[2023-07-14 04:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tva-utils
+[2023-07-14 04:47:54] WARNING root fetch - processPackages [kaar-gpt]: Skipping, unable to determine old version
+[2023-07-14 04:47:54] INFO root fetch - main [MainThread]: End processing [kaar-gpt] error
+[2023-07-14 04:47:54] INFO root fetch - processPackages [django-auth-dingding]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-14 04:47:54] INFO root fetch - processPackages [geovis-upload-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-14 04:47:54] INFO root fetch - processPackages [tva-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 04:47:54] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-14 04:47:54] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.88]
+[2023-07-14 04:47:54] INFO root fetch - processPackages [yxspkg]: New version: [6.9.8] Old Version: [6.9.7]
+[2023-07-14 04:47:54] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.88]
+[2023-07-14 04:47:54] INFO root fetch - processPackages [ladybug-comfort]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-14 04:47:54] INFO root fetch - processPackages [tva-utils]: Downloading https://files.pythonhosted.org/packages/90/5c/507b396117f699eadcc3ed5dc0bbb6730d680f40b8abeb1eb3ece4951174/tva_utils-0.1.8.tar.gz
+[2023-07-14 04:47:54] INFO root fetch - processPackages [django-auth-dingding]: Downloading https://files.pythonhosted.org/packages/ff/43/cf15f9955894f5a205b75398681d09217496332a2421b89c4fa48ba377c6/django_auth_dingding-0.0.2.tar.gz
+[2023-07-14 04:47:54] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/e9/00/1c979a6338313aa1384817dcfb17d78f225f07292739c9ace51701b7cc62/yxspkg-6.9.7-py3-none-any.whl
+[2023-07-14 04:47:54] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/1f/0e/8cd54fbeabaab1a0ce1ed82c955ca0245155eb9b16377b210ceff210eeae/cdk8s-plus-26-2.4.88.tar.gz
+[2023-07-14 04:47:54] INFO root fetch - processPackages [geovis-upload-sdk]: Downloading https://files.pythonhosted.org/packages/58/84/44877562d8d3e65cd99f06a34d9ecab5c2ccf179136600786ebae6cfffbe/geovis_upload_sdk-0.0.1.tar.gz
+[2023-07-14 04:47:54] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-14 04:47:54] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/f0/19/1bcc3d4f7969740ae17ac74ca767773757df297f6e4f407a44e1dbada0e6/cdk8s-plus-25-2.8.88.tar.gz
+[2023-07-14 04:47:54] INFO root fetch - processPackages [ladybug-comfort]: Downloading https://files.pythonhosted.org/packages/6a/bf/8102b0e33435882b5600b8c0d7b5ebb92e379d665f3767b706dce6bdd2d3/ladybug-comfort-0.9.8.tar.gz
+[2023-07-14 04:47:55] INFO root fetch - processPackages [tva-utils]: Downloading https://files.pythonhosted.org/packages/19/c7/076d7f075ec53ef276823c10a6662d0c8d95dd74ef187d17a84669e36899/tva_utils-0.1.9.tar.gz
+[2023-07-14 04:47:55] INFO root fetch - processPackages [django-auth-dingding]: Downloading https://files.pythonhosted.org/packages/d1/fb/acaf6acfda78225e9911229dabf48398e97840b371290ef6ea35fbdee062/django_auth_dingding-0.0.3.tar.gz
+[2023-07-14 04:47:55] INFO root fetch - processPackages [geovis-upload-sdk]: Downloading https://files.pythonhosted.org/packages/3f/32/891521ca70f391fee12ce91d5d6079763fa2de9887466114901c6af40f95/geovis_upload_sdk-0.0.2-py3-none-any.whl
+[2023-07-14 04:47:55] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-14 04:47:55] INFO root fetch - processPackages [django-auth-dingding]: executing diffoscope
+[2023-07-14 04:47:55] INFO root fetch - processPackages [django-auth-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_auth_dingding-0.0.2.tar.gz tmp/django_auth_dingding-0.0.3.tar.gz --markdown 20230714/d/django-auth-dingding/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 04:47:55] INFO root fetch - processPackages [tva-utils]: executing diffoscope
+[2023-07-14 04:47:55] INFO root fetch - processPackages [tva-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tva_utils-0.1.8.tar.gz tmp/tva_utils-0.1.9.tar.gz --markdown 20230714/t/tva-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 04:47:55] INFO root fetch - processPackages [ladybug-comfort]: Downloading https://files.pythonhosted.org/packages/01/02/b871500d4bb81f18c253d98ce272a040dfa679de4682eb2f66a1f039c17a/ladybug-comfort-0.9.9.tar.gz
+[2023-07-14 04:47:55] INFO root fetch - processPackages [geovis-upload-sdk]: executing diffoscope
+[2023-07-14 04:47:55] INFO root fetch - processPackages [geovis-upload-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovis_upload_sdk-0.0.1.tar.gz tmp/geovis_upload_sdk-0.0.2-py3-none-any.whl.zip --markdown 20230714/g/geovis-upload-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-14 04:47:55] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-14 04:47:55] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/7e/bf/a221195649dec2f4c5919f5d972d01beb568006bb8958fd387c423f1aaac/yxspkg-6.9.8-py3-none-any.whl
+[2023-07-14 04:47:55] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-14 04:47:55] INFO root fetch - processPackages [ladybug-comfort]: executing diffoscope
+[2023-07-14 04:47:55] INFO root fetch - processPackages [ladybug-comfort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-comfort-0.9.8.tar.gz tmp/ladybug-comfort-0.9.9.tar.gz --markdown 20230714/l/ladybug-comfort/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-14 04:47:55] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-14 04:47:55] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.88.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230714/c/cdk8s-plus-26/2.4.88-2.4.9/diff.md --exclude *.pyd
+[2023-07-14 04:47:55] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-14 04:47:55] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230714/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-14 04:47:55] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-14 04:47:55] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.88.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230714/c/cdk8s-plus-25/2.8.88-2.8.9/diff.md --exclude *.pyd
+[2023-07-14 04:47:56] INFO root fetch - processPackages [yxspkg]: executing diffoscope
+[2023-07-14 04:47:56] INFO root fetch - processPackages [yxspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxspkg-6.9.7-py3-none-any.whl.zip tmp/yxspkg-6.9.8-py3-none-any.whl.zip --markdown 20230714/y/yxspkg/6.9.7-6.9.8/diff.md --exclude *.pyd
+[2023-07-14 04:47:56] INFO root fetch - processPackages [tva-utils]: Remove: archive file [/home/abi/fetcher/tmp/tva_utils-0.1.8.tar.gz]
+[2023-07-14 04:47:56] INFO root fetch - processPackages [tva-utils]: Remove: archive file [/home/abi/fetcher/tmp/tva_utils-0.1.9.tar.gz]
+[2023-07-14 04:47:56] INFO root fetch - main [MainThread]: End processing [tva-utils]: success
+[2023-07-14 04:47:56] INFO root fetch - processPackages [django-auth-dingding]: Remove: archive file [/home/abi/fetcher/tmp/django_auth_dingding-0.0.2.tar.gz]
+[2023-07-14 04:47:56] INFO root fetch - processPackages [django-auth-dingding]: Remove: archive file [/home/abi/fetcher/tmp/django_auth_dingding-0.0.3.tar.gz]
+[2023-07-14 04:47:56] INFO root fetch - main [MainThread]: End processing [django-auth-dingding]: success
+[2023-07-14 04:47:56] INFO root fetch - processPackages [geovis-upload-sdk]: Remove: archive file [/home/abi/fetcher/tmp/geovis_upload_sdk-0.0.1.tar.gz]
+[2023-07-14 04:47:56] INFO root fetch - processPackages [geovis-upload-sdk]: Remove: archive file [/home/abi/fetcher/tmp/geovis_upload_sdk-0.0.2-py3-none-any.whl.zip]
+[2023-07-14 04:47:56] INFO root fetch - main [MainThread]: End processing [geovis-upload-sdk]: success
+[2023-07-14 04:47:57] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.88.tar.gz]
+[2023-07-14 04:47:57] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-14 04:47:57] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-14 04:47:57] INFO root fetch - processPackages [ladybug-comfort]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-comfort-0.9.8.tar.gz]
+[2023-07-14 04:47:57] INFO root fetch - processPackages [ladybug-comfort]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-comfort-0.9.9.tar.gz]
+[2023-07-14 04:47:57] INFO root fetch - main [MainThread]: End processing [ladybug-comfort]: success
+[2023-07-14 04:47:57] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.88.tar.gz]
+[2023-07-14 04:47:57] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-14 04:47:57] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-14 04:47:57] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.7-py3-none-any.whl.zip]
+[2023-07-14 04:47:57] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.8-py3-none-any.whl.zip]
+[2023-07-14 04:47:57] INFO root fetch - main [MainThread]: End processing [yxspkg]: success
+[2023-07-14 04:47:58] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-14 04:47:58] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-14 04:47:58] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-14 04:47:58] INFO root fetch - main [MainThread]: Store serial: [18884805]
