@@ -18717,3 +18717,93 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 12:18:29] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230714101424.tar.gz]
 [2023-07-14 12:18:29] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-14 12:18:29] INFO root fetch - main [MainThread]: Store serial: [18888217]
+[2023-07-14 12:23:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888217]
+[2023-07-14 12:23:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-14 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adit-dicomweb-client
+[2023-07-14 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dicee
+[2023-07-14 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mrzerocore
+[2023-07-14 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: saffier
+[2023-07-14 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adit-dicomweb-client
+[2023-07-14 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matrix-nio
+[2023-07-14 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyfi
+[2023-07-14 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-14 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vdk-jupyterlab-extension
+[2023-07-14 12:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aicli
+[2023-07-14 12:23:39] INFO root fetch - processPackages [adit-dicomweb-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-14 12:23:39] INFO root fetch - processPackages [mrzerocore]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-14 12:23:39] INFO root fetch - processPackages [dicee]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-14 12:23:39] INFO root fetch - processPackages [matrix-nio]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-14 12:23:39] INFO root fetch - processPackages [hyfi]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-14 12:23:39] INFO root fetch - processPackages [saffier]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-14 12:23:39] INFO root fetch - processPackages [adit-dicomweb-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-14 12:23:39] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-14 12:23:39] INFO root fetch - processPackages [vdk-jupyterlab-extension]: New version: [0.1.931128384] Old Version: [0.1.930039523]
+[2023-07-14 12:23:39] INFO root fetch - processPackages [aicli]: New version: [99.0.202307141022] Old Version: [99.0.202307102058]
+[2023-07-14 12:23:39] INFO root fetch - processPackages [mrzerocore]: Downloading https://files.pythonhosted.org/packages/c5/03/dfcf7ba9c61f484c5f5ffa51b06030b43c7ada9106b184b7001a055e34de/MRzeroCore-0.2.1-cp37-abi3-win_amd64.whl
+[2023-07-14 12:23:39] INFO root fetch - processPackages [saffier]: Downloading https://files.pythonhosted.org/packages/5a/ac/5be480a4ab60919442a6dcfe7926b1db0fb688bca82401c9fe06c489cdad/saffier-0.8.0.tar.gz
+[2023-07-14 12:23:39] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/4b/a1/cf3a73414acc1d12cc917148f7c816fec71e4459716c5818828261f786c9/vdk_jupyterlab_extension-0.1.930039523.tar.gz
+[2023-07-14 12:23:39] INFO root fetch - processPackages [adit-dicomweb-client]: Downloading https://files.pythonhosted.org/packages/8a/64/ac1a3d7a4cc6b458ecc564585bf1e6aa7687d81857b28fe0ed179b8070e5/adit_dicomweb_client-0.2.0.tar.gz
+[2023-07-14 12:23:39] INFO root fetch - processPackages [adit-dicomweb-client]: Downloading https://files.pythonhosted.org/packages/8a/64/ac1a3d7a4cc6b458ecc564585bf1e6aa7687d81857b28fe0ed179b8070e5/adit_dicomweb_client-0.2.0.tar.gz
+[2023-07-14 12:23:39] INFO root fetch - processPackages [dicee]: Downloading https://files.pythonhosted.org/packages/d1/e0/c563bd6d0c526cf038645552bc25dd7ec63dec50240841fc34cab9f889ca/dicee-0.0.3.tar.gz
+[2023-07-14 12:23:39] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/f9/27/0ffa0fde8b3a1664d1d2e853b37862ae88bee7e7e44371f3ab55606c00e7/nonebot_plugin_spark_gpt-1.1.5.tar.gz
+[2023-07-14 12:23:39] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/5c/78/45a94c49eea4474b65ef5c4581d0acda212f1d3272d390c012f6a02986ce/hyfi-1.2.2.tar.gz
+[2023-07-14 12:23:39] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/ca/45/f518b285b5b2ab8df0f6625cbf9eec657d08c78ab42a73b4d7d45ca70ced/aicli-99.0.202307102058-py3-none-any.whl
+[2023-07-14 12:23:39] INFO root fetch - processPackages [matrix-nio]: Downloading https://files.pythonhosted.org/packages/a5/c4/a53a587da9939f040b85c249cddd31ebf334beb746d794c6807c8ba96a2c/matrix-nio-0.8.0.tar.gz
+[2023-07-14 12:23:39] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 12455894>=10485760
+[2023-07-14 12:23:39] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: vango
+[2023-07-14 12:23:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-14 12:23:39] WARNING root fetch - processPackages [vango]: Skipping, unable to determine old version
+[2023-07-14 12:23:39] INFO root fetch - main [MainThread]: End processing [vango] error
+[2023-07-14 12:23:40] INFO root fetch - processPackages [saffier]: Downloading https://files.pythonhosted.org/packages/99/de/13d5d5a50bf0ad19fa250bf5792c9eef3bfd95820d26e56e8b4cfe13a6a9/saffier-0.9.0.tar.gz
+[2023-07-14 12:23:40] INFO root fetch - processPackages [adit-dicomweb-client]: Downloading https://files.pythonhosted.org/packages/51/0a/e319bb79a7f0aa72adc86658647f75c8cb9d5538af097d2ee7c890233a53/adit_dicomweb_client-0.3.0.tar.gz
+[2023-07-14 12:23:40] INFO root fetch - processPackages [mrzerocore]: Downloading https://files.pythonhosted.org/packages/99/86/6a0eb47fede16081d8c7a2f1a078d2866530455e8b17b51c727c7bae5bb9/MRzeroCore-0.2.2-cp37-abi3-win_amd64.whl
+[2023-07-14 12:23:40] INFO root fetch - processPackages [adit-dicomweb-client]: Downloading https://files.pythonhosted.org/packages/51/0a/e319bb79a7f0aa72adc86658647f75c8cb9d5538af097d2ee7c890233a53/adit_dicomweb_client-0.3.0.tar.gz
+[2023-07-14 12:23:40] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/eb/7d/8ead84c4a77f5ce172c6c1a1f0c6a7f4681ff60f9de4f973647066d26e19/hyfi-1.2.3.tar.gz
+[2023-07-14 12:23:40] INFO root fetch - processPackages [dicee]: Downloading https://files.pythonhosted.org/packages/bc/70/24ef3dccc4faf0084add3c08a434785ac8259ce34f05c0ae38ab0326c6f4/dicee-0.0.4.tar.gz
+[2023-07-14 12:23:40] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/82/3d/aa61c35faea36cfa6373c7a3f78c8bd11cb4a149a82bb57afe3bdc172a63/vdk_jupyterlab_extension-0.1.931128384.tar.gz
+[2023-07-14 12:23:40] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/b8/11/8f6e82ae8435d2ca3f3dc953d9650167acf5ff1881961146099c034f9721/aicli-99.0.202307141022-py3-none-any.whl
+[2023-07-14 12:23:40] INFO root fetch - processPackages [saffier]: executing diffoscope
+[2023-07-14 12:23:40] INFO root fetch - processPackages [saffier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saffier-0.8.0.tar.gz tmp/saffier-0.9.0.tar.gz --markdown 20230714/s/saffier/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 12:23:40] INFO root fetch - processPackages [adit-dicomweb-client]: executing diffoscope
+[2023-07-14 12:23:40] INFO root fetch - processPackages [adit-dicomweb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adit_dicomweb_client-0.2.0.tar.gz tmp/adit_dicomweb_client-0.3.0.tar.gz --markdown 20230714/a/adit-dicomweb-client/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-14 12:23:40] INFO root fetch - processPackages [adit-dicomweb-client]: executing diffoscope
+[2023-07-14 12:23:40] INFO root fetch - processPackages [adit-dicomweb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adit_dicomweb_client-0.2.0.tar.gz tmp/adit_dicomweb_client-0.3.0.tar.gz --markdown 20230714/a/adit-dicomweb-client/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-14 12:23:40] INFO root fetch - processPackages [mrzerocore]: executing diffoscope
+[2023-07-14 12:23:40] INFO root fetch - processPackages [mrzerocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MRzeroCore-0.2.1-cp37-abi3-win_amd64.whl.zip tmp/MRzeroCore-0.2.2-cp37-abi3-win_amd64.whl.zip --markdown 20230714/m/mrzerocore/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-14 12:23:40] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-14 12:23:40] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.2.2.tar.gz tmp/hyfi-1.2.3.tar.gz --markdown 20230714/h/hyfi/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-14 12:23:40] INFO root fetch - processPackages [matrix-nio]: Downloading https://files.pythonhosted.org/packages/3d/2f/b4c4fea1cb5a05e5871c63040020922a45b619663b0923c49d4cb933387c/matrix-nio-0.9.0.tar.gz
+[2023-07-14 12:23:40] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2023-07-14 12:23:40] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202307102058-py3-none-any.whl.zip tmp/aicli-99.0.202307141022-py3-none-any.whl.zip --markdown 20230714/a/aicli/99.0.202307102058-99.0.202307141022/diff.md --exclude *.pyd
+[2023-07-14 12:23:40] INFO root fetch - processPackages [dicee]: executing diffoscope
+[2023-07-14 12:23:40] INFO root fetch - processPackages [dicee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicee-0.0.3.tar.gz tmp/dicee-0.0.4.tar.gz --markdown 20230714/d/dicee/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-14 12:23:40] INFO root fetch - processPackages [vdk-jupyterlab-extension]: executing diffoscope
+[2023-07-14 12:23:40] INFO root fetch - processPackages [vdk-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk_jupyterlab_extension-0.1.930039523.tar.gz tmp/vdk_jupyterlab_extension-0.1.931128384.tar.gz --markdown 20230714/v/vdk-jupyterlab-extension/0.1.930039523-0.1.931128384/diff.md --exclude *.pyd
+[2023-07-14 12:23:40] INFO root fetch - processPackages [matrix-nio]: executing diffoscope
+[2023-07-14 12:23:40] INFO root fetch - processPackages [matrix-nio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-nio-0.8.0.tar.gz tmp/matrix-nio-0.9.0.tar.gz --markdown 20230714/m/matrix-nio/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 12:23:41] INFO root fetch - processPackages [adit-dicomweb-client]: Remove: archive file [/home/abi/fetcher/tmp/adit_dicomweb_client-0.2.0.tar.gz]
+[2023-07-14 12:23:41] INFO root fetch - processPackages [adit-dicomweb-client]: Remove: archive file [/home/abi/fetcher/tmp/adit_dicomweb_client-0.3.0.tar.gz]
+[2023-07-14 12:23:41] INFO root fetch - main [MainThread]: End processing [adit-dicomweb-client]: success
+[2023-07-14 12:23:41] INFO root fetch - main [MainThread]: End processing [adit-dicomweb-client]: success
+[2023-07-14 12:23:41] INFO root fetch - processPackages [mrzerocore]: Remove: archive file [/home/abi/fetcher/tmp/MRzeroCore-0.2.1-cp37-abi3-win_amd64.whl.zip]
+[2023-07-14 12:23:41] INFO root fetch - processPackages [mrzerocore]: Remove: archive file [/home/abi/fetcher/tmp/MRzeroCore-0.2.2-cp37-abi3-win_amd64.whl.zip]
+[2023-07-14 12:23:41] INFO root fetch - main [MainThread]: End processing [mrzerocore]: success
+[2023-07-14 12:23:42] INFO root fetch - processPackages [saffier]: Remove: archive file [/home/abi/fetcher/tmp/saffier-0.8.0.tar.gz]
+[2023-07-14 12:23:42] INFO root fetch - processPackages [saffier]: Remove: archive file [/home/abi/fetcher/tmp/saffier-0.9.0.tar.gz]
+[2023-07-14 12:23:42] INFO root fetch - main [MainThread]: End processing [saffier]: success
+[2023-07-14 12:23:42] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307102058-py3-none-any.whl.zip]
+[2023-07-14 12:23:42] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307141022-py3-none-any.whl.zip]
+[2023-07-14 12:23:42] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2023-07-14 12:23:42] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.2.2.tar.gz]
+[2023-07-14 12:23:42] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.2.3.tar.gz]
+[2023-07-14 12:23:42] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-14 12:23:42] INFO root fetch - processPackages [matrix-nio]: Remove: archive file [/home/abi/fetcher/tmp/matrix-nio-0.8.0.tar.gz]
+[2023-07-14 12:23:42] INFO root fetch - processPackages [matrix-nio]: Remove: archive file [/home/abi/fetcher/tmp/matrix-nio-0.9.0.tar.gz]
+[2023-07-14 12:23:42] INFO root fetch - main [MainThread]: End processing [matrix-nio]: success
+[2023-07-14 12:23:42] INFO root fetch - processPackages [dicee]: Remove: archive file [/home/abi/fetcher/tmp/dicee-0.0.3.tar.gz]
+[2023-07-14 12:23:42] INFO root fetch - processPackages [dicee]: Remove: archive file [/home/abi/fetcher/tmp/dicee-0.0.4.tar.gz]
+[2023-07-14 12:23:42] INFO root fetch - main [MainThread]: End processing [dicee]: success
+[2023-07-14 12:23:43] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk_jupyterlab_extension-0.1.930039523.tar.gz]
+[2023-07-14 12:23:43] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk_jupyterlab_extension-0.1.931128384.tar.gz]
+[2023-07-14 12:23:43] INFO root fetch - main [MainThread]: End processing [vdk-jupyterlab-extension]: success
+[2023-07-14 12:23:43] INFO root fetch - main [MainThread]: Store serial: [18888250]
