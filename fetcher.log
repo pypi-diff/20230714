@@ -13827,3 +13827,99 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 08:28:45] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
 [2023-07-14 08:28:45] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
 [2023-07-14 08:28:45] INFO root fetch - main [MainThread]: Store serial: [18886069]
+[2023-07-14 08:33:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886069]
+[2023-07-14 08:33:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-14 08:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-linode
+[2023-07-14 08:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: optimal-data-selector
+[2023-07-14 08:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioinject
+[2023-07-14 08:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-mongodbatlas
+[2023-07-14 08:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-mysql
+[2023-07-14 08:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eswrap
+[2023-07-14 08:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyezoo
+[2023-07-14 08:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fake-bpy-module-latest
+[2023-07-14 08:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ogc-na
+[2023-07-14 08:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-nomad
+[2023-07-14 08:33:54] INFO root fetch - processPackages [aioinject]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-14 08:33:54] INFO root fetch - processPackages [optimal-data-selector]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-14 08:33:54] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.2.0a1689313722] Old Version: [3.2.0a1687671831]
+[2023-07-14 08:33:54] INFO root fetch - processPackages [eswrap]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-14 08:33:54] WARNING root fetch - processPackages [pyezoo]: Skipping, unable to determine old version
+[2023-07-14 08:33:54] INFO root fetch - processPackages [pyezoo]: Start processing: FastAPI-JSONAPI
+[2023-07-14 08:33:54] INFO root fetch - main [MainThread]: End processing [pyezoo] error
+[2023-07-14 08:33:54] INFO root fetch - processPackages [pulumi-nomad]: New version: [0.4.2a1689314054] Old Version: [0.4.2a1687672202]
+[2023-07-14 08:33:54] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.1] Old Version: [3.9.0a1687905736]
+[2023-07-14 08:33:54] INFO root fetch - processPackages [ogc-na]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-14 08:33:54] INFO root fetch - processPackages [pulumi-linode]: New version: [4.5.0a1689313367] Old Version: [4.5.0a1689096135]
+[2023-07-14 08:33:54] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230714] Old Version: [20230713]
+[2023-07-14 08:33:54] INFO root fetch - processPackages [aioinject]: Downloading https://files.pythonhosted.org/packages/75/fd/43a4582b58a0c8e2515234436f79915a93b6d0e6eeedae9aff0a8f2ebb96/aioinject-0.9.0.tar.gz
+[2023-07-14 08:33:54] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/47/d2/19dc83b7997afcc258a1b257a64a54cdb1ffea7f7722a67a3664cf8bfde3/pulumi_mongodbatlas-3.9.0a1687905736.tar.gz
+[2023-07-14 08:33:54] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/18/2a/de74fe96a788b1e5db161889147f3dbd820325bdba01464965b270f6dc07/ogc_na-0.3.2.tar.gz
+[2023-07-14 08:33:54] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/62/c5/8ec84c08cc05d1b79ea7f260f249f0dc306f55b13bd9d9c435bd80a8bb8e/eswrap-0.4.7.tar.gz
+[2023-07-14 08:33:54] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/47/0d/c236dc1921007409cae113f63c58ad5d767915946bb4d762cb3dee0f97c6/fake-bpy-module-latest-20230713.tar.gz
+[2023-07-14 08:33:54] INFO root fetch - processPackages [FastAPI-JSONAPI]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-14 08:33:54] INFO root fetch - processPackages [optimal-data-selector]: Downloading https://files.pythonhosted.org/packages/42/68/5ad7309a884d69e82d011d8f4003b367dce4cf7d4ee856dffde4601afacd/optimal_data_selector-1.0.1.tar.gz
+[2023-07-14 08:33:54] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/c2/70/7336f03cdfc0e2bcde8b47e8acb81312c5a52c7673e90f48108f547cdc57/pulumi_nomad-0.4.2a1687672202.tar.gz
+[2023-07-14 08:33:54] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/c1/6a/4caf98b353ff95c95f7a1809cd909c87c4513e1f15c52863c2ad94795935/pulumi_mysql-3.2.0a1687671831.tar.gz
+[2023-07-14 08:33:54] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/60/67/d3afab1e4cd84937e5b0e17a7dc5abb752409aca8a40ec502ec8aa3c0913/pulumi_linode-4.5.0a1689096135.tar.gz
+[2023-07-14 08:33:54] INFO root fetch - processPackages [FastAPI-JSONAPI]: Downloading https://files.pythonhosted.org/packages/e9/e4/54be45ed816f2f6d02a2bf076aafdd401ee62a833d9e139eddb68a91b0eb/fastapi_jsonapi-1.0.1.tar.gz
+[2023-07-14 08:33:54] INFO root fetch - processPackages [aioinject]: Downloading https://files.pythonhosted.org/packages/93/b0/756793f9dc8bab62d03ae5ccd2a6c4c59136f36666c07ccd96d6f6c3d001/aioinject-0.9.1.tar.gz
+[2023-07-14 08:33:55] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2023-07-14 08:33:55] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/8d/6a/c2de37260bd4c3d9bcc370e5c90de036021aecec3366c64a3e7dc3eed5a3/eswrap-0.4.8.tar.gz
+[2023-07-14 08:33:55] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/a2/d9/005581b5c89091453b96e32b6d84948caef3014860f162b129b8b667df1b/ogc_na-0.3.3.tar.gz
+[2023-07-14 08:33:55] INFO root fetch - processPackages [optimal-data-selector]: Downloading https://files.pythonhosted.org/packages/01/86/7426ce902958bfea1611e820b665c9e73d1f597b1f8af0952b7e80aeaf0a/optimal_data_selector-1.0.2.tar.gz
+[2023-07-14 08:33:55] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/0c/2f/c3bb01b44abc7cd2110d749b0142c9d7c655d3b5d4c8cadc5a767ff3b747/pulumi_nomad-0.4.2a1689314054.tar.gz
+[2023-07-14 08:33:55] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/e7/94/a6a778f538f99016af8aaaefd984ecf6b7aeed6f911cfc32eeec93064bf2/fake-bpy-module-latest-20230714.tar.gz
+[2023-07-14 08:33:55] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/24/df/0c7ba65757f5cca611961697e636a65ab894d32a986fc4b239917ee9c06f/pulumi_mysql-3.2.0a1689313722.tar.gz
+[2023-07-14 08:33:55] INFO root fetch - processPackages [aioinject]: executing diffoscope
+[2023-07-14 08:33:55] INFO root fetch - processPackages [aioinject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioinject-0.9.0.tar.gz tmp/aioinject-0.9.1.tar.gz --markdown 20230714/a/aioinject/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-14 08:33:55] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/f4/71/32c35dcde50ffbb6c6d62cb5dda1c8b663163f1a1de6dc5faf35f316d0b5/pulumi_linode-4.5.0a1689313367.tar.gz
+[2023-07-14 08:33:55] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-07-14 08:33:55] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.4.7.tar.gz tmp/eswrap-0.4.8.tar.gz --markdown 20230714/e/eswrap/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-14 08:33:55] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-07-14 08:33:55] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.0a1687905736.tar.gz tmp/pulumi_mongodbatlas-3.9.1.tar.gz --markdown 20230714/p/pulumi-mongodbatlas/3.9.0a1687905736-3.9.1/diff.md --exclude *.pyd
+[2023-07-14 08:33:55] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-07-14 08:33:55] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.3.2.tar.gz tmp/ogc_na-0.3.3.tar.gz --markdown 20230714/o/ogc-na/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-14 08:33:55] INFO root fetch - processPackages [optimal-data-selector]: executing diffoscope
+[2023-07-14 08:33:55] INFO root fetch - processPackages [optimal-data-selector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimal_data_selector-1.0.1.tar.gz tmp/optimal_data_selector-1.0.2.tar.gz --markdown 20230714/o/optimal-data-selector/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-14 08:33:55] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2023-07-14 08:33:55] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.2.0a1687671831.tar.gz tmp/pulumi_mysql-3.2.0a1689313722.tar.gz --markdown 20230714/p/pulumi-mysql/3.2.0a1687671831-3.2.0a1689313722/diff.md --exclude *.pyd
+[2023-07-14 08:33:55] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2023-07-14 08:33:55] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-0.4.2a1687672202.tar.gz tmp/pulumi_nomad-0.4.2a1689314054.tar.gz --markdown 20230714/p/pulumi-nomad/0.4.2a1687672202-0.4.2a1689314054/diff.md --exclude *.pyd
+[2023-07-14 08:33:55] INFO root fetch - processPackages [FastAPI-JSONAPI]: Downloading https://files.pythonhosted.org/packages/f4/cf/d531e3c87689fa9459ae794b85181f6238252ecd835c335a8cf6aaef41f7/fastapi_jsonapi-1.1.0.tar.gz
+[2023-07-14 08:33:55] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-14 08:33:55] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230713.tar.gz tmp/fake-bpy-module-latest-20230714.tar.gz --markdown 20230714/f/fake-bpy-module-latest/20230713-20230714/diff.md --exclude *.pyd
+[2023-07-14 08:33:55] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2023-07-14 08:33:55] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.5.0a1689096135.tar.gz tmp/pulumi_linode-4.5.0a1689313367.tar.gz --markdown 20230714/p/pulumi-linode/4.5.0a1689096135-4.5.0a1689313367/diff.md --exclude *.pyd
+[2023-07-14 08:33:55] INFO root fetch - processPackages [FastAPI-JSONAPI]: executing diffoscope
+[2023-07-14 08:33:55] INFO root fetch - processPackages [FastAPI-JSONAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_jsonapi-1.0.1.tar.gz tmp/fastapi_jsonapi-1.1.0.tar.gz --markdown 20230714/F/FastAPI-JSONAPI/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-14 08:33:56] INFO root fetch - processPackages [eswrap]: Remove: archive file [/home/abi/fetcher/tmp/eswrap-0.4.7.tar.gz]
+[2023-07-14 08:33:56] INFO root fetch - processPackages [eswrap]: Remove: archive file [/home/abi/fetcher/tmp/eswrap-0.4.8.tar.gz]
+[2023-07-14 08:33:56] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-07-14 08:33:57] INFO root fetch - processPackages [optimal-data-selector]: Remove: archive file [/home/abi/fetcher/tmp/optimal_data_selector-1.0.1.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - processPackages [optimal-data-selector]: Remove: archive file [/home/abi/fetcher/tmp/optimal_data_selector-1.0.2.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - main [MainThread]: End processing [optimal-data-selector]: success
+[2023-07-14 08:33:57] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.3.2.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.3.3.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-07-14 08:33:57] INFO root fetch - processPackages [aioinject]: Remove: archive file [/home/abi/fetcher/tmp/aioinject-0.9.0.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - processPackages [aioinject]: Remove: archive file [/home/abi/fetcher/tmp/aioinject-0.9.1.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - main [MainThread]: End processing [aioinject]: success
+[2023-07-14 08:33:57] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.2.0a1687671831.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.2.0a1689313722.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2023-07-14 08:33:57] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-0.4.2a1687672202.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-0.4.2a1689314054.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2023-07-14 08:33:57] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.5.0a1689096135.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.5.0a1689313367.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2023-07-14 08:33:57] INFO root fetch - processPackages [FastAPI-JSONAPI]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_jsonapi-1.0.1.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - processPackages [FastAPI-JSONAPI]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_jsonapi-1.1.0.tar.gz]
+[2023-07-14 08:33:57] INFO root fetch - main [MainThread]: End processing [FastAPI-JSONAPI]: success
+[2023-07-14 08:33:58] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1687905736.tar.gz]
+[2023-07-14 08:33:58] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2023-07-14 08:33:58] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-07-14 08:33:59] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230713.tar.gz]
+[2023-07-14 08:33:59] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230714.tar.gz]
+[2023-07-14 08:33:59] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-14 08:33:59] INFO root fetch - main [MainThread]: Store serial: [18886099]
