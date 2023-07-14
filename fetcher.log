@@ -20231,3 +20231,147 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 13:38:08] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7a3.tar.gz]
 [2023-07-14 13:38:08] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-07-14 13:38:08] INFO root fetch - main [MainThread]: Store serial: [18888908]
+[2023-07-14 13:43:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888908]
+[2023-07-14 13:43:17] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-14 13:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libpresign
+[2023-07-14 13:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinybird-cli
+[2023-07-14 13:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentmemory
+[2023-07-14 13:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diaossama-test3
+[2023-07-14 13:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: market-engine
+[2023-07-14 13:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pprint3x
+[2023-07-14 13:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: helios-rl
+[2023-07-14 13:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drupal-scout
+[2023-07-14 13:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: piwavelet
+[2023-07-14 13:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piwavelet
+[2023-07-14 13:43:18] INFO root fetch - processPackages [agentmemory]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-14 13:43:18] INFO root fetch - processPackages [drupal-scout]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-14 13:43:18] WARNING root fetch - processPackages [diaossama-test3]: Skipping, unable to determine old version
+[2023-07-14 13:43:18] INFO root fetch - processPackages [piwavelet]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-14 13:43:18] INFO root fetch - processPackages [diaossama-test3]: Start processing: bgstools
+[2023-07-14 13:43:18] INFO root fetch - main [MainThread]: End processing [diaossama-test3] error
+[2023-07-14 13:43:18] INFO root fetch - processPackages [piwavelet]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-14 13:43:18] WARNING root fetch - processPackages [libpresign]: Skipping, unable to determine old version
+[2023-07-14 13:43:18] INFO root fetch - processPackages [libpresign]: Start processing: st-login-form
+[2023-07-14 13:43:18] INFO root fetch - main [MainThread]: End processing [libpresign] error
+[2023-07-14 13:43:18] INFO root fetch - processPackages [market-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 13:43:18] INFO root fetch - processPackages [pprint3x]: New version: [3.10.4.5] Old Version: [3.10.4.4]
+[2023-07-14 13:43:18] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-14 13:43:18] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-14 13:43:18] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 13:43:18] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/3b/78/d27d129dcf83539c554f5671eb8d5bd9597c8730ee903c46f93da60a8055/agentmemory-0.2.2.tar.gz
+[2023-07-14 13:43:18] INFO root fetch - processPackages [st-login-form]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-14 13:43:18] INFO root fetch - processPackages [drupal-scout]: Downloading https://files.pythonhosted.org/packages/f1/b3/c8489dccd45c2be0d53b8cf6b7afbf0fbebde032e1b141dde56a3ec8ca76/drupal-scout-1.0.1.tar.gz
+[2023-07-14 13:43:18] INFO root fetch - processPackages [piwavelet]: Downloading https://files.pythonhosted.org/packages/dd/e6/5e1a14c543519303d7d79fe7e0af3325e64c60b54dc54ab82c8324f3fa8f/piwavelet-1.0.2-py3.10.egg
+[2023-07-14 13:43:18] INFO root fetch - processPackages [piwavelet]: Downloading https://files.pythonhosted.org/packages/dd/e6/5e1a14c543519303d7d79fe7e0af3325e64c60b54dc54ab82c8324f3fa8f/piwavelet-1.0.2-py3.10.egg
+[2023-07-14 13:43:18] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-14 13:43:18] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-14 13:43:18] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-07-14 13:43:18] INFO root fetch - processPackages [pprint3x]: Downloading https://files.pythonhosted.org/packages/eb/fe/98b332176619e6de22965d4ef36d4bfbc698de63d5f71c1664a6ffd0679d/pprint3x-3.10.4.4.tar.gz
+[2023-07-14 13:43:18] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-07-14 13:43:18] INFO root fetch - processPackages [st-login-form]: Downloading https://files.pythonhosted.org/packages/4d/8d/3330911713201dba1d91e25498b6f0c68a9eedceac58198312d610961f66/st-login-form-0.1.0.tar.gz
+[2023-07-14 13:43:18] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/60/d2/c5649c1f482931f51ac9e798aec00fe445d6b73e02f8865697958b497c8f/agentmemory-0.2.3.tar.gz
+[2023-07-14 13:43:19] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-14 13:43:19] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/0b/88/47639a851c5081b1dbc460316d90eb0716fb29e775062a14575a98e3ef54/market-engine-0.0.9.tar.gz
+[2023-07-14 13:43:19] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-07-14 13:43:19] INFO root fetch - processPackages [drupal-scout]: Downloading https://files.pythonhosted.org/packages/d0/24/dfb84bb5d1929fed9d711fd1c43352ab56ab51004070f4e22f4c303ec6c9/drupal-scout-1.0.2.tar.gz
+[2023-07-14 13:43:19] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-14 13:43:19] INFO root fetch - processPackages [pprint3x]: Downloading https://files.pythonhosted.org/packages/46/14/8e031e7166ff26b889b47a405c845494b56ed83b70f1cd144660bcc1280c/pprint3x-3.10.4.5.tar.gz
+[2023-07-14 13:43:19] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-14 13:43:19] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.2.2.tar.gz tmp/agentmemory-0.2.3.tar.gz --markdown 20230714/a/agentmemory/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-14 13:43:19] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-14 13:43:19] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230714/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-14 13:43:19] INFO root fetch - processPackages [st-login-form]: Downloading https://files.pythonhosted.org/packages/f1/0b/54498b4d63215d92f3aea48f3ff42b1347c9ebad5f4bdafdd346a7e34f03/st-login-form-0.1.1.tar.gz
+[2023-07-14 13:43:19] INFO root fetch - processPackages [piwavelet]: Downloading https://files.pythonhosted.org/packages/07/93/0909f4310b8bc986886cfbbd3b862494020091ae28cee04a2da8cca52cd6/piwavelet-1.0.3-py3-none-any.whl
+[2023-07-14 13:43:19] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-07-14 13:43:19] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.8.tar.gz tmp/market-engine-0.0.9.tar.gz --markdown 20230714/m/market-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 13:43:19] INFO root fetch - processPackages [piwavelet]: Downloading https://files.pythonhosted.org/packages/07/93/0909f4310b8bc986886cfbbd3b862494020091ae28cee04a2da8cca52cd6/piwavelet-1.0.3-py3-none-any.whl
+[2023-07-14 13:43:19] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-07-14 13:43:19] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230714/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 13:43:19] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-14 13:43:19] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230714/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-14 13:43:19] INFO root fetch - processPackages [drupal-scout]: executing diffoscope
+[2023-07-14 13:43:19] INFO root fetch - processPackages [drupal-scout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drupal-scout-1.0.1.tar.gz tmp/drupal-scout-1.0.2.tar.gz --markdown 20230714/d/drupal-scout/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-14 13:43:19] INFO root fetch - processPackages [pprint3x]: executing diffoscope
+[2023-07-14 13:43:19] INFO root fetch - processPackages [pprint3x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pprint3x-3.10.4.4.tar.gz tmp/pprint3x-3.10.4.5.tar.gz --markdown 20230714/p/pprint3x/3.10.4.4-3.10.4.5/diff.md --exclude *.pyd
+[2023-07-14 13:43:19] INFO root fetch - processPackages [st-login-form]: executing diffoscope
+[2023-07-14 13:43:19] INFO root fetch - processPackages [st-login-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-login-form-0.1.0.tar.gz tmp/st-login-form-0.1.1.tar.gz --markdown 20230714/s/st-login-form/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 13:43:19] INFO root fetch - processPackages [piwavelet]: executing diffoscope
+[2023-07-14 13:43:19] INFO root fetch - processPackages [piwavelet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwavelet-1.0.2-py3.10.egg tmp/piwavelet-1.0.3-py3-none-any.whl.zip --markdown 20230714/p/piwavelet/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-14 13:43:19] INFO root fetch - processPackages [piwavelet]: executing diffoscope
+[2023-07-14 13:43:19] INFO root fetch - processPackages [piwavelet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwavelet-1.0.2-py3.10.egg tmp/piwavelet-1.0.3-py3-none-any.whl.zip --markdown 20230714/p/piwavelet/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-14 13:43:20] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.8.tar.gz]
+[2023-07-14 13:43:20] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.9.tar.gz]
+[2023-07-14 13:43:20] INFO root fetch - processPackages [market-engine]: Start processing: request-url-2023
+[2023-07-14 13:43:20] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-07-14 13:43:20] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.2.2.tar.gz]
+[2023-07-14 13:43:20] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.2.3.tar.gz]
+[2023-07-14 13:43:20] INFO root fetch - processPackages [agentmemory]: Start processing: mobicontrol
+[2023-07-14 13:43:20] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-14 13:43:20] WARNING root fetch - processPackages [request-url-2023]: Skipping, unable to determine old version
+[2023-07-14 13:43:20] INFO root fetch - processPackages [request-url-2023]: Start processing: sa-app
+[2023-07-14 13:43:20] INFO root fetch - main [MainThread]: End processing [request-url-2023] error
+[2023-07-14 13:43:20] INFO root fetch - processPackages [mobicontrol]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-14 13:43:20] WARNING root fetch - processPackages [sa-app]: Skipping, unable to determine old version
+[2023-07-14 13:43:20] INFO root fetch - processPackages [sa-app]: Start processing: ddadevops
+[2023-07-14 13:43:20] INFO root fetch - main [MainThread]: End processing [sa-app] error
+[2023-07-14 13:43:21] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [ddadevops]: New version: [4.1.0.dev2] Old Version: [4.1.0.dev1]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [mobicontrol]: Downloading https://files.pythonhosted.org/packages/b7/01/5ea77b4cadce699ec7064aab8e5beeaaa2e5aaf57b45b501645930fd9d8e/mobicontrol-1.0.3.tar.gz
+[2023-07-14 13:43:21] INFO root fetch - processPackages [bgstools]: Start processing: nicegui
+[2023-07-14 13:43:21] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-07-14 13:43:21] INFO root fetch - processPackages [st-login-form]: Remove: archive file [/home/abi/fetcher/tmp/st-login-form-0.1.0.tar.gz]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [st-login-form]: Remove: archive file [/home/abi/fetcher/tmp/st-login-form-0.1.1.tar.gz]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [st-login-form]: Start processing: connect-sdk-python2
+[2023-07-14 13:43:21] INFO root fetch - main [MainThread]: End processing [st-login-form]: success
+[2023-07-14 13:43:21] INFO root fetch - processPackages [drupal-scout]: Remove: archive file [/home/abi/fetcher/tmp/drupal-scout-1.0.1.tar.gz]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [drupal-scout]: Remove: archive file [/home/abi/fetcher/tmp/drupal-scout-1.0.2.tar.gz]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [drupal-scout]: Start processing: connect-sdk-python3
+[2023-07-14 13:43:21] INFO root fetch - main [MainThread]: End processing [drupal-scout]: success
+[2023-07-14 13:43:21] INFO root fetch - processPackages [nicegui]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [connect-sdk-python2]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [connect-sdk-python3]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/9e/d0/d3a6ec0ee2fe19f9b12090ec282461ca2cd56a04b1e78db3f519c9c32169/ddadevops-4.1.0.dev1.tar.gz
+[2023-07-14 13:43:21] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-14 13:43:21] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-14 13:43:21] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-14 13:43:21] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-14 13:43:21] INFO root fetch - processPackages [pprint3x]: Remove: archive file [/home/abi/fetcher/tmp/pprint3x-3.10.4.4.tar.gz]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [pprint3x]: Remove: archive file [/home/abi/fetcher/tmp/pprint3x-3.10.4.5.tar.gz]
+[2023-07-14 13:43:21] INFO root fetch - main [MainThread]: End processing [pprint3x]: success
+[2023-07-14 13:43:21] INFO root fetch - processPackages [connect-sdk-python3]: Downloading https://files.pythonhosted.org/packages/0c/ef/4b79c9048e3a01936eb932de8448d846de8ead1e1fefc3f0949d0dc7556b/connect-sdk-python3-3.8.0.zip
+[2023-07-14 13:43:21] INFO root fetch - processPackages [connect-sdk-python2]: Downloading https://files.pythonhosted.org/packages/53/de/0817e7e6578d4347cc07b8b1673acc9fa9b4cbcd49f9886387eb84555577/connect-sdk-python2-3.8.0.zip
+[2023-07-14 13:43:21] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/3a/36/e11056e7fe50609abbeb864f33f7090859807df1c8b802111ac42edf0ee7/nicegui-1.3.1.tar.gz
+[2023-07-14 13:43:21] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/d7/9a/a04da7dbb1a696187e45654581af5ae64f8de1aed7226554ea11e57621cf/ddadevops-4.1.0.dev2.tar.gz
+[2023-07-14 13:43:21] INFO root fetch - processPackages [mobicontrol]: Downloading https://files.pythonhosted.org/packages/b6/83/9def14e9ec67373da1ed111dc271337b6f0636bde6cc84a0929ac52fe841/mobicontrol-1.1.0.tar.gz
+[2023-07-14 13:43:21] WARNING root fetch - processPackages [nicegui]: Skipping package: exceeds size limit 12576536>=10485760
+[2023-07-14 13:43:21] INFO root fetch - main [MainThread]: End processing [nicegui] error
+[2023-07-14 13:43:21] INFO root fetch - processPackages [piwavelet]: Remove: archive file [/home/abi/fetcher/tmp/piwavelet-1.0.2-py3.10.egg]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [piwavelet]: Remove: archive file [/home/abi/fetcher/tmp/piwavelet-1.0.3-py3-none-any.whl.zip]
+[2023-07-14 13:43:21] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-07-14 13:43:21] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.1.0.dev1.tar.gz tmp/ddadevops-4.1.0.dev2.tar.gz --markdown 20230714/d/ddadevops/4.1.0.dev1-4.1.0.dev2/diff.md --exclude *.pyd
+[2023-07-14 13:43:21] INFO root fetch - main [MainThread]: End processing [piwavelet]: success
+[2023-07-14 13:43:21] INFO root fetch - main [MainThread]: End processing [piwavelet]: success
+[2023-07-14 13:43:21] INFO root fetch - processPackages [mobicontrol]: executing diffoscope
+[2023-07-14 13:43:21] INFO root fetch - processPackages [mobicontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobicontrol-1.0.3.tar.gz tmp/mobicontrol-1.1.0.tar.gz --markdown 20230714/m/mobicontrol/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-14 13:43:21] INFO root fetch - processPackages [connect-sdk-python2]: Downloading https://files.pythonhosted.org/packages/77/11/5d4f897f7663b0b409f8cb95f37bb8c6037e89f410fb671fbc0e5bde96dd/connect-sdk-python2-3.9.0.zip
+[2023-07-14 13:43:22] INFO root fetch - processPackages [connect-sdk-python3]: Downloading https://files.pythonhosted.org/packages/ba/9e/0bb70ffda1eb8ec19968e163e95828f095624eb9ca96ca13a136d41d23ca/connect-sdk-python3-3.9.0.zip
+[2023-07-14 13:43:22] INFO root fetch - processPackages [connect-sdk-python2]: executing diffoscope
+[2023-07-14 13:43:22] INFO root fetch - processPackages [connect-sdk-python2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-sdk-python2-3.8.0.zip tmp/connect-sdk-python2-3.9.0.zip --markdown 20230714/c/connect-sdk-python2/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-14 13:43:22] INFO root fetch - processPackages [connect-sdk-python3]: executing diffoscope
+[2023-07-14 13:43:22] INFO root fetch - processPackages [connect-sdk-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-sdk-python3-3.8.0.zip tmp/connect-sdk-python3-3.9.0.zip --markdown 20230714/c/connect-sdk-python3/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-14 13:43:22] INFO root fetch - processPackages [mobicontrol]: Remove: archive file [/home/abi/fetcher/tmp/mobicontrol-1.0.3.tar.gz]
+[2023-07-14 13:43:22] INFO root fetch - processPackages [mobicontrol]: Remove: archive file [/home/abi/fetcher/tmp/mobicontrol-1.1.0.tar.gz]
+[2023-07-14 13:43:22] INFO root fetch - main [MainThread]: End processing [mobicontrol]: success
+[2023-07-14 13:43:22] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.1.0.dev1.tar.gz]
+[2023-07-14 13:43:22] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.1.0.dev2.tar.gz]
+[2023-07-14 13:43:22] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-07-14 13:43:24] INFO root fetch - processPackages [connect-sdk-python2]: Remove: archive file [/home/abi/fetcher/tmp/connect-sdk-python2-3.8.0.zip]
+[2023-07-14 13:43:24] INFO root fetch - processPackages [connect-sdk-python2]: Remove: archive file [/home/abi/fetcher/tmp/connect-sdk-python2-3.9.0.zip]
+[2023-07-14 13:43:24] INFO root fetch - main [MainThread]: End processing [connect-sdk-python2]: success
+[2023-07-14 13:43:24] INFO root fetch - processPackages [connect-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/connect-sdk-python3-3.8.0.zip]
+[2023-07-14 13:43:24] INFO root fetch - processPackages [connect-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/connect-sdk-python3-3.9.0.zip]
+[2023-07-14 13:43:24] INFO root fetch - main [MainThread]: End processing [connect-sdk-python3]: success
+[2023-07-14 13:43:24] INFO root fetch - main [MainThread]: Store serial: [18888985]
