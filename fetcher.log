@@ -10602,3 +10602,120 @@
 [2023-07-14 05:09:03] INFO root fetch - processPackages [laok]: Remove: archive file [/home/abi/fetcher/tmp/laok-0.2.19.tar.gz]
 [2023-07-14 05:09:03] INFO root fetch - main [MainThread]: End processing [laok]: success
 [2023-07-14 05:09:03] INFO root fetch - main [MainThread]: Store serial: [18884984]
+[2023-07-14 05:14:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18884984]
+[2023-07-14 05:14:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-14 05:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dingtalk-stream
+[2023-07-14 05:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2023-07-14 05:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-honeybee
+[2023-07-14 05:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-energy
+[2023-07-14 05:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-go-goose
+[2023-07-14 05:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tr
+[2023-07-14 05:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-14 05:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kirkwoodnight
+[2023-07-14 05:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: voicegain-speech
+[2023-07-14 05:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: envutil
+[2023-07-14 05:14:11] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-14 05:14:11] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-14 05:14:11] INFO root fetch - processPackages [tr]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-07-14 05:14:11] INFO root fetch - processPackages [py-go-goose]: New version: [1.4] Old Version: [1.3.1]
+[2023-07-14 05:14:11] INFO root fetch - processPackages [kirkwoodnight]: New version: [1.0.0] Old Version: [0.9]
+[2023-07-14 05:14:11] INFO root fetch - processPackages [envutil]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-07-14 05:14:11] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-14 05:14:11] INFO root fetch - processPackages [voicegain-speech]: New version: [1.86.0] Old Version: [1.85.2]
+[2023-07-14 05:14:12] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-14 05:14:12] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-14 05:14:12] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [envutil]: Downloading https://files.pythonhosted.org/packages/51/fb/23e3692a3d31ea27caddbd3c2f7ccd063231ecd1ff1d7be04a8bd86bd598/envutil-0.2.1.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/fb/37/1fd8a7e8082742813f3069b44ca8e8541ba4b0eca493bb14a8ff1fe8ec4d/py_go_goose-1.3.1-cp38-cp38-macosx_13_0_arm64.whl
+[2023-07-14 05:14:12] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/49/19/ae546ceb8246e9d23ef55fb2024eaccbdab83f8cbab1ed76bd5924a46422/dingtalk-stream-0.7.0.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [tr]: Downloading https://files.pythonhosted.org/packages/c2/2c/3545531e56704c0a2de9b407224442f7a15d6fe0340a367512344374b4dc/tr-2.6.1.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/07/dd/13f58b7bb5310385d8de73ec66d895ee4c49cceaee346cf0ddcf4b92f792/nonebot_plugin_spark_gpt-1.1.3.tar.gz
+[2023-07-14 05:14:12] WARNING root fetch - processPackages [tr]: Skipping package: exceeds size limit 52909865>=10485760
+[2023-07-14 05:14:12] INFO root fetch - processPackages [tr]: Start processing: lbt-dragonfly
+[2023-07-14 05:14:12] INFO root fetch - main [MainThread]: End processing [tr] error
+[2023-07-14 05:14:12] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 17085294>=10485760
+[2023-07-14 05:14:12] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: odoo-addon-privacy
+[2023-07-14 05:14:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-14 05:14:12] INFO root fetch - processPackages [voicegain-speech]: Downloading https://files.pythonhosted.org/packages/93/c0/d109b939e827bdc3d72ea6ab2b4c7ca1dce0d339b2e2148856944e3ebe0c/voicegain-speech-1.85.2.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [odoo-addon-privacy]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2023-07-14 05:14:12] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-14 05:14:12] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [envutil]: Downloading https://files.pythonhosted.org/packages/06/49/f82c6ffc31ae301bf527584386f461e1621571b52dae57e24306c1874a6b/envutil-0.2.3.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [odoo-addon-privacy]: Downloading https://files.pythonhosted.org/packages/19/55/94b73c8038d8070b16672b18a05d3672ca7264b9228fb412be6686d6f926/odoo_addon_privacy-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-14 05:14:12] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/ab/f1/b41b98e32366f5ee972615c4a7b476359f8cceb34e414d809f57fe541b4d/kirkwoodnight-1.0.0.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-14 05:14:12] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230714/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-14 05:14:12] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/69/d0/7de2fe93fb26545e5b03412d034bbbff028626354b5398c42c17a60ff8a7/dingtalk-stream-0.7.1.tar.gz
+[2023-07-14 05:14:12] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-14 05:14:12] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230714/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-14 05:14:13] INFO root fetch - processPackages [envutil]: executing diffoscope
+[2023-07-14 05:14:13] INFO root fetch - processPackages [envutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envutil-0.2.1.tar.gz tmp/envutil-0.2.3.tar.gz --markdown 20230714/e/envutil/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-14 05:14:13] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-14 05:14:13] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230714/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-14 05:14:13] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-07-14 05:14:13] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230714/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-14 05:14:13] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/14/8b/c94251f980791c942e65efd99a96e6e5dcac332d2edfb955e754202628e6/py_go_goose-1.4.tar.gz
+[2023-07-14 05:14:13] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2023-07-14 05:14:13] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.7.0.tar.gz tmp/dingtalk-stream-0.7.1.tar.gz --markdown 20230714/d/dingtalk-stream/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-14 05:14:13] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 05:14:13] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.9.tar.gz tmp/kirkwoodnight-1.0.0.tar.gz --markdown 20230714/k/kirkwoodnight/0.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-14 05:14:13] INFO root fetch - processPackages [odoo-addon-privacy]: Downloading https://files.pythonhosted.org/packages/93/00/cd79d227dfb95c30c88df71123e073ea82c63424bd18556b250181fda8f0/odoo_addon_privacy-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-14 05:14:13] INFO root fetch - processPackages [voicegain-speech]: Downloading https://files.pythonhosted.org/packages/1f/34/90ea0f3f6f745070611c324250a4ae163596d0da09a0bd59ab7c01bd6ebf/voicegain-speech-1.86.0.tar.gz
+[2023-07-14 05:14:13] INFO root fetch - processPackages [odoo-addon-privacy]: executing diffoscope
+[2023-07-14 05:14:13] INFO root fetch - processPackages [odoo-addon-privacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_privacy-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_privacy-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-privacy/16.0.1.0.0.6-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-07-14 05:14:13] INFO root fetch - processPackages [py-go-goose]: executing diffoscope
+[2023-07-14 05:14:13] INFO root fetch - processPackages [py-go-goose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_go_goose-1.3.1-cp38-cp38-macosx_13_0_arm64.whl.zip tmp/py_go_goose-1.4.tar.gz --markdown 20230714/p/py-go-goose/1.3.1-1.4/diff.md --exclude *.pyd
+[2023-07-14 05:14:13] INFO root fetch - processPackages [voicegain-speech]: executing diffoscope
+[2023-07-14 05:14:13] INFO root fetch - processPackages [voicegain-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicegain-speech-1.85.2.tar.gz tmp/voicegain-speech-1.86.0.tar.gz --markdown 20230714/v/voicegain-speech/1.85.2-1.86.0/diff.md --exclude *.pyd
+[2023-07-14 05:14:14] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-14 05:14:14] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-14 05:14:14] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: BTM
+[2023-07-14 05:14:14] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-14 05:14:14] INFO root fetch - processPackages [BTM]: New version: [1.1.1] Old Version: [1.0.15]
+[2023-07-14 05:14:14] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-14 05:14:14] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-14 05:14:14] INFO root fetch - processPackages [lbt-honeybee]: Start processing: kirkwoodnight
+[2023-07-14 05:14:14] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-14 05:14:14] INFO root fetch - processPackages [envutil]: Remove: archive file [/home/abi/fetcher/tmp/envutil-0.2.1.tar.gz]
+[2023-07-14 05:14:14] INFO root fetch - processPackages [envutil]: Remove: archive file [/home/abi/fetcher/tmp/envutil-0.2.3.tar.gz]
+[2023-07-14 05:14:14] INFO root fetch - main [MainThread]: End processing [envutil]: success
+[2023-07-14 05:14:14] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-14 05:14:14] INFO root fetch - processPackages [kirkwoodnight]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-14 05:14:14] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-14 05:14:14] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-1.0.0.tar.gz]
+[2023-07-14 05:14:14] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 05:14:14] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/ab/f1/b41b98e32366f5ee972615c4a7b476359f8cceb34e414d809f57fe541b4d/kirkwoodnight-1.0.0.tar.gz
+[2023-07-14 05:14:14] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.7.0.tar.gz]
+[2023-07-14 05:14:14] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.7.1.tar.gz]
+[2023-07-14 05:14:14] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2023-07-14 05:14:14] INFO root fetch - processPackages [BTM]: Downloading https://files.pythonhosted.org/packages/98/2d/d5eeabf96aea6ad5e88bade405477133557a1a4d9126c30fc1d88c8571f2/BTM-1.0.15.tar.gz
+[2023-07-14 05:14:14] INFO root fetch - processPackages [odoo-addon-privacy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_privacy-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-14 05:14:14] INFO root fetch - processPackages [odoo-addon-privacy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_privacy-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-14 05:14:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-privacy]: success
+[2023-07-14 05:14:14] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-07-14 05:14:14] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-07-14 05:14:14] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-07-14 05:14:15] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/9d/fc/c286dbb5215220aebe8b6677bb2862382531e73209c52d0e12757bddf62d/kirkwoodnight-1.0.1.tar.gz
+[2023-07-14 05:14:15] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 05:14:15] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-1.0.0.tar.gz tmp/kirkwoodnight-1.0.1.tar.gz --markdown 20230714/k/kirkwoodnight/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-14 05:14:15] INFO root fetch - processPackages [BTM]: Downloading https://files.pythonhosted.org/packages/eb/c7/cdbaf9695067ec97f2bc8a49fb66f7eb5d5882d7208694bf486a80dcf3d2/BTM-1.1.1.tar.gz
+[2023-07-14 05:14:15] INFO root fetch - processPackages [BTM]: executing diffoscope
+[2023-07-14 05:14:15] INFO root fetch - processPackages [BTM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BTM-1.0.15.tar.gz tmp/BTM-1.1.1.tar.gz --markdown 20230714/B/BTM/1.0.15-1.1.1/diff.md --exclude *.pyd
+[2023-07-14 05:14:16] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-1.0.0.tar.gz]
+[2023-07-14 05:14:16] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-1.0.1.tar.gz]
+[2023-07-14 05:14:16] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 05:14:18] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.3.1-cp38-cp38-macosx_13_0_arm64.whl.zip]
+[2023-07-14 05:14:18] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.tar.gz]
+[2023-07-14 05:14:18] INFO root fetch - main [MainThread]: End processing [py-go-goose]: success
+[2023-07-14 05:14:18] INFO root fetch - processPackages [BTM]: Remove: archive file [/home/abi/fetcher/tmp/BTM-1.0.15.tar.gz]
+[2023-07-14 05:14:18] INFO root fetch - processPackages [BTM]: Remove: archive file [/home/abi/fetcher/tmp/BTM-1.1.1.tar.gz]
+[2023-07-14 05:14:18] INFO root fetch - main [MainThread]: End processing [BTM]: success
+[2023-07-14 05:14:19] INFO root fetch - processPackages [voicegain-speech]: Remove: archive file [/home/abi/fetcher/tmp/voicegain-speech-1.85.2.tar.gz]
+[2023-07-14 05:14:19] INFO root fetch - processPackages [voicegain-speech]: Remove: archive file [/home/abi/fetcher/tmp/voicegain-speech-1.86.0.tar.gz]
+[2023-07-14 05:14:19] INFO root fetch - main [MainThread]: End processing [voicegain-speech]: success
+[2023-07-14 05:14:19] INFO root fetch - main [MainThread]: Store serial: [18885027]
