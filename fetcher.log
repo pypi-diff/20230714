@@ -20375,3 +20375,171 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 13:43:24] INFO root fetch - processPackages [connect-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/connect-sdk-python3-3.9.0.zip]
 [2023-07-14 13:43:24] INFO root fetch - main [MainThread]: End processing [connect-sdk-python3]: success
 [2023-07-14 13:43:24] INFO root fetch - main [MainThread]: Store serial: [18888985]
+[2023-07-14 13:48:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888985]
+[2023-07-14 13:48:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 13:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robocorp-browser
+[2023-07-14 13:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: move-ugc-python
+[2023-07-14 13:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pangeo-forge-cordex
+[2023-07-14 13:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: supGecko
+[2023-07-14 13:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lmfit-additional-models
+[2023-07-14 13:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apteco-api
+[2023-07-14 13:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cm-two
+[2023-07-14 13:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-game-collection
+[2023-07-14 13:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: petl-retouched-version
+[2023-07-14 13:48:33] INFO root fetch - processPackages [pangeo-forge-cordex]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-14 13:48:33] INFO root fetch - processPackages [robocorp-browser]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-07-14 13:48:33] INFO root fetch - processPackages [move-ugc-python]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-14 13:48:33] INFO root fetch - processPackages [supGecko]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-07-14 13:48:33] INFO root fetch - processPackages [lmfit-additional-models]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-14 13:48:33] INFO root fetch - processPackages [apteco-api]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-14 13:48:33] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-07-14 13:48:33] INFO root fetch - processPackages [cm-two]: New version: [2.3.41] Old Version: [2.3.4]
+[2023-07-14 13:48:33] INFO root fetch - processPackages [pangeo-forge-cordex]: Downloading https://files.pythonhosted.org/packages/de/2e/42c90a889b0872c27ed13759db3fc5755bf71b53a236ed793922bfc0597c/pangeo-forge-cordex-0.3.3.tar.gz
+[2023-07-14 13:48:33] INFO root fetch - processPackages [move-ugc-python]: Downloading https://files.pythonhosted.org/packages/df/f7/0bb57f7a65de88fd2dfb7b72232afe9e0a1851c13985aa7b2b03ba2e0c89/move_ugc_python-0.7.5.tar.gz
+[2023-07-14 13:48:33] INFO root fetch - processPackages [petl-retouched-version]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 13:48:33] INFO root fetch - processPackages [lmfit-additional-models]: Downloading https://files.pythonhosted.org/packages/56/0c/13ddf6563dd20b3aecb66e05c2b40296e4f1678126c7e55fe28d95718daf/lmfit-additional-models-1.0.2.tar.gz
+[2023-07-14 13:48:33] INFO root fetch - processPackages [robocorp-browser]: Downloading https://files.pythonhosted.org/packages/7b/af/c19da33de05f084e1516b6c646a123e2bf870b14ee44595cf142e416cf6d/robocorp_browser-1.0.2.tar.gz
+[2023-07-14 13:48:33] INFO root fetch - processPackages [supGecko]: Downloading https://files.pythonhosted.org/packages/5f/c6/7083071f7db64ae619148a191985b44ca9ac82e1fcbde923490ec8333014/supGecko-0.1.0a3.tar.gz
+[2023-07-14 13:48:33] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/78/5f4ae280737c4a77042ae7a2e4f3d7f655d5d8269afe38244532e5b1ffb2/nonebot_plugin_game_collection-2.3.2.tar.gz
+[2023-07-14 13:48:33] INFO root fetch - processPackages [apteco-api]: Downloading https://files.pythonhosted.org/packages/80/1d/11ab109235d3229e6757d85e403da88f1bca418d18a4131ae18bd4098d28/apteco-api-0.3.0.tar.gz
+[2023-07-14 13:48:34] INFO root fetch - processPackages [petl-retouched-version]: Downloading https://files.pythonhosted.org/packages/9c/9c/7da4ea1c9b0caace05db2853a0acbca58fe4dcd54a2a32f83fc37d2cee8b/petl_retouched_version-0.1.1.tar.gz
+[2023-07-14 13:48:34] INFO root fetch - processPackages [pangeo-forge-cordex]: Downloading https://files.pythonhosted.org/packages/b4/88/85b2bef0f3b6bce1334673c9df71e6c3189acee8d8933633de281a7345a8/pangeo-forge-cordex-0.3.4.tar.gz
+[2023-07-14 13:48:34] INFO root fetch - processPackages [move-ugc-python]: Downloading https://files.pythonhosted.org/packages/23/e6/624b99eb632f0c49e4d8a24c906fb06efd5471d72d33c733dbe52af65f47/move_ugc_python-0.7.6.tar.gz
+[2023-07-14 13:48:34] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/d5/ab/ebd1f4a605ecda14f8c91a04a94663eddccd38865cb81f61b6cbc13d587e/cm_two-2.3.41-py3-none-any.whl
+[2023-07-14 13:48:34] INFO root fetch - processPackages [lmfit-additional-models]: Downloading https://files.pythonhosted.org/packages/7e/8c/2ddecd8a53053e78fe6e53621f2002f45d2d3ac1856ac16c8a0449972fc1/lmfit-additional-models-1.0.3.tar.gz
+[2023-07-14 13:48:34] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/28/4e/a85cb7775dce1490a4156748d10f1f47179252a249e27f31ac89ee8e9576/nonebot_plugin_game_collection-2.3.3.tar.gz
+[2023-07-14 13:48:34] INFO root fetch - processPackages [robocorp-browser]: Downloading https://files.pythonhosted.org/packages/bf/00/98f56a16f94ea5f0abfe62fa250c624c44c74c4c16af621dcec05af5f2da/robocorp_browser-2.0.0.tar.gz
+[2023-07-14 13:48:34] INFO root fetch - processPackages [supGecko]: Downloading https://files.pythonhosted.org/packages/38/3c/2e1af4167650402105bcf3ce7d897ae331a6cb8c9bc0d802635a9255393e/supGecko-0.1.0a4.tar.gz
+[2023-07-14 13:48:34] INFO root fetch - processPackages [pangeo-forge-cordex]: executing diffoscope
+[2023-07-14 13:48:34] INFO root fetch - processPackages [pangeo-forge-cordex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pangeo-forge-cordex-0.3.3.tar.gz tmp/pangeo-forge-cordex-0.3.4.tar.gz --markdown 20230714/p/pangeo-forge-cordex/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-14 13:48:34] INFO root fetch - processPackages [apteco-api]: Downloading https://files.pythonhosted.org/packages/71/73/5cdbcd9ba88a82555c4a5fc501ae8d250cd326b2b26b66b03f1198dce1f7/apteco-api-0.3.1.tar.gz
+[2023-07-14 13:48:34] INFO root fetch - processPackages [lmfit-additional-models]: executing diffoscope
+[2023-07-14 13:48:34] INFO root fetch - processPackages [lmfit-additional-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmfit-additional-models-1.0.2.tar.gz tmp/lmfit-additional-models-1.0.3.tar.gz --markdown 20230714/l/lmfit-additional-models/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-14 13:48:34] INFO root fetch - processPackages [move-ugc-python]: executing diffoscope
+[2023-07-14 13:48:34] INFO root fetch - processPackages [move-ugc-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/move_ugc_python-0.7.5.tar.gz tmp/move_ugc_python-0.7.6.tar.gz --markdown 20230714/m/move-ugc-python/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-14 13:48:34] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-14 13:48:34] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.2.tar.gz tmp/nonebot_plugin_game_collection-2.3.3.tar.gz --markdown 20230714/n/nonebot-plugin-game-collection/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-07-14 13:48:34] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-14 13:48:34] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.4-py3-none-any.whl.zip tmp/cm_two-2.3.41-py3-none-any.whl.zip --markdown 20230714/c/cm-two/2.3.4-2.3.41/diff.md --exclude *.pyd
+[2023-07-14 13:48:34] INFO root fetch - processPackages [robocorp-browser]: executing diffoscope
+[2023-07-14 13:48:34] INFO root fetch - processPackages [robocorp-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_browser-1.0.2.tar.gz tmp/robocorp_browser-2.0.0.tar.gz --markdown 20230714/r/robocorp-browser/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-07-14 13:48:34] INFO root fetch - processPackages [petl-retouched-version]: Downloading https://files.pythonhosted.org/packages/8b/a3/c49b9de600496229112c61b47d5c5d844592e9fd8c467d1f0b60292f4cd1/petl_retouched_version-0.1.2.tar.gz
+[2023-07-14 13:48:34] INFO root fetch - processPackages [supGecko]: executing diffoscope
+[2023-07-14 13:48:34] INFO root fetch - processPackages [supGecko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supGecko-0.1.0a3.tar.gz tmp/supGecko-0.1.0a4.tar.gz --markdown 20230714/s/supGecko/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-07-14 13:48:34] INFO root fetch - processPackages [apteco-api]: executing diffoscope
+[2023-07-14 13:48:34] INFO root fetch - processPackages [apteco-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apteco-api-0.3.0.tar.gz tmp/apteco-api-0.3.1.tar.gz --markdown 20230714/a/apteco-api/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-14 13:48:34] INFO root fetch - processPackages [petl-retouched-version]: executing diffoscope
+[2023-07-14 13:48:34] INFO root fetch - processPackages [petl-retouched-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petl_retouched_version-0.1.1.tar.gz tmp/petl_retouched_version-0.1.2.tar.gz --markdown 20230714/p/petl-retouched-version/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 13:48:35] INFO root fetch - processPackages [lmfit-additional-models]: Remove: archive file [/home/abi/fetcher/tmp/lmfit-additional-models-1.0.2.tar.gz]
+[2023-07-14 13:48:35] INFO root fetch - processPackages [lmfit-additional-models]: Remove: archive file [/home/abi/fetcher/tmp/lmfit-additional-models-1.0.3.tar.gz]
+[2023-07-14 13:48:35] INFO root fetch - main [MainThread]: End processing [lmfit-additional-models]: success
+[2023-07-14 13:48:35] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-14T13:48:34+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-14 13:48:35] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-14 13:48:36] INFO root fetch - processPackages [robocorp-browser]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_browser-1.0.2.tar.gz]
+[2023-07-14 13:48:36] INFO root fetch - processPackages [robocorp-browser]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_browser-2.0.0.tar.gz]
+[2023-07-14 13:48:36] INFO root fetch - main [MainThread]: End processing [robocorp-browser]: success
+[2023-07-14 13:48:36] INFO root fetch - processPackages [pangeo-forge-cordex]: Remove: archive file [/home/abi/fetcher/tmp/pangeo-forge-cordex-0.3.3.tar.gz]
+[2023-07-14 13:48:36] INFO root fetch - processPackages [pangeo-forge-cordex]: Remove: archive file [/home/abi/fetcher/tmp/pangeo-forge-cordex-0.3.4.tar.gz]
+[2023-07-14 13:48:36] INFO root fetch - main [MainThread]: End processing [pangeo-forge-cordex]: success
+[2023-07-14 13:48:36] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.2.tar.gz]
+[2023-07-14 13:48:36] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.3.tar.gz]
+[2023-07-14 13:48:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-14 13:48:36] INFO root fetch - processPackages [supGecko]: Remove: archive file [/home/abi/fetcher/tmp/supGecko-0.1.0a3.tar.gz]
+[2023-07-14 13:48:36] INFO root fetch - processPackages [supGecko]: Remove: archive file [/home/abi/fetcher/tmp/supGecko-0.1.0a4.tar.gz]
+[2023-07-14 13:48:36] INFO root fetch - main [MainThread]: End processing [supGecko]: success
+[2023-07-14 13:48:36] INFO root fetch - processPackages [move-ugc-python]: Remove: archive file [/home/abi/fetcher/tmp/move_ugc_python-0.7.5.tar.gz]
+[2023-07-14 13:48:36] INFO root fetch - processPackages [move-ugc-python]: Remove: archive file [/home/abi/fetcher/tmp/move_ugc_python-0.7.6.tar.gz]
+[2023-07-14 13:48:36] INFO root fetch - main [MainThread]: End processing [move-ugc-python]: success
+[2023-07-14 13:48:37] INFO root fetch - processPackages [petl-retouched-version]: Remove: archive file [/home/abi/fetcher/tmp/petl_retouched_version-0.1.1.tar.gz]
+[2023-07-14 13:48:37] INFO root fetch - processPackages [petl-retouched-version]: Remove: archive file [/home/abi/fetcher/tmp/petl_retouched_version-0.1.2.tar.gz]
+[2023-07-14 13:48:37] INFO root fetch - main [MainThread]: End processing [petl-retouched-version]: success
+[2023-07-14 13:48:37] INFO root fetch - processPackages [apteco-api]: Remove: archive file [/home/abi/fetcher/tmp/apteco-api-0.3.0.tar.gz]
+[2023-07-14 13:48:37] INFO root fetch - processPackages [apteco-api]: Remove: archive file [/home/abi/fetcher/tmp/apteco-api-0.3.1.tar.gz]
+[2023-07-14 13:48:37] INFO root fetch - main [MainThread]: End processing [apteco-api]: success
+[2023-07-14 13:48:37] INFO root fetch - main [MainThread]: Store serial: [18889011]
