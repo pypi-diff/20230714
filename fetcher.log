@@ -11426,3 +11426,24 @@
 [2023-07-14 06:01:59] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230712.tar.gz]
 [2023-07-14 06:01:59] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-07-14 06:01:59] INFO root fetch - main [MainThread]: Store serial: [18885279]
+[2023-07-14 06:07:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885279]
+[2023-07-14 06:07:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-14 06:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sociallimits
+[2023-07-14 06:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-ts
+[2023-07-14 06:07:08] INFO root fetch - processPackages [simple-ts]: New version: [0.5] Old Version: [0.4]
+[2023-07-14 06:07:08] INFO root fetch - processPackages [sociallimits]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-14 06:07:08] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/ca/b2/00f4e80fceee142caf9c7357cfa55d884b9dcd74106806ab74aa8d4f53f4/simple_ts-0.4.tar.gz
+[2023-07-14 06:07:08] INFO root fetch - processPackages [sociallimits]: Downloading https://files.pythonhosted.org/packages/f1/5a/34466fa36244de96974cb82ad1f61bff997171fd44f80a61b7423a59ac0f/sociallimits-0.1.0-py3-none-any.whl
+[2023-07-14 06:07:08] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/09/fc/f2bc9b373f396774c7a4b797be2dbb6fabbf0a7b32ad96be25f00c029a98/simple_ts-0.5.tar.gz
+[2023-07-14 06:07:08] INFO root fetch - processPackages [sociallimits]: Downloading https://files.pythonhosted.org/packages/9f/a3/b73a4deebff90e4d2279030c7989c416a8b9d85a8d4a12b25f692c923c5e/sociallimits-1.0.0-py3-none-any.whl
+[2023-07-14 06:07:08] INFO root fetch - processPackages [simple-ts]: executing diffoscope
+[2023-07-14 06:07:08] INFO root fetch - processPackages [simple-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_ts-0.4.tar.gz tmp/simple_ts-0.5.tar.gz --markdown 20230714/s/simple-ts/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-14 06:07:08] INFO root fetch - processPackages [sociallimits]: executing diffoscope
+[2023-07-14 06:07:08] INFO root fetch - processPackages [sociallimits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sociallimits-0.1.0-py3-none-any.whl.zip tmp/sociallimits-1.0.0-py3-none-any.whl.zip --markdown 20230714/s/sociallimits/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-14 06:07:09] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.4.tar.gz]
+[2023-07-14 06:07:09] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.5.tar.gz]
+[2023-07-14 06:07:09] INFO root fetch - main [MainThread]: End processing [simple-ts]: success
+[2023-07-14 06:07:09] INFO root fetch - processPackages [sociallimits]: Remove: archive file [/home/abi/fetcher/tmp/sociallimits-0.1.0-py3-none-any.whl.zip]
+[2023-07-14 06:07:09] INFO root fetch - processPackages [sociallimits]: Remove: archive file [/home/abi/fetcher/tmp/sociallimits-1.0.0-py3-none-any.whl.zip]
+[2023-07-14 06:07:09] INFO root fetch - main [MainThread]: End processing [sociallimits]: success
+[2023-07-14 06:07:09] INFO root fetch - main [MainThread]: Store serial: [18885284]
