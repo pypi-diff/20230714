@@ -13629,3 +13629,99 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 08:18:16] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230714.tar.gz]
 [2023-07-14 08:18:16] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-14 08:18:16] INFO root fetch - main [MainThread]: Store serial: [18886012]
+[2023-07-14 08:23:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886012]
+[2023-07-14 08:23:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-14 08:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-ec
+[2023-07-14 08:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irisml-tasks
+[2023-07-14 08:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spyc-iot
+[2023-07-14 08:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-it-central-journal
+[2023-07-14 08:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-keycloak
+[2023-07-14 08:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-purchase-order-line-sequence
+[2023-07-14 08:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odroid-wiringpi
+[2023-07-14 08:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oep-client
+[2023-07-14 08:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: localstack-core
+[2023-07-14 08:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: glassmath
+[2023-07-14 08:23:25] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: New version: [13.0.1.1.1] Old Version: [13.0.1.1.0]
+[2023-07-14 08:23:25] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1689313015] Old Version: [0.5.2a1688416803]
+[2023-07-14 08:23:26] INFO root fetch - processPackages [oep-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-14 08:23:26] INFO root fetch - processPackages [irisml-tasks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 08:23:26] INFO root fetch - processPackages [odroid-wiringpi]: New version: [3.8] Old Version: [3.7]
+[2023-07-14 08:23:26] WARNING root fetch - processPackages [glassmath]: Skipping, unable to determine old version
+[2023-07-14 08:23:26] INFO root fetch - processPackages [glassmath]: Start processing: pulumi-mailgun
+[2023-07-14 08:23:26] INFO root fetch - main [MainThread]: End processing [glassmath] error
+[2023-07-14 08:23:26] INFO root fetch - processPackages [odoo14-addon-l10n-it-central-journal]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-07-14 08:23:26] INFO root fetch - processPackages [spyc-iot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-14 08:23:26] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.3.0a1689313332] Old Version: [5.3.0a1687907685]
+[2023-07-14 08:23:26] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230714062049] Old Version: [2.1.1.dev20230713205536]
+[2023-07-14 08:23:26] INFO root fetch - processPackages [oep-client]: Downloading https://files.pythonhosted.org/packages/d2/2d/d1e97cafe701ab1c5fc58a49d963658dac96596936a4c305a8736384adee/oep-client-0.9.0.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/18/46/91e74546ca301b0d8deeea96997d0122071b5dbce4ab5e0262546fdf821c/pulumi_ec-0.5.2a1688416803.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.5.0a1689313554] Old Version: [3.5.0a1687671492]
+[2023-07-14 08:23:26] INFO root fetch - processPackages [irisml-tasks]: Downloading https://files.pythonhosted.org/packages/f9/c3/617dc10d3d86277422b1376712fbcae45013c1fe00a777e78eee45fb1f31/irisml-tasks-0.0.8.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/29/08/2477f8d0ad393dabc30976c89e858565a45534f75c6a1b8e847d4a0661a0/localstack-core-2.1.1.dev20230713205536.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: Downloading https://files.pythonhosted.org/packages/e5/ba/7a146b7b81b624ad9817bd4c71680a1805ca22ffed3b659e3ec8dc335dd0/odoo13_addon_purchase_order_line_sequence-13.0.1.1.0-py3-none-any.whl
+[2023-07-14 08:23:26] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/6b/bb/3bcc9cb405a96e5407126f92b2fb1ba4d33f739a99a7932d9d6ff5b47ef6/pulumi_keycloak-5.3.0a1687907685.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [odroid-wiringpi]: Downloading https://files.pythonhosted.org/packages/4b/60/6e13fa275810dc1f2f74acc802c3f1eb435b34fe38154e35474579f313a5/odroid_wiringpi-3.7.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [odoo14-addon-l10n-it-central-journal]: Downloading https://files.pythonhosted.org/packages/e7/99/c1df42f1ae5fa20c95139cf3619824e54a54e3b82b6d5f418826928f5dbe/odoo14_addon_l10n_it_central_journal-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-07-14 08:23:26] INFO root fetch - processPackages [spyc-iot]: Downloading https://files.pythonhosted.org/packages/6f/53/cdedadd6025b90e0d004ee89fa1911178cf3a4e9245867fb53aeb480dbf5/spyc_iot-0.0.1.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/25/e3/30f8593a016e0e3e6023d756c37fbf71eb5085a72da51a1f736bbe0ab2ef/pulumi_mailgun-3.5.0a1687671492.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/20/1e/4cffd5f653b802c29d38f17358e78262d0d666926c511cddd19e2298ab33/pulumi_ec-0.5.2a1689313015.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [oep-client]: Downloading https://files.pythonhosted.org/packages/6e/0d/c0e0626cda19096dbe0c08f4ea0503579d0394ff4a440c3302e8807e0f7f/oep-client-0.9.1.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [irisml-tasks]: Downloading https://files.pythonhosted.org/packages/75/98/971cdf4f2e7e1a8cbd90c669ad60ca4117884f745d742a5d9911b79bef87/irisml-tasks-0.0.9.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/19/c5/0f4c753f19a5357710ed04f106cede5363aacc975870d324ebcf1da1d972/localstack-core-2.1.1.dev20230714062049.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: Downloading https://files.pythonhosted.org/packages/bb/11/c4bd6dedfc6766fc61561c73fccdfdca82f73951060bd600d77df4f4c494/odoo13_addon_purchase_order_line_sequence-13.0.1.1.1-py3-none-any.whl
+[2023-07-14 08:23:26] INFO root fetch - processPackages [spyc-iot]: Downloading https://files.pythonhosted.org/packages/ec/1c/1443e5e9d5730e31418231a34bc41abcd775fbcb41608bac741d7a92ddc9/spyc_iot-0.0.2.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-07-14 08:23:26] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1688416803.tar.gz tmp/pulumi_ec-0.5.2a1689313015.tar.gz --markdown 20230714/p/pulumi-ec/0.5.2a1688416803-0.5.2a1689313015/diff.md --exclude *.pyd
+[2023-07-14 08:23:26] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/c9/9d/712a3a70d7fcde853ef10e2a2711a25d29edbc1a259e31effa03962c1ca4/pulumi_keycloak-5.3.0a1689313332.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [odroid-wiringpi]: Downloading https://files.pythonhosted.org/packages/54/28/3fd4b96f475f4f81d454bdda83cefd8709e295c23c38cfda7771ba61a54a/odroid_wiringpi-3.8.tar.gz
+[2023-07-14 08:23:26] INFO root fetch - processPackages [odoo14-addon-l10n-it-central-journal]: Downloading https://files.pythonhosted.org/packages/ab/9e/f8f3ee634a6ed0ce324724a172e483d5a3bb81c66ca68bf6646b57dcc66a/odoo14_addon_l10n_it_central_journal-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-14 08:23:27] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: executing diffoscope
+[2023-07-14 08:23:27] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_order_line_sequence-13.0.1.1.0-py3-none-any.whl.zip tmp/odoo13_addon_purchase_order_line_sequence-13.0.1.1.1-py3-none-any.whl.zip --markdown 20230714/o/odoo13-addon-purchase-order-line-sequence/13.0.1.1.0-13.0.1.1.1/diff.md --exclude *.pyd
+[2023-07-14 08:23:27] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/dc/20/33b46cca197d995c2beaf2ad35e22cae34b576886ccfe38d059b574022f4/pulumi_mailgun-3.5.0a1689313554.tar.gz
+[2023-07-14 08:23:27] INFO root fetch - processPackages [spyc-iot]: executing diffoscope
+[2023-07-14 08:23:27] INFO root fetch - processPackages [spyc-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyc_iot-0.0.1.tar.gz tmp/spyc_iot-0.0.2.tar.gz --markdown 20230714/s/spyc-iot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-14 08:23:27] INFO root fetch - processPackages [irisml-tasks]: executing diffoscope
+[2023-07-14 08:23:27] INFO root fetch - processPackages [irisml-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-0.0.8.tar.gz tmp/irisml-tasks-0.0.9.tar.gz --markdown 20230714/i/irisml-tasks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 08:23:27] INFO root fetch - processPackages [oep-client]: executing diffoscope
+[2023-07-14 08:23:27] INFO root fetch - processPackages [oep-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oep-client-0.9.0.tar.gz tmp/oep-client-0.9.1.tar.gz --markdown 20230714/o/oep-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-14 08:23:27] INFO root fetch - processPackages [odroid-wiringpi]: executing diffoscope
+[2023-07-14 08:23:27] INFO root fetch - processPackages [odroid-wiringpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odroid_wiringpi-3.7.tar.gz tmp/odroid_wiringpi-3.8.tar.gz --markdown 20230714/o/odroid-wiringpi/3.7-3.8/diff.md --exclude *.pyd
+[2023-07-14 08:23:27] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2023-07-14 08:23:27] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.3.0a1687907685.tar.gz tmp/pulumi_keycloak-5.3.0a1689313332.tar.gz --markdown 20230714/p/pulumi-keycloak/5.3.0a1687907685-5.3.0a1689313332/diff.md --exclude *.pyd
+[2023-07-14 08:23:27] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2023-07-14 08:23:27] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.5.0a1687671492.tar.gz tmp/pulumi_mailgun-3.5.0a1689313554.tar.gz --markdown 20230714/p/pulumi-mailgun/3.5.0a1687671492-3.5.0a1689313554/diff.md --exclude *.pyd
+[2023-07-14 08:23:27] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-14 08:23:27] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230713205536.tar.gz tmp/localstack-core-2.1.1.dev20230714062049.tar.gz --markdown 20230714/l/localstack-core/2.1.1.dev20230713205536-2.1.1.dev20230714062049/diff.md --exclude *.pyd
+[2023-07-14 08:23:28] INFO root fetch - processPackages [odoo14-addon-l10n-it-central-journal]: executing diffoscope
+[2023-07-14 08:23:28] INFO root fetch - processPackages [odoo14-addon-l10n-it-central-journal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_central_journal-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_central_journal-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230714/o/odoo14-addon-l10n-it-central-journal/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-07-14 08:23:28] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1688416803.tar.gz]
+[2023-07-14 08:23:28] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1689313015.tar.gz]
+[2023-07-14 08:23:28] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-07-14 08:23:28] INFO root fetch - processPackages [spyc-iot]: Remove: archive file [/home/abi/fetcher/tmp/spyc_iot-0.0.1.tar.gz]
+[2023-07-14 08:23:28] INFO root fetch - processPackages [spyc-iot]: Remove: archive file [/home/abi/fetcher/tmp/spyc_iot-0.0.2.tar.gz]
+[2023-07-14 08:23:28] INFO root fetch - main [MainThread]: End processing [spyc-iot]: success
+[2023-07-14 08:23:28] INFO root fetch - processPackages [oep-client]: Remove: archive file [/home/abi/fetcher/tmp/oep-client-0.9.0.tar.gz]
+[2023-07-14 08:23:28] INFO root fetch - processPackages [oep-client]: Remove: archive file [/home/abi/fetcher/tmp/oep-client-0.9.1.tar.gz]
+[2023-07-14 08:23:28] INFO root fetch - main [MainThread]: End processing [oep-client]: success
+[2023-07-14 08:23:28] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_order_line_sequence-13.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-14 08:23:28] INFO root fetch - processPackages [odoo13-addon-purchase-order-line-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_order_line_sequence-13.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-14 08:23:28] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-order-line-sequence]: success
+[2023-07-14 08:23:28] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.5.0a1687671492.tar.gz]
+[2023-07-14 08:23:28] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.5.0a1689313554.tar.gz]
+[2023-07-14 08:23:28] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2023-07-14 08:23:28] INFO root fetch - processPackages [irisml-tasks]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-0.0.8.tar.gz]
+[2023-07-14 08:23:28] INFO root fetch - processPackages [irisml-tasks]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-0.0.9.tar.gz]
+[2023-07-14 08:23:28] INFO root fetch - main [MainThread]: End processing [irisml-tasks]: success
+[2023-07-14 08:23:29] INFO root fetch - processPackages [odroid-wiringpi]: Remove: archive file [/home/abi/fetcher/tmp/odroid_wiringpi-3.7.tar.gz]
+[2023-07-14 08:23:29] INFO root fetch - processPackages [odroid-wiringpi]: Remove: archive file [/home/abi/fetcher/tmp/odroid_wiringpi-3.8.tar.gz]
+[2023-07-14 08:23:29] INFO root fetch - main [MainThread]: End processing [odroid-wiringpi]: success
+[2023-07-14 08:23:29] INFO root fetch - processPackages [odoo14-addon-l10n-it-central-journal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_central_journal-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-07-14 08:23:29] INFO root fetch - processPackages [odoo14-addon-l10n-it-central-journal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_central_journal-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-14 08:23:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-central-journal]: success
+[2023-07-14 08:23:29] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1687907685.tar.gz]
+[2023-07-14 08:23:29] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1689313332.tar.gz]
+[2023-07-14 08:23:29] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2023-07-14 08:23:31] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230713205536.tar.gz]
+[2023-07-14 08:23:31] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230714062049.tar.gz]
+[2023-07-14 08:23:31] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-14 08:23:31] INFO root fetch - main [MainThread]: Store serial: [18886040]
