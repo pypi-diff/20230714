@@ -20897,3 +20897,73 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-14 14:04:18] INFO root fetch - processPackages [jupyter-on-golem]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_on_golem-0.1.2.tar.gz]
 [2023-07-14 14:04:18] INFO root fetch - main [MainThread]: End processing [jupyter-on-golem]: success
 [2023-07-14 14:04:18] INFO root fetch - main [MainThread]: Store serial: [18889159]
+[2023-07-14 14:09:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18889159]
+[2023-07-14 14:09:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-14 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-blocker
+[2023-07-14 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-intel
+[2023-07-14 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ramodels
+[2023-07-14 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piccolo
+[2023-07-14 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-serve
+[2023-07-14 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-smps
+[2023-07-14 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: schemasheets
+[2023-07-14 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kiara-plugin.service
+[2023-07-14 14:09:27] INFO root fetch - processPackages [nonebot-plugin-blocker]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-14 14:09:27] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-14 14:09:27] INFO root fetch - processPackages [py-smps]: New version: [2.1.0a3] Old Version: [2.1.0a2]
+[2023-07-14 14:09:27] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230713] Old Version: [2.14.0.dev20230712]
+[2023-07-14 14:09:27] INFO root fetch - processPackages [piccolo]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-14 14:09:27] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-14 14:09:27] INFO root fetch - processPackages [schemasheets]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 14:09:28] INFO root fetch - processPackages [kiara-plugin.service]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-14 14:09:28] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-14 14:09:28] INFO root fetch - processPackages [nonebot-plugin-blocker]: Downloading https://files.pythonhosted.org/packages/53/27/c7f434af56bb6c62ca56f8b4aba7c510925b1c5c30d6a121890d40e8f2d0/nonebot-plugin-blocker-0.1.7.tar.gz
+[2023-07-14 14:09:28] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-14 14:09:28] INFO root fetch - processPackages [py-smps]: Downloading https://files.pythonhosted.org/packages/d4/e6/af22ce1fe3a2ad004071f1191d336b1823851f290feaa09217c0e2ddc86c/py-smps-2.1.0a2.tar.gz
+[2023-07-14 14:09:28] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/ce/2e/670339ba209098ad7e26363966d6f472f16037e22c57ec0998d6fc5eb2ef/piccolo-0.98.0.tar.gz
+[2023-07-14 14:09:28] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/2d/8e/4d3cfb84081513f829c6a3fe3be7aeafd99783fab89e97c390da2026fa2c/tf_nightly_intel-2.14.0.dev20230712-cp39-cp39-win_amd64.whl
+[2023-07-14 14:09:28] INFO root fetch - processPackages [schemasheets]: Downloading https://files.pythonhosted.org/packages/76/c1/9e7551187e6aef385552ef2a2617b7f44d0f4b6452027c395965040e4f8d/schemasheets-0.1.8.tar.gz
+[2023-07-14 14:09:28] INFO root fetch - processPackages [kiara-plugin.service]: Downloading https://files.pythonhosted.org/packages/06/3a/52ad453d65942d5aedfd6de933666d765b6f6b379a08d1c6d8020a158d6b/kiara_plugin.service-0.4.4.tar.gz
+[2023-07-14 14:09:28] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-14 14:09:28] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230714/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-14 14:09:28] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183228277>=10485760
+[2023-07-14 14:09:28] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-14 14:09:28] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-14 14:09:28] INFO root fetch - processPackages [nonebot-plugin-blocker]: Downloading https://files.pythonhosted.org/packages/45/89/15485ea140930f176b153dd12f2d944a7ab8b7a068fe7c278b68cf3ea8f4/nonebot-plugin-blocker-0.1.8.tar.gz
+[2023-07-14 14:09:28] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-14 14:09:28] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230714/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-14 14:09:28] INFO root fetch - processPackages [nonebot-plugin-blocker]: executing diffoscope
+[2023-07-14 14:09:28] INFO root fetch - processPackages [nonebot-plugin-blocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-blocker-0.1.7.tar.gz tmp/nonebot-plugin-blocker-0.1.8.tar.gz --markdown 20230714/n/nonebot-plugin-blocker/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-14 14:09:28] INFO root fetch - processPackages [kiara-plugin.service]: Downloading https://files.pythonhosted.org/packages/af/cd/b70a006d047ad44934a934dc427b3c247598ee04372c14151157c12801c8/kiara_plugin.service-0.4.5.tar.gz
+[2023-07-14 14:09:28] INFO root fetch - processPackages [py-smps]: Downloading https://files.pythonhosted.org/packages/ca/20/514cad35500eebbcc13920c66b3a8ebf0b0313014ba1a6a303883ee6b0e3/py_smps-2.1.0a3.tar.gz
+[2023-07-14 14:09:28] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/d1/7b/62bb2f4141cb1520764033657ecef8fc6f29e4591d23d681699dcb460558/piccolo-0.99.0.tar.gz
+[2023-07-14 14:09:28] INFO root fetch - processPackages [schemasheets]: Downloading https://files.pythonhosted.org/packages/67/3c/aea352d48b95e60ddeffd8ed361426ec4057cdc1f9379234d516e916e182/schemasheets-0.1.9.tar.gz
+[2023-07-14 14:09:29] INFO root fetch - processPackages [py-smps]: executing diffoscope
+[2023-07-14 14:09:29] INFO root fetch - processPackages [py-smps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-smps-2.1.0a2.tar.gz tmp/py_smps-2.1.0a3.tar.gz --markdown 20230714/p/py-smps/2.1.0a2-2.1.0a3/diff.md --exclude *.pyd
+[2023-07-14 14:09:29] INFO root fetch - processPackages [piccolo]: executing diffoscope
+[2023-07-14 14:09:29] INFO root fetch - processPackages [piccolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo-0.98.0.tar.gz tmp/piccolo-0.99.0.tar.gz --markdown 20230714/p/piccolo/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-14 14:09:29] INFO root fetch - processPackages [schemasheets]: executing diffoscope
+[2023-07-14 14:09:29] INFO root fetch - processPackages [schemasheets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemasheets-0.1.8.tar.gz tmp/schemasheets-0.1.9.tar.gz --markdown 20230714/s/schemasheets/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 14:09:29] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev8.tar.gz]
+[2023-07-14 14:09:29] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev9.tar.gz]
+[2023-07-14 14:09:29] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-14 14:09:29] INFO root fetch - processPackages [kiara-plugin.service]: executing diffoscope
+[2023-07-14 14:09:29] INFO root fetch - processPackages [kiara-plugin.service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.service-0.4.4.tar.gz tmp/kiara_plugin.service-0.4.5.tar.gz --markdown 20230714/k/kiara-plugin.service/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-14 14:09:29] INFO root fetch - processPackages [nonebot-plugin-blocker]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-blocker-0.1.7.tar.gz]
+[2023-07-14 14:09:29] INFO root fetch - processPackages [nonebot-plugin-blocker]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-blocker-0.1.8.tar.gz]
+[2023-07-14 14:09:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blocker]: success
+[2023-07-14 14:09:29] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-14 14:09:29] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-14 14:09:29] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-14 14:09:29] INFO root fetch - processPackages [py-smps]: Remove: archive file [/home/abi/fetcher/tmp/py-smps-2.1.0a2.tar.gz]
+[2023-07-14 14:09:29] INFO root fetch - processPackages [py-smps]: Remove: archive file [/home/abi/fetcher/tmp/py_smps-2.1.0a3.tar.gz]
+[2023-07-14 14:09:29] INFO root fetch - main [MainThread]: End processing [py-smps]: success
+[2023-07-14 14:09:30] INFO root fetch - processPackages [schemasheets]: Remove: archive file [/home/abi/fetcher/tmp/schemasheets-0.1.8.tar.gz]
+[2023-07-14 14:09:30] INFO root fetch - processPackages [schemasheets]: Remove: archive file [/home/abi/fetcher/tmp/schemasheets-0.1.9.tar.gz]
+[2023-07-14 14:09:30] INFO root fetch - main [MainThread]: End processing [schemasheets]: success
+[2023-07-14 14:09:30] INFO root fetch - processPackages [kiara-plugin.service]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.service-0.4.4.tar.gz]
+[2023-07-14 14:09:30] INFO root fetch - processPackages [kiara-plugin.service]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.service-0.4.5.tar.gz]
+[2023-07-14 14:09:30] INFO root fetch - main [MainThread]: End processing [kiara-plugin.service]: success
+[2023-07-14 14:09:30] INFO root fetch - processPackages [piccolo]: Remove: archive file [/home/abi/fetcher/tmp/piccolo-0.98.0.tar.gz]
+[2023-07-14 14:09:30] INFO root fetch - processPackages [piccolo]: Remove: archive file [/home/abi/fetcher/tmp/piccolo-0.99.0.tar.gz]
+[2023-07-14 14:09:30] INFO root fetch - main [MainThread]: End processing [piccolo]: success
+[2023-07-14 14:09:30] INFO root fetch - main [MainThread]: Store serial: [18889180]
