@@ -18897,3 +18897,91 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 12:28:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.784.tar.gz]
 [2023-07-14 12:28:55] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
 [2023-07-14 12:28:55] INFO root fetch - main [MainThread]: Store serial: [18888306]
+[2023-07-14 12:33:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888306]
+[2023-07-14 12:34:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-14 12:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bulk-editor
+[2023-07-14 12:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-notification-sdk-preview
+[2023-07-14 12:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dv.anant
+[2023-07-14 12:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SHACL2SPARQLpy
+[2023-07-14 12:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yjpainting-sdk
+[2023-07-14 12:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: efel
+[2023-07-14 12:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vectordb
+[2023-07-14 12:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oarepo-model-builder-vocabularies
+[2023-07-14 12:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vectordb
+[2023-07-14 12:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: competitive-verifier
+[2023-07-14 12:34:03] WARNING root fetch - processPackages [yjpainting-sdk]: Skipping, unable to determine old version
+[2023-07-14 12:34:03] INFO root fetch - processPackages [yjpainting-sdk]: Start processing: serem-bce
+[2023-07-14 12:34:03] INFO root fetch - main [MainThread]: End processing [yjpainting-sdk] error
+[2023-07-14 12:34:03] INFO root fetch - processPackages [SHACL2SPARQLpy]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-14 12:34:03] WARNING root fetch - processPackages [dv.anant]: Skipping, unable to determine old version
+[2023-07-14 12:34:03] INFO root fetch - processPackages [dv.anant]: Start processing: nonebot-plugin-mongodb
+[2023-07-14 12:34:03] INFO root fetch - main [MainThread]: End processing [dv.anant] error
+[2023-07-14 12:34:03] WARNING root fetch - processPackages [bulk-editor]: Skipping, unable to determine old version
+[2023-07-14 12:34:03] INFO root fetch - processPackages [bulk-editor]: Start processing: luminesce-sdk-preview
+[2023-07-14 12:34:03] INFO root fetch - main [MainThread]: End processing [bulk-editor] error
+[2023-07-14 12:34:03] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-07-14 12:34:03] INFO root fetch - processPackages [vectordb]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-07-14 12:34:03] INFO root fetch - processPackages [vectordb]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-07-14 12:34:03] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.784] Old Version: [0.1.779]
+[2023-07-14 12:34:03] WARNING root fetch - processPackages [serem-bce]: Skipping, unable to determine old version
+[2023-07-14 12:34:03] INFO root fetch - main [MainThread]: End processing [serem-bce] error
+[2023-07-14 12:34:03] INFO root fetch - processPackages [efel]: New version: [4.3.4] Old Version: [4.3.0]
+[2023-07-14 12:34:04] INFO root fetch - processPackages [competitive-verifier]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-07-14 12:34:04] WARNING root fetch - processPackages [nonebot-plugin-mongodb]: Skipping, unable to determine old version
+[2023-07-14 12:34:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mongodb] error
+[2023-07-14 12:34:04] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-14 12:34:04] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/14/c8/c72f2dc0c23bb13ec110b4a46fb06b9714a06b22781fe818c91fd8840310/vectordb-0.0.9.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/14/c8/c72f2dc0c23bb13ec110b4a46fb06b9714a06b22781fe818c91fd8840310/vectordb-0.0.9.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [SHACL2SPARQLpy]: Downloading https://files.pythonhosted.org/packages/8e/f3/8ee429d90d8718e276c238ae1435becf3f83393c5f78334509efd40bd995/SHACL2SPARQLpy-1.2.0.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: Downloading https://files.pythonhosted.org/packages/d1/92/d86163d20b677ce7ca3662d08926446ef361feef6179e675e35c5e5c5fc7/oarepo-model-builder-vocabularies-4.0.3.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/0d/6c/b6a87493dc07306e1b611ff9b1106ea992595ac08ef13813df700e7e7c00/lusid-notification-sdk-preview-0.1.779.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/37/0d/73f893e751157adcbed1cd1a6dd8322b9981e4fdb2bad3bd6ade437a20e9/efel-4.3.0.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [competitive-verifier]: Downloading https://files.pythonhosted.org/packages/3c/dc/cd968048c5c8737e10a07a2a7c595bee13c399addd0c80c7e2d3dfa721c8/competitive_verifier-1.4.4.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/4d/15/d8a0903c4b3b48fc826096c99accdadd5069d00fa51694f5b7071d2f618a/vectordb-0.0.9.dev2.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/4d/15/d8a0903c4b3b48fc826096c99accdadd5069d00fa51694f5b7071d2f618a/vectordb-0.0.9.dev2.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [SHACL2SPARQLpy]: Downloading https://files.pythonhosted.org/packages/e6/f0/a0b3fb3704da0a770ca8fa4c017375320454362d3417dc42c3b60f46061d/SHACL2SPARQLpy-1.3.0.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: Downloading https://files.pythonhosted.org/packages/9c/60/303f4aff2d6311c149f3f51fceec5d681ef30fe2b90da43c9240a7b2d6c9/oarepo-model-builder-vocabularies-4.0.4.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-07-14 12:34:04] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.9.tar.gz tmp/vectordb-0.0.9.dev2.tar.gz --markdown 20230714/v/vectordb/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-07-14 12:34:04] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-07-14 12:34:04] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.9.tar.gz tmp/vectordb-0.0.9.dev2.tar.gz --markdown 20230714/v/vectordb/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-07-14 12:34:04] INFO root fetch - processPackages [competitive-verifier]: Downloading https://files.pythonhosted.org/packages/d9/63/5b40f0cdc639d8c34aefdf968dc9531ad941e34aa33c35004e959eb0cce6/competitive_verifier-1.4.5.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/4e/fc/62af3448159569719c5a0212bdf7ce6ffbfe4cdd0d25c4a939a0ffc1b038/lusid-notification-sdk-preview-0.1.784.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-14 12:34:04] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230714/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-14 12:34:04] INFO root fetch - processPackages [SHACL2SPARQLpy]: executing diffoscope
+[2023-07-14 12:34:04] INFO root fetch - processPackages [SHACL2SPARQLpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SHACL2SPARQLpy-1.2.0.tar.gz tmp/SHACL2SPARQLpy-1.3.0.tar.gz --markdown 20230714/S/SHACL2SPARQLpy/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-14 12:34:04] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/d3/8a/ffb6ef92545da2ef3be741c1cb211a81f2dc75d467db05d5db17d643394e/efel-4.3.4.tar.gz
+[2023-07-14 12:34:04] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: executing diffoscope
+[2023-07-14 12:34:04] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-vocabularies-4.0.3.tar.gz tmp/oarepo-model-builder-vocabularies-4.0.4.tar.gz --markdown 20230714/o/oarepo-model-builder-vocabularies/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-07-14 12:34:04] INFO root fetch - processPackages [competitive-verifier]: executing diffoscope
+[2023-07-14 12:34:04] INFO root fetch - processPackages [competitive-verifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/competitive_verifier-1.4.4.tar.gz tmp/competitive_verifier-1.4.5.tar.gz --markdown 20230714/c/competitive-verifier/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-07-14 12:34:04] INFO root fetch - processPackages [efel]: executing diffoscope
+[2023-07-14 12:34:04] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-4.3.0.tar.gz tmp/efel-4.3.4.tar.gz --markdown 20230714/e/efel/4.3.0-4.3.4/diff.md --exclude *.pyd
+[2023-07-14 12:34:05] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-07-14 12:34:05] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.779.tar.gz tmp/lusid-notification-sdk-preview-0.1.784.tar.gz --markdown 20230714/l/lusid-notification-sdk-preview/0.1.779-0.1.784/diff.md --exclude *.pyd
+[2023-07-14 12:34:06] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.9.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.9.dev2.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-07-14 12:34:06] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-07-14 12:34:06] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-vocabularies-4.0.3.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-vocabularies-4.0.4.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-vocabularies]: success
+[2023-07-14 12:34:06] INFO root fetch - processPackages [SHACL2SPARQLpy]: Remove: archive file [/home/abi/fetcher/tmp/SHACL2SPARQLpy-1.2.0.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - processPackages [SHACL2SPARQLpy]: Remove: archive file [/home/abi/fetcher/tmp/SHACL2SPARQLpy-1.3.0.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - main [MainThread]: End processing [SHACL2SPARQLpy]: success
+[2023-07-14 12:34:06] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-4.3.0.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-4.3.4.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2023-07-14 12:34:06] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-14 12:34:06] INFO root fetch - processPackages [competitive-verifier]: Remove: archive file [/home/abi/fetcher/tmp/competitive_verifier-1.4.4.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - processPackages [competitive-verifier]: Remove: archive file [/home/abi/fetcher/tmp/competitive_verifier-1.4.5.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - main [MainThread]: End processing [competitive-verifier]: success
+[2023-07-14 12:34:06] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.779.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.784.tar.gz]
+[2023-07-14 12:34:06] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-07-14 12:34:06] INFO root fetch - main [MainThread]: Store serial: [18888375]
