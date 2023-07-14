@@ -11312,3 +11312,72 @@
 [2023-07-14 05:51:33] INFO root fetch - processPackages [mafese]: Remove: archive file [/home/abi/fetcher/tmp/mafese-0.1.8.tar.gz]
 [2023-07-14 05:51:33] INFO root fetch - main [MainThread]: End processing [mafese]: success
 [2023-07-14 05:51:33] INFO root fetch - main [MainThread]: Store serial: [18885231]
+[2023-07-14 05:56:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885231]
+[2023-07-14 05:56:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-14 05:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azdev
+[2023-07-14 05:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invoicing-pdf-mrm2
+[2023-07-14 05:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fusionlab
+[2023-07-14 05:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-ts
+[2023-07-14 05:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-url-tokenizer
+[2023-07-14 05:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyLSHash
+[2023-07-14 05:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: busy
+[2023-07-14 05:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oloren
+[2023-07-14 05:56:42] INFO root fetch - processPackages [busy]: New version: [5.3.2] Old Version: [5.1.2]
+[2023-07-14 05:56:42] INFO root fetch - processPackages [fusionlab]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-14 05:56:42] INFO root fetch - processPackages [simple-ts]: New version: [0.4] Old Version: [0.3]
+[2023-07-14 05:56:42] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 05:56:42] INFO root fetch - processPackages [pyLSHash]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-14 05:56:42] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 05:56:42] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 05:56:42] WARNING root fetch - processPackages [invoicing-pdf-mrm2]: Skipping, unable to determine old version
+[2023-07-14 05:56:42] INFO root fetch - main [MainThread]: End processing [invoicing-pdf-mrm2] error
+[2023-07-14 05:56:42] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-14 05:56:42] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/d4/3d/05c70837c59b4f4e7d6a8f58fc02a762ae8199a06ee6eb8d7d9fb7f19de8/simple_ts-0.3.tar.gz
+[2023-07-14 05:56:42] INFO root fetch - processPackages [pyLSHash]: Downloading https://files.pythonhosted.org/packages/54/74/cdb87c94c59641f3df7534602d93f22725b60c1c47b5d319d8692b00f16e/pyLSHash-0.2.1.tar.gz
+[2023-07-14 05:56:42] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-14 05:56:42] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/97/3f/d56d24689c32a5e717f9176d609457b1892204749dc42b433bb757477c53/busy-5.1.2.tar.gz
+[2023-07-14 05:56:42] INFO root fetch - processPackages [fusionlab]: Downloading https://files.pythonhosted.org/packages/12/21/441f79edd4981a4e794df19e92a77f57d896d661e5a7fb0c1e8ae60a1b86/fusionlab-0.1.4.tar.gz
+[2023-07-14 05:56:42] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/26/b3/e90a3d82517d0e67d66c68d4948f50df5460083d749b90620911ec3dcb94/azdev-0.1.8.tar.gz
+[2023-07-14 05:56:42] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-14 05:56:42] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/ca/b2/00f4e80fceee142caf9c7357cfa55d884b9dcd74106806ab74aa8d4f53f4/simple_ts-0.4.tar.gz
+[2023-07-14 05:56:42] INFO root fetch - processPackages [pyLSHash]: Downloading https://files.pythonhosted.org/packages/42/27/7d19a89d979042e07e2e9c5d73ab8ded18635eb73ec3faf0806f7f453fc5/pyLSHash-0.2.2.tar.gz
+[2023-07-14 05:56:42] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/67/bd/27cc0a504be5575f807c46087d79fcefc672b242dc0bae9bb83911765909/busy-5.3.2.tar.gz
+[2023-07-14 05:56:42] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-14 05:56:42] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230714/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 05:56:42] INFO root fetch - processPackages [fusionlab]: Downloading https://files.pythonhosted.org/packages/a9/33/792d907f14b8fe6fdf564c486d43f5676dbb1f634d10d4e2e6f36d55efd1/fusionlab-0.1.5.tar.gz
+[2023-07-14 05:56:42] INFO root fetch - processPackages [simple-ts]: executing diffoscope
+[2023-07-14 05:56:42] INFO root fetch - processPackages [simple-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_ts-0.3.tar.gz tmp/simple_ts-0.4.tar.gz --markdown 20230714/s/simple-ts/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-14 05:56:43] INFO root fetch - processPackages [pyLSHash]: executing diffoscope
+[2023-07-14 05:56:43] INFO root fetch - processPackages [pyLSHash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyLSHash-0.2.1.tar.gz tmp/pyLSHash-0.2.2.tar.gz --markdown 20230714/p/pyLSHash/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-14 05:56:43] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-14 05:56:43] INFO root fetch - processPackages [busy]: executing diffoscope
+[2023-07-14 05:56:43] INFO root fetch - processPackages [busy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busy-5.1.2.tar.gz tmp/busy-5.3.2.tar.gz --markdown 20230714/b/busy/5.1.2-5.3.2/diff.md --exclude *.pyd
+[2023-07-14 05:56:43] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/a8/bf/9cd7c2c31e25d929e85358027632a0d46d8e5d7f85c855a131905cb53218/azdev-0.1.9.tar.gz
+[2023-07-14 05:56:43] INFO root fetch - processPackages [fusionlab]: executing diffoscope
+[2023-07-14 05:56:43] INFO root fetch - processPackages [fusionlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusionlab-0.1.4.tar.gz tmp/fusionlab-0.1.5.tar.gz --markdown 20230714/f/fusionlab/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-14 05:56:43] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-07-14 05:56:43] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230714/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 05:56:43] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-14 05:56:43] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230714/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 05:56:44] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-14 05:56:44] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-14 05:56:44] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-14 05:56:44] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.3.tar.gz]
+[2023-07-14 05:56:44] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.4.tar.gz]
+[2023-07-14 05:56:44] INFO root fetch - main [MainThread]: End processing [simple-ts]: success
+[2023-07-14 05:56:44] INFO root fetch - processPackages [pyLSHash]: Remove: archive file [/home/abi/fetcher/tmp/pyLSHash-0.2.1.tar.gz]
+[2023-07-14 05:56:44] INFO root fetch - processPackages [pyLSHash]: Remove: archive file [/home/abi/fetcher/tmp/pyLSHash-0.2.2.tar.gz]
+[2023-07-14 05:56:44] INFO root fetch - main [MainThread]: End processing [pyLSHash]: success
+[2023-07-14 05:56:44] INFO root fetch - processPackages [busy]: Remove: archive file [/home/abi/fetcher/tmp/busy-5.1.2.tar.gz]
+[2023-07-14 05:56:44] INFO root fetch - processPackages [busy]: Remove: archive file [/home/abi/fetcher/tmp/busy-5.3.2.tar.gz]
+[2023-07-14 05:56:44] INFO root fetch - main [MainThread]: End processing [busy]: success
+[2023-07-14 05:56:44] INFO root fetch - processPackages [fusionlab]: Remove: archive file [/home/abi/fetcher/tmp/fusionlab-0.1.4.tar.gz]
+[2023-07-14 05:56:44] INFO root fetch - processPackages [fusionlab]: Remove: archive file [/home/abi/fetcher/tmp/fusionlab-0.1.5.tar.gz]
+[2023-07-14 05:56:44] INFO root fetch - main [MainThread]: End processing [fusionlab]: success
+[2023-07-14 05:56:44] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.8.tar.gz]
+[2023-07-14 05:56:44] INFO root fetch - processPackages [azdev]: Remove: archive file [/home/abi/fetcher/tmp/azdev-0.1.9.tar.gz]
+[2023-07-14 05:56:44] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-07-14 05:56:47] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-14 05:56:47] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-14 05:56:48] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-14 05:56:48] INFO root fetch - main [MainThread]: Store serial: [18885254]
