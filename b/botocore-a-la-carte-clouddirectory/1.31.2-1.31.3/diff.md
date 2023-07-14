@@ -1,4 +1,4 @@
-# Comparing `tmp/botocore-a-la-carte-clouddirectory-1.31.2.tar.gz` & `tmp/botocore_a_la_carte_clouddirectory-1.31.3-py3-none-any.whl.zip`
+# Comparing `tmp/botocore-a-la-carte-clouddirectory-1.31.2.tar.gz` & `tmp/botocore-a-la-carte-clouddirectory-1.31.3.tar.gz`
 
 ## filetype from file(1)
 
