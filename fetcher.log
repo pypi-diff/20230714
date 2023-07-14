@@ -10826,3 +10826,45 @@
 [2023-07-14 05:19:53] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
 [2023-07-14 05:19:53] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-14 05:19:53] INFO root fetch - main [MainThread]: Store serial: [18885071]
+[2023-07-14 05:24:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885071]
+[2023-07-14 05:25:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-14 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GANDLF
+[2023-07-14 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kirkwoodnight
+[2023-07-14 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bsl-appcli
+[2023-07-14 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RelayMe
+[2023-07-14 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hak
+[2023-07-14 05:25:02] INFO root fetch - processPackages [bsl-appcli]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-14 05:25:02] WARNING root fetch - processPackages [RelayMe]: Skipping, unable to determine old version
+[2023-07-14 05:25:02] INFO root fetch - main [MainThread]: End processing [RelayMe] error
+[2023-07-14 05:25:02] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 05:25:02] INFO root fetch - processPackages [kirkwoodnight]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-14 05:25:02] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230714] Old Version: [0.0.17.dev20230713]
+[2023-07-14 05:25:02] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-14 05:25:02] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/9d/fc/c286dbb5215220aebe8b6677bb2862382531e73209c52d0e12757bddf62d/kirkwoodnight-1.0.1.tar.gz
+[2023-07-14 05:25:02] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/62/1e/c7f703638ba3f991817f22b4e029e85d235c06af91361e571235f406a65f/bsl-appcli-2.1.0.tar.gz
+[2023-07-14 05:25:02] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/20/fe/b8770a75e4faefb4c2eb7f413384c8e1409820cc9f4e3f0fdc94532aaa73/GANDLF-0.0.17.dev20230713.tar.gz
+[2023-07-14 05:25:02] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-14 05:25:03] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/db/39/ad2b6344be48cc2ba82f2191b90cbbcd26ad5d1d9cd3e8c4384f88a73588/kirkwoodnight-1.0.2.tar.gz
+[2023-07-14 05:25:03] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-14 05:25:03] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230714/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 05:25:03] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/dc/7b/1685beaf03b9ceb4d00371e322870ba0d0a2eeaa8c94a2ec55cd8c9e0a41/bsl-appcli-2.2.0.tar.gz
+[2023-07-14 05:25:03] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/84/92/75bfaca9decf44d78cb6660321f3a300e2a7de89515893716a0d0f2a3c6a/GANDLF-0.0.17.dev20230714.tar.gz
+[2023-07-14 05:25:03] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 05:25:03] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-1.0.1.tar.gz tmp/kirkwoodnight-1.0.2.tar.gz --markdown 20230714/k/kirkwoodnight/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-14 05:25:03] INFO root fetch - processPackages [bsl-appcli]: executing diffoscope
+[2023-07-14 05:25:03] INFO root fetch - processPackages [bsl-appcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsl-appcli-2.1.0.tar.gz tmp/bsl-appcli-2.2.0.tar.gz --markdown 20230714/b/bsl-appcli/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-14 05:25:03] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-14 05:25:03] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230713.tar.gz tmp/GANDLF-0.0.17.dev20230714.tar.gz --markdown 20230714/G/GANDLF/0.0.17.dev20230713-0.0.17.dev20230714/diff.md --exclude *.pyd
+[2023-07-14 05:25:04] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-1.0.1.tar.gz]
+[2023-07-14 05:25:04] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-1.0.2.tar.gz]
+[2023-07-14 05:25:04] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 05:25:04] INFO root fetch - processPackages [bsl-appcli]: Remove: archive file [/home/abi/fetcher/tmp/bsl-appcli-2.1.0.tar.gz]
+[2023-07-14 05:25:04] INFO root fetch - processPackages [bsl-appcli]: Remove: archive file [/home/abi/fetcher/tmp/bsl-appcli-2.2.0.tar.gz]
+[2023-07-14 05:25:04] INFO root fetch - main [MainThread]: End processing [bsl-appcli]: success
+[2023-07-14 05:25:04] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-14 05:25:04] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-14 05:25:04] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-14 05:25:04] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230713.tar.gz]
+[2023-07-14 05:25:04] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230714.tar.gz]
+[2023-07-14 05:25:04] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-14 05:25:04] INFO root fetch - main [MainThread]: Store serial: [18885086]
