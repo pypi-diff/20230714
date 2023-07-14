@@ -12111,3 +12111,33 @@ AssertionError: tmp/aorta_sirius_dev-0.8.tar.gz does not exist
 [2023-07-14 06:49:10] INFO root fetch - processPackages [reverse-projection]: Remove: archive file [/home/abi/fetcher/tmp/reverse-projection-0.0.2.5.tar.gz]
 [2023-07-14 06:49:10] INFO root fetch - main [MainThread]: End processing [reverse-projection]: success
 [2023-07-14 06:49:10] INFO root fetch - main [MainThread]: Store serial: [18885512]
+[2023-07-14 06:54:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885512]
+[2023-07-14 06:54:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-14 06:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweepai
+[2023-07-14 06:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commonvars
+[2023-07-14 06:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-comment-template
+[2023-07-14 06:54:19] INFO root fetch - processPackages [commonvars]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-14 06:54:19] INFO root fetch - processPackages [sweepai]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-14 06:54:19] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.3]
+[2023-07-14 06:54:19] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/97/07/7fb649d0f8224134aab17fbdb2d49f7b532f584b081b2d0011b8678eff10/sweepai-0.4.6.tar.gz
+[2023-07-14 06:54:19] INFO root fetch - processPackages [commonvars]: Downloading https://files.pythonhosted.org/packages/04/c0/05c0696b84745a86c0bbc48f171b96d48f7f8427c165ca624b120d0ffba1/commonvars-0.2.7.tar.gz
+[2023-07-14 06:54:19] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Downloading https://files.pythonhosted.org/packages/23/dd/b977b9b835b58b724837ac8e71d2bc8ad84d0a215a08a9a2995d3e80eade/odoo_addon_purchase_comment_template-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-14 06:54:19] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/2b/e3/052043403277788225e3571a4a4f5349207063604e5f0b801254a6f45d03/sweepai-0.4.7.tar.gz
+[2023-07-14 06:54:19] INFO root fetch - processPackages [commonvars]: Downloading https://files.pythonhosted.org/packages/e4/65/b89fea9772c0d7c16614395cbb6f3d3ddf4825857c454756125523ab8aef/commonvars-0.2.8.tar.gz
+[2023-07-14 06:54:19] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-14 06:54:19] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.4.6.tar.gz tmp/sweepai-0.4.7.tar.gz --markdown 20230714/s/sweepai/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-14 06:54:19] INFO root fetch - processPackages [commonvars]: executing diffoscope
+[2023-07-14 06:54:19] INFO root fetch - processPackages [commonvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonvars-0.2.7.tar.gz tmp/commonvars-0.2.8.tar.gz --markdown 20230714/c/commonvars/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-14 06:54:19] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Downloading https://files.pythonhosted.org/packages/95/f4/6f2de5629d2d53f413665be9dbe7a9a3d287ba7dc00901c9b6aaadf428aa/odoo_addon_purchase_comment_template-15.0.1.0.0.5-py3-none-any.whl
+[2023-07-14 06:54:20] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: executing diffoscope
+[2023-07-14 06:54:20] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_comment_template-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_comment_template-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-purchase-comment-template/15.0.1.0.0.3-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-14 06:54:20] INFO root fetch - processPackages [commonvars]: Remove: archive file [/home/abi/fetcher/tmp/commonvars-0.2.7.tar.gz]
+[2023-07-14 06:54:20] INFO root fetch - processPackages [commonvars]: Remove: archive file [/home/abi/fetcher/tmp/commonvars-0.2.8.tar.gz]
+[2023-07-14 06:54:20] INFO root fetch - main [MainThread]: End processing [commonvars]: success
+[2023-07-14 06:54:20] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.6.tar.gz]
+[2023-07-14 06:54:20] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.4.7.tar.gz]
+[2023-07-14 06:54:20] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-14 06:54:20] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_comment_template-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-14 06:54:20] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_comment_template-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-14 06:54:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-comment-template]: success
+[2023-07-14 06:54:20] INFO root fetch - main [MainThread]: Store serial: [18885521]
