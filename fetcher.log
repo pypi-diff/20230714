@@ -18329,3 +18329,133 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 12:02:36] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.9.tar.gz]
 [2023-07-14 12:02:36] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
 [2023-07-14 12:02:36] INFO root fetch - main [MainThread]: Store serial: [18888074]
+[2023-07-14 12:07:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888074]
+[2023-07-14 12:07:44] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-14 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openhexa.sdk
+[2023-07-14 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydis-core
+[2023-07-14 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: virtualenv-pyenv
+[2023-07-14 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: herta-villa-sdk
+[2023-07-14 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zylo
+[2023-07-14 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: garpix-utils
+[2023-07-14 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openquake.engine
+[2023-07-14 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: league-client
+[2023-07-14 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multipoles
+[2023-07-14 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robingrad
+[2023-07-14 12:07:44] INFO root fetch - processPackages [multipoles]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-07-14 12:07:44] INFO root fetch - processPackages [virtualenv-pyenv]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-14 12:07:44] INFO root fetch - processPackages [herta-villa-sdk]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-14 12:07:44] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 12:07:44] INFO root fetch - processPackages [zylo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-14 12:07:44] INFO root fetch - processPackages [pydis-core]: New version: [9.9.2] Old Version: [9.9.1]
+[2023-07-14 12:07:44] INFO root fetch - processPackages [league-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-14 12:07:44] INFO root fetch - processPackages [robingrad]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-14 12:07:45] INFO root fetch - processPackages [garpix-utils]: New version: [1.9.0rc3] Old Version: [1.9.0rc2]
+[2023-07-14 12:07:45] INFO root fetch - processPackages [openquake.engine]: New version: [3.9.0] Old Version: [3.8.1]
+[2023-07-14 12:07:45] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/2d/63/6cf8c3d8c690624bf5da3eccae426000fc384f6f2b1e46094f46a261b21e/openhexa.sdk-0.1.8.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/a8/0c/7fd0aa48bfdce1bf19abf929e7f660c9598a9aef03b0f316ceccd62b74f3/zylo-1.0.8.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [pydis-core]: Downloading https://files.pythonhosted.org/packages/e0/56/d1758074f0c10712e4ab309c1b0ebc09d0c54bb0844a79092c7989f02881/pydis_core-9.9.1.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [multipoles]: Downloading https://files.pythonhosted.org/packages/f5/ac/b83055ec97c42ace010128d1a3c3d3d61a381089b14bb20c28e9af42bd77/multipoles-0.3.4.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [virtualenv-pyenv]: Downloading https://files.pythonhosted.org/packages/48/b1/c057046424dc79cef246bd00772dc005e5efc63826ae47356feede2a5385/virtualenv-pyenv-0.2.0.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/dd/12/d9ec85552c36612dfee7beb8457108c681af0b123d6dbe3953b1501bf38a/herta_villa_sdk-0.5.0.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/6c/04/9929e1e274fb1b8465e5b0a422d4b94ed7344109af5a65de3a94a0f20cbc/league_client-1.0.8-py3-none-any.whl
+[2023-07-14 12:07:45] INFO root fetch - processPackages [robingrad]: Downloading https://files.pythonhosted.org/packages/c7/fb/b36a1c807648c322d169a8cf88cbdfb0a31098421edcde0cccd988ea4733/robingrad-0.0.1.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [openquake.engine]: Downloading https://files.pythonhosted.org/packages/cc/2f/fcd3bb66a4a074327bceeec194fd7a75fdcad2dc3a1d1a12a789421ea5f3/openquake.engine-3.8.1.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [garpix-utils]: Downloading https://files.pythonhosted.org/packages/fc/c8/a863299d473b32cf0fe0a16812bd84a125dbf608d202f02441651771a1e5/garpix_utils-1.9.0rc2.tar.gz
+[2023-07-14 12:07:45] WARNING root fetch - processPackages [openquake.engine]: Skipping package: exceeds size limit 29973276>=10485760
+[2023-07-14 12:07:45] INFO root fetch - processPackages [openquake.engine]: Start processing: fastapi-serve
+[2023-07-14 12:07:45] INFO root fetch - main [MainThread]: End processing [openquake.engine] error
+[2023-07-14 12:07:45] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/01/47/9a54270a3486c1a1712ca7717008e6748264c1125692b213adfd2f68b21c/openhexa.sdk-0.1.9.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-14 12:07:45] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/c5/98/656855e7a6f3d0c10651bd894c97fee963027f0a4dd7a308d669051be195/zylo-1.0.9.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-07-14 12:07:45] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20230714/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 12:07:45] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [multipoles]: Downloading https://files.pythonhosted.org/packages/b2/b0/1f38110cb2f4c8703c0d37db64679c0d8092c96640c294b833ea19eca793/multipoles-0.4.0.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [pydis-core]: Downloading https://files.pythonhosted.org/packages/96/ea/24086af09e4ddbaadef214cb3eec448b6fa50a23542bbe2b74922d9f0f38/pydis_core-9.9.2.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [zylo]: executing diffoscope
+[2023-07-14 12:07:45] INFO root fetch - processPackages [zylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-1.0.8.tar.gz tmp/zylo-1.0.9.tar.gz --markdown 20230714/z/zylo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-14 12:07:45] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/f3/6f/4c4d0314519a850809d5718da6db940656abbc315c9d76c11561d012b5ed/herta_villa_sdk-0.5.1.tar.gz
+[2023-07-14 12:07:45] INFO root fetch - processPackages [robingrad]: Downloading https://files.pythonhosted.org/packages/72/ac/69861cf7a6737a8562e431bab0f2f4803958af269e5973fd96f50a962f9b/robingrad-0.0.2.tar.gz
+[2023-07-14 12:07:46] INFO root fetch - processPackages [multipoles]: executing diffoscope
+[2023-07-14 12:07:46] INFO root fetch - processPackages [multipoles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipoles-0.3.4.tar.gz tmp/multipoles-0.4.0.tar.gz --markdown 20230714/m/multipoles/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-07-14 12:07:46] INFO root fetch - processPackages [virtualenv-pyenv]: Downloading https://files.pythonhosted.org/packages/bd/16/d738a0beaf6f9885ffc0ecccb2d1e8a957fbe950b63feaa8ad826a1e4c1c/virtualenv_pyenv-0.3.0.tar.gz
+[2023-07-14 12:07:46] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/aa/87/fc183fd3ed892333e3d73e72ce9a6cd78d3516202fe299f819159565d8a5/league-client-1.0.9.tar.gz
+[2023-07-14 12:07:46] INFO root fetch - processPackages [garpix-utils]: Downloading https://files.pythonhosted.org/packages/67/58/34f354a973e4f91f136af64cadc602fca852cf9fbff3d8660d6598cdd067/garpix_utils-1.9.0rc3.tar.gz
+[2023-07-14 12:07:46] INFO root fetch - processPackages [pydis-core]: executing diffoscope
+[2023-07-14 12:07:46] INFO root fetch - processPackages [pydis-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydis_core-9.9.1.tar.gz tmp/pydis_core-9.9.2.tar.gz --markdown 20230714/p/pydis-core/9.9.1-9.9.2/diff.md --exclude *.pyd
+[2023-07-14 12:07:46] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-14 12:07:46] INFO root fetch - processPackages [virtualenv-pyenv]: executing diffoscope
+[2023-07-14 12:07:46] INFO root fetch - processPackages [virtualenv-pyenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtualenv-pyenv-0.2.0.tar.gz tmp/virtualenv_pyenv-0.3.0.tar.gz --markdown 20230714/v/virtualenv-pyenv/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-14 12:07:46] INFO root fetch - processPackages [herta-villa-sdk]: executing diffoscope
+[2023-07-14 12:07:46] INFO root fetch - processPackages [herta-villa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herta_villa_sdk-0.5.0.tar.gz tmp/herta_villa_sdk-0.5.1.tar.gz --markdown 20230714/h/herta-villa-sdk/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-14 12:07:46] INFO root fetch - processPackages [robingrad]: executing diffoscope
+[2023-07-14 12:07:46] INFO root fetch - processPackages [robingrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robingrad-0.0.1.tar.gz tmp/robingrad-0.0.2.tar.gz --markdown 20230714/r/robingrad/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-14 12:07:46] INFO root fetch - processPackages [garpix-utils]: executing diffoscope
+[2023-07-14 12:07:46] INFO root fetch - processPackages [garpix-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_utils-1.9.0rc2.tar.gz tmp/garpix_utils-1.9.0rc3.tar.gz --markdown 20230714/g/garpix-utils/1.9.0rc2-1.9.0rc3/diff.md --exclude *.pyd
+[2023-07-14 12:07:46] INFO root fetch - processPackages [league-client]: executing diffoscope
+[2023-07-14 12:07:46] INFO root fetch - processPackages [league-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league_client-1.0.8-py3-none-any.whl.zip tmp/league-client-1.0.9.tar.gz --markdown 20230714/l/league-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-14 12:07:46] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-14 12:07:46] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230714/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-14 12:07:47] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.8.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.9.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [zylo]: Start processing: zylo
+[2023-07-14 12:07:47] INFO root fetch - main [MainThread]: End processing [zylo]: success
+[2023-07-14 12:07:47] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.8.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.9.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [openhexa.sdk]: Start processing: idac-sdk
+[2023-07-14 12:07:47] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-07-14 12:07:47] INFO root fetch - processPackages [multipoles]: Remove: archive file [/home/abi/fetcher/tmp/multipoles-0.3.4.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [multipoles]: Remove: archive file [/home/abi/fetcher/tmp/multipoles-0.4.0.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [multipoles]: Start processing: plone.app.discussion
+[2023-07-14 12:07:47] INFO root fetch - main [MainThread]: End processing [multipoles]: success
+[2023-07-14 12:07:47] INFO root fetch - processPackages [zylo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [idac-sdk]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [plone.app.discussion]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/a8/0c/7fd0aa48bfdce1bf19abf929e7f660c9598a9aef03b0f316ceccd62b74f3/zylo-1.0.8.tar.gz
+[2023-07-14 12:07:47] INFO root fetch - processPackages [pydis-core]: Remove: archive file [/home/abi/fetcher/tmp/pydis_core-9.9.1.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [pydis-core]: Remove: archive file [/home/abi/fetcher/tmp/pydis_core-9.9.2.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [pydis-core]: Start processing: underthesea
+[2023-07-14 12:07:47] INFO root fetch - main [MainThread]: End processing [pydis-core]: success
+[2023-07-14 12:07:47] INFO root fetch - processPackages [virtualenv-pyenv]: Remove: archive file [/home/abi/fetcher/tmp/virtualenv-pyenv-0.2.0.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [virtualenv-pyenv]: Remove: archive file [/home/abi/fetcher/tmp/virtualenv_pyenv-0.3.0.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - main [MainThread]: End processing [virtualenv-pyenv]: success
+[2023-07-14 12:07:47] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league_client-1.0.8-py3-none-any.whl.zip]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league-client-1.0.9.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - main [MainThread]: End processing [league-client]: success
+[2023-07-14 12:07:47] INFO root fetch - processPackages [underthesea]: New version: [6.5.0] Old Version: [6.4.0]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [idac-sdk]: Downloading https://files.pythonhosted.org/packages/a4/60/2f588f97626c1e57d139711f7b93b5901553889260ffb050e8ecd07caf99/idac_sdk-0.7.1.tar.gz
+[2023-07-14 12:07:47] INFO root fetch - processPackages [robingrad]: Remove: archive file [/home/abi/fetcher/tmp/robingrad-0.0.1.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [robingrad]: Remove: archive file [/home/abi/fetcher/tmp/robingrad-0.0.2.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - main [MainThread]: End processing [robingrad]: success
+[2023-07-14 12:07:47] INFO root fetch - processPackages [plone.app.discussion]: Downloading https://files.pythonhosted.org/packages/d1/bf/d596d981c78fc781b5eeda47ae8d4a2b0db433c4c6e46abdd60806823604/plone.app.discussion-4.0.1.tar.gz
+[2023-07-14 12:07:47] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev8.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev9.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-14 12:07:47] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/c5/98/656855e7a6f3d0c10651bd894c97fee963027f0a4dd7a308d669051be195/zylo-1.0.9.tar.gz
+[2023-07-14 12:07:47] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.5.0.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.5.1.tar.gz]
+[2023-07-14 12:07:47] INFO root fetch - main [MainThread]: End processing [herta-villa-sdk]: success
+[2023-07-14 12:07:47] INFO root fetch - processPackages [underthesea]: Downloading https://files.pythonhosted.org/packages/c7/0b/d6a1c3f8ba9ffb005ddeb88de7c4ec0f45f0f8f17a0ecb340a087082fea7/underthesea-6.4.0.tar.gz
+[2023-07-14 12:07:48] INFO root fetch - processPackages [zylo]: executing diffoscope
+[2023-07-14 12:07:48] INFO root fetch - processPackages [zylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-1.0.8.tar.gz tmp/zylo-1.0.9.tar.gz --markdown 20230714/z/zylo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-14 12:07:48] WARNING root fetch - processPackages [underthesea]: Skipping package: exceeds size limit 19745691>=10485760
+[2023-07-14 12:07:48] INFO root fetch - main [MainThread]: End processing [underthesea] error
+[2023-07-14 12:07:48] INFO root fetch - processPackages [garpix-utils]: Remove: archive file [/home/abi/fetcher/tmp/garpix_utils-1.9.0rc2.tar.gz]
+[2023-07-14 12:07:48] INFO root fetch - processPackages [garpix-utils]: Remove: archive file [/home/abi/fetcher/tmp/garpix_utils-1.9.0rc3.tar.gz]
+[2023-07-14 12:07:48] INFO root fetch - main [MainThread]: End processing [garpix-utils]: success
+[2023-07-14 12:07:48] INFO root fetch - processPackages [idac-sdk]: Downloading https://files.pythonhosted.org/packages/ac/27/4f0fce91b738fc154b5d5ffb7f3383e91ca3148e1806ff6c1db460168aba/idac_sdk-0.7.2.tar.gz
+[2023-07-14 12:07:48] INFO root fetch - processPackages [plone.app.discussion]: Downloading https://files.pythonhosted.org/packages/43/59/98317b180c32fb6b71e2b5f962f4d894440488b3af9430696c73e483d726/plone.app.discussion-4.0.2.tar.gz
+[2023-07-14 12:07:48] INFO root fetch - processPackages [idac-sdk]: executing diffoscope
+[2023-07-14 12:07:48] INFO root fetch - processPackages [idac-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idac_sdk-0.7.1.tar.gz tmp/idac_sdk-0.7.2.tar.gz --markdown 20230714/i/idac-sdk/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-14 12:07:48] INFO root fetch - processPackages [plone.app.discussion]: executing diffoscope
+[2023-07-14 12:07:48] INFO root fetch - processPackages [plone.app.discussion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.discussion-4.0.1.tar.gz tmp/plone.app.discussion-4.0.2.tar.gz --markdown 20230714/p/plone.app.discussion/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-07-14 12:07:48] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.8.tar.gz]
+[2023-07-14 12:07:48] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-1.0.9.tar.gz]
+[2023-07-14 12:07:48] INFO root fetch - main [MainThread]: End processing [zylo]: success
+[2023-07-14 12:07:49] INFO root fetch - processPackages [idac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/idac_sdk-0.7.1.tar.gz]
+[2023-07-14 12:07:49] INFO root fetch - processPackages [idac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/idac_sdk-0.7.2.tar.gz]
+[2023-07-14 12:07:49] INFO root fetch - main [MainThread]: End processing [idac-sdk]: success
+[2023-07-14 12:07:49] INFO root fetch - processPackages [plone.app.discussion]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.discussion-4.0.1.tar.gz]
+[2023-07-14 12:07:49] INFO root fetch - processPackages [plone.app.discussion]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.discussion-4.0.2.tar.gz]
+[2023-07-14 12:07:49] INFO root fetch - main [MainThread]: End processing [plone.app.discussion]: success
+[2023-07-14 12:07:49] INFO root fetch - main [MainThread]: Store serial: [18888118]
