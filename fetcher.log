@@ -17002,3 +17002,45 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 10:57:16] INFO root fetch - processPackages [ultima-scraper-collection]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_collection-2.1.0.tar.gz]
 [2023-07-14 10:57:16] INFO root fetch - main [MainThread]: End processing [ultima-scraper-collection]: success
 [2023-07-14 10:57:16] INFO root fetch - main [MainThread]: Store serial: [18887373]
+[2023-07-14 11:02:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18887373]
+[2023-07-14 11:02:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-14 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molgenis-emx2-pyclient
+[2023-07-14 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UComp
+[2023-07-14 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vum
+[2023-07-14 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trustedtwin
+[2023-07-14 11:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oasislmf
+[2023-07-14 11:02:25] INFO root fetch - processPackages [trustedtwin]: New version: [3.3.20230714090119] Old Version: [0.4.9]
+[2023-07-14 11:02:25] WARNING root fetch - processPackages [UComp]: Skipping, unable to determine old version
+[2023-07-14 11:02:25] INFO root fetch - main [MainThread]: End processing [UComp] error
+[2023-07-14 11:02:25] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.205.0] Old Version: [8.204.0]
+[2023-07-14 11:02:25] INFO root fetch - processPackages [vum]: New version: [1.0.0.1] Old Version: [1.0.0.0]
+[2023-07-14 11:02:25] INFO root fetch - processPackages [oasislmf]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-14 11:02:25] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/d0/60/8618b4a415ecb6a638fa53de43fea9f88ba21e9f23ec846733b9c79a3271/molgenis_emx2_pyclient-8.204.0.tar.gz
+[2023-07-14 11:02:25] INFO root fetch - processPackages [vum]: Downloading https://files.pythonhosted.org/packages/a8/12/16fd2202d426b4c02e4c92ed8c06cff5b548e3188460a1accdc7124e801a/vum-1.0.0.0.tar.gz
+[2023-07-14 11:02:25] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/ce/28/f3af45ad2474127d80fb70b3ac1e28ff4b45dff893aaf73cf85359e039eb/trustedtwin-0.4.9.tar.gz
+[2023-07-14 11:02:25] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/a6/ab/45657291419c43d4947b9cdecb6c9716293001edcf7717bd5a8e1c350df4/oasislmf-1.9.0.tar.gz
+[2023-07-14 11:02:25] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/0f/35/4d4d988be49282dfa0d3c6bf846c9f5beee16af662a4246e52bd319f481d/molgenis_emx2_pyclient-8.205.0.tar.gz
+[2023-07-14 11:02:25] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/71/65/f2ae08e73dc28fdcacb52a2051a5a4cdcd05a24305d5752871945e8eaf43/trustedtwin-3.3.20230714090119.tar.gz
+[2023-07-14 11:02:25] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-14 11:02:25] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.204.0.tar.gz tmp/molgenis_emx2_pyclient-8.205.0.tar.gz --markdown 20230714/m/molgenis-emx2-pyclient/8.204.0-8.205.0/diff.md --exclude *.pyd
+[2023-07-14 11:02:25] INFO root fetch - processPackages [vum]: Downloading https://files.pythonhosted.org/packages/45/05/f13c8017037aebf0290cf0a3af0d596466e483d85faa58386fdf93be982e/vum-1.0.0.1.tar.gz
+[2023-07-14 11:02:26] INFO root fetch - processPackages [trustedtwin]: executing diffoscope
+[2023-07-14 11:02:26] INFO root fetch - processPackages [trustedtwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustedtwin-0.4.9.tar.gz tmp/trustedtwin-3.3.20230714090119.tar.gz --markdown 20230714/t/trustedtwin/0.4.9-3.3.20230714090119/diff.md --exclude *.pyd
+[2023-07-14 11:02:26] INFO root fetch - processPackages [vum]: executing diffoscope
+[2023-07-14 11:02:26] INFO root fetch - processPackages [vum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vum-1.0.0.0.tar.gz tmp/vum-1.0.0.1.tar.gz --markdown 20230714/v/vum/1.0.0.0-1.0.0.1/diff.md --exclude *.pyd
+[2023-07-14 11:02:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.204.0.tar.gz]
+[2023-07-14 11:02:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.205.0.tar.gz]
+[2023-07-14 11:02:26] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-14 11:02:26] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-0.4.9.tar.gz]
+[2023-07-14 11:02:26] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-3.3.20230714090119.tar.gz]
+[2023-07-14 11:02:26] INFO root fetch - main [MainThread]: End processing [trustedtwin]: success
+[2023-07-14 11:02:26] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/c0/a2/f54598bb29c68df6576f5c673975a6a6302c1490bb92ebfb5c0dafe8e6c4/oasislmf-1.9.1.tar.gz
+[2023-07-14 11:02:26] INFO root fetch - processPackages [vum]: Remove: archive file [/home/abi/fetcher/tmp/vum-1.0.0.0.tar.gz]
+[2023-07-14 11:02:26] INFO root fetch - processPackages [vum]: Remove: archive file [/home/abi/fetcher/tmp/vum-1.0.0.1.tar.gz]
+[2023-07-14 11:02:26] INFO root fetch - main [MainThread]: End processing [vum]: success
+[2023-07-14 11:02:27] INFO root fetch - processPackages [oasislmf]: executing diffoscope
+[2023-07-14 11:02:27] INFO root fetch - processPackages [oasislmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasislmf-1.9.0.tar.gz tmp/oasislmf-1.9.1.tar.gz --markdown 20230714/o/oasislmf/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-14 11:02:27] INFO root fetch - processPackages [oasislmf]: Remove: archive file [/home/abi/fetcher/tmp/oasislmf-1.9.0.tar.gz]
+[2023-07-14 11:02:27] INFO root fetch - processPackages [oasislmf]: Remove: archive file [/home/abi/fetcher/tmp/oasislmf-1.9.1.tar.gz]
+[2023-07-14 11:02:27] INFO root fetch - main [MainThread]: End processing [oasislmf]: success
+[2023-07-14 11:02:27] INFO root fetch - main [MainThread]: Store serial: [18887388]
