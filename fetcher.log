@@ -1984,3 +1984,169 @@
 [2023-07-14 02:05:09] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230713.post451.tar.gz]
 [2023-07-14 02:05:09] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-07-14 02:05:09] INFO root fetch - main [MainThread]: Store serial: [18881969]
+[2023-07-14 02:10:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18881969]
+[2023-07-14 02:10:17] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-14 02:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linuxnet-iptables
+[2023-07-14 02:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-plugin-package-info
+[2023-07-14 02:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-data-schema
+[2023-07-14 02:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zeugvars
+[2023-07-14 02:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tg-botting
+[2023-07-14 02:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxutils-nightly
+[2023-07-14 02:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pathgenmap
+[2023-07-14 02:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rh-gort-core
+[2023-07-14 02:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-compiler-opt
+[2023-07-14 02:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ml-compiler-opt
+[2023-07-14 02:10:18] INFO root fetch - processPackages [linuxnet-iptables]: New version: [6.3.1] Old Version: [6.1.0]
+[2023-07-14 02:10:18] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307140008] Old Version: [0.0.1.dev202307140007]
+[2023-07-14 02:10:18] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307140008] Old Version: [0.0.1.dev202307140007]
+[2023-07-14 02:10:18] INFO root fetch - processPackages [zeugvars]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-14 02:10:18] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-14 02:10:18] WARNING root fetch - processPackages [rh-gort-core]: Skipping, unable to determine old version
+[2023-07-14 02:10:18] INFO root fetch - processPackages [rh-gort-core]: Start processing: PyThreadFlow
+[2023-07-14 02:10:18] INFO root fetch - main [MainThread]: End processing [rh-gort-core] error
+[2023-07-14 02:10:18] INFO root fetch - processPackages [poetry-plugin-package-info]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-14 02:10:18] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-14 02:10:18] INFO root fetch - processPackages [tg-botting]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-14 02:10:18] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230714] Old Version: [0.0.8.dev20230713]
+[2023-07-14 02:10:18] INFO root fetch - processPackages [PyThreadFlow]: New version: [0.0.0.dev3] Old Version: [0.0.0.dev1]
+[2023-07-14 02:10:18] INFO root fetch - processPackages [zeugvars]: Downloading https://files.pythonhosted.org/packages/1c/49/a3f10df788b32cbb3a14963a67ac23a3f45a8a8eb036021ced1dc3425814/zeugvars-0.2.7.tar.gz
+[2023-07-14 02:10:18] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/22/63/190154d53e250e104fc295643084b85a4e8d1609621af5d951a04c7fee88/tg-botting-2.1.2.tar.gz
+[2023-07-14 02:10:18] INFO root fetch - processPackages [poetry-plugin-package-info]: Downloading https://files.pythonhosted.org/packages/34/27/1a9b8dacbf1bf8821d8f9313fae42b3fe5ad9ee738f1ca595ce87c8e61bf/poetry_plugin_package_info-0.2.4.tar.gz
+[2023-07-14 02:10:18] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/33/35/bfe606a4494bfb0fcf691ec40ee60759d64b655d56c31fd767a2a889d393/ml-compiler-opt-0.0.1.dev202307140007.tar.gz
+[2023-07-14 02:10:18] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/33/35/bfe606a4494bfb0fcf691ec40ee60759d64b655d56c31fd767a2a889d393/ml-compiler-opt-0.0.1.dev202307140007.tar.gz
+[2023-07-14 02:10:18] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/bb/5d/2f998b58728db89c149b2dd020d720cd5b70ece97604004264e1a83bf609/pathgenmap-0.0.7.tar.gz
+[2023-07-14 02:10:18] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-07-14 02:10:18] INFO root fetch - processPackages [linuxnet-iptables]: Downloading https://files.pythonhosted.org/packages/97/c6/a5ecbda2b564c0a2ec95d9ad78fb04a71527b3d383b00bf092d2277be05f/linuxnet-iptables-6.1.0.tar.gz
+[2023-07-14 02:10:18] INFO root fetch - processPackages [PyThreadFlow]: Downloading https://files.pythonhosted.org/packages/69/85/f0c075d69b172bce972cf5d9aa8869da56e739a96ea5c705005ea2af6382/pythreadflow-0.0.0.dev1.tar.gz
+[2023-07-14 02:10:18] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/d5/9c/f4dbb183eb4a47054fa33c025b375c35df122cd3be13cbd70a511a296ae8/jaxutils-nightly-0.0.8.dev20230713.tar.gz
+[2023-07-14 02:10:18] INFO root fetch - processPackages [zeugvars]: Downloading https://files.pythonhosted.org/packages/29/ed/6a9f7542a26afe254a1183ea1f50621058355fbe61416c335f59d5d31ed3/zeugvars-0.2.8.tar.gz
+[2023-07-14 02:10:19] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-07-14 02:10:19] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/ef/78/6c22a579c5022cc1d9e760db7412c06a5bcc03604868502ecca02730f66f/tg-botting-2.1.3.tar.gz
+[2023-07-14 02:10:19] INFO root fetch - processPackages [poetry-plugin-package-info]: Downloading https://files.pythonhosted.org/packages/da/9d/dc345a27ea412114c7146cf63e182b35ec3e954895a453644aaa2424cc69/poetry_plugin_package_info-0.2.5.tar.gz
+[2023-07-14 02:10:19] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-14 02:10:19] INFO root fetch - processPackages [linuxnet-iptables]: Downloading https://files.pythonhosted.org/packages/51/5c/70eab0ac75bb0e908b06f726c3c35e0799138234b8386d089ddb582f3e1a/linuxnet-iptables-6.3.1.tar.gz
+[2023-07-14 02:10:19] INFO root fetch - processPackages [zeugvars]: executing diffoscope
+[2023-07-14 02:10:19] INFO root fetch - processPackages [zeugvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeugvars-0.2.7.tar.gz tmp/zeugvars-0.2.8.tar.gz --markdown 20230714/z/zeugvars/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-14 02:10:19] INFO root fetch - processPackages [PyThreadFlow]: Downloading https://files.pythonhosted.org/packages/39/19/97928ef9c2b15a27980d857e21d526bca5f3b67b4f4d5111b94db07b9708/pythreadflow-0.0.0.dev3.tar.gz
+[2023-07-14 02:10:19] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/6d/b0/e8b815e37c8887023b551e9a2201bd39a957ebb4836bbb0936f0b36cf9d3/ml_compiler_opt-0.0.1.dev202307140008-py3-none-any.whl
+[2023-07-14 02:10:19] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-07-14 02:10:19] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230714/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-14 02:10:19] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/6d/b0/e8b815e37c8887023b551e9a2201bd39a957ebb4836bbb0936f0b36cf9d3/ml_compiler_opt-0.0.1.dev202307140008-py3-none-any.whl
+[2023-07-14 02:10:19] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/87/83/6ca35aa61131ff1cab121c405fc4f1bb325cf5118267529e7e03b1425d0c/jaxutils-nightly-0.0.8.dev20230714.tar.gz
+[2023-07-14 02:10:19] INFO root fetch - processPackages [tg-botting]: executing diffoscope
+[2023-07-14 02:10:19] INFO root fetch - processPackages [linuxnet-iptables]: executing diffoscope
+[2023-07-14 02:10:19] INFO root fetch - processPackages [tg-botting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg-botting-2.1.2.tar.gz tmp/tg-botting-2.1.3.tar.gz --markdown 20230714/t/tg-botting/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-14 02:10:19] INFO root fetch - processPackages [linuxnet-iptables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linuxnet-iptables-6.1.0.tar.gz tmp/linuxnet-iptables-6.3.1.tar.gz --markdown 20230714/l/linuxnet-iptables/6.1.0-6.3.1/diff.md --exclude *.pyd
+[2023-07-14 02:10:19] INFO root fetch - processPackages [poetry-plugin-package-info]: executing diffoscope
+[2023-07-14 02:10:19] INFO root fetch - processPackages [poetry-plugin-package-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_package_info-0.2.4.tar.gz tmp/poetry_plugin_package_info-0.2.5.tar.gz --markdown 20230714/p/poetry-plugin-package-info/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-14 02:10:19] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-14 02:10:19] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.7.tar.gz tmp/pathgenmap-0.0.8.tar.gz --markdown 20230714/p/pathgenmap/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-14 02:10:19] INFO root fetch - processPackages [PyThreadFlow]: executing diffoscope
+[2023-07-14 02:10:19] INFO root fetch - processPackages [PyThreadFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythreadflow-0.0.0.dev1.tar.gz tmp/pythreadflow-0.0.0.dev3.tar.gz --markdown 20230714/P/PyThreadFlow/0.0.0.dev1-0.0.0.dev3/diff.md --exclude *.pyd
+[2023-07-14 02:10:19] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-14 02:10:19] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307140007.tar.gz tmp/ml_compiler_opt-0.0.1.dev202307140008-py3-none-any.whl.zip --markdown 20230714/m/ml-compiler-opt/0.0.1.dev202307140007-0.0.1.dev202307140008/diff.md --exclude *.pyd
+[2023-07-14 02:10:19] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-14 02:10:19] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307140007.tar.gz tmp/ml_compiler_opt-0.0.1.dev202307140008-py3-none-any.whl.zip --markdown 20230714/m/ml-compiler-opt/0.0.1.dev202307140007-0.0.1.dev202307140008/diff.md --exclude *.pyd
+[2023-07-14 02:10:19] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-14 02:10:19] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230713.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230714.tar.gz --markdown 20230714/j/jaxutils-nightly/0.0.8.dev20230713-0.0.8.dev20230714/diff.md --exclude *.pyd
+[2023-07-14 02:10:20] INFO root fetch - processPackages [zeugvars]: Remove: archive file [/home/abi/fetcher/tmp/zeugvars-0.2.7.tar.gz]
+[2023-07-14 02:10:20] INFO root fetch - processPackages [zeugvars]: Remove: archive file [/home/abi/fetcher/tmp/zeugvars-0.2.8.tar.gz]
+[2023-07-14 02:10:20] INFO root fetch - processPackages [zeugvars]: Start processing: cloud-api-signer
+[2023-07-14 02:10:20] INFO root fetch - main [MainThread]: End processing [zeugvars]: success
+[2023-07-14 02:10:20] INFO root fetch - processPackages [cloud-api-signer]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-14 02:10:20] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.7.tar.gz]
+[2023-07-14 02:10:20] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-14 02:10:20] INFO root fetch - processPackages [pathgenmap]: Start processing: torchlayers-nightly
+[2023-07-14 02:10:20] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-14 02:10:20] INFO root fetch - processPackages [cloud-api-signer]: Downloading https://files.pythonhosted.org/packages/d9/2a/fe2df6a1d2f225126f438a15452680595bbac5d556544179692b1248ad82/cloud-api-signer-0.1.0.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1689206884] Old Version: [1689120496]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [PyThreadFlow]: Remove: archive file [/home/abi/fetcher/tmp/pythreadflow-0.0.0.dev1.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [PyThreadFlow]: Remove: archive file [/home/abi/fetcher/tmp/pythreadflow-0.0.0.dev3.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [PyThreadFlow]: Start processing: cdk-common
+[2023-07-14 02:10:21] INFO root fetch - main [MainThread]: End processing [PyThreadFlow]: success
+[2023-07-14 02:10:21] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/14/a8/59c5a3c4c3120e84e0ae1dd80cc12d3898551f7e206bb7fe089c44b19c80/torchlayers-nightly-1689120496.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [tg-botting]: Remove: archive file [/home/abi/fetcher/tmp/tg-botting-2.1.2.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [tg-botting]: Remove: archive file [/home/abi/fetcher/tmp/tg-botting-2.1.3.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [tg-botting]: Start processing: tidytweets
+[2023-07-14 02:10:21] INFO root fetch - main [MainThread]: End processing [tg-botting]: success
+[2023-07-14 02:10:21] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230713.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307140007.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230714.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml_compiler_opt-0.0.1.dev202307140008-py3-none-any.whl.zip]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: vesselapi
+[2023-07-14 02:10:21] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-14 02:10:21] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: cdk8s
+[2023-07-14 02:10:21] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-14 02:10:21] INFO root fetch - processPackages [tidytweets]: New version: [0.15] Old Version: [0.1]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.38.0]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [cloud-api-signer]: Downloading https://files.pythonhosted.org/packages/73/5b/43e12e4dde23e8406eed97685b605cc3855e2493af5dea08bc58f92b0452/cloud-api-signer-0.2.0.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [poetry-plugin-package-info]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_package_info-0.2.4.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [poetry-plugin-package-info]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_package_info-0.2.5.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [poetry-plugin-package-info]: Start processing: tccli
+[2023-07-14 02:10:21] INFO root fetch - main [MainThread]: End processing [poetry-plugin-package-info]: success
+[2023-07-14 02:10:21] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: cdk8s-grafana
+[2023-07-14 02:10:21] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-14 02:10:21] INFO root fetch - processPackages [cdk8s]: New version: [2.7.99] Old Version: [2.7.98]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [tidytweets]: Downloading https://files.pythonhosted.org/packages/03/26/ca725e9095e7c24f7e571c8625ce2c59f1f4b3430a505afae0e82ad91416/tidytweets-0.1.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-07-14 02:10:21] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/09/f7/4e46ce61ddc85cadd29cea72f739bc9d8b42bcdb295e9a1a39172ef690e9/vesselapi-3.38.0.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d8/60/774b00a08e1e8a1155f225bfc65207f11ae692dd4bd4cc19fc599853994a/cdk8s-2.7.98.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [linuxnet-iptables]: Remove: archive file [/home/abi/fetcher/tmp/linuxnet-iptables-6.1.0.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - processPackages [linuxnet-iptables]: Remove: archive file [/home/abi/fetcher/tmp/linuxnet-iptables-6.3.1.tar.gz]
+[2023-07-14 02:10:21] INFO root fetch - main [MainThread]: End processing [linuxnet-iptables]: success
+[2023-07-14 02:10:21] INFO root fetch - processPackages [cloud-api-signer]: executing diffoscope
+[2023-07-14 02:10:21] INFO root fetch - processPackages [cloud-api-signer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-api-signer-0.1.0.tar.gz tmp/cloud-api-signer-0.2.0.tar.gz --markdown 20230714/c/cloud-api-signer/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-14 02:10:21] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/15/5f/146a004a45ab1fe33edb7678e20942d2b68668bf8777bb9a6eb5141dd2a3/torchlayers-nightly-1689206884.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-14 02:10:21] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1689120496.tar.gz tmp/torchlayers-nightly-1689206884.tar.gz --markdown 20230714/t/torchlayers-nightly/1689120496-1689206884/diff.md --exclude *.pyd
+[2023-07-14 02:10:21] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/23/d1/ee5cf44f421921d790a4e0d2cf87c118188da9c30cbece10e0e66cf115fe/cdk8s-2.7.99.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [tidytweets]: Downloading https://files.pythonhosted.org/packages/97/bb/90bd47c66b163b7bfa2978259ab3f7c4708f8f9c72795776d75d7f91f1ba/tidytweets-0.15.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-07-14 02:10:21] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-07-14 02:10:22] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-14 02:10:22] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.98.tar.gz tmp/cdk8s-2.7.99.tar.gz --markdown 20230714/c/cdk8s/2.7.98-2.7.99/diff.md --exclude *.pyd
+[2023-07-14 02:10:22] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-07-14 02:10:22] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.38.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230714/v/vesselapi/3.38.0-3.5.2/diff.md --exclude *.pyd
+[2023-07-14 02:10:22] INFO root fetch - processPackages [tidytweets]: executing diffoscope
+[2023-07-14 02:10:22] INFO root fetch - processPackages [tidytweets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidytweets-0.1.tar.gz tmp/tidytweets-0.15.tar.gz --markdown 20230714/t/tidytweets/0.1-0.15/diff.md --exclude *.pyd
+[2023-07-14 02:10:22] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-07-14 02:10:22] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230714/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-14 02:10:22] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-07-14 02:10:22] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230714/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-14 02:10:22] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-14 02:10:22] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230714/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-14 02:10:22] INFO root fetch - processPackages [cloud-api-signer]: Remove: archive file [/home/abi/fetcher/tmp/cloud-api-signer-0.1.0.tar.gz]
+[2023-07-14 02:10:22] INFO root fetch - processPackages [cloud-api-signer]: Remove: archive file [/home/abi/fetcher/tmp/cloud-api-signer-0.2.0.tar.gz]
+[2023-07-14 02:10:22] INFO root fetch - main [MainThread]: End processing [cloud-api-signer]: success
+[2023-07-14 02:10:22] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1689120496.tar.gz]
+[2023-07-14 02:10:22] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1689206884.tar.gz]
+[2023-07-14 02:10:22] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-14 02:10:23] INFO root fetch - processPackages [tidytweets]: Remove: archive file [/home/abi/fetcher/tmp/tidytweets-0.1.tar.gz]
+[2023-07-14 02:10:23] INFO root fetch - processPackages [tidytweets]: Remove: archive file [/home/abi/fetcher/tmp/tidytweets-0.15.tar.gz]
+[2023-07-14 02:10:23] INFO root fetch - main [MainThread]: End processing [tidytweets]: success
+[2023-07-14 02:10:23] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.98.tar.gz]
+[2023-07-14 02:10:23] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.99.tar.gz]
+[2023-07-14 02:10:23] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-14 02:10:23] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-07-14 02:10:23] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-07-14 02:10:23] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-07-14 02:10:23] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-14 02:10:23] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-14 02:10:23] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-14 02:10:24] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.38.0.tar.gz]
+[2023-07-14 02:10:24] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-07-14 02:10:24] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-07-14 02:10:25] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-07-14 02:10:25] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-07-14 02:10:25] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-07-14 02:10:25] INFO root fetch - main [MainThread]: Store serial: [18882053]
