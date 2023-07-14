@@ -11801,3 +11801,124 @@ AssertionError: tmp/aorta_sirius_dev-0.8.tar.gz does not exist
 [2023-07-14 06:27:57] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2023-07-14 06:27:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-oca]: success
 [2023-07-14 06:27:57] INFO root fetch - main [MainThread]: Store serial: [18885392]
+[2023-07-14 06:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885392]
+[2023-07-14 06:33:05] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-14 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dotbot-windows
+[2023-07-14 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h1st-contrib
+[2023-07-14 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-ge
+[2023-07-14 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-common
+[2023-07-14 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezsmdeploy
+[2023-07-14 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: m23
+[2023-07-14 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threemystic-cloud-client
+[2023-07-14 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hatch-conda-build
+[2023-07-14 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-url-tokenizer
+[2023-07-14 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hcs-cli
+[2023-07-14 06:33:05] INFO root fetch - processPackages [easy-ge]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-14 06:33:05] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.46] Old Version: [0.1.45]
+[2023-07-14 06:33:05] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.32] Old Version: [0.1.31]
+[2023-07-14 06:33:05] INFO root fetch - processPackages [h1st-contrib]: New version: [2.1.8.dev1] Old Version: [2.1.2.dev0]
+[2023-07-14 06:33:05] WARNING root fetch - processPackages [hatch-conda-build]: Skipping, unable to determine old version
+[2023-07-14 06:33:05] INFO root fetch - processPackages [hatch-conda-build]: Start processing: anywidget
+[2023-07-14 06:33:05] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 06:33:05] INFO root fetch - main [MainThread]: End processing [hatch-conda-build] error
+[2023-07-14 06:33:05] INFO root fetch - processPackages [threemystic-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 06:33:05] WARNING root fetch - processPackages [dotbot-windows]: Skipping, unable to determine old version
+[2023-07-14 06:33:05] INFO root fetch - processPackages [dotbot-windows]: Start processing: cospar
+[2023-07-14 06:33:05] INFO root fetch - main [MainThread]: End processing [dotbot-windows] error
+[2023-07-14 06:33:05] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-14 06:33:05] INFO root fetch - processPackages [ezsmdeploy]: New version: [1.91.dev0] Old Version: [1.9.dev0]
+[2023-07-14 06:33:05] INFO root fetch - processPackages [cospar]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-14 06:33:06] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/01/ca/daa3dfa57a98a48641a84e1a6f46c6c2fff7623cb782a36a516b4b9ad9f3/threemystic_cloud_client-0.1.31.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [anywidget]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-14 06:33:06] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [easy-ge]: Downloading https://files.pythonhosted.org/packages/72/4a/71c7f1e00f00c14fe95c2b64120e097071af4dd4ad13e1524103c91edf78/easy_ge-0.1.7.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/33/fa/e22c3187362199b547c04c51a25dff6c984198724405cb4f1d06cd40b658/hcs-cli-0.1.45.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [ezsmdeploy]: Downloading https://files.pythonhosted.org/packages/28/c3/bd8a06d85ae06f489af2e20f9caa0c792b58978e61fd9ae61ff8cd4da361/ezsmdeploy-1.9.dev0.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/b9/ca/5d06a676406db7cd8c68d45931420d1cf76aa87e961f9067c799a66ecd0c/threemystic_common-0.1.8.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [h1st-contrib]: Downloading https://files.pythonhosted.org/packages/fc/15/448d3d61b4fe7a62db1f5d1c170733ae032bf32c06e5ed717f62c97503a0/h1st_contrib-2.1.2.dev0.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [cospar]: Downloading https://files.pythonhosted.org/packages/2e/20/2572b22314e08f95a2487b24e25eadbe86e1bb72d7a7bae0fd118de93960/cospar-0.3.0.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/6a/c1/abbe91a6edd8f38e7e98866092573c06aeb2bb9501cf87db6d99863e2f78/anywidget-0.6.1.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/12/15/03c72da1e69a84fa41077540a44769e5c5cf51729b1635be1286bd10a547/threemystic_common-0.1.9.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/ae/28/37b262a01105ff2a47a8f33165e5abc5e12b4fdfda63054569181043b07c/threemystic_cloud_client-0.1.32.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/14/17/2958fdb3301a106971249aa45ebea4d97b8e2af5776de1fff0efed6aaf0f/hcs-cli-0.1.46.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [ezsmdeploy]: Downloading https://files.pythonhosted.org/packages/ca/c4/088caab12f127760ee82cbd0e18703ff509e683b30c2b0cbcc35fd4250f8/ezsmdeploy-1.91.dev0.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [easy-ge]: Downloading https://files.pythonhosted.org/packages/0d/59/5598771492e64ec0f799e5f31aef0cfcba8554b0881202cfbd3076a32b7b/easy_ge-0.1.8.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-14 06:33:06] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230714/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 06:33:06] INFO root fetch - processPackages [threemystic-common]: executing diffoscope
+[2023-07-14 06:33:06] INFO root fetch - processPackages [threemystic-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_common-0.1.8.tar.gz tmp/threemystic_common-0.1.9.tar.gz --markdown 20230714/t/threemystic-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 06:33:06] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-14 06:33:06] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.31.tar.gz tmp/threemystic_cloud_client-0.1.32.tar.gz --markdown 20230714/t/threemystic-cloud-client/0.1.31-0.1.32/diff.md --exclude *.pyd
+[2023-07-14 06:33:06] INFO root fetch - processPackages [h1st-contrib]: Downloading https://files.pythonhosted.org/packages/c7/9a/80fab9edb53ccb1d1f617820b467447ab1f48e2949813275fa0c34b1a90c/h1st_contrib-2.1.8.dev1.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [cospar]: Downloading https://files.pythonhosted.org/packages/eb/b2/3cc08ff72713d43e3c7d823fb283b8d496b9774e628723b627201d62dee5/cospar-0.3.1.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-07-14 06:33:06] INFO root fetch - processPackages [easy-ge]: executing diffoscope
+[2023-07-14 06:33:06] INFO root fetch - processPackages [easy-ge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_ge-0.1.7.tar.gz tmp/easy_ge-0.1.8.tar.gz --markdown 20230714/e/easy-ge/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-14 06:33:07] INFO root fetch - processPackages [ezsmdeploy]: executing diffoscope
+[2023-07-14 06:33:07] INFO root fetch - processPackages [ezsmdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezsmdeploy-1.9.dev0.tar.gz tmp/ezsmdeploy-1.91.dev0.tar.gz --markdown 20230714/e/ezsmdeploy/1.9.dev0-1.91.dev0/diff.md --exclude *.pyd
+[2023-07-14 06:33:07] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2023-07-14 06:33:07] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.45.tar.gz tmp/hcs-cli-0.1.46.tar.gz --markdown 20230714/h/hcs-cli/0.1.45-0.1.46/diff.md --exclude *.pyd
+[2023-07-14 06:33:07] INFO root fetch - processPackages [h1st-contrib]: executing diffoscope
+[2023-07-14 06:33:07] INFO root fetch - processPackages [h1st-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h1st_contrib-2.1.2.dev0.tar.gz tmp/h1st_contrib-2.1.8.dev1.tar.gz --markdown 20230714/h/h1st-contrib/2.1.2.dev0-2.1.8.dev1/diff.md --exclude *.pyd
+[2023-07-14 06:33:07] WARNING root fetch - processPackages [cospar]: Skipping package: exceeds size limit 53406927>=10485760
+[2023-07-14 06:33:07] INFO root fetch - processPackages [cospar]: Start processing: libfhe
+[2023-07-14 06:33:07] INFO root fetch - main [MainThread]: End processing [cospar] error
+[2023-07-14 06:33:07] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/2b/19/b7088bea8cd51e6dfcfb2ea83f5cbaefad05bdc180bc97f58ca63477405f/anywidget-0.6.2.tar.gz
+[2023-07-14 06:33:07] INFO root fetch - processPackages [libfhe]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-14 06:33:07] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-07-14 06:33:07] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230714/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-14 06:33:07] INFO root fetch - processPackages [libfhe]: Downloading https://files.pythonhosted.org/packages/65/c7/85989a44420de01265fa2656227e21efc2d41b224597dec7d5cb76b0d484/libfhe-0.0.0.tar.gz
+[2023-07-14 06:33:07] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2023-07-14 06:33:07] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.6.1.tar.gz tmp/anywidget-0.6.2.tar.gz --markdown 20230714/a/anywidget/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-14 06:33:07] INFO root fetch - processPackages [libfhe]: Downloading https://files.pythonhosted.org/packages/e5/96/a3e9f9b19e960ad00367cdc3fb90f8d0479f20b8bec158de1df92df58e19/libfhe-0.0.1.tar.gz
+[2023-07-14 06:33:08] INFO root fetch - processPackages [libfhe]: executing diffoscope
+[2023-07-14 06:33:08] INFO root fetch - processPackages [libfhe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfhe-0.0.0.tar.gz tmp/libfhe-0.0.1.tar.gz --markdown 20230714/l/libfhe/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-14 06:33:08] INFO root fetch - processPackages [easy-ge]: Remove: archive file [/home/abi/fetcher/tmp/easy_ge-0.1.7.tar.gz]
+[2023-07-14 06:33:08] INFO root fetch - processPackages [easy-ge]: Remove: archive file [/home/abi/fetcher/tmp/easy_ge-0.1.8.tar.gz]
+[2023-07-14 06:33:08] INFO root fetch - processPackages [easy-ge]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-14 06:33:08] INFO root fetch - main [MainThread]: End processing [easy-ge]: success
+[2023-07-14 06:33:08] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-14 06:33:08] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-14 06:33:08] INFO root fetch - processPackages [django-url-tokenizer]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-14 06:33:08] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-14 06:33:08] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.31.tar.gz]
+[2023-07-14 06:33:08] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.32.tar.gz]
+[2023-07-14 06:33:08] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-14 06:33:08] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.8.tar.gz]
+[2023-07-14 06:33:08] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.9.tar.gz]
+[2023-07-14 06:33:08] INFO root fetch - main [MainThread]: End processing [threemystic-common]: success
+[2023-07-14 06:33:08] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.9] Old Version: [16.0.1.0.3.7]
+[2023-07-14 06:33:08] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.9] Old Version: [16.0.1.0.3.7]
+[2023-07-14 06:33:08] INFO root fetch - processPackages [ezsmdeploy]: Remove: archive file [/home/abi/fetcher/tmp/ezsmdeploy-1.9.dev0.tar.gz]
+[2023-07-14 06:33:08] INFO root fetch - processPackages [ezsmdeploy]: Remove: archive file [/home/abi/fetcher/tmp/ezsmdeploy-1.91.dev0.tar.gz]
+[2023-07-14 06:33:08] INFO root fetch - main [MainThread]: End processing [ezsmdeploy]: success
+[2023-07-14 06:33:08] INFO root fetch - processPackages [h1st-contrib]: Remove: archive file [/home/abi/fetcher/tmp/h1st_contrib-2.1.2.dev0.tar.gz]
+[2023-07-14 06:33:08] INFO root fetch - processPackages [h1st-contrib]: Remove: archive file [/home/abi/fetcher/tmp/h1st_contrib-2.1.8.dev1.tar.gz]
+[2023-07-14 06:33:08] INFO root fetch - main [MainThread]: End processing [h1st-contrib]: success
+[2023-07-14 06:33:08] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d2/29/e2cb7ea93979e027e6d5309d7a314ee9e6d65f7021f477e355ae236a55c9/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl
+[2023-07-14 06:33:08] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d2/29/e2cb7ea93979e027e6d5309d7a314ee9e6d65f7021f477e355ae236a55c9/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl
+[2023-07-14 06:33:09] INFO root fetch - processPackages [libfhe]: Remove: archive file [/home/abi/fetcher/tmp/libfhe-0.0.0.tar.gz]
+[2023-07-14 06:33:09] INFO root fetch - processPackages [libfhe]: Remove: archive file [/home/abi/fetcher/tmp/libfhe-0.0.1.tar.gz]
+[2023-07-14 06:33:09] INFO root fetch - main [MainThread]: End processing [libfhe]: success
+[2023-07-14 06:33:09] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-07-14 06:33:09] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-07-14 06:33:09] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-07-14 06:33:09] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.45.tar.gz]
+[2023-07-14 06:33:09] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.46.tar.gz]
+[2023-07-14 06:33:09] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2023-07-14 06:33:09] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/17/81/574f2d588623a030241dff9b1e5a89ed58aca17a00ce25c81995ecf57f8c/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl
+[2023-07-14 06:33:09] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/17/81/574f2d588623a030241dff9b1e5a89ed58aca17a00ce25c81995ecf57f8c/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl
+[2023-07-14 06:33:09] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-14 06:33:09] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.7-16.0.1.0.3.9/diff.md --exclude *.pyd
+[2023-07-14 06:33:09] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-14 06:33:09] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.7-16.0.1.0.3.9/diff.md --exclude *.pyd
+[2023-07-14 06:33:10] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.6.1.tar.gz]
+[2023-07-14 06:33:10] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.6.2.tar.gz]
+[2023-07-14 06:33:10] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2023-07-14 06:33:12] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip]
+[2023-07-14 06:33:12] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
+[2023-07-14 06:33:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-14 06:33:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-14 06:33:12] INFO root fetch - main [MainThread]: Store serial: [18885438]
