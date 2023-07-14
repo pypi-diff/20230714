@@ -5090,3 +5090,69 @@
 [2023-07-14 02:48:01] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307130044.tar.gz]
 [2023-07-14 02:48:01] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-14 02:48:01] INFO root fetch - main [MainThread]: Store serial: [18883075]
+[2023-07-14 02:53:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18883075]
+[2023-07-14 02:53:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-14 02:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybasekit
+[2023-07-14 02:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kubric-nightly
+[2023-07-14 02:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaiabusters
+[2023-07-14 02:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autotraders
+[2023-07-14 02:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tva-utils
+[2023-07-14 02:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenGeode-Geosciences
+[2023-07-14 02:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cyberdrop-dl
+[2023-07-14 02:53:10] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-14 02:53:11] INFO root fetch - processPackages [pybasekit]: New version: [1.0.2] Old Version: [0.0.2]
+[2023-07-14 02:53:11] INFO root fetch - processPackages [gaiabusters]: New version: [1.0] Old Version: [0.1]
+[2023-07-14 02:53:11] INFO root fetch - processPackages [tva-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 02:53:11] INFO root fetch - processPackages [autotraders]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-14 02:53:11] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.1.3rc1] Old Version: [7.1.3]
+[2023-07-14 02:53:11] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-14 02:53:11] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-14 02:53:11] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/46/a8/e49f02cb55a267bb2856fd87c2e1f8c93e01a838cc34d2644d3659fa77a6/autotraders-1.7.0.tar.gz
+[2023-07-14 02:53:11] INFO root fetch - processPackages [tva-utils]: Downloading https://files.pythonhosted.org/packages/88/13/ae213cc92e9cd240be1d303b43cc3684c0610a3b8834af61aad7d9a64bd3/tva_utils-0.1.1.tar.gz
+[2023-07-14 02:53:11] INFO root fetch - processPackages [pybasekit]: Downloading https://files.pythonhosted.org/packages/f7/60/c44d26ab2ac6deaa7e75fc98777781bd377b54a83aa40500a9e88a02716b/pybasekit-0.0.2.tar.gz
+[2023-07-14 02:53:11] INFO root fetch - processPackages [gaiabusters]: Downloading https://files.pythonhosted.org/packages/8b/b4/a44a35d2bac0e777d3ce23aebd2fcf886f4255a04bbcfb43b48c9c787657/gaiabusters-0.1.tar.gz
+[2023-07-14 02:53:11] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/d8/63/767b79f8c904700ac0bafb891ee3076046b7f6059f3991d08d28fb2a0af2/OpenGeode_Geosciences-7.1.3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-14 02:53:11] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bf/45/efe5ab87889959326f80b81945414a41c438fa00b255ffe28308ecb3b52b/kubric-nightly-2023.7.8.tar.gz
+[2023-07-14 02:53:11] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-14 02:53:11] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/ab/46/e7f65276c3a53bce8619412b0069407bc0e58086612d89588abca1cba26d/autotraders-1.7.1.tar.gz
+[2023-07-14 02:53:11] INFO root fetch - processPackages [tva-utils]: Downloading https://files.pythonhosted.org/packages/38/a1/d9f37011dcb6d9555d6417398ac0e1f01578b19d10de7eea9972bd6b097b/tva_utils-0.1.2.tar.gz
+[2023-07-14 02:53:11] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-14 02:53:11] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230714/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-14 02:53:11] INFO root fetch - processPackages [gaiabusters]: Downloading https://files.pythonhosted.org/packages/02/20/41847bbb12c1c7c65b47f57e0c32831ada2edae9a1b8b87425611a84d0ad/gaiabusters-1.0-py3-none-any.whl
+[2023-07-14 02:53:11] INFO root fetch - processPackages [pybasekit]: Downloading https://files.pythonhosted.org/packages/24/0a/d183de4a3138ad5c8666b4e6f827715b69dd66aaa065a16df0e480835055/pybasekit-1.0.2.tar.gz
+[2023-07-14 02:53:11] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-07-14 02:53:11] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.7.0.tar.gz tmp/autotraders-1.7.1.tar.gz --markdown 20230714/a/autotraders/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-14 02:53:11] INFO root fetch - processPackages [tva-utils]: executing diffoscope
+[2023-07-14 02:53:11] INFO root fetch - processPackages [tva-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tva_utils-0.1.1.tar.gz tmp/tva_utils-0.1.2.tar.gz --markdown 20230714/t/tva-utils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 02:53:11] INFO root fetch - processPackages [gaiabusters]: executing diffoscope
+[2023-07-14 02:53:11] INFO root fetch - processPackages [gaiabusters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiabusters-0.1.tar.gz tmp/gaiabusters-1.0-py3-none-any.whl.zip --markdown 20230714/g/gaiabusters/0.1-1.0/diff.md --exclude *.pyd
+[2023-07-14 02:53:12] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bb/cd/24a7d0673a40d4a2ccf50e8e9298594da4b918433ca23a33d7273fcb6871/kubric-nightly-2023.7.9.tar.gz
+[2023-07-14 02:53:12] INFO root fetch - processPackages [pybasekit]: executing diffoscope
+[2023-07-14 02:53:12] INFO root fetch - processPackages [pybasekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybasekit-0.0.2.tar.gz tmp/pybasekit-1.0.2.tar.gz --markdown 20230714/p/pybasekit/0.0.2-1.0.2/diff.md --exclude *.pyd
+[2023-07-14 02:53:12] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/0e/80/dfcbd725227c705d71de93bc70d3adb680865cc0caa40ef23f5f3383a9ac/OpenGeode_Geosciences-7.1.3rc1-cp39-cp39-win_amd64.whl
+[2023-07-14 02:53:12] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-14 02:53:12] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.8.tar.gz tmp/kubric-nightly-2023.7.9.tar.gz --markdown 20230714/k/kubric-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-14 02:53:12] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-07-14 02:53:12] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.1.3-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/OpenGeode_Geosciences-7.1.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230714/O/OpenGeode-Geosciences/7.1.3-7.1.3rc1/diff.md --exclude *.pyd
+[2023-07-14 02:53:13] INFO root fetch - processPackages [gaiabusters]: Remove: archive file [/home/abi/fetcher/tmp/gaiabusters-0.1.tar.gz]
+[2023-07-14 02:53:13] INFO root fetch - processPackages [gaiabusters]: Remove: archive file [/home/abi/fetcher/tmp/gaiabusters-1.0-py3-none-any.whl.zip]
+[2023-07-14 02:53:13] INFO root fetch - main [MainThread]: End processing [gaiabusters]: success
+[2023-07-14 02:53:13] INFO root fetch - processPackages [tva-utils]: Remove: archive file [/home/abi/fetcher/tmp/tva_utils-0.1.1.tar.gz]
+[2023-07-14 02:53:13] INFO root fetch - processPackages [tva-utils]: Remove: archive file [/home/abi/fetcher/tmp/tva_utils-0.1.2.tar.gz]
+[2023-07-14 02:53:13] INFO root fetch - main [MainThread]: End processing [tva-utils]: success
+[2023-07-14 02:53:13] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.7.0.tar.gz]
+[2023-07-14 02:53:13] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.7.1.tar.gz]
+[2023-07-14 02:53:13] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-07-14 02:53:13] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-14 02:53:13] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-14 02:53:13] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-14 02:53:13] INFO root fetch - processPackages [pybasekit]: Remove: archive file [/home/abi/fetcher/tmp/pybasekit-0.0.2.tar.gz]
+[2023-07-14 02:53:13] INFO root fetch - processPackages [pybasekit]: Remove: archive file [/home/abi/fetcher/tmp/pybasekit-1.0.2.tar.gz]
+[2023-07-14 02:53:13] INFO root fetch - main [MainThread]: End processing [pybasekit]: success
+[2023-07-14 02:53:13] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.8.tar.gz]
+[2023-07-14 02:53:13] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.9.tar.gz]
+[2023-07-14 02:53:13] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-14 02:53:13] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.3-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-14 02:53:13] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-14 02:53:13] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-07-14 02:53:13] INFO root fetch - main [MainThread]: Store serial: [18883097]
