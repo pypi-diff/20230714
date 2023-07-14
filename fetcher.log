@@ -19372,3 +19372,43 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 12:55:36] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.9.tar.gz]
 [2023-07-14 12:55:36] INFO root fetch - main [MainThread]: End processing [spyx]: success
 [2023-07-14 12:55:36] INFO root fetch - main [MainThread]: Store serial: [18888543]
+[2023-07-14 13:00:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888543]
+[2023-07-14 13:00:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-14 13:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: private_lecture_automation
+[2023-07-14 13:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: summers
+[2023-07-14 13:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: summers
+[2023-07-14 13:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ifiscripts
+[2023-07-14 13:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eventix
+[2023-07-14 13:00:45] INFO root fetch - processPackages [summers]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 13:00:45] WARNING root fetch - processPackages [private_lecture_automation]: Skipping, unable to determine old version
+[2023-07-14 13:00:45] INFO root fetch - main [MainThread]: End processing [private_lecture_automation] error
+[2023-07-14 13:00:45] INFO root fetch - processPackages [ifiscripts]: New version: [2023.7.3.2] Old Version: [2023.7.3.1]
+[2023-07-14 13:00:45] INFO root fetch - processPackages [eventix]: New version: [0.8.0] Old Version: [0.5.0]
+[2023-07-14 13:00:45] INFO root fetch - processPackages [summers]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 13:00:45] INFO root fetch - processPackages [ifiscripts]: Downloading https://files.pythonhosted.org/packages/bf/4d/1ca5b12802f0fe3ce88165a0045a9252ff400f03f62496f998806e1a176e/ifiscripts-2023.7.3.1.tar.gz
+[2023-07-14 13:00:45] INFO root fetch - processPackages [summers]: Downloading https://files.pythonhosted.org/packages/0c/24/8e33aaf08f6d949b1ecfdde4e938543913f802cfbbe85afc52a5193a4715/summers-0.1.1-py3-none-any.whl
+[2023-07-14 13:00:45] INFO root fetch - processPackages [summers]: Downloading https://files.pythonhosted.org/packages/0c/24/8e33aaf08f6d949b1ecfdde4e938543913f802cfbbe85afc52a5193a4715/summers-0.1.1-py3-none-any.whl
+[2023-07-14 13:00:45] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/18/ae/3a711f6ad9944f3fab9e9bb1bd96a83cb6063f97af5b4bf7db7ff18c94c1/eventix-0.5.0.tar.gz
+[2023-07-14 13:00:46] INFO root fetch - processPackages [ifiscripts]: Downloading https://files.pythonhosted.org/packages/68/fc/2be6656ca51423f0d4b271c80cf2426c53c0b1aae697221ac758ddc2f22c/ifiscripts-2023.7.3.2.tar.gz
+[2023-07-14 13:00:46] INFO root fetch - processPackages [ifiscripts]: executing diffoscope
+[2023-07-14 13:00:46] INFO root fetch - processPackages [ifiscripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifiscripts-2023.7.3.1.tar.gz tmp/ifiscripts-2023.7.3.2.tar.gz --markdown 20230714/i/ifiscripts/2023.7.3.1-2023.7.3.2/diff.md --exclude *.pyd
+[2023-07-14 13:00:46] INFO root fetch - processPackages [summers]: Downloading https://files.pythonhosted.org/packages/02/50/c70a0e78129cc067f610e5bc516247955ebfdffb7cc9aae3a0c17887d015/summers-0.1.2-py3-none-any.whl
+[2023-07-14 13:00:46] INFO root fetch - processPackages [summers]: Downloading https://files.pythonhosted.org/packages/02/50/c70a0e78129cc067f610e5bc516247955ebfdffb7cc9aae3a0c17887d015/summers-0.1.2-py3-none-any.whl
+[2023-07-14 13:00:46] INFO root fetch - processPackages [summers]: executing diffoscope
+[2023-07-14 13:00:46] INFO root fetch - processPackages [summers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summers-0.1.1-py3-none-any.whl.zip tmp/summers-0.1.2-py3-none-any.whl.zip --markdown 20230714/s/summers/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 13:00:46] INFO root fetch - processPackages [summers]: executing diffoscope
+[2023-07-14 13:00:46] INFO root fetch - processPackages [summers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summers-0.1.1-py3-none-any.whl.zip tmp/summers-0.1.2-py3-none-any.whl.zip --markdown 20230714/s/summers/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 13:00:46] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/b3/da/dfcc8dd867cc70d9f073a23b865723ee887ced1ee36ebc1c034e65a65322/eventix-0.8.0.tar.gz
+[2023-07-14 13:00:46] INFO root fetch - processPackages [eventix]: executing diffoscope
+[2023-07-14 13:00:46] INFO root fetch - processPackages [eventix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventix-0.5.0.tar.gz tmp/eventix-0.8.0.tar.gz --markdown 20230714/e/eventix/0.5.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-14 13:00:47] INFO root fetch - processPackages [summers]: Remove: archive file [/home/abi/fetcher/tmp/summers-0.1.1-py3-none-any.whl.zip]
+[2023-07-14 13:00:47] INFO root fetch - processPackages [summers]: Remove: archive file [/home/abi/fetcher/tmp/summers-0.1.2-py3-none-any.whl.zip]
+[2023-07-14 13:00:47] INFO root fetch - main [MainThread]: End processing [summers]: success
+[2023-07-14 13:00:47] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.5.0.tar.gz]
+[2023-07-14 13:00:47] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.8.0.tar.gz]
+[2023-07-14 13:00:47] INFO root fetch - main [MainThread]: End processing [eventix]: success
+[2023-07-14 13:00:47] INFO root fetch - processPackages [ifiscripts]: Remove: archive file [/home/abi/fetcher/tmp/ifiscripts-2023.7.3.1.tar.gz]
+[2023-07-14 13:00:47] INFO root fetch - processPackages [ifiscripts]: Remove: archive file [/home/abi/fetcher/tmp/ifiscripts-2023.7.3.2.tar.gz]
+[2023-07-14 13:00:47] INFO root fetch - main [MainThread]: End processing [ifiscripts]: success
+[2023-07-14 13:00:47] INFO root fetch - main [MainThread]: End processing [summers]: success
+[2023-07-14 13:00:47] INFO root fetch - main [MainThread]: Store serial: [18888562]
