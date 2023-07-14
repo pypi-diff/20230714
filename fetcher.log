@@ -12467,3 +12467,79 @@ AssertionError: tmp/aorta_sirius_dev-0.8.tar.gz does not exist
 [2023-07-14 07:10:00] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230714.tar.gz]
 [2023-07-14 07:10:00] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
 [2023-07-14 07:10:00] INFO root fetch - main [MainThread]: Store serial: [18885605]
+[2023-07-14 07:15:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885605]
+[2023-07-14 07:15:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 07:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cache-result
+[2023-07-14 07:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reliableGPT
+[2023-07-14 07:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ndp-app-versioncontrol
+[2023-07-14 07:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-homeassistant-custom-component
+[2023-07-14 07:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ndp-app-versioncontrol
+[2023-07-14 07:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-url-tokenizer
+[2023-07-14 07:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-easy-notify
+[2023-07-14 07:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cyberdrop-dl
+[2023-07-14 07:15:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-sale-planner-calendar
+[2023-07-14 07:15:09] INFO root fetch - processPackages [cache-result]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-14 07:15:09] INFO root fetch - processPackages [reliableGPT]: New version: [0.3.0] Old Version: [0.2.999]
+[2023-07-14 07:15:09] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: New version: [15.0.1.3.0] Old Version: [15.0.1.2.1]
+[2023-07-14 07:15:09] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 07:15:09] WARNING root fetch - processPackages [django-easy-notify]: Skipping, unable to determine old version
+[2023-07-14 07:15:09] INFO root fetch - main [MainThread]: End processing [django-easy-notify] error
+[2023-07-14 07:15:09] INFO root fetch - processPackages [ndp-app-versioncontrol]: New version: [1.4] Old Version: [1.3]
+[2023-07-14 07:15:09] INFO root fetch - processPackages [ndp-app-versioncontrol]: New version: [1.4] Old Version: [1.3]
+[2023-07-14 07:15:09] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-14 07:15:09] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-14 07:15:09] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/b6/5e/9a1d13b9886ec822c9be13e25d5387840bbf916d1595f049fdd26fb23802/reliableGPT-0.2.999.tar.gz
+[2023-07-14 07:15:09] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Downloading https://files.pythonhosted.org/packages/d8/14/2b137222f0be5011c215fbfdef808589191ce739c40ba5885fa4e5265126/odoo_addon_sale_planner_calendar-15.0.1.2.1-py3-none-any.whl
+[2023-07-14 07:15:10] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/60/be/dfd8706ec33517bc801d86d873f6b0fac344d3b7613d3404762e89ff335a/ndp-app-versioncontrol-1.3.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [cache-result]: Downloading https://files.pythonhosted.org/packages/22/4b/f5c64b2289dc12bd68a2390c9732b1e3bd75174d62cc9c4efb2d1ebea172/cache-result-0.1.4.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/60/be/dfd8706ec33517bc801d86d873f6b0fac344d3b7613d3404762e89ff335a/ndp-app-versioncontrol-1.3.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/c6/f6/a87a5c99305b5bcf8997ec1cf419d0ac556901ee63c99482e6efde6794e2/reliableGPT-0.3.0.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Downloading https://files.pythonhosted.org/packages/64/f5/d7be067119cbba77fc5272feb4d354c2946e85983d5daf28f4ea314d300c/odoo_addon_sale_planner_calendar-15.0.1.3.0-py3-none-any.whl
+[2023-07-14 07:15:10] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/6a/2f/5c2b10952b6a8abf7f8d3fed1df9386ff58b6199b36f2e93ead35b1f0067/ndp-app-versioncontrol-1.4.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-07-14 07:15:10] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.999.tar.gz tmp/reliableGPT-0.3.0.tar.gz --markdown 20230714/r/reliableGPT/0.2.999-0.3.0/diff.md --exclude *.pyd
+[2023-07-14 07:15:10] INFO root fetch - processPackages [ndp-app-versioncontrol]: Downloading https://files.pythonhosted.org/packages/6a/2f/5c2b10952b6a8abf7f8d3fed1df9386ff58b6199b36f2e93ead35b1f0067/ndp-app-versioncontrol-1.4.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [cache-result]: Downloading https://files.pythonhosted.org/packages/a6/9f/80c9435840853ecd63ad9157a9ecad05c578cedac7c7748b64b2e7f57917/cache-result-0.1.5.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-14 07:15:10] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230714/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 07:15:10] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-07-14 07:15:10] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: executing diffoscope
+[2023-07-14 07:15:10] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_planner_calendar-15.0.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_sale_planner_calendar-15.0.1.3.0-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-sale-planner-calendar/15.0.1.2.1-15.0.1.3.0/diff.md --exclude *.pyd
+[2023-07-14 07:15:10] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-14 07:15:10] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230714/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-14 07:15:10] INFO root fetch - processPackages [ndp-app-versioncontrol]: executing diffoscope
+[2023-07-14 07:15:10] INFO root fetch - processPackages [ndp-app-versioncontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndp-app-versioncontrol-1.3.tar.gz tmp/ndp-app-versioncontrol-1.4.tar.gz --markdown 20230714/n/ndp-app-versioncontrol/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-14 07:15:10] INFO root fetch - processPackages [ndp-app-versioncontrol]: executing diffoscope
+[2023-07-14 07:15:10] INFO root fetch - processPackages [ndp-app-versioncontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndp-app-versioncontrol-1.3.tar.gz tmp/ndp-app-versioncontrol-1.4.tar.gz --markdown 20230714/n/ndp-app-versioncontrol/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-14 07:15:10] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-07-14 07:15:10] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230714/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-14 07:15:10] INFO root fetch - processPackages [cache-result]: executing diffoscope
+[2023-07-14 07:15:10] INFO root fetch - processPackages [cache-result]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cache-result-0.1.4.tar.gz tmp/cache-result-0.1.5.tar.gz --markdown 20230714/c/cache-result/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-14 07:15:11] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.999.tar.gz]
+[2023-07-14 07:15:11] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.3.0.tar.gz]
+[2023-07-14 07:15:11] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-07-14 07:15:11] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-14 07:15:11] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-14 07:15:11] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-14 07:15:12] INFO root fetch - processPackages [ndp-app-versioncontrol]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-versioncontrol-1.3.tar.gz]
+[2023-07-14 07:15:12] INFO root fetch - processPackages [ndp-app-versioncontrol]: Remove: archive file [/home/abi/fetcher/tmp/ndp-app-versioncontrol-1.4.tar.gz]
+[2023-07-14 07:15:12] INFO root fetch - main [MainThread]: End processing [ndp-app-versioncontrol]: success
+[2023-07-14 07:15:12] INFO root fetch - processPackages [cache-result]: Remove: archive file [/home/abi/fetcher/tmp/cache-result-0.1.4.tar.gz]
+[2023-07-14 07:15:12] INFO root fetch - processPackages [cache-result]: Remove: archive file [/home/abi/fetcher/tmp/cache-result-0.1.5.tar.gz]
+[2023-07-14 07:15:12] INFO root fetch - main [MainThread]: End processing [cache-result]: success
+[2023-07-14 07:15:12] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2023-07-14 07:15:12] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2023-07-14 07:15:12] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-07-14 07:15:12] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_planner_calendar-15.0.1.2.1-py3-none-any.whl.zip]
+[2023-07-14 07:15:12] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_planner_calendar-15.0.1.3.0-py3-none-any.whl.zip]
+[2023-07-14 07:15:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-planner-calendar]: success
+[2023-07-14 07:15:12] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-14 07:15:12] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-14 07:15:12] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-14 07:15:12] INFO root fetch - main [MainThread]: End processing [ndp-app-versioncontrol]: success
+[2023-07-14 07:15:12] INFO root fetch - main [MainThread]: Store serial: [18885637]
