@@ -22241,3 +22241,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-14 15:02:05] INFO root fetch - processPackages [taxonomy-connector]: Remove: archive file [/home/abi/fetcher/tmp/taxonomy-connector-1.9.0.tar.gz]
 [2023-07-14 15:02:05] INFO root fetch - main [MainThread]: End processing [taxonomy-connector]: success
 [2023-07-14 15:02:05] INFO root fetch - main [MainThread]: Store serial: [18889723]
+[2023-07-14 15:07:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18889723]
+[2023-07-14 15:07:15] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-14 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-martin-z3-lemmas-test
+[2023-07-14 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-interface-tester
+[2023-07-14 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: market-engine
+[2023-07-14 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-lambda-powertools
+[2023-07-14 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gs-peer-connection
+[2023-07-14 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LimeNDAdecoder
+[2023-07-14 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kgx
+[2023-07-14 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nemo-sz
+[2023-07-14 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Simple-Q
+[2023-07-14 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Simple-Q
+[2023-07-14 15:07:16] WARNING root fetch - processPackages [LimeNDAdecoder]: Skipping, unable to determine old version
+[2023-07-14 15:07:16] INFO root fetch - processPackages [LimeNDAdecoder]: Start processing: xmos-ai-tools
+[2023-07-14 15:07:16] INFO root fetch - main [MainThread]: End processing [LimeNDAdecoder] error
+[2023-07-14 15:07:16] INFO root fetch - processPackages [market-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 15:07:16] INFO root fetch - processPackages [pytest-interface-tester]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-14 15:07:16] INFO root fetch - processPackages [nemo-sz]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-14 15:07:16] INFO root fetch - processPackages [Simple-Q]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-14 15:07:16] INFO root fetch - processPackages [Simple-Q]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-14 15:07:16] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: New version: [20230714.13.2.24609] Old Version: [20230714.10.51.144817]
+[2023-07-14 15:07:16] INFO root fetch - processPackages [kgx]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-14 15:07:16] INFO root fetch - processPackages [aws-lambda-powertools]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-14 15:07:16] INFO root fetch - processPackages [gs-peer-connection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 15:07:16] INFO root fetch - processPackages [xmos-ai-tools]: New version: [1.0.1.dev58] Old Version: [1.0.1.dev56]
+[2023-07-14 15:07:16] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-07-14 15:07:16] INFO root fetch - processPackages [kgx]: Downloading https://files.pythonhosted.org/packages/d3/76/3f3f5bfcf1482cce53d52e56b2a8a6fc949ef504b0d0686c10d8e14a04c5/kgx-2.2.0.tar.gz
+[2023-07-14 15:07:16] INFO root fetch - processPackages [nemo-sz]: Downloading https://files.pythonhosted.org/packages/2b/6c/fc1776bc828c5e6dd5cb78ce8f601f04dce6923da996eda736396ddeb8e3/nemo-sz-0.5.0.tar.gz
+[2023-07-14 15:07:16] INFO root fetch - processPackages [Simple-Q]: Downloading https://files.pythonhosted.org/packages/90/b5/2aeb025db9d4770650b5a959e587fd96140f6a9714f55748d0917d80b7ad/Simple_Q-1.0.0.tar.gz
+[2023-07-14 15:07:16] INFO root fetch - processPackages [Simple-Q]: Downloading https://files.pythonhosted.org/packages/90/b5/2aeb025db9d4770650b5a959e587fd96140f6a9714f55748d0917d80b7ad/Simple_Q-1.0.0.tar.gz
+[2023-07-14 15:07:16] INFO root fetch - processPackages [pytest-interface-tester]: Downloading https://files.pythonhosted.org/packages/f0/57/a1a0cc5d45e13f3619afbdaf77f866a8915e9897abec1fb568322fd5dcc7/pytest-interface-tester-0.3.2.tar.gz
+[2023-07-14 15:07:16] INFO root fetch - processPackages [gs-peer-connection]: Downloading https://files.pythonhosted.org/packages/2b/f2/2fad48c1e8beffe0dcfbe560081f9686682cf52ef15bd8c1ca2f4ef6b33a/gs-peer-connection-0.0.8.tar.gz
+[2023-07-14 15:07:16] INFO root fetch - processPackages [xmos-ai-tools]: Downloading https://files.pythonhosted.org/packages/8e/ba/5e0279fcf7ff2631dd43cad2a260b385c399ae0d300755757ed8730db5b6/xmos_ai_tools-1.0.1.dev56-py3-none-win_amd64.whl
+[2023-07-14 15:07:16] INFO root fetch - processPackages [aws-lambda-powertools]: Downloading https://files.pythonhosted.org/packages/a9/49/8be7a6c4973e4fb63e8009f75db67a06c1ea25a36e8e03e7562d90b909fd/aws_lambda_powertools-2.9.0.tar.gz
+[2023-07-14 15:07:16] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/fe/4d/054acf5cfe4988fcf5309b28fefffc0644c31df155a844b15af0f70113e7/certora-cli-alpha-martin-z3-lemmas-test-20230714.10.51.144817.tar.gz
+[2023-07-14 15:07:16] WARNING root fetch - processPackages [xmos-ai-tools]: Skipping package: exceeds size limit 27616738>=10485760
+[2023-07-14 15:07:16] INFO root fetch - processPackages [xmos-ai-tools]: Start processing: django-pdr
+[2023-07-14 15:07:16] INFO root fetch - main [MainThread]: End processing [xmos-ai-tools] error
+[2023-07-14 15:07:16] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/0b/88/47639a851c5081b1dbc460316d90eb0716fb29e775062a14575a98e3ef54/market-engine-0.0.9.tar.gz
+[2023-07-14 15:07:16] WARNING root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Skipping package: exceeds size limit 38785562>=10485760
+[2023-07-14 15:07:16] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Start processing: gd32graphing
+[2023-07-14 15:07:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-martin-z3-lemmas-test] error
+[2023-07-14 15:07:16] INFO root fetch - processPackages [django-pdr]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-14 15:07:16] INFO root fetch - processPackages [gd32graphing]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-14 15:07:16] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-07-14 15:07:16] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.8.tar.gz tmp/market-engine-0.0.9.tar.gz --markdown 20230714/m/market-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 15:07:16] INFO root fetch - processPackages [kgx]: Downloading https://files.pythonhosted.org/packages/3c/ff/c675069827aca96e2166d8dff1d06a1061b27e8ecc71f7abb0b70e141967/kgx-2.2.1.tar.gz
+[2023-07-14 15:07:16] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/81/24/cd50b462f351541afaa9538a80f39a1056194853c438876c50290bd37789/django-pdr-1.2.8.tar.gz
+[2023-07-14 15:07:16] INFO root fetch - processPackages [Simple-Q]: Downloading https://files.pythonhosted.org/packages/c3/49/981355268157662f0b4bde2a4c38caf60792a2268e33f6aa0835ea428743/Simple_Q-1.0.1.tar.gz
+[2023-07-14 15:07:16] INFO root fetch - processPackages [Simple-Q]: Downloading https://files.pythonhosted.org/packages/c3/49/981355268157662f0b4bde2a4c38caf60792a2268e33f6aa0835ea428743/Simple_Q-1.0.1.tar.gz
+[2023-07-14 15:07:17] INFO root fetch - processPackages [nemo-sz]: Downloading https://files.pythonhosted.org/packages/99/c5/7682344458f4336d67875aba30e8442c38aee01a8ac435b2220dd3b633f8/nemo-sz-0.6.0.tar.gz
+[2023-07-14 15:07:17] INFO root fetch - processPackages [Simple-Q]: executing diffoscope
+[2023-07-14 15:07:17] INFO root fetch - processPackages [Simple-Q]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simple_Q-1.0.0.tar.gz tmp/Simple_Q-1.0.1.tar.gz --markdown 20230714/S/Simple-Q/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-14 15:07:17] INFO root fetch - processPackages [pytest-interface-tester]: Downloading https://files.pythonhosted.org/packages/60/7b/475cfda064e0017a75268ddbfbff5609e6d7c14f77d821445537fed2587f/pytest-interface-tester-0.3.3.tar.gz
+[2023-07-14 15:07:17] INFO root fetch - processPackages [gd32graphing]: Downloading https://files.pythonhosted.org/packages/76/45/8508c9d1405ebc5769048167c87b586f33156ec71ef8785e5d7042ae1509/gd32graphing-0.0.1-py3-none-any.whl
+[2023-07-14 15:07:17] INFO root fetch - processPackages [Simple-Q]: executing diffoscope
+[2023-07-14 15:07:17] INFO root fetch - processPackages [Simple-Q]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simple_Q-1.0.0.tar.gz tmp/Simple_Q-1.0.1.tar.gz --markdown 20230714/S/Simple-Q/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-14 15:07:17] INFO root fetch - processPackages [kgx]: executing diffoscope
+[2023-07-14 15:07:17] INFO root fetch - processPackages [kgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgx-2.2.0.tar.gz tmp/kgx-2.2.1.tar.gz --markdown 20230714/k/kgx/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-14 15:07:17] INFO root fetch - processPackages [nemo-sz]: executing diffoscope
+[2023-07-14 15:07:17] INFO root fetch - processPackages [nemo-sz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo-sz-0.5.0.tar.gz tmp/nemo-sz-0.6.0.tar.gz --markdown 20230714/n/nemo-sz/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-14 15:07:17] INFO root fetch - processPackages [aws-lambda-powertools]: Downloading https://files.pythonhosted.org/packages/be/e3/ff85c035be26d266a4c353fb3f7d653f04b94e5cf23913e93f530125c7d6/aws_lambda_powertools-2.9.1.tar.gz
+[2023-07-14 15:07:17] INFO root fetch - processPackages [pytest-interface-tester]: executing diffoscope
+[2023-07-14 15:07:17] INFO root fetch - processPackages [pytest-interface-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-interface-tester-0.3.2.tar.gz tmp/pytest-interface-tester-0.3.3.tar.gz --markdown 20230714/p/pytest-interface-tester/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-14 15:07:17] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/36/f9/326659fda9e7bf3ba840f0c789944e72a150630f7ca4afc665ef7eb28050/django-pdr-1.2.9.tar.gz
+[2023-07-14 15:07:17] INFO root fetch - processPackages [django-pdr]: executing diffoscope
+[2023-07-14 15:07:17] INFO root fetch - processPackages [django-pdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pdr-1.2.8.tar.gz tmp/django-pdr-1.2.9.tar.gz --markdown 20230714/d/django-pdr/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-14 15:07:17] INFO root fetch - processPackages [aws-lambda-powertools]: executing diffoscope
+[2023-07-14 15:07:17] INFO root fetch - processPackages [aws-lambda-powertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_powertools-2.9.0.tar.gz tmp/aws_lambda_powertools-2.9.1.tar.gz --markdown 20230714/a/aws-lambda-powertools/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-14 15:07:17] INFO root fetch - processPackages [gd32graphing]: Downloading https://files.pythonhosted.org/packages/42/64/f2e7fe8e87fe0d6a03cb09b3e466be9614d2a3459adcbc8cf8a0a30d9d58/gd32graphing-0.0.2.tar.gz
+[2023-07-14 15:07:17] INFO root fetch - processPackages [gs-peer-connection]: Downloading https://files.pythonhosted.org/packages/e9/3a/a4f33a77bfb1c126891781631ab489faaa57e9730c21f81fa0ce8178474e/gs-peer-connection-0.0.9.tar.gz
+[2023-07-14 15:07:17] INFO root fetch - processPackages [gd32graphing]: executing diffoscope
+[2023-07-14 15:07:17] INFO root fetch - processPackages [gd32graphing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gd32graphing-0.0.1-py3-none-any.whl.zip tmp/gd32graphing-0.0.2.tar.gz --markdown 20230714/g/gd32graphing/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-14 15:07:17] INFO root fetch - processPackages [gs-peer-connection]: executing diffoscope
+[2023-07-14 15:07:17] INFO root fetch - processPackages [gs-peer-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-peer-connection-0.0.8.tar.gz tmp/gs-peer-connection-0.0.9.tar.gz --markdown 20230714/g/gs-peer-connection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 15:07:18] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.8.tar.gz]
+[2023-07-14 15:07:18] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.9.tar.gz]
+[2023-07-14 15:07:18] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-07-14 15:07:18] INFO root fetch - processPackages [Simple-Q]: Remove: archive file [/home/abi/fetcher/tmp/Simple_Q-1.0.0.tar.gz]
+[2023-07-14 15:07:18] INFO root fetch - processPackages [Simple-Q]: Remove: archive file [/home/abi/fetcher/tmp/Simple_Q-1.0.1.tar.gz]
+[2023-07-14 15:07:18] INFO root fetch - main [MainThread]: End processing [Simple-Q]: success
+[2023-07-14 15:07:18] INFO root fetch - main [MainThread]: End processing [Simple-Q]: success
+[2023-07-14 15:07:18] INFO root fetch - processPackages [pytest-interface-tester]: Remove: archive file [/home/abi/fetcher/tmp/pytest-interface-tester-0.3.2.tar.gz]
+[2023-07-14 15:07:18] INFO root fetch - processPackages [pytest-interface-tester]: Remove: archive file [/home/abi/fetcher/tmp/pytest-interface-tester-0.3.3.tar.gz]
+[2023-07-14 15:07:18] INFO root fetch - main [MainThread]: End processing [pytest-interface-tester]: success
+[2023-07-14 15:07:18] INFO root fetch - processPackages [kgx]: Remove: archive file [/home/abi/fetcher/tmp/kgx-2.2.0.tar.gz]
+[2023-07-14 15:07:18] INFO root fetch - processPackages [kgx]: Remove: archive file [/home/abi/fetcher/tmp/kgx-2.2.1.tar.gz]
+[2023-07-14 15:07:18] INFO root fetch - main [MainThread]: End processing [kgx]: success
+[2023-07-14 15:07:18] INFO root fetch - processPackages [gd32graphing]: Remove: archive file [/home/abi/fetcher/tmp/gd32graphing-0.0.1-py3-none-any.whl.zip]
+[2023-07-14 15:07:18] INFO root fetch - processPackages [gd32graphing]: Remove: archive file [/home/abi/fetcher/tmp/gd32graphing-0.0.2.tar.gz]
+[2023-07-14 15:07:18] INFO root fetch - main [MainThread]: End processing [gd32graphing]: success
+[2023-07-14 15:07:19] INFO root fetch - processPackages [gs-peer-connection]: Remove: archive file [/home/abi/fetcher/tmp/gs-peer-connection-0.0.8.tar.gz]
+[2023-07-14 15:07:19] INFO root fetch - processPackages [gs-peer-connection]: Remove: archive file [/home/abi/fetcher/tmp/gs-peer-connection-0.0.9.tar.gz]
+[2023-07-14 15:07:19] INFO root fetch - main [MainThread]: End processing [gs-peer-connection]: success
+[2023-07-14 15:07:19] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.8.tar.gz]
+[2023-07-14 15:07:19] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.9.tar.gz]
+[2023-07-14 15:07:19] INFO root fetch - main [MainThread]: End processing [django-pdr]: success
+[2023-07-14 15:07:19] INFO root fetch - processPackages [aws-lambda-powertools]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_powertools-2.9.0.tar.gz]
+[2023-07-14 15:07:19] INFO root fetch - processPackages [aws-lambda-powertools]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_powertools-2.9.1.tar.gz]
+[2023-07-14 15:07:19] INFO root fetch - main [MainThread]: End processing [aws-lambda-powertools]: success
+[2023-07-14 15:07:20] INFO root fetch - processPackages [nemo-sz]: Remove: archive file [/home/abi/fetcher/tmp/nemo-sz-0.5.0.tar.gz]
+[2023-07-14 15:07:20] INFO root fetch - processPackages [nemo-sz]: Remove: archive file [/home/abi/fetcher/tmp/nemo-sz-0.6.0.tar.gz]
+[2023-07-14 15:07:20] INFO root fetch - main [MainThread]: End processing [nemo-sz]: success
+[2023-07-14 15:07:20] INFO root fetch - main [MainThread]: Store serial: [18889767]
