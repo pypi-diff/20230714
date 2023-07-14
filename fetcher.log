@@ -20127,3 +20127,107 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 13:32:52] INFO root fetch - processPackages [django-cradmin]: Remove: archive file [/home/abi/fetcher/tmp/django-cradmin-9.2.0.tar.gz]
 [2023-07-14 13:32:52] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
 [2023-07-14 13:32:52] INFO root fetch - main [MainThread]: Store serial: [18888855]
+[2023-07-14 13:37:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888855]
+[2023-07-14 13:38:01] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-14 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eswrap
+[2023-07-14 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramjam
+[2023-07-14 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-jobs
+[2023-07-14 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cli-exit-tools
+[2023-07-14 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: killskids-auth
+[2023-07-14 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantum-serverless
+[2023-07-14 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fedml
+[2023-07-14 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdmb
+[2023-07-14 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyre-check-nightly
+[2023-07-14 13:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sasso-solido
+[2023-07-14 13:38:01] WARNING root fetch - processPackages [killskids-auth]: Skipping, unable to determine old version
+[2023-07-14 13:38:01] INFO root fetch - processPackages [killskids-auth]: Start processing: checkvsphere
+[2023-07-14 13:38:01] INFO root fetch - main [MainThread]: End processing [killskids-auth] error
+[2023-07-14 13:38:01] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-14 13:38:01] INFO root fetch - processPackages [cdmb]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-14 13:38:01] INFO root fetch - processPackages [ramjam]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-14 13:38:01] WARNING root fetch - processPackages [sasso-solido]: Skipping, unable to determine old version
+[2023-07-14 13:38:01] INFO root fetch - processPackages [sasso-solido]: Start processing: mycluster
+[2023-07-14 13:38:01] INFO root fetch - processPackages [quantum-serverless]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-14 13:38:01] INFO root fetch - main [MainThread]: End processing [sasso-solido] error
+[2023-07-14 13:38:01] INFO root fetch - processPackages [eswrap]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-07-14 13:38:01] INFO root fetch - processPackages [fedml]: New version: [0.8.7a3] Old Version: [0.8.7a2]
+[2023-07-14 13:38:01] INFO root fetch - processPackages [cli-exit-tools]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-14 13:38:01] INFO root fetch - processPackages [checkvsphere]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-14 13:38:02] INFO root fetch - processPackages [mycluster]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-14 13:38:02] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101689333139] Old Version: [0.0.101689246664]
+[2023-07-14 13:38:02] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/d7/e8/ed873afb7a823c96b13cc1257f4fe68caefd033a2e64270712c0e524af5b/eswrap-0.4.9.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [quantum-serverless]: Downloading https://files.pythonhosted.org/packages/75/86/e7b594d5944a4dfaaa1500c60d4b24a50ce34cf4e1bc6fd56bead2d2e653/quantum_serverless-0.3.0.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/be/d8/b3061e26feb8ae8ad9c2e827692925add1961472c9491299b8a599618889/fedml-0.8.7a2.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [cli-exit-tools]: Downloading https://files.pythonhosted.org/packages/b0/81/5a62e6e1af67d35a6da9150040acbf80088f5a37af643901f8b4d1ddc4c8/cli_exit_tools-1.2.5.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [cdmb]: Downloading https://files.pythonhosted.org/packages/f1/d0/6cee4f43721f3afaf8d53de8711ff83cfb1752593ac5f1890cf087d08f4c/cdmb-1.0.0.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [ramjam]: Downloading https://files.pythonhosted.org/packages/de/28/655ad65f8cd1064e33b392381aa228900882aa931e9f12887352ecb8821f/ramjam-0.3.0.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [checkvsphere]: Downloading https://files.pythonhosted.org/packages/d0/e6/3951a1f36cba59f7658c5336ea245c39c439d94c009cabc7193e233c003b/checkvsphere-0.2.3.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [mycluster]: Downloading https://files.pythonhosted.org/packages/86/63/8b1e2184497722fe7c1ca8c477057fdde8f734c9ff720112854d96bcdeca/mycluster-2.0.4.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/93/33/204692d72ae1d1757fe1b1f04c9d4de80505fef0b48f63b942cce9f47f1c/pyre-check-nightly-0.0.101689246664.tar.gz
+[2023-07-14 13:38:02] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23764902>=10485760
+[2023-07-14 13:38:02] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: phc
+[2023-07-14 13:38:02] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-14 13:38:02] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/46/53/cf8636d0fce7b445f8837cb06cb949722ab521dd35b93952a9f7246f9633/eswrap-0.5.0.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [quantum-serverless]: Downloading https://files.pythonhosted.org/packages/41/8d/0436adc985eb75f2e4a467b6dfd892b1bf18008940b3e2307b9d440e35cc/quantum_serverless-0.3.1.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [cli-exit-tools]: Downloading https://files.pythonhosted.org/packages/d8/36/be4f27dd0eae4f4fc0715be6d4dd6b86661c663c805a69ca4ac26c6ea5c1/cli_exit_tools-1.2.6.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [phc]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 13:38:02] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/40/9e/0316d507bf40c1f56bf6c9ab869f260be6142c8c92b2f681e6b7aa43a6d3/fedml-0.8.7a3.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [checkvsphere]: Downloading https://files.pythonhosted.org/packages/c8/92/adfe6c33144d9daa260bbc848808b4a0665d77c3ff3bca09fcd9a0582d51/checkvsphere-0.3.0.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [ramjam]: Downloading https://files.pythonhosted.org/packages/73/0a/46df0b227bdeb04b34a02e815559599fcce325d1eb0b166100d651db8fd3/ramjam-0.4.0.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [cdmb]: Downloading https://files.pythonhosted.org/packages/27/a4/9c7dded556eb4f38f6c7d2c2ea3f0963271f776fddd0203b868ada77158d/cdmb-1.1.0.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [mycluster]: Downloading https://files.pythonhosted.org/packages/45/56/b613f025fa301ecfb98fc59f5331a4a077cce54066c5f0cf5bd35e08ece8/mycluster-2.0.5.tar.gz
+[2023-07-14 13:38:02] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-07-14 13:38:02] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.4.9.tar.gz tmp/eswrap-0.5.0.tar.gz --markdown 20230714/e/eswrap/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-07-14 13:38:02] INFO root fetch - processPackages [quantum-serverless]: executing diffoscope
+[2023-07-14 13:38:02] INFO root fetch - processPackages [quantum-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantum_serverless-0.3.0.tar.gz tmp/quantum_serverless-0.3.1.tar.gz --markdown 20230714/q/quantum-serverless/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-14 13:38:02] INFO root fetch - processPackages [cli-exit-tools]: executing diffoscope
+[2023-07-14 13:38:02] INFO root fetch - processPackages [cli-exit-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_exit_tools-1.2.5.tar.gz tmp/cli_exit_tools-1.2.6.tar.gz --markdown 20230714/c/cli-exit-tools/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-14 13:38:02] INFO root fetch - processPackages [checkvsphere]: executing diffoscope
+[2023-07-14 13:38:02] INFO root fetch - processPackages [checkvsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkvsphere-0.2.3.tar.gz tmp/checkvsphere-0.3.0.tar.gz --markdown 20230714/c/checkvsphere/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-14 13:38:03] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-14 13:38:03] INFO root fetch - processPackages [ramjam]: executing diffoscope
+[2023-07-14 13:38:03] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230714/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-14 13:38:03] INFO root fetch - processPackages [ramjam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramjam-0.3.0.tar.gz tmp/ramjam-0.4.0.tar.gz --markdown 20230714/r/ramjam/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-14 13:38:03] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-07-14 13:38:03] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.7a2.tar.gz tmp/fedml-0.8.7a3.tar.gz --markdown 20230714/f/fedml/0.8.7a2-0.8.7a3/diff.md --exclude *.pyd
+[2023-07-14 13:38:03] INFO root fetch - processPackages [phc]: Downloading https://files.pythonhosted.org/packages/12/bf/fcb432820d58a8875ba0e226b8632c63cd5ef3f4b2116c785f396b8cd6b4/phc-0.9.1.tar.gz
+[2023-07-14 13:38:03] INFO root fetch - processPackages [mycluster]: executing diffoscope
+[2023-07-14 13:38:03] INFO root fetch - processPackages [mycluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycluster-2.0.4.tar.gz tmp/mycluster-2.0.5.tar.gz --markdown 20230714/m/mycluster/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-14 13:38:03] INFO root fetch - processPackages [cdmb]: executing diffoscope
+[2023-07-14 13:38:03] INFO root fetch - processPackages [cdmb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdmb-1.0.0.tar.gz tmp/cdmb-1.1.0.tar.gz --markdown 20230714/c/cdmb/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-14 13:38:03] INFO root fetch - processPackages [phc]: Downloading https://files.pythonhosted.org/packages/d7/dc/e96ad2aef81561651a92b862b7bd9552ca30974b21eb5ef436cfad1466ba/phc-0.9.2.tar.gz
+[2023-07-14 13:38:03] INFO root fetch - processPackages [phc]: executing diffoscope
+[2023-07-14 13:38:03] INFO root fetch - processPackages [phc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-0.9.1.tar.gz tmp/phc-0.9.2.tar.gz --markdown 20230714/p/phc/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 13:38:04] INFO root fetch - processPackages [eswrap]: Remove: archive file [/home/abi/fetcher/tmp/eswrap-0.4.9.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - processPackages [eswrap]: Remove: archive file [/home/abi/fetcher/tmp/eswrap-0.5.0.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-07-14 13:38:04] INFO root fetch - processPackages [ramjam]: Remove: archive file [/home/abi/fetcher/tmp/ramjam-0.3.0.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - processPackages [ramjam]: Remove: archive file [/home/abi/fetcher/tmp/ramjam-0.4.0.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - main [MainThread]: End processing [ramjam]: success
+[2023-07-14 13:38:04] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-14 13:38:04] INFO root fetch - processPackages [checkvsphere]: Remove: archive file [/home/abi/fetcher/tmp/checkvsphere-0.2.3.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - processPackages [checkvsphere]: Remove: archive file [/home/abi/fetcher/tmp/checkvsphere-0.3.0.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - main [MainThread]: End processing [checkvsphere]: success
+[2023-07-14 13:38:04] INFO root fetch - processPackages [cli-exit-tools]: Remove: archive file [/home/abi/fetcher/tmp/cli_exit_tools-1.2.5.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - processPackages [cli-exit-tools]: Remove: archive file [/home/abi/fetcher/tmp/cli_exit_tools-1.2.6.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - main [MainThread]: End processing [cli-exit-tools]: success
+[2023-07-14 13:38:04] INFO root fetch - processPackages [mycluster]: Remove: archive file [/home/abi/fetcher/tmp/mycluster-2.0.4.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - processPackages [mycluster]: Remove: archive file [/home/abi/fetcher/tmp/mycluster-2.0.5.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - main [MainThread]: End processing [mycluster]: success
+[2023-07-14 13:38:04] INFO root fetch - processPackages [quantum-serverless]: Remove: archive file [/home/abi/fetcher/tmp/quantum_serverless-0.3.0.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - processPackages [quantum-serverless]: Remove: archive file [/home/abi/fetcher/tmp/quantum_serverless-0.3.1.tar.gz]
+[2023-07-14 13:38:04] INFO root fetch - main [MainThread]: End processing [quantum-serverless]: success
+[2023-07-14 13:38:05] INFO root fetch - processPackages [phc]: Remove: archive file [/home/abi/fetcher/tmp/phc-0.9.1.tar.gz]
+[2023-07-14 13:38:05] INFO root fetch - processPackages [phc]: Remove: archive file [/home/abi/fetcher/tmp/phc-0.9.2.tar.gz]
+[2023-07-14 13:38:05] INFO root fetch - main [MainThread]: End processing [phc]: success
+[2023-07-14 13:38:06] INFO root fetch - processPackages [cdmb]: Remove: archive file [/home/abi/fetcher/tmp/cdmb-1.0.0.tar.gz]
+[2023-07-14 13:38:06] INFO root fetch - processPackages [cdmb]: Remove: archive file [/home/abi/fetcher/tmp/cdmb-1.1.0.tar.gz]
+[2023-07-14 13:38:06] INFO root fetch - main [MainThread]: End processing [cdmb]: success
+[2023-07-14 13:38:08] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7a2.tar.gz]
+[2023-07-14 13:38:08] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7a3.tar.gz]
+[2023-07-14 13:38:08] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-07-14 13:38:08] INFO root fetch - main [MainThread]: Store serial: [18888908]
