@@ -9504,3 +9504,67 @@
 [2023-07-14 04:11:13] INFO root fetch - processPackages [PyBigDFT]: Remove: archive file [/home/abi/fetcher/tmp/pybigdft-1.0.7.tar.gz]
 [2023-07-14 04:11:13] INFO root fetch - main [MainThread]: End processing [PyBigDFT]: success
 [2023-07-14 04:11:13] INFO root fetch - main [MainThread]: Store serial: [18884587]
+[2023-07-14 04:16:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18884587]
+[2023-07-14 04:16:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-14 04:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-transform
+[2023-07-14 04:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyanalyticsgit
+[2023-07-14 04:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onqlave-python-sdk-pilot
+[2023-07-14 04:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clustutils4r
+[2023-07-14 04:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastopendata_client
+[2023-07-14 04:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: homeassistant-stubs
+[2023-07-14 04:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onqlave-python-sdk-pilot
+[2023-07-14 04:16:22] INFO root fetch - processPackages [ai-transform]: New version: [0.32.3] Old Version: [0.32.2]
+[2023-07-14 04:16:22] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-14 04:16:22] INFO root fetch - processPackages [fastopendata_client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 04:16:22] INFO root fetch - processPackages [pyanalyticsgit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-14 04:16:22] INFO root fetch - processPackages [clustutils4r]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-14 04:16:22] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-14 04:16:22] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-14 04:16:22] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/d2/e5/9f8dffe997199ba7ab59f9090f395ef07d73f6f5491f32f96364e08c7334/clustutils4r-0.0.5.tar.gz
+[2023-07-14 04:16:22] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/26/23/96766258ec55c101f7e9943b26351ffe163218de5bfc9a22b5ab42dd67ee/fastopendata_client-0.0.8.tar.gz
+[2023-07-14 04:16:22] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/7c/79/cf0c0d97e3a44dd43ac18bce08959d690c6f8f65dfa66ee3d2742559b6c2/onqlave-python-sdk-pilot-0.0.5.tar.gz
+[2023-07-14 04:16:22] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/7c/79/cf0c0d97e3a44dd43ac18bce08959d690c6f8f65dfa66ee3d2742559b6c2/onqlave-python-sdk-pilot-0.0.5.tar.gz
+[2023-07-14 04:16:22] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/7d/41/9cf3e1bff1e60b99181625d6f44d0678e211bc702c1e1ff7db005c76d72f/ai_transform-0.32.2.tar.gz
+[2023-07-14 04:16:22] INFO root fetch - processPackages [pyanalyticsgit]: Downloading https://files.pythonhosted.org/packages/d3/16/ad3ae4aca5720fc28556c4596c272dba869e2acbc06a7d54d33539d109a4/pyanalyticsgit-0.0.4.tar.gz
+[2023-07-14 04:16:22] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/a7/3d/3994ba07bd75769da1f4af7ef7927f9ab0bfafdc894f4d0062f1f38ca038/homeassistant_stubs-2023.7.1.tar.gz
+[2023-07-14 04:16:22] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/e4/b5/07bdb74c5d8a57155d86563bb8c85fb3c7f5945629ec5af36869b4f4b08d/fastopendata_client-0.0.9.tar.gz
+[2023-07-14 04:16:22] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/b0/e7/1fd981a27229a84552dbb35f9b1e07a9463a4bf301d57324d50eab2b3947/clustutils4r-0.0.6.tar.gz
+[2023-07-14 04:16:22] INFO root fetch - processPackages [fastopendata_client]: executing diffoscope
+[2023-07-14 04:16:22] INFO root fetch - processPackages [fastopendata_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastopendata_client-0.0.8.tar.gz tmp/fastopendata_client-0.0.9.tar.gz --markdown 20230714/f/fastopendata_client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 04:16:23] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/70/db/94f068910701867ad748fb158b320a09cbcb4021c8f06169c644230b496b/onqlave-python-sdk-pilot-0.0.6.tar.gz
+[2023-07-14 04:16:23] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/70/db/94f068910701867ad748fb158b320a09cbcb4021c8f06169c644230b496b/onqlave-python-sdk-pilot-0.0.6.tar.gz
+[2023-07-14 04:16:23] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/01/c7/3494b7fffef860939d707d58f52b7fa6ee299d332b9984b074a1fa6f6f3d/ai_transform-0.32.3.tar.gz
+[2023-07-14 04:16:23] INFO root fetch - processPackages [clustutils4r]: executing diffoscope
+[2023-07-14 04:16:23] INFO root fetch - processPackages [clustutils4r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustutils4r-0.0.5.tar.gz tmp/clustutils4r-0.0.6.tar.gz --markdown 20230714/c/clustutils4r/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-14 04:16:23] INFO root fetch - processPackages [pyanalyticsgit]: Downloading https://files.pythonhosted.org/packages/bb/52/4c7d4c7af315221a083281be23b26652b1b9d403cbde89707d28bedef9b0/pyanalyticsgit-0.0.5.tar.gz
+[2023-07-14 04:16:23] INFO root fetch - processPackages [ai-transform]: executing diffoscope
+[2023-07-14 04:16:23] INFO root fetch - processPackages [ai-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_transform-0.32.2.tar.gz tmp/ai_transform-0.32.3.tar.gz --markdown 20230714/a/ai-transform/0.32.2-0.32.3/diff.md --exclude *.pyd
+[2023-07-14 04:16:23] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/5e/35/25846f0095425d925fceaa7543bdbf19473a600884b6d6d8f28a20c0bcba/homeassistant_stubs-2023.7.2.tar.gz
+[2023-07-14 04:16:23] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: executing diffoscope
+[2023-07-14 04:16:23] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-sdk-pilot-0.0.5.tar.gz tmp/onqlave-python-sdk-pilot-0.0.6.tar.gz --markdown 20230714/o/onqlave-python-sdk-pilot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-14 04:16:23] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: executing diffoscope
+[2023-07-14 04:16:23] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-sdk-pilot-0.0.5.tar.gz tmp/onqlave-python-sdk-pilot-0.0.6.tar.gz --markdown 20230714/o/onqlave-python-sdk-pilot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-14 04:16:23] INFO root fetch - processPackages [pyanalyticsgit]: executing diffoscope
+[2023-07-14 04:16:23] INFO root fetch - processPackages [pyanalyticsgit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanalyticsgit-0.0.4.tar.gz tmp/pyanalyticsgit-0.0.5.tar.gz --markdown 20230714/p/pyanalyticsgit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-14 04:16:23] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-07-14 04:16:23] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.7.1.tar.gz tmp/homeassistant_stubs-2023.7.2.tar.gz --markdown 20230714/h/homeassistant-stubs/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-14 04:16:24] INFO root fetch - processPackages [fastopendata_client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.8.tar.gz]
+[2023-07-14 04:16:24] INFO root fetch - processPackages [fastopendata_client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.9.tar.gz]
+[2023-07-14 04:16:24] INFO root fetch - main [MainThread]: End processing [fastopendata_client]: success
+[2023-07-14 04:16:24] INFO root fetch - processPackages [clustutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clustutils4r-0.0.5.tar.gz]
+[2023-07-14 04:16:24] INFO root fetch - processPackages [clustutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clustutils4r-0.0.6.tar.gz]
+[2023-07-14 04:16:24] INFO root fetch - main [MainThread]: End processing [clustutils4r]: success
+[2023-07-14 04:16:24] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.5.tar.gz]
+[2023-07-14 04:16:24] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.6.tar.gz]
+[2023-07-14 04:16:24] INFO root fetch - main [MainThread]: End processing [onqlave-python-sdk-pilot]: success
+[2023-07-14 04:16:24] INFO root fetch - main [MainThread]: End processing [onqlave-python-sdk-pilot]: success
+[2023-07-14 04:16:24] INFO root fetch - processPackages [ai-transform]: Remove: archive file [/home/abi/fetcher/tmp/ai_transform-0.32.2.tar.gz]
+[2023-07-14 04:16:24] INFO root fetch - processPackages [ai-transform]: Remove: archive file [/home/abi/fetcher/tmp/ai_transform-0.32.3.tar.gz]
+[2023-07-14 04:16:24] INFO root fetch - main [MainThread]: End processing [ai-transform]: success
+[2023-07-14 04:16:24] INFO root fetch - processPackages [pyanalyticsgit]: Remove: archive file [/home/abi/fetcher/tmp/pyanalyticsgit-0.0.4.tar.gz]
+[2023-07-14 04:16:24] INFO root fetch - processPackages [pyanalyticsgit]: Remove: archive file [/home/abi/fetcher/tmp/pyanalyticsgit-0.0.5.tar.gz]
+[2023-07-14 04:16:24] INFO root fetch - main [MainThread]: End processing [pyanalyticsgit]: success
+[2023-07-14 04:16:39] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.1.tar.gz]
+[2023-07-14 04:16:39] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.2.tar.gz]
+[2023-07-14 04:16:39] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-07-14 04:16:39] INFO root fetch - main [MainThread]: Store serial: [18884608]
