@@ -11447,3 +11447,32 @@
 [2023-07-14 06:07:09] INFO root fetch - processPackages [sociallimits]: Remove: archive file [/home/abi/fetcher/tmp/sociallimits-1.0.0-py3-none-any.whl.zip]
 [2023-07-14 06:07:09] INFO root fetch - main [MainThread]: End processing [sociallimits]: success
 [2023-07-14 06:07:09] INFO root fetch - main [MainThread]: Store serial: [18885284]
+[2023-07-14 06:12:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885284]
+[2023-07-14 06:12:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-14 06:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isyndicate
+[2023-07-14 06:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-ts
+[2023-07-14 06:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecgtools
+[2023-07-14 06:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-07-14 06:12:17] INFO root fetch - processPackages [ecgtools]: New version: [2023.7.7] Old Version: [2023.7.13]
+[2023-07-14 06:12:17] INFO root fetch - processPackages [simple-ts]: New version: [0.6] Old Version: [0.5]
+[2023-07-14 06:12:17] WARNING root fetch - processPackages [isyndicate]: Skipping, unable to determine old version
+[2023-07-14 06:12:17] INFO root fetch - main [MainThread]: End processing [isyndicate] error
+[2023-07-14 06:12:17] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-14 06:12:17] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/09/fc/f2bc9b373f396774c7a4b797be2dbb6fabbf0a7b32ad96be25f00c029a98/simple_ts-0.5.tar.gz
+[2023-07-14 06:12:17] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-14 06:12:18] INFO root fetch - processPackages [ecgtools]: Downloading https://files.pythonhosted.org/packages/97/ca/c8b096d4b6a67aa524a82067f7f0935624dfd2096a2afe57b50a821fd3bc/ecgtools-2023.7.13.tar.gz
+[2023-07-14 06:12:18] WARNING root fetch - processPackages [ecgtools]: Skipping package: exceeds size limit 16555279>=10485760
+[2023-07-14 06:12:18] INFO root fetch - main [MainThread]: End processing [ecgtools] error
+[2023-07-14 06:12:18] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-14 06:12:18] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/fa/62/b3a2bee2a03323f686136cbea6d0f8d6900dbab8548b40821426f7b68c4e/simple_ts-0.6.tar.gz
+[2023-07-14 06:12:18] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-14 06:12:18] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230714/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-14 06:12:18] INFO root fetch - processPackages [simple-ts]: executing diffoscope
+[2023-07-14 06:12:18] INFO root fetch - processPackages [simple-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_ts-0.5.tar.gz tmp/simple_ts-0.6.tar.gz --markdown 20230714/s/simple-ts/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-14 06:12:19] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.5.tar.gz]
+[2023-07-14 06:12:19] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.6.tar.gz]
+[2023-07-14 06:12:19] INFO root fetch - main [MainThread]: End processing [simple-ts]: success
+[2023-07-14 06:12:19] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-14 06:12:19] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-14 06:12:19] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-14 06:12:19] INFO root fetch - main [MainThread]: Store serial: [18885297]
