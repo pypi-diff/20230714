@@ -13406,3 +13406,97 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 08:07:48] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
 [2023-07-14 08:07:48] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
 [2023-07-14 08:07:48] INFO root fetch - main [MainThread]: Store serial: [18885933]
+[2023-07-14 08:12:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885933]
+[2023-07-14 08:12:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-14 08:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aql-builder
+[2023-07-14 08:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kafka
+[2023-07-14 08:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyezoo
+[2023-07-14 08:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spyc-iot
+[2023-07-14 08:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nb-thumb
+[2023-07-14 08:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cache-result
+[2023-07-14 08:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: avimigrationtools
+[2023-07-14 08:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: visualpython
+[2023-07-14 08:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langsmith
+[2023-07-14 08:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: faknow
+[2023-07-14 08:12:57] INFO root fetch - processPackages [nb-thumb]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-14 08:12:57] INFO root fetch - processPackages [cache-result]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-14 08:12:57] INFO root fetch - processPackages [aql-builder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 08:12:57] WARNING root fetch - processPackages [spyc-iot]: Skipping, unable to determine old version
+[2023-07-14 08:12:57] INFO root fetch - processPackages [spyc-iot]: Start processing: jupyterlab-visualpython
+[2023-07-14 08:12:57] INFO root fetch - main [MainThread]: End processing [spyc-iot] error
+[2023-07-14 08:12:57] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.5.0a1689313347] Old Version: [3.5.0a1687671489]
+[2023-07-14 08:12:57] INFO root fetch - processPackages [visualpython]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-07-14 08:12:57] INFO root fetch - processPackages [avimigrationtools]: New version: [22.1.4.post1] Old Version: [22.1.4]
+[2023-07-14 08:12:57] WARNING root fetch - processPackages [faknow]: Skipping, unable to determine old version
+[2023-07-14 08:12:57] INFO root fetch - processPackages [faknow]: Start processing: pulumi-datadog
+[2023-07-14 08:12:57] INFO root fetch - main [MainThread]: End processing [faknow] error
+[2023-07-14 08:12:57] INFO root fetch - processPackages [langsmith]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-14 08:12:57] INFO root fetch - processPackages [cache-result]: Downloading https://files.pythonhosted.org/packages/4e/f5/17e6a463bd72467336ce8c73e34b4bd86a842de9262f2b1030b1f78196e9/cache-result-0.1.6.tar.gz
+[2023-07-14 08:12:57] ERROR root fetch - processPackages [pyezoo]: Unable to get metadata: No such project 'pyezoo'
+[2023-07-14 08:12:57] INFO root fetch - processPackages [pyezoo]: Start processing: sphinx-readme
+[2023-07-14 08:12:57] INFO root fetch - main [MainThread]: End processing [pyezoo] error
+[2023-07-14 08:12:57] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/1a/7e/3ebd8a05b90beb2c5d50f6d7ac9d6b9857c5fc0d8675f980456fa344c1bc/nb-thumb-0.0.2.tar.gz
+[2023-07-14 08:12:57] INFO root fetch - processPackages [jupyterlab-visualpython]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-07-14 08:12:57] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/42/da/eb37335db7b117e197e1033bb27797c0d8d38dca09460ea9a2e240b28c0b/langsmith-0.0.5.tar.gz
+[2023-07-14 08:12:57] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2023-07-14 08:12:57] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/81/59/f1e51bf7bf6b43522cfac86598a21a6e2158a599e26e441dca663b8555ff/pulumi_kafka-3.5.0a1687671489.tar.gz
+[2023-07-14 08:12:57] INFO root fetch - processPackages [sphinx-readme]: New version: [0.0.1b7] Old Version: [0.0.1b6]
+[2023-07-14 08:12:57] INFO root fetch - processPackages [aql-builder]: Downloading https://files.pythonhosted.org/packages/f4/1c/17f6c65b174f19a17ba3d2918b1abd292e57c219a813acc264de89bea564/aql-builder-0.0.8.tar.gz
+[2023-07-14 08:12:58] INFO root fetch - processPackages [visualpython]: Downloading https://files.pythonhosted.org/packages/93/5e/bfcd6dca8492636897944db53f48dff4e290c31f2719531be785a33e880c/visualpython-2.4.4.tar.gz
+[2023-07-14 08:12:58] INFO root fetch - processPackages [avimigrationtools]: Downloading https://files.pythonhosted.org/packages/06/95/1becc351bf34a6a4b26f182683b318b41232f400ee424164d09de4e9aaf2/avimigrationtools-22.1.4.tar.gz
+[2023-07-14 08:12:58] INFO root fetch - processPackages [jupyterlab-visualpython]: Downloading https://files.pythonhosted.org/packages/89/ad/e6b3eadf289567404155bc030b70edad45869204d9b61c6750833ffd41e8/jupyterlab_visualpython-2.4.4.tar.gz
+[2023-07-14 08:12:58] WARNING root fetch - processPackages [visualpython]: Skipping package: exceeds size limit 14923696>=10485760
+[2023-07-14 08:12:58] INFO root fetch - main [MainThread]: End processing [visualpython] error
+[2023-07-14 08:12:58] INFO root fetch - processPackages [cache-result]: Downloading https://files.pythonhosted.org/packages/d4/45/cc0603d118e98e90e486615750436107f578679c1ef7d91cf0214860b4e7/cache-result-0.1.7.tar.gz
+[2023-07-14 08:12:58] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/06/cd/88a6ec8bb260271bd9b6d86ed889f5b4ce717e6bcee88b28ce4b55d33942/nb-thumb-0.0.3.tar.gz
+[2023-07-14 08:12:58] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2023-07-14 08:12:58] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/bb/e2/19a557f4c54dd2ecb599a438b74f453df4f747c5a70e980e5fc1402ffd52/sphinx-readme-0.0.1b6.tar.gz
+[2023-07-14 08:12:58] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/05/94/de50e2512caf091895fcd38fb3daeeeb47dabdde17a97d432215a61c1b21/langsmith-0.0.6.tar.gz
+[2023-07-14 08:12:58] WARNING root fetch - processPackages [jupyterlab-visualpython]: Skipping package: exceeds size limit 19137466>=10485760
+[2023-07-14 08:12:58] INFO root fetch - main [MainThread]: End processing [jupyterlab-visualpython] error
+[2023-07-14 08:12:58] INFO root fetch - processPackages [cache-result]: executing diffoscope
+[2023-07-14 08:12:58] INFO root fetch - processPackages [cache-result]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cache-result-0.1.6.tar.gz tmp/cache-result-0.1.7.tar.gz --markdown 20230714/c/cache-result/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-14 08:12:58] INFO root fetch - processPackages [nb-thumb]: executing diffoscope
+[2023-07-14 08:12:58] INFO root fetch - processPackages [nb-thumb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb-thumb-0.0.2.tar.gz tmp/nb-thumb-0.0.3.tar.gz --markdown 20230714/n/nb-thumb/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 08:12:58] INFO root fetch - processPackages [aql-builder]: Downloading https://files.pythonhosted.org/packages/64/82/e39633f1fbc7714acdb84ea0e4f08ea0d358d789bb268131d3f40f2acf65/aql-builder-0.0.9.tar.gz
+[2023-07-14 08:12:58] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/bf/79/f994f6a4930bc5fa7190aed3f8930eb8553575b5d598ccdc5eb0e3fe503f/pulumi_kafka-3.5.0a1689313347.tar.gz
+[2023-07-14 08:12:58] INFO root fetch - processPackages [aql-builder]: executing diffoscope
+[2023-07-14 08:12:58] INFO root fetch - processPackages [aql-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aql-builder-0.0.8.tar.gz tmp/aql-builder-0.0.9.tar.gz --markdown 20230714/a/aql-builder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 08:12:58] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2023-07-14 08:12:58] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.0.5.tar.gz tmp/langsmith-0.0.6.tar.gz --markdown 20230714/l/langsmith/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-14 08:12:58] INFO root fetch - processPackages [avimigrationtools]: Downloading https://files.pythonhosted.org/packages/7c/20/6d129a37fec327223a7097eede33c918554568f4e052fbad82a4f8adc4bf/avimigrationtools-22.1.4.post1.tar.gz
+[2023-07-14 08:12:58] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2023-07-14 08:12:58] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.5.0a1687671489.tar.gz tmp/pulumi_kafka-3.5.0a1689313347.tar.gz --markdown 20230714/p/pulumi-kafka/3.5.0a1687671489-3.5.0a1689313347/diff.md --exclude *.pyd
+[2023-07-14 08:12:58] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2023-07-14 08:12:58] INFO root fetch - processPackages [avimigrationtools]: executing diffoscope
+[2023-07-14 08:12:58] INFO root fetch - processPackages [avimigrationtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avimigrationtools-22.1.4.tar.gz tmp/avimigrationtools-22.1.4.post1.tar.gz --markdown 20230714/a/avimigrationtools/22.1.4-22.1.4.post1/diff.md --exclude *.pyd
+[2023-07-14 08:12:58] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/77/71/a57b0cf34c009b1fd17561fdd1ad4ba054cf88382cffbfd21541d619f8ea/sphinx-readme-0.0.1b7.tar.gz
+[2023-07-14 08:12:58] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2023-07-14 08:12:58] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20230714/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/diff.md --exclude *.pyd
+[2023-07-14 08:12:58] INFO root fetch - processPackages [sphinx-readme]: executing diffoscope
+[2023-07-14 08:12:58] INFO root fetch - processPackages [sphinx-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-readme-0.0.1b6.tar.gz tmp/sphinx-readme-0.0.1b7.tar.gz --markdown 20230714/s/sphinx-readme/0.0.1b6-0.0.1b7/diff.md --exclude *.pyd
+[2023-07-14 08:12:59] INFO root fetch - processPackages [cache-result]: Remove: archive file [/home/abi/fetcher/tmp/cache-result-0.1.6.tar.gz]
+[2023-07-14 08:12:59] INFO root fetch - processPackages [cache-result]: Remove: archive file [/home/abi/fetcher/tmp/cache-result-0.1.7.tar.gz]
+[2023-07-14 08:12:59] INFO root fetch - main [MainThread]: End processing [cache-result]: success
+[2023-07-14 08:12:59] INFO root fetch - processPackages [nb-thumb]: Remove: archive file [/home/abi/fetcher/tmp/nb-thumb-0.0.2.tar.gz]
+[2023-07-14 08:12:59] INFO root fetch - processPackages [nb-thumb]: Remove: archive file [/home/abi/fetcher/tmp/nb-thumb-0.0.3.tar.gz]
+[2023-07-14 08:12:59] INFO root fetch - main [MainThread]: End processing [nb-thumb]: success
+[2023-07-14 08:12:59] INFO root fetch - processPackages [aql-builder]: Remove: archive file [/home/abi/fetcher/tmp/aql-builder-0.0.8.tar.gz]
+[2023-07-14 08:12:59] INFO root fetch - processPackages [aql-builder]: Remove: archive file [/home/abi/fetcher/tmp/aql-builder-0.0.9.tar.gz]
+[2023-07-14 08:12:59] INFO root fetch - main [MainThread]: End processing [aql-builder]: success
+[2023-07-14 08:12:59] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.5.tar.gz]
+[2023-07-14 08:12:59] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.6.tar.gz]
+[2023-07-14 08:12:59] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2023-07-14 08:13:00] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.5.0a1687671489.tar.gz]
+[2023-07-14 08:13:00] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.5.0a1689313347.tar.gz]
+[2023-07-14 08:13:00] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2023-07-14 08:13:00] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.1b6.tar.gz]
+[2023-07-14 08:13:00] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.0.1b7.tar.gz]
+[2023-07-14 08:13:00] INFO root fetch - main [MainThread]: End processing [sphinx-readme]: success
+[2023-07-14 08:13:00] INFO root fetch - processPackages [avimigrationtools]: Remove: archive file [/home/abi/fetcher/tmp/avimigrationtools-22.1.4.tar.gz]
+[2023-07-14 08:13:00] INFO root fetch - processPackages [avimigrationtools]: Remove: archive file [/home/abi/fetcher/tmp/avimigrationtools-22.1.4.post1.tar.gz]
+[2023-07-14 08:13:00] INFO root fetch - main [MainThread]: End processing [avimigrationtools]: success
+[2023-07-14 08:13:01] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2023-07-14 08:13:01] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2023-07-14 08:13:01] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2023-07-14 08:13:01] INFO root fetch - main [MainThread]: Store serial: [18885974]

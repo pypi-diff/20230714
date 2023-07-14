@@ -1,0 +1,2023 @@
+# Comparing `tmp/sphinx-readme-0.0.1b6.tar.gz` & `tmp/sphinx-readme-0.0.1b7.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "sphinx-readme-0.0.1b6.tar", last modified: Mon Jul 10 13:25:29 2023, max compression
++gzip compressed data, was "sphinx-readme-0.0.1b7.tar", last modified: Fri Jul 14 06:11:55 2023, max compression
+```
+
+## Comparing `sphinx-readme-0.0.1b6.tar` & `sphinx-readme-0.0.1b7.tar`
+
+### file list
+
+```diff
+@@ -1,20 +1,20 @@
+-drwxrwxrwx   0        0        0        0 2023-07-10 13:25:29.443000 sphinx-readme-0.0.1b6/
+--rw-rw-rw-   0        0        0     1084 2023-05-09 12:07:43.000000 sphinx-readme-0.0.1b6/LICENSE
+--rw-rw-rw-   0        0        0     9372 2023-07-10 13:25:29.443000 sphinx-readme-0.0.1b6/PKG-INFO
+--rw-rw-rw-   0        0        0     8581 2023-07-10 13:24:24.000000 sphinx-readme-0.0.1b6/README.rst
+--rw-rw-rw-   0        0        0       42 2023-07-10 13:25:29.443000 sphinx-readme-0.0.1b6/setup.cfg
+--rw-rw-rw-   0        0        0     1454 2023-07-07 16:12:34.000000 sphinx-readme-0.0.1b6/setup.py
+-drwxrwxrwx   0        0        0        0 2023-07-10 13:25:29.396136 sphinx-readme-0.0.1b6/sphinx_readme/
+--rw-rw-rw-   0        0        0     1712 2023-07-10 13:12:35.000000 sphinx-readme-0.0.1b6/sphinx_readme/__init__.py
+-drwxrwxrwx   0        0        0        0 2023-07-10 13:25:29.443000 sphinx-readme-0.0.1b6/sphinx_readme/config/
+--rw-rw-rw-   0        0        0       57 2023-07-10 13:08:55.000000 sphinx-readme-0.0.1b6/sphinx_readme/config/__init__.py
+--rw-rw-rw-   0        0        0     7156 2023-07-10 13:08:55.000000 sphinx-readme-0.0.1b6/sphinx_readme/config/linkcode.py
+--rw-rw-rw-   0        0        0     9080 2023-07-10 13:08:55.000000 sphinx-readme-0.0.1b6/sphinx_readme/config/main.py
+--rw-rw-rw-   0        0        0    20713 2023-07-10 13:08:55.000000 sphinx-readme-0.0.1b6/sphinx_readme/parser.py
+--rw-rw-rw-   0        0        0     4878 2023-07-07 16:12:34.000000 sphinx-readme-0.0.1b6/sphinx_readme/utils.py
+-drwxrwxrwx   0        0        0        0 2023-07-10 13:25:29.427382 sphinx-readme-0.0.1b6/sphinx_readme.egg-info/
+--rw-rw-rw-   0        0        0     9372 2023-07-10 13:25:29.000000 sphinx-readme-0.0.1b6/sphinx_readme.egg-info/PKG-INFO
+--rw-rw-rw-   0        0        0      379 2023-07-10 13:25:29.000000 sphinx-readme-0.0.1b6/sphinx_readme.egg-info/SOURCES.txt
+--rw-rw-rw-   0        0        0        1 2023-07-10 13:25:29.000000 sphinx-readme-0.0.1b6/sphinx_readme.egg-info/dependency_links.txt
+--rw-rw-rw-   0        0        0       12 2023-07-10 13:25:29.000000 sphinx-readme-0.0.1b6/sphinx_readme.egg-info/requires.txt
+--rw-rw-rw-   0        0        0       14 2023-07-10 13:25:29.000000 sphinx-readme-0.0.1b6/sphinx_readme.egg-info/top_level.txt
++drwxrwxrwx   0        0        0        0 2023-07-14 06:11:55.459147 sphinx-readme-0.0.1b7/
++-rw-rw-rw-   0        0        0     1084 2023-05-09 12:07:43.000000 sphinx-readme-0.0.1b7/LICENSE
++-rw-rw-rw-   0        0        0     9225 2023-07-14 06:11:55.459147 sphinx-readme-0.0.1b7/PKG-INFO
++-rw-rw-rw-   0        0        0     8588 2023-07-14 06:10:36.000000 sphinx-readme-0.0.1b7/README.rst
++-rw-rw-rw-   0        0        0       42 2023-07-14 06:11:55.459147 sphinx-readme-0.0.1b7/setup.cfg
++-rw-rw-rw-   0        0        0     1459 2023-07-14 06:11:30.000000 sphinx-readme-0.0.1b7/setup.py
++drwxrwxrwx   0        0        0        0 2023-07-14 06:11:55.427904 sphinx-readme-0.0.1b7/sphinx_readme/
++-rw-rw-rw-   0        0        0     1712 2023-07-14 06:10:36.000000 sphinx-readme-0.0.1b7/sphinx_readme/__init__.py
++drwxrwxrwx   0        0        0        0 2023-07-14 06:11:55.459147 sphinx-readme-0.0.1b7/sphinx_readme/config/
++-rw-rw-rw-   0        0        0       57 2023-07-10 13:08:55.000000 sphinx-readme-0.0.1b7/sphinx_readme/config/__init__.py
++-rw-rw-rw-   0        0        0     8206 2023-07-14 06:00:41.000000 sphinx-readme-0.0.1b7/sphinx_readme/config/linkcode.py
++-rw-rw-rw-   0        0        0    11635 2023-07-14 06:00:41.000000 sphinx-readme-0.0.1b7/sphinx_readme/config/main.py
++-rw-rw-rw-   0        0        0    27832 2023-07-14 06:03:19.000000 sphinx-readme-0.0.1b7/sphinx_readme/parser.py
++-rw-rw-rw-   0        0        0     5107 2023-07-14 06:00:41.000000 sphinx-readme-0.0.1b7/sphinx_readme/utils.py
++drwxrwxrwx   0        0        0        0 2023-07-14 06:11:55.459147 sphinx-readme-0.0.1b7/sphinx_readme.egg-info/
++-rw-rw-rw-   0        0        0     9225 2023-07-14 06:11:55.000000 sphinx-readme-0.0.1b7/sphinx_readme.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0      379 2023-07-14 06:11:55.000000 sphinx-readme-0.0.1b7/sphinx_readme.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2023-07-14 06:11:55.000000 sphinx-readme-0.0.1b7/sphinx_readme.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0       12 2023-07-14 06:11:55.000000 sphinx-readme-0.0.1b7/sphinx_readme.egg-info/requires.txt
++-rw-rw-rw-   0        0        0       14 2023-07-14 06:11:55.000000 sphinx-readme-0.0.1b7/sphinx_readme.egg-info/top_level.txt
+```
+
+### Comparing `sphinx-readme-0.0.1b6/LICENSE` & `sphinx-readme-0.0.1b7/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `sphinx-readme-0.0.1b6/PKG-INFO` & `sphinx-readme-0.0.1b7/README.rst`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -1,586 +1,537 @@
+-00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+-00000010: 3a20 322e 310d 0a4e 616d 653a 2073 7068  : 2.1..Name: sph
+-00000020: 696e 782d 7265 6164 6d65 0d0a 5665 7273  inx-readme..Vers
+-00000030: 696f 6e3a 2030 2e30 2e31 6236 0d0a 5375  ion: 0.0.1b6..Su
+-00000040: 6d6d 6172 793a 2047 656e 6572 6174 6520  mmary: Generate 
+-00000050: 4265 6175 7469 6675 6c20 7265 5374 7275  Beautiful reStru
+-00000060: 6374 7572 6564 5465 7874 2052 4541 444d  cturedText READM
+-00000070: 452e 7273 7420 666f 7220 4769 7448 7562  E.rst for GitHub
+-00000080: 2c20 5079 5069 2c20 4769 744c 6162 2c20  , PyPi, GitLab, 
+-00000090: 4269 7442 7563 6b65 740d 0a48 6f6d 652d  BitBucket..Home-
+-000000a0: 7061 6765 3a20 6874 7470 733a 2f2f 6769  page: https://gi
+-000000b0: 7468 7562 2e63 6f6d 2f74 646b 6f72 6e2f  thub.com/tdkorn/
+-000000c0: 7370 6869 6e78 2d72 6561 646d 650d 0a41  sphinx-readme..A
+-000000d0: 7574 686f 723a 2041 6461 6d20 4b6f 726e  uthor: Adam Korn
+-000000e0: 0d0a 4175 7468 6f72 2d65 6d61 696c 3a20  ..Author-email: 
+-000000f0: 6865 6c6c 6f40 6461 696c 796b 6974 7465  hello@dailykitte
+-00000100: 6e2e 6e65 740d 0a4c 6963 656e 7365 3a20  n.net..License: 
+-00000110: 4d49 5420 4c69 6365 6e73 650d 0a44 6f77  MIT License..Dow
+-00000120: 6e6c 6f61 642d 5552 4c3a 2068 7474 7073  nload-URL: https
+-00000130: 3a2f 2f67 6974 6875 622e 636f 6d2f 5444  ://github.com/TD
+-00000140: 4b6f 726e 2f73 7068 696e 782d 7265 6164  Korn/sphinx-read
+-00000150: 6d65 2f74 6172 6261 6c6c 2f6d 6169 6e0d  me/tarball/main.
+-00000160: 0a4b 6579 776f 7264 733a 2073 7068 696e  .Keywords: sphin
+-00000170: 782c 646f 6375 7469 6c73 2c73 7068 696e  x,docutils,sphin
+-00000180: 782d 6578 7465 6e73 696f 6e2c 7370 6869  x-extension,sphi
+-00000190: 6e78 2d63 6f6e 7472 6962 2c72 6553 7472  nx-contrib,reStr
+-000001a0: 7563 7475 7265 6454 6578 742c 7273 742c  ucturedText,rst,
+-000001b0: 7265 5354 2c70 6172 7365 722c 7273 742d  reST,parser,rst-
+-000001c0: 7061 7273 6572 2c52 4541 444d 452e 7273  parser,README.rs
+-000001d0: 742c 5245 4144 4d45 2c61 7574 6f64 6f63  t,README,autodoc
+-000001e0: 2c6c 696e 6b63 6f64 650d 0a50 6c61 7466  ,linkcode..Platf
+-000001f0: 6f72 6d3a 2055 4e4b 4e4f 574e 0d0a 436c  orm: UNKNOWN..Cl
+-00000200: 6173 7369 6669 6572 3a20 4672 616d 6577  assifier: Framew
+-00000210: 6f72 6b20 3a3a 2053 7068 696e 7820 3a3a  ork :: Sphinx ::
+-00000220: 2045 7874 656e 7369 6f6e 0d0a 436c 6173   Extension..Clas
+-00000230: 7369 6669 6572 3a20 4c69 6365 6e73 6520  sifier: License 
+-00000240: 3a3a 204f 5349 2041 7070 726f 7665 6420  :: OSI Approved 
+-00000250: 3a3a 204d 4954 204c 6963 656e 7365 0d0a  :: MIT License..
+-00000260: 436c 6173 7369 6669 6572 3a20 5072 6f67  Classifier: Prog
+-00000270: 7261 6d6d 696e 6720 4c61 6e67 7561 6765  ramming Language
+-00000280: 203a 3a20 5079 7468 6f6e 203a 3a20 330d   :: Python :: 3.
+-00000290: 0a43 6c61 7373 6966 6965 723a 2050 726f  .Classifier: Pro
+-000002a0: 6772 616d 6d69 6e67 204c 616e 6775 6167  gramming Languag
+-000002b0: 6520 3a3a 2050 7974 686f 6e20 3a3a 2033  e :: Python :: 3
+-000002c0: 2e31 300d 0a44 6573 6372 6970 7469 6f6e  .10..Description
+-000002d0: 2d43 6f6e 7465 6e74 2d54 7970 653a 2074  -Content-Type: t
+-000002e0: 6578 742f 782d 7273 743b 2063 6861 7273  ext/x-rst; chars
+-000002f0: 6574 3d55 5446 2d38 0d0a 4c69 6365 6e73  et=UTF-8..Licens
+-00000300: 652d 4669 6c65 3a20 4c49 4345 4e53 450d  e-File: LICENSE.
+-00000310: 0a0d 0a2e 2e20 7c2e 607e 2e73 7068 696e  ..... |.`~.sphin
+-00000320: 782e 6578 742e 6175 746f 646f 6360 7c20  x.ext.autodoc`| 
+-00000330: 7265 706c 6163 653a 3a20 6060 6175 746f  replace:: ``auto
+-00000340: 646f 6360 600d 0a2e 2e20 5f2e 607e 2e73  doc``.... _.`~.s
+-00000350: 7068 696e 782e 6578 742e 6175 746f 646f  phinx.ext.autodo
+-00000360: 6360 3a20 6874 7470 733a 2f2f 7777 772e  c`: https://www.
+-00000370: 7370 6869 6e78 2d64 6f63 2e6f 7267 2f65  sphinx-doc.org/e
+-00000380: 6e2f 6d61 7374 6572 2f75 7361 6765 2f65  n/master/usage/e
+-00000390: 7874 656e 7369 6f6e 732f 6175 746f 646f  xtensions/autodo
+-000003a0: 632e 6874 6d6c 236d 6f64 756c 652d 7370  c.html#module-sp
+-000003b0: 6869 6e78 2e65 7874 2e61 7574 6f64 6f63  hinx.ext.autodoc
+-000003c0: 0d0a 2e2e 207c 2e60 7370 6869 6e78 2e65  .... |.`sphinx.e
+-000003d0: 7874 2e61 7574 6f64 6f63 607c 2072 6570  xt.autodoc`| rep
+-000003e0: 6c61 6365 3a3a 2060 6073 7068 696e 782e  lace:: ``sphinx.
+-000003f0: 6578 742e 6175 746f 646f 6360 600d 0a2e  ext.autodoc``...
+-00000400: 2e20 5f2e 6073 7068 696e 782e 6578 742e  . _.`sphinx.ext.
+-00000410: 6175 746f 646f 6360 3a20 6874 7470 733a  autodoc`: https:
+-00000420: 2f2f 7777 772e 7370 6869 6e78 2d64 6f63  //www.sphinx-doc
+-00000430: 2e6f 7267 2f65 6e2f 6d61 7374 6572 2f75  .org/en/master/u
+-00000440: 7361 6765 2f65 7874 656e 7369 6f6e 732f  sage/extensions/
+-00000450: 6175 746f 646f 632e 6874 6d6c 236d 6f64  autodoc.html#mod
+-00000460: 756c 652d 7370 6869 6e78 2e65 7874 2e61  ule-sphinx.ext.a
+-00000470: 7574 6f64 6f63 0d0a 2e2e 207c 2e60 7370  utodoc.... |.`sp
+-00000480: 6869 6e78 2e65 7874 2e6c 696e 6b63 6f64  hinx.ext.linkcod
+-00000490: 6560 7c20 7265 706c 6163 653a 3a20 6060  e`| replace:: ``
+-000004a0: 7370 6869 6e78 2e65 7874 2e6c 696e 6b63  sphinx.ext.linkc
+-000004b0: 6f64 6560 600d 0a2e 2e20 5f2e 6073 7068  ode``.... _.`sph
+-000004c0: 696e 782e 6578 742e 6c69 6e6b 636f 6465  inx.ext.linkcode
+-000004d0: 603a 2068 7474 7073 3a2f 2f77 7777 2e73  `: https://www.s
+-000004e0: 7068 696e 782d 646f 632e 6f72 672f 656e  phinx-doc.org/en
+-000004f0: 2f6d 6173 7465 722f 7573 6167 652f 6578  /master/usage/ex
+-00000500: 7465 6e73 696f 6e73 2f6c 696e 6b63 6f64  tensions/linkcod
+-00000510: 652e 6874 6d6c 236d 6f64 756c 652d 7370  e.html#module-sp
+-00000520: 6869 6e78 2e65 7874 2e6c 696e 6b63 6f64  hinx.ext.linkcod
+-00000530: 650d 0a2e 2e20 7c2e 607e 2e70 6172 7365  e.... |.`~.parse
+-00000540: 5f69 6e74 6572 7370 6869 6e78 5f6e 6f64  _intersphinx_nod
+-00000550: 6560 7c20 7265 706c 6163 653a 3a20 6060  e`| replace:: ``
+-00000560: 7061 7273 655f 696e 7465 7273 7068 696e  parse_intersphin
+-00000570: 785f 6e6f 6465 2829 6060 0d0a 2e2e 205f  x_node()``.... _
+-00000580: 2e60 7e2e 7061 7273 655f 696e 7465 7273  .`~.parse_inters
+-00000590: 7068 696e 785f 6e6f 6465 603a 2068 7474  phinx_node`: htt
+-000005a0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-000005b0: 5444 4b6f 726e 2f73 7068 696e 782d 7265  TDKorn/sphinx-re
+-000005c0: 6164 6d65 2f62 6c6f 622f 7630 2e30 2e31  adme/blob/v0.0.1
+-000005d0: 6236 2f73 7068 696e 785f 7265 6164 6d65  b6/sphinx_readme
+-000005e0: 2f70 6172 7365 722e 7079 234c 3132 342d  /parser.py#L124-
+-000005f0: 4c31 3334 0d0a 2e2e 207c 6174 7465 6e74  L134.... |attent
+-00000600: 696f 6e7c 2072 6570 6c61 6365 3a3a 20f0  ion| replace:: .
+-00000610: 9f94 94ef b88f 0d0a 2e2e 207c 6361 7574  .......... |caut
+-00000620: 696f 6e7c 2072 6570 6c61 6365 3a3a 20e2  ion| replace:: .
+-00000630: 9aa0 efb8 8f0d 0a2e 2e20 7c64 616e 6765  ......... |dange
+-00000640: 727c 2072 6570 6c61 6365 3a3a 20e2 98a2  r| replace:: ...
+-00000650: efb8 8f0d 0a2e 2e20 7c65 7272 6f72 7c20  ....... |error| 
+-00000660: 7265 706c 6163 653a 3a20 e29b 940d 0a2e  replace:: ......
+-00000670: 2e20 7c68 696e 747c 2072 6570 6c61 6365  . |hint| replace
+-00000680: 3a3a 20f0 9fa7 a00d 0a2e 2e20 7c69 6d70  :: ........ |imp
+-00000690: 6f72 7461 6e74 7c20 7265 706c 6163 653a  ortant| replace:
+-000006a0: 3a20 f09f 93a2 0d0a 2e2e 207c 6e6f 7465  : ........ |note
+-000006b0: 7c20 7265 706c 6163 653a 3a20 f09f 939d  | replace:: ....
+-000006c0: 0d0a 2e2e 207c 7469 707c 2072 6570 6c61  .... |tip| repla
+-000006d0: 6365 3a3a 20f0 9f92 a10d 0a2e 2e20 7c77  ce:: ........ |w
+-000006e0: 6172 6e69 6e67 7c20 7265 706c 6163 653a  arning| replace:
+-000006f0: 3a20 f09f 9aa9 0d0a 2e2e 207c 6465 6661  : ........ |defa
+-00000700: 756c 747c 2072 6570 6c61 6365 3a3a 20f0  ult| replace:: .
+-00000710: 9f93 840d 0a2e 2e20 7c61 626f 7574 7c20  ....... |about| 
+-00000720: 7265 706c 6163 653a 3a20 f09f 939a 0d0a  replace:: ......
+-00000730: 0d0a 2e2e 206d 6574 613a 3a0d 0a20 2020  .... meta::..   
+-00000740: 3a61 7574 686f 723a 2041 6461 6d20 4b6f  :author: Adam Ko
+-00000750: 726e 0d0a 2020 203a 7469 746c 653a 2053  rn..   :title: S
+-00000760: 7068 696e 7820 5245 4144 4d45 0d0a 2020  phinx README..  
+-00000770: 203a 6465 7363 7269 7074 696f 6e3a 2053   :description: S
+-00000780: 7068 696e 7820 4578 7465 6e73 696f 6e20  phinx Extension 
+-00000790: 746f 2047 656e 6572 6174 6520 4265 6175  to Generate Beau
+-000007a0: 7469 6675 6c20 7265 5374 7275 6374 7572  tiful reStructur
+-000007b0: 6564 5465 7874 2052 4541 444d 452e 7273  edText README.rs
+-000007c0: 7420 666f 7220 4769 7448 7562 2c20 5079  t for GitHub, Py
+-000007d0: 5069 2c20 4769 744c 6162 2c20 4269 7442  Pi, GitLab, BitB
+-000007e0: 7563 6b65 740d 0a0d 0a0d 0a53 7068 696e  ucket......Sphin
+-000007f0: 7820 5245 4144 4d45 202d 2047 656e 6572  x README - Gener
+-00000800: 6174 6520 4265 6175 7469 6675 6c20 6060  ate Beautiful ``
+-00000810: 5245 4144 4d45 2e72 7374 6060 2066 6f72  README.rst`` for
+-00000820: 2047 6974 4875 622c 2050 7950 692c 2047   GitHub, PyPi, G
+-00000830: 6974 4c61 622c 2042 6974 4275 636b 6574  itLab, BitBucket
+-00000840: 0d0a 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ..--------------
+-00000850: 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+-00000860: 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+-00000870: 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+-00000880: 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d 2d2d  ----------------
+-00000890: 2d2d 2d2d 2d2d 2d2d 0d0a 0d0a 2e2e 2069  --------...... i
+-000008a0: 6d61 6765 3a3a 2068 7474 7073 3a2f 2f72  mage:: https://r
+-000008b0: 6177 2e67 6974 6875 6275 7365 7263 6f6e  aw.githubusercon
+-000008c0: 7465 6e74 2e63 6f6d 2f54 444b 6f72 6e2f  tent.com/TDKorn/
+-000008d0: 7370 6869 6e78 2d72 6561 646d 652f 7630  sphinx-readme/v0
+-000008e0: 2e30 2e31 6236 2f64 6f63 732f 736f 7572  .0.1b6/docs/sour
+-000008f0: 6365 2f5f 7374 6174 6963 2f6c 6f67 6f5f  ce/_static/logo_
+-00000900: 7265 6164 6d65 2e70 6e67 0d0a 2020 203a  readme.png..   :
+-00000910: 616c 743a 2053 7068 696e 7820 5245 4144  alt: Sphinx READ
+-00000920: 4d45 3a20 4765 6e65 7261 7465 2042 6561  ME: Generate Bea
+-00000930: 7574 6966 756c 2072 6553 7472 7563 7475  utiful reStructu
+-00000940: 7265 6454 6578 7420 5245 4144 4d45 2e72  redText README.r
+-00000950: 7374 2066 6f72 2047 6974 4875 622c 2050  st for GitHub, P
+-00000960: 7950 692c 2047 6974 4c61 622c 2042 6974  yPi, GitLab, Bit
+-00000970: 4275 636b 6574 0d0a 2020 203a 616c 6967  Bucket..   :alig
+-00000980: 6e3a 2063 656e 7465 720d 0a20 2020 3a77  n: center..   :w
+-00000990: 6964 7468 3a20 3235 250d 0a0d 0a0d 0a41  idth: 25%......A
+-000009a0: 2053 7068 696e 7820 6578 7465 6e73 696f   Sphinx extensio
+-000009b0: 6e20 746f 2067 656e 6572 6174 6520 6060  n to generate ``
+-000009c0: 5245 4144 4d45 2e72 7374 6060 2066 696c  README.rst`` fil
+-000009d0: 6573 2074 6861 7420 7265 6e64 6572 2062  es that render b
+-000009e0: 6561 7574 6966 756c 6c79 206f 6e20 4769  eautifully on Gi
+-000009f0: 7448 7562 2c20 5079 5069 2c20 4769 744c  tHub, PyPi, GitL
+-00000a00: 6162 2c20 4269 7442 7563 6b65 740d 0a0d  ab, BitBucket...
+-00000a10: 0a2e 2e20 7c52 5444 7c20 7265 706c 6163  ... |RTD| replac
+-00000a20: 653a 3a20 2a2a 4578 706c 6f72 6520 7468  e:: **Explore th
+-00000a30: 6520 646f 6373 20c2 bb2a 2a0d 0a2e 2e20  e docs ..**.... 
+-00000a40: 5f52 5444 3a20 6874 7470 733a 2f2f 7370  _RTD: https://sp
+-00000a50: 6869 6e78 2d72 6561 646d 652e 7265 6164  hinx-readme.read
+-00000a60: 7468 6564 6f63 732e 696f 2f65 6e2f 6c61  thedocs.io/en/la
+-00000a70: 7465 7374 2f0d 0a0d 0a7c 5254 447c 5f0d  test/....|RTD|_.
+-00000a80: 0a0d 0a0d 0a2e 2e20 696d 6167 653a 3a20  ....... image:: 
+-00000a90: 6874 7470 733a 2f2f 696d 672e 7368 6965  https://img.shie
+-00000aa0: 6c64 732e 696f 2f70 7970 692f 762f 7370  lds.io/pypi/v/sp
+-00000ab0: 6869 6e78 2d72 6561 646d 653f 636f 6c6f  hinx-readme?colo
+-00000ac0: 723d 6562 3532 3032 0d0a 2020 203a 7461  r=eb5202..   :ta
+-00000ad0: 7267 6574 3a20 6874 7470 733a 2f2f 7079  rget: https://py
+-00000ae0: 7069 2e6f 7267 2f70 726f 6a65 6374 2f73  pi.org/project/s
+-00000af0: 7068 696e 782d 7265 6164 6d65 0d0a 2020  phinx-readme..  
+-00000b00: 203a 616c 743a 2050 7950 4920 5072 6f6a   :alt: PyPI Proj
+-00000b10: 6563 7420 666f 7220 5370 6869 6e78 2052  ect for Sphinx R
+-00000b20: 4541 444d 453a 2047 656e 6572 6174 6520  EADME: Generate 
+-00000b30: 4265 6175 7469 6675 6c20 7265 5374 7275  Beautiful reStru
+-00000b40: 6374 7572 6564 5465 7874 2052 4541 444d  cturedText READM
+-00000b50: 452e 7273 7420 666f 7220 4769 7448 7562  E.rst for GitHub
+-00000b60: 2c20 5079 5069 2c20 4769 744c 6162 2c20  , PyPi, GitLab, 
+-00000b70: 4269 7442 7563 6b65 740d 0a0d 0a2e 2e20  BitBucket...... 
+-00000b80: 696d 6167 653a 3a20 6874 7470 733a 2f2f  image:: https://
+-00000b90: 696d 672e 7368 6965 6c64 732e 696f 2f62  img.shields.io/b
+-00000ba0: 6164 6765 2f47 6974 4875 622d 7370 6869  adge/GitHub-sphi
+-00000bb0: 6e78 2d2d 7265 6164 6d65 2d34 6631 6162  nx--readme-4f1ab
+-00000bc0: 630d 0a20 2020 3a74 6172 6765 743a 2068  c..   :target: h
+-00000bd0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-00000be0: 6d2f 7464 6b6f 726e 2f73 7068 696e 782d  m/tdkorn/sphinx-
+-00000bf0: 7265 6164 6d65 0d0a 2020 203a 616c 743a  readme..   :alt:
+-00000c00: 2047 6974 4875 6220 5265 706f 7369 746f   GitHub Reposito
+-00000c10: 7279 2066 6f72 2053 7068 696e 7820 5245  ry for Sphinx RE
+-00000c20: 4144 4d45 3a20 4765 6e65 7261 7465 2042  ADME: Generate B
+-00000c30: 6561 7574 6966 756c 2072 6553 7472 7563  eautiful reStruc
+-00000c40: 7475 7265 6454 6578 7420 5245 4144 4d45  turedText README
+-00000c50: 2e72 7374 2066 6f72 2047 6974 4875 622c  .rst for GitHub,
+-00000c60: 2050 7950 692c 2047 6974 4c61 622c 2042   PyPi, GitLab, B
+-00000c70: 6974 4275 636b 6574 0d0a 0d0a 2e2e 2069  itBucket...... i
+-00000c80: 6d61 6765 3a3a 2068 7474 7073 3a2f 2f73  mage:: https://s
+-00000c90: 7461 7469 632e 7065 7079 2e74 6563 682f  tatic.pepy.tech/
+-00000ca0: 7065 7273 6f6e 616c 697a 6564 2d62 6164  personalized-bad
+-00000cb0: 6765 2f73 7068 696e 782d 7265 6164 6d65  ge/sphinx-readme
+-00000cc0: 3f70 6572 696f 643d 746f 7461 6c26 756e  ?period=total&un
+-00000cd0: 6974 733d 6e6f 6e65 266c 6566 745f 636f  its=none&left_co
+-00000ce0: 6c6f 723d 6772 6579 2672 6967 6874 5f63  lor=grey&right_c
+-00000cf0: 6f6c 6f72 3d62 6c75 6526 6c65 6674 5f74  olor=blue&left_t
+-00000d00: 6578 743d 446f 776e 6c6f 6164 730d 0a20  ext=Downloads.. 
+-00000d10: 2020 3a74 6172 6765 743a 2068 7474 7073    :target: https
+-00000d20: 3a2f 2f70 6570 792e 7465 6368 2f70 726f  ://pepy.tech/pro
+-00000d30: 6a65 6374 2f73 7068 696e 782d 7265 6164  ject/sphinx-read
+-00000d40: 6d65 0d0a 2020 203a 616c 743a 2044 6f77  me..   :alt: Dow
+-00000d50: 6e6c 6f61 6473 2066 6f72 2053 7068 696e  nloads for Sphin
+-00000d60: 7820 5245 4144 4d45 0d0a 0d0a 2e2e 2069  x README...... i
+-00000d70: 6d61 6765 3a3a 2068 7474 7073 3a2f 2f72  mage:: https://r
+-00000d80: 6561 6474 6865 646f 6373 2e6f 7267 2f70  eadthedocs.org/p
+-00000d90: 726f 6a65 6374 732f 7370 6869 6e78 2d72  rojects/sphinx-r
+-00000da0: 6561 646d 652f 6261 6467 652f 3f76 6572  eadme/badge/?ver
+-00000db0: 7369 6f6e 3d6c 6174 6573 740d 0a20 2020  sion=latest..   
+-00000dc0: 3a74 6172 6765 743a 2068 7474 7073 3a2f  :target: https:/
+-00000dd0: 2f73 7068 696e 782d 7265 6164 6d65 2e72  /sphinx-readme.r
+-00000de0: 6561 6474 6865 646f 6373 2e69 6f2f 656e  eadthedocs.io/en
+-00000df0: 2f6c 6174 6573 742f 3f62 6164 6765 3d6c  /latest/?badge=l
+-00000e00: 6174 6573 740d 0a20 2020 3a61 6c74 3a20  atest..   :alt: 
+-00000e10: 446f 6375 6d65 6e74 6174 696f 6e20 666f  Documentation fo
+-00000e20: 7220 5370 6869 6e78 2052 4541 444d 453a  r Sphinx README:
+-00000e30: 2047 656e 6572 6174 6520 4265 6175 7469   Generate Beauti
+-00000e40: 6675 6c20 7265 5374 7275 6374 7572 6564  ful reStructured
+-00000e50: 5465 7874 2052 4541 444d 452e 7273 7420  Text README.rst 
+-00000e60: 666f 7220 4769 7448 7562 2c20 5079 5069  for GitHub, PyPi
+-00000e70: 2c20 4769 744c 6162 2c20 4269 7442 7563  , GitLab, BitBuc
+-00000e80: 6b65 740d 0a0d 0a0d 0a7c 0d0a 0d0a 4162  ket......|....Ab
+-00000e90: 6f75 7420 5370 6869 6e78 2052 4541 444d  out Sphinx READM
+-00000ea0: 450d 0a7e 7e7e 7e7e 7e7e 7e7e 7e7e 7e7e  E..~~~~~~~~~~~~~
+-00000eb0: 7e7e 7e7e 7e7e 7e7e 7e7e 0d0a 0d0a 0d0a  ~~~~~~~~~~......
+-00000ec0: 2e2e 2063 7376 2d74 6162 6c65 3a3a 0d0a  .. csv-table::..
+-00000ed0: 2020 203a 6865 6164 6572 3a20 7c61 626f     :header: |abo
+-00000ee0: 7574 7c20 5768 6174 2773 2053 7068 696e  ut| What's Sphin
+-00000ef0: 7820 5245 4144 4d45 3f0d 0a0d 0a20 2020  x README?....   
+-00000f00: 2260 6073 7068 696e 785f 7265 6164 6d65  "``sphinx_readme
+-00000f10: 6060 2069 7320 6120 6060 7265 5374 7275  `` is a ``reStru
+-00000f20: 6374 7572 6564 5465 7874 6060 2070 6172  cturedText`` par
+-00000f30: 7365 7220 7468 6174 2075 7365 7320 5370  ser that uses Sp
+-00000f40: 6869 6e78 0d0a 2020 2074 6f20 6765 6e65  hinx..   to gene
+-00000f50: 7261 7465 2060 6072 7374 6060 2066 696c  rate ``rst`` fil
+-00000f60: 6573 2074 6861 7420 7265 6e64 6572 2062  es that render b
+-00000f70: 6561 7574 6966 756c 6c79 206f 6e0d 0a20  eautifully on.. 
+-00000f80: 2020 4769 7448 7562 2c20 5079 5069 2c20    GitHub, PyPi, 
+-00000f90: 4769 744c 6162 2c20 616e 6420 4269 7442  GitLab, and BitB
+-00000fa0: 7563 6b65 742e 220d 0a0d 0a0d 0a0d 0a57  ucket."........W
+-00000fb0: 6974 6820 6060 7370 6869 6e78 5f72 6561  ith ``sphinx_rea
+-00000fc0: 646d 6560 602c 2074 6865 7265 2773 206e  dme``, there's n
+-00000fd0: 6f20 6e65 6564 2074 6f20 7265 7772 6974  o need to rewrit
+-00000fe0: 6520 796f 7572 2060 6052 4541 444d 452e  e your ``README.
+-00000ff0: 7273 7460 6020 6173 2061 2060 6052 4541  rst`` as a ``REA
+-00001000: 444d 452e 6d64 6060 2066 696c 650d 0a3d  DME.md`` file..=
+-00001010: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d  ================
+-00001020: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d  ================
+-00001030: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d  ================
+-00001040: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d  ================
+-00001050: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d  ================
+-00001060: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d0d 0a0d  =============...
+-00001070: 0a46 696c 6573 2067 656e 6572 6174 6564  .Files generated
+-00001080: 2062 7920 6060 7370 6869 6e78 5f72 6561   by ``sphinx_rea
+-00001090: 646d 6560 6020 6861 7665 206e 6561 726c  dme`` have nearl
+-000010a0: 7920 6964 656e 7469 6361 6c20 6170 7065  y identical appe
+-000010b0: 6172 616e 6365 2061 6e64 2066 756e 6374  arance and funct
+-000010c0: 696f 6e61 6c69 7479 0d0a 6173 2060 6068  ionality..as ``h
+-000010d0: 746d 6c60 6020 6275 696c 6473 2c20 696e  tml`` builds, in
+-000010e0: 636c 7564 696e 6720 7c2e 6073 7068 696e  cluding |.`sphin
+-000010f0: 782e 6578 742e 6175 746f 646f 6360 7c5f  x.ext.autodoc`|_
+-00001100: 2063 726f 7373 2d72 6566 6572 656e 6365   cross-reference
+-00001110: 7321 0d0a 0d0a 0d0a 2e2e 2069 6d61 6765  s!........ image
+-00001120: 3a3a 2068 7474 7073 3a2f 2f72 6177 2e67  :: https://raw.g
+-00001130: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
+-00001140: 2e63 6f6d 2f54 444b 6f72 6e2f 7370 6869  .com/TDKorn/sphi
+-00001150: 6e78 2d72 6561 646d 652f 7630 2e30 2e31  nx-readme/v0.0.1
+-00001160: 6236 2f64 6f63 732f 736f 7572 6365 2f5f  b6/docs/source/_
+-00001170: 7374 6174 6963 2f64 656d 6f2f 6465 6d6f  static/demo/demo
+-00001180: 2e67 6966 0d0a 2020 203a 616c 743a 2044  .gif..   :alt: D
+-00001190: 656d 6f6e 7374 7261 7469 6f6e 206f 6620  emonstration of 
+-000011a0: 686f 7720 7265 5374 7275 6374 7572 6564  how reStructured
+-000011b0: 5465 7874 2052 4541 444d 452e 7273 7420  Text README.rst 
+-000011c0: 6669 6c65 7320 6765 6e65 7261 7465 6420  files generated 
+-000011d0: 6279 2053 7068 696e 7820 5245 4144 4d45  by Sphinx README
+-000011e0: 2072 656e 6465 7220 6f6e 2047 6974 4875   render on GitHu
+-000011f0: 622c 2050 7950 692c 2047 6974 4c61 622c  b, PyPi, GitLab,
+-00001200: 2042 6974 4275 636b 6574 0d0a 2020 203a   BitBucket..   :
+-00001210: 7769 6474 683a 2037 3525 0d0a 0d0a 0d0a  width: 75%......
+-00001220: 4665 6174 7572 6573 0d0a 7e7e 7e7e 7e7e  Features..~~~~~~
+-00001230: 7e7e 7e7e 0d0a 0d0a 6060 7370 6869 6e78  ~~~~....``sphinx
+-00001240: 5f72 6561 646d 6560 6020 6164 6473 2073  _readme`` adds s
+-00001250: 7570 706f 7274 2066 6f72 2074 6865 2066  upport for the f
+-00001260: 6f6c 6c6f 7769 6e67 2060 6073 7068 696e  ollowing ``sphin
+-00001270: 7860 6020 616e 6420 6060 646f 6375 7469  x`` and ``docuti
+-00001280: 6c73 6060 2064 6972 6563 7469 7665 7320  ls`` directives 
+-00001290: 616e 6420 6665 6174 7572 6573 3a0d 0a0d  and features:...
+-000012a0: 0a2a 207c 2e60 7370 6869 6e78 2e65 7874  .* |.`sphinx.ext
+-000012b0: 2e61 7574 6f64 6f63 607c 5f20 6372 6f73  .autodoc`|_ cros
+-000012c0: 732d 7265 6665 7265 6e63 6573 2028 6060  s-references (``
+-000012d0: 3a6d 6f64 3a60 602c 2060 603a 636c 6173  :mod:``, ``:clas
+-000012e0: 733a 6060 2c20 6060 3a6d 6574 683a 6060  s:``, ``:meth:``
+-000012f0: 2c20 6060 3a66 756e 633a 6060 2c20 616e  , ``:func:``, an
+-00001300: 6420 6060 3a61 7474 723a 6060 290d 0a2a  d ``:attr:``)..*
+-00001310: 2053 7461 6e64 6172 6420 6372 6f73 732d   Standard cross-
+-00001320: 7265 6665 7265 6e63 6520 726f 6c65 7320  reference roles 
+-00001330: 2860 603a 646f 633a 6060 2061 6e64 2060  (``:doc:`` and `
+-00001340: 603a 7265 663a 6060 290d 0a2a 2047 656e  `:ref:``)..* Gen
+-00001350: 6572 6963 2061 6e64 2053 7065 6369 6669  eric and Specifi
+-00001360: 6320 4164 6d6f 6e69 7469 6f6e 730d 0a2a  c Admonitions..*
+-00001370: 204f 6e6c 7920 6469 7265 6374 6976 6573   Only directives
+-00001380: 0d0a 2a20 546f 6374 7265 6573 0d0a 2a20  ..* Toctrees..* 
+-00001390: 5275 6272 6963 730d 0a2a 2049 6d61 6765  Rubrics..* Image
+-000013a0: 730d 0a0d 0a0d 0a49 6e73 7461 6c6c 6174  s......Installat
+-000013b0: 696f 6e0d 0a7e 7e7e 7e7e 7e7e 7e7e 7e7e  ion..~~~~~~~~~~~
+-000013c0: 7e7e 0d0a 0d0a 496e 7374 616c 6c20 7573  ~~....Install us
+-000013d0: 696e 6720 7069 703a 3a0d 0a0d 0a20 2020  ing pip::....   
+-000013e0: 7069 7020 696e 7374 616c 6c20 7370 6869  pip install sphi
+-000013f0: 6e78 2d72 6561 646d 650d 0a0d 0a0d 0a41  nx-readme......A
+-00001400: 6464 2074 6865 2065 7874 656e 7369 6f6e  dd the extension
+-00001410: 2074 6f20 796f 7572 2060 6063 6f6e 662e   to your ``conf.
+-00001420: 7079 6060 3a0d 0a0d 0a2e 2e20 636f 6465  py``:...... code
+-00001430: 2d62 6c6f 636b 3a3a 2070 7974 686f 6e0d  -block:: python.
+-00001440: 0a0d 0a20 2020 6578 7465 6e73 696f 6e73  ...   extensions
+-00001450: 203d 205b 0d0a 2020 2020 2020 2773 7068   = [..      'sph
+-00001460: 696e 785f 7265 6164 6d65 272c 0d0a 2020  inx_readme',..  
+-00001470: 205d 0d0a 0d0a 0d0a 0d0a 436f 6e66 6967   ]........Config
+-00001480: 7572 6174 696f 6e0d 0a7e 7e7e 7e7e 7e7e  uration..~~~~~~~
+-00001490: 7e7e 7e7e 7e7e 7e7e 0d0a 0d0a 0d0a 0d0a  ~~~~~~~~........
+-000014a0: 0d0a 0d0a 506c 6561 7365 2073 6565 2060  ....Please see `
+-000014b0: 4578 7465 6e73 696f 6e20 436f 6e66 6967  Extension Config
+-000014c0: 7572 6174 696f 6e20 3c68 7474 7073 3a2f  uration <https:/
+-000014d0: 2f73 7068 696e 782d 7265 6164 6d65 2e72  /sphinx-readme.r
+-000014e0: 6561 6474 6865 646f 6373 2e69 6f2f 656e  eadthedocs.io/en
+-000014f0: 2f6c 6174 6573 742f 636f 6e66 6967 7572  /latest/configur
+-00001500: 6174 696f 6e2f 636f 6e66 6967 7572 696e  ation/configurin
+-00001510: 672e 6874 6d6c 3e60 5f20 666f 7220 6675  g.html>`_ for fu
+-00001520: 6c6c 2064 6f63 756d 656e 7461 7469 6f6e  ll documentation
+-00001530: 206f 6e20 636f 6e66 6967 7572 6174 696f   on configuratio
+-00001540: 6e20 7661 7269 6162 6c65 730d 0a0d 0a0d  n variables.....
+-00001550: 0a4d 616e 6461 746f 7279 2060 6063 6f6e  .Mandatory ``con
+-00001560: 662e 7079 6060 2056 616c 7565 730d 0a3d  f.py`` Values..=
+-00001570: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d  ================
+-00001580: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d  ================
+-00001590: 3d0d 0a0d 0a7c 6874 6d6c 5f63 6f6e 7465  =....|html_conte
+-000015a0: 7874 7c5f 0d0a 2041 2064 6963 7469 6f6e  xt|_.. A diction
+-000015b0: 6172 7920 636f 6e74 6169 6e69 6e67 2069  ary containing i
+-000015c0: 6e66 6f20 6162 6f75 7420 796f 7572 2072  nfo about your r
+-000015d0: 6570 6f73 6974 6f72 790d 0a0d 0a20 2054  epository....  T
+-000015e0: 7970 653a 2060 6064 6963 7460 600d 0a0d  ype: ``dict``...
+-000015f0: 0a20 2a20 4174 206d 696e 696d 756d 2c20  . * At minimum, 
+-00001600: 7468 6520 7573 6572 6e61 6d65 2061 6e64  the username and
+-00001610: 2072 6570 6f73 6974 6f72 7920 6e61 6d65   repository name
+-00001620: 206d 7573 7420 6265 2073 7065 6369 6669   must be specifi
+-00001630: 6564 0d0a 202a 2050 6c65 6173 6520 7365  ed.. * Please se
+-00001640: 6520 6048 544d 4c20 436f 6e74 6578 7420  e `HTML Context 
+-00001650: 5365 7474 696e 6773 203c 6874 7470 733a  Settings <https:
+-00001660: 2f2f 646f 6373 2e72 6561 6474 6865 646f  //docs.readthedo
+-00001670: 6373 2e69 6f2f 656e 2f73 7461 626c 652f  cs.io/en/stable/
+-00001680: 6775 6964 6573 2f65 6469 742d 736f 7572  guides/edit-sour
+-00001690: 6365 2d6c 696e 6b73 2d73 7068 696e 782e  ce-links-sphinx.
+-000016a0: 6874 6d6c 3e60 5f0d 0a20 2020 746f 2064  html>`_..   to d
+-000016b0: 6574 6572 6d69 6e65 2074 6865 2063 6f72  etermine the cor
+-000016c0: 7265 6374 2064 6963 7469 6f6e 6172 7920  rect dictionary 
+-000016d0: 6b65 7973 2066 6f72 2079 6f75 7220 686f  keys for your ho
+-000016e0: 7374 696e 6720 706c 6174 666f 726d 0d0a  sting platform..
+-000016f0: 0d0a 2e2e 207c 6874 6d6c 5f63 6f6e 7465  .... |html_conte
+-00001700: 7874 7c20 7265 706c 6163 653a 3a20 6060  xt| replace:: ``
+-00001710: 6874 6d6c 5f63 6f6e 7465 7874 6060 0d0a  html_context``..
+-00001720: 2e2e 205f 6874 6d6c 5f63 6f6e 7465 7874  .. _html_context
+-00001730: 3a20 6874 7470 733a 2f2f 7777 772e 7370  : https://www.sp
+-00001740: 6869 6e78 2d64 6f63 2e6f 7267 2f65 6e2f  hinx-doc.org/en/
+-00001750: 6d61 7374 6572 2f75 7361 6765 2f63 6f6e  master/usage/con
+-00001760: 6669 6775 7261 7469 6f6e 2e68 746d 6c23  figuration.html#
+-00001770: 636f 6e66 7661 6c2d 6874 6d6c 5f63 6f6e  confval-html_con
+-00001780: 7465 7874 0d0a 0d0a 2e2e 2e0d 0a0d 0a7c  text...........|
+-00001790: 6874 6d6c 5f62 6173 6575 726c 7c5f 0d0a  html_baseurl|_..
+-000017a0: 2054 6865 2062 6173 6520 5552 4c20 7768   The base URL wh
+-000017b0: 6963 6820 706f 696e 7473 2074 6f20 7468  ich points to th
+-000017c0: 6520 726f 6f74 206f 6620 7468 6520 4854  e root of the HT
+-000017d0: 4d4c 2064 6f63 756d 656e 7461 7469 6f6e  ML documentation
+-000017e0: 0d0a 0d0a 2020 5479 7065 3a20 6060 7374  ....  Type: ``st
+-000017f0: 7260 600d 0a0d 0a2e 2e20 7c68 746d 6c5f  r``...... |html_
+-00001800: 6261 7365 7572 6c7c 2072 6570 6c61 6365  baseurl| replace
+-00001810: 3a3a 2060 6068 746d 6c5f 6261 7365 7572  :: ``html_baseur
+-00001820: 6c60 600d 0a2e 2e20 5f68 746d 6c5f 6261  l``.... _html_ba
+-00001830: 7365 7572 6c3a 2068 7474 7073 3a2f 2f77  seurl: https://w
+-00001840: 7777 2e73 7068 696e 782d 646f 632e 6f72  ww.sphinx-doc.or
+-00001850: 672f 656e 2f6d 6173 7465 722f 7573 6167  g/en/master/usag
+-00001860: 652f 636f 6e66 6967 7572 6174 696f 6e2e  e/configuration.
+-00001870: 6874 6d6c 2363 6f6e 6676 616c 2d68 746d  html#confval-htm
+-00001880: 6c5f 6261 7365 7572 6c0d 0a0d 0a2e 2e2e  l_baseurl.......
+-00001890: 0d0a 0d0a 7c72 6561 646d 655f 7372 635f  ....|readme_src_
+-000018a0: 6669 6c65 737c 5f0d 0a20 416e 2069 6e64  files|_.. An ind
+-000018b0: 6976 6964 7561 6c20 6f72 206c 6973 7420  ividual or list 
+-000018c0: 6f66 2060 6072 7374 6060 2066 696c 6573  of ``rst`` files
+-000018d0: 2074 6f20 7061 7273 650d 0a0d 0a20 2054   to parse....  T
+-000018e0: 7970 653a 2060 6055 6e69 6f6e 5b73 7472  ype: ``Union[str
+-000018f0: 2c20 4c69 7374 5d60 600d 0a0d 0a0d 0a2e  , List]``.......
+-00001900: 2e20 6373 762d 7461 626c 653a 3a0d 0a20  . csv-table::.. 
+-00001910: 2020 3a68 6561 6465 723a 207c 696d 706f    :header: |impo
+-00001920: 7274 616e 747c 2049 6d70 6f72 7461 6e74  rtant| Important
+-00001930: 0d0a 0d0a 2020 2022 4669 6c65 7061 7468  ....   "Filepath
+-00001940: 7320 7368 6f75 6c64 2062 6520 7370 6563  s should be spec
+-00001950: 6966 6965 6420 7265 6c61 7469 7665 2074  ified relative t
+-00001960: 6f20 7468 6520 736f 7572 6365 2064 6972  o the source dir
+-00001970: 6563 746f 7279 220d 0a0d 0a0d 0a2e 2e20  ectory"........ 
+-00001980: 7c72 6561 646d 655f 7372 635f 6669 6c65  |readme_src_file
+-00001990: 737c 2072 6570 6c61 6365 3a3a 2060 6072  s| replace:: ``r
+-000019a0: 6561 646d 655f 7372 635f 6669 6c65 7360  eadme_src_files`
+-000019b0: 600d 0a2e 2e20 5f72 6561 646d 655f 7372  `.... _readme_sr
+-000019c0: 635f 6669 6c65 733a 2068 7474 7073 3a2f  c_files: https:/
+-000019d0: 2f73 7068 696e 782d 7265 6164 6d65 2e72  /sphinx-readme.r
+-000019e0: 6561 6474 6865 646f 6373 2e69 6f2f 656e  eadthedocs.io/en
+-000019f0: 2f6c 6174 6573 742f 636f 6e66 6967 7572  /latest/configur
+-00001a00: 6174 696f 6e2f 636f 6e66 6967 7572 696e  ation/configurin
+-00001a10: 672e 6874 6d6c 2363 6f6e 6676 616c 2d72  g.html#confval-r
+-00001a20: 6561 646d 655f 7372 635f 6669 6c65 730d  eadme_src_files.
+-00001a30: 0a0d 0a2e 2e2e 0d0a 0d0a 7c72 6561 646d  ..........|readm
+-00001a40: 655f 646f 6373 5f75 726c 5f74 7970 657c  e_docs_url_type|
+-00001a50: 5f0d 0a20 5468 6520 646f 6375 6d65 6e74  _.. The document
+-00001a60: 6174 696f 6e20 736f 7572 6365 2074 6f20  ation source to 
+-00001a70: 6c69 6e6b 2074 6f20 7768 656e 2072 6573  link to when res
+-00001a80: 6f6c 7669 6e67 207c 2e60 7e2e 7370 6869  olving |.`~.sphi
+-00001a90: 6e78 2e65 7874 2e61 7574 6f64 6f63 607c  nx.ext.autodoc`|
+-00001aa0: 5f20 6372 6f73 732d 7265 6665 7265 6e63  _ cross-referenc
+-00001ab0: 6573 0d0a 0d0a 2020 5479 7065 3a20 6060  es....  Type: ``
+-00001ac0: 7374 7260 600d 0a0d 0a20 4d75 7374 2062  str``.... Must b
+-00001ad0: 6520 6569 7468 6572 2060 6022 636f 6465  e either ``"code
+-00001ae0: 2260 6020 6f72 2060 6022 6874 6d6c 2260  "`` or ``"html"`
+-00001af0: 600d 0a0d 0a20 2a20 6060 2263 6f64 6522  `.... * ``"code"
+-00001b00: 6060 3a20 7573 6573 207c 2e60 7370 6869  ``: uses |.`sphi
+-00001b10: 6e78 2e65 7874 2e6c 696e 6b63 6f64 6560  nx.ext.linkcode`
+-00001b20: 7c5f 2074 6f20 7265 706c 6163 6520 7265  |_ to replace re
+-00001b30: 6665 7265 6e63 6573 2077 6974 6820 6c69  ferences with li
+-00001b40: 6e6b 7320 746f 2068 6967 686c 6967 6874  nks to highlight
+-00001b50: 6564 2073 6f75 7263 6520 636f 6465 0d0a  ed source code..
+-00001b60: 0d0a 2020 202a 2a45 7861 6d70 6c65 2a2a  ..   **Example**
+-00001b70: 3a20 7c2e 607e 2e70 6172 7365 5f69 6e74  : |.`~.parse_int
+-00001b80: 6572 7370 6869 6e78 5f6e 6f64 6560 7c5f  ersphinx_node`|_
+-00001b90: 0d0a 0d0a 0d0a 202a 2060 6022 6874 6d6c  ...... * ``"html
+-00001ba0: 2260 603a 2072 6570 6c61 6365 7320 7265  "``: replaces re
+-00001bb0: 6665 7265 6e63 6573 2077 6974 6820 6c69  ferences with li
+-00001bc0: 6e6b 7320 746f 2048 544d 4c20 646f 6375  nks to HTML docu
+-00001bd0: 6d65 6e74 6174 696f 6e20 656e 7472 6965  mentation entrie
+-00001be0: 730d 0a0d 0a20 2020 2a2a 4578 616d 706c  s....   **Exampl
+-00001bf0: 652a 2a3a 207c 7061 7273 655f 696e 7465  e**: |parse_inte
+-00001c00: 7273 7068 696e 785f 6e6f 6465 5f68 746d  rsphinx_node_htm
+-00001c10: 6c7c 5f0d 0a0d 0a0d 0a2e 2e20 6373 762d  l|_........ csv-
+-00001c20: 7461 626c 653a 3a0d 0a20 2020 3a68 6561  table::..   :hea
+-00001c30: 6465 723a 207c 6e6f 7465 7c20 4e6f 7465  der: |note| Note
+-00001c40: 0d0a 0d0a 2020 2022 4966 2073 6574 2074  ....   "If set t
+-00001c50: 6f20 6060 636f 6465 6060 2c20 7468 656e  o ``code``, then
+-00001c60: 203a 636f 6465 3a60 3a61 7474 723a 6020   :code:`:attr:` 
+-00001c70: 6372 6f73 732d 7265 6665 7265 6e63 6573  cross-references
+-00001c80: 2077 696c 6c20 6e6f 7420 6265 2072 6570   will not be rep
+-00001c90: 6c61 6365 6420 7769 7468 206c 696e 6b73  laced with links
+-00001ca0: 0d0a 0d0a 2020 202a 2049 6e73 7465 6164  ....   * Instead
+-00001cb0: 2c20 7468 6579 276c 6c20 6265 2072 6570  , they'll be rep
+-00001cc0: 6c61 6365 6420 7769 7468 2060 6069 6e6c  laced with ``inl
+-00001cd0: 696e 6520 6c69 7465 7261 6c73 6060 206f  ine literals`` o
+-00001ce0: 7220 6c65 6674 2061 7320 6973 0d0a 2020  r left as is..  
+-00001cf0: 202a 2050 6c65 6173 6520 7365 6520 7c72   * Please see |r
+-00001d00: 6561 646d 655f 7265 706c 6163 655f 6174  eadme_replace_at
+-00001d10: 7472 737c 5f20 616e 6420 7c72 6561 646d  trs|_ and |readm
+-00001d20: 655f 696e 6c69 6e65 5f6d 6172 6b75 707c  e_inline_markup|
+-00001d30: 5f22 0d0a 0d0a 0d0a 2e2e 207c 7265 6164  _"........ |read
+-00001d40: 6d65 5f64 6f63 735f 7572 6c5f 7479 7065  me_docs_url_type
+-00001d50: 7c20 7265 706c 6163 653a 3a20 6060 7265  | replace:: ``re
+-00001d60: 6164 6d65 5f64 6f63 735f 7572 6c5f 7479  adme_docs_url_ty
+-00001d70: 7065 6060 0d0a 2e2e 205f 7265 6164 6d65  pe``.... _readme
+-00001d80: 5f64 6f63 735f 7572 6c5f 7479 7065 3a20  _docs_url_type: 
+-00001d90: 6874 7470 733a 2f2f 7370 6869 6e78 2d72  https://sphinx-r
+-00001da0: 6561 646d 652e 7265 6164 7468 6564 6f63  eadme.readthedoc
+-00001db0: 732e 696f 2f65 6e2f 6c61 7465 7374 2f63  s.io/en/latest/c
+-00001dc0: 6f6e 6669 6775 7261 7469 6f6e 2f63 6f6e  onfiguration/con
+-00001dd0: 6669 6775 7269 6e67 2e68 746d 6c23 636f  figuring.html#co
+-00001de0: 6e66 7661 6c2d 7265 6164 6d65 5f64 6f63  nfval-readme_doc
+-00001df0: 735f 7572 6c5f 7479 7065 0d0a 2e2e 207c  s_url_type.... |
+-00001e00: 7061 7273 655f 696e 7465 7273 7068 696e  parse_intersphin
+-00001e10: 785f 6e6f 6465 5f68 746d 6c7c 2072 6570  x_node_html| rep
+-00001e20: 6c61 6365 3a3a 2060 6070 6172 7365 5f69  lace:: ``parse_i
+-00001e30: 6e74 6572 7370 6869 6e78 5f6e 6f64 6528  ntersphinx_node(
+-00001e40: 2960 600d 0a2e 2e20 5f70 6172 7365 5f69  )``.... _parse_i
+-00001e50: 6e74 6572 7370 6869 6e78 5f6e 6f64 655f  ntersphinx_node_
+-00001e60: 6874 6d6c 3a20 6874 7470 3a2f 2f73 7068  html: http://sph
+-00001e70: 696e 782d 7265 6164 6d65 2e72 6561 6474  inx-readme.readt
+-00001e80: 6865 646f 6373 2e69 6f2f 656e 2f6c 6174  hedocs.io/en/lat
+-00001e90: 6573 742f 7061 7273 6572 2e68 746d 6c23  est/parser.html#
+-00001ea0: 7370 6869 6e78 5f72 6561 646d 652e 7061  sphinx_readme.pa
+-00001eb0: 7273 6572 2e52 4541 444d 4550 6172 7365  rser.READMEParse
+-00001ec0: 722e 7061 7273 655f 696e 7465 7273 7068  r.parse_intersph
+-00001ed0: 696e 785f 6e6f 6465 0d0a 2e2e 207c 7265  inx_node.... |re
+-00001ee0: 6164 6d65 5f72 6570 6c61 6365 5f61 7474  adme_replace_att
+-00001ef0: 7273 7c20 7265 706c 6163 653a 3a20 6060  rs| replace:: ``
+-00001f00: 7265 6164 6d65 5f72 6570 6c61 6365 5f61  readme_replace_a
+-00001f10: 7474 7273 6060 0d0a 2e2e 205f 7265 6164  ttrs``.... _read
+-00001f20: 6d65 5f72 6570 6c61 6365 5f61 7474 7273  me_replace_attrs
+-00001f30: 3a20 6874 7470 733a 2f2f 7370 6869 6e78  : https://sphinx
+-00001f40: 2d72 6561 646d 652e 7265 6164 7468 6564  -readme.readthed
+-00001f50: 6f63 732e 696f 2f65 6e2f 6c61 7465 7374  ocs.io/en/latest
+-00001f60: 2f63 6f6e 6669 6775 7261 7469 6f6e 2f63  /configuration/c
+-00001f70: 6f6e 6669 6775 7269 6e67 2e68 746d 6c23  onfiguring.html#
+-00001f80: 636f 6e66 7661 6c2d 7265 6164 6d65 5f72  confval-readme_r
+-00001f90: 6570 6c61 6365 5f61 7474 7273 0d0a 2e2e  eplace_attrs....
+-00001fa0: 207c 7265 6164 6d65 5f69 6e6c 696e 655f   |readme_inline_
+-00001fb0: 6d61 726b 7570 7c20 7265 706c 6163 653a  markup| replace:
+-00001fc0: 3a20 6060 7265 6164 6d65 5f69 6e6c 696e  : ``readme_inlin
+-00001fd0: 655f 6d61 726b 7570 6060 0d0a 2e2e 205f  e_markup``.... _
+-00001fe0: 7265 6164 6d65 5f69 6e6c 696e 655f 6d61  readme_inline_ma
+-00001ff0: 726b 7570 3a20 6874 7470 733a 2f2f 7370  rkup: https://sp
+-00002000: 6869 6e78 2d72 6561 646d 652e 7265 6164  hinx-readme.read
+-00002010: 7468 6564 6f63 732e 696f 2f65 6e2f 6c61  thedocs.io/en/la
+-00002020: 7465 7374 2f63 6f6e 6669 6775 7261 7469  test/configurati
+-00002030: 6f6e 2f63 6f6e 6669 6775 7269 6e67 2e68  on/configuring.h
+-00002040: 746d 6c23 636f 6e66 7661 6c2d 7265 6164  tml#confval-read
+-00002050: 6d65 5f69 6e6c 696e 655f 6d61 726b 7570  me_inline_markup
+-00002060: 0d0a 0d0a 0d0a 5361 6d70 6c65 2060 6063  ......Sample ``c
+-00002070: 6f6e 662e 7079 6060 0d0a 7e7e 7e7e 7e7e  onf.py``..~~~~~~
+-00002080: 7e7e 7e7e 7e7e 7e7e 7e7e 7e7e 7e0d 0a0d  ~~~~~~~~~~~~~...
+-00002090: 0a2e 2e20 636f 6465 2d62 6c6f 636b 3a3a  ... code-block::
+-000020a0: 2070 7974 686f 6e0d 0a0d 0a20 2020 6578   python....   ex
+-000020b0: 7465 6e73 696f 6e73 203d 205b 0d0a 2020  tensions = [..  
+-000020c0: 2020 2020 2273 7068 696e 785f 7265 6164      "sphinx_read
+-000020d0: 6d65 222c 0d0a 2020 205d 0d0a 0d0a 2020  me",..   ]....  
+-000020e0: 2068 746d 6c5f 636f 6e74 6578 7420 3d20   html_context = 
+-000020f0: 7b0d 0a20 2020 2020 2027 6469 7370 6c61  {..      'displa
+-00002100: 795f 6769 7468 7562 273a 2054 7275 652c  y_github': True,
+-00002110: 0d0a 2020 2020 2020 2767 6974 6875 625f  ..      'github_
+-00002120: 7573 6572 273a 2027 5444 4b6f 726e 272c  user': 'TDKorn',
+-00002130: 0d0a 2020 2020 2020 2767 6974 6875 625f  ..      'github_
+-00002140: 7265 706f 273a 2027 7370 6869 6e78 2d72  repo': 'sphinx-r
+-00002150: 6561 646d 6527 2c0d 0a20 2020 7d0d 0a0d  eadme',..   }...
+-00002160: 0a20 2020 6874 6d6c 5f62 6173 6575 726c  .   html_baseurl
+-00002170: 203d 2022 6874 7470 733a 2f2f 7370 6869   = "https://sphi
+-00002180: 6e78 2d72 6561 646d 652e 7265 6164 7468  nx-readme.readth
+-00002190: 6564 6f63 732e 696f 2f65 6e2f 6c61 7465  edocs.io/en/late
+-000021a0: 7374 220d 0a0d 0a20 2020 7265 6164 6d65  st"....   readme
+-000021b0: 5f73 7263 5f66 696c 6573 203d 2022 5245  _src_files = "RE
+-000021c0: 4144 4d45 2e72 7374 220d 0a0d 0a20 2020  ADME.rst"....   
+-000021d0: 7265 6164 6d65 5f64 6f63 735f 7572 6c5f  readme_docs_url_
+-000021e0: 7479 7065 203d 2022 636f 6465 220d 0a0d  type = "code"...
+-000021f0: 0a0d 0a2e 2e20 7c72 6561 646d 655f 7261  ..... |readme_ra
+-00002200: 775f 6469 7265 6374 6976 657c 2072 6570  w_directive| rep
+-00002210: 6c61 6365 3a3a 2060 6072 6561 646d 655f  lace:: ``readme_
+-00002220: 7261 775f 6469 7265 6374 6976 6560 600d  raw_directive``.
+-00002230: 0a2e 2e20 5f72 6561 646d 655f 7261 775f  ... _readme_raw_
+-00002240: 6469 7265 6374 6976 653a 2068 7474 7073  directive: https
+-00002250: 3a2f 2f73 7068 696e 782d 7265 6164 6d65  ://sphinx-readme
+-00002260: 2e72 6561 6474 6865 646f 6373 2e69 6f2f  .readthedocs.io/
+-00002270: 656e 2f6c 6174 6573 742f 636f 6e66 6967  en/latest/config
+-00002280: 7572 6174 696f 6e2f 636f 6e66 6967 7572  uration/configur
+-00002290: 696e 672e 6874 6d6c 2363 6f6e 6676 616c  ing.html#confval
+-000022a0: 2d72 6561 646d 655f 7261 775f 6469 7265  -readme_raw_dire
+-000022b0: 6374 6976 650d 0a0d 0a0d 0a0d 0a2e 2e20  ctive.......... 
+-000022c0: 6373 762d 7461 626c 653a 3a0d 0a20 2020  csv-table::..   
+-000022d0: 3a68 6561 6465 723a 207c 696d 706f 7274  :header: |import
+-000022e0: 616e 747c 2049 6d70 6f72 7461 6e74 0d0a  ant| Important..
+-000022f0: 0d0a 2020 2022 4966 2067 656e 6572 6174  ..   "If generat
+-00002300: 696e 6720 6120 6060 5245 4144 4d45 6060  ing a ``README``
+-00002310: 2066 6f72 2061 2070 6c61 7466 6f72 6d20   for a platform 
+-00002320: 7468 6174 2064 6f65 736e 2774 2073 7570  that doesn't sup
+-00002330: 706f 7274 2060 6072 6177 6060 0d0a 2020  port ``raw``..  
+-00002340: 2064 6972 6563 7469 7665 7320 2850 7950   directives (PyP
+-00002350: 692c 2047 6974 4c61 622c 2061 6e64 2042  i, GitLab, and B
+-00002360: 6974 4275 636b 6574 292c 2062 6520 7375  itBucket), be su
+-00002370: 7265 2074 6f20 6469 7361 626c 6520 7c72  re to disable |r
+-00002380: 6561 646d 655f 7261 775f 6469 7265 6374  eadme_raw_direct
+-00002390: 6976 657c 5f3a 0d0a 0d0a 2020 202e 2e20  ive|_:....   .. 
+-000023a0: 636f 6465 2d62 6c6f 636b 3a3a 2070 7974  code-block:: pyt
+-000023b0: 686f 6e0d 0a0d 0a20 2020 2020 2072 6561  hon....      rea
+-000023c0: 646d 655f 7261 775f 6469 7265 6374 6976  dme_raw_directiv
+-000023d0: 6520 3d20 4661 6c73 6522 0d0a 0d0a 0d0a  e = False"......
+-000023e0: 0d0a 0d0a 0d0a 446f 6375 6d65 6e74 6174  ......Documentat
+-000023f0: 696f 6e0d 0a7e 7e7e 7e7e 7e7e 7e7e 7e7e  ion..~~~~~~~~~~~
+-00002400: 7e7e 7e7e 7e0d 0a0d 0a46 756c 6c20 646f  ~~~~~....Full do
+-00002410: 6375 6d65 6e74 6174 696f 6e20 6361 6e20  cumentation can 
+-00002420: 6265 2066 6f75 6e64 206f 6e20 7c64 6f63  be found on |doc
+-00002430: 737c 5f0d 0a0d 0a0d 0a2e 2e20 7c64 6f63  s|_........ |doc
+-00002440: 737c 2072 6570 6c61 6365 3a3a 2060 6052  s| replace:: ``R
+-00002450: 6561 6454 6865 446f 6373 6060 0d0a 2e2e  eadTheDocs``....
+-00002460: 205f 646f 6373 3a20 6874 7470 733a 2f2f   _docs: https://
+-00002470: 7370 6869 6e78 2d72 6561 646d 652e 7265  sphinx-readme.re
+-00002480: 6164 7468 6564 6f63 732e 696f 2f65 6e2f  adthedocs.io/en/
+-00002490: 6c61 7465 7374 0d0a 0d0a 0d0a            latest......
++00000000: 2e2e 207c 2e60 7370 6869 6e78 2e65 7874  .. |.`sphinx.ext
++00000010: 2e6c 696e 6b63 6f64 6560 7c20 7265 706c  .linkcode`| repl
++00000020: 6163 653a 3a20 6060 7370 6869 6e78 2e65  ace:: ``sphinx.e
++00000030: 7874 2e6c 696e 6b63 6f64 6560 600d 0a2e  xt.linkcode``...
++00000040: 2e20 5f2e 6073 7068 696e 782e 6578 742e  . _.`sphinx.ext.
++00000050: 6c69 6e6b 636f 6465 603a 2068 7474 7073  linkcode`: https
++00000060: 3a2f 2f77 7777 2e73 7068 696e 782d 646f  ://www.sphinx-do
++00000070: 632e 6f72 672f 656e 2f6d 6173 7465 722f  c.org/en/master/
++00000080: 7573 6167 652f 6578 7465 6e73 696f 6e73  usage/extensions
++00000090: 2f6c 696e 6b63 6f64 652e 6874 6d6c 236d  /linkcode.html#m
++000000a0: 6f64 756c 652d 7370 6869 6e78 2e65 7874  odule-sphinx.ext
++000000b0: 2e6c 696e 6b63 6f64 650d 0a2e 2e20 7c2e  .linkcode.... |.
++000000c0: 607e 2e70 6172 7365 5f69 6e74 6572 7370  `~.parse_intersp
++000000d0: 6869 6e78 5f6e 6f64 6560 7c20 7265 706c  hinx_node`| repl
++000000e0: 6163 653a 3a20 6060 7061 7273 655f 696e  ace:: ``parse_in
++000000f0: 7465 7273 7068 696e 785f 6e6f 6465 2829  tersphinx_node()
++00000100: 6060 0d0a 2e2e 205f 2e60 7e2e 7061 7273  ``.... _.`~.pars
++00000110: 655f 696e 7465 7273 7068 696e 785f 6e6f  e_intersphinx_no
++00000120: 6465 603a 2068 7474 7073 3a2f 2f67 6974  de`: https://git
++00000130: 6875 622e 636f 6d2f 5444 4b6f 726e 2f73  hub.com/TDKorn/s
++00000140: 7068 696e 782d 7265 6164 6d65 2f62 6c6f  phinx-readme/blo
++00000150: 622f 7630 2e30 2e31 6237 2f73 7068 696e  b/v0.0.1b7/sphin
++00000160: 785f 7265 6164 6d65 2f70 6172 7365 722e  x_readme/parser.
++00000170: 7079 234c 3134 352d 4c31 3539 0d0a 2e2e  py#L145-L159....
++00000180: 207c 2e60 7370 6869 6e78 2e65 7874 2e61   |.`sphinx.ext.a
++00000190: 7574 6f64 6f63 607c 2072 6570 6c61 6365  utodoc`| replace
++000001a0: 3a3a 2060 6073 7068 696e 782e 6578 742e  :: ``sphinx.ext.
++000001b0: 6175 746f 646f 6360 600d 0a2e 2e20 5f2e  autodoc``.... _.
++000001c0: 6073 7068 696e 782e 6578 742e 6175 746f  `sphinx.ext.auto
++000001d0: 646f 6360 3a20 6874 7470 733a 2f2f 7777  doc`: https://ww
++000001e0: 772e 7370 6869 6e78 2d64 6f63 2e6f 7267  w.sphinx-doc.org
++000001f0: 2f65 6e2f 6d61 7374 6572 2f75 7361 6765  /en/master/usage
++00000200: 2f65 7874 656e 7369 6f6e 732f 6175 746f  /extensions/auto
++00000210: 646f 632e 6874 6d6c 236d 6f64 756c 652d  doc.html#module-
++00000220: 7370 6869 6e78 2e65 7874 2e61 7574 6f64  sphinx.ext.autod
++00000230: 6f63 0d0a 2e2e 207c 2e60 7e2e 7370 6869  oc.... |.`~.sphi
++00000240: 6e78 2e65 7874 2e61 7574 6f64 6f63 607c  nx.ext.autodoc`|
++00000250: 2072 6570 6c61 6365 3a3a 2060 6061 7574   replace:: ``aut
++00000260: 6f64 6f63 6060 0d0a 2e2e 205f 2e60 7e2e  odoc``.... _.`~.
++00000270: 7370 6869 6e78 2e65 7874 2e61 7574 6f64  sphinx.ext.autod
++00000280: 6f63 603a 2068 7474 7073 3a2f 2f77 7777  oc`: https://www
++00000290: 2e73 7068 696e 782d 646f 632e 6f72 672f  .sphinx-doc.org/
++000002a0: 656e 2f6d 6173 7465 722f 7573 6167 652f  en/master/usage/
++000002b0: 6578 7465 6e73 696f 6e73 2f61 7574 6f64  extensions/autod
++000002c0: 6f63 2e68 746d 6c23 6d6f 6475 6c65 2d73  oc.html#module-s
++000002d0: 7068 696e 782e 6578 742e 6175 746f 646f  phinx.ext.autodo
++000002e0: 630d 0a0d 0a2e 2e20 6d65 7461 3a3a 0d0a  c...... meta::..
++000002f0: 2020 203a 6175 7468 6f72 3a20 4164 616d     :author: Adam
++00000300: 204b 6f72 6e0d 0a20 2020 3a74 6974 6c65   Korn..   :title
++00000310: 3a20 5370 6869 6e78 2052 4541 444d 450d  : Sphinx README.
++00000320: 0a20 2020 3a64 6573 6372 6970 7469 6f6e  .   :description
++00000330: 3a20 5370 6869 6e78 2045 7874 656e 7369  : Sphinx Extensi
++00000340: 6f6e 2074 6f20 4765 6e65 7261 7465 2042  on to Generate B
++00000350: 6561 7574 6966 756c 2072 6553 7472 7563  eautiful reStruc
++00000360: 7475 7265 6454 6578 7420 5245 4144 4d45  turedText README
++00000370: 2e72 7374 2066 6f72 2047 6974 4875 622c  .rst for GitHub,
++00000380: 2050 7950 692c 2047 6974 4c61 622c 2042   PyPi, GitLab, B
++00000390: 6974 4275 636b 6574 0d0a 0d0a 0d0a 2e2e  itBucket........
++000003a0: 2072 6177 3a3a 2068 746d 6c0d 0a0d 0a20   raw:: html.... 
++000003b0: 2020 3c64 6976 2061 6c69 676e 3d22 6365    <div align="ce
++000003c0: 6e74 6572 223e 0d0a 0d0a 2e2e 2069 6d61  nter">...... ima
++000003d0: 6765 3a3a 2068 7474 7073 3a2f 2f72 6177  ge:: https://raw
++000003e0: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
++000003f0: 6e74 2e63 6f6d 2f54 444b 6f72 6e2f 7370  nt.com/TDKorn/sp
++00000400: 6869 6e78 2d72 6561 646d 652f 7630 2e30  hinx-readme/v0.0
++00000410: 2e31 6236 2f64 6f63 732f 736f 7572 6365  .1b6/docs/source
++00000420: 2f5f 7374 6174 6963 2f6c 6f67 6f5f 7265  /_static/logo_re
++00000430: 6164 6d65 2e70 6e67 0d0a 2020 203a 616c  adme.png..   :al
++00000440: 743a 2053 7068 696e 7820 5245 4144 4d45  t: Sphinx README
++00000450: 3a20 4765 6e65 7261 7465 2042 6561 7574  : Generate Beaut
++00000460: 6966 756c 2072 6553 7472 7563 7475 7265  iful reStructure
++00000470: 6454 6578 7420 5245 4144 4d45 2e72 7374  dText README.rst
++00000480: 2066 6f72 2047 6974 4875 622c 2050 7950   for GitHub, PyP
++00000490: 692c 2047 6974 4c61 622c 2042 6974 4275  i, GitLab, BitBu
++000004a0: 636b 6574 0d0a 2020 203a 616c 6967 6e3a  cket..   :align:
++000004b0: 2063 656e 7465 720d 0a20 2020 3a77 6964   center..   :wid
++000004c0: 7468 3a20 3235 250d 0a0d 0a0d 0a0d 0a2e  th: 25%.........
++000004d0: 2e20 7261 773a 3a20 6874 6d6c 0d0a 0d0a  . raw:: html....
++000004e0: 2020 203c 6831 3e53 7068 696e 7820 5245     <h1>Sphinx RE
++000004f0: 4144 4d45 3c2f 6831 3e0d 0a0d 0a0d 0a0d  ADME</h1>.......
++00000500: 0a0d 0a0d 0a41 2053 7068 696e 7820 6578  .....A Sphinx ex
++00000510: 7465 6e73 696f 6e20 746f 2067 656e 6572  tension to gener
++00000520: 6174 6520 6060 5245 4144 4d45 2e72 7374  ate ``README.rst
++00000530: 6060 2066 696c 6573 2074 6861 7420 7265  `` files that re
++00000540: 6e64 6572 2062 6561 7574 6966 756c 6c79  nder beautifully
++00000550: 206f 6e20 4769 7448 7562 2c20 5079 5069   on GitHub, PyPi
++00000560: 2c20 4769 744c 6162 2c20 4269 7442 7563  , GitLab, BitBuc
++00000570: 6b65 740d 0a0d 0a2e 2e20 7c52 5444 7c20  ket...... |RTD| 
++00000580: 7265 706c 6163 653a 3a20 2a2a 4578 706c  replace:: **Expl
++00000590: 6f72 6520 7468 6520 646f 6373 20c2 bb2a  ore the docs ..*
++000005a0: 2a0d 0a2e 2e20 5f52 5444 3a20 6874 7470  *.... _RTD: http
++000005b0: 733a 2f2f 7370 6869 6e78 2d72 6561 646d  s://sphinx-readm
++000005c0: 652e 7265 6164 7468 6564 6f63 732e 696f  e.readthedocs.io
++000005d0: 2f65 6e2f 6c61 7465 7374 2f0d 0a0d 0a7c  /en/latest/....|
++000005e0: 5254 447c 5f0d 0a0d 0a0d 0a2e 2e20 696d  RTD|_........ im
++000005f0: 6167 653a 3a20 6874 7470 733a 2f2f 696d  age:: https://im
++00000600: 672e 7368 6965 6c64 732e 696f 2f70 7970  g.shields.io/pyp
++00000610: 692f 762f 7370 6869 6e78 2d72 6561 646d  i/v/sphinx-readm
++00000620: 653f 636f 6c6f 723d 6562 3532 3032 0d0a  e?color=eb5202..
++00000630: 2020 203a 7461 7267 6574 3a20 6874 7470     :target: http
++00000640: 733a 2f2f 7079 7069 2e6f 7267 2f70 726f  s://pypi.org/pro
++00000650: 6a65 6374 2f73 7068 696e 782d 7265 6164  ject/sphinx-read
++00000660: 6d65 0d0a 2020 203a 616c 743a 2050 7950  me..   :alt: PyP
++00000670: 4920 5072 6f6a 6563 7420 666f 7220 5370  I Project for Sp
++00000680: 6869 6e78 2052 4541 444d 453a 2047 656e  hinx README: Gen
++00000690: 6572 6174 6520 4265 6175 7469 6675 6c20  erate Beautiful 
++000006a0: 7265 5374 7275 6374 7572 6564 5465 7874  reStructuredText
++000006b0: 2052 4541 444d 452e 7273 7420 666f 7220   README.rst for 
++000006c0: 4769 7448 7562 2c20 5079 5069 2c20 4769  GitHub, PyPi, Gi
++000006d0: 744c 6162 2c20 4269 7442 7563 6b65 740d  tLab, BitBucket.
++000006e0: 0a0d 0a2e 2e20 696d 6167 653a 3a20 6874  ..... image:: ht
++000006f0: 7470 733a 2f2f 696d 672e 7368 6965 6c64  tps://img.shield
++00000700: 732e 696f 2f62 6164 6765 2f47 6974 4875  s.io/badge/GitHu
++00000710: 622d 7370 6869 6e78 2d2d 7265 6164 6d65  b-sphinx--readme
++00000720: 2d34 6631 6162 630d 0a20 2020 3a74 6172  -4f1abc..   :tar
++00000730: 6765 743a 2068 7474 7073 3a2f 2f67 6974  get: https://git
++00000740: 6875 622e 636f 6d2f 7464 6b6f 726e 2f73  hub.com/tdkorn/s
++00000750: 7068 696e 782d 7265 6164 6d65 0d0a 2020  phinx-readme..  
++00000760: 203a 616c 743a 2047 6974 4875 6220 5265   :alt: GitHub Re
++00000770: 706f 7369 746f 7279 2066 6f72 2053 7068  pository for Sph
++00000780: 696e 7820 5245 4144 4d45 3a20 4765 6e65  inx README: Gene
++00000790: 7261 7465 2042 6561 7574 6966 756c 2072  rate Beautiful r
++000007a0: 6553 7472 7563 7475 7265 6454 6578 7420  eStructuredText 
++000007b0: 5245 4144 4d45 2e72 7374 2066 6f72 2047  README.rst for G
++000007c0: 6974 4875 622c 2050 7950 692c 2047 6974  itHub, PyPi, Git
++000007d0: 4c61 622c 2042 6974 4275 636b 6574 0d0a  Lab, BitBucket..
++000007e0: 0d0a 2e2e 2069 6d61 6765 3a3a 2068 7474  .... image:: htt
++000007f0: 7073 3a2f 2f73 7461 7469 632e 7065 7079  ps://static.pepy
++00000800: 2e74 6563 682f 7065 7273 6f6e 616c 697a  .tech/personaliz
++00000810: 6564 2d62 6164 6765 2f73 7068 696e 782d  ed-badge/sphinx-
++00000820: 7265 6164 6d65 3f70 6572 696f 643d 746f  readme?period=to
++00000830: 7461 6c26 756e 6974 733d 6e6f 6e65 266c  tal&units=none&l
++00000840: 6566 745f 636f 6c6f 723d 6772 6579 2672  eft_color=grey&r
++00000850: 6967 6874 5f63 6f6c 6f72 3d62 6c75 6526  ight_color=blue&
++00000860: 6c65 6674 5f74 6578 743d 446f 776e 6c6f  left_text=Downlo
++00000870: 6164 730d 0a20 2020 3a74 6172 6765 743a  ads..   :target:
++00000880: 2068 7474 7073 3a2f 2f70 6570 792e 7465   https://pepy.te
++00000890: 6368 2f70 726f 6a65 6374 2f73 7068 696e  ch/project/sphin
++000008a0: 782d 7265 6164 6d65 0d0a 2020 203a 616c  x-readme..   :al
++000008b0: 743a 2044 6f77 6e6c 6f61 6473 2066 6f72  t: Downloads for
++000008c0: 2053 7068 696e 7820 5245 4144 4d45 0d0a   Sphinx README..
++000008d0: 0d0a 2e2e 2069 6d61 6765 3a3a 2068 7474  .... image:: htt
++000008e0: 7073 3a2f 2f72 6561 6474 6865 646f 6373  ps://readthedocs
++000008f0: 2e6f 7267 2f70 726f 6a65 6374 732f 7370  .org/projects/sp
++00000900: 6869 6e78 2d72 6561 646d 652f 6261 6467  hinx-readme/badg
++00000910: 652f 3f76 6572 7369 6f6e 3d6c 6174 6573  e/?version=lates
++00000920: 740d 0a20 2020 3a74 6172 6765 743a 2068  t..   :target: h
++00000930: 7474 7073 3a2f 2f73 7068 696e 782d 7265  ttps://sphinx-re
++00000940: 6164 6d65 2e72 6561 6474 6865 646f 6373  adme.readthedocs
++00000950: 2e69 6f2f 656e 2f6c 6174 6573 742f 3f62  .io/en/latest/?b
++00000960: 6164 6765 3d6c 6174 6573 740d 0a20 2020  adge=latest..   
++00000970: 3a61 6c74 3a20 446f 6375 6d65 6e74 6174  :alt: Documentat
++00000980: 696f 6e20 666f 7220 5370 6869 6e78 2052  ion for Sphinx R
++00000990: 4541 444d 453a 2047 656e 6572 6174 6520  EADME: Generate 
++000009a0: 4265 6175 7469 6675 6c20 7265 5374 7275  Beautiful reStru
++000009b0: 6374 7572 6564 5465 7874 2052 4541 444d  cturedText READM
++000009c0: 452e 7273 7420 666f 7220 4769 7448 7562  E.rst for GitHub
++000009d0: 2c20 5079 5069 2c20 4769 744c 6162 2c20  , PyPi, GitLab, 
++000009e0: 4269 7442 7563 6b65 740d 0a0d 0a0d 0a2e  BitBucket.......
++000009f0: 2e20 7261 773a 3a20 6874 6d6c 0d0a 0d0a  . raw:: html....
++00000a00: 2020 203c 2f64 6976 3e0d 0a0d 0a7c 0d0a     </div>....|..
++00000a10: 0d0a 4162 6f75 7420 5370 6869 6e78 2052  ..About Sphinx R
++00000a20: 4541 444d 450d 0a7e 7e7e 7e7e 7e7e 7e7e  EADME..~~~~~~~~~
++00000a30: 7e7e 7e7e 7e7e 7e7e 7e7e 7e7e 7e7e 0d0a  ~~~~~~~~~~~~~~..
++00000a40: 0d0a 0d0a 2e2e 2072 6177 3a3a 2068 746d  ...... raw:: htm
++00000a50: 6c0d 0a0d 0a20 2020 3c74 6162 6c65 3e0d  l....   <table>.
++00000a60: 0a20 2020 2020 2020 3c74 7220 616c 6967  .       <tr alig
++00000a70: 6e3d 226c 6566 7422 3e0d 0a20 2020 2020  n="left">..     
++00000a80: 2020 2020 2020 3c74 683e 0d0a 0d0a f09f        <th>......
++00000a90: 939a 2057 6861 7427 7320 5370 6869 6e78  .. What's Sphinx
++00000aa0: 2052 4541 444d 453f 0d0a 0d0a 2e2e 2072   README?...... r
++00000ab0: 6177 3a3a 2068 746d 6c0d 0a0d 0a20 2020  aw:: html....   
++00000ac0: 3c2f 7468 3e0d 0a20 2020 3c74 723e 3c74  </th>..   <tr><t
++00000ad0: 643e 0d0a 0d0a 6060 7370 6869 6e78 5f72  d>....``sphinx_r
++00000ae0: 6561 646d 6560 6020 6973 2061 2060 6072  eadme`` is a ``r
++00000af0: 6553 7472 7563 7475 7265 6454 6578 7460  eStructuredText`
++00000b00: 6020 7061 7273 6572 2074 6861 7420 7573  ` parser that us
++00000b10: 6573 2053 7068 696e 780d 0a74 6f20 6765  es Sphinx..to ge
++00000b20: 6e65 7261 7465 2060 6072 7374 6060 2066  nerate ``rst`` f
++00000b30: 696c 6573 2074 6861 7420 7265 6e64 6572  iles that render
++00000b40: 2062 6561 7574 6966 756c 6c79 206f 6e0d   beautifully on.
++00000b50: 0a47 6974 4875 622c 2050 7950 692c 2047  .GitHub, PyPi, G
++00000b60: 6974 4c61 622c 2061 6e64 2042 6974 4275  itLab, and BitBu
++00000b70: 636b 6574 2e0d 0a0d 0a2e 2e20 7261 773a  cket....... raw:
++00000b80: 3a20 6874 6d6c 0d0a 0d0a 2020 203c 2f74  : html....   </t
++00000b90: 643e 3c2f 7472 3e0d 0a20 2020 3c2f 7461  d></tr>..   </ta
++00000ba0: 626c 653e 0d0a 0d0a 0d0a 0d0a 2a2a 5769  ble>........**Wi
++00000bb0: 7468 2a2a 2060 6073 7068 696e 785f 7265  th** ``sphinx_re
++00000bc0: 6164 6d65 6060 202a 2a2c 2074 6865 7265  adme`` **, there
++00000bd0: 2773 206e 6f20 6e65 6564 2074 6f20 7265  's no need to re
++00000be0: 7772 6974 6520 796f 7572 2a2a 2060 6052  write your** ``R
++00000bf0: 4541 444d 452e 7273 7460 6020 2a2a 6173  EADME.rst`` **as
++00000c00: 2061 2a2a 2060 6052 4541 444d 452e 6d64   a** ``README.md
++00000c10: 6060 202a 2a66 696c 652a 2a0d 0a0d 0a46  `` **file**....F
++00000c20: 696c 6573 2067 656e 6572 6174 6564 2062  iles generated b
++00000c30: 7920 6060 7370 6869 6e78 5f72 6561 646d  y ``sphinx_readm
++00000c40: 6560 6020 6861 7665 206e 6561 726c 7920  e`` have nearly 
++00000c50: 6964 656e 7469 6361 6c20 6170 7065 6172  identical appear
++00000c60: 616e 6365 2061 6e64 2066 756e 6374 696f  ance and functio
++00000c70: 6e61 6c69 7479 0d0a 6173 2060 6068 746d  nality..as ``htm
++00000c80: 6c60 6020 6275 696c 6473 2c20 696e 636c  l`` builds, incl
++00000c90: 7564 696e 6720 7c2e 6073 7068 696e 782e  uding |.`sphinx.
++00000ca0: 6578 742e 6175 746f 646f 6360 7c5f 2063  ext.autodoc`|_ c
++00000cb0: 726f 7373 2d72 6566 6572 656e 6365 7321  ross-references!
++00000cc0: 0d0a 0d0a 0d0a 2e2e 2069 6d61 6765 3a3a  ........ image::
++00000cd0: 2068 7474 7073 3a2f 2f72 6177 2e67 6974   https://raw.git
++00000ce0: 6875 6275 7365 7263 6f6e 7465 6e74 2e63  hubusercontent.c
++00000cf0: 6f6d 2f54 444b 6f72 6e2f 7370 6869 6e78  om/TDKorn/sphinx
++00000d00: 2d72 6561 646d 652f 7630 2e30 2e31 6236  -readme/v0.0.1b6
++00000d10: 2f64 6f63 732f 736f 7572 6365 2f5f 7374  /docs/source/_st
++00000d20: 6174 6963 2f64 656d 6f2f 6465 6d6f 2e67  atic/demo/demo.g
++00000d30: 6966 0d0a 2020 203a 616c 743a 2044 656d  if..   :alt: Dem
++00000d40: 6f6e 7374 7261 7469 6f6e 206f 6620 686f  onstration of ho
++00000d50: 7720 7265 5374 7275 6374 7572 6564 5465  w reStructuredTe
++00000d60: 7874 2052 4541 444d 452e 7273 7420 6669  xt README.rst fi
++00000d70: 6c65 7320 6765 6e65 7261 7465 6420 6279  les generated by
++00000d80: 2053 7068 696e 7820 5245 4144 4d45 2072   Sphinx README r
++00000d90: 656e 6465 7220 6f6e 2047 6974 4875 622c  ender on GitHub,
++00000da0: 2050 7950 692c 2047 6974 4c61 622c 2042   PyPi, GitLab, B
++00000db0: 6974 4275 636b 6574 0d0a 2020 203a 7769  itBucket..   :wi
++00000dc0: 6474 683a 2037 3525 0d0a 0d0a 0d0a 4665  dth: 75%......Fe
++00000dd0: 6174 7572 6573 0d0a 7e7e 7e7e 7e7e 7e7e  atures..~~~~~~~~
++00000de0: 7e7e 0d0a 0d0a 6060 7370 6869 6e78 5f72  ~~....``sphinx_r
++00000df0: 6561 646d 6560 6020 6164 6473 2073 7570  eadme`` adds sup
++00000e00: 706f 7274 2066 6f72 2074 6865 2066 6f6c  port for the fol
++00000e10: 6c6f 7769 6e67 2060 6073 7068 696e 7860  lowing ``sphinx`
++00000e20: 6020 616e 6420 6060 646f 6375 7469 6c73  ` and ``docutils
++00000e30: 6060 2064 6972 6563 7469 7665 7320 616e  `` directives an
++00000e40: 6420 6665 6174 7572 6573 3a0d 0a0d 0a2a  d features:....*
++00000e50: 207c 2e60 7370 6869 6e78 2e65 7874 2e61   |.`sphinx.ext.a
++00000e60: 7574 6f64 6f63 607c 5f20 6372 6f73 732d  utodoc`|_ cross-
++00000e70: 7265 6665 7265 6e63 6573 2028 6060 3a6d  references (``:m
++00000e80: 6f64 3a60 602c 2060 603a 636c 6173 733a  od:``, ``:class:
++00000e90: 6060 2c20 6060 3a6d 6574 683a 6060 2c20  ``, ``:meth:``, 
++00000ea0: 6060 3a66 756e 633a 6060 2c20 616e 6420  ``:func:``, and 
++00000eb0: 6060 3a61 7474 723a 6060 290d 0a2a 2053  ``:attr:``)..* S
++00000ec0: 7461 6e64 6172 6420 6372 6f73 732d 7265  tandard cross-re
++00000ed0: 6665 7265 6e63 6520 726f 6c65 7320 2860  ference roles (`
++00000ee0: 603a 646f 633a 6060 2061 6e64 2060 603a  `:doc:`` and ``:
++00000ef0: 7265 663a 6060 290d 0a2a 2047 656e 6572  ref:``)..* Gener
++00000f00: 6963 2061 6e64 2053 7065 6369 6669 6320  ic and Specific 
++00000f10: 4164 6d6f 6e69 7469 6f6e 730d 0a2a 204f  Admonitions..* O
++00000f20: 6e6c 7920 6469 7265 6374 6976 6573 0d0a  nly directives..
++00000f30: 2a20 546f 6374 7265 6573 0d0a 2a20 5275  * Toctrees..* Ru
++00000f40: 6272 6963 730d 0a2a 2049 6d61 6765 730d  brics..* Images.
++00000f50: 0a0d 0a0d 0a49 6e73 7461 6c6c 6174 696f  .....Installatio
++00000f60: 6e0d 0a7e 7e7e 7e7e 7e7e 7e7e 7e7e 7e7e  n..~~~~~~~~~~~~~
++00000f70: 0d0a 0d0a 496e 7374 616c 6c20 7573 696e  ....Install usin
++00000f80: 6720 7069 703a 3a0d 0a0d 0a20 2020 7069  g pip::....   pi
++00000f90: 7020 696e 7374 616c 6c20 7370 6869 6e78  p install sphinx
++00000fa0: 2d72 6561 646d 650d 0a0d 0a0d 0a41 6464  -readme......Add
++00000fb0: 2074 6865 2065 7874 656e 7369 6f6e 2074   the extension t
++00000fc0: 6f20 796f 7572 2060 6063 6f6e 662e 7079  o your ``conf.py
++00000fd0: 6060 3a0d 0a0d 0a2e 2e20 636f 6465 2d62  ``:...... code-b
++00000fe0: 6c6f 636b 3a3a 2070 7974 686f 6e0d 0a0d  lock:: python...
++00000ff0: 0a20 2020 6578 7465 6e73 696f 6e73 203d  .   extensions =
++00001000: 205b 0d0a 2020 2020 2020 2773 7068 696e   [..      'sphin
++00001010: 785f 7265 6164 6d65 272c 0d0a 2020 205d  x_readme',..   ]
++00001020: 0d0a 0d0a 0d0a 0d0a 436f 6e66 6967 7572  ........Configur
++00001030: 6174 696f 6e0d 0a7e 7e7e 7e7e 7e7e 7e7e  ation..~~~~~~~~~
++00001040: 7e7e 7e7e 7e7e 0d0a 0d0a 0d0a 0d0a 0d0a  ~~~~~~..........
++00001050: 0d0a 506c 6561 7365 2073 6565 2060 4578  ..Please see `Ex
++00001060: 7465 6e73 696f 6e20 436f 6e66 6967 7572  tension Configur
++00001070: 6174 696f 6e20 3c68 7474 7073 3a2f 2f73  ation <https://s
++00001080: 7068 696e 782d 7265 6164 6d65 2e72 6561  phinx-readme.rea
++00001090: 6474 6865 646f 6373 2e69 6f2f 656e 2f6c  dthedocs.io/en/l
++000010a0: 6174 6573 742f 636f 6e66 6967 7572 6174  atest/configurat
++000010b0: 696f 6e2f 636f 6e66 6967 7572 696e 672e  ion/configuring.
++000010c0: 6874 6d6c 3e60 5f20 666f 7220 6675 6c6c  html>`_ for full
++000010d0: 2064 6f63 756d 656e 7461 7469 6f6e 206f   documentation o
++000010e0: 6e20 636f 6e66 6967 7572 6174 696f 6e20  n configuration 
++000010f0: 7661 7269 6162 6c65 730d 0a0d 0a0d 0a4d  variables......M
++00001100: 616e 6461 746f 7279 2060 6063 6f6e 662e  andatory ``conf.
++00001110: 7079 6060 2056 616c 7565 730d 0a3d 3d3d  py`` Values..===
++00001120: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d  ================
++00001130: 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d3d 3d0d  ===============.
++00001140: 0a0d 0a7c 6874 6d6c 5f63 6f6e 7465 7874  ...|html_context
++00001150: 7c5f 0d0a 2041 2064 6963 7469 6f6e 6172  |_.. A dictionar
++00001160: 7920 636f 6e74 6169 6e69 6e67 2069 6e66  y containing inf
++00001170: 6f20 6162 6f75 7420 796f 7572 2072 6570  o about your rep
++00001180: 6f73 6974 6f72 790d 0a0d 0a20 2054 7970  ository....  Typ
++00001190: 653a 2060 6064 6963 7460 600d 0a0d 0a20  e: ``dict``.... 
++000011a0: 2a20 4174 206d 696e 696d 756d 2c20 7468  * At minimum, th
++000011b0: 6520 7573 6572 6e61 6d65 2061 6e64 2072  e username and r
++000011c0: 6570 6f73 6974 6f72 7920 6e61 6d65 206d  epository name m
++000011d0: 7573 7420 6265 2073 7065 6369 6669 6564  ust be specified
++000011e0: 0d0a 202a 2050 6c65 6173 6520 7365 6520  .. * Please see 
++000011f0: 6048 544d 4c20 436f 6e74 6578 7420 5365  `HTML Context Se
++00001200: 7474 696e 6773 203c 6874 7470 733a 2f2f  ttings <https://
++00001210: 646f 6373 2e72 6561 6474 6865 646f 6373  docs.readthedocs
++00001220: 2e69 6f2f 656e 2f73 7461 626c 652f 6775  .io/en/stable/gu
++00001230: 6964 6573 2f65 6469 742d 736f 7572 6365  ides/edit-source
++00001240: 2d6c 696e 6b73 2d73 7068 696e 782e 6874  -links-sphinx.ht
++00001250: 6d6c 3e60 5f0d 0a20 2020 746f 2064 6574  ml>`_..   to det
++00001260: 6572 6d69 6e65 2074 6865 2063 6f72 7265  ermine the corre
++00001270: 6374 2064 6963 7469 6f6e 6172 7920 6b65  ct dictionary ke
++00001280: 7973 2066 6f72 2079 6f75 7220 686f 7374  ys for your host
++00001290: 696e 6720 706c 6174 666f 726d 0d0a 0d0a  ing platform....
++000012a0: 2e2e 207c 6874 6d6c 5f63 6f6e 7465 7874  .. |html_context
++000012b0: 7c20 7265 706c 6163 653a 3a20 6060 6874  | replace:: ``ht
++000012c0: 6d6c 5f63 6f6e 7465 7874 6060 0d0a 2e2e  ml_context``....
++000012d0: 205f 6874 6d6c 5f63 6f6e 7465 7874 3a20   _html_context: 
++000012e0: 6874 7470 733a 2f2f 7777 772e 7370 6869  https://www.sphi
++000012f0: 6e78 2d64 6f63 2e6f 7267 2f65 6e2f 6d61  nx-doc.org/en/ma
++00001300: 7374 6572 2f75 7361 6765 2f63 6f6e 6669  ster/usage/confi
++00001310: 6775 7261 7469 6f6e 2e68 746d 6c23 636f  guration.html#co
++00001320: 6e66 7661 6c2d 6874 6d6c 5f63 6f6e 7465  nfval-html_conte
++00001330: 7874 0d0a 0d0a 7c0d 0a0d 0a7c 6874 6d6c  xt....|....|html
++00001340: 5f62 6173 6575 726c 7c5f 0d0a 2054 6865  _baseurl|_.. The
++00001350: 2062 6173 6520 5552 4c20 7768 6963 6820   base URL which 
++00001360: 706f 696e 7473 2074 6f20 7468 6520 726f  points to the ro
++00001370: 6f74 206f 6620 7468 6520 4854 4d4c 2064  ot of the HTML d
++00001380: 6f63 756d 656e 7461 7469 6f6e 0d0a 0d0a  ocumentation....
++00001390: 2020 5479 7065 3a20 6060 7374 7260 600d    Type: ``str``.
++000013a0: 0a0d 0a2e 2e20 7c68 746d 6c5f 6261 7365  ..... |html_base
++000013b0: 7572 6c7c 2072 6570 6c61 6365 3a3a 2060  url| replace:: `
++000013c0: 6068 746d 6c5f 6261 7365 7572 6c60 600d  `html_baseurl``.
++000013d0: 0a2e 2e20 5f68 746d 6c5f 6261 7365 7572  ... _html_baseur
++000013e0: 6c3a 2068 7474 7073 3a2f 2f77 7777 2e73  l: https://www.s
++000013f0: 7068 696e 782d 646f 632e 6f72 672f 656e  phinx-doc.org/en
++00001400: 2f6d 6173 7465 722f 7573 6167 652f 636f  /master/usage/co
++00001410: 6e66 6967 7572 6174 696f 6e2e 6874 6d6c  nfiguration.html
++00001420: 2363 6f6e 6676 616c 2d68 746d 6c5f 6261  #confval-html_ba
++00001430: 7365 7572 6c0d 0a0d 0a7c 0d0a 0d0a 7c72  seurl....|....|r
++00001440: 6561 646d 655f 7372 635f 6669 6c65 737c  eadme_src_files|
++00001450: 5f0d 0a20 416e 2069 6e64 6976 6964 7561  _.. An individua
++00001460: 6c20 6f72 206c 6973 7420 6f66 2060 6072  l or list of ``r
++00001470: 7374 6060 2066 696c 6573 2074 6f20 7061  st`` files to pa
++00001480: 7273 650d 0a0d 0a20 2054 7970 653a 2060  rse....  Type: `
++00001490: 6055 6e69 6f6e 5b73 7472 2c20 4c69 7374  `Union[str, List
++000014a0: 5d60 600d 0a0d 0a0d 0a2e 2e20 7261 773a  ]``........ raw:
++000014b0: 3a20 6874 6d6c 0d0a 0d0a 2020 203c 7461  : html....   <ta
++000014c0: 626c 653e 0d0a 2020 2020 2020 203c 7472  ble>..       <tr
++000014d0: 2061 6c69 676e 3d22 6c65 6674 223e 0d0a   align="left">..
++000014e0: 2020 2020 2020 2020 2020 203c 7468 3e0d             <th>.
++000014f0: 0a0d 0af0 9f93 a220 496d 706f 7274 616e  ....... Importan
++00001500: 740d 0a0d 0a2e 2e20 7261 773a 3a20 6874  t...... raw:: ht
++00001510: 6d6c 0d0a 0d0a 2020 203c 2f74 683e 0d0a  ml....   </th>..
++00001520: 2020 203c 7472 3e3c 7464 3e0d 0a0d 0a46     <tr><td>....F
++00001530: 696c 6570 6174 6873 2073 686f 756c 6420  ilepaths should 
++00001540: 6265 2073 7065 6369 6669 6564 2072 656c  be specified rel
++00001550: 6174 6976 6520 746f 2074 6865 2073 6f75  ative to the sou
++00001560: 7263 6520 6469 7265 6374 6f72 790d 0a0d  rce directory...
++00001570: 0a2e 2e20 7261 773a 3a20 6874 6d6c 0d0a  ... raw:: html..
++00001580: 0d0a 2020 203c 2f74 643e 3c2f 7472 3e0d  ..   </td></tr>.
++00001590: 0a20 2020 3c2f 7461 626c 653e 0d0a 0d0a  .   </table>....
++000015a0: 0d0a 2e2e 207c 7265 6164 6d65 5f73 7263  .... |readme_src
++000015b0: 5f66 696c 6573 7c20 7265 706c 6163 653a  _files| replace:
++000015c0: 3a20 6060 7265 6164 6d65 5f73 7263 5f66  : ``readme_src_f
++000015d0: 696c 6573 6060 0d0a 2e2e 205f 7265 6164  iles``.... _read
++000015e0: 6d65 5f73 7263 5f66 696c 6573 3a20 6874  me_src_files: ht
++000015f0: 7470 733a 2f2f 7370 6869 6e78 2d72 6561  tps://sphinx-rea
++00001600: 646d 652e 7265 6164 7468 6564 6f63 732e  dme.readthedocs.
++00001610: 696f 2f65 6e2f 6c61 7465 7374 2f63 6f6e  io/en/latest/con
++00001620: 6669 6775 7261 7469 6f6e 2f63 6f6e 6669  figuration/confi
++00001630: 6775 7269 6e67 2e68 746d 6c23 636f 6e66  guring.html#conf
++00001640: 7661 6c2d 7265 6164 6d65 5f73 7263 5f66  val-readme_src_f
++00001650: 696c 6573 0d0a 0d0a 7c0d 0a0d 0a7c 7265  iles....|....|re
++00001660: 6164 6d65 5f64 6f63 735f 7572 6c5f 7479  adme_docs_url_ty
++00001670: 7065 7c5f 0d0a 2054 6865 2064 6f63 756d  pe|_.. The docum
++00001680: 656e 7461 7469 6f6e 2073 6f75 7263 6520  entation source 
++00001690: 746f 206c 696e 6b20 746f 2077 6865 6e20  to link to when 
++000016a0: 7265 736f 6c76 696e 6720 7c2e 607e 2e73  resolving |.`~.s
++000016b0: 7068 696e 782e 6578 742e 6175 746f 646f  phinx.ext.autodo
++000016c0: 6360 7c5f 2063 726f 7373 2d72 6566 6572  c`|_ cross-refer
++000016d0: 656e 6365 730d 0a0d 0a20 2054 7970 653a  ences....  Type:
++000016e0: 2060 6073 7472 6060 0d0a 0d0a 204d 7573   ``str``.... Mus
++000016f0: 7420 6265 2065 6974 6865 7220 6060 2263  t be either ``"c
++00001700: 6f64 6522 6060 206f 7220 6060 2268 746d  ode"`` or ``"htm
++00001710: 6c22 6060 0d0a 0d0a 202a 2060 6022 636f  l"``.... * ``"co
++00001720: 6465 2260 603a 2075 7365 7320 7c2e 6073  de"``: uses |.`s
++00001730: 7068 696e 782e 6578 742e 6c69 6e6b 636f  phinx.ext.linkco
++00001740: 6465 607c 5f20 746f 2072 6570 6c61 6365  de`|_ to replace
++00001750: 2072 6566 6572 656e 6365 7320 7769 7468   references with
++00001760: 206c 696e 6b73 2074 6f20 6869 6768 6c69   links to highli
++00001770: 6768 7465 6420 736f 7572 6365 2063 6f64  ghted source cod
++00001780: 650d 0a0d 0a20 2020 2a2a 4578 616d 706c  e....   **Exampl
++00001790: 652a 2a3a 207c 2e60 7e2e 7061 7273 655f  e**: |.`~.parse_
++000017a0: 696e 7465 7273 7068 696e 785f 6e6f 6465  intersphinx_node
++000017b0: 607c 5f0d 0a0d 0a0d 0a20 2a20 6060 2268  `|_...... * ``"h
++000017c0: 746d 6c22 6060 3a20 7265 706c 6163 6573  tml"``: replaces
++000017d0: 2072 6566 6572 656e 6365 7320 7769 7468   references with
++000017e0: 206c 696e 6b73 2074 6f20 4854 4d4c 2064   links to HTML d
++000017f0: 6f63 756d 656e 7461 7469 6f6e 2065 6e74  ocumentation ent
++00001800: 7269 6573 0d0a 0d0a 2020 202a 2a45 7861  ries....   **Exa
++00001810: 6d70 6c65 2a2a 3a20 7c70 6172 7365 5f69  mple**: |parse_i
++00001820: 6e74 6572 7370 6869 6e78 5f6e 6f64 655f  ntersphinx_node_
++00001830: 6874 6d6c 7c5f 0d0a 0d0a 0d0a 2e2e 2072  html|_........ r
++00001840: 6177 3a3a 2068 746d 6c0d 0a0d 0a20 2020  aw:: html....   
++00001850: 3c74 6162 6c65 3e0d 0a20 2020 2020 2020  <table>..       
++00001860: 3c74 7220 616c 6967 6e3d 226c 6566 7422  <tr align="left"
++00001870: 3e0d 0a20 2020 2020 2020 2020 2020 3c74  >..           <t
++00001880: 683e 0d0a 0d0a f09f 939d 204e 6f74 650d  h>........ Note.
++00001890: 0a0d 0a2e 2e20 7261 773a 3a20 6874 6d6c  ..... raw:: html
++000018a0: 0d0a 0d0a 2020 203c 2f74 683e 0d0a 2020  ....   </th>..  
++000018b0: 203c 7472 3e3c 7464 3e0d 0a0d 0a49 6620   <tr><td>....If 
++000018c0: 7365 7420 746f 2060 6063 6f64 6560 602c  set to ``code``,
++000018d0: 2074 6865 6e20 3a63 6f64 653a 603a 6174   then :code:`:at
++000018e0: 7472 3a60 2063 726f 7373 2d72 6566 6572  tr:` cross-refer
++000018f0: 656e 6365 7320 7769 6c6c 206e 6f74 2062  ences will not b
++00001900: 6520 7265 706c 6163 6564 2077 6974 6820  e replaced with 
++00001910: 6c69 6e6b 730d 0a0d 0a2a 2049 6e73 7465  links....* Inste
++00001920: 6164 2c20 7468 6579 276c 6c20 6265 2072  ad, they'll be r
++00001930: 6570 6c61 6365 6420 7769 7468 2060 6069  eplaced with ``i
++00001940: 6e6c 696e 6520 6c69 7465 7261 6c73 6060  nline literals``
++00001950: 206f 7220 6c65 6674 2061 7320 6973 0d0a   or left as is..
++00001960: 2a20 506c 6561 7365 2073 6565 207c 7265  * Please see |re
++00001970: 6164 6d65 5f72 6570 6c61 6365 5f61 7474  adme_replace_att
++00001980: 7273 7c5f 2061 6e64 207c 7265 6164 6d65  rs|_ and |readme
++00001990: 5f69 6e6c 696e 655f 6d61 726b 7570 7c5f  _inline_markup|_
++000019a0: 0d0a 0d0a 2e2e 2072 6177 3a3a 2068 746d  ...... raw:: htm
++000019b0: 6c0d 0a0d 0a20 2020 3c2f 7464 3e3c 2f74  l....   </td></t
++000019c0: 723e 0d0a 2020 203c 2f74 6162 6c65 3e0d  r>..   </table>.
++000019d0: 0a0d 0a0d 0a2e 2e20 7c72 6561 646d 655f  ....... |readme_
++000019e0: 646f 6373 5f75 726c 5f74 7970 657c 2072  docs_url_type| r
++000019f0: 6570 6c61 6365 3a3a 2060 6072 6561 646d  eplace:: ``readm
++00001a00: 655f 646f 6373 5f75 726c 5f74 7970 6560  e_docs_url_type`
++00001a10: 600d 0a2e 2e20 5f72 6561 646d 655f 646f  `.... _readme_do
++00001a20: 6373 5f75 726c 5f74 7970 653a 2068 7474  cs_url_type: htt
++00001a30: 7073 3a2f 2f73 7068 696e 782d 7265 6164  ps://sphinx-read
++00001a40: 6d65 2e72 6561 6474 6865 646f 6373 2e69  me.readthedocs.i
++00001a50: 6f2f 656e 2f6c 6174 6573 742f 636f 6e66  o/en/latest/conf
++00001a60: 6967 7572 6174 696f 6e2f 636f 6e66 6967  iguration/config
++00001a70: 7572 696e 672e 6874 6d6c 2363 6f6e 6676  uring.html#confv
++00001a80: 616c 2d72 6561 646d 655f 646f 6373 5f75  al-readme_docs_u
++00001a90: 726c 5f74 7970 650d 0a2e 2e20 7c70 6172  rl_type.... |par
++00001aa0: 7365 5f69 6e74 6572 7370 6869 6e78 5f6e  se_intersphinx_n
++00001ab0: 6f64 655f 6874 6d6c 7c20 7265 706c 6163  ode_html| replac
++00001ac0: 653a 3a20 6060 7061 7273 655f 696e 7465  e:: ``parse_inte
++00001ad0: 7273 7068 696e 785f 6e6f 6465 2829 6060  rsphinx_node()``
++00001ae0: 0d0a 2e2e 205f 7061 7273 655f 696e 7465  .... _parse_inte
++00001af0: 7273 7068 696e 785f 6e6f 6465 5f68 746d  rsphinx_node_htm
++00001b00: 6c3a 2068 7474 703a 2f2f 7370 6869 6e78  l: http://sphinx
++00001b10: 2d72 6561 646d 652e 7265 6164 7468 6564  -readme.readthed
++00001b20: 6f63 732e 696f 2f65 6e2f 6c61 7465 7374  ocs.io/en/latest
++00001b30: 2f70 6172 7365 722e 6874 6d6c 2373 7068  /parser.html#sph
++00001b40: 696e 785f 7265 6164 6d65 2e70 6172 7365  inx_readme.parse
++00001b50: 722e 5245 4144 4d45 5061 7273 6572 2e70  r.READMEParser.p
++00001b60: 6172 7365 5f69 6e74 6572 7370 6869 6e78  arse_intersphinx
++00001b70: 5f6e 6f64 650d 0a2e 2e20 7c72 6561 646d  _node.... |readm
++00001b80: 655f 7265 706c 6163 655f 6174 7472 737c  e_replace_attrs|
++00001b90: 2072 6570 6c61 6365 3a3a 2060 6072 6561   replace:: ``rea
++00001ba0: 646d 655f 7265 706c 6163 655f 6174 7472  dme_replace_attr
++00001bb0: 7360 600d 0a2e 2e20 5f72 6561 646d 655f  s``.... _readme_
++00001bc0: 7265 706c 6163 655f 6174 7472 733a 2068  replace_attrs: h
++00001bd0: 7474 7073 3a2f 2f73 7068 696e 782d 7265  ttps://sphinx-re
++00001be0: 6164 6d65 2e72 6561 6474 6865 646f 6373  adme.readthedocs
++00001bf0: 2e69 6f2f 656e 2f6c 6174 6573 742f 636f  .io/en/latest/co
++00001c00: 6e66 6967 7572 6174 696f 6e2f 636f 6e66  nfiguration/conf
++00001c10: 6967 7572 696e 672e 6874 6d6c 2363 6f6e  iguring.html#con
++00001c20: 6676 616c 2d72 6561 646d 655f 7265 706c  fval-readme_repl
++00001c30: 6163 655f 6174 7472 730d 0a2e 2e20 7c72  ace_attrs.... |r
++00001c40: 6561 646d 655f 696e 6c69 6e65 5f6d 6172  eadme_inline_mar
++00001c50: 6b75 707c 2072 6570 6c61 6365 3a3a 2060  kup| replace:: `
++00001c60: 6072 6561 646d 655f 696e 6c69 6e65 5f6d  `readme_inline_m
++00001c70: 6172 6b75 7060 600d 0a2e 2e20 5f72 6561  arkup``.... _rea
++00001c80: 646d 655f 696e 6c69 6e65 5f6d 6172 6b75  dme_inline_marku
++00001c90: 703a 2068 7474 7073 3a2f 2f73 7068 696e  p: https://sphin
++00001ca0: 782d 7265 6164 6d65 2e72 6561 6474 6865  x-readme.readthe
++00001cb0: 646f 6373 2e69 6f2f 656e 2f6c 6174 6573  docs.io/en/lates
++00001cc0: 742f 636f 6e66 6967 7572 6174 696f 6e2f  t/configuration/
++00001cd0: 636f 6e66 6967 7572 696e 672e 6874 6d6c  configuring.html
++00001ce0: 2363 6f6e 6676 616c 2d72 6561 646d 655f  #confval-readme_
++00001cf0: 696e 6c69 6e65 5f6d 6172 6b75 700d 0a0d  inline_markup...
++00001d00: 0a0d 0a53 616d 706c 6520 6060 636f 6e66  ...Sample ``conf
++00001d10: 2e70 7960 600d 0a7e 7e7e 7e7e 7e7e 7e7e  .py``..~~~~~~~~~
++00001d20: 7e7e 7e7e 7e7e 7e7e 7e7e 0d0a 0d0a 2e2e  ~~~~~~~~~~......
++00001d30: 2063 6f64 652d 626c 6f63 6b3a 3a20 7079   code-block:: py
++00001d40: 7468 6f6e 0d0a 0d0a 2020 2065 7874 656e  thon....   exten
++00001d50: 7369 6f6e 7320 3d20 5b0d 0a20 2020 2020  sions = [..     
++00001d60: 2022 7370 6869 6e78 5f72 6561 646d 6522   "sphinx_readme"
++00001d70: 2c0d 0a20 2020 5d0d 0a0d 0a20 2020 6874  ,..   ]....   ht
++00001d80: 6d6c 5f63 6f6e 7465 7874 203d 207b 0d0a  ml_context = {..
++00001d90: 2020 2020 2020 2764 6973 706c 6179 5f67        'display_g
++00001da0: 6974 6875 6227 3a20 5472 7565 2c0d 0a20  ithub': True,.. 
++00001db0: 2020 2020 2027 6769 7468 7562 5f75 7365       'github_use
++00001dc0: 7227 3a20 2754 444b 6f72 6e27 2c0d 0a20  r': 'TDKorn',.. 
++00001dd0: 2020 2020 2027 6769 7468 7562 5f72 6570       'github_rep
++00001de0: 6f27 3a20 2773 7068 696e 782d 7265 6164  o': 'sphinx-read
++00001df0: 6d65 272c 0d0a 2020 207d 0d0a 0d0a 2020  me',..   }....  
++00001e00: 2068 746d 6c5f 6261 7365 7572 6c20 3d20   html_baseurl = 
++00001e10: 2268 7474 7073 3a2f 2f73 7068 696e 782d  "https://sphinx-
++00001e20: 7265 6164 6d65 2e72 6561 6474 6865 646f  readme.readthedo
++00001e30: 6373 2e69 6f2f 656e 2f6c 6174 6573 7422  cs.io/en/latest"
++00001e40: 0d0a 0d0a 2020 2072 6561 646d 655f 7372  ....   readme_sr
++00001e50: 635f 6669 6c65 7320 3d20 2252 4541 444d  c_files = "READM
++00001e60: 452e 7273 7422 0d0a 0d0a 2020 2072 6561  E.rst"....   rea
++00001e70: 646d 655f 646f 6373 5f75 726c 5f74 7970  dme_docs_url_typ
++00001e80: 6520 3d20 2263 6f64 6522 0d0a 0d0a 0d0a  e = "code"......
++00001e90: 2e2e 207c 7265 6164 6d65 5f72 6177 5f64  .. |readme_raw_d
++00001ea0: 6972 6563 7469 7665 7c20 7265 706c 6163  irective| replac
++00001eb0: 653a 3a20 6060 7265 6164 6d65 5f72 6177  e:: ``readme_raw
++00001ec0: 5f64 6972 6563 7469 7665 6060 0d0a 2e2e  _directive``....
++00001ed0: 205f 7265 6164 6d65 5f72 6177 5f64 6972   _readme_raw_dir
++00001ee0: 6563 7469 7665 3a20 6874 7470 733a 2f2f  ective: https://
++00001ef0: 7370 6869 6e78 2d72 6561 646d 652e 7265  sphinx-readme.re
++00001f00: 6164 7468 6564 6f63 732e 696f 2f65 6e2f  adthedocs.io/en/
++00001f10: 6c61 7465 7374 2f63 6f6e 6669 6775 7261  latest/configura
++00001f20: 7469 6f6e 2f63 6f6e 6669 6775 7269 6e67  tion/configuring
++00001f30: 2e68 746d 6c23 636f 6e66 7661 6c2d 7265  .html#confval-re
++00001f40: 6164 6d65 5f72 6177 5f64 6972 6563 7469  adme_raw_directi
++00001f50: 7665 0d0a 0d0a 0d0a 0d0a 2e2e 2072 6177  ve.......... raw
++00001f60: 3a3a 2068 746d 6c0d 0a0d 0a20 2020 3c74  :: html....   <t
++00001f70: 6162 6c65 3e0d 0a20 2020 2020 2020 3c74  able>..       <t
++00001f80: 7220 616c 6967 6e3d 226c 6566 7422 3e0d  r align="left">.
++00001f90: 0a20 2020 2020 2020 2020 2020 3c74 683e  .           <th>
++00001fa0: 0d0a 0d0a f09f 93a2 2049 6d70 6f72 7461  ........ Importa
++00001fb0: 6e74 0d0a 0d0a 2e2e 2072 6177 3a3a 2068  nt...... raw:: h
++00001fc0: 746d 6c0d 0a0d 0a20 2020 3c2f 7468 3e0d  tml....   </th>.
++00001fd0: 0a20 2020 3c74 723e 3c74 643e 0d0a 0d0a  .   <tr><td>....
++00001fe0: 466f 7220 706c 6174 666f 726d 7320 7468  For platforms th
++00001ff0: 6174 2064 6f6e 2774 2073 7570 706f 7274  at don't support
++00002000: 2074 6865 2060 6072 6177 6060 2064 6972   the ``raw`` dir
++00002010: 6563 7469 7665 2028 5079 5069 2c20 4769  ective (PyPi, Gi
++00002020: 744c 6162 2c20 616e 6420 4269 7442 7563  tLab, and BitBuc
++00002030: 6b65 7429 2c0d 0a62 6520 7375 7265 2074  ket),..be sure t
++00002040: 6f20 6469 7361 626c 6520 7c72 6561 646d  o disable |readm
++00002050: 655f 7261 775f 6469 7265 6374 6976 657c  e_raw_directive|
++00002060: 5f3a 0d0a 0d0a 2e2e 2063 6f64 652d 626c  _:...... code-bl
++00002070: 6f63 6b3a 3a20 7079 7468 6f6e 0d0a 0d0a  ock:: python....
++00002080: 2020 2072 6561 646d 655f 7261 775f 6469     readme_raw_di
++00002090: 7265 6374 6976 6520 3d20 4661 6c73 650d  rective = False.
++000020a0: 0a0d 0a2e 2e20 7261 773a 3a20 6874 6d6c  ..... raw:: html
++000020b0: 0d0a 0d0a 2020 203c 2f74 643e 3c2f 7472  ....   </td></tr
++000020c0: 3e0d 0a20 2020 3c2f 7461 626c 653e 0d0a  >..   </table>..
++000020d0: 0d0a 0d0a 0d0a 0d0a 0d0a 446f 6375 6d65  ..........Docume
++000020e0: 6e74 6174 696f 6e0d 0a7e 7e7e 7e7e 7e7e  ntation..~~~~~~~
++000020f0: 7e7e 7e7e 7e7e 7e7e 7e0d 0a0d 0a46 756c  ~~~~~~~~~....Ful
++00002100: 6c20 646f 6375 6d65 6e74 6174 696f 6e20  l documentation 
++00002110: 6361 6e20 6265 2066 6f75 6e64 206f 6e20  can be found on 
++00002120: 7c64 6f63 737c 5f0d 0a0d 0a0d 0a2e 2e20  |docs|_........ 
++00002130: 7c64 6f63 737c 2072 6570 6c61 6365 3a3a  |docs| replace::
++00002140: 2060 6052 6561 6454 6865 446f 6373 6060   ``ReadTheDocs``
++00002150: 0d0a 2e2e 205f 646f 6373 3a20 6874 7470  .... _docs: http
++00002160: 733a 2f2f 7370 6869 6e78 2d72 6561 646d  s://sphinx-readm
++00002170: 652e 7265 6164 7468 6564 6f63 732e 696f  e.readthedocs.io
++00002180: 2f65 6e2f 6c61 7465 7374 0d0a            /en/latest..
+```
+
+### Comparing `sphinx-readme-0.0.1b6/README.rst` & `sphinx-readme-0.0.1b7/PKG-INFO`
+
+ * *Files 17% similar despite different names*
+
+```diff
+@@ -1,15 +1,33 @@
+-.. |.`~.sphinx.ext.autodoc`| replace:: ``autodoc``
+-.. _.`~.sphinx.ext.autodoc`: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#module-sphinx.ext.autodoc
+-.. |.`sphinx.ext.autodoc`| replace:: ``sphinx.ext.autodoc``
+-.. _.`sphinx.ext.autodoc`: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#module-sphinx.ext.autodoc
+-.. |.`sphinx.ext.linkcode`| replace:: ``sphinx.ext.linkcode``
+-.. _.`sphinx.ext.linkcode`: https://www.sphinx-doc.org/en/master/usage/extensions/linkcode.html#module-sphinx.ext.linkcode
+-.. |.`~.parse_intersphinx_node`| replace:: ``parse_intersphinx_node()``
+-.. _.`~.parse_intersphinx_node`: https://github.com/TDKorn/sphinx-readme/blob/v0.0.1b6/sphinx_readme/parser.py#L124-L134
++Metadata-Version: 2.1
++Name: sphinx-readme
++Version: 0.0.1b7
++Summary: Generate Beautiful reStructuredText README.rst for GitHub, PyPi, GitLab, BitBucket
++Home-page: https://github.com/tdkorn/sphinx-readme
++Author: Adam Korn
++Author-email: hello@dailykitten.net
++License: MIT License
++Download-URL: https://github.com/TDKorn/sphinx-readme/tarball/main
++Keywords: sphinx,docutils,sphinx-extension,sphinx-contrib,reStructuredText,rst,reST,parser,rst-parser,README.rst,README,autodoc,linkcode
++Platform: UNKNOWN
++Classifier: Framework :: Sphinx :: Extension
++Classifier: License :: OSI Approved :: MIT License
++Classifier: Programming Language :: Python :: 3
++Classifier: Programming Language :: Python :: 3.10
++Description-Content-Type: text/x-rst; charset=UTF-8
++License-File: LICENSE
++
++.. |.sphinx.ext.linkcode| replace:: sphinx.ext.linkcode
++.. _.sphinx.ext.linkcode: https://www.sphinx-doc.org/en/master/usage/extensions/linkcode.html#module-sphinx.ext.linkcode
++.. |.sphinx.ext.autodoc| replace:: sphinx.ext.autodoc
++.. _.sphinx.ext.autodoc: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#module-sphinx.ext.autodoc
++.. |.~.sphinx.ext.autodoc| replace:: autodoc
++.. _.~.sphinx.ext.autodoc: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#module-sphinx.ext.autodoc
++.. |.~.parse_intersphinx_node| replace:: parse_intersphinx_node()
++.. _.~.parse_intersphinx_node: https://github.com/TDKorn/sphinx-readme/blob/v0.0.1b7/sphinx_readme/parser.py#L145-L159
+ .. |attention| replace:: 🔔️
+ .. |caution| replace:: ⚠️
+ .. |danger| replace:: ☢️
+ .. |error| replace:: ⛔
+ .. |hint| replace:: 🧠
+ .. |important| replace:: 📢
+ .. |note| replace:: 📝
+@@ -19,31 +37,31 @@
+ .. |about| replace:: 📚
+ 
+ .. meta::
+    :author: Adam Korn
+    :title: Sphinx README
+    :description: Sphinx Extension to Generate Beautiful reStructuredText README.rst for GitHub, PyPi, GitLab, BitBucket
+ 
+-
+ Sphinx README - Generate Beautiful ``README.rst`` for GitHub, PyPi, GitLab, BitBucket
+ --------------------------------------------------------------------------------------
+ 
+-.. image:: https://raw.githubusercontent.com/TDKorn/sphinx-readme/v0.0.1b6/docs/source/_static/logo_readme.png
++.. image:: https://raw.githubusercontent.com/TDKorn/sphinx-readme/v0.0.1b6/docs/source/_static/logo_transparent.png
+    :alt: Sphinx README: Generate Beautiful reStructuredText README.rst for GitHub, PyPi, GitLab, BitBucket
+    :align: center
+    :width: 25%
+ 
+-
+ A Sphinx extension to generate ``README.rst`` files that render beautifully on GitHub, PyPi, GitLab, BitBucket
+ 
++
+ .. |RTD| replace:: **Explore the docs »**
+ .. _RTD: https://sphinx-readme.readthedocs.io/en/latest/
+ 
+ |RTD|_
+ 
++|
+ 
+ .. image:: https://img.shields.io/pypi/v/sphinx-readme?color=eb5202
+    :target: https://pypi.org/project/sphinx-readme
+    :alt: PyPI Project for Sphinx README: Generate Beautiful reStructuredText README.rst for GitHub, PyPi, GitLab, BitBucket
+ 
+ .. image:: https://img.shields.io/badge/GitHub-sphinx--readme-4f1abc
+    :target: https://github.com/tdkorn/sphinx-readme
+@@ -53,15 +71,14 @@
+    :target: https://pepy.tech/project/sphinx-readme
+    :alt: Downloads for Sphinx README
+ 
+ .. image:: https://readthedocs.org/projects/sphinx-readme/badge/?version=latest
+    :target: https://sphinx-readme.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation for Sphinx README: Generate Beautiful reStructuredText README.rst for GitHub, PyPi, GitLab, BitBucket
+ 
+-
+ |
+ 
+ About Sphinx README
+ ~~~~~~~~~~~~~~~~~~~~~~~
+ 
+ 
+ .. csv-table::
+@@ -69,32 +86,32 @@
+ 
+    "``sphinx_readme`` is a ``reStructuredText`` parser that uses Sphinx
+    to generate ``rst`` files that render beautifully on
+    GitHub, PyPi, GitLab, and BitBucket."
+ 
+ 
+ 
+-With ``sphinx_readme``, there's no need to rewrite your ``README.rst`` as a ``README.md`` file
+-==============================================================================================
++**With** ``sphinx_readme`` **, there's no need to rewrite your** ``README.rst`` **as a** ``README.md`` **file**
+ 
+ Files generated by ``sphinx_readme`` have nearly identical appearance and functionality
+-as ``html`` builds, including |.`sphinx.ext.autodoc`|_ cross-references!
++as ``html`` builds, including |.sphinx.ext.autodoc|_ cross-references!
+ 
++|
+ 
+ .. image:: https://raw.githubusercontent.com/TDKorn/sphinx-readme/v0.0.1b6/docs/source/_static/demo/demo.gif
+    :alt: Demonstration of how reStructuredText README.rst files generated by Sphinx README render on GitHub, PyPi, GitLab, BitBucket
+    :width: 75%
+ 
+ 
+ Features
+ ~~~~~~~~~~
+ 
+ ``sphinx_readme`` adds support for the following ``sphinx`` and ``docutils`` directives and features:
+ 
+-* |.`sphinx.ext.autodoc`|_ cross-references (``:mod:``, ``:class:``, ``:meth:``, ``:func:``, and ``:attr:``)
++* |.sphinx.ext.autodoc|_ cross-references (``:mod:``, ``:class:``, ``:meth:``, ``:func:``, and ``:attr:``)
+ * Standard cross-reference roles (``:doc:`` and ``:ref:``)
+ * Generic and Specific Admonitions
+ * Only directives
+ * Toctrees
+ * Rubrics
+ * Images
+ 
+@@ -138,25 +155,25 @@
+  * At minimum, the username and repository name must be specified
+  * Please see `HTML Context Settings <https://docs.readthedocs.io/en/stable/guides/edit-source-links-sphinx.html>`_
+    to determine the correct dictionary keys for your hosting platform
+ 
+ .. |html_context| replace:: ``html_context``
+ .. _html_context: https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_context
+ 
+-...
++|
+ 
+ |html_baseurl|_
+  The base URL which points to the root of the HTML documentation
+ 
+   Type: ``str``
+ 
+ .. |html_baseurl| replace:: ``html_baseurl``
+ .. _html_baseurl: https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_baseurl
+ 
+-...
++|
+ 
+ |readme_src_files|_
+  An individual or list of ``rst`` files to parse
+ 
+   Type: ``Union[str, List]``
+ 
+ 
+@@ -165,26 +182,26 @@
+ 
+    "Filepaths should be specified relative to the source directory"
+ 
+ 
+ .. |readme_src_files| replace:: ``readme_src_files``
+ .. _readme_src_files: https://sphinx-readme.readthedocs.io/en/latest/configuration/configuring.html#confval-readme_src_files
+ 
+-...
++|
+ 
+ |readme_docs_url_type|_
+- The documentation source to link to when resolving |.`~.sphinx.ext.autodoc`|_ cross-references
++ The documentation source to link to when resolving |.~.sphinx.ext.autodoc|_ cross-references
+ 
+   Type: ``str``
+ 
+  Must be either ``"code"`` or ``"html"``
+ 
+- * ``"code"``: uses |.`sphinx.ext.linkcode`|_ to replace references with links to highlighted source code
++ * ``"code"``: uses |.sphinx.ext.linkcode|_ to replace references with links to highlighted source code
+ 
+-   **Example**: |.`~.parse_intersphinx_node`|_
++   **Example**: |.~.parse_intersphinx_node|_
+ 
+ 
+  * ``"html"``: replaces references with links to HTML documentation entries
+ 
+    **Example**: |parse_intersphinx_node_html|_
+ 
+ 
+@@ -233,16 +250,16 @@
+ .. _readme_raw_directive: https://sphinx-readme.readthedocs.io/en/latest/configuration/configuring.html#confval-readme_raw_directive
+ 
+ 
+ 
+ .. csv-table::
+    :header: |important| Important
+ 
+-   "If generating a ``README`` for a platform that doesn't support ``raw``
+-   directives (PyPi, GitLab, and BitBucket), be sure to disable |readme_raw_directive|_:
++   "For platforms that don't support the ``raw`` directive (PyPi, GitLab, and BitBucket),
++   be sure to disable |readme_raw_directive|_:
+ 
+    .. code-block:: python
+ 
+       readme_raw_directive = False"
+ 
+ 
+ 
+@@ -252,7 +269,9 @@
+ ~~~~~~~~~~~~~~~~
+ 
+ Full documentation can be found on |docs|_
+ 
+ 
+ .. |docs| replace:: ``ReadTheDocs``
+ .. _docs: https://sphinx-readme.readthedocs.io/en/latest
++
++
+```
+
+### Comparing `sphinx-readme-0.0.1b6/setup.py` & `sphinx-readme-0.0.1b7/setup.py`
+
+ * *Files 6% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ import os
+ from setuptools import setup, find_packages
+ 
+-LONG_DESCRIPTION_SRC = 'README.rst'
++LONG_DESCRIPTION_SRC = 'README_PyPi.rst'
+ 
+ 
+ def read(file):
+     with open(os.path.abspath(file), 'r', encoding='utf-8') as f:
+         return f.read()
+```
+
+### Comparing `sphinx-readme-0.0.1b6/sphinx_readme/__init__.py` & `sphinx-readme-0.0.1b7/sphinx_readme/__init__.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -5,15 +5,15 @@
+ from sphinx.application import Sphinx
+ from sphinx.environment import BuildEnvironment
+ from sphinx_readme.utils import get_conf_val, set_conf_val
+ from sphinx_readme.config import get_repo_dir
+ from sphinx_readme.parser import READMEParser
+ 
+ 
+-__version__ = "v0.0.1b6"
++__version__ = "v0.0.1b7"
+ 
+ 
+ def setup(app: Sphinx) -> Dict[str, Any]:
+     # Avoid setting up extension if building on ReadTheDocs
+     if os.environ.get("READTHEDOCS") == "True":
+         return {}
+```
+
+### Comparing `sphinx-readme-0.0.1b6/sphinx_readme/config/linkcode.py` & `sphinx-readme-0.0.1b7/sphinx_readme/config/linkcode.py`
+
+ * *Files 18% similar despite different names*
+
+```diff
+@@ -6,22 +6,33 @@
+ import pkg_resources
+ from pathlib import Path
+ from typing import Dict, Optional, Callable
+ from sphinx.errors import ExtensionError
+ from sphinx_readme.utils import logger
+ 
+ 
+-def get_linkcode_url(blob_url: Optional[str] = None,
+-                     repo_url: Optional[str] = None,
+-                     context: Optional[Dict] = None,
+-                     blob: Optional[str] = None) -> str:
+-    """Get the template URL for linking to highlighted GitHub source code
+-
+-    Formatted into the final link by ``linkcode_resolve()``
++def get_linkcode_url(
++        blob_url: Optional[str] = None,
++        repo_url: Optional[str] = None,
++        context: Optional[Dict] = None,
++        blob: Optional[str] = None
++) -> str:
++    """Generates the template URL for linking to highlighted source code
++
++    Final links are generated from the template by a ``linkcode_resolve()`` function
++
++    .. note:: Only one of ``blob_url``, ``repo_url``, or ``context`` needs to be specified
++
++    :param blob_url: the base URL for a specific blob of a repository
++    :param repo_url: the base URL of a repository
++    :param context: the Sphinx :external+sphinx:confval:`html_context` dict
++    :param blob: the blob of the repository to generate the link for
++    :raises ExtensionError: if none of ``blob_url``, ``repo_url``, or ``context`` are provided
+     """
++    # """
+     if blob_url is None:
+         if repo_url is None:
+             if context is None:
+                 raise ExtensionError(
+                     "``sphinx_readme:`` config value ``html_context`` is missing")
+             else:
+                 repo_url = get_repo_url(context)
+@@ -29,15 +40,21 @@
+ 
+     if 'bitbucket' in blob_url:
+         return blob_url + "/{filepath}#lines-{linestart}:{linestop}"
+     else:
+         return blob_url + "/{filepath}#L{linestart}-L{linestop}"
+ 
+ 
+-def get_repo_url(context: Dict):
++def get_repo_url(context: Dict) -> str:
++    """Parses the repository URL from the Sphinx :external+sphinx:confval:`html_context` dict
++
++    :param context: the ``html_context`` dict
++    :return: the base URL of the project's repository
++    :raises ExtensionError: if the repository URL cannot be parsed from ``html_context``
++    """
+     for host in ('github', 'gitlab', 'bitbucket'):
+         user = context.get(f"{host}_user")
+         repo = context.get(f"{host}_repo")
+ 
+         if not all((user, repo)):
+             continue
+ 
+@@ -49,64 +66,73 @@
+         return f"https://{host}.{tld}/{user}/{repo}"
+ 
+     raise ExtensionError(
+         "``sphinx_readme``: unable to determine repo url")
+ 
+ 
+ def get_blob_url(repo_url: str, blob: Optional[str] = None, context: Optional[Dict] = None) -> str:
+-    """Generate the url for a specific blob of a repository
++    """Generates the base URL for a specific blob of a repository
+ 
+-    If ``blob`` and ``context`` are not provided, the most recent commit hash will be used
++    :param repo_url: the base URL of the repository
++    :param blob: the blob of the repository to generate the link for
++    :param context: the Sphinx :external+sphinx:confval:`html_context` dict
+     """
+     if context:
+         host = get_repo_host(repo_url)
+         blob = context.get(f"{host}_version")
+ 
+     if blob is not None:
+         # Use blob from kwarg/html_context
+-        blob = get_linkcode_revision(blob)
++        blob = get_blob(blob)
+     else:
+         # Use hash of the most recent commit
+-        blob = get_linkcode_revision('head')
++        blob = get_blob('head')
+ 
+     if "bitbucket" in repo_url:
+         return repo_url.strip('/') + f"/src/{blob}"
+     else:
+         return repo_url.strip("/") + f"/blob/{blob}"
+ 
+ 
+-def get_repo_host(url: str):
+-    if match := re.match(r"https?://(\w+)\.(?:com|org)", url):
++def get_repo_host(repo_url: str) -> Optional[str]:
++    """Returns the hosting platform of a repository
++
++    >>> get_repo_host("https://github.com/TDKorn/sphinx-readme")
++    'github'
++
++    :param repo_url: the URL of the repository
++    """
++    if match := re.match(r"https?://(\w+)\.(?:com|org)", repo_url):
+         return match.group(1)
+     return None
+ 
+ 
+-def get_linkcode_revision(blob: str) -> str:
+-    """Get the blob to link to
+-
+-    .. note::
++def get_blob(blob: str) -> str:
++    """Returns the git blob corresponding to ``blob``
+ 
+-       The value of ``blob`` can be any of ``"head"``, ``"last_tag"``, or ``"{blob}"``
++    The value of ``blob`` can be any of ``"head"``, ``"last_tag"``, or ``"{blob}"``
+ 
+-       * ``head`` (default): links to the most recent commit hash; if this commit is tagged, uses the tag instead
+-       * ``last_tag``: links to the most recently tagged commit; if no tags exist, uses ``head``
+-       * ``blob``: links to any blob you want, for example ``"master"`` or ``"v2.0.1"``
++    * ``"head"``: returns the hash of the most recent commit; if this commit is tagged, uses the tag instead
++    * ``"last_tag"``: returns the most recent commit tag; if no tags exist, uses ``"head"``
++    * ``"{blob}"``: returns the specified blob as is, for example ``"master"`` or ``"v2.0.1"``
+     """
+     if blob == "head":
+         return get_head()
+     if blob == 'last_tag':
+         return get_last_tag()
+-    # Link to the branch/tree/blob you provided, ex. "master"
++    # Return the branch/tree/blob you provided
+     return blob
+ 
+ 
+-def get_head(errors: bool = False) -> Optional[str]:
+-    """Gets the most recent commit hash or tag
++def get_head() -> str:
++    """Returns the hash of the most recent commit
++
++    If the most recent commit is tagged, the tag is returned instead
+ 
+-    :raises subprocess.CalledProcessError: if the commit can't be found and ``errors`` is ``True``
++    :raises RuntimeError: if the most recent commit can't be found
+     """
+     cmd = "git log -n1 --pretty=%H"
+     try:
+         # get most recent commit hash
+         head = subprocess.check_output(cmd.split()).strip().decode('utf-8')
+ 
+         # if head is a tag, use tag as reference
+@@ -115,35 +141,32 @@
+             tag = subprocess.check_output(cmd.split(" ")).strip().decode('utf-8')
+             return tag
+ 
+         except subprocess.CalledProcessError:
+             return head
+ 
+     except subprocess.CalledProcessError as e:
+-        if errors:
+-            raise e
+-        else:
+-            return logger.error("Failed to get head")  # so no head?
++        raise RuntimeError("Failed to get head") from e  # so no head?
+ 
+ 
+ def get_last_tag() -> str:
+-    """Get the most recent commit tag
++    """Returns the most recent commit tag
+ 
+     :raises RuntimeError: if there are no tagged commits
+     """
+     try:
+         cmd = "git describe --tags --abbrev=0"
+         return subprocess.check_output(cmd.split(" ")).strip().decode('utf-8')
+ 
+     except subprocess.CalledProcessError as e:
+         raise RuntimeError("No tags exist for the repo") from e
+ 
+ 
+ def get_repo_dir() -> Path:
+-    """Get the root directory of the repository
++    """Returns the root directory of the repository
+ 
+     :raises RuntimeError: if the directory can't be determined
+     """
+     try:
+         cmd = "git rev-parse --show-toplevel"
+         repo_dir = Path(subprocess.check_output(cmd.split(" ")).strip().decode('utf-8'))
+ 
+@@ -154,19 +177,18 @@
+     if repo_dir.parent == "checkouts":
+         return repo_dir.parent.parent
+     else:
+         return repo_dir
+ 
+ 
+ def get_linkcode_resolve(linkcode_url: str) -> Callable:
+-    """Defines and returns a ``linkcode_resolve`` function for your package
++    """Defines and returns a ``linkcode_resolve()`` function for your package
+ 
+-    Used by default if ``linkcode_resolve`` isn't defined in ``conf.py``
++    :param linkcode_url: the template URL for linking to source code (see :meth:`~get_linkcode_url`)
+     """
+-
+     repo_dir = get_repo_dir()
+     pkg = pkg_resources.require(repo_dir.name)[0]
+     top_level = pkg.get_metadata('top_level.txt').strip()
+ 
+     def linkcode_resolve(domain, info):
+         """Returns a link to the source code on GitHub, with appropriate lines highlighted
+```
+
+### Comparing `sphinx-readme-0.0.1b6/sphinx_readme/utils.py` & `sphinx-readme-0.0.1b7/sphinx_readme/utils.py`
+
+ * *Files 22% similar despite different names*
+
+```diff
+@@ -36,18 +36,21 @@
+ 
+ 
+ def format_rst(inline_markup: str, rst: str) -> str:
+     """Formats text with the specified type of inline markup
+ 
+     Preserves any ``inline literals`` within the text
+ 
+-    :Example::
++    **Example:**
+ 
+-        >>> format_rst("bold", "This is part of the ``sphinx_readme.utils`` module")
+-        "**This is part of the** ``sphinx_readme.utils`` **module**"
++    >>> format_rst("bold", "This is part of the ``sphinx_readme.utils`` module")
++    "**This is part of the** ``sphinx_readme.utils`` **module**"
++
++
++    **This is part of the** ``sphinx_readme.utils`` **module**
+ 
+     :param inline_markup: either "bold" or "italic"
+     :param rst: the rst content to format
+     """
+     if inline_markup == "bold":
+         markup = "**"
+     elif inline_markup == "italic":
+@@ -64,20 +67,20 @@
+         else:
+             parts.append(f"{markup}{part}{markup}")
+ 
+     return " ".join(parts)
+ 
+ 
+ def replace_only_directives(rst: str) -> str:
+-    """Replaces and removes ``only`` directives
++    """Replaces and removes :rst:dir:`only` directives.
+ 
+     If ``"readme"`` is in the ``<expression>`` part of the
+-    ``only`` directive, the content will be used.
++    directive, the content of the directive will be used.
+ 
+-    Otherwise, the directive will be removed
++    Otherwise, the directive will be removed.
+ 
+     :param rst: the content of an ``rst`` file
+     """
+     # Match all ``only`` directives
+     pattern = r"\.\. only::\s+(\S.*?)\n+?((?:^[ ]+.+?$|^\s*$)+?)(?=\n*\S+|\Z)"
+     directives = re.findall(pattern, rst, re.M | re.DOTALL)
+ 
+@@ -96,46 +99,52 @@
+             # Remove directive
+             rst = re.sub(pattern, '', rst)
+ 
+     return rst
+ 
+ 
+ def remove_raw_directives(rst: str) -> str:
++    """Removes all ``raw`` directives from ``rst``
++
++    :param rst: the rst to remove ``raw`` directives from
++    """
+     return re.sub(
+         pattern=r"(\.\. raw::\s+\S.*?\n+?(?:^[ ]+.+?$|^\s*$)+?)(?=\n*\S+|\Z)",
+         repl='', string=rst, flags=re.M | re.DOTALL
+     )
+ 
+ 
+-def get_variants(obj: str):
+-    """
++def get_xref_variants(target: str) -> List[str]:
++    """Returns a list of ways to make a cross-reference to ``target``
++
++    **Example:**
++
++    >>> get_xref_variants('mod.Class.meth')
++    ['mod.Class.meth', '.mod.Class.meth', '~mod.Class.meth', '~.mod.Class.meth']
+ 
+-    >>> get_variants('mod.Class.meth')
+-    >>> ['mod.Class.meth', '.mod.Class.meth', '~mod.Class.meth', '~.mod.Class.meth']
++    :param target: the object to generate cross-reference syntax for
+     """
+-    return [prefix + obj for prefix in ('', '.', '~', '~.')]
++    return [prefix + target for prefix in ('', '.', '~', '~.')]
+ 
+ 
+-def get_all_variants(fully_qualified_name: str) -> List[str]:
+-    """Generates a list of all possible ways to cross-reference a class/method/function
++def get_all_xref_variants(fully_qualified_name: str) -> List[str]:
++    """Generates a list of all possible ways to cross-reference an object
+ 
+-    >>> get_all_variants("sphinx_github_style.meth_lexer.TDKMethLexer.get_pkg_lexer")
++    **Example:**
+ 
+-    ['get_pkg_lexer', '.get_pkg_lexer', '~get_pkg_lexer', '~.get_pkg_lexer', 'TDKMethLexer.get_pkg_lexer',
+-    '.TDKMethLexer.get_pkg_lexer', '~TDKMethLexer.get_pkg_lexer', '~.TDKMethLexer.get_pkg_lexer',
+-    'meth_lexer.TDKMethLexer.get_pkg_lexer', '.meth_lexer.TDKMethLexer.get_pkg_lexer',
+-    '~meth_lexer.TDKMethLexer.get_pkg_lexer', '~.meth_lexer.TDKMethLexer.get_pkg_lexer',
+-    'sphinx_github_style.meth_lexer.TDKMethLexer.get_pkg_lexer',
+-     '.sphinx_github_style.meth_lexer.TDKMethLexer.get_pkg_lexer',
+-     '~sphinx_github_style.meth_lexer.TDKMethLexer.get_pkg_lexer',
+-      '~.sphinx_github_style.meth_lexer.TDKMethLexer.get_pkg_lexer']
++    >>> get_all_xref_variants("sphinx_readme.utils.get_all_xref_variants") # doctest: +NORMALIZE_WHITESPACE
++    ['get_all_xref_variants', '.get_all_xref_variants', '~get_all_xref_variants',
++    '~.get_all_xref_variants', 'utils.get_all_xref_variants', '.utils.get_all_xref_variants',
++    '~utils.get_all_xref_variants', '~.utils.get_all_xref_variants',
++    'sphinx_readme.utils.get_all_xref_variants', '.sphinx_readme.utils.get_all_xref_variants',
++    '~sphinx_readme.utils.get_all_xref_variants', '~.sphinx_readme.utils.get_all_xref_variants']
+ 
+-    :param fully_qualified_name: the fully qualified name (pkg.module.class.method)
++    :param fully_qualified_name: the fully qualified name of the target (ex. ``pkg.module.class.method``)
+     """
+     parts = fully_qualified_name.split(".")[::-1]  # => ['meth', 'Class', 'mod', "pkg"]
+     variants = []
+ 
+     for i, part in enumerate(parts):
+-        ref = '.'.join(parts[i::-1])  # 'meth', 'Class.meth', 'mod.class.meth', 'pkg.mod.class.meth'
+-        variants.extend(get_variants(ref))
++        target = '.'.join(parts[i::-1])  # 'meth', 'Class.meth', 'mod.class.meth', 'pkg.mod.class.meth'
++        variants.extend(get_xref_variants(target))
+ 
+     return variants
+```
+
+### Comparing `sphinx-readme-0.0.1b6/sphinx_readme.egg-info/PKG-INFO` & `sphinx-readme-0.0.1b7/sphinx_readme.egg-info/PKG-INFO`
+
+ * *Files 9% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: sphinx-readme
+-Version: 0.0.1b6
++Version: 0.0.1b7
+ Summary: Generate Beautiful reStructuredText README.rst for GitHub, PyPi, GitLab, BitBucket
+ Home-page: https://github.com/tdkorn/sphinx-readme
+ Author: Adam Korn
+ Author-email: hello@dailykitten.net
+ License: MIT License
+ Download-URL: https://github.com/TDKorn/sphinx-readme/tarball/main
+ Keywords: sphinx,docutils,sphinx-extension,sphinx-contrib,reStructuredText,rst,reST,parser,rst-parser,README.rst,README,autodoc,linkcode
+@@ -12,22 +12,22 @@
+ Classifier: Framework :: Sphinx :: Extension
+ Classifier: License :: OSI Approved :: MIT License
+ Classifier: Programming Language :: Python :: 3
+ Classifier: Programming Language :: Python :: 3.10
+ Description-Content-Type: text/x-rst; charset=UTF-8
+ License-File: LICENSE
+ 
+-.. |.`~.sphinx.ext.autodoc`| replace:: ``autodoc``
+-.. _.`~.sphinx.ext.autodoc`: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#module-sphinx.ext.autodoc
+-.. |.`sphinx.ext.autodoc`| replace:: ``sphinx.ext.autodoc``
+-.. _.`sphinx.ext.autodoc`: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#module-sphinx.ext.autodoc
+-.. |.`sphinx.ext.linkcode`| replace:: ``sphinx.ext.linkcode``
+-.. _.`sphinx.ext.linkcode`: https://www.sphinx-doc.org/en/master/usage/extensions/linkcode.html#module-sphinx.ext.linkcode
+-.. |.`~.parse_intersphinx_node`| replace:: ``parse_intersphinx_node()``
+-.. _.`~.parse_intersphinx_node`: https://github.com/TDKorn/sphinx-readme/blob/v0.0.1b6/sphinx_readme/parser.py#L124-L134
++.. |.sphinx.ext.linkcode| replace:: sphinx.ext.linkcode
++.. _.sphinx.ext.linkcode: https://www.sphinx-doc.org/en/master/usage/extensions/linkcode.html#module-sphinx.ext.linkcode
++.. |.sphinx.ext.autodoc| replace:: sphinx.ext.autodoc
++.. _.sphinx.ext.autodoc: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#module-sphinx.ext.autodoc
++.. |.~.sphinx.ext.autodoc| replace:: autodoc
++.. _.~.sphinx.ext.autodoc: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#module-sphinx.ext.autodoc
++.. |.~.parse_intersphinx_node| replace:: parse_intersphinx_node()
++.. _.~.parse_intersphinx_node: https://github.com/TDKorn/sphinx-readme/blob/v0.0.1b7/sphinx_readme/parser.py#L145-L159
+ .. |attention| replace:: 🔔️
+ .. |caution| replace:: ⚠️
+ .. |danger| replace:: ☢️
+ .. |error| replace:: ⛔
+ .. |hint| replace:: 🧠
+ .. |important| replace:: 📢
+ .. |note| replace:: 📝
+@@ -37,31 +37,31 @@
+ .. |about| replace:: 📚
+ 
+ .. meta::
+    :author: Adam Korn
+    :title: Sphinx README
+    :description: Sphinx Extension to Generate Beautiful reStructuredText README.rst for GitHub, PyPi, GitLab, BitBucket
+ 
+-
+ Sphinx README - Generate Beautiful ``README.rst`` for GitHub, PyPi, GitLab, BitBucket
+ --------------------------------------------------------------------------------------
+ 
+-.. image:: https://raw.githubusercontent.com/TDKorn/sphinx-readme/v0.0.1b6/docs/source/_static/logo_readme.png
++.. image:: https://raw.githubusercontent.com/TDKorn/sphinx-readme/v0.0.1b6/docs/source/_static/logo_transparent.png
+    :alt: Sphinx README: Generate Beautiful reStructuredText README.rst for GitHub, PyPi, GitLab, BitBucket
+    :align: center
+    :width: 25%
+ 
+-
+ A Sphinx extension to generate ``README.rst`` files that render beautifully on GitHub, PyPi, GitLab, BitBucket
+ 
++
+ .. |RTD| replace:: **Explore the docs »**
+ .. _RTD: https://sphinx-readme.readthedocs.io/en/latest/
+ 
+ |RTD|_
+ 
++|
+ 
+ .. image:: https://img.shields.io/pypi/v/sphinx-readme?color=eb5202
+    :target: https://pypi.org/project/sphinx-readme
+    :alt: PyPI Project for Sphinx README: Generate Beautiful reStructuredText README.rst for GitHub, PyPi, GitLab, BitBucket
+ 
+ .. image:: https://img.shields.io/badge/GitHub-sphinx--readme-4f1abc
+    :target: https://github.com/tdkorn/sphinx-readme
+@@ -71,15 +71,14 @@
+    :target: https://pepy.tech/project/sphinx-readme
+    :alt: Downloads for Sphinx README
+ 
+ .. image:: https://readthedocs.org/projects/sphinx-readme/badge/?version=latest
+    :target: https://sphinx-readme.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation for Sphinx README: Generate Beautiful reStructuredText README.rst for GitHub, PyPi, GitLab, BitBucket
+ 
+-
+ |
+ 
+ About Sphinx README
+ ~~~~~~~~~~~~~~~~~~~~~~~
+ 
+ 
+ .. csv-table::
+@@ -87,32 +86,32 @@
+ 
+    "``sphinx_readme`` is a ``reStructuredText`` parser that uses Sphinx
+    to generate ``rst`` files that render beautifully on
+    GitHub, PyPi, GitLab, and BitBucket."
+ 
+ 
+ 
+-With ``sphinx_readme``, there's no need to rewrite your ``README.rst`` as a ``README.md`` file
+-==============================================================================================
++**With** ``sphinx_readme`` **, there's no need to rewrite your** ``README.rst`` **as a** ``README.md`` **file**
+ 
+ Files generated by ``sphinx_readme`` have nearly identical appearance and functionality
+-as ``html`` builds, including |.`sphinx.ext.autodoc`|_ cross-references!
++as ``html`` builds, including |.sphinx.ext.autodoc|_ cross-references!
+ 
++|
+ 
+ .. image:: https://raw.githubusercontent.com/TDKorn/sphinx-readme/v0.0.1b6/docs/source/_static/demo/demo.gif
+    :alt: Demonstration of how reStructuredText README.rst files generated by Sphinx README render on GitHub, PyPi, GitLab, BitBucket
+    :width: 75%
+ 
+ 
+ Features
+ ~~~~~~~~~~
+ 
+ ``sphinx_readme`` adds support for the following ``sphinx`` and ``docutils`` directives and features:
+ 
+-* |.`sphinx.ext.autodoc`|_ cross-references (``:mod:``, ``:class:``, ``:meth:``, ``:func:``, and ``:attr:``)
++* |.sphinx.ext.autodoc|_ cross-references (``:mod:``, ``:class:``, ``:meth:``, ``:func:``, and ``:attr:``)
+ * Standard cross-reference roles (``:doc:`` and ``:ref:``)
+ * Generic and Specific Admonitions
+ * Only directives
+ * Toctrees
+ * Rubrics
+ * Images
+ 
+@@ -156,25 +155,25 @@
+  * At minimum, the username and repository name must be specified
+  * Please see `HTML Context Settings <https://docs.readthedocs.io/en/stable/guides/edit-source-links-sphinx.html>`_
+    to determine the correct dictionary keys for your hosting platform
+ 
+ .. |html_context| replace:: ``html_context``
+ .. _html_context: https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_context
+ 
+-...
++|
+ 
+ |html_baseurl|_
+  The base URL which points to the root of the HTML documentation
+ 
+   Type: ``str``
+ 
+ .. |html_baseurl| replace:: ``html_baseurl``
+ .. _html_baseurl: https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_baseurl
+ 
+-...
++|
+ 
+ |readme_src_files|_
+  An individual or list of ``rst`` files to parse
+ 
+   Type: ``Union[str, List]``
+ 
+ 
+@@ -183,26 +182,26 @@
+ 
+    "Filepaths should be specified relative to the source directory"
+ 
+ 
+ .. |readme_src_files| replace:: ``readme_src_files``
+ .. _readme_src_files: https://sphinx-readme.readthedocs.io/en/latest/configuration/configuring.html#confval-readme_src_files
+ 
+-...
++|
+ 
+ |readme_docs_url_type|_
+- The documentation source to link to when resolving |.`~.sphinx.ext.autodoc`|_ cross-references
++ The documentation source to link to when resolving |.~.sphinx.ext.autodoc|_ cross-references
+ 
+   Type: ``str``
+ 
+  Must be either ``"code"`` or ``"html"``
+ 
+- * ``"code"``: uses |.`sphinx.ext.linkcode`|_ to replace references with links to highlighted source code
++ * ``"code"``: uses |.sphinx.ext.linkcode|_ to replace references with links to highlighted source code
+ 
+-   **Example**: |.`~.parse_intersphinx_node`|_
++   **Example**: |.~.parse_intersphinx_node|_
+ 
+ 
+  * ``"html"``: replaces references with links to HTML documentation entries
+ 
+    **Example**: |parse_intersphinx_node_html|_
+ 
+ 
+@@ -251,16 +250,16 @@
+ .. _readme_raw_directive: https://sphinx-readme.readthedocs.io/en/latest/configuration/configuring.html#confval-readme_raw_directive
+ 
+ 
+ 
+ .. csv-table::
+    :header: |important| Important
+ 
+-   "If generating a ``README`` for a platform that doesn't support ``raw``
+-   directives (PyPi, GitLab, and BitBucket), be sure to disable |readme_raw_directive|_:
++   "For platforms that don't support the ``raw`` directive (PyPi, GitLab, and BitBucket),
++   be sure to disable |readme_raw_directive|_:
+ 
+    .. code-block:: python
+ 
+       readme_raw_directive = False"
+```
+
