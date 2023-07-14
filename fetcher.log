@@ -14658,3 +14658,122 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 09:10:40] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678382334.tar.gz]
 [2023-07-14 09:10:40] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
 [2023-07-14 09:10:40] INFO root fetch - main [MainThread]: Store serial: [18886383]
+[2023-07-14 09:15:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886383]
+[2023-07-14 09:15:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-14 09:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jilei
+[2023-07-14 09:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ac-infinity-ble
+[2023-07-14 09:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-tls
+[2023-07-14 09:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Alphakit
+[2023-07-14 09:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-nightly
+[2023-07-14 09:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icinga-pusher
+[2023-07-14 09:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aanalyticsact
+[2023-07-14 09:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-hub-nightly
+[2023-07-14 09:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xhibit
+[2023-07-14 09:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: VGPY
+[2023-07-14 09:15:50] INFO root fetch - processPackages [xhibit]: New version: [9.5.9] Old Version: [9.5.7]
+[2023-07-14 09:15:50] INFO root fetch - processPackages [jilei]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-14 09:15:50] INFO root fetch - processPackages [Alphakit]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-14 09:15:50] WARNING root fetch - processPackages [ac-infinity-ble]: Skipping, unable to determine old version
+[2023-07-14 09:15:50] INFO root fetch - processPackages [ac-infinity-ble]: Start processing: pfizer-components
+[2023-07-14 09:15:50] INFO root fetch - main [MainThread]: End processing [ac-infinity-ble] error
+[2023-07-14 09:15:50] INFO root fetch - processPackages [icinga-pusher]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 09:15:50] INFO root fetch - processPackages [VGPY]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-14 09:15:50] INFO root fetch - processPackages [aanalyticsact]: New version: [0.0.1.34] Old Version: [0.0.1.31]
+[2023-07-14 09:15:50] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1689316805] Old Version: [5.1.0a1687758130]
+[2023-07-14 09:15:50] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-14 09:15:50] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-14 09:15:50] INFO root fetch - processPackages [pfizer-components]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-14 09:15:50] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/48/39/fd75e0cb409f9645092e60b7633d9d3a483007c6e0512f6e6fcae529ffc9/xhibit-9.5.7.tar.gz
+[2023-07-14 09:15:50] INFO root fetch - processPackages [Alphakit]: Downloading https://files.pythonhosted.org/packages/5b/24/4c61b5beb2955a12d71cd5301d12b7a9690867a1f378926f94b1231117b8/Alphakit-1.2.2.tar.gz
+[2023-07-14 09:15:50] INFO root fetch - processPackages [icinga-pusher]: Downloading https://files.pythonhosted.org/packages/9a/85/4d1024599cd3853f04b8aa0867395d5d5ebc9e680f9a7c63352a1ce6d041/icinga_pusher-0.1.8.tar.gz
+[2023-07-14 09:15:50] INFO root fetch - processPackages [jilei]: Downloading https://files.pythonhosted.org/packages/04/35/0881ee39ace0b733f2f6d93d1e7c1718c9ab54ea130b70ea5f550907ee75/jilei-0.2.0.tar.gz
+[2023-07-14 09:15:50] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/1c/f4/03b2fc8d4d0e49ea6630746baf2a9b86a50169276a73eda211ac7ac5e128/aanalyticsact-0.0.1.31.tar.gz
+[2023-07-14 09:15:50] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-14 09:15:50] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/1a/55/13427d0b7cbe5f2266e02b5002d1be8b0a8fe37e0674f47e5d305ea15a03/pfizer_components-0.2.6-py3-none-any.whl
+[2023-07-14 09:15:50] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/88/b9/e7460ab301b01ab6bf4636e2cc46ff90307488d8fbbf21a7384fcc9742e4/pulumi_tls-5.1.0a1687758130.tar.gz
+[2023-07-14 09:15:50] INFO root fetch - processPackages [VGPY]: Downloading https://files.pythonhosted.org/packages/5d/a3/49959aafbc57b582d78d0007bdeaf035d0ff2c6fbc3176efafcd32d64b67/VGPY-1.0.0.tar.gz
+[2023-07-14 09:15:50] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-14 09:15:51] INFO root fetch - processPackages [icinga-pusher]: Downloading https://files.pythonhosted.org/packages/c6/90/c118f409e6957e3810606271ea1ea06f10645943053c4fa7c6b3c599131a/icinga_pusher-0.1.9.tar.gz
+[2023-07-14 09:15:51] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/bd/e7/7c568300233db8baab30e4ab8809d776fc0391364fc7b49b2b0611b0da0d/aanalyticsact-0.0.1.34.tar.gz
+[2023-07-14 09:15:51] INFO root fetch - processPackages [Alphakit]: Downloading https://files.pythonhosted.org/packages/57/93/e414460631933e40882e5ece7788db9c52e807988e277da26d3f504f6f4f/Alphakit-1.2.3.tar.gz
+[2023-07-14 09:15:51] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/53/1b/078d26815d6634a0e2c4ae8632b5066413504d0aee3bbd5c8b575b115c20/xhibit-9.5.9.tar.gz
+[2023-07-14 09:15:51] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/f4/42/d9f4164167507b4b2a2d7a662302abbad19bb1c13deca42ef1e3fb379fe1/pulumi_tls-5.1.0a1689316805.tar.gz
+[2023-07-14 09:15:51] INFO root fetch - processPackages [icinga-pusher]: executing diffoscope
+[2023-07-14 09:15:51] INFO root fetch - processPackages [icinga-pusher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icinga_pusher-0.1.8.tar.gz tmp/icinga_pusher-0.1.9.tar.gz --markdown 20230714/i/icinga-pusher/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 09:15:51] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/a1/04/de98232dffd684c16d6fbf9cb29d0436665ef8d15aa5167890c4acdf401c/pfizer_components-0.2.7-py3-none-any.whl
+[2023-07-14 09:15:51] INFO root fetch - processPackages [jilei]: Downloading https://files.pythonhosted.org/packages/d0/f2/235b9d2e4905976ed90a1f5272c7bc3657bb8ce49e52fc3f95ffee9feafd/jilei-0.2.1.tar.gz
+[2023-07-14 09:15:51] INFO root fetch - processPackages [VGPY]: Downloading https://files.pythonhosted.org/packages/1e/95/ca3587fa8cdec5ab50fa7e4e95f5a525438facfbab07a3cdefeea07189e9/VGPY-1.0.1.tar.gz
+[2023-07-14 09:15:51] INFO root fetch - processPackages [xhibit]: executing diffoscope
+[2023-07-14 09:15:51] INFO root fetch - processPackages [xhibit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhibit-9.5.7.tar.gz tmp/xhibit-9.5.9.tar.gz --markdown 20230714/x/xhibit/9.5.7-9.5.9/diff.md --exclude *.pyd
+[2023-07-14 09:15:51] INFO root fetch - processPackages [aanalyticsact]: executing diffoscope
+[2023-07-14 09:15:51] INFO root fetch - processPackages [aanalyticsact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact-0.0.1.31.tar.gz tmp/aanalyticsact-0.0.1.34.tar.gz --markdown 20230714/a/aanalyticsact/0.0.1.31-0.0.1.34/diff.md --exclude *.pyd
+[2023-07-14 09:15:51] INFO root fetch - processPackages [VGPY]: executing diffoscope
+[2023-07-14 09:15:51] INFO root fetch - processPackages [VGPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VGPY-1.0.0.tar.gz tmp/VGPY-1.0.1.tar.gz --markdown 20230714/V/VGPY/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-14 09:15:51] INFO root fetch - processPackages [Alphakit]: executing diffoscope
+[2023-07-14 09:15:51] INFO root fetch - processPackages [Alphakit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alphakit-1.2.2.tar.gz tmp/Alphakit-1.2.3.tar.gz --markdown 20230714/A/Alphakit/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-14 09:15:51] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-14 09:15:51] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2023-07-14 09:15:51] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1687758130.tar.gz tmp/pulumi_tls-5.1.0a1689316805.tar.gz --markdown 20230714/p/pulumi-tls/5.1.0a1687758130-5.1.0a1689316805/diff.md --exclude *.pyd
+[2023-07-14 09:15:51] INFO root fetch - processPackages [jilei]: executing diffoscope
+[2023-07-14 09:15:51] INFO root fetch - processPackages [jilei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jilei-0.2.0.tar.gz tmp/jilei-0.2.1.tar.gz --markdown 20230714/j/jilei/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-14 09:15:51] INFO root fetch - processPackages [pfizer-components]: executing diffoscope
+[2023-07-14 09:15:51] INFO root fetch - processPackages [pfizer-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components-0.2.6-py3-none-any.whl.zip tmp/pfizer_components-0.2.7-py3-none-any.whl.zip --markdown 20230714/p/pfizer-components/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-14 09:15:51] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-14 09:15:51] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230714/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-14 09:15:52] INFO root fetch - processPackages [icinga-pusher]: Remove: archive file [/home/abi/fetcher/tmp/icinga_pusher-0.1.8.tar.gz]
+[2023-07-14 09:15:52] INFO root fetch - processPackages [icinga-pusher]: Remove: archive file [/home/abi/fetcher/tmp/icinga_pusher-0.1.9.tar.gz]
+[2023-07-14 09:15:52] INFO root fetch - processPackages [icinga-pusher]: Start processing: pure-ocean-breeze
+[2023-07-14 09:15:52] INFO root fetch - main [MainThread]: End processing [icinga-pusher]: success
+[2023-07-14 09:15:52] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [4.0.6] Old Version: [4.0.5]
+[2023-07-14 09:15:52] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-14 09:15:52] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/62/b1/d30c9e8060c0ea33bda12c9ec47eadec78bdb7a53950a45337b87ed8977c/pure_ocean_breeze-4.0.5.tar.gz
+[2023-07-14 09:15:52] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.7.tar.gz]
+[2023-07-14 09:15:52] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.5.9.tar.gz]
+[2023-07-14 09:15:52] INFO root fetch - processPackages [xhibit]: Start processing: tfq-nightly
+[2023-07-14 09:15:52] INFO root fetch - main [MainThread]: End processing [xhibit]: success
+[2023-07-14 09:15:52] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.1.31.tar.gz]
+[2023-07-14 09:15:52] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.1.34.tar.gz]
+[2023-07-14 09:15:52] INFO root fetch - processPackages [aanalyticsact]: Start processing: xdat
+[2023-07-14 09:15:52] INFO root fetch - main [MainThread]: End processing [aanalyticsact]: success
+[2023-07-14 09:15:52] INFO root fetch - processPackages [VGPY]: Remove: archive file [/home/abi/fetcher/tmp/VGPY-1.0.0.tar.gz]
+[2023-07-14 09:15:52] INFO root fetch - processPackages [VGPY]: Remove: archive file [/home/abi/fetcher/tmp/VGPY-1.0.1.tar.gz]
+[2023-07-14 09:15:52] INFO root fetch - main [MainThread]: End processing [VGPY]: success
+[2023-07-14 09:15:52] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-14 09:15:52] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230714/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-14 09:15:52] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230713] Old Version: [0.7.3.dev20230712]
+[2023-07-14 09:15:52] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1687758130.tar.gz]
+[2023-07-14 09:15:52] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1689316805.tar.gz]
+[2023-07-14 09:15:52] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2023-07-14 09:15:53] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-14 09:15:53] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/ae/8a/35ff2d4ee76d64064815f363380128d08fc14178d1587d953da2b06717ba/pure_ocean_breeze-4.0.6.tar.gz
+[2023-07-14 09:15:53] INFO root fetch - processPackages [jilei]: Remove: archive file [/home/abi/fetcher/tmp/jilei-0.2.0.tar.gz]
+[2023-07-14 09:15:53] INFO root fetch - processPackages [jilei]: Remove: archive file [/home/abi/fetcher/tmp/jilei-0.2.1.tar.gz]
+[2023-07-14 09:15:53] INFO root fetch - main [MainThread]: End processing [jilei]: success
+[2023-07-14 09:15:53] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.2.6-py3-none-any.whl.zip]
+[2023-07-14 09:15:53] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.2.7-py3-none-any.whl.zip]
+[2023-07-14 09:15:53] INFO root fetch - main [MainThread]: End processing [pfizer-components]: success
+[2023-07-14 09:15:53] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-14 09:15:53] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-14 09:15:53] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-14 09:15:53] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/23/9a/6864594c4912b2d7a58250d36a5cd914b700966f4d62dd4a74034433209f/tfq_nightly-0.7.3.dev20230712-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-14 09:15:53] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-07-14 09:15:53] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-4.0.5.tar.gz tmp/pure_ocean_breeze-4.0.6.tar.gz --markdown 20230714/p/pure-ocean-breeze/4.0.5-4.0.6/diff.md --exclude *.pyd
+[2023-07-14 09:15:53] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807265>=10485760
+[2023-07-14 09:15:53] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-14 09:15:53] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2023-07-14 09:15:53] INFO root fetch - processPackages [Alphakit]: Remove: archive file [/home/abi/fetcher/tmp/Alphakit-1.2.2.tar.gz]
+[2023-07-14 09:15:53] INFO root fetch - processPackages [Alphakit]: Remove: archive file [/home/abi/fetcher/tmp/Alphakit-1.2.3.tar.gz]
+[2023-07-14 09:15:53] INFO root fetch - main [MainThread]: End processing [Alphakit]: success
+[2023-07-14 09:15:53] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2023-07-14 09:15:53] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-07-14 09:15:53] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230714/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-14 09:15:54] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.5.tar.gz]
+[2023-07-14 09:15:54] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.6.tar.gz]
+[2023-07-14 09:15:54] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-07-14 09:15:54] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.98.tar.gz]
+[2023-07-14 09:15:54] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.99.tar.gz]
+[2023-07-14 09:15:54] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-07-14 09:16:01] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-14 09:16:01] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-14 09:16:01] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-14 09:16:01] INFO root fetch - main [MainThread]: Store serial: [18886420]
