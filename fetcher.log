@@ -18214,3 +18214,118 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 11:57:21] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-14 11:57:21] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-14 11:57:21] INFO root fetch - main [MainThread]: Store serial: [18888034]
+[2023-07-14 12:02:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888034]
+[2023-07-14 12:02:31] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plone.app.robotframework
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdxms-datasets
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cro
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ievv-auth
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: motipy
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trattoria
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enebootools
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: awsibox
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xml-sitemap-writer
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mrzerocore
+[2023-07-14 12:02:31] INFO root fetch - processPackages [trattoria]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-14 12:02:31] INFO root fetch - processPackages [awsibox]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-14 12:02:31] INFO root fetch - processPackages [hdxms-datasets]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 12:02:31] INFO root fetch - processPackages [cro]: New version: [0.0.5.2] Old Version: [0.0.5.1]
+[2023-07-14 12:02:31] INFO root fetch - processPackages [xml-sitemap-writer]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ievv-auth]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-07-14 12:02:31] INFO root fetch - processPackages [mrzerocore]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-14 12:02:31] INFO root fetch - processPackages [motipy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 12:02:31] INFO root fetch - processPackages [enebootools]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-14 12:02:31] INFO root fetch - processPackages [plone.app.robotframework]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-07-14 12:02:31] INFO root fetch - processPackages [trattoria]: Downloading https://files.pythonhosted.org/packages/7a/66/fe0810e25418d41ac0a3903d04e4ab3315c2a8591085b4fa83838d58505c/trattoria-0.3.5.tar.gz
+[2023-07-14 12:02:31] ERROR root fetch - processPackages [motipy]: Unable to fetch info: No such project/version 'motipy' 0.1.1
+[2023-07-14 12:02:31] INFO root fetch - processPackages [motipy]: Start processing: ddadevops
+[2023-07-14 12:02:31] INFO root fetch - main [MainThread]: End processing [motipy] error
+[2023-07-14 12:02:31] INFO root fetch - processPackages [hdxms-datasets]: Downloading https://files.pythonhosted.org/packages/e5/db/3bd4b7effcd8b28d9e98c27fe98a72cd7f1c737cab0962caf1082d3ecd77/hdxms_datasets-0.1.1.tar.gz
+[2023-07-14 12:02:31] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/a9/ef/7a9efb1d4ba1b9713e2cc7f8ef7b2d2c17b5d5bcea85e70cba8d3c239af3/awsibox-0.8.8.tar.gz
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ievv-auth]: Downloading https://files.pythonhosted.org/packages/fe/3c/9d3185d0955024d2329f07f95b0ecb9e5ffca200b2c2c484458835fde77a/ievv_auth-3.1.0.tar.gz
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ddadevops]: New version: [4.1.0.dev1] Old Version: [4.0.9]
+[2023-07-14 12:02:31] INFO root fetch - processPackages [cro]: Downloading https://files.pythonhosted.org/packages/33/9f/362389c719c96c13d6edab1bedb6ddf78456ac3359c12032eb8e9e1de74b/cro-0.0.5.1.tar.gz
+[2023-07-14 12:02:31] INFO root fetch - processPackages [xml-sitemap-writer]: Downloading https://files.pythonhosted.org/packages/a3/6f/8f02fdaf087e6fb8bb3b2a1bec5bb50977fa97b5d3a069de717fdbdf575a/xml_sitemap_writer-0.5.0.tar.gz
+[2023-07-14 12:02:31] INFO root fetch - processPackages [mrzerocore]: Downloading https://files.pythonhosted.org/packages/73/8d/3638358dfe6c3204baf4637cb342ecc8b8edecb4287d417b4e20d0574e6a/MRzeroCore-0.2.0-cp37-abi3-win_amd64.whl
+[2023-07-14 12:02:31] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/96/a6/f5dbde2a17640259ee0c244a670ffca24661530f548753a68de5b812a140/enebootools-2.0.8.tar.gz
+[2023-07-14 12:02:31] INFO root fetch - processPackages [plone.app.robotframework]: Downloading https://files.pythonhosted.org/packages/80/a4/7047abddbe1873967ac8181e8aecaffd3639cd307140a406f908bc83990e/plone.app.robotframework-2.0.1.tar.gz
+[2023-07-14 12:02:31] INFO root fetch - processPackages [trattoria]: Downloading https://files.pythonhosted.org/packages/eb/51/0a2ffc0da88d6bcf3a5139525043a24852d3f05e7421d48ddc034b02bc50/trattoria-0.3.6.tar.gz
+[2023-07-14 12:02:31] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/b7/86/883745ce4b39c3406ebec6269e63d99ab7400df2b79af3749014b70e2a7d/ddadevops-4.0.9.tar.gz
+[2023-07-14 12:02:32] INFO root fetch - processPackages [trattoria]: executing diffoscope
+[2023-07-14 12:02:32] INFO root fetch - processPackages [trattoria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trattoria-0.3.5.tar.gz tmp/trattoria-0.3.6.tar.gz --markdown 20230714/t/trattoria/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-14 12:02:32] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/bd/41/97f426218bf37f05ecec2fcd910d40231970b88407cceb6112511b0f75c1/awsibox-0.8.9.tar.gz
+[2023-07-14 12:02:32] INFO root fetch - processPackages [hdxms-datasets]: Downloading https://files.pythonhosted.org/packages/09/d7/2d6a02464631083f53747c84d6569a9a59cd61d768f2364fb0c74d5da717/hdxms_datasets-0.1.2.tar.gz
+[2023-07-14 12:02:32] INFO root fetch - processPackages [ievv-auth]: Downloading https://files.pythonhosted.org/packages/51/e3/1321cc124eeeb75a4d51497a635b800e0b12fc6f2f0952c67772f4f093c2/ievv_auth-3.1.1.tar.gz
+[2023-07-14 12:02:32] INFO root fetch - processPackages [mrzerocore]: Downloading https://files.pythonhosted.org/packages/c5/03/dfcf7ba9c61f484c5f5ffa51b06030b43c7ada9106b184b7001a055e34de/MRzeroCore-0.2.1-cp37-abi3-win_amd64.whl
+[2023-07-14 12:02:32] INFO root fetch - processPackages [plone.app.robotframework]: Downloading https://files.pythonhosted.org/packages/e0/4f/2332a6a263599ddbfc8bb8c7f6fe5dc8ae86c0cbd4ead4677f8ad6870dc5/plone.app.robotframework-2.1.0.tar.gz
+[2023-07-14 12:02:32] INFO root fetch - processPackages [xml-sitemap-writer]: Downloading https://files.pythonhosted.org/packages/d0/c3/4213a30131a5b31cba18bccd7ddbae4ed47c09448a30ffa7043cf2792e38/xml_sitemap_writer-0.5.1.tar.gz
+[2023-07-14 12:02:32] INFO root fetch - processPackages [awsibox]: executing diffoscope
+[2023-07-14 12:02:32] INFO root fetch - processPackages [awsibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsibox-0.8.8.tar.gz tmp/awsibox-0.8.9.tar.gz --markdown 20230714/a/awsibox/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-14 12:02:32] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/0b/50/a98ff2d478f2b96df200e7e6a5c0ff28fe92712c685482f5ce0bd910c066/enebootools-2.0.9.tar.gz
+[2023-07-14 12:02:32] INFO root fetch - processPackages [cro]: Downloading https://files.pythonhosted.org/packages/53/ce/593299c0493b53f810e933f976111f361d877bce890f9b9955e813b72729/cro-0.0.5.2.tar.gz
+[2023-07-14 12:02:32] INFO root fetch - processPackages [ievv-auth]: executing diffoscope
+[2023-07-14 12:02:32] INFO root fetch - processPackages [ievv-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ievv_auth-3.1.0.tar.gz tmp/ievv_auth-3.1.1.tar.gz --markdown 20230714/i/ievv-auth/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-07-14 12:02:32] INFO root fetch - processPackages [hdxms-datasets]: executing diffoscope
+[2023-07-14 12:02:32] INFO root fetch - processPackages [hdxms-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdxms_datasets-0.1.1.tar.gz tmp/hdxms_datasets-0.1.2.tar.gz --markdown 20230714/h/hdxms-datasets/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 12:02:32] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/9e/d0/d3a6ec0ee2fe19f9b12090ec282461ca2cd56a04b1e78db3f519c9c32169/ddadevops-4.1.0.dev1.tar.gz
+[2023-07-14 12:02:32] INFO root fetch - processPackages [xml-sitemap-writer]: executing diffoscope
+[2023-07-14 12:02:32] INFO root fetch - processPackages [xml-sitemap-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xml_sitemap_writer-0.5.0.tar.gz tmp/xml_sitemap_writer-0.5.1.tar.gz --markdown 20230714/x/xml-sitemap-writer/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-14 12:02:32] INFO root fetch - processPackages [plone.app.robotframework]: executing diffoscope
+[2023-07-14 12:02:32] INFO root fetch - processPackages [plone.app.robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.robotframework-2.0.1.tar.gz tmp/plone.app.robotframework-2.1.0.tar.gz --markdown 20230714/p/plone.app.robotframework/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-07-14 12:02:32] INFO root fetch - processPackages [mrzerocore]: executing diffoscope
+[2023-07-14 12:02:32] INFO root fetch - processPackages [mrzerocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MRzeroCore-0.2.0-cp37-abi3-win_amd64.whl.zip tmp/MRzeroCore-0.2.1-cp37-abi3-win_amd64.whl.zip --markdown 20230714/m/mrzerocore/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-14 12:02:32] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-07-14 12:02:32] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-2.0.8.tar.gz tmp/enebootools-2.0.9.tar.gz --markdown 20230714/e/enebootools/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-14 12:02:32] INFO root fetch - processPackages [cro]: executing diffoscope
+[2023-07-14 12:02:32] INFO root fetch - processPackages [cro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cro-0.0.5.1.tar.gz tmp/cro-0.0.5.2.tar.gz --markdown 20230714/c/cro/0.0.5.1-0.0.5.2/diff.md --exclude *.pyd
+[2023-07-14 12:02:32] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-07-14 12:02:32] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.9.tar.gz tmp/ddadevops-4.1.0.dev1.tar.gz --markdown 20230714/d/ddadevops/4.0.9-4.1.0.dev1/diff.md --exclude *.pyd
+[2023-07-14 12:02:33] INFO root fetch - processPackages [trattoria]: Remove: archive file [/home/abi/fetcher/tmp/trattoria-0.3.5.tar.gz]
+[2023-07-14 12:02:33] INFO root fetch - processPackages [trattoria]: Remove: archive file [/home/abi/fetcher/tmp/trattoria-0.3.6.tar.gz]
+[2023-07-14 12:02:33] INFO root fetch - processPackages [trattoria]: Start processing: huhk
+[2023-07-14 12:02:33] INFO root fetch - main [MainThread]: End processing [trattoria]: success
+[2023-07-14 12:02:33] INFO root fetch - processPackages [huhk]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-07-14 12:02:33] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/5f/af/a065f80464cfce272219921d1587456226cdeee698608553f21149cf97fb/huhk-1.6.5.tar.gz
+[2023-07-14 12:02:34] INFO root fetch - processPackages [xml-sitemap-writer]: Remove: archive file [/home/abi/fetcher/tmp/xml_sitemap_writer-0.5.0.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - processPackages [xml-sitemap-writer]: Remove: archive file [/home/abi/fetcher/tmp/xml_sitemap_writer-0.5.1.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - processPackages [xml-sitemap-writer]: Start processing: openhexa.sdk
+[2023-07-14 12:02:34] INFO root fetch - main [MainThread]: End processing [xml-sitemap-writer]: success
+[2023-07-14 12:02:34] INFO root fetch - processPackages [hdxms-datasets]: Remove: archive file [/home/abi/fetcher/tmp/hdxms_datasets-0.1.1.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - processPackages [hdxms-datasets]: Remove: archive file [/home/abi/fetcher/tmp/hdxms_datasets-0.1.2.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - main [MainThread]: End processing [hdxms-datasets]: success
+[2023-07-14 12:02:34] INFO root fetch - processPackages [ievv-auth]: Remove: archive file [/home/abi/fetcher/tmp/ievv_auth-3.1.0.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - processPackages [ievv-auth]: Remove: archive file [/home/abi/fetcher/tmp/ievv_auth-3.1.1.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - main [MainThread]: End processing [ievv-auth]: success
+[2023-07-14 12:02:34] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/bd/47/5ed78393f5281312dfd9ed0cd8bfb82b7533dfd4af7a1de48c4f76851dff/huhk-1.6.6.tar.gz
+[2023-07-14 12:02:34] INFO root fetch - processPackages [mrzerocore]: Remove: archive file [/home/abi/fetcher/tmp/MRzeroCore-0.2.0-cp37-abi3-win_amd64.whl.zip]
+[2023-07-14 12:02:34] INFO root fetch - processPackages [mrzerocore]: Remove: archive file [/home/abi/fetcher/tmp/MRzeroCore-0.2.1-cp37-abi3-win_amd64.whl.zip]
+[2023-07-14 12:02:34] INFO root fetch - main [MainThread]: End processing [mrzerocore]: success
+[2023-07-14 12:02:34] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 12:02:34] INFO root fetch - processPackages [cro]: Remove: archive file [/home/abi/fetcher/tmp/cro-0.0.5.1.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - processPackages [cro]: Remove: archive file [/home/abi/fetcher/tmp/cro-0.0.5.2.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - main [MainThread]: End processing [cro]: success
+[2023-07-14 12:02:34] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.9.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.1.0.dev1.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-07-14 12:02:34] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-14 12:02:34] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.6.5.tar.gz tmp/huhk-1.6.6.tar.gz --markdown 20230714/h/huhk/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-07-14 12:02:34] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.8.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.9.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-07-14 12:02:34] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/2d/63/6cf8c3d8c690624bf5da3eccae426000fc384f6f2b1e46094f46a261b21e/openhexa.sdk-0.1.8.tar.gz
+[2023-07-14 12:02:34] INFO root fetch - processPackages [plone.app.robotframework]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.robotframework-2.0.1.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - processPackages [plone.app.robotframework]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.robotframework-2.1.0.tar.gz]
+[2023-07-14 12:02:34] INFO root fetch - main [MainThread]: End processing [plone.app.robotframework]: success
+[2023-07-14 12:02:34] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/01/47/9a54270a3486c1a1712ca7717008e6748264c1125692b213adfd2f68b21c/openhexa.sdk-0.1.9.tar.gz
+[2023-07-14 12:02:35] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-07-14 12:02:35] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20230714/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 12:02:35] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.5.tar.gz]
+[2023-07-14 12:02:35] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.6.tar.gz]
+[2023-07-14 12:02:35] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-14 12:02:35] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.8.8.tar.gz]
+[2023-07-14 12:02:35] INFO root fetch - processPackages [awsibox]: Remove: archive file [/home/abi/fetcher/tmp/awsibox-0.8.9.tar.gz]
+[2023-07-14 12:02:35] INFO root fetch - main [MainThread]: End processing [awsibox]: success
+[2023-07-14 12:02:35] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.8.tar.gz]
+[2023-07-14 12:02:36] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.9.tar.gz]
+[2023-07-14 12:02:36] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-07-14 12:02:36] INFO root fetch - main [MainThread]: Store serial: [18888074]
