@@ -11168,3 +11168,75 @@
 [2023-07-14 05:40:41] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.9.tar.gz]
 [2023-07-14 05:40:41] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2023-07-14 05:40:41] INFO root fetch - main [MainThread]: Store serial: [18885169]
+[2023-07-14 05:45:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885169]
+[2023-07-14 05:45:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invoicing-pdf-mrm
+[2023-07-14 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scutls
+[2023-07-14 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: b2a
+[2023-07-14 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlmesh
+[2023-07-14 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: protloc-mex1
+[2023-07-14 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-ts
+[2023-07-14 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reytool
+[2023-07-14 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NRM-artist
+[2023-07-14 05:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kabutobashi
+[2023-07-14 05:45:49] INFO root fetch - processPackages [kabutobashi]: New version: [0.7.0] Old Version: [0.6.5]
+[2023-07-14 05:45:49] WARNING root fetch - processPackages [NRM-artist]: Skipping, unable to determine old version
+[2023-07-14 05:45:49] INFO root fetch - main [MainThread]: End processing [NRM-artist] error
+[2023-07-14 05:45:49] INFO root fetch - processPackages [simple-ts]: New version: [0.3] Old Version: [0.2]
+[2023-07-14 05:45:50] INFO root fetch - processPackages [protloc-mex1]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 05:45:50] INFO root fetch - processPackages [b2a]: New version: [2023.7.4.1] Old Version: [2022.7.7.1]
+[2023-07-14 05:45:50] INFO root fetch - processPackages [scutls]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-14 05:45:50] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-14 05:45:50] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-14 05:45:50] WARNING root fetch - processPackages [invoicing-pdf-mrm]: Skipping, unable to determine old version
+[2023-07-14 05:45:50] INFO root fetch - main [MainThread]: End processing [invoicing-pdf-mrm] error
+[2023-07-14 05:45:50] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/4a/24/7490429f7ec26bc77030b08ad04c7db789ae725f4a5355c6c610953b599d/simple_ts-0.2.tar.gz
+[2023-07-14 05:45:50] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-07-14 05:45:50] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-14 05:45:50] INFO root fetch - processPackages [b2a]: Downloading https://files.pythonhosted.org/packages/40/33/6d18f735cd25a90166d6f5324194fb8d4367b9967fa2407d862a1da0e3a2/b2a-2022.7.7.1.tar.gz
+[2023-07-14 05:45:50] INFO root fetch - processPackages [kabutobashi]: Downloading https://files.pythonhosted.org/packages/cb/2b/6bb6f9db4ba01ca5080f5a45eea19d536ea1ef1d68a62fe41d1c5adc14ca/kabutobashi-0.6.5.tar.gz
+[2023-07-14 05:45:50] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/f1/a6/b12a1d269d5bdf4475b5466ebbe2ad69d3f3521620e4e11b9debbfd08d62/protloc_mex1-0.0.8.tar.gz
+[2023-07-14 05:45:50] INFO root fetch - processPackages [scutls]: Downloading https://files.pythonhosted.org/packages/71/82/bce779a9212fdb71660848955947a2733c6c56bf1a26d0b40221268daf31/scutls-0.3.2.tar.gz
+[2023-07-14 05:45:50] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-14 05:45:50] INFO root fetch - processPackages [simple-ts]: Downloading https://files.pythonhosted.org/packages/d4/3d/05c70837c59b4f4e7d6a8f58fc02a762ae8199a06ee6eb8d7d9fb7f19de8/simple_ts-0.3.tar.gz
+[2023-07-14 05:45:50] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-14 05:45:50] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230714/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-14 05:45:50] INFO root fetch - processPackages [kabutobashi]: Downloading https://files.pythonhosted.org/packages/2c/9d/df676096996f141369125dc8529c8fb1e88ae72dcf2bba06478ccd1ac71c/kabutobashi-0.7.0.tar.gz
+[2023-07-14 05:45:50] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/b1/ec/42aec6951104a9842e9ff6d86fc2cc4b4cce8658effe452817ca74f55dfe/protloc_mex1-0.0.9.tar.gz
+[2023-07-14 05:45:50] INFO root fetch - processPackages [scutls]: Downloading https://files.pythonhosted.org/packages/ad/b1/60134342428b333c68a242acc27721359d4f2bfb6f7f75aeb24e0dd2764d/scutls-0.3.3.tar.gz
+[2023-07-14 05:45:50] INFO root fetch - processPackages [b2a]: Downloading https://files.pythonhosted.org/packages/d4/06/d3ab9be0d0883b528860df820dcacf5fa95db7926667a244230204551a20/b2a-2023.7.4.1.tar.gz
+[2023-07-14 05:45:50] INFO root fetch - processPackages [simple-ts]: executing diffoscope
+[2023-07-14 05:45:50] INFO root fetch - processPackages [simple-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_ts-0.2.tar.gz tmp/simple_ts-0.3.tar.gz --markdown 20230714/s/simple-ts/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-14 05:45:50] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-07-14 05:45:50] INFO root fetch - processPackages [scutls]: executing diffoscope
+[2023-07-14 05:45:50] INFO root fetch - processPackages [scutls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scutls-0.3.2.tar.gz tmp/scutls-0.3.3.tar.gz --markdown 20230714/s/scutls/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-14 05:45:51] INFO root fetch - processPackages [kabutobashi]: executing diffoscope
+[2023-07-14 05:45:51] INFO root fetch - processPackages [kabutobashi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kabutobashi-0.6.5.tar.gz tmp/kabutobashi-0.7.0.tar.gz --markdown 20230714/k/kabutobashi/0.6.5-0.7.0/diff.md --exclude *.pyd
+[2023-07-14 05:45:51] INFO root fetch - processPackages [b2a]: executing diffoscope
+[2023-07-14 05:45:51] INFO root fetch - processPackages [b2a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2a-2022.7.7.1.tar.gz tmp/b2a-2023.7.4.1.tar.gz --markdown 20230714/b/b2a/2022.7.7.1-2023.7.4.1/diff.md --exclude *.pyd
+[2023-07-14 05:45:51] INFO root fetch - processPackages [protloc-mex1]: executing diffoscope
+[2023-07-14 05:45:51] INFO root fetch - processPackages [protloc-mex1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex1-0.0.8.tar.gz tmp/protloc_mex1-0.0.9.tar.gz --markdown 20230714/p/protloc-mex1/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 05:45:51] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-07-14 05:45:51] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230714/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 05:45:51] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.2.tar.gz]
+[2023-07-14 05:45:51] INFO root fetch - processPackages [simple-ts]: Remove: archive file [/home/abi/fetcher/tmp/simple_ts-0.3.tar.gz]
+[2023-07-14 05:45:51] INFO root fetch - main [MainThread]: End processing [simple-ts]: success
+[2023-07-14 05:45:51] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-14 05:45:51] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-14 05:45:51] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-14 05:45:52] INFO root fetch - processPackages [scutls]: Remove: archive file [/home/abi/fetcher/tmp/scutls-0.3.2.tar.gz]
+[2023-07-14 05:45:52] INFO root fetch - processPackages [scutls]: Remove: archive file [/home/abi/fetcher/tmp/scutls-0.3.3.tar.gz]
+[2023-07-14 05:45:52] INFO root fetch - main [MainThread]: End processing [scutls]: success
+[2023-07-14 05:45:52] INFO root fetch - processPackages [b2a]: Remove: archive file [/home/abi/fetcher/tmp/b2a-2022.7.7.1.tar.gz]
+[2023-07-14 05:45:52] INFO root fetch - processPackages [b2a]: Remove: archive file [/home/abi/fetcher/tmp/b2a-2023.7.4.1.tar.gz]
+[2023-07-14 05:45:52] INFO root fetch - main [MainThread]: End processing [b2a]: success
+[2023-07-14 05:45:52] INFO root fetch - processPackages [protloc-mex1]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex1-0.0.8.tar.gz]
+[2023-07-14 05:45:52] INFO root fetch - processPackages [protloc-mex1]: Remove: archive file [/home/abi/fetcher/tmp/protloc_mex1-0.0.9.tar.gz]
+[2023-07-14 05:45:52] INFO root fetch - main [MainThread]: End processing [protloc-mex1]: success
+[2023-07-14 05:45:52] INFO root fetch - processPackages [kabutobashi]: Remove: archive file [/home/abi/fetcher/tmp/kabutobashi-0.6.5.tar.gz]
+[2023-07-14 05:45:52] INFO root fetch - processPackages [kabutobashi]: Remove: archive file [/home/abi/fetcher/tmp/kabutobashi-0.7.0.tar.gz]
+[2023-07-14 05:45:52] INFO root fetch - main [MainThread]: End processing [kabutobashi]: success
+[2023-07-14 05:46:21] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-07-14 05:46:21] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-07-14 05:46:21] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-07-14 05:46:21] INFO root fetch - main [MainThread]: Store serial: [18885197]
