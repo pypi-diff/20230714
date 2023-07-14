@@ -19739,3 +19739,149 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 13:16:45] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
 [2023-07-14 13:16:45] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
 [2023-07-14 13:16:45] INFO root fetch - main [MainThread]: Store serial: [18888700]
+[2023-07-14 13:21:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888700]
+[2023-07-14 13:21:54] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-14 13:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matcher-marco
+[2023-07-14 13:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-serve
+[2023-07-14 13:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonblocking-logging
+[2023-07-14 13:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-serve
+[2023-07-14 13:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyfi
+[2023-07-14 13:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scoamp
+[2023-07-14 13:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scoamppro
+[2023-07-14 13:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-serve
+[2023-07-14 13:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: siibra
+[2023-07-14 13:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wdex
+[2023-07-14 13:21:54] INFO root fetch - processPackages [wdex]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-14 13:21:55] INFO root fetch - processPackages [hyfi]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-14 13:21:55] INFO root fetch - processPackages [scoamp]: New version: [0.4.0a0] Old Version: [0.3.4]
+[2023-07-14 13:21:55] INFO root fetch - processPackages [scoamppro]: New version: [0.4.0a0] Old Version: [0.3.4]
+[2023-07-14 13:21:55] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-14 13:21:55] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-14 13:21:55] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-14 13:21:55] WARNING root fetch - processPackages [matcher-marco]: Skipping, unable to determine old version
+[2023-07-14 13:21:55] INFO root fetch - processPackages [matcher-marco]: Start processing: Coquille
+[2023-07-14 13:21:55] INFO root fetch - main [MainThread]: End processing [matcher-marco] error
+[2023-07-14 13:21:55] INFO root fetch - processPackages [nonblocking-logging]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-14 13:21:55] INFO root fetch - processPackages [siibra]: New version: [0.4a61] Old Version: [0.4a59]
+[2023-07-14 13:21:55] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/eb/7d/8ead84c4a77f5ce172c6c1a1f0c6a7f4681ff60f9de4f973647066d26e19/hyfi-1.2.3.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [Coquille]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-14 13:21:55] INFO root fetch - processPackages [wdex]: Downloading https://files.pythonhosted.org/packages/0d/dc/ed18745e9284e927b06d6482bfa08fc79f5dbacd72914d72143a9e8fd42f/wdex-1.0.0.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/35/62/e6bf07f3e4e11b92495c611f1c5d1cc34b5f6ec8e5073b70506a29a64694/scoamp-0.3.4-py3-none-any.whl
+[2023-07-14 13:21:55] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [nonblocking-logging]: Downloading https://files.pythonhosted.org/packages/0f/53/e1c92e331905c7b67d4d166097d6b718aa0e6e0807138455454057f16ade/nonblocking_logging-0.1.0.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/89/9e/9d05364184b8c2992ed27ae94910d2aff6d95212ff018a80c3574f239a3e/Coquille-1.0.0.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/80/c1/0b00f40117113e46990da9b317f8443983ad2cdecc72cd34f153645b5a19/siibra-0.4a59.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [scoamppro]: Downloading https://files.pythonhosted.org/packages/34/b3/fd749c7a4ae8eca2816868e85d4de6e8786f35834f228d24684445aea92c/scoamppro-0.3.4-py3-none-any.whl
+[2023-07-14 13:21:55] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/6a/c9/f19f7761743a129b1df1033339b6d36193e28be34756c614c3c609987f3e/hyfi-1.2.4.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [wdex]: Downloading https://files.pythonhosted.org/packages/5b/ff/618f05641ae5cc5d1cc8fbb95c98aa3b951f496476e88eede9c4a1ab0371/wdex-1.0.1.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-14 13:21:55] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/08/cc/617d8b4793cfa44e2104fe2b8319013ede0cd7f99f1d0981f9010be22e20/scoamp-0.4.0a0-py3-none-any.whl
+[2023-07-14 13:21:55] INFO root fetch - processPackages [nonblocking-logging]: Downloading https://files.pythonhosted.org/packages/6b/00/c9e429a0ce1f721d09258cad9f7275dd3ca65ab30891dfab93c336efafea/nonblocking_logging-0.1.1.tar.gz
+[2023-07-14 13:21:56] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-14 13:21:56] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.2.3.tar.gz tmp/hyfi-1.2.4.tar.gz --markdown 20230714/h/hyfi/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-14 13:21:56] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/20/2b/98a25d6881c1ff4d992ece0ac4166a1dc51a45e3966bcd125f91560cfa81/Coquille-1.0.1.tar.gz
+[2023-07-14 13:21:56] INFO root fetch - processPackages [wdex]: executing diffoscope
+[2023-07-14 13:21:56] INFO root fetch - processPackages [wdex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wdex-1.0.0.tar.gz tmp/wdex-1.0.1.tar.gz --markdown 20230714/w/wdex/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-14 13:21:56] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-14 13:21:56] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230714/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-14 13:21:56] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-14 13:21:56] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230714/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-14 13:21:56] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-14 13:21:56] INFO root fetch - processPackages [scoamppro]: Downloading https://files.pythonhosted.org/packages/8e/94/f665015f9f514fe730c05ea45454d6c2977849cb87e9732c1b00b17e4118/scoamppro-0.4.0a0-py3-none-any.whl
+[2023-07-14 13:21:56] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230714/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-14 13:21:56] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/1a/98/809ccf10f4851c1b41987194bcb6d9a2681d18c1c575176dcf5d9bf96226/siibra-0.4a61.tar.gz
+[2023-07-14 13:21:56] INFO root fetch - processPackages [nonblocking-logging]: executing diffoscope
+[2023-07-14 13:21:56] INFO root fetch - processPackages [nonblocking-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonblocking_logging-0.1.0.tar.gz tmp/nonblocking_logging-0.1.1.tar.gz --markdown 20230714/n/nonblocking-logging/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-14 13:21:56] INFO root fetch - processPackages [Coquille]: executing diffoscope
+[2023-07-14 13:21:56] INFO root fetch - processPackages [Coquille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Coquille-1.0.0.tar.gz tmp/Coquille-1.0.1.tar.gz --markdown 20230714/C/Coquille/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-14 13:21:56] INFO root fetch - processPackages [scoamp]: executing diffoscope
+[2023-07-14 13:21:56] INFO root fetch - processPackages [scoamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamp-0.3.4-py3-none-any.whl.zip tmp/scoamp-0.4.0a0-py3-none-any.whl.zip --markdown 20230714/s/scoamp/0.3.4-0.4.0a0/diff.md --exclude *.pyd
+[2023-07-14 13:21:56] INFO root fetch - processPackages [scoamppro]: executing diffoscope
+[2023-07-14 13:21:56] INFO root fetch - processPackages [scoamppro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamppro-0.3.4-py3-none-any.whl.zip tmp/scoamppro-0.4.0a0-py3-none-any.whl.zip --markdown 20230714/s/scoamppro/0.3.4-0.4.0a0/diff.md --exclude *.pyd
+[2023-07-14 13:21:56] INFO root fetch - processPackages [siibra]: executing diffoscope
+[2023-07-14 13:21:56] INFO root fetch - processPackages [siibra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siibra-0.4a59.tar.gz tmp/siibra-0.4a61.tar.gz --markdown 20230714/s/siibra/0.4a59-0.4a61/diff.md --exclude *.pyd
+[2023-07-14 13:21:57] INFO root fetch - processPackages [nonblocking-logging]: Remove: archive file [/home/abi/fetcher/tmp/nonblocking_logging-0.1.0.tar.gz]
+[2023-07-14 13:21:57] INFO root fetch - processPackages [nonblocking-logging]: Remove: archive file [/home/abi/fetcher/tmp/nonblocking_logging-0.1.1.tar.gz]
+[2023-07-14 13:21:57] INFO root fetch - processPackages [nonblocking-logging]: Start processing: fastapi-serve
+[2023-07-14 13:21:57] INFO root fetch - main [MainThread]: End processing [nonblocking-logging]: success
+[2023-07-14 13:21:57] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-14 13:21:57] INFO root fetch - processPackages [Coquille]: Remove: archive file [/home/abi/fetcher/tmp/Coquille-1.0.0.tar.gz]
+[2023-07-14 13:21:57] INFO root fetch - processPackages [Coquille]: Remove: archive file [/home/abi/fetcher/tmp/Coquille-1.0.1.tar.gz]
+[2023-07-14 13:21:57] INFO root fetch - processPackages [Coquille]: Start processing: wagtailimagecaptions
+[2023-07-14 13:21:57] INFO root fetch - main [MainThread]: End processing [Coquille]: success
+[2023-07-14 13:21:57] WARNING root fetch - processPackages [wagtailimagecaptions]: Skipping, unable to determine old version
+[2023-07-14 13:21:57] INFO root fetch - processPackages [wagtailimagecaptions]: Start processing: fastapi-serve
+[2023-07-14 13:21:57] INFO root fetch - main [MainThread]: End processing [wagtailimagecaptions] error
+[2023-07-14 13:21:57] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev8.tar.gz]
+[2023-07-14 13:21:57] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev9.tar.gz]
+[2023-07-14 13:21:57] INFO root fetch - processPackages [fastapi-serve]: Start processing: spyx
+[2023-07-14 13:21:57] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-14 13:21:57] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-14 13:21:57] INFO root fetch - processPackages [spyx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 13:21:57] INFO root fetch - processPackages [fastapi-serve]: Start processing: pygwalker
+[2023-07-14 13:21:57] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-14 13:21:57] INFO root fetch - processPackages [pygwalker]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2023-07-14 13:21:57] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-14 13:21:57] INFO root fetch - processPackages [wdex]: Remove: archive file [/home/abi/fetcher/tmp/wdex-1.0.0.tar.gz]
+[2023-07-14 13:21:57] INFO root fetch - processPackages [wdex]: Remove: archive file [/home/abi/fetcher/tmp/wdex-1.0.1.tar.gz]
+[2023-07-14 13:21:57] INFO root fetch - processPackages [wdex]: Start processing: omdbapi
+[2023-07-14 13:21:57] INFO root fetch - main [MainThread]: End processing [wdex]: success
+[2023-07-14 13:21:58] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.4-py3-none-any.whl.zip]
+[2023-07-14 13:21:58] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.4.0a0-py3-none-any.whl.zip]
+[2023-07-14 13:21:58] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/ad/3c/0923fad22a4814ff108e27da31aad55c408b1e2127c55c0e0beb6ccc3d40/spyx-0.0.8.tar.gz
+[2023-07-14 13:21:58] INFO root fetch - processPackages [scoamp]: Start processing: timezoneutils
+[2023-07-14 13:21:58] INFO root fetch - main [MainThread]: End processing [scoamp]: success
+[2023-07-14 13:21:58] INFO root fetch - processPackages [scoamppro]: Remove: archive file [/home/abi/fetcher/tmp/scoamppro-0.3.4-py3-none-any.whl.zip]
+[2023-07-14 13:21:58] INFO root fetch - processPackages [scoamppro]: Remove: archive file [/home/abi/fetcher/tmp/scoamppro-0.4.0a0-py3-none-any.whl.zip]
+[2023-07-14 13:21:58] INFO root fetch - main [MainThread]: End processing [scoamppro]: success
+[2023-07-14 13:21:58] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0d/5c/342759c036e86be942679631f5f86c8c9e6449d136b7846072fcd74be023/fastapi-serve-0.0.2.dev8.tar.gz
+[2023-07-14 13:21:58] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-14 13:21:58] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230714/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-14 13:21:58] WARNING root fetch - processPackages [timezoneutils]: Skipping, unable to determine old version
+[2023-07-14 13:21:58] INFO root fetch - main [MainThread]: End processing [timezoneutils] error
+[2023-07-14 13:21:58] INFO root fetch - processPackages [omdbapi]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-14 13:21:58] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev8.tar.gz]
+[2023-07-14 13:21:58] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev9.tar.gz]
+[2023-07-14 13:21:58] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-14 13:21:58] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/b7/2d/e9d2b5b2a2762cbc1f6aba8ffeccb54b3cff644f6df2bce40ace73abe7d4/pygwalker-0.2.0a1.tar.gz
+[2023-07-14 13:21:58] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.2.3.tar.gz]
+[2023-07-14 13:21:58] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.2.4.tar.gz]
+[2023-07-14 13:21:58] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-14 13:21:58] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/44/43/0c3667ca8abfbfc54c8ce5f7d2b54ac1af100ec90f9ad59e15dc59a59d49/fastapi-serve-0.0.2.dev9.tar.gz
+[2023-07-14 13:21:58] INFO root fetch - processPackages [siibra]: Remove: archive file [/home/abi/fetcher/tmp/siibra-0.4a59.tar.gz]
+[2023-07-14 13:21:58] INFO root fetch - processPackages [siibra]: Remove: archive file [/home/abi/fetcher/tmp/siibra-0.4a61.tar.gz]
+[2023-07-14 13:21:58] INFO root fetch - main [MainThread]: End processing [siibra]: success
+[2023-07-14 13:21:58] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/03/d3/7fb8e0ae16918d31936abec49e12b457a905c8e39fb1405a1236b7e03d85/spyx-0.0.9.tar.gz
+[2023-07-14 13:21:58] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-14 13:21:58] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev8.tar.gz tmp/fastapi-serve-0.0.2.dev9.tar.gz --markdown 20230714/f/fastapi-serve/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-14 13:21:58] INFO root fetch - processPackages [omdbapi]: Downloading https://files.pythonhosted.org/packages/70/06/3947686fc31ffdd27bff843efddbcd7370f10f9647d6be7bc40c14335e0b/omdbapi-0.6.0.tar.gz
+[2023-07-14 13:21:58] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-07-14 13:21:58] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.8.tar.gz tmp/spyx-0.0.9.tar.gz --markdown 20230714/s/spyx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 13:21:58] ERROR root fetch - processPackages [fastapi-serve]: Diffoscope failed: time="2023-07-14T13:21:58+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/fastapi-serve-0.0.2.dev8.tar.gz: No such file or directory
+
+[2023-07-14 13:21:58] INFO root fetch - main [MainThread]: End processing [fastapi-serve] error
+[2023-07-14 13:21:58] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/6b/7f/a9983998ac0c65e4597b3b556117c2185f78e2a0317ae5cbf7e2f1f34ca9/pygwalker-0.2.0a2.tar.gz
+[2023-07-14 13:21:58] ERROR root fetch - processPackages [fastapi-serve]: Diffoscope failed: time="2023-07-14T13:21:58+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/fastapi-serve-0.0.2.dev8.tar.gz: No such file or directory
+
+[2023-07-14 13:21:58] INFO root fetch - main [MainThread]: End processing [fastapi-serve] error
+[2023-07-14 13:21:58] INFO root fetch - processPackages [omdbapi]: Downloading https://files.pythonhosted.org/packages/5a/11/9758e6def996fa3793daa9cac975b134b55ecd1ece141a8f4b69031b288e/omdbapi-0.7.0.tar.gz
+[2023-07-14 13:21:58] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2023-07-14 13:21:58] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.2.0a1.tar.gz tmp/pygwalker-0.2.0a2.tar.gz --markdown 20230714/p/pygwalker/0.2.0a1-0.2.0a2/diff.md --exclude *.pyd
+[2023-07-14 13:21:59] INFO root fetch - processPackages [omdbapi]: executing diffoscope
+[2023-07-14 13:21:59] INFO root fetch - processPackages [omdbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omdbapi-0.6.0.tar.gz tmp/omdbapi-0.7.0.tar.gz --markdown 20230714/o/omdbapi/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-14 13:21:59] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.8.tar.gz]
+[2023-07-14 13:21:59] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.9.tar.gz]
+[2023-07-14 13:21:59] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-07-14 13:21:59] INFO root fetch - processPackages [omdbapi]: Remove: archive file [/home/abi/fetcher/tmp/omdbapi-0.6.0.tar.gz]
+[2023-07-14 13:21:59] INFO root fetch - processPackages [omdbapi]: Remove: archive file [/home/abi/fetcher/tmp/omdbapi-0.7.0.tar.gz]
+[2023-07-14 13:21:59] INFO root fetch - main [MainThread]: End processing [omdbapi]: success
+[2023-07-14 13:22:14] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a1.tar.gz]
+[2023-07-14 13:22:14] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a2.tar.gz]
+[2023-07-14 13:22:14] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2023-07-14 13:22:14] INFO root fetch - main [MainThread]: Store serial: [18888760]
