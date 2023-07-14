@@ -19316,3 +19316,59 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 12:50:25] INFO root fetch - processPackages [tickit]: Remove: archive file [/home/abi/fetcher/tmp/tickit-0.2.3.tar.gz]
 [2023-07-14 12:50:25] INFO root fetch - main [MainThread]: End processing [tickit]: success
 [2023-07-14 12:50:25] INFO root fetch - main [MainThread]: Store serial: [18888507]
+[2023-07-14 12:55:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888507]
+[2023-07-14 12:55:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-14 12:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dv.nipun
+[2023-07-14 12:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clear-skies-auth-server
+[2023-07-14 12:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-martin-z3-lemmas-test
+[2023-07-14 12:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spyx
+[2023-07-14 12:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wdex
+[2023-07-14 12:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-keyvault-cli
+[2023-07-14 12:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oganesson
+[2023-07-14 12:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: launchpy
+[2023-07-14 12:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: davidflmatematica
+[2023-07-14 12:55:34] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: New version: [20230714.10.51.144817] Old Version: [20230626.9.39.212498]
+[2023-07-14 12:55:34] WARNING root fetch - processPackages [clear-skies-auth-server]: Skipping, unable to determine old version
+[2023-07-14 12:55:34] INFO root fetch - main [MainThread]: End processing [clear-skies-auth-server] error
+[2023-07-14 12:55:34] INFO root fetch - processPackages [spyx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 12:55:34] INFO root fetch - processPackages [azure-keyvault-cli]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-14 12:55:34] WARNING root fetch - processPackages [dv.nipun]: Skipping, unable to determine old version
+[2023-07-14 12:55:34] INFO root fetch - main [MainThread]: End processing [dv.nipun] error
+[2023-07-14 12:55:34] INFO root fetch - processPackages [launchpy]: New version: [0.4.3] Old Version: [0.4.2.post1]
+[2023-07-14 12:55:34] WARNING root fetch - processPackages [wdex]: Skipping, unable to determine old version
+[2023-07-14 12:55:34] INFO root fetch - main [MainThread]: End processing [wdex] error
+[2023-07-14 12:55:34] INFO root fetch - processPackages [oganesson]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 12:55:34] WARNING root fetch - processPackages [davidflmatematica]: Skipping, unable to determine old version
+[2023-07-14 12:55:34] INFO root fetch - main [MainThread]: End processing [davidflmatematica] error
+[2023-07-14 12:55:34] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/1c/05/9fa259e2c514e8d77eb0142c5f5ebb7ee18e877db492b4f1f51610e3521e/certora-cli-alpha-martin-z3-lemmas-test-20230626.9.39.212498.tar.gz
+[2023-07-14 12:55:34] INFO root fetch - processPackages [azure-keyvault-cli]: Downloading https://files.pythonhosted.org/packages/23/13/462c7aad72aee4420f664be75a49601edc0b68738f5f8e45136a2a47b63e/azure_keyvault_cli-0.3.1.tar.gz
+[2023-07-14 12:55:35] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/ad/3c/0923fad22a4814ff108e27da31aad55c408b1e2127c55c0e0beb6ccc3d40/spyx-0.0.8.tar.gz
+[2023-07-14 12:55:35] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/5a/16/eb08948b07191480b03a8bfac4c5f9a14865543131abac8c609c459a3005/oganesson-0.1.8.tar.gz
+[2023-07-14 12:55:35] INFO root fetch - processPackages [launchpy]: Downloading https://files.pythonhosted.org/packages/22/42/02351741eee3969a429ab0b403de86982eb172496bcc35d555fad4c8292a/launchpy-0.4.2.post1.tar.gz
+[2023-07-14 12:55:35] WARNING root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Skipping package: exceeds size limit 38791790>=10485760
+[2023-07-14 12:55:35] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-martin-z3-lemmas-test] error
+[2023-07-14 12:55:35] INFO root fetch - processPackages [launchpy]: Downloading https://files.pythonhosted.org/packages/bd/da/d979b3dddb3e1308211678dcba3fe4751abf652d74c3a66fb4e3c0880299/launchpy-0.4.3.tar.gz
+[2023-07-14 12:55:35] INFO root fetch - processPackages [azure-keyvault-cli]: Downloading https://files.pythonhosted.org/packages/ee/c3/d0418fb6d3c64d1a7af3f88b98d768577be0389de4eed1fc56457d6ffc94/azure_keyvault_cli-0.3.2.tar.gz
+[2023-07-14 12:55:35] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/0e/b0/0bf47252cc54184d446e9d6f6d65b1704e58cddd08024db40a08c09c3252/oganesson-0.1.9.tar.gz
+[2023-07-14 12:55:35] INFO root fetch - processPackages [launchpy]: executing diffoscope
+[2023-07-14 12:55:35] INFO root fetch - processPackages [launchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchpy-0.4.2.post1.tar.gz tmp/launchpy-0.4.3.tar.gz --markdown 20230714/l/launchpy/0.4.2.post1-0.4.3/diff.md --exclude *.pyd
+[2023-07-14 12:55:35] INFO root fetch - processPackages [azure-keyvault-cli]: executing diffoscope
+[2023-07-14 12:55:35] INFO root fetch - processPackages [azure-keyvault-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_keyvault_cli-0.3.1.tar.gz tmp/azure_keyvault_cli-0.3.2.tar.gz --markdown 20230714/a/azure-keyvault-cli/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-14 12:55:35] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/03/d3/7fb8e0ae16918d31936abec49e12b457a905c8e39fb1405a1236b7e03d85/spyx-0.0.9.tar.gz
+[2023-07-14 12:55:35] INFO root fetch - processPackages [oganesson]: executing diffoscope
+[2023-07-14 12:55:35] INFO root fetch - processPackages [oganesson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oganesson-0.1.8.tar.gz tmp/oganesson-0.1.9.tar.gz --markdown 20230714/o/oganesson/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 12:55:35] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-07-14 12:55:35] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.8.tar.gz tmp/spyx-0.0.9.tar.gz --markdown 20230714/s/spyx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 12:55:36] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.8.tar.gz]
+[2023-07-14 12:55:36] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.9.tar.gz]
+[2023-07-14 12:55:36] INFO root fetch - main [MainThread]: End processing [oganesson]: success
+[2023-07-14 12:55:36] INFO root fetch - processPackages [azure-keyvault-cli]: Remove: archive file [/home/abi/fetcher/tmp/azure_keyvault_cli-0.3.1.tar.gz]
+[2023-07-14 12:55:36] INFO root fetch - processPackages [azure-keyvault-cli]: Remove: archive file [/home/abi/fetcher/tmp/azure_keyvault_cli-0.3.2.tar.gz]
+[2023-07-14 12:55:36] INFO root fetch - main [MainThread]: End processing [azure-keyvault-cli]: success
+[2023-07-14 12:55:36] INFO root fetch - processPackages [launchpy]: Remove: archive file [/home/abi/fetcher/tmp/launchpy-0.4.2.post1.tar.gz]
+[2023-07-14 12:55:36] INFO root fetch - processPackages [launchpy]: Remove: archive file [/home/abi/fetcher/tmp/launchpy-0.4.3.tar.gz]
+[2023-07-14 12:55:36] INFO root fetch - main [MainThread]: End processing [launchpy]: success
+[2023-07-14 12:55:36] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.8.tar.gz]
+[2023-07-14 12:55:36] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.9.tar.gz]
+[2023-07-14 12:55:36] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-07-14 12:55:36] INFO root fetch - main [MainThread]: Store serial: [18888543]
