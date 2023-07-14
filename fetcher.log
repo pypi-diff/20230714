@@ -14975,3 +14975,279 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 09:27:32] INFO root fetch - processPackages [nest-desktop]: Remove: archive file [/home/abi/fetcher/tmp/nest-desktop-3.3.0a1.tar.gz]
 [2023-07-14 09:27:32] INFO root fetch - main [MainThread]: End processing [nest-desktop]: success
 [2023-07-14 09:27:32] INFO root fetch - main [MainThread]: Store serial: [18886520]
+[2023-07-14 09:32:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18886520]
+[2023-07-14 09:32:51] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-07-14 09:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quri-parts
+[2023-07-14 09:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quri-parts-algo
+[2023-07-14 09:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quri-parts-braket
+[2023-07-14 09:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quri-parts-chem
+[2023-07-14 09:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatting-with-pdfs
+[2023-07-14 09:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quri-parts-circuit
+[2023-07-14 09:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quri-parts-cirq
+[2023-07-14 09:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quri-parts-core
+[2023-07-14 09:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quri-parts-ionq
+[2023-07-14 09:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quri-parts-itensor
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-ionq]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:51] WARNING root fetch - processPackages [chatting-with-pdfs]: Skipping, unable to determine old version
+[2023-07-14 09:32:51] INFO root fetch - processPackages [chatting-with-pdfs]: Start processing: quri-parts-openfermion
+[2023-07-14 09:32:51] INFO root fetch - main [MainThread]: End processing [chatting-with-pdfs] error
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-core]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-braket]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-circuit]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-cirq]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-algo]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-chem]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-itensor]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-openfermion]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-cirq]: Downloading https://files.pythonhosted.org/packages/d5/e3/fa43fa6926dbf3c99225bc61c8f3965571cee5b2504200ffbfae45805634/quri_parts_cirq-0.9.1.tar.gz
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts]: Downloading https://files.pythonhosted.org/packages/7a/d2/d9685e4e1cbfe95b572b6440c7f15678a2a3a1162f8a93a4ec613be749aa/quri_parts-0.9.1.tar.gz
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-core]: Downloading https://files.pythonhosted.org/packages/61/38/85e381da31593fe686f45f6457f38ce21d716254c8490ffe929a4dbabdab/quri_parts_core-0.9.1.tar.gz
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-circuit]: Downloading https://files.pythonhosted.org/packages/f6/b9/92ad6f3f4cf595539663361ecb32b964711ed54ff0b23dc491baaaf39a79/quri_parts_circuit-0.9.1.tar.gz
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-ionq]: Downloading https://files.pythonhosted.org/packages/0a/bb/c16f471ba139a0208c2948f2586785b6f42efb85452c015aba4ee2a6b9e9/quri_parts_ionq-0.9.1.tar.gz
+[2023-07-14 09:32:51] INFO root fetch - processPackages [quri-parts-braket]: Downloading https://files.pythonhosted.org/packages/96/41/6a7a94877e1324dd46483857ec9c432345d2ba57ebcfa21f942ebd061839/quri_parts_braket-0.9.1.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-algo]: Downloading https://files.pythonhosted.org/packages/f9/f7/1c2aefce3949223affc5375345d9ea60fd11b3b2b06cdb2806228a6f1892/quri_parts_algo-0.9.1.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-chem]: Downloading https://files.pythonhosted.org/packages/8b/a5/86778f91b5784fb33e51e19795c99d02a75e27931cf47aad84520e2c4617/quri_parts_chem-0.9.1.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-openfermion]: Downloading https://files.pythonhosted.org/packages/5e/a3/5866e4beba41131b157fed41aed579a3188ffbc9b0a11296a246d63649e2/quri_parts_openfermion-0.9.1.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-itensor]: Downloading https://files.pythonhosted.org/packages/85/3f/f01a7c6ed6114432b40615eb5afeeb0601f8473b881fcc512286c0d32f6b/quri_parts_itensor-0.9.1.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-core]: Downloading https://files.pythonhosted.org/packages/fd/ec/9847ebb85ba453200dd0314c292edd3819891da50012cbc45a7e04926b92/quri_parts_core-0.9.2.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts]: Downloading https://files.pythonhosted.org/packages/95/f7/9ddfc8b5d0a31a070039fcd612604662798b81a84f3d799b18b183b5f81f/quri_parts-0.9.2.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-cirq]: Downloading https://files.pythonhosted.org/packages/07/e3/d3f2806897e927e30bed8671763e564f75d4e337592426951f66d3db7caf/quri_parts_cirq-0.9.2.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-circuit]: Downloading https://files.pythonhosted.org/packages/44/0a/5a78d5a5945c0634ca71810fbd349c47847cb8bd6191409a197ff409438e/quri_parts_circuit-0.9.2.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-ionq]: Downloading https://files.pythonhosted.org/packages/c7/83/017e592b19a27510dcb7c7c3a125c96a7b8cac48aa9e233ff7243f1b9d45/quri_parts_ionq-0.9.2.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-chem]: Downloading https://files.pythonhosted.org/packages/bf/7e/bd0dc768a98226fb58585cd70f8d83acc3295a92730a020254af866e4094/quri_parts_chem-0.9.2.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-braket]: Downloading https://files.pythonhosted.org/packages/6e/a4/4d987edc7c0b5681fa48f52388d3ac09a6406b910a912861b63cfe44b243/quri_parts_braket-0.9.2.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts]: executing diffoscope
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts-0.9.1.tar.gz tmp/quri_parts-0.9.2.tar.gz --markdown 20230714/q/quri-parts/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-core]: executing diffoscope
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_core-0.9.1.tar.gz tmp/quri_parts_core-0.9.2.tar.gz --markdown 20230714/q/quri-parts-core/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-openfermion]: Downloading https://files.pythonhosted.org/packages/88/51/ff0bc4aeb7527744408cc043b5992865f3c06707db63673e6e7b050c2be0/quri_parts_openfermion-0.9.2.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-cirq]: executing diffoscope
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_cirq-0.9.1.tar.gz tmp/quri_parts_cirq-0.9.2.tar.gz --markdown 20230714/q/quri-parts-cirq/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-algo]: Downloading https://files.pythonhosted.org/packages/77/21/cb6ec03e5493b28985936f69a305f0be7eed46d0e6033e60ff082c5b5d67/quri_parts_algo-0.9.2.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-itensor]: Downloading https://files.pythonhosted.org/packages/af/cc/b6399fb57cc387ec1ebe6a7e9c60da6b191c23692f10a94c91db499620d0/quri_parts_itensor-0.9.2.tar.gz
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-circuit]: executing diffoscope
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-circuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_circuit-0.9.1.tar.gz tmp/quri_parts_circuit-0.9.2.tar.gz --markdown 20230714/q/quri-parts-circuit/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-chem]: executing diffoscope
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-chem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_chem-0.9.1.tar.gz tmp/quri_parts_chem-0.9.2.tar.gz --markdown 20230714/q/quri-parts-chem/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-openfermion]: executing diffoscope
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-openfermion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_openfermion-0.9.1.tar.gz tmp/quri_parts_openfermion-0.9.2.tar.gz --markdown 20230714/q/quri-parts-openfermion/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-ionq]: executing diffoscope
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_ionq-0.9.1.tar.gz tmp/quri_parts_ionq-0.9.2.tar.gz --markdown 20230714/q/quri-parts-ionq/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-itensor]: executing diffoscope
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-itensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_itensor-0.9.1.tar.gz tmp/quri_parts_itensor-0.9.2.tar.gz --markdown 20230714/q/quri-parts-itensor/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-braket]: executing diffoscope
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-braket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_braket-0.9.1.tar.gz tmp/quri_parts_braket-0.9.2.tar.gz --markdown 20230714/q/quri-parts-braket/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-algo]: executing diffoscope
+[2023-07-14 09:32:52] INFO root fetch - processPackages [quri-parts-algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_algo-0.9.1.tar.gz tmp/quri_parts_algo-0.9.2.tar.gz --markdown 20230714/q/quri-parts-algo/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts-0.9.1.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts-0.9.2.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts]: Start processing: quri-parts-openqasm
+[2023-07-14 09:32:54] INFO root fetch - main [MainThread]: End processing [quri-parts]: success
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-openqasm]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-cirq]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_cirq-0.9.1.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-cirq]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_cirq-0.9.2.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-cirq]: Start processing: jilei
+[2023-07-14 09:32:54] INFO root fetch - main [MainThread]: End processing [quri-parts-cirq]: success
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-ionq]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_ionq-0.9.1.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-ionq]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_ionq-0.9.2.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-ionq]: Start processing: quri-parts-pyscf
+[2023-07-14 09:32:54] INFO root fetch - main [MainThread]: End processing [quri-parts-ionq]: success
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-algo]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_algo-0.9.1.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-algo]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_algo-0.9.2.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-algo]: Start processing: quri-parts-qiskit
+[2023-07-14 09:32:54] INFO root fetch - main [MainThread]: End processing [quri-parts-algo]: success
+[2023-07-14 09:32:54] INFO root fetch - processPackages [jilei]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-openfermion]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_openfermion-0.9.1.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-openfermion]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_openfermion-0.9.2.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-openfermion]: Start processing: quri-parts-quantinuum
+[2023-07-14 09:32:54] INFO root fetch - main [MainThread]: End processing [quri-parts-openfermion]: success
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-openqasm]: Downloading https://files.pythonhosted.org/packages/6c/34/a0a904d42df88c181082861cce71f1c59afe6f7deac3e8a229ef0de45b10/quri_parts_openqasm-0.9.1.tar.gz
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-pyscf]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-qiskit]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-quantinuum]: New version: [0.12.0.post1] Old Version: [0.11.0]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-core]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_core-0.9.1.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-core]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_core-0.9.2.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-core]: Start processing: quri-parts-qulacs
+[2023-07-14 09:32:54] INFO root fetch - main [MainThread]: End processing [quri-parts-core]: success
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-chem]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_chem-0.9.1.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-chem]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_chem-0.9.2.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-chem]: Start processing: quri-parts-stim
+[2023-07-14 09:32:54] INFO root fetch - main [MainThread]: End processing [quri-parts-chem]: success
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-circuit]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_circuit-0.9.1.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-circuit]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_circuit-0.9.2.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-circuit]: Start processing: quri-parts-tket
+[2023-07-14 09:32:54] INFO root fetch - main [MainThread]: End processing [quri-parts-circuit]: success
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-stim]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-qulacs]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-braket]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_braket-0.9.1.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-braket]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_braket-0.9.2.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-braket]: Start processing: asammdf
+[2023-07-14 09:32:54] INFO root fetch - main [MainThread]: End processing [quri-parts-braket]: success
+[2023-07-14 09:32:54] INFO root fetch - processPackages [jilei]: Downloading https://files.pythonhosted.org/packages/d0/f2/235b9d2e4905976ed90a1f5272c7bc3657bb8ce49e52fc3f95ffee9feafd/jilei-0.2.1.tar.gz
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-tket]: New version: [0.12.0.post1] Old Version: [0.11.0]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [asammdf]: New version: [7.3.9] Old Version: [7.3.8]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-pyscf]: Downloading https://files.pythonhosted.org/packages/bb/e3/f4fe0bfc882226c22723c6cb3c36ef7f36f8ff1035740069455f420aa034/quri_parts_pyscf-0.9.1.tar.gz
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-quantinuum]: Downloading https://files.pythonhosted.org/packages/fc/a3/54958a45da98f89f56286d3283c9871a60e83bc3529f90cece99323e2b61/quri_parts_quantinuum-0.11.0.tar.gz
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-itensor]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_itensor-0.9.1.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-itensor]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_itensor-0.9.2.tar.gz]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-itensor]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-14 09:32:54] INFO root fetch - main [MainThread]: End processing [quri-parts-itensor]: success
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-qiskit]: Downloading https://files.pythonhosted.org/packages/d4/ec/e78c53f27979b355b2fdac10c16fbd104af9838aa62bc7726f5aa766f710/quri_parts_qiskit-0.9.1.tar.gz
+[2023-07-14 09:32:54] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.1] Old Version: [0.3.9]
+[2023-07-14 09:32:54] INFO root fetch - processPackages [quri-parts-stim]: Downloading https://files.pythonhosted.org/packages/fa/94/e0f944103d5cb9d4bb0a650f8bf1937d73e29e08c6579c099306f6ccd305/quri_parts_stim-0.9.1.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-qulacs]: Downloading https://files.pythonhosted.org/packages/af/4b/3872a5877618101f5556c9df418eaa59490af5d66a1a74e20cb90340449e/quri_parts_qulacs-0.9.1.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-tket]: Downloading https://files.pythonhosted.org/packages/f7/73/d03809581d723204bdf441056f7b6bf11621a4854f8182cc112e1de8c662/quri_parts_tket-0.11.0.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-openqasm]: Downloading https://files.pythonhosted.org/packages/ef/6c/0a660ca3108e2cf7ea74e7e09aea6025348897591ce341904c9f5307b93d/quri_parts_openqasm-0.9.2.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [asammdf]: Downloading https://files.pythonhosted.org/packages/6a/cd/02337a529d16d57d1963f0aaa462273ebfbc2e6d1ab67f1d462cdd64b67e/asammdf-7.3.8.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/7d/6d/63f458cc34826cb09985867614ecf87eeedc9f16cbaa577be2228ae84861/nonebot_plugin_stable_diffusion_diao-0.3.9.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-quantinuum]: Downloading https://files.pythonhosted.org/packages/bb/7b/8c923aae775eab1451b1755abcb09c2a0d50a9bbb920efec3a16a994aaad/quri_parts_quantinuum-0.12.0.post1.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [jilei]: Downloading https://files.pythonhosted.org/packages/1b/57/0498ad3222628e9bc0567fec19dbde106cb7c9a3d701674d4b349762562c/jilei-0.2.2.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-openqasm]: executing diffoscope
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-openqasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_openqasm-0.9.1.tar.gz tmp/quri_parts_openqasm-0.9.2.tar.gz --markdown 20230714/q/quri-parts-openqasm/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-pyscf]: Downloading https://files.pythonhosted.org/packages/ef/30/975e76be20b65d574ff7fd488a95edc8497f121091e88185e95539fbc36d/quri_parts_pyscf-0.9.2.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-qiskit]: Downloading https://files.pythonhosted.org/packages/a4/c3/75c2905943510f6fbc81a137655e7eadff6e4951af2f66c2afeaa17977a8/quri_parts_qiskit-0.9.2.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-stim]: Downloading https://files.pythonhosted.org/packages/09/c0/59f477e3e53df822f3b48a77cb77f4a3863bd84f5a9843e920e5acc9617e/quri_parts_stim-0.9.2.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-qulacs]: Downloading https://files.pythonhosted.org/packages/22/9e/de9a3a33e266473abce59074548054466ea667ffe31c90e6584d26f59837/quri_parts_qulacs-0.9.2.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [jilei]: executing diffoscope
+[2023-07-14 09:32:55] INFO root fetch - processPackages [jilei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jilei-0.2.1.tar.gz tmp/jilei-0.2.2.tar.gz --markdown 20230714/j/jilei/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-tket]: Downloading https://files.pythonhosted.org/packages/2d/b5/ad4f37ecd668c27bc68b7dd5952c8fef97245ef6aa7d95faa00efe9ddda7/quri_parts_tket-0.12.0.post1.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-pyscf]: executing diffoscope
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-pyscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_pyscf-0.9.1.tar.gz tmp/quri_parts_pyscf-0.9.2.tar.gz --markdown 20230714/q/quri-parts-pyscf/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-quantinuum]: executing diffoscope
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-quantinuum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_quantinuum-0.11.0.tar.gz tmp/quri_parts_quantinuum-0.12.0.post1.tar.gz --markdown 20230714/q/quri-parts-quantinuum/0.11.0-0.12.0.post1/diff.md --exclude *.pyd
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-qiskit]: executing diffoscope
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_qiskit-0.9.1.tar.gz tmp/quri_parts_qiskit-0.9.2.tar.gz --markdown 20230714/q/quri-parts-qiskit/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-stim]: executing diffoscope
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_stim-0.9.1.tar.gz tmp/quri_parts_stim-0.9.2.tar.gz --markdown 20230714/q/quri-parts-stim/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:55] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/e3/e7/131eca949faf16caf8c27035fff2e13e7e1c8740c386aafacc6202e69105/nonebot_plugin_stable_diffusion_diao-0.3.9.1.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-tket]: executing diffoscope
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-tket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_tket-0.11.0.tar.gz tmp/quri_parts_tket-0.12.0.post1.tar.gz --markdown 20230714/q/quri-parts-tket/0.11.0-0.12.0.post1/diff.md --exclude *.pyd
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-qulacs]: executing diffoscope
+[2023-07-14 09:32:55] INFO root fetch - processPackages [quri-parts-qulacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quri_parts_qulacs-0.9.1.tar.gz tmp/quri_parts_qulacs-0.9.2.tar.gz --markdown 20230714/q/quri-parts-qulacs/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:55] INFO root fetch - processPackages [asammdf]: Downloading https://files.pythonhosted.org/packages/fa/99/d6f332cab8102c6edec82e40775474ae6dd55aed8f47b7294076641b74b3/asammdf-7.3.9.tar.gz
+[2023-07-14 09:32:55] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-14 09:32:55] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.1.tar.gz --markdown 20230714/n/nonebot-plugin-stable-diffusion-diao/0.3.9-0.3.9.1/diff.md --exclude *.pyd
+[2023-07-14 09:32:56] INFO root fetch - processPackages [asammdf]: executing diffoscope
+[2023-07-14 09:32:56] INFO root fetch - processPackages [asammdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asammdf-7.3.8.tar.gz tmp/asammdf-7.3.9.tar.gz --markdown 20230714/a/asammdf/7.3.8-7.3.9/diff.md --exclude *.pyd
+[2023-07-14 09:32:56] INFO root fetch - processPackages [quri-parts-openqasm]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_openqasm-0.9.1.tar.gz]
+[2023-07-14 09:32:56] INFO root fetch - processPackages [quri-parts-openqasm]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_openqasm-0.9.2.tar.gz]
+[2023-07-14 09:32:56] INFO root fetch - processPackages [quri-parts-openqasm]: Start processing: dLuxToliman
+[2023-07-14 09:32:56] INFO root fetch - main [MainThread]: End processing [quri-parts-openqasm]: success
+[2023-07-14 09:32:56] INFO root fetch - processPackages [dLuxToliman]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [dLuxToliman]: Downloading https://files.pythonhosted.org/packages/74/3b/5e570aeca0761f92db16cd09c9ea5f6ad62020c1b2f66fe0868961e52ccc/dLuxToliman-0.1.3.tar.gz
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-quantinuum]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_quantinuum-0.11.0.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-quantinuum]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_quantinuum-0.12.0.post1.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-quantinuum]: Start processing: celescope
+[2023-07-14 09:32:57] INFO root fetch - main [MainThread]: End processing [quri-parts-quantinuum]: success
+[2023-07-14 09:32:57] INFO root fetch - processPackages [celescope]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_qiskit-0.9.1.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_qiskit-0.9.2.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-qiskit]: Start processing: odoo13-addon-account-document-reversal
+[2023-07-14 09:32:57] INFO root fetch - main [MainThread]: End processing [quri-parts-qiskit]: success
+[2023-07-14 09:32:57] INFO root fetch - processPackages [jilei]: Remove: archive file [/home/abi/fetcher/tmp/jilei-0.2.1.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [jilei]: Remove: archive file [/home/abi/fetcher/tmp/jilei-0.2.2.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [jilei]: Start processing: gispandas
+[2023-07-14 09:32:57] INFO root fetch - main [MainThread]: End processing [jilei]: success
+[2023-07-14 09:32:57] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: New version: [13.0.1.0.2] Old Version: [13.0.1.0.1.dev2]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-qulacs]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_qulacs-0.9.1.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-qulacs]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_qulacs-0.9.2.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-qulacs]: Start processing: megadata
+[2023-07-14 09:32:57] INFO root fetch - main [MainThread]: End processing [quri-parts-qulacs]: success
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-tket]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_tket-0.11.0.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-tket]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_tket-0.12.0.post1.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-tket]: Start processing: django-aps
+[2023-07-14 09:32:57] INFO root fetch - main [MainThread]: End processing [quri-parts-tket]: success
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-stim]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_stim-0.9.1.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-stim]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_stim-0.9.2.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-stim]: Start processing: scPANTHEON
+[2023-07-14 09:32:57] INFO root fetch - main [MainThread]: End processing [quri-parts-stim]: success
+[2023-07-14 09:32:57] INFO root fetch - processPackages [dLuxToliman]: Downloading https://files.pythonhosted.org/packages/59/d0/93cc65bde470a45889ca998f117fa1fd0cb32ed4bfc14262809ef458ab6b/dLuxToliman-0.2.0.tar.gz
+[2023-07-14 09:32:57] INFO root fetch - processPackages [gispandas]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [scPANTHEON]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.1.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Start processing: QRcodeTracking
+[2023-07-14 09:32:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-14 09:32:57] INFO root fetch - processPackages [celescope]: Downloading https://files.pythonhosted.org/packages/83/b9/858378ee92e00801a34ac10f4b99aab872ffc2e1e079d875ea872e747caa/celescope-1.8.1.tar.gz
+[2023-07-14 09:32:57] INFO root fetch - processPackages [django-aps]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-pyscf]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_pyscf-0.9.1.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-pyscf]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_pyscf-0.9.2.tar.gz]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [quri-parts-pyscf]: Start processing: gpforecaster
+[2023-07-14 09:32:57] INFO root fetch - main [MainThread]: End processing [quri-parts-pyscf]: success
+[2023-07-14 09:32:57] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Downloading https://files.pythonhosted.org/packages/70/06/836f9a86ddebb8069eabcbb0bbfd2d43fd70a14659a885455d0f44c1437f/odoo13_addon_account_document_reversal-13.0.1.0.1.dev2-py3-none-any.whl
+[2023-07-14 09:32:57] INFO root fetch - processPackages [QRcodeTracking]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [dLuxToliman]: executing diffoscope
+[2023-07-14 09:32:57] INFO root fetch - processPackages [dLuxToliman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dLuxToliman-0.1.3.tar.gz tmp/dLuxToliman-0.2.0.tar.gz --markdown 20230714/d/dLuxToliman/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-14 09:32:57] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/a5/ba/057069d7f2700ef0e6e445027c58a8c9e1830fd9a2a4ecb4e0dbafd44a3c/scPANTHEON-0.3.6.tar.gz
+[2023-07-14 09:32:57] INFO root fetch - processPackages [gispandas]: Downloading https://files.pythonhosted.org/packages/56/58/da4dd13415106000fffcf7827f1348fbd7489228c3840c5b8facf028294c/gispandas-0.1.7.tar.gz
+[2023-07-14 09:32:57] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.85]
+[2023-07-14 09:32:57] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/db/18/1acacd008c750e61bf570a49c63150ce5e2f6f63fc27290d33af9f68c426/megadata-0.0.8.tar.gz
+[2023-07-14 09:32:57] INFO root fetch - processPackages [django-aps]: Downloading https://files.pythonhosted.org/packages/01/db/f06dfa55c425acd7379c97e855be65f61ce9ae15c31a7198addeee5a4603/django-aps-0.0.1.tar.gz
+[2023-07-14 09:32:57] INFO root fetch - processPackages [QRcodeTracking]: Downloading https://files.pythonhosted.org/packages/d6/39/29b0a8a8b48fc5704e921666788cda0ab40d0c01a04be2b4e10aece88d1b/QRcodeTracking-0.1.1.tar.gz
+[2023-07-14 09:32:57] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/6d/7d/91c4823a3d864e2fcb34fd8a943cc7d1b14b061e2810d04bea6b1fc3c20d/gpforecaster-0.3.85.tar.gz
+[2023-07-14 09:32:58] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/99/62/926bd1740bc8826f6071565ca5db2224216db931fef5c1f1c43b97f9cd3f/scPANTHEON-0.3.7.tar.gz
+[2023-07-14 09:32:58] INFO root fetch - processPackages [gispandas]: Downloading https://files.pythonhosted.org/packages/d9/69/7cdef5c023f95e6b920d228730e6237cf21a83a676a5b8599c4f6836d4d5/gispandas-0.1.8.tar.gz
+[2023-07-14 09:32:58] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Downloading https://files.pythonhosted.org/packages/ec/73/fc69b4affefbf9874d67687a12de409cf3848b1b64d23d995c3d0a88458d/odoo13_addon_account_document_reversal-13.0.1.0.2-py3-none-any.whl
+[2023-07-14 09:32:58] INFO root fetch - processPackages [django-aps]: Downloading https://files.pythonhosted.org/packages/ba/98/a8da3c8fa559458581920a4546bc9bc910c6ee3ed4650599b7b15bb1190a/django-aps-0.0.2.tar.gz
+[2023-07-14 09:32:58] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/34/d3/1b1e3069204cfd5341c0be3bad7df7e60019431a6959b3182db14b874807/megadata-0.0.9.tar.gz
+[2023-07-14 09:32:58] INFO root fetch - processPackages [scPANTHEON]: executing diffoscope
+[2023-07-14 09:32:58] INFO root fetch - processPackages [scPANTHEON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scPANTHEON-0.3.6.tar.gz tmp/scPANTHEON-0.3.7.tar.gz --markdown 20230714/s/scPANTHEON/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-14 09:32:58] INFO root fetch - processPackages [gispandas]: executing diffoscope
+[2023-07-14 09:32:58] INFO root fetch - processPackages [gispandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gispandas-0.1.7.tar.gz tmp/gispandas-0.1.8.tar.gz --markdown 20230714/g/gispandas/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-14 09:32:58] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: executing diffoscope
+[2023-07-14 09:32:58] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_document_reversal-13.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_account_document_reversal-13.0.1.0.2-py3-none-any.whl.zip --markdown 20230714/o/odoo13-addon-account-document-reversal/13.0.1.0.1.dev2-13.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:58] INFO root fetch - processPackages [QRcodeTracking]: Downloading https://files.pythonhosted.org/packages/1a/c9/c95fffc4f697ff723a39ecea076c92d5c25b53507c521599291c41894d4d/QRcodeTracking-0.1.2.tar.gz
+[2023-07-14 09:32:58] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/92/5f/ac0cce7d644b9cf855fde3021fe913db55e05b3641325229c5df912c2f36/gpforecaster-0.3.9.tar.gz
+[2023-07-14 09:32:58] INFO root fetch - processPackages [django-aps]: executing diffoscope
+[2023-07-14 09:32:58] INFO root fetch - processPackages [django-aps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-aps-0.0.1.tar.gz tmp/django-aps-0.0.2.tar.gz --markdown 20230714/d/django-aps/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:58] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-07-14 09:32:58] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230714/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 09:32:58] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-07-14 09:32:58] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.85.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230714/g/gpforecaster/0.3.85-0.3.9/diff.md --exclude *.pyd
+[2023-07-14 09:32:58] INFO root fetch - processPackages [QRcodeTracking]: executing diffoscope
+[2023-07-14 09:32:58] INFO root fetch - processPackages [QRcodeTracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QRcodeTracking-0.1.1.tar.gz tmp/QRcodeTracking-0.1.2.tar.gz --markdown 20230714/Q/QRcodeTracking/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 09:32:58] INFO root fetch - processPackages [asammdf]: Remove: archive file [/home/abi/fetcher/tmp/asammdf-7.3.8.tar.gz]
+[2023-07-14 09:32:58] INFO root fetch - processPackages [asammdf]: Remove: archive file [/home/abi/fetcher/tmp/asammdf-7.3.9.tar.gz]
+[2023-07-14 09:32:58] INFO root fetch - processPackages [asammdf]: Start processing: pulumi-oci
+[2023-07-14 09:32:58] INFO root fetch - main [MainThread]: End processing [asammdf]: success
+[2023-07-14 09:32:58] INFO root fetch - processPackages [pulumi-oci]: New version: [1.3.0a1689245158] Old Version: [1.3.0]
+[2023-07-14 09:32:58] INFO root fetch - processPackages [celescope]: Downloading https://files.pythonhosted.org/packages/a5/6b/4116fc1b9d114067cd4ea6d81ab5023a9afd88347abbacac404f48300fa9/celescope-1.9.0.tar.gz
+[2023-07-14 09:32:58] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/28/86/bae278789e7df0bf2a1b328a9e223f4f4b0369803c52ab35f63a6460500d/pulumi_oci-1.3.0.tar.gz
+[2023-07-14 09:32:59] INFO root fetch - processPackages [celescope]: executing diffoscope
+[2023-07-14 09:32:59] INFO root fetch - processPackages [celescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celescope-1.8.1.tar.gz tmp/celescope-1.9.0.tar.gz --markdown 20230714/c/celescope/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-14 09:32:59] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/2d/ca/e723395f992faad8664d7886dd100e9a336718636f85afe1f7e2cd391418/pulumi_oci-1.3.0a1689245158.tar.gz
+[2023-07-14 09:32:59] INFO root fetch - processPackages [scPANTHEON]: Remove: archive file [/home/abi/fetcher/tmp/scPANTHEON-0.3.6.tar.gz]
+[2023-07-14 09:32:59] INFO root fetch - processPackages [scPANTHEON]: Remove: archive file [/home/abi/fetcher/tmp/scPANTHEON-0.3.7.tar.gz]
+[2023-07-14 09:32:59] INFO root fetch - main [MainThread]: End processing [scPANTHEON]: success
+[2023-07-14 09:32:59] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-07-14 09:32:59] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.3.0.tar.gz tmp/pulumi_oci-1.3.0a1689245158.tar.gz --markdown 20230714/p/pulumi-oci/1.3.0-1.3.0a1689245158/diff.md --exclude *.pyd
+[2023-07-14 09:32:59] INFO root fetch - processPackages [dLuxToliman]: Remove: archive file [/home/abi/fetcher/tmp/dLuxToliman-0.1.3.tar.gz]
+[2023-07-14 09:32:59] INFO root fetch - processPackages [dLuxToliman]: Remove: archive file [/home/abi/fetcher/tmp/dLuxToliman-0.2.0.tar.gz]
+[2023-07-14 09:32:59] INFO root fetch - main [MainThread]: End processing [dLuxToliman]: success
+[2023-07-14 09:32:59] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_document_reversal-13.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-07-14 09:32:59] INFO root fetch - processPackages [odoo13-addon-account-document-reversal]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_document_reversal-13.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-14 09:32:59] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-document-reversal]: success
+[2023-07-14 09:32:59] INFO root fetch - processPackages [gispandas]: Remove: archive file [/home/abi/fetcher/tmp/gispandas-0.1.7.tar.gz]
+[2023-07-14 09:32:59] INFO root fetch - processPackages [gispandas]: Remove: archive file [/home/abi/fetcher/tmp/gispandas-0.1.8.tar.gz]
+[2023-07-14 09:32:59] INFO root fetch - main [MainThread]: End processing [gispandas]: success
+[2023-07-14 09:32:59] INFO root fetch - processPackages [megadata]: Remove: archive file [/home/abi/fetcher/tmp/megadata-0.0.8.tar.gz]
+[2023-07-14 09:32:59] INFO root fetch - processPackages [megadata]: Remove: archive file [/home/abi/fetcher/tmp/megadata-0.0.9.tar.gz]
+[2023-07-14 09:32:59] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-07-14 09:32:59] INFO root fetch - processPackages [QRcodeTracking]: Remove: archive file [/home/abi/fetcher/tmp/QRcodeTracking-0.1.1.tar.gz]
+[2023-07-14 09:32:59] INFO root fetch - processPackages [QRcodeTracking]: Remove: archive file [/home/abi/fetcher/tmp/QRcodeTracking-0.1.2.tar.gz]
+[2023-07-14 09:32:59] INFO root fetch - main [MainThread]: End processing [QRcodeTracking]: success
+[2023-07-14 09:33:00] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.85.tar.gz]
+[2023-07-14 09:33:00] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.9.tar.gz]
+[2023-07-14 09:33:00] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-07-14 09:33:00] INFO root fetch - processPackages [django-aps]: Remove: archive file [/home/abi/fetcher/tmp/django-aps-0.0.1.tar.gz]
+[2023-07-14 09:33:00] INFO root fetch - processPackages [django-aps]: Remove: archive file [/home/abi/fetcher/tmp/django-aps-0.0.2.tar.gz]
+[2023-07-14 09:33:00] INFO root fetch - main [MainThread]: End processing [django-aps]: success
+[2023-07-14 09:33:01] INFO root fetch - processPackages [celescope]: Remove: archive file [/home/abi/fetcher/tmp/celescope-1.8.1.tar.gz]
+[2023-07-14 09:33:01] INFO root fetch - processPackages [celescope]: Remove: archive file [/home/abi/fetcher/tmp/celescope-1.9.0.tar.gz]
+[2023-07-14 09:33:01] INFO root fetch - main [MainThread]: End processing [celescope]: success
+[2023-07-14 09:33:20] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.3.0.tar.gz]
+[2023-07-14 09:33:20] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.3.0a1689245158.tar.gz]
+[2023-07-14 09:33:20] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-07-14 09:33:20] INFO root fetch - main [MainThread]: Store serial: [18886625]
