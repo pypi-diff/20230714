@@ -12786,3 +12786,86 @@ AssertionError: tmp/aorta_sirius_dev-0.8.tar.gz does not exist
 [2023-07-14 07:31:11] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.2b4.tar.gz]
 [2023-07-14 07:31:11] INFO root fetch - main [MainThread]: End processing [syft]: success
 [2023-07-14 07:31:11] INFO root fetch - main [MainThread]: Store serial: [18885737]
+[2023-07-14 07:36:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885737]
+[2023-07-14 07:36:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-14 07:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ogsapi
+[2023-07-14 07:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ToyMaker
+[2023-07-14 07:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-07-14 07:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ML-Algo
+[2023-07-14 07:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neonelly.core
+[2023-07-14 07:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neonelly.core
+[2023-07-14 07:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neonelly.core
+[2023-07-14 07:36:20] INFO root fetch - processPackages [neonelly.core]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-14 07:36:20] INFO root fetch - processPackages [ToyMaker]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-14 07:36:20] INFO root fetch - processPackages [ogsapi]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-14 07:36:20] INFO root fetch - processPackages [neonelly.core]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-14 07:36:20] INFO root fetch - processPackages [neonelly.core]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-14 07:36:20] INFO root fetch - processPackages [ML-Algo]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-14 07:36:20] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-14 07:36:20] INFO root fetch - processPackages [neonelly.core]: Downloading https://files.pythonhosted.org/packages/5c/b5/e95f68142854cc86557578da5f36d74e8285b29a12da0c652b86a51e5af6/neonelly.core-0.0.4.tar.gz
+[2023-07-14 07:36:20] INFO root fetch - processPackages [neonelly.core]: Downloading https://files.pythonhosted.org/packages/5c/b5/e95f68142854cc86557578da5f36d74e8285b29a12da0c652b86a51e5af6/neonelly.core-0.0.4.tar.gz
+[2023-07-14 07:36:20] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-14 07:36:20] INFO root fetch - processPackages [neonelly.core]: Downloading https://files.pythonhosted.org/packages/5c/b5/e95f68142854cc86557578da5f36d74e8285b29a12da0c652b86a51e5af6/neonelly.core-0.0.4.tar.gz
+[2023-07-14 07:36:20] INFO root fetch - processPackages [ToyMaker]: Downloading https://files.pythonhosted.org/packages/36/9d/2a9f780fb6af1d75c93197940756814ee07978f958a2e74dbca25f01fda3/ToyMaker-0.2.4.tar.gz
+[2023-07-14 07:36:20] INFO root fetch - processPackages [ogsapi]: Downloading https://files.pythonhosted.org/packages/56/5a/3f4f2834f808c7296cd80a403414045250cc83b1a21c383d7aa1c5268a63/ogsapi-0.7.2.tar.gz
+[2023-07-14 07:36:20] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/ac/db/313ef855d6a4fba6d6aad6f32cf62c6021ddb3b4c52a4d6a3799ddf3dde4/ML-Algo-1.2.7.tar.gz
+[2023-07-14 07:36:20] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-14 07:36:20] INFO root fetch - processPackages [neonelly.core]: Downloading https://files.pythonhosted.org/packages/b2/01/c7bb2827eb1f6e066d632b61533d5238be186b7818003e7de3d0e7d868f7/neonelly.core-0.0.5.tar.gz
+[2023-07-14 07:36:20] INFO root fetch - processPackages [neonelly.core]: Downloading https://files.pythonhosted.org/packages/b2/01/c7bb2827eb1f6e066d632b61533d5238be186b7818003e7de3d0e7d868f7/neonelly.core-0.0.5.tar.gz
+[2023-07-14 07:36:20] INFO root fetch - processPackages [neonelly.core]: Downloading https://files.pythonhosted.org/packages/b2/01/c7bb2827eb1f6e066d632b61533d5238be186b7818003e7de3d0e7d868f7/neonelly.core-0.0.5.tar.gz
+[2023-07-14 07:36:20] INFO root fetch - processPackages [ToyMaker]: Downloading https://files.pythonhosted.org/packages/ea/71/d9bc4e7a9c7a9767d8354b776aa7da9443c7316e57cb11486c7f0941bd57/ToyMaker-0.2.5.tar.gz
+[2023-07-14 07:36:20] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-14 07:36:20] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230714/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-14 07:36:20] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/91/82/1abb30539c4b4cfe2b7affed29ce6417182d04c97b8515d558db258324f7/ML-Algo-1.2.8.tar.gz
+[2023-07-14 07:36:21] INFO root fetch - processPackages [ogsapi]: Downloading https://files.pythonhosted.org/packages/37/00/4da3a29ebb74fa44eb1a3cb4ccbfe881837464d7f78d9428fc5d8e568554/ogsapi-0.7.3.tar.gz
+[2023-07-14 07:36:21] INFO root fetch - processPackages [neonelly.core]: executing diffoscope
+[2023-07-14 07:36:21] INFO root fetch - processPackages [neonelly.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neonelly.core-0.0.4.tar.gz tmp/neonelly.core-0.0.5.tar.gz --markdown 20230714/n/neonelly.core/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-14 07:36:21] INFO root fetch - processPackages [neonelly.core]: executing diffoscope
+[2023-07-14 07:36:21] INFO root fetch - processPackages [neonelly.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neonelly.core-0.0.4.tar.gz tmp/neonelly.core-0.0.5.tar.gz --markdown 20230714/n/neonelly.core/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-14 07:36:21] INFO root fetch - processPackages [neonelly.core]: executing diffoscope
+[2023-07-14 07:36:21] INFO root fetch - processPackages [neonelly.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neonelly.core-0.0.4.tar.gz tmp/neonelly.core-0.0.5.tar.gz --markdown 20230714/n/neonelly.core/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-14 07:36:21] INFO root fetch - processPackages [ToyMaker]: executing diffoscope
+[2023-07-14 07:36:21] INFO root fetch - processPackages [ToyMaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ToyMaker-0.2.4.tar.gz tmp/ToyMaker-0.2.5.tar.gz --markdown 20230714/T/ToyMaker/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-14 07:36:21] INFO root fetch - processPackages [ogsapi]: executing diffoscope
+[2023-07-14 07:36:21] INFO root fetch - processPackages [ogsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogsapi-0.7.2.tar.gz tmp/ogsapi-0.7.3.tar.gz --markdown 20230714/o/ogsapi/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-14 07:36:21] INFO root fetch - processPackages [ML-Algo]: executing diffoscope
+[2023-07-14 07:36:21] INFO root fetch - processPackages [ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ML-Algo-1.2.7.tar.gz tmp/ML-Algo-1.2.8.tar.gz --markdown 20230714/M/ML-Algo/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-14 07:36:22] INFO root fetch - processPackages [neonelly.core]: Remove: archive file [/home/abi/fetcher/tmp/neonelly.core-0.0.4.tar.gz]
+[2023-07-14 07:36:22] INFO root fetch - processPackages [neonelly.core]: Remove: archive file [/home/abi/fetcher/tmp/neonelly.core-0.0.5.tar.gz]
+[2023-07-14 07:36:22] INFO root fetch - main [MainThread]: End processing [neonelly.core]: success
+[2023-07-14 07:36:22] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-14 07:36:22] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-14 07:36:22] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-14 07:36:22] INFO root fetch - main [MainThread]: End processing [neonelly.core]: success
+[2023-07-14 07:36:22] INFO root fetch - processPackages [ToyMaker]: Remove: archive file [/home/abi/fetcher/tmp/ToyMaker-0.2.4.tar.gz]
+[2023-07-14 07:36:22] INFO root fetch - processPackages [ToyMaker]: Remove: archive file [/home/abi/fetcher/tmp/ToyMaker-0.2.5.tar.gz]
+[2023-07-14 07:36:22] INFO root fetch - main [MainThread]: End processing [ToyMaker]: success
+[2023-07-14 07:36:22] ERROR root fetch - processPackages [neonelly.core]: Diffoscope failed: time="2023-07-14T07:36:21+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
+
+[2023-07-14 07:36:22] INFO root fetch - main [MainThread]: End processing [neonelly.core] error
+[2023-07-14 07:36:22] INFO root fetch - processPackages [ogsapi]: Remove: archive file [/home/abi/fetcher/tmp/ogsapi-0.7.2.tar.gz]
+[2023-07-14 07:36:22] INFO root fetch - processPackages [ogsapi]: Remove: archive file [/home/abi/fetcher/tmp/ogsapi-0.7.3.tar.gz]
+[2023-07-14 07:36:22] INFO root fetch - main [MainThread]: End processing [ogsapi]: success
+[2023-07-14 07:36:22] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML-Algo-1.2.7.tar.gz]
+[2023-07-14 07:36:22] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML-Algo-1.2.8.tar.gz]
+[2023-07-14 07:36:22] INFO root fetch - main [MainThread]: End processing [ML-Algo]: success
+[2023-07-14 07:36:22] INFO root fetch - main [MainThread]: Store serial: [18885757]
