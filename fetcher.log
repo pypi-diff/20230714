@@ -21463,3 +21463,137 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-14 14:30:35] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-14 14:30:35] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-14 14:30:35] INFO root fetch - main [MainThread]: Store serial: [18889360]
+[2023-07-14 14:35:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18889360]
+[2023-07-14 14:35:44] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-14 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maraboupy
+[2023-07-14 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garpixcms
+[2023-07-14 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: supSMSGecko
+[2023-07-14 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DynamicForms
+[2023-07-14 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-pdr
+[2023-07-14 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkgUdit
+[2023-07-14 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: magik
+[2023-07-14 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TDCRPy
+[2023-07-14 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: killskids-auth
+[2023-07-14 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localstack-core
+[2023-07-14 14:35:44] INFO root fetch - processPackages [supSMSGecko]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-14 14:35:44] WARNING root fetch - processPackages [pkgUdit]: Skipping, unable to determine old version
+[2023-07-14 14:35:44] INFO root fetch - processPackages [pkgUdit]: Start processing: pylabolt
+[2023-07-14 14:35:44] INFO root fetch - main [MainThread]: End processing [pkgUdit] error
+[2023-07-14 14:35:44] INFO root fetch - processPackages [garpixcms]: New version: [4.5.0rc3] Old Version: [4.5.0rc2]
+[2023-07-14 14:35:44] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-14 14:35:44] INFO root fetch - processPackages [killskids-auth]: New version: [2.0.0] Old Version: [1.0.5]
+[2023-07-14 14:35:44] WARNING root fetch - processPackages [maraboupy]: Skipping, unable to determine old version
+[2023-07-14 14:35:44] INFO root fetch - processPackages [maraboupy]: Start processing: awblib
+[2023-07-14 14:35:44] INFO root fetch - main [MainThread]: End processing [maraboupy] error
+[2023-07-14 14:35:44] INFO root fetch - processPackages [magik]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-14 14:35:44] INFO root fetch - processPackages [django-pdr]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-14 14:35:44] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-14 14:35:44] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230714123349] Old Version: [2.1.1.dev20230714112410]
+[2023-07-14 14:35:44] INFO root fetch - processPackages [pylabolt]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-14 14:35:44] WARNING root fetch - processPackages [awblib]: Skipping, unable to determine old version
+[2023-07-14 14:35:44] INFO root fetch - processPackages [awblib]: Start processing: p3do
+[2023-07-14 14:35:44] INFO root fetch - main [MainThread]: End processing [awblib] error
+[2023-07-14 14:35:44] INFO root fetch - processPackages [supSMSGecko]: Downloading https://files.pythonhosted.org/packages/94/79/75c0c188effa1a53249decafddff308c551df0dfeed5d5fe0f07f742e84f/supSMSGecko-0.1.0a1.tar.gz
+[2023-07-14 14:35:44] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/4c/7b/8cd3886828151a1906ac1dd1b64f4721bce4ec1e7452b90ffd3326cb4e55/TDCRPy-0.0.2.tar.gz
+[2023-07-14 14:35:44] INFO root fetch - processPackages [p3do]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-14 14:35:44] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/81/24/cd50b462f351541afaa9538a80f39a1056194853c438876c50290bd37789/django-pdr-1.2.8.tar.gz
+[2023-07-14 14:35:44] INFO root fetch - processPackages [pylabolt]: Downloading https://files.pythonhosted.org/packages/06/d9/fb3621c45dc1cd2aad651694c765b0781b696237b0d170c54a0c0da45503/pylabolt-0.1.1.tar.gz
+[2023-07-14 14:35:44] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/10/0e/180fb47cb7ba189be661bec6e42929fdfbd2024fb9dc1d5fc9e1929bf5e8/localstack-core-2.1.1.dev20230714112410.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [killskids-auth]: Downloading https://files.pythonhosted.org/packages/10/91/c6ed0886922d0c6a71688bfd6568514ccf70789968a27bce8a4175b9e10f/killskids-auth-1.0.5.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/48/60/8d20b9f7df895423cd99cf9873662c30279ace59758ca4d3551397709ebd/magik-0.1.1.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [garpixcms]: Downloading https://files.pythonhosted.org/packages/92/b4/c9e57eb777e7638efbee5615f86ff1051e8d99bedb3edabfead236a06759/garpixcms-4.5.0rc2.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [p3do]: Downloading https://files.pythonhosted.org/packages/50/eb/8f764fb6a2224b88bdf0f1df9a84329069c76c2b3a4cc31b5ca460953bbd/p3do-0.7.1.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/36/f9/326659fda9e7bf3ba840f0c789944e72a150630f7ca4afc665ef7eb28050/django-pdr-1.2.9.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/2d/92/8986a4d51625789d54a9e2619c6a7bb20ce99b6b72d7d992d7d60452b1cd/TDCRPy-0.0.3.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [pylabolt]: Downloading https://files.pythonhosted.org/packages/d4/94/fc897f2026f39b93818d6fcc081135129aaf1398dabfb324ced7eb14b108/pylabolt-0.2.0.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/c7/d6/8a7686ac07d9a8998e9e66d8812b86837a803682bad56581d2fc07a99803/magik-0.1.2.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [killskids-auth]: Downloading https://files.pythonhosted.org/packages/2e/12/4c981bd2d76546dc11f62c5eec9e2ebd7f283ef09312acadfea656fe38da/killskids-auth-2.0.0.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [supSMSGecko]: Downloading https://files.pythonhosted.org/packages/7c/c8/06582baa6836c61481bd29113d28dc63e70001049fec71b85ba7c8d59f58/supSMSGecko-0.1.0a2.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/69/82/4a5514fbaad8af1e6b8526633a1addf3d6f0a858d1019b6174dbbc891756/localstack-core-2.1.1.dev20230714123349.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [django-pdr]: executing diffoscope
+[2023-07-14 14:35:45] INFO root fetch - processPackages [django-pdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pdr-1.2.8.tar.gz tmp/django-pdr-1.2.9.tar.gz --markdown 20230714/d/django-pdr/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-14 14:35:45] INFO root fetch - processPackages [garpixcms]: Downloading https://files.pythonhosted.org/packages/26/15/92ab532e08fd1e9d2f512044d31e04c6fa406d8390358ff6b82ce0fe4cf6/garpixcms-4.5.0rc3.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [p3do]: Downloading https://files.pythonhosted.org/packages/3f/cb/e155e7e4f3030ff59787a55cbea0aa3b420a79f652fc1946c502f0469f1c/p3do-0.7.2.tar.gz
+[2023-07-14 14:35:45] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-14 14:35:45] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.2.tar.gz tmp/TDCRPy-0.0.3.tar.gz --markdown 20230714/T/TDCRPy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-14 14:35:45] INFO root fetch - processPackages [magik]: executing diffoscope
+[2023-07-14 14:35:45] INFO root fetch - processPackages [magik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magik-0.1.1.tar.gz tmp/magik-0.1.2.tar.gz --markdown 20230714/m/magik/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-14 14:35:45] INFO root fetch - processPackages [pylabolt]: executing diffoscope
+[2023-07-14 14:35:45] INFO root fetch - processPackages [pylabolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylabolt-0.1.1.tar.gz tmp/pylabolt-0.2.0.tar.gz --markdown 20230714/p/pylabolt/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-14 14:35:45] INFO root fetch - processPackages [killskids-auth]: executing diffoscope
+[2023-07-14 14:35:45] INFO root fetch - processPackages [killskids-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/killskids-auth-1.0.5.tar.gz tmp/killskids-auth-2.0.0.tar.gz --markdown 20230714/k/killskids-auth/1.0.5-2.0.0/diff.md --exclude *.pyd
+[2023-07-14 14:35:45] INFO root fetch - processPackages [garpixcms]: executing diffoscope
+[2023-07-14 14:35:45] INFO root fetch - processPackages [garpixcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpixcms-4.5.0rc2.tar.gz tmp/garpixcms-4.5.0rc3.tar.gz --markdown 20230714/g/garpixcms/4.5.0rc2-4.5.0rc3/diff.md --exclude *.pyd
+[2023-07-14 14:35:45] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-14 14:35:45] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230714112410.tar.gz tmp/localstack-core-2.1.1.dev20230714123349.tar.gz --markdown 20230714/l/localstack-core/2.1.1.dev20230714112410-2.1.1.dev20230714123349/diff.md --exclude *.pyd
+[2023-07-14 14:35:45] INFO root fetch - processPackages [p3do]: executing diffoscope
+[2023-07-14 14:35:45] INFO root fetch - processPackages [p3do]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p3do-0.7.1.tar.gz tmp/p3do-0.7.2.tar.gz --markdown 20230714/p/p3do/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-14 14:35:46] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2023-07-14 14:35:46] INFO root fetch - processPackages [supSMSGecko]: executing diffoscope
+[2023-07-14 14:35:46] INFO root fetch - processPackages [supSMSGecko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supSMSGecko-0.1.0a1.tar.gz tmp/supSMSGecko-0.1.0a2.tar.gz --markdown 20230714/s/supSMSGecko/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-14 14:35:46] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2023-07-14 14:35:46] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20230714/D/DynamicForms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-14 14:35:47] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.2.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.3.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [TDCRPy]: Start processing: mixprops
+[2023-07-14 14:35:47] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-14 14:35:47] INFO root fetch - processPackages [mixprops]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.8.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.9.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [django-pdr]: Start processing: aim-ui
+[2023-07-14 14:35:47] INFO root fetch - main [MainThread]: End processing [django-pdr]: success
+[2023-07-14 14:35:47] INFO root fetch - processPackages [mixprops]: Downloading https://files.pythonhosted.org/packages/17/e3/69e57afa4f5df7861f5f01efe1cec7541358378230b62e98882907c4e4ab/mixprops-0.3.0.tar.gz
+[2023-07-14 14:35:47] INFO root fetch - processPackages [killskids-auth]: Remove: archive file [/home/abi/fetcher/tmp/killskids-auth-1.0.5.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [killskids-auth]: Remove: archive file [/home/abi/fetcher/tmp/killskids-auth-2.0.0.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0a9] Old Version: [4.0.0a8]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [killskids-auth]: Start processing: asn1PERser
+[2023-07-14 14:35:47] INFO root fetch - main [MainThread]: End processing [killskids-auth]: success
+[2023-07-14 14:35:47] INFO root fetch - processPackages [p3do]: Remove: archive file [/home/abi/fetcher/tmp/p3do-0.7.1.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [p3do]: Remove: archive file [/home/abi/fetcher/tmp/p3do-0.7.2.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [p3do]: Start processing: hydrusvideodeduplicator
+[2023-07-14 14:35:47] INFO root fetch - main [MainThread]: End processing [p3do]: success
+[2023-07-14 14:35:47] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/1b/27/ec8ff042712fc8f1ee017399fe7207ef06baaecaee7d6b1738df5c3467c0/aim-ui-4.0.0a8.tar.gz
+[2023-07-14 14:35:47] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.1.1.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.1.2.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - main [MainThread]: End processing [magik]: success
+[2023-07-14 14:35:47] INFO root fetch - processPackages [asn1PERser]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-14 14:35:47] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 19414824>=10485760
+[2023-07-14 14:35:47] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-07-14 14:35:47] INFO root fetch - processPackages [pylabolt]: Remove: archive file [/home/abi/fetcher/tmp/pylabolt-0.1.1.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [pylabolt]: Remove: archive file [/home/abi/fetcher/tmp/pylabolt-0.2.0.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - main [MainThread]: End processing [pylabolt]: success
+[2023-07-14 14:35:47] INFO root fetch - processPackages [mixprops]: Downloading https://files.pythonhosted.org/packages/a5/ad/830db03f7844d2ca0db6b3964e8f93396a41cb14506c73f75109dc8dd018/mixprops-0.4.0.tar.gz
+[2023-07-14 14:35:47] INFO root fetch - processPackages [garpixcms]: Remove: archive file [/home/abi/fetcher/tmp/garpixcms-4.5.0rc2.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - processPackages [garpixcms]: Remove: archive file [/home/abi/fetcher/tmp/garpixcms-4.5.0rc3.tar.gz]
+[2023-07-14 14:35:47] INFO root fetch - main [MainThread]: End processing [garpixcms]: success
+[2023-07-14 14:35:47] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/2c/da/c7cf3942771b104fd99840d4ac31943e1b8cdbd0785c5315a241c2f5f3b7/hydrusvideodeduplicator-0.2.3.tar.gz
+[2023-07-14 14:35:47] INFO root fetch - processPackages [asn1PERser]: Downloading https://files.pythonhosted.org/packages/15/cf/221edb89fe4adf212f9c7944069dc303b0c67f2abc11214ec54c210ccf94/asn1PERser-0.4.2.tar.gz
+[2023-07-14 14:35:47] INFO root fetch - processPackages [mixprops]: executing diffoscope
+[2023-07-14 14:35:47] INFO root fetch - processPackages [mixprops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixprops-0.3.0.tar.gz tmp/mixprops-0.4.0.tar.gz --markdown 20230714/m/mixprops/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-14 14:35:48] INFO root fetch - processPackages [asn1PERser]: Downloading https://files.pythonhosted.org/packages/30/17/a0760623e02c5e90def5f864d860b132d368eb92acb597c07494eb69c8b2/asn1PERser-0.4.3.tar.gz
+[2023-07-14 14:35:48] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/ae/27/d7376a5681086a40eb2f32c69146d76b359479fa01f62c2c9701f9c7eb7b/hydrusvideodeduplicator-0.2.4.tar.gz
+[2023-07-14 14:35:48] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-07-14 14:35:48] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.2.3.tar.gz tmp/hydrusvideodeduplicator-0.2.4.tar.gz --markdown 20230714/h/hydrusvideodeduplicator/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-14 14:35:48] INFO root fetch - processPackages [asn1PERser]: executing diffoscope
+[2023-07-14 14:35:48] INFO root fetch - processPackages [asn1PERser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asn1PERser-0.4.2.tar.gz tmp/asn1PERser-0.4.3.tar.gz --markdown 20230714/a/asn1PERser/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-14 14:35:48] INFO root fetch - processPackages [supSMSGecko]: Remove: archive file [/home/abi/fetcher/tmp/supSMSGecko-0.1.0a1.tar.gz]
+[2023-07-14 14:35:48] INFO root fetch - processPackages [supSMSGecko]: Remove: archive file [/home/abi/fetcher/tmp/supSMSGecko-0.1.0a2.tar.gz]
+[2023-07-14 14:35:48] INFO root fetch - main [MainThread]: End processing [supSMSGecko]: success
+[2023-07-14 14:35:48] INFO root fetch - processPackages [mixprops]: Remove: archive file [/home/abi/fetcher/tmp/mixprops-0.3.0.tar.gz]
+[2023-07-14 14:35:48] INFO root fetch - processPackages [mixprops]: Remove: archive file [/home/abi/fetcher/tmp/mixprops-0.4.0.tar.gz]
+[2023-07-14 14:35:48] INFO root fetch - main [MainThread]: End processing [mixprops]: success
+[2023-07-14 14:35:49] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.2.3.tar.gz]
+[2023-07-14 14:35:49] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.2.4.tar.gz]
+[2023-07-14 14:35:49] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-07-14 14:35:49] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2023-07-14 14:35:49] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2023-07-14 14:35:49] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2023-07-14 14:35:49] INFO root fetch - processPackages [asn1PERser]: Remove: archive file [/home/abi/fetcher/tmp/asn1PERser-0.4.2.tar.gz]
+[2023-07-14 14:35:49] INFO root fetch - processPackages [asn1PERser]: Remove: archive file [/home/abi/fetcher/tmp/asn1PERser-0.4.3.tar.gz]
+[2023-07-14 14:35:49] INFO root fetch - main [MainThread]: End processing [asn1PERser]: success
+[2023-07-14 14:35:50] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230714112410.tar.gz]
+[2023-07-14 14:35:50] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230714123349.tar.gz]
+[2023-07-14 14:35:50] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-14 14:35:50] INFO root fetch - main [MainThread]: Store serial: [18889438]
