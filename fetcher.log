@@ -9823,3 +9823,88 @@
 [2023-07-14 04:32:15] INFO root fetch - processPackages [alibabacloud-devops20210625]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625-3.0.2.tar.gz]
 [2023-07-14 04:32:15] INFO root fetch - main [MainThread]: End processing [alibabacloud-devops20210625]: success
 [2023-07-14 04:32:15] INFO root fetch - main [MainThread]: Store serial: [18884694]
+[2023-07-14 04:37:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18884694]
+[2023-07-14 04:37:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-14 04:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyquery-xpath
+[2023-07-14 04:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flavius-api
+[2023-07-14 04:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-stock-analytic
+[2023-07-14 04:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kirkwoodnight
+[2023-07-14 04:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blacklight
+[2023-07-14 04:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyutils-hyutil-hoyun-lab
+[2023-07-14 04:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m23
+[2023-07-14 04:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scrab-img-from-ligthshot
+[2023-07-14 04:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tva-utils
+[2023-07-14 04:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kirkwoodnight
+[2023-07-14 04:37:27] WARNING root fetch - processPackages [scrab-img-from-ligthshot]: Skipping, unable to determine old version
+[2023-07-14 04:37:27] INFO root fetch - main [MainThread]: End processing [scrab-img-from-ligthshot] error
+[2023-07-14 04:37:27] INFO root fetch - processPackages [blacklight]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-14 04:37:27] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-14 04:37:27] INFO root fetch - processPackages [tva-utils]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-14 04:37:27] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: New version: [0.0.6.6] Old Version: [0.0.6.5]
+[2023-07-14 04:37:27] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 04:37:27] INFO root fetch - processPackages [pyquery-xpath]: New version: [0.4] Old Version: [0.3]
+[2023-07-14 04:37:27] INFO root fetch - processPackages [kirkwoodnight]: New version: [0.9] Old Version: [0.8]
+[2023-07-14 04:37:27] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-14 04:37:27] INFO root fetch - processPackages [flavius-api]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-14 04:37:27] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Downloading https://files.pythonhosted.org/packages/c6/8c/6aaef0f918a19a81e8778ef6c757a2da5e8ff36ec81209c3026a5189936e/odoo_addon_purchase_stock_analytic-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-14 04:37:27] INFO root fetch - processPackages [tva-utils]: Downloading https://files.pythonhosted.org/packages/0b/7f/015e812d8aa5f04687e387c460a22634eef1a1e17cf4b904785256e187d4/tva_utils-0.1.7.tar.gz
+[2023-07-14 04:37:27] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 04:37:27] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/4a/cb/0933d24e41275b672f193d2903cf8bf47f4161c7a6575b8a40bd929b95f4/kirkwoodnight-0.8.tar.gz
+[2023-07-14 04:37:27] INFO root fetch - processPackages [pyquery-xpath]: Downloading https://files.pythonhosted.org/packages/c3/d7/32255e3e0e2df586363722385cc3c94aed708d6b000149a5291e111e6711/pyquery_xpath-0.3.tar.gz
+[2023-07-14 04:37:27] INFO root fetch - processPackages [flavius-api]: Downloading https://files.pythonhosted.org/packages/6f/4e/95dd01683536c29c831435aa6c7b8a1068c93815278f7805ee2355475bb4/flavius-api-1.9.3.tar.gz
+[2023-07-14 04:37:27] INFO root fetch - processPackages [blacklight]: Downloading https://files.pythonhosted.org/packages/89/e6/d398f51f42fcc048c60f33a309dbc152215bbcac08d37d996d8544b69dd6/blacklight-0.1.8.tar.gz
+[2023-07-14 04:37:27] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/75/7a/a1dd23c3b7fa2d51e180f976638e39a62c03b6d9ff286464f67b73a78b6a/hyutils-hyutil-hoyun-lab-0.0.6.5.tar.gz
+[2023-07-14 04:37:27] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-07-14 04:37:27] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 04:37:27] INFO root fetch - processPackages [kirkwoodnight]: Downloading https://files.pythonhosted.org/packages/fd/3d/35fd8910d194077812106943bc1bc53542eb2b97ae4f68449a446bc15056/kirkwoodnight-0.9.tar.gz
+[2023-07-14 04:37:27] INFO root fetch - processPackages [flavius-api]: Downloading https://files.pythonhosted.org/packages/a7/4e/86a58a754af885057f27412b1a2ddc99272feb69364da3a57865fa7e38e5/flavius-api-1.9.4.tar.gz
+[2023-07-14 04:37:28] INFO root fetch - processPackages [tva-utils]: Downloading https://files.pythonhosted.org/packages/90/5c/507b396117f699eadcc3ed5dc0bbb6730d680f40b8abeb1eb3ece4951174/tva_utils-0.1.8.tar.gz
+[2023-07-14 04:37:28] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Downloading https://files.pythonhosted.org/packages/84/32/40d18a153b8920cb73a8c1f59c2c7521a0cfa89b33fdb018e55eb776ff56/odoo_addon_purchase_stock_analytic-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-14 04:37:28] INFO root fetch - processPackages [pyquery-xpath]: Downloading https://files.pythonhosted.org/packages/3a/96/2f0b374d08d52d4faa4a7112235fff85cd24e27b8107e94842117466d193/pyquery_xpath-0.4.tar.gz
+[2023-07-14 04:37:28] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 04:37:28] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 04:37:28] INFO root fetch - processPackages [kirkwoodnight]: executing diffoscope
+[2023-07-14 04:37:28] INFO root fetch - processPackages [kirkwoodnight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirkwoodnight-0.8.tar.gz tmp/kirkwoodnight-0.9.tar.gz --markdown 20230714/k/kirkwoodnight/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-14 04:37:28] INFO root fetch - processPackages [blacklight]: Downloading https://files.pythonhosted.org/packages/cc/a8/f6a40eb15c5a2eeedb27e515d18664a59f4f953ecf476ded23abf8f10eff/blacklight-0.1.9.tar.gz
+[2023-07-14 04:37:28] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/e8/dc/b789ec39200278df7adc44e55225ff055192e8f08064bea1328fcfa6b510/hyutils-hyutil-hoyun-lab-0.0.6.6.tar.gz
+[2023-07-14 04:37:28] INFO root fetch - processPackages [flavius-api]: executing diffoscope
+[2023-07-14 04:37:28] INFO root fetch - processPackages [flavius-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flavius-api-1.9.3.tar.gz tmp/flavius-api-1.9.4.tar.gz --markdown 20230714/f/flavius-api/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-14 04:37:28] INFO root fetch - processPackages [tva-utils]: executing diffoscope
+[2023-07-14 04:37:28] INFO root fetch - processPackages [tva-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tva_utils-0.1.7.tar.gz tmp/tva_utils-0.1.8.tar.gz --markdown 20230714/t/tva-utils/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-14 04:37:28] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: executing diffoscope
+[2023-07-14 04:37:28] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_stock_analytic-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_stock_analytic-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230714/o/odoo-addon-purchase-stock-analytic/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-14 04:37:28] INFO root fetch - processPackages [pyquery-xpath]: executing diffoscope
+[2023-07-14 04:37:28] INFO root fetch - processPackages [pyquery-xpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquery_xpath-0.3.tar.gz tmp/pyquery_xpath-0.4.tar.gz --markdown 20230714/p/pyquery-xpath/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-14 04:37:28] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: executing diffoscope
+[2023-07-14 04:37:28] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyutils-hyutil-hoyun-lab-0.0.6.5.tar.gz tmp/hyutils-hyutil-hoyun-lab-0.0.6.6.tar.gz --markdown 20230714/h/hyutils-hyutil-hoyun-lab/0.0.6.5-0.0.6.6/diff.md --exclude *.pyd
+[2023-07-14 04:37:28] INFO root fetch - processPackages [blacklight]: executing diffoscope
+[2023-07-14 04:37:28] INFO root fetch - processPackages [blacklight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacklight-0.1.8.tar.gz tmp/blacklight-0.1.9.tar.gz --markdown 20230714/b/blacklight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-14 04:37:28] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-07-14 04:37:28] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-07-14 04:37:28] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230714/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-14 04:37:29] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.8.tar.gz]
+[2023-07-14 04:37:29] INFO root fetch - processPackages [kirkwoodnight]: Remove: archive file [/home/abi/fetcher/tmp/kirkwoodnight-0.9.tar.gz]
+[2023-07-14 04:37:29] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 04:37:29] INFO root fetch - processPackages [flavius-api]: Remove: archive file [/home/abi/fetcher/tmp/flavius-api-1.9.3.tar.gz]
+[2023-07-14 04:37:29] INFO root fetch - processPackages [flavius-api]: Remove: archive file [/home/abi/fetcher/tmp/flavius-api-1.9.4.tar.gz]
+[2023-07-14 04:37:29] INFO root fetch - main [MainThread]: End processing [flavius-api]: success
+[2023-07-14 04:37:29] INFO root fetch - processPackages [tva-utils]: Remove: archive file [/home/abi/fetcher/tmp/tva_utils-0.1.7.tar.gz]
+[2023-07-14 04:37:29] INFO root fetch - processPackages [tva-utils]: Remove: archive file [/home/abi/fetcher/tmp/tva_utils-0.1.8.tar.gz]
+[2023-07-14 04:37:29] INFO root fetch - main [MainThread]: End processing [tva-utils]: success
+[2023-07-14 04:37:29] INFO root fetch - main [MainThread]: End processing [kirkwoodnight]: success
+[2023-07-14 04:37:29] INFO root fetch - processPackages [pyquery-xpath]: Remove: archive file [/home/abi/fetcher/tmp/pyquery_xpath-0.3.tar.gz]
+[2023-07-14 04:37:29] INFO root fetch - processPackages [pyquery-xpath]: Remove: archive file [/home/abi/fetcher/tmp/pyquery_xpath-0.4.tar.gz]
+[2023-07-14 04:37:29] INFO root fetch - main [MainThread]: End processing [pyquery-xpath]: success
+[2023-07-14 04:37:29] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_analytic-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-14 04:37:29] INFO root fetch - processPackages [odoo-addon-purchase-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_analytic-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-14 04:37:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-stock-analytic]: success
+[2023-07-14 04:37:29] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.6.5.tar.gz]
+[2023-07-14 04:37:29] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.6.6.tar.gz]
+[2023-07-14 04:37:29] INFO root fetch - main [MainThread]: End processing [hyutils-hyutil-hoyun-lab]: success
+[2023-07-14 04:37:29] INFO root fetch - processPackages [blacklight]: Remove: archive file [/home/abi/fetcher/tmp/blacklight-0.1.8.tar.gz]
+[2023-07-14 04:37:29] INFO root fetch - processPackages [blacklight]: Remove: archive file [/home/abi/fetcher/tmp/blacklight-0.1.9.tar.gz]
+[2023-07-14 04:37:29] INFO root fetch - main [MainThread]: End processing [blacklight]: success
+[2023-07-14 04:37:30] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-07-14 04:37:30] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-07-14 04:37:30] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-07-14 04:37:30] INFO root fetch - main [MainThread]: Store serial: [18884725]
