@@ -18459,3 +18459,132 @@ AssertionError: tmp/neonelly.core-0.0.4.tar.gz does not exist
 [2023-07-14 12:07:49] INFO root fetch - processPackages [plone.app.discussion]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.discussion-4.0.2.tar.gz]
 [2023-07-14 12:07:49] INFO root fetch - main [MainThread]: End processing [plone.app.discussion]: success
 [2023-07-14 12:07:49] INFO root fetch - main [MainThread]: Store serial: [18888118]
+[2023-07-14 12:12:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18888118]
+[2023-07-14 12:12:59] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-14 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: planbee
+[2023-07-14 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plone.volto
+[2023-07-14 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-negar
+[2023-07-14 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blockmangoaccount
+[2023-07-14 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydis-core
+[2023-07-14 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plone.api
+[2023-07-14 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opensesame-core
+[2023-07-14 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cerbos
+[2023-07-14 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phanos
+[2023-07-14 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hak
+[2023-07-14 12:12:59] INFO root fetch - processPackages [python-negar]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-14 12:12:59] INFO root fetch - processPackages [planbee]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-14 12:12:59] INFO root fetch - processPackages [pydis-core]: New version: [9.9.2] Old Version: [9.9.1]
+[2023-07-14 12:12:59] WARNING root fetch - processPackages [blockmangoaccount]: Skipping, unable to determine old version
+[2023-07-14 12:12:59] INFO root fetch - processPackages [blockmangoaccount]: Start processing: plone.app.multilingual
+[2023-07-14 12:12:59] INFO root fetch - main [MainThread]: End processing [blockmangoaccount] error
+[2023-07-14 12:12:59] INFO root fetch - processPackages [phanos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 12:12:59] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-14 12:12:59] INFO root fetch - processPackages [cerbos]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-14 12:12:59] INFO root fetch - processPackages [plone.api]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-14 12:12:59] INFO root fetch - processPackages [plone.volto]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-14 12:12:59] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 12:12:59] INFO root fetch - processPackages [plone.app.multilingual]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-07-14 12:12:59] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/82/61/ea2e2161b155f556cdbe8e64085cc5055e1702ac6f09d6e212e4f3070a15/phanos-0.0.8.tar.gz
+[2023-07-14 12:12:59] INFO root fetch - processPackages [planbee]: Downloading https://files.pythonhosted.org/packages/f7/ad/3bf778c80e432897d01c5506fab3fcf127c779b4bbe3e69169cebfe0d78d/planbee-0.1.4.tar.gz
+[2023-07-14 12:12:59] INFO root fetch - processPackages [pydis-core]: Downloading https://files.pythonhosted.org/packages/e0/56/d1758074f0c10712e4ab309c1b0ebc09d0c54bb0844a79092c7989f02881/pydis_core-9.9.1.tar.gz
+[2023-07-14 12:12:59] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/a9/e6/25c7216670754f3a7b7cad46d147568d3ea71535d2946b6a2bf71f322fef/opensesame_core-4.0.1.tar.gz
+[2023-07-14 12:12:59] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-14 12:12:59] INFO root fetch - processPackages [python-negar]: Downloading https://files.pythonhosted.org/packages/c8/c6/0c22cb01eb7b18c6de98b21a7c7cd566ecdf953b253f7a1e7d7ab44b56ae/python-negar-1.2.4.tar.gz
+[2023-07-14 12:12:59] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18923777>=10485760
+[2023-07-14 12:12:59] INFO root fetch - processPackages [opensesame-core]: Start processing: llamabot
+[2023-07-14 12:12:59] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-07-14 12:12:59] INFO root fetch - processPackages [cerbos]: Downloading https://files.pythonhosted.org/packages/20/ea/6c2d0b0e0f46a4a58aaef9c02b106234f6a4298a9ee04b926393e41c9104/cerbos-0.8.1.tar.gz
+[2023-07-14 12:12:59] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-14 12:12:59] INFO root fetch - processPackages [plone.volto]: Downloading https://files.pythonhosted.org/packages/da/1c/dfb31cbc42bb05e1e5eb5d62779c82ad7c2358e67e3f82d56abe9d2bbce7/plone.volto-4.0.8.tar.gz
+[2023-07-14 12:12:59] INFO root fetch - processPackages [plone.api]: Downloading https://files.pythonhosted.org/packages/a6/d9/956d5805131153c92644de17ec8d036c1ce58176377b42f7044b34dab3eb/plone.api-2.0.3.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [pydis-core]: Downloading https://files.pythonhosted.org/packages/96/ea/24086af09e4ddbaadef214cb3eec448b6fa50a23542bbe2b74922d9f0f38/pydis_core-9.9.2.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [planbee]: Downloading https://files.pythonhosted.org/packages/44/07/bf81a5138a8203229cbc35eac0ec6f07a1108ecbd1f7989bec89d82ce0ee/planbee-0.1.5.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/5c/53/a34777d46b68fa387b55d320360c6dc3f375b38ab05ee1584940b713fc9e/phanos-0.0.9.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [plone.app.multilingual]: Downloading https://files.pythonhosted.org/packages/37/4b/2878ad6efb3593237e84e66b7c3ebc9769757281678a4c8493e3cd2664c1/plone.app.multilingual-7.0.0.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [python-negar]: Downloading https://files.pythonhosted.org/packages/b6/44/107510aebcd72a01b9b8d4355bfe39b68424be350a42d94bc7022a41ff38/python-negar-1.2.5.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [pydis-core]: executing diffoscope
+[2023-07-14 12:13:00] INFO root fetch - processPackages [pydis-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydis_core-9.9.1.tar.gz tmp/pydis_core-9.9.2.tar.gz --markdown 20230714/p/pydis-core/9.9.1-9.9.2/diff.md --exclude *.pyd
+[2023-07-14 12:13:00] INFO root fetch - processPackages [cerbos]: Downloading https://files.pythonhosted.org/packages/f0/c6/616240d4c2725543dd19b1d692452706a109b0011754706df4d2fe598a43/cerbos-0.9.0.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [planbee]: executing diffoscope
+[2023-07-14 12:13:00] INFO root fetch - processPackages [planbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planbee-0.1.4.tar.gz tmp/planbee-0.1.5.tar.gz --markdown 20230714/p/planbee/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-14 12:13:00] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-14 12:13:00] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.8.tar.gz tmp/phanos-0.0.9.tar.gz --markdown 20230714/p/phanos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 12:13:00] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-14 12:13:00] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230714/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 12:13:00] INFO root fetch - processPackages [plone.api]: Downloading https://files.pythonhosted.org/packages/2d/ec/cc6a6b9398dc019e2edef4d8491092872c6ad171b1133e595a2736a4ced4/plone.api-2.0.4.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [plone.volto]: Downloading https://files.pythonhosted.org/packages/70/47/f5e8f8590bd101e8afe2b4d66cc0827309682be1b143b1ef72ff66b70f95/plone.volto-4.0.9.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [python-negar]: executing diffoscope
+[2023-07-14 12:13:00] INFO root fetch - processPackages [python-negar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-negar-1.2.4.tar.gz tmp/python-negar-1.2.5.tar.gz --markdown 20230714/p/python-negar/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-14 12:13:00] INFO root fetch - processPackages [cerbos]: executing diffoscope
+[2023-07-14 12:13:00] INFO root fetch - processPackages [cerbos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbos-0.8.1.tar.gz tmp/cerbos-0.9.0.tar.gz --markdown 20230714/c/cerbos/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-14 12:13:00] INFO root fetch - processPackages [plone.api]: executing diffoscope
+[2023-07-14 12:13:00] INFO root fetch - processPackages [plone.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.api-2.0.3.tar.gz tmp/plone.api-2.0.4.tar.gz --markdown 20230714/p/plone.api/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-14 12:13:00] INFO root fetch - processPackages [plone.volto]: executing diffoscope
+[2023-07-14 12:13:00] INFO root fetch - processPackages [plone.volto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.volto-4.0.8.tar.gz tmp/plone.volto-4.0.9.tar.gz --markdown 20230714/p/plone.volto/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-14 12:13:00] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [plone.app.multilingual]: Downloading https://files.pythonhosted.org/packages/c3/f2/22cc35c2ffd8d1c4eb05c9ed2fcd51971d83dc5da211de8ddb6b0f232c6e/plone.app.multilingual-7.0.1.tar.gz
+[2023-07-14 12:13:00] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-14 12:13:00] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230714/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-14 12:13:01] INFO root fetch - processPackages [plone.app.multilingual]: executing diffoscope
+[2023-07-14 12:13:01] INFO root fetch - processPackages [plone.app.multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.multilingual-7.0.0.tar.gz tmp/plone.app.multilingual-7.0.1.tar.gz --markdown 20230714/p/plone.app.multilingual/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-07-14 12:13:01] INFO root fetch - processPackages [pydis-core]: Remove: archive file [/home/abi/fetcher/tmp/pydis_core-9.9.1.tar.gz]
+[2023-07-14 12:13:01] INFO root fetch - processPackages [pydis-core]: Remove: archive file [/home/abi/fetcher/tmp/pydis_core-9.9.2.tar.gz]
+[2023-07-14 12:13:01] INFO root fetch - processPackages [pydis-core]: Start processing: resolwe-bio
+[2023-07-14 12:13:01] INFO root fetch - main [MainThread]: End processing [pydis-core]: success
+[2023-07-14 12:13:01] INFO root fetch - processPackages [planbee]: Remove: archive file [/home/abi/fetcher/tmp/planbee-0.1.4.tar.gz]
+[2023-07-14 12:13:01] INFO root fetch - processPackages [planbee]: Remove: archive file [/home/abi/fetcher/tmp/planbee-0.1.5.tar.gz]
+[2023-07-14 12:13:01] INFO root fetch - processPackages [planbee]: Start processing: pydantic-db-backend
+[2023-07-14 12:13:01] INFO root fetch - main [MainThread]: End processing [planbee]: success
+[2023-07-14 12:13:01] INFO root fetch - processPackages [resolwe-bio]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-07-14 12:13:01] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.8.tar.gz]
+[2023-07-14 12:13:01] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.9.tar.gz]
+[2023-07-14 12:13:01] INFO root fetch - processPackages [phanos]: Start processing: plone.app.multilingual
+[2023-07-14 12:13:01] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-14 12:13:01] INFO root fetch - processPackages [pydantic-db-backend]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-14 12:13:01] INFO root fetch - processPackages [plone.app.multilingual]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-07-14 12:13:02] INFO root fetch - processPackages [python-negar]: Remove: archive file [/home/abi/fetcher/tmp/python-negar-1.2.4.tar.gz]
+[2023-07-14 12:13:02] INFO root fetch - processPackages [python-negar]: Remove: archive file [/home/abi/fetcher/tmp/python-negar-1.2.5.tar.gz]
+[2023-07-14 12:13:02] INFO root fetch - processPackages [python-negar]: Start processing: motipy
+[2023-07-14 12:13:02] INFO root fetch - main [MainThread]: End processing [python-negar]: success
+[2023-07-14 12:13:02] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c2/bc/f6993bc75941b8f8244e41353c3ec4b4e616477c70876197f0e454cf674e/resolwe-bio-9.0.0a3.tar.gz
+[2023-07-14 12:13:02] INFO root fetch - processPackages [pydantic-db-backend]: Downloading https://files.pythonhosted.org/packages/ef/70/e783271d633be854aaa16cf6a64ec2d25e85bae7ff59eefa3a9ff85e5959/pydantic_db_backend-0.5.0.tar.gz
+[2023-07-14 12:13:02] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-14 12:13:02] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-14 12:13:02] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-14 12:13:02] ERROR root fetch - processPackages [motipy]: Unable to get metadata: No such project 'motipy'
+[2023-07-14 12:13:02] INFO root fetch - main [MainThread]: End processing [motipy] error
+[2023-07-14 12:13:02] INFO root fetch - processPackages [plone.app.multilingual]: Downloading https://files.pythonhosted.org/packages/13/f8/f27beffbfe0d3ecb686078267d647b635329e7cf06f8e9769dc765442850/plone.app.multilingual-7.0.2.tar.gz
+[2023-07-14 12:13:02] INFO root fetch - processPackages [cerbos]: Remove: archive file [/home/abi/fetcher/tmp/cerbos-0.8.1.tar.gz]
+[2023-07-14 12:13:02] INFO root fetch - processPackages [cerbos]: Remove: archive file [/home/abi/fetcher/tmp/cerbos-0.9.0.tar.gz]
+[2023-07-14 12:13:02] INFO root fetch - main [MainThread]: End processing [cerbos]: success
+[2023-07-14 12:13:02] INFO root fetch - processPackages [pydantic-db-backend]: Downloading https://files.pythonhosted.org/packages/47/06/ebcdc1d5124d80fb559fb8e4f69b076c6963b1edfe97fd92d88e7a307c45/pydantic_db_backend-0.6.0.tar.gz
+[2023-07-14 12:13:02] INFO root fetch - processPackages [plone.api]: Remove: archive file [/home/abi/fetcher/tmp/plone.api-2.0.3.tar.gz]
+[2023-07-14 12:13:02] INFO root fetch - processPackages [plone.api]: Remove: archive file [/home/abi/fetcher/tmp/plone.api-2.0.4.tar.gz]
+[2023-07-14 12:13:02] INFO root fetch - main [MainThread]: End processing [plone.api]: success
+[2023-07-14 12:13:02] INFO root fetch - processPackages [pydantic-db-backend]: executing diffoscope
+[2023-07-14 12:13:02] INFO root fetch - processPackages [pydantic-db-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_db_backend-0.5.0.tar.gz tmp/pydantic_db_backend-0.6.0.tar.gz --markdown 20230714/p/pydantic-db-backend/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-14 12:13:02] INFO root fetch - processPackages [plone.volto]: Remove: archive file [/home/abi/fetcher/tmp/plone.volto-4.0.8.tar.gz]
+[2023-07-14 12:13:02] INFO root fetch - processPackages [plone.volto]: Remove: archive file [/home/abi/fetcher/tmp/plone.volto-4.0.9.tar.gz]
+[2023-07-14 12:13:02] INFO root fetch - main [MainThread]: End processing [plone.volto]: success
+[2023-07-14 12:13:02] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-14 12:13:02] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-14 12:13:02] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-14 12:13:02] INFO root fetch - processPackages [plone.app.multilingual]: executing diffoscope
+[2023-07-14 12:13:02] INFO root fetch - processPackages [plone.app.multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.multilingual-7.0.1.tar.gz tmp/plone.app.multilingual-7.0.2.tar.gz --markdown 20230714/p/plone.app.multilingual/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-07-14 12:13:03] INFO root fetch - processPackages [pydantic-db-backend]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_db_backend-0.5.0.tar.gz]
+[2023-07-14 12:13:03] INFO root fetch - processPackages [pydantic-db-backend]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_db_backend-0.6.0.tar.gz]
+[2023-07-14 12:13:03] INFO root fetch - main [MainThread]: End processing [pydantic-db-backend]: success
+[2023-07-14 12:13:03] INFO root fetch - processPackages [plone.app.multilingual]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.multilingual-7.0.0.tar.gz]
+[2023-07-14 12:13:03] INFO root fetch - processPackages [plone.app.multilingual]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.multilingual-7.0.1.tar.gz]
+[2023-07-14 12:13:03] INFO root fetch - main [MainThread]: End processing [plone.app.multilingual]: success
+[2023-07-14 12:13:04] INFO root fetch - processPackages [plone.app.multilingual]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.multilingual-7.0.2.tar.gz]
+[2023-07-14 12:13:04] INFO root fetch - main [MainThread]: End processing [plone.app.multilingual]: success
+[2023-07-14 12:13:05] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c9/30/533d131f30f01305f0d25555f7e3eaa209d8400cd99b38de17dfec330f11/resolwe-bio-9.0.0a4.tar.gz
+[2023-07-14 12:13:08] INFO root fetch - processPackages [resolwe-bio]: executing diffoscope
+[2023-07-14 12:13:08] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20230714/r/resolwe-bio/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-07-14 12:13:13] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a3.tar.gz]
+[2023-07-14 12:13:13] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
+[2023-07-14 12:13:13] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
+[2023-07-14 12:13:13] INFO root fetch - main [MainThread]: Store serial: [18888163]
