@@ -11381,3 +11381,48 @@
 [2023-07-14 05:56:47] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-14 05:56:48] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-14 05:56:48] INFO root fetch - main [MainThread]: Store serial: [18885254]
+[2023-07-14 06:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18885254]
+[2023-07-14 06:01:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-14 06:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-l10n-it-withholding-tax
+[2023-07-14 06:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyLSHash
+[2023-07-14 06:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaar-gpt
+[2023-07-14 06:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evals-nightly
+[2023-07-14 06:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentware
+[2023-07-14 06:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diaossama-test3
+[2023-07-14 06:01:56] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: New version: [8.0.4.0.1.99.dev8] Old Version: [8.0.4.0.1.99.dev7]
+[2023-07-14 06:01:56] INFO root fetch - processPackages [pyLSHash]: New version: [0.2.3] Old Version: [0.1.1]
+[2023-07-14 06:01:56] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230712] Old Version: [1.0.3.dev20230711]
+[2023-07-14 06:01:56] INFO root fetch - processPackages [kaar-gpt]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-14 06:01:56] WARNING root fetch - processPackages [agentware]: Skipping, unable to determine old version
+[2023-07-14 06:01:56] INFO root fetch - main [MainThread]: End processing [agentware] error
+[2023-07-14 06:01:56] WARNING root fetch - processPackages [diaossama-test3]: Skipping, unable to determine old version
+[2023-07-14 06:01:56] INFO root fetch - main [MainThread]: End processing [diaossama-test3] error
+[2023-07-14 06:01:56] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/4c/e1/f5d0473baa458108731c451d27cb32f23dcc074459821d107c403f26e453/evals-nightly-1.0.3.dev20230711.tar.gz
+[2023-07-14 06:01:56] INFO root fetch - processPackages [pyLSHash]: Downloading https://files.pythonhosted.org/packages/8e/3e/50437dc80b83ead54a7ccc339918fce29a13d14645a7790bb022a0ff305c/pyLSHash-0.1.1.tar.gz
+[2023-07-14 06:01:57] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/29/b0/e0aec177687dd9d6f58aa8d4f16aa3aaa09cc25a516979a7c17c26b0cf33/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev7-py2-none-any.whl
+[2023-07-14 06:01:57] INFO root fetch - processPackages [kaar-gpt]: Downloading https://files.pythonhosted.org/packages/a4/35/c9f4c2eddc9cfea06d1aa5044aed8742b73019ab3a40b7d0762830d7023b/kaar_gpt-0.0.1.tar.gz
+[2023-07-14 06:01:57] INFO root fetch - processPackages [pyLSHash]: Downloading https://files.pythonhosted.org/packages/ab/7b/2e69ac95e03f2e89517cddddc724216f75d7a76c250c9c1a461162115721/pyLSHash-0.2.3.tar.gz
+[2023-07-14 06:01:57] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/16/36/b1a11556bfb459ae064fdff403bf1d0c3a4cdf61c19dad05c947413a57c2/evals-nightly-1.0.3.dev20230712.tar.gz
+[2023-07-14 06:01:57] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/c6/b6/60a9691950f78ea2d3ce443cdd426bf978807e7b50402edbf575bc2c6bf7/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev8-py2-none-any.whl
+[2023-07-14 06:01:57] INFO root fetch - processPackages [kaar-gpt]: Downloading https://files.pythonhosted.org/packages/01/fb/7eccd424c5a5d480a5d224df6e9128df00d9a1c948add4502c2dc0df1fcb/kaar_gpt-0.1.0.tar.gz
+[2023-07-14 06:01:57] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-14 06:01:57] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230711.tar.gz tmp/evals-nightly-1.0.3.dev20230712.tar.gz --markdown 20230714/e/evals-nightly/1.0.3.dev20230711-1.0.3.dev20230712/diff.md --exclude *.pyd
+[2023-07-14 06:01:57] INFO root fetch - processPackages [pyLSHash]: executing diffoscope
+[2023-07-14 06:01:57] INFO root fetch - processPackages [pyLSHash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyLSHash-0.1.1.tar.gz tmp/pyLSHash-0.2.3.tar.gz --markdown 20230714/p/pyLSHash/0.1.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-14 06:01:57] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-07-14 06:01:57] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev8-py2-none-any.whl.zip --markdown 20230714/o/odoo8-addon-l10n-it-withholding-tax/8.0.4.0.1.99.dev7-8.0.4.0.1.99.dev8/diff.md --exclude *.pyd
+[2023-07-14 06:01:57] INFO root fetch - processPackages [kaar-gpt]: executing diffoscope
+[2023-07-14 06:01:57] INFO root fetch - processPackages [kaar-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230714:/home/abi/fetcher/20230714:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaar_gpt-0.0.1.tar.gz tmp/kaar_gpt-0.1.0.tar.gz --markdown 20230714/k/kaar-gpt/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-14 06:01:58] INFO root fetch - processPackages [kaar-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kaar_gpt-0.0.1.tar.gz]
+[2023-07-14 06:01:58] INFO root fetch - processPackages [kaar-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kaar_gpt-0.1.0.tar.gz]
+[2023-07-14 06:01:58] INFO root fetch - main [MainThread]: End processing [kaar-gpt]: success
+[2023-07-14 06:01:58] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev7-py2-none-any.whl.zip]
+[2023-07-14 06:01:58] INFO root fetch - processPackages [odoo8-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_it_withholding_tax-8.0.4.0.1.99.dev8-py2-none-any.whl.zip]
+[2023-07-14 06:01:58] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-it-withholding-tax]: success
+[2023-07-14 06:01:58] INFO root fetch - processPackages [pyLSHash]: Remove: archive file [/home/abi/fetcher/tmp/pyLSHash-0.1.1.tar.gz]
+[2023-07-14 06:01:58] INFO root fetch - processPackages [pyLSHash]: Remove: archive file [/home/abi/fetcher/tmp/pyLSHash-0.2.3.tar.gz]
+[2023-07-14 06:01:58] INFO root fetch - main [MainThread]: End processing [pyLSHash]: success
+[2023-07-14 06:01:59] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230711.tar.gz]
+[2023-07-14 06:01:59] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230712.tar.gz]
+[2023-07-14 06:01:59] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-14 06:01:59] INFO root fetch - main [MainThread]: Store serial: [18885279]
